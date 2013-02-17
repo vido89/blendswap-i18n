@@ -1,11 +1,11 @@
 # LANGUAGE translation of CakePHP Application
-# Copyright 2013 Blend Swap, LLC <support@blendswap.com>
+# Copyright YEAR NAME <EMAIL@ADDRESS>
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-17 00:58-0600\n"
+"POT-Creation-Date: 2013-02-17 15:23-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -843,6 +843,7 @@ msgstr ""
 #: View/Answers/admin_edit.ctp:23
 #: View/Answers/admin_index.ctp:56
 #: View/Answers/admin_view.ctp:46
+#: View/Elements/menus/topMenu.ctp:162
 #: View/Requests/admin_index.ctp:59
 #: View/Requests/admin_view.ctp:47
 msgid "New Request"
@@ -1246,6 +1247,8 @@ msgid "Delete Blend and associated data"
 msgstr ""
 
 #: View/Blends/admin_index.ctp:3
+#: View/Elements/menus/topMenu.ctp:124
+#: View/Elements/navs/usernav.ctp:17
 msgid "Blends"
 msgstr ""
 
@@ -1553,6 +1556,7 @@ msgid "Edit Comment"
 msgstr ""
 
 #: View/Comments/admin_index.ctp:2
+#: View/Elements/navs/usernav.ctp:24
 #: View/Feedbacks/admin_index.ctp:2
 msgid "Comments"
 msgstr ""
@@ -1602,8 +1606,353 @@ msgstr ""
 msgid "Ask a Question!"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:206
+#: View/Elements/menus/topMenu.ctp:6
+msgid "Tour"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:7
+msgid "Faq"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:7;211
+msgid "Frequently asked questions (and answers)"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:8
+#: View/News/admin_index.ctp:3
+msgid "News"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:9
+msgid "About"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:10
+msgid "Contact"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:13
+msgid "More"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:16
+msgid "About Blender"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:17
+msgid "Learn Blender"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:20
+msgid "File Licensing"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:21
+msgid "Privacy Policy"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:22
+msgid "Terms of Use"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:25
+msgid "Our RSS Feeds"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:31
+msgid "Latest activity"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:33;35
+#: View/Elements/navs/usernav.ctp:72
+msgid "My Profile"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:36
+#: View/Elements/navs/usernav.ctp:79
+msgid "My Blends"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:37
+#: View/Elements/navs/usernav.ctp:103
+msgid "My Collections"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:38
+msgid "My Stats"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:47;50
+msgid "How bandwidth works"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:50
+msgid "You have Unlimited Bandwidth"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:54
+msgid "Your Associate membership is set to auto-renew."
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:57;60
+msgid "Until"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:71
+msgid "Bandwidth information for this month"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:76
+msgid "Bandwidth for"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:82
+msgid "Allowed"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:86
+#: View/Limits/admin_view.ctp:29
+msgid "Remaining"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:90
+#: View/Limits/admin_view.ctp:34
+msgid "Spent"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:97
+msgid "Get more bandwidth!"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:108
+msgid "Log out"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:110
+msgid "Register your account now!"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:111
+msgid "Log in to swap some blends!"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:121
+msgid "Start"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:124
+msgid "All blends"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:128
+msgid "Upload New Blend"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:133
+msgid "Categories"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:133
+msgid "All blend categories."
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:136
+msgid "Staff Picks"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:136
+msgid "Blends selected by the admins."
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:139
+msgid "Blend Collections"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:139
+msgid "Publicly visible Blend Collections by our users."
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:143
+msgid "Durian OMP"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:143
+msgid "Durian Open Movie Project."
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:146
+msgid "HJM Contest"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:146
+msgid "HJ Media Military Contest"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:149
+msgid "Fantasy Contest"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:149
+msgid "Fantasy Character Contest"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:153;174;188
+msgid "RSS Feed"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:158
+#: View/Requests/admin_index.ctp:2
+msgid "Requests"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:162
+msgid "Create a new blend Request"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:167
+msgid "Open Requests"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:167
+msgid "Requests still open to responses"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:170
+msgid "Closed Requests"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:170
+msgid "Requests closed to new responses"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:179
+#: View/Questions/admin_index.ctp:2
+msgid "Questions"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:183
+#: View/Questions/admin_index.ctp:48
+#: View/Questions/admin_view.ctp:42
+msgid "New Question"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:183
+msgid "Create a new Question"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:193
+#: View/Users/admin_index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:196
+msgid "Find Artists"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:199
+msgid "Featured Artists"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:203
+msgid "User Badges"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:208
 msgid "Help"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:208
+msgid "Help and documentation"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:211
+msgid "FAQ"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:214
+msgid "All Documentation"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:214
+msgid "All site documentation"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:217
+msgid "Known Issues"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:217
+msgid "Known issues"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:222
+msgid "Report Errors"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:230;231
+msgid "Search Blends"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:231
+msgid "Change your search criteria!"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:10
+msgid "All Activity"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:32
+msgid "Site News Blog"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:39
+msgid "Admin Notifications"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:60
+#: View/Messages/index.ctp:2
+msgid "Messages"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:68
+msgid "My Stuff"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:88
+msgid "My Badges"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:96
+msgid "My Likes"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:111
+msgid "Advanced Stats"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:124
+#: View/Profiles/admin_view.ctp:94
+msgid "Edit Profile"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:131
+msgid "Edit Portfolio"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:138
+msgid "Account &amp; Settings"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:147
+msgid "Manage Membership"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:155
+msgid "Change Password"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:170
+msgid "Upgrade"
 msgstr ""
 
 #: View/Feedbacks/add.ctp:4
@@ -1685,14 +2034,6 @@ msgstr ""
 msgid "Applies"
 msgstr ""
 
-#: View/Limits/admin_view.ctp:29
-msgid "Remaining"
-msgstr ""
-
-#: View/Limits/admin_view.ctp:34
-msgid "Spent"
-msgstr ""
-
 #: View/Limits/admin_view.ctp:45
 msgid "Delete Limit"
 msgstr ""
@@ -1711,10 +2052,6 @@ msgstr ""
 #: View/Messages/edit.ctp:4
 #: View/Messages/view.ctp:44
 msgid "Edit Message"
-msgstr ""
-
-#: View/Messages/index.ctp:2
-msgid "Messages"
 msgstr ""
 
 #: View/Messages/index.ctp:50
@@ -1746,10 +2083,6 @@ msgstr ""
 
 #: View/News/admin_edit.ctp:11
 msgid "Edit News"
-msgstr ""
-
-#: View/News/admin_index.ctp:3
-msgid "News"
 msgstr ""
 
 #: View/News/admin_index.ctp:55
@@ -1917,10 +2250,6 @@ msgstr ""
 msgid "Blend Count"
 msgstr ""
 
-#: View/Profiles/admin_view.ctp:94
-msgid "Edit Profile"
-msgstr ""
-
 #: View/Profiles/admin_view.ctp:95
 msgid "Delete Profile"
 msgstr ""
@@ -1941,15 +2270,6 @@ msgstr ""
 
 #: View/Questions/admin_edit.ctp:4
 msgid "Admin Edit Question"
-msgstr ""
-
-#: View/Questions/admin_index.ctp:2
-msgid "Questions"
-msgstr ""
-
-#: View/Questions/admin_index.ctp:48
-#: View/Questions/admin_view.ctp:42
-msgid "New Question"
 msgstr ""
 
 #: View/Questions/admin_view.ctp:2
@@ -2031,10 +2351,6 @@ msgstr ""
 msgid "Admin Edit Request"
 msgstr ""
 
-#: View/Requests/admin_index.ctp:2
-msgid "Requests"
-msgstr ""
-
 #: View/Requests/admin_view.ctp:44
 #: View/Requests/edit.ctp:4
 msgid "Edit Request"
@@ -2083,10 +2399,6 @@ msgstr ""
 
 #: View/Users/admin_edit.ctp:4
 msgid "Admin Edit User"
-msgstr ""
-
-#: View/Users/admin_index.ctp:2
-msgid "Users"
 msgstr ""
 
 #: View/Users/admin_index.ctp:83
