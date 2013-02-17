@@ -1,5 +1,5 @@
 # LANGUAGE translation of CakePHP Application
-# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Copyright 2013 Blend Swap, LLC <support@blendswap.com>
 #
 #, fuzzy
 msgid ""

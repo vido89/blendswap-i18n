@@ -1,586 +1,588 @@
 # LANGUAGE translation of CakePHP Application
 # Copyright 2013 Blend Swap, LLC <support@blendswap.com>
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-17 00:58-0600\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-02-17 14:07-0600\n"
+"Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
+"Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: Controller/AtomsController.php:31;82;108
 msgid "Invalid atom"
-msgstr ""
+msgstr "Evento Inválido"
 
 #: Controller/AtomsController.php:65;86
 msgid "The atom has been saved"
-msgstr ""
+msgstr "El evento se ha guardado"
 
 #: Controller/AtomsController.php:67;89
 msgid "The atom could not be saved. Please, try again."
-msgstr ""
+msgstr "El evento no pudo ser salvado, por favor intente de nuevo"
 
 #: Controller/AtomsController.php:111
 msgid "Atom deleted"
-msgstr ""
+msgstr "Evento eliminado"
 
 #: Controller/AtomsController.php:114
 msgid "Atom was not deleted"
-msgstr ""
+msgstr "El evento no fue eliminado"
 
 #: Controller/BadgesController.php:35;76;107;133
 msgid "Invalid badge"
-msgstr ""
+msgstr "Medalla inválida"
 
 #: Controller/BadgesController.php:90;111
 msgid "The badge has been saved"
-msgstr ""
+msgstr "La Medalla se ha salvado"
 
 #: Controller/BadgesController.php:93;114
 msgid "The badge could not be saved. Please, try again."
-msgstr ""
+msgstr "La medalla no pudo ser salvada"
 
 #: Controller/BadgesController.php:136
 msgid "Badge deleted"
-msgstr ""
+msgstr "Medalla eliminada"
 
 #: Controller/BadgesController.php:139
 msgid "Badge was not deleted"
-msgstr ""
+msgstr "La medalla no fue eliminada"
 
 #: Controller/BlendsController.php:168;1639;1663;1693
 msgid "Invalid blend"
-msgstr ""
+msgstr "Blend inválido"
 
 #: Controller/BlendsController.php:474
 msgid "Thank you! Your new blend was saved and is now publicly visible!"
-msgstr ""
+msgstr "Gracias! Tu nuevo blend fue salvado y publicado!"
 
 #: Controller/BlendsController.php:476
 msgid "There was an error saving your blend as published, please report you saw this error!"
-msgstr ""
+msgstr "Hubo un error publicando tu blend, por favor reporta que viste este error"
 
 #: Controller/BlendsController.php:480
 msgid "Your new blend was saved and is now waiting moderation! Please be patient for an adminn to check your file."
-msgstr ""
+msgstr "Tu nuevo blend fue guardado y esta esperando a ser moderado, Por favor sé paciente y espera a que un administrador lo inspeccione."
 
 #: Controller/BlendsController.php:484
 msgid "You blend was saved to the database, but one of the files failed to upload, please fix below the file type marked in red!"
-msgstr ""
+msgstr "Tu blend fue guardado en la base de tatos, pero uno o más de los archivos falló al subirse al servidor. Por favor sube el archivo faltante marcado en rojo."
 
 #: Controller/BlendsController.php:489
 msgid "The blend could not be saved. Please ckeck any errors below and try again. Don't forget to re-select the files."
-msgstr ""
+msgstr "Tu blend no pudo ser guardado, por favor revisa más abajo por errores marcados en rojo. No olvides re-seleccionar los archivos."
 
 #: Controller/BlendsController.php:558
 msgid "The requested blend does not exist."
-msgstr ""
+msgstr "Este blend no existe"
 
 #: Controller/BlendsController.php:595;1667
 msgid "The blend has been saved"
-msgstr ""
+msgstr "El blend ha sido guardado"
 
 #: Controller/BlendsController.php:597
 msgid "ERRORS! Please check any red messages below and try again."
-msgstr ""
+msgstr "Error! Por favor revisa más abajo por errores marcados en rojo."
 
 #: Controller/BlendsController.php:1672
 msgid "The blend could not be saved. Please, try again."
-msgstr ""
+msgstr "El blend no pudo guardarse. Por favor intenta de nuevo."
 
 #: Controller/BlendsController.php:1696
 msgid "Blend deleted"
-msgstr ""
+msgstr "Blend eliminado"
 
 #: Controller/BlendsController.php:1699
 msgid "Blend was not deleted"
-msgstr ""
+msgstr "El blend no fue eliminado"
 
 #: Controller/ChatsController.php:67;193;222
 msgid "Invalid chat"
-msgstr ""
+msgstr "Conversación inválida."
 
 #: Controller/ChatsController.php:197
 msgid "The chat has been saved"
-msgstr ""
+msgstr "La conversación fur guardada."
 
 #: Controller/ChatsController.php:200
 msgid "The chat could not be saved. Please, try again."
-msgstr ""
+msgstr "La conversación no pudo guardarse. Por favor intenta de nuevo."
 
 #: Controller/ChatsController.php:227
 msgid "Chat deleted"
-msgstr ""
+msgstr "Conversación eliminada."
 
 #: Controller/ChatsController.php:230
 msgid "Chat was not deleted"
-msgstr ""
+msgstr "La conversación no fue eliminada."
 
 #: Controller/CollectionsController.php:146;278;335
 msgid "Invalid collection"
-msgstr ""
+msgstr "Colección inválida."
 
 #: Controller/CollectionsController.php:309
 msgid "The Collection was saved"
-msgstr ""
+msgstr "La colección fue guardada."
 
 #: Controller/CollectionsController.php:311
 msgid "The Collection could not be saved. Please, try again."
-msgstr ""
+msgstr "No se pudo guardar la colección. Por favor intenta de nuevo."
 
 #: Controller/CollectionsController.php:340
 msgid "Collection deleted"
-msgstr ""
+msgstr "Colección eliminada."
 
 #: Controller/CollectionsController.php:342
 msgid "Collection was not deleted"
-msgstr ""
+msgstr "La colección no fue guardada."
 
 #: Controller/CommentsController.php:222
 msgid "Your comment did not validate, is it empty? Please try again."
-msgstr ""
+msgstr "Tu comentario no pudo validarse, está vacío? Por favor intenta de nuevo."
 
 #: Controller/CommentsController.php:261;275;301;376
 msgid "Invalid comment"
-msgstr ""
+msgstr "Comentario inválido."
 
 #: Controller/CommentsController.php:281;342
 msgid "The comment has been saved"
-msgstr ""
+msgstr "El comentario no fue guardado."
 
 #: Controller/CommentsController.php:284;345
 msgid "The comment could not be saved. Please, try again."
-msgstr ""
+msgstr "El comentario o pudo ser guardado. Por favor intenta de nuevo."
 
 #: Controller/CommentsController.php:379
 msgid "Comment deleted"
-msgstr ""
+msgstr "Comentario eliminado."
 
 #: Controller/CommentsController.php:382
 msgid "Comment was not deleted"
-msgstr ""
+msgstr "El comentatio no fue eliminado."
 
 #: Controller/ContactsController.php:82;152
 msgid "The contact has been saved"
-msgstr ""
+msgstr "La entrada de contacto fue salvada."
 
 #: Controller/ContactsController.php:84
 msgid "The submission could not be saved correctly please correct any errors and try again."
-msgstr ""
+msgstr "La entrada de contacto no pudo ser guardada, por favor corrige cualquier error marcado en rojo más abajo."
 
 #: Controller/ContactsController.php:125;148;174
 msgid "Invalid contact"
-msgstr ""
+msgstr "Contacto inválido"
 
 #: Controller/ContactsController.php:155
 msgid "The contact could not be saved. Please, try again."
-msgstr ""
+msgstr "La entrada de contacto no se pudo guardar, por favor intenta de nuevo."
 
 #: Controller/ContactsController.php:177
 msgid "Contact deleted"
-msgstr ""
+msgstr "Entrada de contacto eliminada."
 
 #: Controller/ContactsController.php:180
 msgid "Contact was not deleted"
-msgstr ""
+msgstr "La entrada de contacto no fue eliminada"
 
 #: Controller/DownloadsController.php:40
 msgid "Invalid download"
-msgstr ""
+msgstr "Descarga inválida."
 
 #: Controller/EmailsController.php:42;73;103
 msgid "Invalid email"
-msgstr ""
+msgstr "Plantilla de email inválida."
 
 #: Controller/EmailsController.php:56;77
 msgid "The email has been saved"
-msgstr ""
+msgstr "L a plantilla de email fue guardada."
 
 #: Controller/EmailsController.php:59;80
 msgid "The email could not be saved. Please, try again."
-msgstr ""
+msgstr "La plantilla de email no pudo guardarse. Por favor intenta de nuevo."
 
 #: Controller/EmailsController.php:106
 msgid "Email deleted"
-msgstr ""
+msgstr "Plantilla de email eliminada."
 
 #: Controller/EmailsController.php:109
 msgid "Email was not deleted"
-msgstr ""
+msgstr "La plantilla de email no fue eliminada."
 
 #: Controller/FeaturesController.php:30;62;90
 msgid "Invalid feature"
-msgstr ""
+msgstr "Feature inválido"
 
 #: Controller/FeaturesController.php:44;66
 msgid "The feature has been saved"
-msgstr ""
+msgstr "El feature se guardó"
 
 #: Controller/FeaturesController.php:47;69
 msgid "The feature could not be saved. Please, try again."
-msgstr ""
+msgstr "El feature no pudo guardarse"
 
 #: Controller/FeaturesController.php:93
 msgid "Feature deleted"
-msgstr ""
+msgstr "Feature guardado"
 
 #: Controller/FeaturesController.php:96
 msgid "Feature was not deleted"
-msgstr ""
+msgstr "El feature no se eliminó"
 
 #: Controller/KeysController.php:37;68;94
 msgid "Invalid key"
-msgstr ""
+msgstr "Llave inválida"
 
 #: Controller/KeysController.php:51;72
 msgid "The key has been saved"
-msgstr ""
+msgstr "La llave se guardó"
 
 #: Controller/KeysController.php:54;75
 msgid "The key could not be saved. Please, try again."
-msgstr ""
+msgstr "La llave no se pudo guardar. Por favor intenta de nuevo"
 
 #: Controller/KeysController.php:97
 msgid "Key deleted"
-msgstr ""
+msgstr "Llave eliminada"
 
 #: Controller/KeysController.php:100
 msgid "Key was not deleted"
-msgstr ""
+msgstr "La llave no fue eliminada"
 
 #: Controller/LimitsController.php:45;76;102
 msgid "Invalid limit"
-msgstr ""
+msgstr "Límite inválido"
 
 #: Controller/LimitsController.php:59;80
 msgid "The limit has been saved"
-msgstr ""
+msgstr "El límite fue guardado"
 
 #: Controller/LimitsController.php:62;83
 msgid "The limit could not be saved. Please, try again."
-msgstr ""
+msgstr "El límie no pudo ser guardado. Por favor intenta de nuevo."
 
 #: Controller/LimitsController.php:105
 msgid "Limit deleted"
-msgstr ""
+msgstr "Límite eliminado"
 
 #: Controller/LimitsController.php:108
 msgid "Limit was not deleted"
-msgstr ""
+msgstr "el límite no fue eliminado"
 
 #: Controller/MembershipsController.php:61;108;136
 msgid "Invalid membership"
-msgstr ""
+msgstr "Membresías Inválida."
 
 #: Controller/MembershipsController.php:87;112
 msgid "The membership has been saved"
-msgstr ""
+msgstr "La membresías se ha guardado"
 
 #: Controller/MembershipsController.php:90;115
 msgid "The membership could not be saved. Please, try again."
-msgstr ""
+msgstr "La membresía no pudo ser guardada. Por favor intenta de nuevo."
 
 #: Controller/MembershipsController.php:139
 msgid "Membership deleted"
-msgstr ""
+msgstr "Membresía eliminada."
 
 #: Controller/MembershipsController.php:142
 msgid "Membership was not deleted"
-msgstr ""
+msgstr "La membresía no fue eliminada"
 
 #: Controller/MessagesController.php:47;253;282;307
 msgid "Invalid message"
-msgstr ""
+msgstr "Mensaje Inválido"
 
 #: Controller/MessagesController.php:204;260
 msgid "The message could not be saved. Please, try again."
-msgstr ""
+msgstr "El mensaje no se pudo guardar. Por favor intenta de nuevo."
 
 #: Controller/MessagesController.php:257
 msgid "The message has been saved"
-msgstr ""
+msgstr "El mensaje se guardó"
 
 #: Controller/MessagesController.php:285;314
 msgid "Message deleted"
-msgstr ""
+msgstr "Mensaje eliminado"
 
 #: Controller/MessagesController.php:288;316
 msgid "Message was not deleted"
-msgstr ""
+msgstr "El mensaje no fue eliminado"
 
 #: Controller/MetasController.php:32;63;89
 msgid "Invalid meta"
-msgstr ""
+msgstr "Meta inválida"
 
 #: Controller/MetasController.php:46;67
 msgid "The meta has been saved"
-msgstr ""
+msgstr "El meta fue guardado"
 
 #: Controller/MetasController.php:49;70
 msgid "The meta could not be saved. Please, try again."
-msgstr ""
+msgstr "El meta no se pudo salvar. Por favor intenta de nuevo."
 
 #: Controller/MetasController.php:92
 msgid "Meta deleted"
-msgstr ""
+msgstr "Meta eliminado"
 
 #: Controller/MetasController.php:95
 msgid "Meta was not deleted"
-msgstr ""
+msgstr "El meta no fue eliminado"
 
 #: Controller/NewsController.php:91;172;226
 msgid "Invalid news"
-msgstr ""
+msgstr "Noticia inválida"
 
 #: Controller/NewsController.php:152
 msgid "The news has been saved"
-msgstr ""
+msgstr "Las Noticia fue guardada"
 
 #: Controller/NewsController.php:155;202
 msgid "The news could not be saved. Please, try again."
-msgstr ""
+msgstr "La Noticia no pudo ser guardada. Por favor intenta de nuevo."
 
 #: Controller/NewsController.php:199
 msgid "The news entry has been updated"
-msgstr ""
+msgstr "La Noticia fue actualizada"
 
 #: Controller/NewsController.php:229
 msgid "News deleted"
-msgstr ""
+msgstr "Noticia eliminada"
 
 #: Controller/NewsController.php:232
 msgid "News was not deleted"
-msgstr ""
+msgstr "La Noticia no fue eliminada"
 
 #: Controller/OptionsController.php:69;104;130
 msgid "Invalid option"
-msgstr ""
+msgstr "Opción Inválida"
 
 #: Controller/OptionsController.php:87;108
 msgid "The option has been saved"
-msgstr ""
+msgstr "La Opción fue guardada"
 
 #: Controller/OptionsController.php:90
 msgid "The option could not be saved. Please, try again."
-msgstr ""
+msgstr "La Opción no pudo ser guardada"
 
 #: Controller/OptionsController.php:111
 msgid "Error! The option could not be saved. Please, try again."
-msgstr ""
+msgstr "Error! La opción no se pudo guardar. Por favor intente de nuevo."
 
 #: Controller/OptionsController.php:133
 msgid "Option deleted"
-msgstr ""
+msgstr "Opción eliminada"
 
 #: Controller/OptionsController.php:136
 msgid "Error! The option was not deleted"
-msgstr ""
+msgstr "Error! La Opción no fue eliminada"
 
 #: Controller/PagesController.php:119;125;130;181;212
 msgid "Invalid page"
-msgstr ""
+msgstr "Página inválida"
 
 #: Controller/PagesController.php:147;185
 msgid "The page has been saved"
-msgstr ""
+msgstr "La Página fue guardada"
 
 #: Controller/PagesController.php:150;188
 msgid "The page could not be saved. Please, try again."
-msgstr ""
+msgstr "La Página no pudo ser guardada. Por favor intenta de nuevo."
 
 #: Controller/PagesController.php:215
 msgid "Page deleted"
-msgstr ""
+msgstr "Página eliminada"
 
 #: Controller/PagesController.php:218
 msgid "Page was not deleted"
-msgstr ""
+msgstr "La Página no fue eliminada."
 
 #: Controller/PaymentsController.php:59;325
 msgid "Invalid payment"
-msgstr ""
+msgstr "Pago inválido"
 
 #: Controller/PaymentsController.php:328
 msgid "Payment deleted"
-msgstr ""
+msgstr "Pago eliminado"
 
 #: Controller/PaymentsController.php:331
 msgid "Payment was not deleted"
-msgstr ""
+msgstr "el pago no fue eliminado"
 
 #: Controller/PlansController.php:33;64;90;118;149;175
 msgid "Invalid plan"
-msgstr ""
+msgstr "Plan inválido"
 
 #: Controller/PlansController.php:47;68;132;153
 msgid "The plan has been saved"
-msgstr ""
+msgstr "el plan se ha guardado"
 
 #: Controller/PlansController.php:50;71;135;156
 msgid "The plan could not be saved. Please, try again."
-msgstr ""
+msgstr "El plan no pudo ser guardado. Por favor intenta de nuevo."
 
 #: Controller/PlansController.php:93;178
 msgid "Plan deleted"
-msgstr ""
+msgstr "Pland eliminado"
 
 #: Controller/PlansController.php:96;181
 msgid "Plan was not deleted"
-msgstr ""
+msgstr "el plan no fue eliminado"
 
 #: Controller/ProfilesController.php:27;127;158;184
 msgid "Invalid profile"
-msgstr ""
+msgstr "Perfil inválido"
 
 #: Controller/ProfilesController.php:84;141;162
 msgid "The profile has been saved"
-msgstr ""
+msgstr "el perfil fue guardado"
 
 #: Controller/ProfilesController.php:86;144;165
 msgid "The profile could not be saved. Please, try again."
-msgstr ""
+msgstr "El Perfil no se pudo guardar. Por favor intenta de nuevo"
 
 #: Controller/ProfilesController.php:187
 msgid "Profile deleted"
-msgstr ""
+msgstr "Perfil eliminado"
 
 #: Controller/ProfilesController.php:190
 msgid "Profile was not deleted"
-msgstr ""
+msgstr "El perfil no fue eliminado"
 
 #: Controller/QuestionsController.php:80;187;261;293;321
 msgid "Invalid question"
-msgstr ""
+msgstr "Pregunta inválida"
 
 #: Controller/QuestionsController.php:167;205;275;297
 msgid "The question has been saved"
-msgstr ""
+msgstr "La Pregunta fue guardada"
 
 #: Controller/QuestionsController.php:172;208;278;300
 msgid "The question could not be saved. Please, try again."
-msgstr ""
+msgstr "La Pregunta no pudo ser guardada. Por favor intenta de nuevo."
 
 #: Controller/QuestionsController.php:324
 msgid "Question deleted"
-msgstr ""
+msgstr "Pregunta eliminada"
 
 #: Controller/QuestionsController.php:327
 msgid "Question was not deleted"
-msgstr ""
+msgstr "La Pregunta no fue eliminada"
 
 #: Controller/ReportsController.php:25;46
 msgid "Invalid address"
-msgstr ""
+msgstr "Dirección inválida"
 
 #: Controller/ReportsController.php:49;206;221;247
 msgid "Invalid report"
-msgstr ""
+msgstr "Reporte inválido"
 
 #: Controller/ReportsController.php:225
 msgid "The report has been saved"
-msgstr ""
+msgstr "El Reporte fue guardado"
 
 #: Controller/ReportsController.php:228
 msgid "The report could not be saved. Please, try again."
-msgstr ""
+msgstr "El Reporte no pudo ser guardado. Por favor intenta de nuevo."
 
 #: Controller/ReportsController.php:250
 msgid "Report deleted"
-msgstr ""
+msgstr "Reporte eliminado"
 
 #: Controller/ReportsController.php:253
 msgid "Report was not deleted"
-msgstr ""
+msgstr "el Reporte no fue eliminado"
 
 #: Controller/RequestsController.php:73;217;267;298;530;564;605
 msgid "Invalid request"
-msgstr ""
+msgstr "Encargo inválido"
 
 #: Controller/RequestsController.php:184
 msgid "The request has been saved. Now upload some concept arts!"
-msgstr ""
+msgstr "El Encargo ha sido guardado. Ahora carga algunos imágener de concepto y referencia"
 
 #: Controller/RequestsController.php:189;237;547;572
 msgid "The request could not be saved. Please, try again."
-msgstr ""
+msgstr "El Encargo no pudo ser guardado. Por favor intenta de nuevo"
 
 #: Controller/RequestsController.php:234;544;569
 msgid "The request has been saved"
-msgstr ""
+msgstr "El Encargo fue guradado"
 
 #: Controller/RequestsController.php:608
 msgid "Request deleted"
-msgstr ""
+msgstr "Encargo eliminado"
 
 #: Controller/RequestsController.php:611
 msgid "Request was not deleted"
-msgstr ""
+msgstr "El Encargo no fue eliminado"
 
 #: Controller/ResponsesController.php:34;69;100
 msgid "Invalid response"
-msgstr ""
+msgstr "Respuesta Inválida"
 
 #: Controller/ResponsesController.php:48;73
 msgid "The response has been saved"
-msgstr ""
+msgstr "La Respuesta de ha guardado"
 
 #: Controller/ResponsesController.php:51;76
 msgid "The response could not be saved. Please, try again."
-msgstr ""
+msgstr "La respuesta no pudo ser guardada. Por favor intenta de nuevo."
 
 #: Controller/ResponsesController.php:103
 msgid "Response deleted"
-msgstr ""
+msgstr "Respuesta eliminada"
 
 #: Controller/ResponsesController.php:106
 msgid "Response was not deleted"
-msgstr ""
+msgstr "La Respuesta no fue eliminada"
 
 #: Controller/SubsController.php:40;71;97
 msgid "Invalid sub"
-msgstr ""
+msgstr "Subscripción inválida"
 
 #: Controller/SubsController.php:54;75
 msgid "The sub has been saved"
-msgstr ""
+msgstr "La subscripción fue guardada"
 
 #: Controller/SubsController.php:57;78
 msgid "The sub could not be saved. Please, try again."
-msgstr ""
+msgstr "la subscripción no pudo ser guardada. Por favor intenta de nuevo"
 
 #: Controller/SubsController.php:100
 msgid "Sub deleted"
-msgstr ""
+msgstr "Subscripción eliminada"
 
 #: Controller/SubsController.php:103
 msgid "Sub was not deleted"
-msgstr ""
+msgstr "La subscripción no fue eliminada"
 
 #: Controller/TermsController.php:203;239;242;272
 msgid "Invalid term"
-msgstr ""
+msgstr "Término inválido"
 
 #: Controller/TermsController.php:217;247
 msgid "The term has been saved"
-msgstr ""
+msgstr "El término no fue guardado"
 
 #: Controller/TermsController.php:220;250
 msgid "The term could not be saved. Please, try again."
-msgstr ""
+msgstr "El término no pudo ser guardado. Por favor intenta de nuevo."
 
 #: Controller/TermsController.php:275
 msgid "Term deleted"
-msgstr ""
+msgstr "Término eliminado."
 
 #: Controller/TermsController.php:278
 msgid "Term was not deleted"
-msgstr ""
+msgstr "El término no fue eliminado"
 
 #: Controller/UserbadgesController.php:29;60;86
 msgid "Invalid userbadge"
@@ -604,71 +606,71 @@ msgstr ""
 
 #: Controller/UsersController.php:160;162
 msgid "This user does not exist on Blend Swap."
-msgstr ""
+msgstr "Este usuario no existe en Blend Swap"
 
 #: Controller/UsersController.php:320;1475;1507;1534
 msgid "Invalid user"
-msgstr ""
+msgstr "Usuario inválido"
 
 #: Controller/UsersController.php:341
 msgid "Account and settings saved"
-msgstr ""
+msgstr "LA cuenta y los ajustes fueron guardados."
 
 #: Controller/UsersController.php:349
 msgid "The setting could not be saved. Please review the rrors below and try again."
-msgstr ""
+msgstr "Los ajustes no se pudieron guardar. Por favor revisa los errors marcados con rojo más abajo e intenta de nuevo."
 
 #: Controller/UsersController.php:453;568
 msgid "Captcha was incorrect please try again."
-msgstr ""
+msgstr "el Captcha es incorrecto, por favor intenta de nuevo"
 
 #: Controller/UsersController.php:494
 msgid "There was a problem sending your verification email. please contact the admins with your username and email so they can activate your account!"
-msgstr ""
+msgstr "Hubo un error enviando tu email de verificación. Por favor contacta con los administradores con tu usuario y email para que tu cuenta sea activada manualmente."
 
 #: Controller/UsersController.php:514
 msgid "The data entered did not validate, so the account was not created. Please correct the errors marked in red below, re-enter your password and try again."
-msgstr ""
+msgstr "Los datos ingresados no validaron. La cuenta no fue creada. Por favor corrige los errores marcados en rojo más abajo, e intenta de nuevo."
 
 #: Controller/UsersController.php:1490;1512
 msgid "The user has been saved"
-msgstr ""
+msgstr "El usuario fue guardado"
 
 #: Controller/UsersController.php:1493;1515
 msgid "The user could not be saved. Please, try again."
-msgstr ""
+msgstr "El Usuario no pudo ser guardado. Por favor intenta de nuevo."
 
 #: Controller/UsersController.php:1537
 msgid "User deleted"
-msgstr ""
+msgstr "Usuario eliminado"
 
 #: Controller/UsersController.php:1540
 msgid "User was not deleted"
-msgstr ""
+msgstr "El usuario no fue eliminado"
 
 #: Controller/VotesController.php:107;175;196
 msgid "The vote has been saved"
-msgstr ""
+msgstr "El voto fue guardado"
 
 #: Controller/VotesController.php:110;178;199
 msgid "The vote could not be saved. Please, try again."
-msgstr ""
+msgstr "El voto no pudo ser guardado. Por favor intenta de nuevo."
 
 #: Controller/VotesController.php:161;192;218
 msgid "Invalid vote"
-msgstr ""
+msgstr "Voto inválido"
 
 #: Controller/VotesController.php:221
 msgid "Vote deleted"
-msgstr ""
+msgstr "Voto eliminado"
 
 #: Controller/VotesController.php:224
 msgid "Vote was not deleted"
-msgstr ""
+msgstr "El voto no fue eliminado"
 
 #: View/Answers/admin_add.ctp:4
 msgid "Admin Add Response"
-msgstr ""
+msgstr "Añadir Respuesta [admin]"
 
 #: View/Answers/admin_add.ctp:11
 #: View/Answers/admin_edit.ctp:12
@@ -707,7 +709,7 @@ msgstr ""
 #: View/Users/admin_add.ctp:25
 #: View/Users/admin_edit.ctp:26
 msgid "Submit"
-msgstr ""
+msgstr "Enviar"
 
 #: View/Answers/admin_add.ctp:14
 #: View/Answers/admin_edit.ctp:15
@@ -773,7 +775,7 @@ msgstr ""
 #: View/Users/admin_index.ctp:27;78
 #: View/Users/admin_view.ctp:229
 msgid "Actions"
-msgstr ""
+msgstr "Acciones"
 
 #: View/Answers/admin_add.ctp:17
 #: View/Answers/admin_edit.ctp:19
@@ -783,7 +785,7 @@ msgstr ""
 #: View/Requests/admin_index.ctp:62
 #: View/Requests/admin_view.ctp:50
 msgid "List Responses"
-msgstr ""
+msgstr "Listar Respuestas"
 
 #: View/Answers/admin_add.ctp:18
 #: View/Answers/admin_edit.ctp:20
@@ -805,7 +807,7 @@ msgstr ""
 #: View/Users/account.ctp:38
 #: View/Users/admin_view.ctp:233
 msgid "List Users"
-msgstr ""
+msgstr "Listar Usuarios"
 
 #: View/Answers/admin_add.ctp:19
 #: View/Answers/admin_edit.ctp:21
@@ -827,7 +829,7 @@ msgstr ""
 #: View/Users/admin_index.ctp:80
 #: View/Users/admin_view.ctp:234
 msgid "New User"
-msgstr ""
+msgstr "Nuevo Usuario"
 
 #: View/Answers/admin_add.ctp:20
 #: View/Answers/admin_edit.ctp:22
@@ -837,7 +839,7 @@ msgstr ""
 #: View/Requests/admin_edit.ctp:21
 #: View/Requests/admin_view.ctp:46
 msgid "List Requests"
-msgstr ""
+msgstr "Listar Encargos"
 
 #: View/Answers/admin_add.ctp:21
 #: View/Answers/admin_edit.ctp:23
@@ -846,11 +848,11 @@ msgstr ""
 #: View/Requests/admin_index.ctp:59
 #: View/Requests/admin_view.ctp:47
 msgid "New Request"
-msgstr ""
+msgstr "Nuevo Encargo"
 
 #: View/Answers/admin_edit.ctp:4
 msgid "Admin Edit Response"
-msgstr ""
+msgstr "Eliminar Respuesta [admin]"
 
 #: View/Answers/admin_edit.ctp:18
 #: View/Answers/admin_index.ctp:29
@@ -887,7 +889,7 @@ msgstr ""
 #: View/Users/account.ctp:37
 #: View/Users/admin_index.ctp:57
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 #: View/Answers/admin_edit.ctp:18
 #: View/Answers/admin_index.ctp:29
@@ -940,12 +942,12 @@ msgstr ""
 #: View/Users/admin_index.ctp:57
 #: View/Users/admin_view.ctp:232
 msgid "Are you sure you want to delete # %s?"
-msgstr ""
+msgstr "Estás seguro de eliminar # %s?"
 
 #: View/Answers/admin_index.ctp:2
 #: View/Requests/view.ctp:49
 msgid "Responses"
-msgstr ""
+msgstr "Respuestas"
 
 #: View/Answers/admin_index.ctp:27
 #: View/Blends/admin_index.ctp:55
@@ -967,7 +969,7 @@ msgstr ""
 #: View/Requests/admin_view.ctp:78
 #: View/Users/admin_index.ctp:55
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: View/Answers/admin_index.ctp:28
 #: View/Blends/admin_index.ctp:56
@@ -989,7 +991,7 @@ msgstr ""
 #: View/Requests/admin_view.ctp:79
 #: View/Users/admin_index.ctp:56
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: View/Answers/admin_index.ctp:37
 #: View/Blends/admin_index.ctp:65
@@ -1018,7 +1020,7 @@ msgstr ""
 #: View/Users/admin_index.ctp:65
 #: View/Users/featured.ctp:49
 msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total."
-msgstr ""
+msgstr "Página {:page} de {:pages}, mostrando {:current} entradas de {:count} en total."
 
 #: View/Answers/admin_index.ctp:43
 #: View/Chats/inbox.ctp:48
@@ -1161,11 +1163,11 @@ msgstr ""
 
 #: View/Blends/add.ctp:144
 msgid "Save new blend"
-msgstr ""
+msgstr "Guardar Nuevo Blend"
 
 #: View/Blends/admin_add.ctp:4
 msgid "Admin Add Blend"
-msgstr ""
+msgstr "Añadir Blend"
 
 #: View/Blends/admin_add.ctp:33
 #: View/Blends/admin_view.ctp:121
@@ -1175,7 +1177,7 @@ msgstr ""
 #: View/Feedbacks/add.ctp:28
 #: View/Feedbacks/admin_view.ctp:93
 msgid "List Blends"
-msgstr ""
+msgstr "Listar Blends"
 
 #: View/Blends/admin_add.ctp:36
 #: View/Blends/admin_view.ctp:125
@@ -1185,7 +1187,7 @@ msgstr ""
 #: View/Feedbacks/admin_edit.ctp:47
 #: View/Feedbacks/admin_view.ctp:91
 msgid "List Comments"
-msgstr ""
+msgstr "Listar Comentarios"
 
 #: View/Blends/admin_add.ctp:37
 #: View/Blends/admin_view.ctp:126;192
@@ -1193,7 +1195,7 @@ msgstr ""
 #: View/Comments/admin_view.ctp:87
 #: View/Feedbacks/admin_view.ctp:92
 msgid "New Comment"
-msgstr ""
+msgstr "Nuevo Comentario"
 
 #: View/Blends/admin_add.ctp:38
 #: View/Blends/admin_view.ctp:127
@@ -1208,42 +1210,42 @@ msgstr ""
 #: View/Blends/admin_add.ctp:40
 #: View/Blends/admin_view.ctp:129
 msgid "List Medias"
-msgstr ""
+msgstr "Listar Medios"
 
 #: View/Blends/admin_add.ctp:41
 #: View/Blends/admin_view.ctp:130;290
 msgid "New Media"
-msgstr ""
+msgstr "Nuevo Medio"
 
 #: View/Blends/admin_add.ctp:42
 #: View/Blends/admin_view.ctp:131
 msgid "List Termrels"
-msgstr ""
+msgstr "Listar Relaciones de Términos"
 
 #: View/Blends/admin_add.ctp:43
 #: View/Blends/admin_view.ctp:132;325
 msgid "New Termrel"
-msgstr ""
+msgstr "Nuva Relación de Términos"
 
 #: View/Blends/admin_add.ctp:44
 #: View/Blends/admin_view.ctp:133
 #: View/Users/admin_index.ctp:87
 msgid "List Items"
-msgstr ""
+msgstr "Listar Ítems"
 
 #: View/Blends/admin_add.ctp:45
 #: View/Blends/admin_view.ctp:134;366
 #: View/Users/admin_index.ctp:88
 msgid "New Item"
-msgstr ""
+msgstr "Nuevo Ítem"
 
 #: View/Blends/admin_edit.ctp:4
 msgid "Admin Edit Blend"
-msgstr ""
+msgstr "Editar Blend [admin]"
 
 #: View/Blends/admin_edit.ctp:67
 msgid "Delete Blend and associated data"
-msgstr ""
+msgstr "Eliminar Blend y datos asociados"
 
 #: View/Blends/admin_index.ctp:3
 msgid "Blends"
@@ -1259,7 +1261,7 @@ msgstr ""
 #: View/Users/search.ctp:100
 #: View/Users/stats.ctp:43
 msgid " previous"
-msgstr ""
+msgstr "anterior"
 
 #: View/Blends/admin_index.ctp:74
 #: View/Blends/index.ctp:34
@@ -1271,7 +1273,7 @@ msgstr ""
 #: View/Users/search.ctp:102
 #: View/Users/stats.ctp:45
 msgid "next "
-msgstr ""
+msgstr "siguiente"
 
 #: View/Blends/admin_view.ctp:2
 #: View/Comments/admin_view.ctp:9
@@ -1282,7 +1284,7 @@ msgstr ""
 #: View/Blends/admin_view.ctp:14;243
 #: View/Requests/admin_view.ctp:24
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: View/Blends/admin_view.ctp:19
 msgid "Slug"
@@ -1297,53 +1299,53 @@ msgstr ""
 #: View/Reports/view.ctp:29
 #: View/Requests/admin_view.ctp:29
 msgid "Body"
-msgstr ""
+msgstr "Contenido"
 
 #: View/Blends/admin_view.ctp:34;245
 #: View/Messages/view.ctp:19
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: View/Blends/admin_view.ctp:39
 msgid "P3d Url"
-msgstr ""
+msgstr "URL de P3d"
 
 #: View/Blends/admin_view.ctp:44
 msgid "Blend License"
-msgstr ""
+msgstr "Licencia del Blend"
 
 #: View/Blends/admin_view.ctp:49
 msgid "Blender Version"
-msgstr ""
+msgstr "Versión de Blender"
 
 #: View/Blends/admin_view.ctp:54
 msgid "Ported"
-msgstr ""
+msgstr "Migrado"
 
 #: View/Blends/admin_view.ctp:69
 msgid "Publish Date"
-msgstr ""
+msgstr "Fecha de Publicación"
 
 #: View/Blends/admin_view.ctp:74
 msgid "Change Log"
-msgstr ""
+msgstr "Cambios"
 
 #: View/Blends/admin_view.ctp:79
 msgid "Blend File Size"
-msgstr ""
+msgstr "Tamaño de Fichero Blend"
 
 #: View/Blends/admin_view.ctp:84
 msgid "Render Preview"
-msgstr ""
+msgstr "Vista Previa"
 
 #: View/Blends/admin_view.ctp:89
 #: View/Downloads/admin_index.ctp:2
 msgid "Downloads"
-msgstr ""
+msgstr "Descargas"
 
 #: View/Blends/admin_view.ctp:94
 msgid "Fav Count"
-msgstr ""
+msgstr "Número de Likes"
 
 #: View/Blends/admin_view.ctp:99;253
 msgid "Bytes"
@@ -1351,20 +1353,20 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:104
 msgid "Views"
-msgstr ""
+msgstr "Vistas"
 
 #: View/Blends/admin_view.ctp:109;145
 #: View/Feedbacks/admin_view.ctp:19
 msgid "Parent Id"
-msgstr ""
+msgstr "ID del Progenitor"
 
 #: View/Blends/admin_view.ctp:119
 msgid "Edit Blend"
-msgstr ""
+msgstr "Editar Blend"
 
 #: View/Blends/admin_view.ctp:120
 msgid "Delete Blend"
-msgstr ""
+msgstr "Eliminar Blend"
 
 #: View/Blends/admin_view.ctp:122
 #: View/Comments/admin_edit.ctp:22
@@ -1373,7 +1375,7 @@ msgstr ""
 #: View/Feedbacks/add.ctp:29
 #: View/Feedbacks/admin_view.ctp:94
 msgid "New Blend"
-msgstr ""
+msgstr "Nuevo Blend"
 
 #: View/Blends/admin_view.ctp:138
 msgid "Related Comments"
@@ -1399,7 +1401,7 @@ msgstr ""
 #: View/Comments/admin_view.ctp:14
 #: View/Feedbacks/admin_view.ctp:24
 msgid "Username"
-msgstr ""
+msgstr "Nombre de Usuario"
 
 #: View/Blends/admin_view.ctp:147
 #: View/Comments/admin_view.ctp:19
@@ -1462,428 +1464,428 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:232
 msgid "Related Medias"
-msgstr ""
+msgstr "Mediios relacionados"
 
 #: View/Blends/admin_view.ctp:244;340
 msgid "Is"
-msgstr ""
+msgstr "Es"
 
 #: View/Blends/admin_view.ctp:246
 msgid "Mime Type"
-msgstr ""
+msgstr "Tipo MIME"
 
 #: View/Blends/admin_view.ctp:247
 msgid "Path"
-msgstr ""
+msgstr "Ruta"
 
 #: View/Blends/admin_view.ctp:248
 msgid "Thumb"
-msgstr ""
+msgstr "Miniatura"
 
 #: View/Blends/admin_view.ctp:249
 msgid "Small"
-msgstr ""
+msgstr "Pequeña"
 
 #: View/Blends/admin_view.ctp:250
 msgid "Medium"
-msgstr ""
+msgstr "Mediana"
 
 #: View/Blends/admin_view.ctp:251
 msgid "Big"
-msgstr ""
+msgstr "Grande"
 
 #: View/Blends/admin_view.ctp:252
 msgid "Zip"
-msgstr ""
+msgstr "Archivo Zip"
 
 #: View/Blends/admin_view.ctp:295
 msgid "Related Termrels"
-msgstr ""
+msgstr "Relaciones de Términos relacionadas"
 
 #: View/Blends/admin_view.ctp:301
 msgid "Term Id"
-msgstr ""
+msgstr "Id de Término"
 
 #: View/Blends/admin_view.ctp:330
 msgid "Related Items"
-msgstr ""
+msgstr "Ítemes relacionados"
 
 #: View/Blends/admin_view.ctp:336
 msgid "Collection Id"
-msgstr ""
+msgstr "ID de Colección"
 
 #: View/Blends/edit.ctp:5
 msgid "Basic data"
-msgstr ""
+msgstr "Datos básicos"
 
 #: View/Blends/index.ctp:25
 msgid "Page {:page} of {:pages}, showing {:current} blends out of {:count} total."
-msgstr ""
+msgstr "Página {:page} de {:pages}, mostrando {:current} blends de {:count} en total."
 
 #: View/Blends/rss/index.ctp:3
 msgid "Latest Blends"
-msgstr ""
+msgstr "Últimos blends"
 
 #: View/Blends/rss/index.ctp:5
 msgid "Most recent blends on Blend Swap."
-msgstr ""
+msgstr "Blends más recientes en Blend Swap"
 
 #: View/Chats/add.ctp:4
 msgid "Add Chat"
-msgstr ""
+msgstr "Añadir Conversación"
 
 #: View/Chats/add.ctp:17
 #: View/Chats/edit.ctp:19
 msgid "List Chats"
-msgstr ""
+msgstr "Listar conversaciones"
 
 #: View/Chats/edit.ctp:4
 msgid "Edit Chat"
-msgstr ""
+msgstr "Editar Conversación"
 
 #: View/Chats/index.ctp:1
 msgid "Chats"
-msgstr ""
+msgstr "Conversaciones"
 
 #: View/Comments/admin_edit.ctp:4
 #: View/Comments/admin_view.ctp:84
 #: View/Feedbacks/admin_edit.ctp:5
 #: View/Feedbacks/admin_view.ctp:89
 msgid "Edit Comment"
-msgstr ""
+msgstr "Editar Comentario"
 
 #: View/Comments/admin_index.ctp:2
 #: View/Feedbacks/admin_index.ctp:2
 msgid "Comments"
-msgstr ""
+msgstr "Comentarios"
 
 #: View/Comments/admin_view.ctp:2
 #: View/Feedbacks/admin_view.ctp:2
 msgid "Comment"
-msgstr ""
+msgstr "Comentario"
 
 #: View/Comments/admin_view.ctp:64
 msgid "Comment Parent"
-msgstr ""
+msgstr "Progenitor der Comentario"
 
 #: View/Comments/admin_view.ctp:85
 #: View/Feedbacks/admin_view.ctp:90
 msgid "Delete Comment"
-msgstr ""
+msgstr "Eliminar Comentario"
 
 #: View/Contacts/admin_edit.ctp:4
 #: View/Contacts/admin_view.ctp:89
 msgid "Edit Contact"
-msgstr ""
+msgstr "Editar Entrada de Contacto"
 
 #: View/Contacts/admin_edit.ctp:24
 #: View/Contacts/admin_view.ctp:91
 msgid "List Contacts"
-msgstr ""
+msgstr "Listar Entradas de Contacto"
 
 #: View/Contacts/admin_index.ctp:2
 msgid "Contacts"
-msgstr ""
+msgstr "Entradas de Contacto"
 
 #: View/Contacts/admin_index.ctp:64
 #: View/Contacts/admin_view.ctp:92
 msgid "New Contact"
-msgstr ""
+msgstr "nueva entrada de Contacto"
 
 #: View/Contacts/admin_view.ctp:90
 msgid "Delete Contact"
-msgstr ""
+msgstr "Eliminar Entrada de Contacto"
 
 #: View/Downloads/admin_index.ctp:48
 msgid "New Download"
-msgstr ""
+msgstr "Nueva Descarga"
 
 #: View/Elements/new_question.ctp:5
 msgid "Ask a Question!"
-msgstr ""
+msgstr "Haz una Pregunta!"
 
 #: View/Elements/menus/topMenu.ctp:206
 msgid "Help"
-msgstr ""
+msgstr "Ayuda"
 
 #: View/Feedbacks/add.ctp:4
 msgid "Add Comment"
-msgstr ""
+msgstr "Añadir Comentario"
 
 #: View/Keys/add.ctp:4
 msgid "Add Key"
-msgstr ""
+msgstr "Añadir Llave"
 
 #: View/Keys/add.ctp:19
 #: View/Keys/edit.ctp:21
 #: View/Keys/view.ctp:41
 msgid "List Keys"
-msgstr ""
+msgstr "Listar Llaves"
 
 #: View/Keys/edit.ctp:4
 #: View/Keys/view.ctp:39
 msgid "Edit Key"
-msgstr ""
+msgstr "Editar Llave"
 
 #: View/Keys/index.ctp:2
 msgid "Keys"
-msgstr ""
+msgstr "Llaves"
 
 #: View/Keys/index.ctp:48
 #: View/Keys/view.ctp:42
 msgid "New Key"
-msgstr ""
+msgstr "Nueva Llave"
 
 #: View/Keys/view.ctp:2;19
 #: View/Options/admin_view.ctp:9
 msgid "Key"
-msgstr ""
+msgstr "Llave"
 
 #: View/Keys/view.ctp:14
 msgid "Route"
-msgstr ""
+msgstr "Ruta"
 
 #: View/Keys/view.ctp:29
 msgid "Expires"
-msgstr ""
+msgstr "Expira"
 
 #: View/Keys/view.ctp:40
 msgid "Delete Key"
-msgstr ""
+msgstr "Eliminar Llave"
 
 #: View/Limits/admin_add.ctp:4
 msgid "Add Limit"
-msgstr ""
+msgstr "Añadir Límite"
 
 #: View/Limits/admin_add.ctp:18
 #: View/Limits/admin_edit.ctp:20
 #: View/Limits/admin_view.ctp:46
 #: View/Users/admin_index.ctp:89
 msgid "List Limits"
-msgstr ""
+msgstr "Listar Límites"
 
 #: View/Limits/admin_edit.ctp:4
 #: View/Limits/admin_view.ctp:44
 msgid "Edit Limit"
-msgstr ""
+msgstr "Editar Límite"
 
 #: View/Limits/admin_index.ctp:2
 msgid "Limits"
-msgstr ""
+msgstr "Límites"
 
 #: View/Limits/admin_index.ctp:50
 #: View/Limits/admin_view.ctp:47
 #: View/Users/admin_index.ctp:90
 msgid "New Limit"
-msgstr ""
+msgstr "Nuevo Límite"
 
 #: View/Limits/admin_view.ctp:2
 msgid "Limit"
-msgstr ""
+msgstr "Límite"
 
 #: View/Limits/admin_view.ctp:24
 msgid "Applies"
-msgstr ""
+msgstr "Aplica"
 
 #: View/Limits/admin_view.ctp:29
 msgid "Remaining"
-msgstr ""
+msgstr "Restante"
 
 #: View/Limits/admin_view.ctp:34
 msgid "Spent"
-msgstr ""
+msgstr "Usado"
 
 #: View/Limits/admin_view.ctp:45
 msgid "Delete Limit"
-msgstr ""
+msgstr "Eliminar Límite"
 
 #: View/Messages/add.ctp:4
 msgid "Add Message"
-msgstr ""
+msgstr "Añadir Mensaje"
 
 #: View/Messages/add.ctp:18
 #: View/Messages/edit.ctp:20
 #: View/Messages/view.ctp:46
 #: View/Users/admin_index.ctp:81
 msgid "List Messages"
-msgstr ""
+msgstr "Listar mensajes"
 
 #: View/Messages/edit.ctp:4
 #: View/Messages/view.ctp:44
 msgid "Edit Message"
-msgstr ""
+msgstr "Editar mensaje"
 
 #: View/Messages/index.ctp:2
 msgid "Messages"
-msgstr ""
+msgstr "Mensajes"
 
 #: View/Messages/index.ctp:50
 #: View/Messages/view.ctp:47
 #: View/Users/admin_index.ctp:82
 msgid "New Message"
-msgstr ""
+msgstr "Nuevo mensaje"
 
 #: View/Messages/view.ctp:2
 msgid "Message"
-msgstr ""
+msgstr "MEnsaje"
 
 #: View/Messages/view.ctp:45
 msgid "Delete Message"
-msgstr ""
+msgstr "Eliminar mensaje"
 
 #: View/News/admin_add.ctp:18
 #: View/News/admin_edit.ctp:22
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 #: View/News/admin_edit.ctp:4
 msgid "Add News Update"
-msgstr ""
+msgstr "Añadir Noticia"
 
 #: View/News/admin_edit.ctp:5
 msgid "List News"
-msgstr ""
+msgstr "Listar Noticias"
 
 #: View/News/admin_edit.ctp:11
 msgid "Edit News"
-msgstr ""
+msgstr "Editar Noticia"
 
 #: View/News/admin_index.ctp:3
 msgid "News"
-msgstr ""
+msgstr "Noticias"
 
 #: View/News/admin_index.ctp:55
 msgid " Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: View/News/admin_index.ctp:57
 msgid "Next "
-msgstr ""
+msgstr "Siguiente"
 
 #: View/News/rss/index.ctp:3
 msgid "Latest news"
-msgstr ""
+msgstr "Últimas Noticias"
 
 #: View/News/rss/index.ctp:5
 msgid "Blend Swap Site news and updates."
-msgstr ""
+msgstr "Blog de noticias de Blend Swap"
 
 #: View/Options/admin_add.ctp:4
 msgid "Add Option"
-msgstr ""
+msgstr "Añadir Opción"
 
 #: View/Options/admin_add.ctp:19
 #: View/Options/admin_edit.ctp:39
 #: View/Options/admin_view.ctp:31
 msgid "List Options"
-msgstr ""
+msgstr "Listar Opciones"
 
 #: View/Options/admin_edit.ctp:4
 #: View/Options/admin_view.ctp:29
 msgid "Edit Option"
-msgstr ""
+msgstr "Editar Opción"
 
 #: View/Options/admin_index.ctp:2
 #: View/Options/admin_manage.ctp:2
 msgid "Options"
-msgstr ""
+msgstr "Opciones"
 
 #: View/Options/admin_index.ctp:48
 msgid "Manage Options (Superuser only)"
-msgstr ""
+msgstr "Administrar Opciones"
 
 #: View/Options/admin_manage.ctp:44
 #: View/Options/admin_view.ctp:32
 msgid "New Option"
-msgstr ""
+msgstr "Nueva Opción"
 
 #: View/Options/admin_view.ctp:2
 msgid "Option"
-msgstr ""
+msgstr "Opción"
 
 #: View/Options/admin_view.ctp:14
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: View/Options/admin_view.ctp:19
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: View/Options/admin_view.ctp:30
 msgid "Delete Option"
-msgstr ""
+msgstr "Eliminar Opción"
 
 #: View/Pages/admin_add.ctp:5
 msgid "Add Page"
-msgstr ""
+msgstr "Añadir Página"
 
 #: View/Pages/admin_add.ctp:21
 #: View/Pages/admin_edit.ctp:25
 msgid "List Pages"
-msgstr ""
+msgstr "Listar Páginas"
 
 #: View/Pages/admin_edit.ctp:16
 msgid "Save changes"
-msgstr ""
+msgstr "Guardar cambios"
 
 #: View/Pages/admin_edit.ctp:24
 msgid "Delete Page"
-msgstr ""
+msgstr "Eliminar Página"
 
 #: View/Pages/admin_edit.ctp:26
 msgid "View Page"
-msgstr ""
+msgstr "Ver Página"
 
 #: View/Pages/admin_index.ctp:2
 msgid "Pages"
-msgstr ""
+msgstr "Páginas"
 
 #: View/Pages/admin_index.ctp:42
 msgid "New Page"
-msgstr ""
+msgstr "Nueva Página"
 
 #: View/Profiles/admin_add.ctp:4
 msgid "Admin Add Profile"
-msgstr ""
+msgstr "A~nadir Perfil [admin]"
 
 #: View/Profiles/admin_add.ctp:28
 #: View/Profiles/admin_edit.ctp:30
 #: View/Profiles/admin_view.ctp:96
 msgid "List Profiles"
-msgstr ""
+msgstr "Listar Perfiles"
 
 #: View/Profiles/admin_edit.ctp:4
 msgid "Admin Edit Profile"
-msgstr ""
+msgstr "Editar PErfil [admin]"
 
 #: View/Profiles/admin_index.ctp:2
 msgid "Profiles"
-msgstr ""
+msgstr "Perfiles"
 
 #: View/Profiles/admin_index.ctp:70
 #: View/Profiles/admin_view.ctp:97
 msgid "New Profile"
-msgstr ""
+msgstr "Nuevo Perfil"
 
 #: View/Profiles/admin_view.ctp:2
 msgid "Profile"
-msgstr ""
+msgstr "Perfil"
 
 #: View/Profiles/admin_view.ctp:14
 msgid "First Name"
-msgstr ""
+msgstr "Nombre"
 
 #: View/Profiles/admin_view.ctp:19
 msgid "Last Name"
-msgstr ""
+msgstr "Apellido"
 
 #: View/Profiles/admin_view.ctp:24
 msgid "Website"
-msgstr ""
+msgstr "Sitio Web"
 
 #: View/Profiles/admin_view.ctp:39
 msgid "Bio"
-msgstr ""
+msgstr "Biografía"
 
 #: View/Profiles/admin_view.ctp:44
 msgid "Twitter"
@@ -1907,7 +1909,7 @@ msgstr ""
 
 #: View/Profiles/admin_view.ctp:69
 msgid "Bartists"
-msgstr ""
+msgstr "Blender Artists.org"
 
 #: View/Profiles/admin_view.ctp:74
 msgid "Flickr"
@@ -1915,138 +1917,138 @@ msgstr ""
 
 #: View/Profiles/admin_view.ctp:79
 msgid "Blend Count"
-msgstr ""
+msgstr "Número de Blends"
 
 #: View/Profiles/admin_view.ctp:94
 msgid "Edit Profile"
-msgstr ""
+msgstr "Editar Perfil"
 
 #: View/Profiles/admin_view.ctp:95
 msgid "Delete Profile"
-msgstr ""
+msgstr "Eliminar Perfil"
 
 #: View/Questions/add.ctp:21
 msgid "Ask a new Question!"
-msgstr ""
+msgstr "Haz una nueva Pregunta!"
 
 #: View/Questions/admin_add.ctp:4
 msgid "Admin Add Question"
-msgstr ""
+msgstr "Añadir una PRegunta [admin]"
 
 #: View/Questions/admin_add.ctp:17
 #: View/Questions/admin_edit.ctp:19
 #: View/Questions/admin_view.ctp:41
 msgid "List Questions"
-msgstr ""
+msgstr "Listar Preguntas"
 
 #: View/Questions/admin_edit.ctp:4
 msgid "Admin Edit Question"
-msgstr ""
+msgstr "Editar pregunta [admin]"
 
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
-msgstr ""
+msgstr "Preguntas"
 
 #: View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
 msgid "New Question"
-msgstr ""
+msgstr "Nueva Pregunta"
 
 #: View/Questions/admin_view.ctp:2
 msgid "Question"
-msgstr ""
+msgstr "Pregunta"
 
 #: View/Questions/admin_view.ctp:39
 #: View/Questions/edit.ctp:4
 msgid "Edit Question"
-msgstr ""
+msgstr "Editar Pregunta"
 
 #: View/Questions/admin_view.ctp:40
 msgid "Delete Question"
-msgstr ""
+msgstr "Eliminar Pregunta"
 
 #: View/Questions/index.ctp:56
 msgid "Page {:page} of {:pages}, showing {:current} questions out of {:count} total."
-msgstr ""
+msgstr "Página {:page} de {:pages}, mostrando {:current} preguntas de {:count} en total."
 
 #: View/Questions/rss/index.ctp:3
 msgid "Blend Swap Questions"
-msgstr ""
+msgstr "Preguntas en Blend Swap"
 
 #: View/Questions/rss/index.ctp:5
 msgid "Most recent questions on Blend Swap."
-msgstr ""
+msgstr "Preguntas más recientes en Blend Swap"
 
 #: View/Reports/__add.ctp:4
 msgid "Add Report"
-msgstr ""
+msgstr "Añadir Reporte"
 
 #: View/Reports/__add.ctp:17
 #: View/Reports/admin_edit.ctp:19
 #: View/Reports/admin_view.ctp:41
 #: View/Reports/view.ctp:41
 msgid "List Reports"
-msgstr ""
+msgstr "Listar Reportes"
 
 #: View/Reports/admin_edit.ctp:4
 #: View/Reports/admin_view.ctp:39
 #: View/Reports/view.ctp:39
 msgid "Edit Report"
-msgstr ""
+msgstr "Editar Reportes"
 
 #: View/Reports/admin_index.ctp:2
 msgid "Reports"
-msgstr ""
+msgstr "Reportes"
 
 #: View/Reports/admin_index.ctp:62
 #: View/Reports/admin_view.ctp:42
 #: View/Reports/view.ctp:42
 msgid "New Report"
-msgstr ""
+msgstr "Nuevo reporte"
 
 #: View/Reports/admin_view.ctp:2
 #: View/Reports/view.ctp:2
 msgid "Report"
-msgstr ""
+msgstr "Reporte"
 
 #: View/Reports/admin_view.ctp:24
 #: View/Reports/view.ctp:24
 msgid "Reason"
-msgstr ""
+msgstr "Motivo"
 
 #: View/Reports/admin_view.ctp:40
 #: View/Reports/view.ctp:40
 msgid "Delete Report"
-msgstr ""
+msgstr "Eliminar Reporte"
 
 #: View/Requests/add.ctp:45
 msgid "Request a Blend"
-msgstr ""
+msgstr "Nuevo Encargo"
 
 #: View/Requests/admin_add.ctp:4
 msgid "Admin Add Request"
-msgstr ""
+msgstr "Añadir Encargo [admin]"
 
 #: View/Requests/admin_edit.ctp:4
 msgid "Admin Edit Request"
-msgstr ""
+msgstr "Editar Encargo [admin]"
 
 #: View/Requests/admin_index.ctp:2
 msgid "Requests"
-msgstr ""
+msgstr "Encargos"
 
 #: View/Requests/admin_view.ctp:44
 #: View/Requests/edit.ctp:4
 msgid "Edit Request"
-msgstr ""
+msgstr "Editar Encargo"
 
 #: View/Requests/admin_view.ctp:45
 msgid "Delete Request"
-msgstr ""
+msgstr "Eliminar Encargo"
 
 #: View/Requests/admin_view.ctp:55
 msgid "Related Responses"
-msgstr ""
+msgstr "Respuestas relacionadas"
 
 #: View/Requests/admin_view.ctp:63
 msgid "Request Id"
@@ -2054,40 +2056,40 @@ msgstr ""
 
 #: View/Requests/view.ctp:73
 msgid "Responders"
-msgstr ""
+msgstr "Trabajadores"
 
 #: View/Requests/view.ctp:97
 msgid "Work In Progress"
-msgstr ""
+msgstr "Trabajo en progreso."
 
 #: View/Requests/rss/index.ctp:3
 msgid "Latest Requests"
-msgstr ""
+msgstr "Últimos Encargos"
 
 #: View/Requests/rss/index.ctp:5
 msgid "Most recent requests on Blend Swap."
-msgstr ""
+msgstr "Encargos más recientes en Blend Swap"
 
 #: View/Users/account.ctp:4
 #: View/Users/admin_view.ctp:231
 msgid "Edit User"
-msgstr ""
+msgstr "Editar usuario"
 
 #: View/Users/add.ctp:174
 msgid "Sign me up!"
-msgstr ""
+msgstr "Regístrame!"
 
 #: View/Users/admin_add.ctp:4
 msgid "Admin Add User"
-msgstr ""
+msgstr "Añadir usuario [Admin]"
 
 #: View/Users/admin_edit.ctp:4
 msgid "Admin Edit User"
-msgstr ""
+msgstr "Editar usuario [Admin]"
 
 #: View/Users/admin_index.ctp:2
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 #: View/Users/admin_index.ctp:83
 msgid "List Wpusermetas"
@@ -2099,37 +2101,37 @@ msgstr ""
 
 #: View/Users/admin_index.ctp:85
 msgid "List Collections"
-msgstr ""
+msgstr "Listar colecciones"
 
 #: View/Users/admin_index.ctp:86
 msgid "New Collection"
-msgstr ""
+msgstr "nueva colección"
 
 #: View/Users/admin_view.ctp:232
 msgid "Delete User"
-msgstr ""
+msgstr "Eliminar usuario"
 
 #: View/Users/associate.ctp:144
 msgid "Sign Me Up"
-msgstr ""
+msgstr "Regístrame."
 
 #: View/Users/login.ctp:16
 msgid "Problems logging in?"
-msgstr ""
+msgstr "Problemas accesando al sitio?"
 
 #: View/Users/login.ctp:21
 msgid "Register now!"
-msgstr ""
+msgstr "Regístrate ahora!"
 
 #: View/Users/m_login.ctp:11
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Olvidaste tu clave?"
 
 #: View/Users/m_login.ctp:15
 msgid "Register now"
-msgstr ""
+msgstr "Ragistrate ahora"
 
 #: View/Users/search.ctp:93
 msgid "Page {:page} of {:pages}, showing {:current} artists out of {:count} total."
-msgstr ""
+msgstr "Página {:page} de {:pages}, mostrando {:current} artistas de {:count} en total."
 
