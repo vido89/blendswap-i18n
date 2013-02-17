@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-02-17 15:23-0600\n"
-"PO-Revision-Date: 2013-02-17 15:28-0600\n"
+"POT-Creation-Date: 2013-02-17 16:00-0600\n"
+"PO-Revision-Date: 2013-02-17 16:03-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -1648,7 +1648,7 @@ msgstr "Aprende Blender"
 
 #: View/Elements/menus/topMenu.ctp:20
 msgid "File Licensing"
-msgstr "Licencia del Fichero"
+msgstr "Licenciado de Archivos"
 
 #: View/Elements/menus/topMenu.ctp:21
 msgid "Privacy Policy"
@@ -1952,7 +1952,7 @@ msgstr "Administrar Membrecía"
 
 #: View/Elements/navs/usernav.ctp:155
 msgid "Change Password"
-msgstr "Cambiar Clave de Acceso"
+msgstr "Cambiar Contraseña"
 
 #: View/Elements/navs/usernav.ctp:170
 msgid "Upgrade"
@@ -1961,6 +1961,62 @@ msgstr "Actualízate"
 #: View/Feedbacks/add.ctp:4
 msgid "Add Comment"
 msgstr "Añadir Comentario"
+
+#: View/Helper/DashboardHelper.php:80
+msgid "mentioned you on"
+msgstr "te mencionó en"
+
+#: View/Helper/DashboardHelper.php:84
+msgid "gives you a warm welcome!"
+msgstr "te da una cálida bienvenida!"
+
+#: View/Helper/DashboardHelper.php:88;92;96
+msgid "Admin Notice:"
+msgstr "Notificación"
+
+#: View/Helper/DashboardHelper.php:100
+msgid "left a comment on"
+msgstr "dejó un comentario en"
+
+#: View/Helper/DashboardHelper.php:104
+msgid "answered the question"
+msgstr "contestó a la pregunta"
+
+#: View/Helper/DashboardHelper.php:108
+msgid "asked a new question:"
+msgstr "hizo una nueva pregunta:"
+
+#: View/Helper/DashboardHelper.php:112
+msgid "started following you"
+msgstr "empezó a seguir tu actividad"
+
+#: View/Helper/DashboardHelper.php:116
+msgid "mentioned you on a comment"
+msgstr "te mencionó en un comentario"
+
+#: View/Helper/DashboardHelper.php:120
+msgid "published the new blend"
+msgstr "publicó el nuevo blend"
+
+#: View/Helper/DashboardHelper.php:124
+msgid "published the new blend:"
+msgstr "publicó el nuevo blend"
+
+#: View/Helper/DashboardHelper.php:128
+msgid "likes the blend"
+msgstr "gusta del blend"
+
+#: View/Helper/DashboardHelper.php:132
+msgid "collected the blend"
+msgstr "colectó el blend"
+
+#: View/Helper/DashboardHelper.php:136;140
+msgid "published a news update"
+msgstr "publicó en el blog de noticias"
+
+#: View/Helper/DashboardHelper.php:144
+msgid "interacted with"
+msgstr "interactuó con"
 
 #: View/Keys/add.ctp:4
 msgid "Add Key"
