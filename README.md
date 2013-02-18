@@ -21,7 +21,7 @@ We're covered in __Spanish__.
 * Clone the full source files to your computer (you must [setup your ssh keys](https://help.github.com/articles/generating-ssh-keys) on Github for cloning and pushing code).
 
 ### Translating
-* Let's say you will work with *Catalan*. In the sources root you will make this folder structure `cat/LC_MESSAGES` (if it doesn't exist already). The name of the *cat* folder is given by the three-character language codes in [ISO639-2 Standard](http://www.loc.gov/standards/iso639-2/php/code_list.php). The *LC_MESSAGES* subdir MUST HAVE THAT NAME.
+* Let's say you will work with *Catalan*. In the sources root you will make this folder structure `cat/LC_MESSAGES` (if it doesn't exist already). The name of the *cat* folder is given by the three-character language codes in [ISO639-2 Standard](http://www.loc.gov/standards/iso639-2/php/code_list.php). The *LC_MESSAGES* subdir MUST HAVE THAT NAME. Take the Spanish translation as an example of the file structure.
 * Open PoEdit for the first time it and enter your name and email when asked to. This is to keep a backlog of who commits what translations.
 * From the PoEdit menu select *File > New Catalog from POT file*. browse for the `default.pot` file in the sources root folder and open it.
 * You will be promted for the information of the translation.
