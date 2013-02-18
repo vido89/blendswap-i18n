@@ -50,9 +50,8 @@ From time to time new strings will be added to the translation files. When this 
 * Depending on your PoEdit settings some strings may be translated automatically. ALWAYS DOUBLE CHECK THOSE STRINGS, they appear yellowinsh and you can never trust those translations.
 * Go back to translating as usual.
 
-__The entire workflow applies to *<lang>/LC_MESSAGES/default.po* and *<lang>/LC_MESSAGES/model_validation.po* the other translation template files can be ignored for now.__
-
 ### Notes.
 
+* The entire workflow applies to *lang/LC_MESSAGES/default.po* and *lang/LC_MESSAGES/model_validation.po* the other translation template files can be ignored for now.
 * We plan to update contributed translations at least once a week. Translating all these string doesn't take that long and it can be all done in a quick afternoon.
-* PORTIP: when translating in PoEdit click on the first string, translate it and hit [ CTRL + DOWN ARROW ] the next string will be selected and you can type right away. This way you won't get tired of alternating between the mouse and the keyboard.
+* PROTIP: when translating in PoEdit click on the first string, translate it and hit [ CTRL + DOWN ARROW ] the next string will be selected and you can type right away. This way you won't get tired of alternating between the mouse and the keyboard.
