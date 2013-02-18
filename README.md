@@ -21,7 +21,7 @@ We're covered in __Spanish__.
 * Clone the full source files to your computer (you must [setup your ssh keys](https://help.github.com/articles/generating-ssh-keys) on Github for cloning and pushing code).
 
 ### Translating
-* Let's say you will work with *Catalan*. In the sources root you will make this folder structure `cat/LC_MESSAGES` (if it doesn't exist already).
+* Let's say you will work with *Catalan*. In the sources root you will make this folder structure `cat/LC_MESSAGES` (if it doesn't exist already). The name of the *cat* folder is given by the three-character language codes in [ISO639-2 Standard](http://www.loc.gov/standards/iso639-2/php/code_list.php). The *LC_MESSAGES* subdir MUST HAVE THAT NAME.
 * Open PoEdit for the first time it and enter your name and email when asked to. This is to keep a backlog of who commits what translations.
 * From the PoEdit menu select *File > New Catalog from POT file*. browse for the `default.pot` file in the sources root folder and open it.
 * You will be promted for the information of the translation.
@@ -49,3 +49,8 @@ From time to time new strings will be added to the translation files. When this 
 * The new strings will be listed. Hit accept to update your Catalan `default.po` file.
 * Depending on your PoEdit settings some strings may be translated automatically. ALWAYS DOUBLE CHECK THOSE STRINGS, they appear yellowinsh and you can never trust those translations.
 * Go back to translating as usual.
+
+### Notes.
+
+* We plan to update contributed translations at least once a week. Translating all these string doesn't take that long and it can be all done in a quick afternoon.
+* PORTIP: when translating in PoEdit click on the first string, translate it and hit [ CTRL + DOWN ARROW ] the next string will be selected and you can type right away. This way you won't get tired of alternating between the mouse and the keyboard.
