@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-17 16:00-0600\n"
-"PO-Revision-Date: 2013-02-17 16:03-0600\n"
+"PO-Revision-Date: 2013-02-17 22:06-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -1628,7 +1628,7 @@ msgstr "Noticias"
 
 #: View/Elements/menus/topMenu.ctp:9
 msgid "About"
-msgstr "Acerda de"
+msgstr "Acerca de"
 
 #: View/Elements/menus/topMenu.ctp:10
 msgid "Contact"
@@ -1749,7 +1749,7 @@ msgstr "Todos los Blends"
 
 #: View/Elements/menus/topMenu.ctp:128
 msgid "Upload New Blend"
-msgstr "Subit Nuevo Blend"
+msgstr "Subir Nuevo Blend"
 
 #: View/Elements/menus/topMenu.ctp:133
 msgid "Categories"
@@ -1777,7 +1777,7 @@ msgstr "Colecciones de Blends públicas por la comunidad."
 
 #: View/Elements/menus/topMenu.ctp:143
 msgid "Durian OMP"
-msgstr "Proyecto Durian"
+msgstr "Proyecto Durian (Sintel)"
 
 #: View/Elements/menus/topMenu.ctp:143
 msgid "Durian Open Movie Project."
@@ -1858,7 +1858,7 @@ msgstr "Artistas Destacados"
 
 #: View/Elements/menus/topMenu.ctp:203
 msgid "User Badges"
-msgstr "Medallas de Usuario"
+msgstr "Medallas"
 
 #: View/Elements/menus/topMenu.ctp:208
 msgid "Help"
