@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-02-17 16:00-0600\n"
-"PO-Revision-Date: 2013-02-17 22:06-0600\n"
+"POT-Creation-Date: 2013-02-19 11:34-0600\n"
+"PO-Revision-Date: 2013-02-19 11:42-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -27,7 +27,7 @@ msgstr "El evento se ha guardado"
 
 #: Controller/AtomsController.php:67;89
 msgid "The atom could not be saved. Please, try again."
-msgstr "El evento no pudo ser salvado, por favor intente de nuevo"
+msgstr "El evento no pudo ser guardado, por favor intente de nuevo"
 
 #: Controller/AtomsController.php:111
 msgid "Atom deleted"
@@ -43,11 +43,11 @@ msgstr "Medalla inválida"
 
 #: Controller/BadgesController.php:90;111
 msgid "The badge has been saved"
-msgstr "La Medalla se ha salvado"
+msgstr "La Medalla se ha guardado"
 
 #: Controller/BadgesController.php:93;114
 msgid "The badge could not be saved. Please, try again."
-msgstr "La medalla no pudo ser salvada"
+msgstr "La medalla no pudo ser guardada"
 
 #: Controller/BadgesController.php:136
 msgid "Badge deleted"
@@ -63,7 +63,7 @@ msgstr "Blend inválido"
 
 #: Controller/BlendsController.php:474
 msgid "Thank you! Your new blend was saved and is now publicly visible!"
-msgstr "Gracias! Tu nuevo blend fue salvado y publicado!"
+msgstr "Gracias! Tu nuevo blend fue guardado y publicado!"
 
 #: Controller/BlendsController.php:476
 msgid "There was an error saving your blend as published, please report you saw this error!"
@@ -171,7 +171,7 @@ msgstr "El comentatio no fue eliminado."
 
 #: Controller/ContactsController.php:82;152
 msgid "The contact has been saved"
-msgstr "La entrada de contacto fue salvada."
+msgstr "La entrada de contacto fue guardada."
 
 #: Controller/ContactsController.php:84
 msgid "The submission could not be saved correctly please correct any errors and try again."
@@ -327,7 +327,7 @@ msgstr "El meta fue guardado"
 
 #: Controller/MetasController.php:49;70
 msgid "The meta could not be saved. Please, try again."
-msgstr "El meta no se pudo salvar. Por favor intenta de nuevo."
+msgstr "El meta no se pudo guardar. Por favor intenta de nuevo."
 
 #: Controller/MetasController.php:92
 msgid "Meta deleted"
@@ -595,7 +595,7 @@ msgstr "La medalla fue guardada"
 
 #: Controller/UserbadgesController.php:46;67
 msgid "The userbadge could not be saved. Please, try again."
-msgstr "La medalla no pudo ser salvada"
+msgstr "La medalla no pudo ser guardada"
 
 #: Controller/UserbadgesController.php:89
 msgid "Userbadge deleted"
@@ -1565,6 +1565,7 @@ msgid "Comments"
 msgstr "Comentarios"
 
 #: View/Comments/admin_view.ctp:2
+#: View/Elements/bars/blend_actions.ctp:53
 #: View/Feedbacks/admin_view.ctp:2
 msgid "Comment"
 msgstr "Comentario"
@@ -1609,6 +1610,144 @@ msgstr "Nueva Descarga"
 msgid "Ask a Question!"
 msgstr "Haz una Pregunta!"
 
+#: View/Elements/bars/blend_actions.ctp:7
+msgid "Click to unlike this blend"
+msgstr "No me gusta"
+
+#: View/Elements/bars/blend_actions.ctp:10
+msgid "Like"
+msgstr "Me Gusta"
+
+#: View/Elements/bars/blend_actions.ctp:13
+msgid "Add this blend to a collection"
+msgstr "Añadir este blend a una colección"
+
+#: View/Elements/bars/blend_actions.ctp:16
+msgid "Add to"
+msgstr "Añadir a"
+
+#: View/Elements/bars/blend_actions.ctp:19
+msgid "Share this"
+msgstr "Comparte esto"
+
+#: View/Elements/bars/blend_actions.ctp:20
+#: View/Elements/bars/request_actions.ctp:28
+msgid "Share"
+msgstr "Compartir"
+
+#: View/Elements/bars/blend_actions.ctp:38
+msgid "Click to start following comments here."
+msgstr "Sigue los comentarios acá"
+
+#: View/Elements/bars/blend_actions.ctp:41
+#: View/Elements/bars/request_actions.ctp:50
+msgid "Follow"
+msgstr "Seguir"
+
+#: View/Elements/bars/blend_actions.ctp:45
+msgid "Click to stop following comments here."
+msgstr "No seguir los comentarios acá"
+
+#: View/Elements/bars/blend_actions.ctp:48
+#: View/Elements/bars/request_actions.ctp:58
+msgid "Unfollow"
+msgstr "No seguir"
+
+#: View/Elements/bars/blend_actions.ctp:56
+#: View/Reports/admin_view.ctp:2
+#: View/Reports/view.ctp:2
+msgid "Report"
+msgstr "Reporte"
+
+#: View/Elements/bars/blend_actions.ctp:58
+msgid "Report an infraction on this blend."
+msgstr "Reporta un problema con este blend."
+
+#: View/Elements/bars/owner_bar.ctp:6
+msgid "Blend Page"
+msgstr "Página del Blend"
+
+#: View/Elements/bars/owner_bar.ctp:12
+msgid "View the blend page as it looks published"
+msgstr "Ver el la página del blend."
+
+#: View/Elements/bars/owner_bar.ctp:19
+#: View/Elements/bars/request_actions.ctp:69
+msgid "Edit Data"
+msgstr "Editar Datos"
+
+#: View/Elements/bars/owner_bar.ctp:25
+msgid "Edit all data and properties for this blend."
+msgstr "Editar datos y ajustes de este blend"
+
+#: View/Elements/bars/owner_bar.ctp:32
+msgid "Manage Files"
+msgstr "Administrar Archivos"
+
+#: View/Elements/bars/owner_bar.ctp:38
+msgid "Manage the blend file and preview images for this blend."
+msgstr "Administrar los archivos de este blend."
+
+#: View/Elements/bars/owner_bar.ctp:45
+msgid "Repack Files"
+msgstr "Re-empacar archivos"
+
+#: View/Elements/bars/request_actions.ctp:7
+msgid "Remove from your work in progress list"
+msgstr "Eliminar de mi lista de Trabajo en Progreso"
+
+#: View/Elements/bars/request_actions.ctp:10
+msgid "Cancel WIP"
+msgstr "Cancelar \"en Progreso\""
+
+#: View/Elements/bars/request_actions.ctp:14
+msgid "Add to your work in progress list"
+msgstr "Añadir a mi lista de Trabajo en Progreso"
+
+#: View/Elements/bars/request_actions.ctp:17
+msgid "Add to WIP"
+msgstr "Añadir a Trabajo en Progreso"
+
+#: View/Elements/bars/request_actions.ctp:21
+msgid "Add your Blend Response"
+msgstr "Añade tu Respuesta"
+
+#: View/Elements/bars/request_actions.ctp:24
+msgid "Submit Blend Response"
+msgstr "Enviar tu Respuesta"
+
+#: View/Elements/bars/request_actions.ctp:46
+msgid "Click to start following comments here"
+msgstr "Seguir comentarios acá"
+
+#: View/Elements/bars/request_actions.ctp:54
+msgid "Click to stop following comments here"
+msgstr "Dejar de seguir comentarios acá"
+
+#: View/Elements/bars/request_actions.ctp:65
+msgid "Manage"
+msgstr "Administrar"
+
+#: View/Elements/bars/request_actions.ctp:75
+msgid "Manage Images"
+msgstr "Administrar imágenes"
+
+#: View/Elements/bars/request_actions.ctp:81
+msgid "Close Request"
+msgstr "Cerrar Encargo"
+
+#: View/Elements/bars/request_actions.ctp:84
+msgid "This Blend Request will be closed to new answers. Are you sure?"
+msgstr "El Encargo será cerrador para nuevas respuestas. Estás seguro?"
+
+#: View/Elements/bars/request_actions.ctp:86
+msgid "Re-Open Request"
+msgstr "Re-abrir el Encargo"
+
+#: View/Elements/bars/request_actions.ctp:88
+msgid "Click here to enable answers for this Request"
+msgstr "Habilita el Encargo para recibir más respuestas"
+
 #: View/Elements/menus/topMenu.ctp:6
 msgid "Tour"
 msgstr "Paseo"
@@ -1627,10 +1766,12 @@ msgid "News"
 msgstr "Noticias"
 
 #: View/Elements/menus/topMenu.ctp:9
+#: View/Layouts/frontend.ctp:127
 msgid "About"
 msgstr "Acerca de"
 
 #: View/Elements/menus/topMenu.ctp:10
+#: View/Layouts/frontend.ctp:136
 msgid "Contact"
 msgstr "Contacto"
 
@@ -1639,22 +1780,27 @@ msgid "More"
 msgstr "Más"
 
 #: View/Elements/menus/topMenu.ctp:16
+#: View/Layouts/frontend.ctp:174
 msgid "About Blender"
 msgstr "Acerca de Blender"
 
 #: View/Elements/menus/topMenu.ctp:17
+#: View/Layouts/frontend.ctp:180
 msgid "Learn Blender"
 msgstr "Aprende Blender"
 
 #: View/Elements/menus/topMenu.ctp:20
+#: View/Layouts/frontend.ctp:218
 msgid "File Licensing"
 msgstr "Licenciado de Archivos"
 
 #: View/Elements/menus/topMenu.ctp:21
+#: View/Layouts/frontend.ctp:224
 msgid "Privacy Policy"
 msgstr "Política de Privacidad"
 
 #: View/Elements/menus/topMenu.ctp:22
+#: View/Layouts/frontend.ctp:221
 msgid "Terms of Use"
 msgstr "Términos de Uso"
 
@@ -1711,7 +1857,7 @@ msgstr "Ancho de banda para"
 
 #: View/Elements/menus/topMenu.ctp:82
 msgid "Allowed"
-msgstr "PErmitido"
+msgstr "Permitido"
 
 #: View/Elements/menus/topMenu.ctp:86
 #: View/Limits/admin_view.ctp:29
@@ -1829,6 +1975,7 @@ msgid "Requests closed to new responses"
 msgstr "Encargos cerrados a nuevas respuestas"
 
 #: View/Elements/menus/topMenu.ctp:179
+#: View/Layouts/frontend.ctp:96
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
 msgstr "Preguntas"
@@ -1853,14 +2000,17 @@ msgid "Find Artists"
 msgstr "Encontrar Artistas"
 
 #: View/Elements/menus/topMenu.ctp:199
+#: View/Layouts/frontend.ctp:116
 msgid "Featured Artists"
 msgstr "Artistas Destacados"
 
 #: View/Elements/menus/topMenu.ctp:203
+#: View/Layouts/frontend.ctp:93
 msgid "User Badges"
 msgstr "Medallas"
 
 #: View/Elements/menus/topMenu.ctp:208
+#: View/Layouts/frontend.ctp:190
 msgid "Help"
 msgstr "Ayuda"
 
@@ -1881,6 +2031,7 @@ msgid "All site documentation"
 msgstr "Toda la documentación del sitio"
 
 #: View/Elements/menus/topMenu.ctp:217
+#: View/Layouts/frontend.ctp:193
 msgid "Known Issues"
 msgstr "Problemas Conocidos"
 
@@ -1889,6 +2040,7 @@ msgid "Known issues"
 msgstr "Problemas Conocidos"
 
 #: View/Elements/menus/topMenu.ctp:222
+#: View/Layouts/frontend.ctp:196
 msgid "Report Errors"
 msgstr "Reportar Errores"
 
@@ -1899,6 +2051,10 @@ msgstr "Buscar Blends"
 #: View/Elements/menus/topMenu.ctp:231
 msgid "Change your search criteria!"
 msgstr "Cambia to criterio de búsqueda!"
+
+#: View/Elements/navs/usernav.ctp:6
+msgid "Around me"
+msgstr "A mi alrededor"
 
 #: View/Elements/navs/usernav.ctp:10
 msgid "All Activity"
@@ -1911,6 +2067,10 @@ msgstr "Noticias del Sitio"
 #: View/Elements/navs/usernav.ctp:39
 msgid "Admin Notifications"
 msgstr "Notificaciones"
+
+#: View/Elements/navs/usernav.ctp:48
+msgid "Buzz"
+msgstr "Conversaciones"
 
 #: View/Elements/navs/usernav.ctp:60
 #: View/Messages/index.ctp:2
@@ -1932,6 +2092,10 @@ msgstr "Blends que me gustan"
 #: View/Elements/navs/usernav.ctp:111
 msgid "Advanced Stats"
 msgstr "Estadísticas Avanzadas"
+
+#: View/Elements/navs/usernav.ctp:120
+msgid "Management"
+msgstr "Administración"
 
 #: View/Elements/navs/usernav.ctp:124
 #: View/Profiles/admin_view.ctp:94
@@ -2058,6 +2222,114 @@ msgstr "Expira"
 #: View/Keys/view.ctp:40
 msgid "Delete Key"
 msgstr "Eliminar Llave"
+
+#: View/Layouts/frontend.ctp:75
+msgid "Service"
+msgstr "Servicio"
+
+#: View/Layouts/frontend.ctp:78
+msgid "Browse All Blends"
+msgstr "Explora los Blends"
+
+#: View/Layouts/frontend.ctp:84
+msgid "Browse Blend Requests"
+msgstr "Explora los Encargos"
+
+#: View/Layouts/frontend.ctp:87
+msgid "Browse Blend Collections"
+msgstr "Explora las Colecciones"
+
+#: View/Layouts/frontend.ctp:90
+msgid "Users Index"
+msgstr "Índice de Usuarios"
+
+#: View/Layouts/frontend.ctp:101
+msgid "Accounts"
+msgstr "Cuentas"
+
+#: View/Layouts/frontend.ctp:104
+msgid "Membership"
+msgstr "Membrecía"
+
+#: View/Layouts/frontend.ctp:107
+msgid "Free Membership"
+msgstr "Membrecía Gratuita"
+
+#: View/Layouts/frontend.ctp:110
+msgid "Associate Membership"
+msgstr "Membrecía de Asociado"
+
+#: View/Layouts/frontend.ctp:113
+msgid "Deadline Membership"
+msgstr "Membrecía \"Fecha Límite\""
+
+#: View/Layouts/frontend.ctp:119
+msgid "Bandwidth Assignation"
+msgstr "Asignación de descarga"
+
+#: View/Layouts/frontend.ctp:124
+msgid "Site"
+msgstr "Sitio"
+
+#: View/Layouts/frontend.ctp:130
+msgid "Site News"
+msgstr "Noticias del Sitio"
+
+#: View/Layouts/frontend.ctp:139
+msgid "Credits"
+msgstr "Créditos"
+
+#: View/Layouts/frontend.ctp:142
+msgid "Advertising"
+msgstr "Publicidad"
+
+#: View/Layouts/frontend.ctp:147
+msgid "Connect"
+msgstr "Conecta"
+
+#: View/Layouts/frontend.ctp:177
+msgid "Get Blender"
+msgstr "Descarga Blender"
+
+#: View/Layouts/frontend.ctp:187
+msgid "Support"
+msgstr "Soporte"
+
+#: View/Layouts/frontend.ctp:200
+msgid "Access"
+msgstr "Acceso"
+
+#: View/Layouts/frontend.ctp:203
+msgid "Register"
+msgstr "Regístrate"
+
+#: View/Layouts/frontend.ctp:206
+msgid "Log in"
+msgstr "Entra"
+
+#: View/Layouts/frontend.ctp:209
+msgid "Reset Password"
+msgstr "Cambiar Contraseña"
+
+#: View/Layouts/frontend.ctp:215
+msgid "Legal"
+msgstr "Legal"
+
+#: View/Layouts/frontend.ctp:231
+msgid "Take the guided tour!"
+msgstr "Toma el paseo guiado!"
+
+#: View/Layouts/frontend.ctp:239
+msgid "Blend Swap, LLC"
+msgstr "Blend Swap, LLC"
+
+#: View/Layouts/frontend.ctp:240
+msgid "All rights reserved"
+msgstr "Todos los derechos reservados"
+
+#: View/Layouts/frontend.ctp:241
+msgid "Except where noted, all content is released under"
+msgstr "Excepto donde se denota, todo el contenido es publicado bajo"
 
 #: View/Limits/admin_add.ctp:4
 msgid "Add Limit"
@@ -2382,11 +2654,6 @@ msgstr "Reportes"
 #: View/Reports/view.ctp:42
 msgid "New Report"
 msgstr "Nuevo reporte"
-
-#: View/Reports/admin_view.ctp:2
-#: View/Reports/view.ctp:2
-msgid "Report"
-msgstr "Reporte"
 
 #: View/Reports/admin_view.ctp:24
 #: View/Reports/view.ctp:24

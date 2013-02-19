@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-17 16:00-0600\n"
+"POT-Creation-Date: 2013-02-19 11:34-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -1562,6 +1562,7 @@ msgid "Comments"
 msgstr ""
 
 #: View/Comments/admin_view.ctp:2
+#: View/Elements/bars/blend_actions.ctp:53
 #: View/Feedbacks/admin_view.ctp:2
 msgid "Comment"
 msgstr ""
@@ -1606,6 +1607,144 @@ msgstr ""
 msgid "Ask a Question!"
 msgstr ""
 
+#: View/Elements/bars/blend_actions.ctp:7
+msgid "Click to unlike this blend"
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:10
+msgid "Like"
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:13
+msgid "Add this blend to a collection"
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:16
+msgid "Add to"
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:19
+msgid "Share this"
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:20
+#: View/Elements/bars/request_actions.ctp:28
+msgid "Share"
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:38
+msgid "Click to start following comments here."
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:41
+#: View/Elements/bars/request_actions.ctp:50
+msgid "Follow"
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:45
+msgid "Click to stop following comments here."
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:48
+#: View/Elements/bars/request_actions.ctp:58
+msgid "Unfollow"
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:56
+#: View/Reports/admin_view.ctp:2
+#: View/Reports/view.ctp:2
+msgid "Report"
+msgstr ""
+
+#: View/Elements/bars/blend_actions.ctp:58
+msgid "Report an infraction on this blend."
+msgstr ""
+
+#: View/Elements/bars/owner_bar.ctp:6
+msgid "Blend Page"
+msgstr ""
+
+#: View/Elements/bars/owner_bar.ctp:12
+msgid "View the blend page as it looks published"
+msgstr ""
+
+#: View/Elements/bars/owner_bar.ctp:19
+#: View/Elements/bars/request_actions.ctp:69
+msgid "Edit Data"
+msgstr ""
+
+#: View/Elements/bars/owner_bar.ctp:25
+msgid "Edit all data and properties for this blend."
+msgstr ""
+
+#: View/Elements/bars/owner_bar.ctp:32
+msgid "Manage Files"
+msgstr ""
+
+#: View/Elements/bars/owner_bar.ctp:38
+msgid "Manage the blend file and preview images for this blend."
+msgstr ""
+
+#: View/Elements/bars/owner_bar.ctp:45
+msgid "Repack Files"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:7
+msgid "Remove from your work in progress list"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:10
+msgid "Cancel WIP"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:14
+msgid "Add to your work in progress list"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:17
+msgid "Add to WIP"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:21
+msgid "Add your Blend Response"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:24
+msgid "Submit Blend Response"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:46
+msgid "Click to start following comments here"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:54
+msgid "Click to stop following comments here"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:65
+msgid "Manage"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:75
+msgid "Manage Images"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:81
+msgid "Close Request"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:84
+msgid "This Blend Request will be closed to new answers. Are you sure?"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:86
+msgid "Re-Open Request"
+msgstr ""
+
+#: View/Elements/bars/request_actions.ctp:88
+msgid "Click here to enable answers for this Request"
+msgstr ""
+
 #: View/Elements/menus/topMenu.ctp:6
 msgid "Tour"
 msgstr ""
@@ -1624,10 +1763,12 @@ msgid "News"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:9
+#: View/Layouts/frontend.ctp:127
 msgid "About"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:10
+#: View/Layouts/frontend.ctp:136
 msgid "Contact"
 msgstr ""
 
@@ -1636,22 +1777,27 @@ msgid "More"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:16
+#: View/Layouts/frontend.ctp:174
 msgid "About Blender"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:17
+#: View/Layouts/frontend.ctp:180
 msgid "Learn Blender"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:20
+#: View/Layouts/frontend.ctp:218
 msgid "File Licensing"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:21
+#: View/Layouts/frontend.ctp:224
 msgid "Privacy Policy"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:22
+#: View/Layouts/frontend.ctp:221
 msgid "Terms of Use"
 msgstr ""
 
@@ -1826,6 +1972,7 @@ msgid "Requests closed to new responses"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:179
+#: View/Layouts/frontend.ctp:96
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
 msgstr ""
@@ -1850,14 +1997,17 @@ msgid "Find Artists"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:199
+#: View/Layouts/frontend.ctp:116
 msgid "Featured Artists"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:203
+#: View/Layouts/frontend.ctp:93
 msgid "User Badges"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:208
+#: View/Layouts/frontend.ctp:190
 msgid "Help"
 msgstr ""
 
@@ -1878,6 +2028,7 @@ msgid "All site documentation"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:217
+#: View/Layouts/frontend.ctp:193
 msgid "Known Issues"
 msgstr ""
 
@@ -1886,6 +2037,7 @@ msgid "Known issues"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:222
+#: View/Layouts/frontend.ctp:196
 msgid "Report Errors"
 msgstr ""
 
@@ -1895,6 +2047,10 @@ msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:231
 msgid "Change your search criteria!"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:6
+msgid "Around me"
 msgstr ""
 
 #: View/Elements/navs/usernav.ctp:10
@@ -1907,6 +2063,10 @@ msgstr ""
 
 #: View/Elements/navs/usernav.ctp:39
 msgid "Admin Notifications"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:48
+msgid "Buzz"
 msgstr ""
 
 #: View/Elements/navs/usernav.ctp:60
@@ -1928,6 +2088,10 @@ msgstr ""
 
 #: View/Elements/navs/usernav.ctp:111
 msgid "Advanced Stats"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:120
+msgid "Management"
 msgstr ""
 
 #: View/Elements/navs/usernav.ctp:124
@@ -2054,6 +2218,114 @@ msgstr ""
 
 #: View/Keys/view.ctp:40
 msgid "Delete Key"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:75
+msgid "Service"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:78
+msgid "Browse All Blends"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:84
+msgid "Browse Blend Requests"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:87
+msgid "Browse Blend Collections"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:90
+msgid "Users Index"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:101
+msgid "Accounts"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:104
+msgid "Membership"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:107
+msgid "Free Membership"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:110
+msgid "Associate Membership"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:113
+msgid "Deadline Membership"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:119
+msgid "Bandwidth Assignation"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:124
+msgid "Site"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:130
+msgid "Site News"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:139
+msgid "Credits"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:142
+msgid "Advertising"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:147
+msgid "Connect"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:177
+msgid "Get Blender"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:187
+msgid "Support"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:200
+msgid "Access"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:203
+msgid "Register"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:206
+msgid "Log in"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:209
+msgid "Reset Password"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:215
+msgid "Legal"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:231
+msgid "Take the guided tour!"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:239
+msgid "Blend Swap, LLC"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:240
+msgid "All rights reserved"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:241
+msgid "Except where noted, all content is released under"
 msgstr ""
 
 #: View/Limits/admin_add.ctp:4
@@ -2378,11 +2650,6 @@ msgstr ""
 #: View/Reports/admin_view.ctp:42
 #: View/Reports/view.ctp:42
 msgid "New Report"
-msgstr ""
-
-#: View/Reports/admin_view.ctp:2
-#: View/Reports/view.ctp:2
-msgid "Report"
 msgstr ""
 
 #: View/Reports/admin_view.ctp:24
