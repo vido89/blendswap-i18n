@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-19 11:34-0600\n"
+"POT-Creation-Date: 2013-02-19 15:07-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -135,10 +135,6 @@ msgstr ""
 
 #: Model/Email.php:validation for field pointer
 msgid "Only letters and underscores are allowed"
-msgstr ""
-
-#: Model/Feature.php:validation for field user_id
-msgid "Looks like this user is already featured!"
 msgstr ""
 
 #: Model/Message.php:validation for field body

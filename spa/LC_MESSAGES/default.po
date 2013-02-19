@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-02-19 11:34-0600\n"
-"PO-Revision-Date: 2013-02-19 11:42-0600\n"
+"POT-Creation-Date: 2013-02-19 15:07-0600\n"
+"PO-Revision-Date: 2013-02-19 15:15-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -57,51 +57,51 @@ msgstr "Medalla eliminada"
 msgid "Badge was not deleted"
 msgstr "La medalla no fue eliminada"
 
-#: Controller/BlendsController.php:168;1639;1663;1693
+#: Controller/BlendsController.php:167;1641;1665;1695
 msgid "Invalid blend"
 msgstr "Blend inválido"
 
-#: Controller/BlendsController.php:474
+#: Controller/BlendsController.php:476
 msgid "Thank you! Your new blend was saved and is now publicly visible!"
 msgstr "Gracias! Tu nuevo blend fue guardado y publicado!"
 
-#: Controller/BlendsController.php:476
+#: Controller/BlendsController.php:478
 msgid "There was an error saving your blend as published, please report you saw this error!"
 msgstr "Hubo un error publicando tu blend, por favor reporta que viste este error"
 
-#: Controller/BlendsController.php:480
+#: Controller/BlendsController.php:482
 msgid "Your new blend was saved and is now waiting moderation! Please be patient for an adminn to check your file."
 msgstr "Tu nuevo blend fue guardado y esta esperando a ser moderado, Por favor sé paciente y espera a que un administrador lo inspeccione."
 
-#: Controller/BlendsController.php:484
+#: Controller/BlendsController.php:486
 msgid "You blend was saved to the database, but one of the files failed to upload, please fix below the file type marked in red!"
 msgstr "Tu blend fue guardado en la base de tatos, pero uno o más de los archivos falló al subirse al servidor. Por favor sube el archivo faltante marcado en rojo."
 
-#: Controller/BlendsController.php:489
+#: Controller/BlendsController.php:491
 msgid "The blend could not be saved. Please ckeck any errors below and try again. Don't forget to re-select the files."
 msgstr "Tu blend no pudo ser guardado, por favor revisa más abajo por errores marcados en rojo. No olvides re-seleccionar los archivos."
 
-#: Controller/BlendsController.php:558
+#: Controller/BlendsController.php:560
 msgid "The requested blend does not exist."
 msgstr "Este blend no existe"
 
-#: Controller/BlendsController.php:595;1667
+#: Controller/BlendsController.php:597;1669
 msgid "The blend has been saved"
 msgstr "El blend ha sido guardado"
 
-#: Controller/BlendsController.php:597
+#: Controller/BlendsController.php:599
 msgid "ERRORS! Please check any red messages below and try again."
 msgstr "Error! Por favor revisa más abajo por errores marcados en rojo."
 
-#: Controller/BlendsController.php:1672
+#: Controller/BlendsController.php:1674
 msgid "The blend could not be saved. Please, try again."
 msgstr "El blend no pudo guardarse. Por favor intenta de nuevo."
 
-#: Controller/BlendsController.php:1696
+#: Controller/BlendsController.php:1698
 msgid "Blend deleted"
 msgstr "Blend eliminado"
 
-#: Controller/BlendsController.php:1699
+#: Controller/BlendsController.php:1701
 msgid "Blend was not deleted"
 msgstr "El blend no fue eliminado"
 
@@ -277,23 +277,23 @@ msgstr "Límite eliminado"
 msgid "Limit was not deleted"
 msgstr "el límite no fue eliminado"
 
-#: Controller/MembershipsController.php:61;108;136
+#: Controller/MembershipsController.php:61;107;135
 msgid "Invalid membership"
 msgstr "Membresías Inválida."
 
-#: Controller/MembershipsController.php:87;112
+#: Controller/MembershipsController.php:86;111
 msgid "The membership has been saved"
 msgstr "La membresías se ha guardado"
 
-#: Controller/MembershipsController.php:90;115
+#: Controller/MembershipsController.php:89;114
 msgid "The membership could not be saved. Please, try again."
 msgstr "La membresía no pudo ser guardada. Por favor intenta de nuevo."
 
-#: Controller/MembershipsController.php:139
+#: Controller/MembershipsController.php:138
 msgid "Membership deleted"
 msgstr "Membresía eliminada."
 
-#: Controller/MembershipsController.php:142
+#: Controller/MembershipsController.php:141
 msgid "Membership was not deleted"
 msgstr "La membresía no fue eliminada"
 
@@ -682,6 +682,7 @@ msgstr "Añadir Respuesta [admin]"
 #: View/Comments/admin_edit.ctp:13
 #: View/Contacts/add.ctp:93
 #: View/Contacts/admin_edit.ctp:17
+#: View/Elements/forms/commentForm.ctp:16
 #: View/Feedbacks/add.ctp:21
 #: View/Feedbacks/admin_edit.ctp:38
 #: View/Keys/add.ctp:13
@@ -1021,12 +1022,18 @@ msgstr "Editar"
 #: View/Requests/index.ctp:48
 #: View/Users/admin_index.ctp:65
 #: View/Users/featured.ctp:49
-msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total."
-msgstr "Página {:page} de {:pages}, mostrando {:current} entradas de {:count} en total."
+msgid "Page {:page} of {:pages}, showing {:current} out of {:count} total."
+msgstr "Página {:page} de {:pages}, mostrando {:current} de {:count} en total."
 
 #: View/Answers/admin_index.ctp:43
+#: View/Blends/admin_index.ctp:72
+#: View/Blends/index.ctp:32
+#: View/Blends/search.ctp:109
+#: View/Blends/user.ctp:39
 #: View/Chats/inbox.ctp:48
 #: View/Chats/index.ctp:30
+#: View/Collections/index.ctp:75
+#: View/Collections/view.ctp:36
 #: View/Comments/admin_index.ctp:83
 #: View/Contacts/admin_index.ctp:55
 #: View/Downloads/admin_index.ctp:39
@@ -1034,6 +1041,7 @@ msgstr "Página {:page} de {:pages}, mostrando {:current} entradas de {:count} e
 #: View/Keys/index.ctp:39
 #: View/Limits/admin_index.ctp:41
 #: View/Messages/index.ctp:41
+#: View/News/admin_index.ctp:55
 #: View/News/index.ctp:44
 #: View/Options/admin_index.ctp:38
 #: View/Options/admin_manage.ctp:35
@@ -1046,12 +1054,21 @@ msgstr "Página {:page} de {:pages}, mostrando {:current} entradas de {:count} e
 #: View/Requests/admin_index.ctp:50
 #: View/Requests/index.ctp:52
 #: View/Users/admin_index.ctp:71
+#: View/Users/featured.ctp:56
+#: View/Users/search.ctp:100
+#: View/Users/stats.ctp:43
 msgid "previous"
 msgstr "anterior"
 
 #: View/Answers/admin_index.ctp:45
+#: View/Blends/admin_index.ctp:74
+#: View/Blends/index.ctp:34
+#: View/Blends/search.ctp:111
+#: View/Blends/user.ctp:41
 #: View/Chats/inbox.ctp:50
 #: View/Chats/index.ctp:32
+#: View/Collections/index.ctp:77
+#: View/Collections/view.ctp:38
 #: View/Comments/admin_index.ctp:85
 #: View/Contacts/admin_index.ctp:57
 #: View/Downloads/admin_index.ctp:41
@@ -1059,6 +1076,7 @@ msgstr "anterior"
 #: View/Keys/index.ctp:41
 #: View/Limits/admin_index.ctp:43
 #: View/Messages/index.ctp:43
+#: View/News/admin_index.ctp:57
 #: View/News/index.ctp:46
 #: View/Options/admin_index.ctp:40
 #: View/Options/admin_manage.ctp:37
@@ -1071,6 +1089,9 @@ msgstr "anterior"
 #: View/Requests/admin_index.ctp:52
 #: View/Requests/index.ctp:54
 #: View/Users/admin_index.ctp:73
+#: View/Users/featured.ctp:58
+#: View/Users/search.ctp:102
+#: View/Users/stats.ctp:45
 msgid "next"
 msgstr "siguiente"
 
@@ -1255,29 +1276,25 @@ msgstr "Eliminar Blend y datos asociados"
 msgid "Blends"
 msgstr "Blends"
 
-#: View/Blends/admin_index.ctp:72
-#: View/Blends/index.ctp:32
-#: View/Blends/search.ctp:109
-#: View/Blends/user.ctp:39
-#: View/Collections/index.ctp:75
-#: View/Collections/view.ctp:36
-#: View/Users/featured.ctp:56
-#: View/Users/search.ctp:100
-#: View/Users/stats.ctp:43
-msgid " previous"
-msgstr "anterior"
+#: View/Blends/admin_index.ctp:71
+#: View/Blends/index.ctp:31
+#: View/Blends/search.ctp:108
+#: View/Collections/index.ctp:74
+#: View/Collections/view.ctp:35
+#: View/Users/featured.ctp:55
+#: View/Users/search.ctp:99
+msgid "First Page"
+msgstr "Primera Página"
 
-#: View/Blends/admin_index.ctp:74
-#: View/Blends/index.ctp:34
-#: View/Blends/search.ctp:111
-#: View/Blends/user.ctp:41
-#: View/Collections/index.ctp:77
-#: View/Collections/view.ctp:38
-#: View/Users/featured.ctp:58
-#: View/Users/search.ctp:102
-#: View/Users/stats.ctp:45
-msgid "next "
-msgstr "siguiente"
+#: View/Blends/admin_index.ctp:75
+#: View/Blends/index.ctp:35
+#: View/Blends/search.ctp:112
+#: View/Collections/index.ctp:78
+#: View/Collections/view.ctp:39
+#: View/Users/featured.ctp:59
+#: View/Users/search.ctp:103
+msgid "Last Page"
+msgstr "Última Página"
 
 #: View/Blends/admin_view.ctp:2
 #: View/Comments/admin_view.ctp:9
@@ -1343,6 +1360,7 @@ msgid "Render Preview"
 msgstr "Vista Previa"
 
 #: View/Blends/admin_view.ctp:89
+#: View/Blends/view.ctp:18
 #: View/Downloads/admin_index.ctp:2
 msgid "Downloads"
 msgstr "Descargas"
@@ -1522,9 +1540,33 @@ msgstr "ID de Colección"
 msgid "Basic data"
 msgstr "Datos básicos"
 
+#: View/Blends/index.ctp:6
+msgid "Edit Date"
+msgstr "Fecha de Edición"
+
+#: View/Blends/index.ctp:7
+msgid "Name"
+msgstr "Nombre"
+
 #: View/Blends/index.ctp:25
 msgid "Page {:page} of {:pages}, showing {:current} blends out of {:count} total."
 msgstr "Página {:page} de {:pages}, mostrando {:current} blends de {:count} en total."
+
+#: View/Blends/view.ctp:9
+msgid "Published on"
+msgstr "Publicado en"
+
+#: View/Blends/view.ctp:14
+msgid "License"
+msgstr "Licencia"
+
+#: View/Blends/view.ctp:26
+msgid "Likes"
+msgstr "Me Gusta"
+
+#: View/Blends/view.ctp:37
+msgid "The author of this blend is temporarily blocked and so we will not serve their blends, sorry for the inconvenience. "
+msgstr "El autor de este blend ha sido bloqueado temporalmente y por esto no serviremos sus archivos, perdón por la inconveniencia."
 
 #: View/Blends/rss/index.ctp:3
 msgid "Latest Blends"
@@ -1636,8 +1678,9 @@ msgid "Share"
 msgstr "Compartir"
 
 #: View/Elements/bars/blend_actions.ctp:38
-msgid "Click to start following comments here."
-msgstr "Sigue los comentarios acá"
+#: View/Elements/bars/request_actions.ctp:46
+msgid "Click to start following comments here"
+msgstr "Seguir comentarios acá"
 
 #: View/Elements/bars/blend_actions.ctp:41
 #: View/Elements/bars/request_actions.ctp:50
@@ -1645,8 +1688,9 @@ msgid "Follow"
 msgstr "Seguir"
 
 #: View/Elements/bars/blend_actions.ctp:45
-msgid "Click to stop following comments here."
-msgstr "No seguir los comentarios acá"
+#: View/Elements/bars/request_actions.ctp:54
+msgid "Click to stop following comments here"
+msgstr "Dejar de seguir comentarios acá"
 
 #: View/Elements/bars/blend_actions.ctp:48
 #: View/Elements/bars/request_actions.ctp:58
@@ -1716,14 +1760,6 @@ msgstr "Añade tu Respuesta"
 msgid "Submit Blend Response"
 msgstr "Enviar tu Respuesta"
 
-#: View/Elements/bars/request_actions.ctp:46
-msgid "Click to start following comments here"
-msgstr "Seguir comentarios acá"
-
-#: View/Elements/bars/request_actions.ctp:54
-msgid "Click to stop following comments here"
-msgstr "Dejar de seguir comentarios acá"
-
 #: View/Elements/bars/request_actions.ctp:65
 msgid "Manage"
 msgstr "Administrar"
@@ -1748,6 +1784,14 @@ msgstr "Re-abrir el Encargo"
 msgid "Click here to enable answers for this Request"
 msgstr "Habilita el Encargo para recibir más respuestas"
 
+#: View/Elements/forms/commentForm.ctp:5
+msgid "Remember to keep your %s cool, harsh %s will be removed"
+msgstr "Recuerda mantener tus %s en línea, los %s descorteses serán eliminados"
+
+#: View/Elements/forms/commentForm.ctp:6
+msgid "%s containing profanity will be queued for moderation. Please report spam."
+msgstr "los %s con palabras soeces serán retenidos para moderación."
+
 #: View/Elements/menus/topMenu.ctp:6
 msgid "Tour"
 msgstr "Paseo"
@@ -1766,12 +1810,12 @@ msgid "News"
 msgstr "Noticias"
 
 #: View/Elements/menus/topMenu.ctp:9
-#: View/Layouts/frontend.ctp:127
+#: View/Layouts/frontend.ctp:131
 msgid "About"
 msgstr "Acerca de"
 
 #: View/Elements/menus/topMenu.ctp:10
-#: View/Layouts/frontend.ctp:136
+#: View/Layouts/frontend.ctp:140
 msgid "Contact"
 msgstr "Contacto"
 
@@ -1780,27 +1824,27 @@ msgid "More"
 msgstr "Más"
 
 #: View/Elements/menus/topMenu.ctp:16
-#: View/Layouts/frontend.ctp:174
+#: View/Layouts/frontend.ctp:178
 msgid "About Blender"
 msgstr "Acerca de Blender"
 
 #: View/Elements/menus/topMenu.ctp:17
-#: View/Layouts/frontend.ctp:180
+#: View/Layouts/frontend.ctp:184
 msgid "Learn Blender"
 msgstr "Aprende Blender"
 
 #: View/Elements/menus/topMenu.ctp:20
-#: View/Layouts/frontend.ctp:218
+#: View/Layouts/frontend.ctp:222
 msgid "File Licensing"
 msgstr "Licenciado de Archivos"
 
 #: View/Elements/menus/topMenu.ctp:21
-#: View/Layouts/frontend.ctp:224
+#: View/Layouts/frontend.ctp:228
 msgid "Privacy Policy"
 msgstr "Política de Privacidad"
 
 #: View/Elements/menus/topMenu.ctp:22
-#: View/Layouts/frontend.ctp:221
+#: View/Layouts/frontend.ctp:225
 msgid "Terms of Use"
 msgstr "Términos de Uso"
 
@@ -1975,7 +2019,7 @@ msgid "Requests closed to new responses"
 msgstr "Encargos cerrados a nuevas respuestas"
 
 #: View/Elements/menus/topMenu.ctp:179
-#: View/Layouts/frontend.ctp:96
+#: View/Layouts/frontend.ctp:100
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
 msgstr "Preguntas"
@@ -2000,17 +2044,17 @@ msgid "Find Artists"
 msgstr "Encontrar Artistas"
 
 #: View/Elements/menus/topMenu.ctp:199
-#: View/Layouts/frontend.ctp:116
+#: View/Layouts/frontend.ctp:120
 msgid "Featured Artists"
 msgstr "Artistas Destacados"
 
 #: View/Elements/menus/topMenu.ctp:203
-#: View/Layouts/frontend.ctp:93
+#: View/Layouts/frontend.ctp:97
 msgid "User Badges"
 msgstr "Medallas"
 
 #: View/Elements/menus/topMenu.ctp:208
-#: View/Layouts/frontend.ctp:190
+#: View/Layouts/frontend.ctp:194
 msgid "Help"
 msgstr "Ayuda"
 
@@ -2031,7 +2075,7 @@ msgid "All site documentation"
 msgstr "Toda la documentación del sitio"
 
 #: View/Elements/menus/topMenu.ctp:217
-#: View/Layouts/frontend.ctp:193
+#: View/Layouts/frontend.ctp:197
 msgid "Known Issues"
 msgstr "Problemas Conocidos"
 
@@ -2040,7 +2084,7 @@ msgid "Known issues"
 msgstr "Problemas Conocidos"
 
 #: View/Elements/menus/topMenu.ctp:222
-#: View/Layouts/frontend.ctp:196
+#: View/Layouts/frontend.ctp:200
 msgid "Report Errors"
 msgstr "Reportar Errores"
 
@@ -2182,6 +2226,54 @@ msgstr "publicó en el blog de noticias"
 msgid "interacted with"
 msgstr "interactuó con"
 
+#: View/Helper/SingleBlendHelper.php:41
+msgid "Download"
+msgstr "Descarga"
+
+#: View/Helper/SingleBlendHelper.php:48
+msgid "Looks like this blend file is too big for your allowed bandwidth this month!"
+msgstr "Parece que este blend es más grande que lo que te queda de ancho de banda este mes!"
+
+#: View/Helper/SingleBlendHelper.php:62
+msgid "You must log in to download this blend"
+msgstr "Deber accesar al sitio para descargar este blend"
+
+#: View/Helper/SingleBlendHelper.php:107
+msgid "Latest Change"
+msgstr "Último Cambio"
+
+#: View/Helper/SingleBlendHelper.php:139
+msgid "An error ocurred while reading this license."
+msgstr "Ocurrió un error al leer al licencia de este blend."
+
+#: View/Helper/SingleBlendHelper.php:149
+msgid "It is recommended that you give credit for this blend but there's no obligation to do so"
+msgstr "Te recomendamos que dle des crédito al autor de este blend, pero no estás obligado a hacerlo"
+
+#: View/Helper/SingleBlendHelper.php:152
+msgid "You must give credit to the author of this blend"
+msgstr "Debes dar crédito al autor de este blend."
+
+#: View/Helper/SingleBlendHelper.php:155
+msgid "You must distribute any derivative works under the same license"
+msgstr "Debes distribuir cualquier derivado de este blend bajo la misma licencia."
+
+#: View/Helper/SingleBlendHelper.php:158
+msgid "You can not use this blend commercially under any circumstance"
+msgstr "No puedes usar este blend comercialmente bajo ninguna circunstancia"
+
+#: View/Helper/SingleBlendHelper.php:175
+msgid "This blend was taken down on "
+msgstr "El blend ha sido removido del índice"
+
+#: View/Helper/SingleBlendHelper.php:180
+msgid "This blend was rejected on "
+msgstr "Este blend fue rechazado en"
+
+#: View/Helper/SingleBlendHelper.php:185
+msgid "This blend is pending and is not accessible by normal users"
+msgstr "Este blend está pendiente y no es accesible para los usuarios regulares."
+
 #: View/Keys/add.ctp:4
 msgid "Add Key"
 msgstr "Añadir Llave"
@@ -2223,111 +2315,107 @@ msgstr "Expira"
 msgid "Delete Key"
 msgstr "Eliminar Llave"
 
-#: View/Layouts/frontend.ctp:75
+#: View/Layouts/frontend.ctp:79
 msgid "Service"
 msgstr "Servicio"
 
-#: View/Layouts/frontend.ctp:78
+#: View/Layouts/frontend.ctp:82
 msgid "Browse All Blends"
 msgstr "Explora los Blends"
 
-#: View/Layouts/frontend.ctp:84
+#: View/Layouts/frontend.ctp:88
 msgid "Browse Blend Requests"
 msgstr "Explora los Encargos"
 
-#: View/Layouts/frontend.ctp:87
+#: View/Layouts/frontend.ctp:91
 msgid "Browse Blend Collections"
 msgstr "Explora las Colecciones"
 
-#: View/Layouts/frontend.ctp:90
+#: View/Layouts/frontend.ctp:94
 msgid "Users Index"
 msgstr "Índice de Usuarios"
 
-#: View/Layouts/frontend.ctp:101
+#: View/Layouts/frontend.ctp:105
 msgid "Accounts"
 msgstr "Cuentas"
 
-#: View/Layouts/frontend.ctp:104
+#: View/Layouts/frontend.ctp:108
 msgid "Membership"
 msgstr "Membrecía"
 
-#: View/Layouts/frontend.ctp:107
+#: View/Layouts/frontend.ctp:111
 msgid "Free Membership"
 msgstr "Membrecía Gratuita"
 
-#: View/Layouts/frontend.ctp:110
+#: View/Layouts/frontend.ctp:114
 msgid "Associate Membership"
 msgstr "Membrecía de Asociado"
 
-#: View/Layouts/frontend.ctp:113
+#: View/Layouts/frontend.ctp:117
 msgid "Deadline Membership"
 msgstr "Membrecía \"Fecha Límite\""
 
-#: View/Layouts/frontend.ctp:119
+#: View/Layouts/frontend.ctp:123
 msgid "Bandwidth Assignation"
 msgstr "Asignación de descarga"
 
-#: View/Layouts/frontend.ctp:124
+#: View/Layouts/frontend.ctp:128
 msgid "Site"
 msgstr "Sitio"
 
-#: View/Layouts/frontend.ctp:130
+#: View/Layouts/frontend.ctp:134
 msgid "Site News"
 msgstr "Noticias del Sitio"
 
-#: View/Layouts/frontend.ctp:139
+#: View/Layouts/frontend.ctp:143
 msgid "Credits"
 msgstr "Créditos"
 
-#: View/Layouts/frontend.ctp:142
+#: View/Layouts/frontend.ctp:146
 msgid "Advertising"
 msgstr "Publicidad"
 
-#: View/Layouts/frontend.ctp:147
+#: View/Layouts/frontend.ctp:151
 msgid "Connect"
 msgstr "Conecta"
 
-#: View/Layouts/frontend.ctp:177
+#: View/Layouts/frontend.ctp:181
 msgid "Get Blender"
 msgstr "Descarga Blender"
 
-#: View/Layouts/frontend.ctp:187
+#: View/Layouts/frontend.ctp:191
 msgid "Support"
 msgstr "Soporte"
 
-#: View/Layouts/frontend.ctp:200
+#: View/Layouts/frontend.ctp:204
 msgid "Access"
 msgstr "Acceso"
 
-#: View/Layouts/frontend.ctp:203
+#: View/Layouts/frontend.ctp:207
 msgid "Register"
 msgstr "Regístrate"
 
-#: View/Layouts/frontend.ctp:206
+#: View/Layouts/frontend.ctp:210
 msgid "Log in"
 msgstr "Entra"
 
-#: View/Layouts/frontend.ctp:209
+#: View/Layouts/frontend.ctp:213
 msgid "Reset Password"
 msgstr "Cambiar Contraseña"
 
-#: View/Layouts/frontend.ctp:215
+#: View/Layouts/frontend.ctp:219
 msgid "Legal"
 msgstr "Legal"
 
-#: View/Layouts/frontend.ctp:231
+#: View/Layouts/frontend.ctp:235
 msgid "Take the guided tour!"
 msgstr "Toma el paseo guiado!"
 
-#: View/Layouts/frontend.ctp:239
-msgid "Blend Swap, LLC"
-msgstr "Blend Swap, LLC"
-
-#: View/Layouts/frontend.ctp:240
+#: View/Layouts/frontend.ctp:244
 msgid "All rights reserved"
 msgstr "Todos los derechos reservados"
 
-#: View/Layouts/frontend.ctp:241
+#: View/Layouts/frontend.ctp:245
 msgid "Except where noted, all content is released under"
 msgstr "Excepto donde se denota, todo el contenido es publicado bajo"
 
@@ -2415,14 +2503,6 @@ msgstr "Listar Noticias"
 #: View/News/admin_edit.ctp:11
 msgid "Edit News"
 msgstr "Editar Noticia"
-
-#: View/News/admin_index.ctp:55
-msgid " Previous"
-msgstr "Anterior"
-
-#: View/News/admin_index.ctp:57
-msgid "Next "
-msgstr "Siguiente"
 
 #: View/News/rss/index.ctp:3
 msgid "Latest news"
@@ -2771,3 +2851,30 @@ msgstr "Ragistrate ahora"
 msgid "Page {:page} of {:pages}, showing {:current} artists out of {:count} total."
 msgstr "Página {:page} de {:pages}, mostrando {:current} artistas de {:count} en total."
 
+#~ msgid ""
+#~ "Page {:page} of {:pages}, showing {:current} records out of {:count} "
+#~ "total."
+#~ msgstr ""
+#~ "Página {:page} de {:pages}, mostrando {:current} entradas de {:count} en "
+#~ "total."
+
+#~ msgid " previous"
+#~ msgstr "anterior"
+
+#~ msgid "next "
+#~ msgstr "siguiente"
+
+#~ msgid "Click to start following comments here."
+#~ msgstr "Sigue los comentarios acá"
+
+#~ msgid "Click to stop following comments here."
+#~ msgstr "No seguir los comentarios acá"
+
+#~ msgid "Blend Swap, LLC"
+#~ msgstr "Blend Swap, LLC"
+
+#~ msgid " Previous"
+#~ msgstr "Anterior"
+
+#~ msgid "Next "
+#~ msgstr "Siguiente"
