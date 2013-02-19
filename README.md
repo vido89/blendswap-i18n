@@ -40,6 +40,10 @@ We're covered in __Spanish__.
 * When you're done do your normal `git add .` , `git commit -m "Commit message"` and `git push` to update your fork of the translation files.
 * When you feel your translation is ready, do a pull request on github to let us merge your translation with our master repository.
 
+### What NOT to translate:
+
+* the word Blend, use your language's plural forms if you like, but keep it as blend, as not everything is a single type of asset (eg. ITALIAN: blend &amp blendi <= that's ok with us.).
+
 ### New strings.
 
 From time to time new strings will be added to the translation files. When this is the case our commits will say so. when you see new strings have been pushed up the server do the following:

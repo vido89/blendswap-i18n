@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-02-19 15:07-0600\n"
-"PO-Revision-Date: 2013-02-19 15:15-0600\n"
+"POT-Creation-Date: 2013-02-19 16:16-0600\n"
+"PO-Revision-Date: 2013-02-19 16:18-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -457,23 +457,23 @@ msgstr "Perfil eliminado"
 msgid "Profile was not deleted"
 msgstr "El perfil no fue eliminado"
 
-#: Controller/QuestionsController.php:80;187;261;293;321
+#: Controller/QuestionsController.php:80;188;262;294;322
 msgid "Invalid question"
 msgstr "Pregunta inválida"
 
-#: Controller/QuestionsController.php:167;205;275;297
+#: Controller/QuestionsController.php:168;206;276;298
 msgid "The question has been saved"
 msgstr "La Pregunta fue guardada"
 
-#: Controller/QuestionsController.php:172;208;278;300
+#: Controller/QuestionsController.php:173;209;279;301
 msgid "The question could not be saved. Please, try again."
 msgstr "La Pregunta no pudo ser guardada. Por favor intenta de nuevo."
 
-#: Controller/QuestionsController.php:324
+#: Controller/QuestionsController.php:325
 msgid "Question deleted"
 msgstr "Pregunta eliminada"
 
-#: Controller/QuestionsController.php:327
+#: Controller/QuestionsController.php:328
 msgid "Question was not deleted"
 msgstr "La Pregunta no fue eliminada"
 
@@ -682,7 +682,7 @@ msgstr "Añadir Respuesta [admin]"
 #: View/Comments/admin_edit.ctp:13
 #: View/Contacts/add.ctp:93
 #: View/Contacts/admin_edit.ctp:17
-#: View/Elements/forms/commentForm.ctp:16
+#: View/Elements/forms/commentForm.ctp:15
 #: View/Feedbacks/add.ctp:21
 #: View/Feedbacks/admin_edit.ctp:38
 #: View/Keys/add.ctp:13
@@ -1568,6 +1568,18 @@ msgstr "Me Gusta"
 msgid "The author of this blend is temporarily blocked and so we will not serve their blends, sorry for the inconvenience. "
 msgstr "El autor de este blend ha sido bloqueado temporalmente y por esto no serviremos sus archivos, perdón por la inconveniencia."
 
+#: View/Blends/view.ctp:46
+msgid "Zip file MD5 checksum"
+msgstr "Clave MD5"
+
+#: View/Blends/view.ctp:86
+msgid "comment"
+msgstr "Comentario"
+
+#: View/Blends/view.ctp:87
+msgid "comments"
+msgstr "Comentarios"
+
 #: View/Blends/rss/index.ctp:3
 msgid "Latest Blends"
 msgstr "Últimos blends"
@@ -1792,6 +1804,10 @@ msgstr "Recuerda mantener tus %s en línea, los %s descorteses serán eliminados
 msgid "%s containing profanity will be queued for moderation. Please report spam."
 msgstr "los %s con palabras soeces serán retenidos para moderación."
 
+#: View/Elements/forms/commentForm.ctp:19
+msgid "You must log in to leave a comment"
+msgstr "Deber accesar al sitio para comentar"
+
 #: View/Elements/menus/topMenu.ctp:6
 msgid "Tour"
 msgstr "Paseo"
@@ -1942,6 +1958,7 @@ msgid "Upload New Blend"
 msgstr "Subir Nuevo Blend"
 
 #: View/Elements/menus/topMenu.ctp:133
+#: View/Elements/navs/taxonomies.ctp:5
 msgid "Categories"
 msgstr "Categorías"
 
@@ -2095,6 +2112,10 @@ msgstr "Buscar Blends"
 #: View/Elements/menus/topMenu.ctp:231
 msgid "Change your search criteria!"
 msgstr "Cambia to criterio de búsqueda!"
+
+#: View/Elements/navs/taxonomies.ctp:28
+msgid "Tags"
+msgstr "Etiquetas"
 
 #: View/Elements/navs/usernav.ctp:6
 msgid "Around me"
