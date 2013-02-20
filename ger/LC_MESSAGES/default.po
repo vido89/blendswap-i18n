@@ -1959,7 +1959,7 @@ msgstr "Nachrichten"
 
 #: View/Elements/navs/usernav.ctp:68
 msgid "My Stuff"
-msgstr "My Zeug"
+msgstr "Mein Zeug"
 
 #: View/Elements/navs/usernav.ctp:88
 msgid "My Badges"
