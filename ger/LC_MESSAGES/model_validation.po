@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"Language: es_ES\n"
+"Language: de_DE\n"
 "X-Generator: Poedit 1.5.5\n"
 
 #: Model/Blend.php:validation for field title
