@@ -193,7 +193,7 @@ msgstr "Ungültiger Kommentar"
 
 #: Controller/CommentsController.php:281;342
 msgid "The comment has been saved"
-msgstr "Der Kommentar wurde gespeicher"
+msgstr "Der Kommentar wurde gespeichert"
 
 #: Controller/CommentsController.php:284;345
 msgid "The comment could not be saved. Please, try again."
