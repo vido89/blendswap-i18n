@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-02-19 16:16-0600\n"
-"PO-Revision-Date: 2013-02-19 16:18-0600\n"
+"POT-Creation-Date: 2013-02-20 19:40-0600\n"
+"PO-Revision-Date: 2013-02-20 19:56-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -565,25 +565,21 @@ msgstr "Subscripción eliminada"
 msgid "Sub was not deleted"
 msgstr "La subscripción no fue eliminada"
 
-#: Controller/TermsController.php:203;239;242;272
-msgid "Invalid term"
-msgstr "Término inválido"
+#: Controller/TermsController.php:35
+msgid "Blend Categories"
+msgstr "Categorías"
 
-#: Controller/TermsController.php:217;247
-msgid "The term has been saved"
-msgstr "El término no fue guardado"
+#: Controller/TermsController.php:48;54
+msgid "Invalid category name, these are the ones available."
+msgstr "Categoría inválida, estas son las disponibles"
 
-#: Controller/TermsController.php:220;250
-msgid "The term could not be saved. Please, try again."
-msgstr "El término no pudo ser guardado. Por favor intenta de nuevo."
+#: Controller/TermsController.php:108
+msgid "Category: %s"
+msgstr "Categoría: %s"
 
-#: Controller/TermsController.php:275
-msgid "Term deleted"
-msgstr "Término eliminado."
-
-#: Controller/TermsController.php:278
-msgid "Term was not deleted"
-msgstr "El término no fue eliminado"
+#: Controller/TermsController.php:156
+msgid "Tag: %s"
+msgstr "Etiqueta: %s"
 
 #: Controller/UserbadgesController.php:29;60;86
 msgid "Invalid userbadge"
@@ -609,7 +605,7 @@ msgstr "La Medalla no fue eliminada"
 msgid "This user does not exist on Blend Swap."
 msgstr "Este usuario no existe en Blend Swap"
 
-#: Controller/UsersController.php:320;1475;1507;1534
+#: Controller/UsersController.php:320;1482;1514;1541
 msgid "Invalid user"
 msgstr "Usuario inválido"
 
@@ -617,35 +613,35 @@ msgstr "Usuario inválido"
 msgid "Account and settings saved"
 msgstr "LA cuenta y los ajustes fueron guardados."
 
-#: Controller/UsersController.php:349
+#: Controller/UsersController.php:356
 msgid "The setting could not be saved. Please review the rrors below and try again."
 msgstr "Los ajustes no se pudieron guardar. Por favor revisa los errors marcados con rojo más abajo e intenta de nuevo."
 
-#: Controller/UsersController.php:453;568
+#: Controller/UsersController.php:460;575
 msgid "Captcha was incorrect please try again."
 msgstr "el Captcha es incorrecto, por favor intenta de nuevo"
 
-#: Controller/UsersController.php:494
+#: Controller/UsersController.php:501
 msgid "There was a problem sending your verification email. please contact the admins with your username and email so they can activate your account!"
 msgstr "Hubo un error enviando tu email de verificación. Por favor contacta con los administradores con tu usuario y email para que tu cuenta sea activada manualmente."
 
-#: Controller/UsersController.php:514
+#: Controller/UsersController.php:521
 msgid "The data entered did not validate, so the account was not created. Please correct the errors marked in red below, re-enter your password and try again."
 msgstr "Los datos ingresados no validaron. La cuenta no fue creada. Por favor corrige los errores marcados en rojo más abajo, e intenta de nuevo."
 
-#: Controller/UsersController.php:1490;1512
+#: Controller/UsersController.php:1497;1519
 msgid "The user has been saved"
 msgstr "El usuario fue guardado"
 
-#: Controller/UsersController.php:1493;1515
+#: Controller/UsersController.php:1500;1522
 msgid "The user could not be saved. Please, try again."
 msgstr "El Usuario no pudo ser guardado. Por favor intenta de nuevo."
 
-#: Controller/UsersController.php:1537
+#: Controller/UsersController.php:1544
 msgid "User deleted"
 msgstr "Usuario eliminado"
 
-#: Controller/UsersController.php:1540
+#: Controller/UsersController.php:1547
 msgid "User was not deleted"
 msgstr "El usuario no fue eliminado"
 
@@ -1184,8 +1180,117 @@ msgstr "Editar Respuesta"
 msgid "Delete Response"
 msgstr "Eliminar Respuesta"
 
-#: View/Blends/add.ctp:144
-msgid "Save new blend"
+#: View/Blends/add.ctp:37
+msgid "Basic Data"
+msgstr "Datos Básicos"
+
+#: View/Blends/add.ctp:42
+msgid "Blend Name"
+msgstr "Nombre del Blend"
+
+#: View/Blends/add.ctp:43
+#: View/Options/admin_view.ctp:19
+msgid "Description"
+msgstr "Descripción"
+
+#: View/Blends/add.ctp:43
+msgid "%d characters long min."
+msgstr "%d caracteres de largo"
+
+#: View/Blends/add.ctp:44
+msgid "3D Preview URL"
+msgstr "URL del Preview en 3D"
+
+#: View/Blends/add.ctp:44
+msgid "Optional"
+msgstr "Opcional"
+
+#: View/Blends/add.ctp:44
+msgid "Supports any %s or %s"
+msgstr "Puedes usar %s o %s"
+
+#: View/Blends/add.ctp:45
+#: View/Elements/navs/taxonomies.ctp:28
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: View/Blends/add.ctp:45
+msgid "Separated by commas"
+msgstr "Separadas por comas"
+
+#: View/Blends/add.ctp:49
+#: View/Blends/admin_view.ctp:49
+msgid "Blender Version"
+msgstr "Versión de Blender"
+
+#: View/Blends/add.ctp:50
+msgid "Choose the blender version this blend was created with"
+msgstr "Escoge la versión de Blender con la que el blend fue hecho"
+
+#: View/Blends/add.ctp:69
+msgid "Fan Art"
+msgstr "Arte Fan"
+
+#: View/Blends/add.ctp:69
+msgid "Check yes if your blend features company logos, TV or movie characters"
+msgstr "Escoge sí si tu blend presenta logos de compañías o personajes de TV o películas."
+
+#: View/Blends/add.ctp:76;119
+msgid "Learn more about"
+msgstr "Aprende más sobre"
+
+#: View/Blends/add.ctp:83
+msgid "I waive all my copyright of this blend and place it in the Public Domain"
+msgstr "Renuncio a mis derechos de autor y pongo el blend en el Dominio Público"
+
+#: View/Blends/add.ctp:84
+msgid "Users can do whatever they want with this blend, but they must give me credit"
+msgstr "Los usuarios pueden hacer lo que quieran con el blend pero deben darme crédito si lo usan."
+
+#: View/Blends/add.ctp:85
+msgid "Same as CC-BY, but users must also release their derivates under CC-BY-SA"
+msgstr "Igual que CC-BY, pero adicionalmente los trabajos derivados deben lanzarse bajo CC-BY-SA"
+
+#: View/Blends/add.ctp:91
+#: View/Elements/menus/topMenu.ctp:133
+#: View/Elements/navs/taxonomies.ctp:5
+msgid "Categories"
+msgstr "Categorías"
+
+#: View/Blends/add.ctp:94
+msgid "Chose at least 1, and up to 4 categories"
+msgstr "Escoge por lo menos 1, y hasta 4 categorías."
+
+#: View/Blends/add.ctp:118
+msgid "Blend File"
+msgstr "Fichero Blend"
+
+#: View/Blends/add.ctp:118;140
+msgid "or"
+msgstr "o"
+
+#: View/Blends/add.ctp:121
+msgid "File Management"
+msgstr "Administración de Archivos"
+
+#: View/Blends/add.ctp:124
+msgid "Rar compression is not allowed"
+msgstr "El formato de compresión Rar no está permitido."
+
+#: View/Blends/add.ctp:133;149
+msgid "Something failed above, you will have to re-select this file"
+msgstr "Algo salió mal, tendrás que seleccionar el archivo de nuevo."
+
+#: View/Blends/add.ctp:140
+msgid "Image"
+msgstr "Imagen"
+
+#: View/Blends/add.ctp:141
+msgid "Recommended: LANDSCAPE or SQUARE, PNG, 1024px wide"
+msgstr "Recomendado: APAISADO o CUADRADO, PNG, 1024 píxeles de ancho."
+
+#: View/Blends/add.ctp:156
+msgid "Save New Blend"
 msgstr "Guardar Nuevo Blend"
 
 #: View/Blends/admin_add.ctp:4
@@ -1334,10 +1439,6 @@ msgstr "URL de P3d"
 #: View/Blends/admin_view.ctp:44
 msgid "Blend License"
 msgstr "Licencia del Blend"
-
-#: View/Blends/admin_view.ctp:49
-msgid "Blender Version"
-msgstr "Versión de Blender"
 
 #: View/Blends/admin_view.ctp:54
 msgid "Ported"
@@ -1664,6 +1765,103 @@ msgstr "Nueva Descarga"
 msgid "Ask a Question!"
 msgstr "Haz una Pregunta!"
 
+#: View/Elements/placeholder.ctp:3;27
+msgid "Animation"
+msgstr "Animación"
+
+#: View/Elements/placeholder.ctp:4
+msgid "Architecture"
+msgstr "Arquitectura"
+
+#: View/Elements/placeholder.ctp:5
+msgid "Blender Themes"
+msgstr "Pieles para Blender"
+
+#: View/Elements/placeholder.ctp:6
+msgid "Brushes"
+msgstr "Pinceles"
+
+#: View/Elements/placeholder.ctp:7
+msgid "Characters"
+msgstr "Personajes"
+
+#: View/Elements/placeholder.ctp:8
+msgid "Clothes"
+msgstr "Ropa"
+
+#: View/Elements/placeholder.ctp:9
+msgid "Electronics"
+msgstr "Electrónicos"
+
+#: View/Elements/placeholder.ctp:10
+msgid "Food"
+msgstr "Comida"
+
+#: View/Elements/placeholder.ctp:11
+msgid "Furniture"
+msgstr "Muebles"
+
+#: View/Elements/placeholder.ctp:12
+msgid "Looping Patterns"
+msgstr "Patrones Repetitivos"
+
+#: View/Elements/placeholder.ctp:13
+msgid "Low Poly"
+msgstr "Low Poly"
+
+#: View/Elements/placeholder.ctp:14
+msgid "Miscellaneous Objects"
+msgstr "Objetos Misceláneos"
+
+#: View/Elements/placeholder.ctp:15
+msgid "Node Setups"
+msgstr "Arreglos de Nodos"
+
+#: View/Elements/placeholder.ctp:16
+msgid "Particles"
+msgstr "Partículas"
+
+#: View/Elements/placeholder.ctp:17
+msgid "Python Scripts"
+msgstr "Scripts Python"
+
+#: View/Elements/placeholder.ctp:18
+msgid "Real Time"
+msgstr "Tiempo Real"
+
+#: View/Elements/placeholder.ctp:19
+msgid "Rigs"
+msgstr "Esqueletos"
+
+#: View/Elements/placeholder.ctp:20
+msgid "Sci-Fi"
+msgstr "Ciencia Ficción"
+
+#: View/Elements/placeholder.ctp:21
+msgid "Simulations"
+msgstr "Simulaciones"
+
+#: View/Elements/placeholder.ctp:22
+#: View/Elements/menus/topMenu.ctp:136
+msgid "Staff Picks"
+msgstr "Selecciones del Staff"
+
+#: View/Elements/placeholder.ctp:23
+msgid "Textures"
+msgstr "Texturas"
+
+#: View/Elements/placeholder.ctp:24
+msgid "Tools"
+msgstr "Herramientas"
+
+#: View/Elements/placeholder.ctp:25
+msgid "Vehicles"
+msgstr "Vehículos"
+
+#: View/Elements/placeholder.ctp:26
+msgid "Weapons"
+msgstr "Armas"
+
 #: View/Elements/bars/blend_actions.ctp:7
 msgid "Click to unlike this blend"
 msgstr "No me gusta"
@@ -1806,7 +2004,7 @@ msgstr "los %s con palabras soeces serán retenidos para moderación."
 
 #: View/Elements/forms/commentForm.ctp:19
 msgid "You must log in to leave a comment"
-msgstr "Deber accesar al sitio para comentar"
+msgstr "Debes accesar al sitio para comentar"
 
 #: View/Elements/menus/topMenu.ctp:6
 msgid "Tour"
@@ -1958,17 +2156,8 @@ msgid "Upload New Blend"
 msgstr "Subir Nuevo Blend"
 
 #: View/Elements/menus/topMenu.ctp:133
-#: View/Elements/navs/taxonomies.ctp:5
-msgid "Categories"
-msgstr "Categorías"
-
-#: View/Elements/menus/topMenu.ctp:133
 msgid "All blend categories."
 msgstr "Todas las categrías de Blends"
-
-#: View/Elements/menus/topMenu.ctp:136
-msgid "Staff Picks"
-msgstr "Selecciones del Staff"
 
 #: View/Elements/menus/topMenu.ctp:136
 msgid "Blends selected by the admins."
@@ -2113,10 +2302,6 @@ msgstr "Buscar Blends"
 msgid "Change your search criteria!"
 msgstr "Cambia to criterio de búsqueda!"
 
-#: View/Elements/navs/taxonomies.ctp:28
-msgid "Tags"
-msgstr "Etiquetas"
-
 #: View/Elements/navs/usernav.ctp:6
 msgid "Around me"
 msgstr "A mi alrededor"
@@ -2257,7 +2442,7 @@ msgstr "Parece que este blend es más grande que lo que te queda de ancho de ban
 
 #: View/Helper/SingleBlendHelper.php:62
 msgid "You must log in to download this blend"
-msgstr "Deber accesar al sitio para descargar este blend"
+msgstr "Debes accesar al sitio para descargar este blend"
 
 #: View/Helper/SingleBlendHelper.php:107
 msgid "Latest Change"
@@ -2570,10 +2755,6 @@ msgstr "Opción"
 msgid "Value"
 msgstr "Valor"
 
-#: View/Options/admin_view.ctp:19
-msgid "Description"
-msgstr "Descripción"
-
 #: View/Options/admin_view.ctp:30
 msgid "Delete Option"
 msgstr "Eliminar Opción"
@@ -2871,6 +3052,21 @@ msgstr "Ragistrate ahora"
 #: View/Users/search.ctp:93
 msgid "Page {:page} of {:pages}, showing {:current} artists out of {:count} total."
 msgstr "Página {:page} de {:pages}, mostrando {:current} artistas de {:count} en total."
+
+#~ msgid "Invalid term"
+#~ msgstr "Término inválido"
+
+#~ msgid "The term has been saved"
+#~ msgstr "El término no fue guardado"
+
+#~ msgid "The term could not be saved. Please, try again."
+#~ msgstr "El término no pudo ser guardado. Por favor intenta de nuevo."
+
+#~ msgid "Term deleted"
+#~ msgstr "Término eliminado."
+
+#~ msgid "Term was not deleted"
+#~ msgstr "El término no fue eliminado"
 
 #~ msgid ""
 #~ "Page {:page} of {:pages}, showing {:current} records out of {:count} "

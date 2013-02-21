@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-19 16:16-0600\n"
+"POT-Creation-Date: 2013-02-20 19:40-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -562,24 +562,20 @@ msgstr ""
 msgid "Sub was not deleted"
 msgstr ""
 
-#: Controller/TermsController.php:203;239;242;272
-msgid "Invalid term"
+#: Controller/TermsController.php:35
+msgid "Blend Categories"
 msgstr ""
 
-#: Controller/TermsController.php:217;247
-msgid "The term has been saved"
+#: Controller/TermsController.php:48;54
+msgid "Invalid category name, these are the ones available."
 msgstr ""
 
-#: Controller/TermsController.php:220;250
-msgid "The term could not be saved. Please, try again."
+#: Controller/TermsController.php:108
+msgid "Category: %s"
 msgstr ""
 
-#: Controller/TermsController.php:275
-msgid "Term deleted"
-msgstr ""
-
-#: Controller/TermsController.php:278
-msgid "Term was not deleted"
+#: Controller/TermsController.php:156
+msgid "Tag: %s"
 msgstr ""
 
 #: Controller/UserbadgesController.php:29;60;86
@@ -606,7 +602,7 @@ msgstr ""
 msgid "This user does not exist on Blend Swap."
 msgstr ""
 
-#: Controller/UsersController.php:320;1475;1507;1534
+#: Controller/UsersController.php:320;1482;1514;1541
 msgid "Invalid user"
 msgstr ""
 
@@ -614,35 +610,35 @@ msgstr ""
 msgid "Account and settings saved"
 msgstr ""
 
-#: Controller/UsersController.php:349
+#: Controller/UsersController.php:356
 msgid "The setting could not be saved. Please review the rrors below and try again."
 msgstr ""
 
-#: Controller/UsersController.php:453;568
+#: Controller/UsersController.php:460;575
 msgid "Captcha was incorrect please try again."
 msgstr ""
 
-#: Controller/UsersController.php:494
+#: Controller/UsersController.php:501
 msgid "There was a problem sending your verification email. please contact the admins with your username and email so they can activate your account!"
 msgstr ""
 
-#: Controller/UsersController.php:514
+#: Controller/UsersController.php:521
 msgid "The data entered did not validate, so the account was not created. Please correct the errors marked in red below, re-enter your password and try again."
 msgstr ""
 
-#: Controller/UsersController.php:1490;1512
+#: Controller/UsersController.php:1497;1519
 msgid "The user has been saved"
 msgstr ""
 
-#: Controller/UsersController.php:1493;1515
+#: Controller/UsersController.php:1500;1522
 msgid "The user could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:1537
+#: Controller/UsersController.php:1544
 msgid "User deleted"
 msgstr ""
 
-#: Controller/UsersController.php:1540
+#: Controller/UsersController.php:1547
 msgid "User was not deleted"
 msgstr ""
 
@@ -1181,8 +1177,117 @@ msgstr ""
 msgid "Delete Response"
 msgstr ""
 
-#: View/Blends/add.ctp:144
-msgid "Save new blend"
+#: View/Blends/add.ctp:37
+msgid "Basic Data"
+msgstr ""
+
+#: View/Blends/add.ctp:42
+msgid "Blend Name"
+msgstr ""
+
+#: View/Blends/add.ctp:43
+#: View/Options/admin_view.ctp:19
+msgid "Description"
+msgstr ""
+
+#: View/Blends/add.ctp:43
+msgid "%d characters long min."
+msgstr ""
+
+#: View/Blends/add.ctp:44
+msgid "3D Preview URL"
+msgstr ""
+
+#: View/Blends/add.ctp:44
+msgid "Optional"
+msgstr ""
+
+#: View/Blends/add.ctp:44
+msgid "Supports any %s or %s"
+msgstr ""
+
+#: View/Blends/add.ctp:45
+#: View/Elements/navs/taxonomies.ctp:28
+msgid "Tags"
+msgstr ""
+
+#: View/Blends/add.ctp:45
+msgid "Separated by commas"
+msgstr ""
+
+#: View/Blends/add.ctp:49
+#: View/Blends/admin_view.ctp:49
+msgid "Blender Version"
+msgstr ""
+
+#: View/Blends/add.ctp:50
+msgid "Choose the blender version this blend was created with"
+msgstr ""
+
+#: View/Blends/add.ctp:69
+msgid "Fan Art"
+msgstr ""
+
+#: View/Blends/add.ctp:69
+msgid "Check yes if your blend features company logos, TV or movie characters"
+msgstr ""
+
+#: View/Blends/add.ctp:76;119
+msgid "Learn more about"
+msgstr ""
+
+#: View/Blends/add.ctp:83
+msgid "I waive all my copyright of this blend and place it in the Public Domain"
+msgstr ""
+
+#: View/Blends/add.ctp:84
+msgid "Users can do whatever they want with this blend, but they must give me credit"
+msgstr ""
+
+#: View/Blends/add.ctp:85
+msgid "Same as CC-BY, but users must also release their derivates under CC-BY-SA"
+msgstr ""
+
+#: View/Blends/add.ctp:91
+#: View/Elements/menus/topMenu.ctp:133
+#: View/Elements/navs/taxonomies.ctp:5
+msgid "Categories"
+msgstr ""
+
+#: View/Blends/add.ctp:94
+msgid "Chose at least 1, and up to 4 categories"
+msgstr ""
+
+#: View/Blends/add.ctp:118
+msgid "Blend File"
+msgstr ""
+
+#: View/Blends/add.ctp:118;140
+msgid "or"
+msgstr ""
+
+#: View/Blends/add.ctp:121
+msgid "File Management"
+msgstr ""
+
+#: View/Blends/add.ctp:124
+msgid "Rar compression is not allowed"
+msgstr ""
+
+#: View/Blends/add.ctp:133;149
+msgid "Something failed above, you will have to re-select this file"
+msgstr ""
+
+#: View/Blends/add.ctp:140
+msgid "Image"
+msgstr ""
+
+#: View/Blends/add.ctp:141
+msgid "Recommended: LANDSCAPE or SQUARE, PNG, 1024px wide"
+msgstr ""
+
+#: View/Blends/add.ctp:156
+msgid "Save New Blend"
 msgstr ""
 
 #: View/Blends/admin_add.ctp:4
@@ -1330,10 +1435,6 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:44
 msgid "Blend License"
-msgstr ""
-
-#: View/Blends/admin_view.ctp:49
-msgid "Blender Version"
 msgstr ""
 
 #: View/Blends/admin_view.ctp:54
@@ -1661,6 +1762,103 @@ msgstr ""
 msgid "Ask a Question!"
 msgstr ""
 
+#: View/Elements/placeholder.ctp:3;27
+msgid "Animation"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:4
+msgid "Architecture"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:5
+msgid "Blender Themes"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:6
+msgid "Brushes"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:7
+msgid "Characters"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:8
+msgid "Clothes"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:9
+msgid "Electronics"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:10
+msgid "Food"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:11
+msgid "Furniture"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:12
+msgid "Looping Patterns"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:13
+msgid "Low Poly"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:14
+msgid "Miscellaneous Objects"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:15
+msgid "Node Setups"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:16
+msgid "Particles"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:17
+msgid "Python Scripts"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:18
+msgid "Real Time"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:19
+msgid "Rigs"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:20
+msgid "Sci-Fi"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:21
+msgid "Simulations"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:22
+#: View/Elements/menus/topMenu.ctp:136
+msgid "Staff Picks"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:23
+msgid "Textures"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:24
+msgid "Tools"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:25
+msgid "Vehicles"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:26
+msgid "Weapons"
+msgstr ""
+
 #: View/Elements/bars/blend_actions.ctp:7
 msgid "Click to unlike this blend"
 msgstr ""
@@ -1955,16 +2153,7 @@ msgid "Upload New Blend"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:133
-#: View/Elements/navs/taxonomies.ctp:5
-msgid "Categories"
-msgstr ""
-
-#: View/Elements/menus/topMenu.ctp:133
 msgid "All blend categories."
-msgstr ""
-
-#: View/Elements/menus/topMenu.ctp:136
-msgid "Staff Picks"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:136
@@ -2108,10 +2297,6 @@ msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:231
 msgid "Change your search criteria!"
-msgstr ""
-
-#: View/Elements/navs/taxonomies.ctp:28
-msgid "Tags"
 msgstr ""
 
 #: View/Elements/navs/usernav.ctp:6
@@ -2565,10 +2750,6 @@ msgstr ""
 
 #: View/Options/admin_view.ctp:14
 msgid "Value"
-msgstr ""
-
-#: View/Options/admin_view.ctp:19
-msgid "Description"
 msgstr ""
 
 #: View/Options/admin_view.ctp:30

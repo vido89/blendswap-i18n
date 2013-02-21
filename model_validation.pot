@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-19 16:16-0600\n"
+"POT-Creation-Date: 2013-02-20 19:40-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -30,11 +30,11 @@ msgstr ""
 msgid "The description must be between 40 and 5000 chars long!"
 msgstr ""
 
-#: Model/Blend.php:validation for field p3d_url
+#: Model/Blend.php:validation for field three_dee
 msgid "That is not a url!"
 msgstr ""
 
-#: Model/Blend.php:validation for field p3d_url
+#: Model/Blend.php:validation for field three_dee
 msgid "That is not a supported viewer."
 msgstr ""
 
