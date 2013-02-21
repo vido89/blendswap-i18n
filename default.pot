@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-20 19:40-0600\n"
+"POT-Creation-Date: 2013-02-20 20:08-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -1762,100 +1762,124 @@ msgstr ""
 msgid "Ask a Question!"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:3;27
-msgid "Animation"
+#: View/Elements/placeholder.ctp:3
+msgid "Animals"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:4
-msgid "Architecture"
+msgid "Appliances"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:5
-msgid "Blender Themes"
+#: View/Elements/placeholder.ctp:5;33
+msgid "Animation"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:6
-msgid "Brushes"
+msgid "Architecture"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:7
-msgid "Characters"
+msgid "Blender Themes"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:8
-msgid "Clothes"
+msgid "Brushes"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:9
-msgid "Electronics"
+msgid "Characters"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:10
-msgid "Food"
+msgid "Clothes"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:11
-msgid "Furniture"
+msgid "Electronics"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:12
-msgid "Looping Patterns"
+msgid "Food"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:13
-msgid "Low Poly"
+msgid "Furniture"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:14
-msgid "Miscellaneous Objects"
+msgid "Landscapes"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:15
-msgid "Node Setups"
+msgid "Looping Patterns"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:16
-msgid "Particles"
+msgid "Low Poly"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:17
-msgid "Python Scripts"
+msgid "Miscellaneous Objects"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:18
-msgid "Real Time"
+msgid "Musical Instruments"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:19
-msgid "Rigs"
+msgid "Node Setups"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:20
-msgid "Sci-Fi"
+msgid "Particles"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:21
-msgid "Simulations"
+msgid "Plants"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:22
+msgid "Python Scripts"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:23
+msgid "Real Time"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:24
+msgid "Rigs"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:25
+msgid "Scenes"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:26
+msgid "Sci-Fi"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:27
+msgid "Simulations"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:28
 #: View/Elements/menus/topMenu.ctp:136
 msgid "Staff Picks"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:23
+#: View/Elements/placeholder.ctp:29
 msgid "Textures"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:24
+#: View/Elements/placeholder.ctp:30
 msgid "Tools"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:25
+#: View/Elements/placeholder.ctp:31
 msgid "Vehicles"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:26
+#: View/Elements/placeholder.ctp:32
 msgid "Weapons"
 msgstr ""
 

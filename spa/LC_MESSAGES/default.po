@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-02-20 19:40-0600\n"
-"PO-Revision-Date: 2013-02-20 19:56-0600\n"
+"POT-Creation-Date: 2013-02-20 20:08-0600\n"
+"PO-Revision-Date: 2013-02-20 20:08-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -1765,100 +1765,124 @@ msgstr "Nueva Descarga"
 msgid "Ask a Question!"
 msgstr "Haz una Pregunta!"
 
-#: View/Elements/placeholder.ctp:3;27
+#: View/Elements/placeholder.ctp:3
+msgid "Animals"
+msgstr "Animales"
+
+#: View/Elements/placeholder.ctp:4
+msgid "Appliances"
+msgstr "Electrodomésticos"
+
+#: View/Elements/placeholder.ctp:5;33
 msgid "Animation"
 msgstr "Animación"
 
-#: View/Elements/placeholder.ctp:4
+#: View/Elements/placeholder.ctp:6
 msgid "Architecture"
 msgstr "Arquitectura"
 
-#: View/Elements/placeholder.ctp:5
+#: View/Elements/placeholder.ctp:7
 msgid "Blender Themes"
 msgstr "Pieles para Blender"
 
-#: View/Elements/placeholder.ctp:6
+#: View/Elements/placeholder.ctp:8
 msgid "Brushes"
 msgstr "Pinceles"
 
-#: View/Elements/placeholder.ctp:7
+#: View/Elements/placeholder.ctp:9
 msgid "Characters"
 msgstr "Personajes"
 
-#: View/Elements/placeholder.ctp:8
+#: View/Elements/placeholder.ctp:10
 msgid "Clothes"
 msgstr "Ropa"
 
-#: View/Elements/placeholder.ctp:9
+#: View/Elements/placeholder.ctp:11
 msgid "Electronics"
 msgstr "Electrónicos"
 
-#: View/Elements/placeholder.ctp:10
+#: View/Elements/placeholder.ctp:12
 msgid "Food"
 msgstr "Comida"
 
-#: View/Elements/placeholder.ctp:11
+#: View/Elements/placeholder.ctp:13
 msgid "Furniture"
 msgstr "Muebles"
 
-#: View/Elements/placeholder.ctp:12
+#: View/Elements/placeholder.ctp:14
+msgid "Landscapes"
+msgstr "Paisajes"
+
+#: View/Elements/placeholder.ctp:15
 msgid "Looping Patterns"
 msgstr "Patrones Repetitivos"
 
-#: View/Elements/placeholder.ctp:13
+#: View/Elements/placeholder.ctp:16
 msgid "Low Poly"
 msgstr "Low Poly"
 
-#: View/Elements/placeholder.ctp:14
+#: View/Elements/placeholder.ctp:17
 msgid "Miscellaneous Objects"
 msgstr "Objetos Misceláneos"
 
-#: View/Elements/placeholder.ctp:15
+#: View/Elements/placeholder.ctp:18
+msgid "Musical Instruments"
+msgstr "Instrumentos Musicales"
+
+#: View/Elements/placeholder.ctp:19
 msgid "Node Setups"
 msgstr "Arreglos de Nodos"
 
-#: View/Elements/placeholder.ctp:16
+#: View/Elements/placeholder.ctp:20
 msgid "Particles"
 msgstr "Partículas"
 
-#: View/Elements/placeholder.ctp:17
+#: View/Elements/placeholder.ctp:21
+msgid "Plants"
+msgstr "Plantas"
+
+#: View/Elements/placeholder.ctp:22
 msgid "Python Scripts"
 msgstr "Scripts Python"
 
-#: View/Elements/placeholder.ctp:18
+#: View/Elements/placeholder.ctp:23
 msgid "Real Time"
 msgstr "Tiempo Real"
 
-#: View/Elements/placeholder.ctp:19
+#: View/Elements/placeholder.ctp:24
 msgid "Rigs"
 msgstr "Esqueletos"
 
-#: View/Elements/placeholder.ctp:20
+#: View/Elements/placeholder.ctp:25
+msgid "Scenes"
+msgstr "Escenas"
+
+#: View/Elements/placeholder.ctp:26
 msgid "Sci-Fi"
 msgstr "Ciencia Ficción"
 
-#: View/Elements/placeholder.ctp:21
+#: View/Elements/placeholder.ctp:27
 msgid "Simulations"
 msgstr "Simulaciones"
 
-#: View/Elements/placeholder.ctp:22
+#: View/Elements/placeholder.ctp:28
 #: View/Elements/menus/topMenu.ctp:136
 msgid "Staff Picks"
 msgstr "Selecciones del Staff"
 
-#: View/Elements/placeholder.ctp:23
+#: View/Elements/placeholder.ctp:29
 msgid "Textures"
 msgstr "Texturas"
 
-#: View/Elements/placeholder.ctp:24
+#: View/Elements/placeholder.ctp:30
 msgid "Tools"
 msgstr "Herramientas"
 
-#: View/Elements/placeholder.ctp:25
+#: View/Elements/placeholder.ctp:31
 msgid "Vehicles"
 msgstr "Vehículos"
 
-#: View/Elements/placeholder.ctp:26
+#: View/Elements/placeholder.ctp:32
 msgid "Weapons"
 msgstr "Armas"
 
