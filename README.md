@@ -8,7 +8,7 @@ We need help with
 * Portuguese
 * More languages? mainly left-to-right written langs.
 
-We're covered in __Spanish__, __Czech__, __German__.
+We're covered in __Spanish__, __German__.
 
 ## Set up
 
@@ -42,6 +42,7 @@ We're covered in __Spanish__, __Czech__, __German__.
 ### What NOT to translate:
 
 * the word Blend, use your language's plural forms if you like, but keep it as blend, as not everything is a single type of asset (eg. ITALIAN: blend &amp blendi <= that's ok with us.).
+* `%s`, `%d`, etc. These are placeholders for things that are replaced on runtime. put them where they make sense.
 
 ### New strings.
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-20 20:08-0600\n"
+"POT-Creation-Date: 2013-02-21 17:07-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,23 +14,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/AtomsController.php:31;82;108
+#: Controller/AtomsController.php:31;83;109
 msgid "Invalid atom"
 msgstr ""
 
-#: Controller/AtomsController.php:65;86
+#: Controller/AtomsController.php:66;87
 msgid "The atom has been saved"
 msgstr ""
 
-#: Controller/AtomsController.php:67;89
+#: Controller/AtomsController.php:68;90
 msgid "The atom could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/AtomsController.php:111
+#: Controller/AtomsController.php:112
 msgid "Atom deleted"
 msgstr ""
 
-#: Controller/AtomsController.php:114
+#: Controller/AtomsController.php:115
 msgid "Atom was not deleted"
 msgstr ""
 
@@ -602,43 +602,51 @@ msgstr ""
 msgid "This user does not exist on Blend Swap."
 msgstr ""
 
-#: Controller/UsersController.php:320;1482;1514;1541
+#: Controller/UsersController.php:320;1516;1548;1575
 msgid "Invalid user"
 msgstr ""
 
-#: Controller/UsersController.php:341
+#: Controller/UsersController.php:342
 msgid "Account and settings saved"
 msgstr ""
 
-#: Controller/UsersController.php:356
+#: Controller/UsersController.php:357
 msgid "The setting could not be saved. Please review the rrors below and try again."
 msgstr ""
 
-#: Controller/UsersController.php:460;575
+#: Controller/UsersController.php:390
+msgid "Your username was changed. you must use it to log in from now on."
+msgstr ""
+
+#: Controller/UsersController.php:397
+msgid "The username you enteres is not valid, please check the rules again."
+msgstr ""
+
+#: Controller/UsersController.php:494;609
 msgid "Captcha was incorrect please try again."
 msgstr ""
 
-#: Controller/UsersController.php:501
+#: Controller/UsersController.php:535
 msgid "There was a problem sending your verification email. please contact the admins with your username and email so they can activate your account!"
 msgstr ""
 
-#: Controller/UsersController.php:521
+#: Controller/UsersController.php:555
 msgid "The data entered did not validate, so the account was not created. Please correct the errors marked in red below, re-enter your password and try again."
 msgstr ""
 
-#: Controller/UsersController.php:1497;1519
+#: Controller/UsersController.php:1531;1553
 msgid "The user has been saved"
 msgstr ""
 
-#: Controller/UsersController.php:1500;1522
+#: Controller/UsersController.php:1534;1556
 msgid "The user could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:1544
+#: Controller/UsersController.php:1578
 msgid "User deleted"
 msgstr ""
 
-#: Controller/UsersController.php:1547
+#: Controller/UsersController.php:1581
 msgid "User was not deleted"
 msgstr ""
 
@@ -1178,6 +1186,7 @@ msgid "Delete Response"
 msgstr ""
 
 #: View/Blends/add.ctp:37
+#: View/Users/edit.ctp:14
 msgid "Basic Data"
 msgstr ""
 
@@ -1520,6 +1529,7 @@ msgstr ""
 #: View/Blends/admin_view.ctp:146
 #: View/Comments/admin_view.ctp:14
 #: View/Feedbacks/admin_view.ctp:24
+#: View/Users/edit.ctp:20
 msgid "Username"
 msgstr ""
 
@@ -1770,7 +1780,7 @@ msgstr ""
 msgid "Appliances"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:5;33
+#: View/Elements/placeholder.ctp:5;34
 msgid "Animation"
 msgstr ""
 
@@ -1819,67 +1829,71 @@ msgid "Low Poly"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:17
-msgid "Miscellaneous Objects"
+msgid "Materials"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:18
-msgid "Musical Instruments"
+msgid "Miscellaneous Objects"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:19
-msgid "Node Setups"
+msgid "Musical Instruments"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:20
-msgid "Particles"
+msgid "Node Setups"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:21
-msgid "Plants"
+msgid "Particles"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:22
-msgid "Python Scripts"
+msgid "Plants"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:23
-msgid "Real Time"
+msgid "Python Scripts"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:24
-msgid "Rigs"
+msgid "Real Time"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:25
-msgid "Scenes"
+msgid "Rigs"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:26
-msgid "Sci-Fi"
+msgid "Scenes"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:27
-msgid "Simulations"
+msgid "Sci-Fi"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:28
+msgid "Simulations"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:29
 #: View/Elements/menus/topMenu.ctp:136
 msgid "Staff Picks"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:29
+#: View/Elements/placeholder.ctp:30
 msgid "Textures"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:30
+#: View/Elements/placeholder.ctp:31
 msgid "Tools"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:31
+#: View/Elements/placeholder.ctp:32
 msgid "Vehicles"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:32
+#: View/Elements/placeholder.ctp:33
 msgid "Weapons"
 msgstr ""
 
@@ -2405,51 +2419,55 @@ msgstr ""
 msgid "gives you a warm welcome!"
 msgstr ""
 
-#: View/Helper/DashboardHelper.php:88;92;96
+#: View/Helper/DashboardHelper.php:88;92;100
 msgid "Admin Notice:"
 msgstr ""
 
-#: View/Helper/DashboardHelper.php:100
-msgid "left a comment on"
+#: View/Helper/DashboardHelper.php:96
+msgid "Associates Only: "
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:104
-msgid "answered the question"
+msgid "left a comment on"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:108
-msgid "asked a new question:"
+msgid "answered the question"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:112
-msgid "started following you"
+msgid "asked a new question:"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:116
-msgid "mentioned you on a comment"
+msgid "started following you"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:120
-msgid "published the new blend"
+msgid "mentioned you on a comment"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:124
-msgid "published the new blend:"
+msgid "published the new blend"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:128
-msgid "likes the blend"
+msgid "published the new blend:"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:132
+msgid "likes the blend"
+msgstr ""
+
+#: View/Helper/DashboardHelper.php:136
 msgid "collected the blend"
 msgstr ""
 
-#: View/Helper/DashboardHelper.php:136;140
+#: View/Helper/DashboardHelper.php:140;144
 msgid "published a news update"
 msgstr ""
 
-#: View/Helper/DashboardHelper.php:144
+#: View/Helper/DashboardHelper.php:148
 msgid "interacted with"
 msgstr ""
 
@@ -3054,6 +3072,86 @@ msgstr ""
 msgid "Sign Me Up"
 msgstr ""
 
+#: View/Users/edit.ctp:8
+msgid "&larr; Don't see your avatar?"
+msgstr ""
+
+#: View/Users/edit.ctp:9
+msgid "Get an account (or link your email below) on %s"
+msgstr ""
+
+#: View/Users/edit.ctp:16
+msgid "Your real name will be publicly visible if you enter it, your email will be kept private"
+msgstr ""
+
+#: View/Users/edit.ctp:22
+msgid "Wanna change it?"
+msgstr ""
+
+#: View/Users/edit.ctp:31
+msgid "Make sure this email is a permanent address so you can get email notifications and reset your password in case it's needed."
+msgstr ""
+
+#: View/Users/edit.ctp:38
+msgid "Notification Settings"
+msgstr ""
+
+#: View/Users/edit.ctp:41
+msgid "Send me email notifications when"
+msgstr ""
+
+#: View/Users/edit.ctp:44
+msgid "My blends are published"
+msgstr ""
+
+#: View/Users/edit.ctp:45
+msgid "My blends are added to a public collection."
+msgstr ""
+
+#: View/Users/edit.ctp:46
+msgid "My blends are added to Staff Picks"
+msgstr ""
+
+#: View/Users/edit.ctp:47
+msgid "Another user sends me a message"
+msgstr ""
+
+#: View/Users/edit.ctp:48
+msgid "I get a new User Badge"
+msgstr ""
+
+#: View/Users/edit.ctp:55
+msgid "More Settings"
+msgstr ""
+
+#: View/Users/edit.ctp:66
+msgid "Preferred Language"
+msgstr ""
+
+#: View/Users/edit.ctp:77
+msgid "Associate Members"
+msgstr ""
+
+#: View/Users/edit.ctp:78
+msgid "can set the amount of Blends per index page up to 60"
+msgstr ""
+
+#: View/Users/edit.ctp:89
+msgid "20 blends per page (default)"
+msgstr ""
+
+#: View/Users/edit.ctp:90
+msgid "40 blends per page"
+msgstr ""
+
+#: View/Users/edit.ctp:91
+msgid "60 blends per page"
+msgstr ""
+
+#: View/Users/edit.ctp:134
+msgid "Save Changes"
+msgstr ""
+
 #: View/Users/login.ctp:16
 msgid "Problems logging in?"
 msgstr ""
@@ -3072,5 +3170,17 @@ msgstr ""
 
 #: View/Users/search.ctp:93
 msgid "Page {:page} of {:pages}, showing {:current} artists out of {:count} total."
+msgstr ""
+
+#: View/Users/username.ctp:7
+msgid "Change your username"
+msgstr ""
+
+#: View/Users/username.ctp:22
+msgid "Your current username is %s"
+msgstr ""
+
+#: View/Users/username.ctp:24
+msgid "Enter your desired username to check if it is available"
 msgstr ""
 
