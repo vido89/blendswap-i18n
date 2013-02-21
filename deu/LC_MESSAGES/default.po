@@ -2074,7 +2074,7 @@ msgstr ""
 
 #: View/Helper/SingleBlendHelper.php:62
 msgid "You must log in to download this blend"
-msgstr "Se müssen sich einloffen um diese Blend runterzuladen"
+msgstr "Se müssen sich einloggen um diese Blend runterzuladen"
 
 #: View/Helper/SingleBlendHelper.php:107
 msgid "Latest Change"
