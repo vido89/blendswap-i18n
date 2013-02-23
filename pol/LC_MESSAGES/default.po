@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-20 20:08-0600\n"
-"PO-Revision-Date: 2013-02-23 15:22+0100\n"
+"PO-Revision-Date: 2013-02-24 00:25+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -38,23 +38,23 @@ msgstr "Atom nie został usunięty"
 
 #: Controller/BadgesController.php:35;76;107;133
 msgid "Invalid badge"
-msgstr "Niepoprawna plakietka (błąd)"
+msgstr "Niepoprawna odznaka (błąd)"
 
 #: Controller/BadgesController.php:90;111
 msgid "The badge has been saved"
-msgstr "Plakietka została zapisana"
+msgstr "Odznaka została zapisana"
 
 #: Controller/BadgesController.php:93;114
 msgid "The badge could not be saved. Please, try again."
-msgstr "Plakietka nie może zostać zapisana. Proszę spróbować ponownie."
+msgstr "Odznaka nie może zostać zapisana. Proszę spróbować ponownie."
 
 #: Controller/BadgesController.php:136
 msgid "Badge deleted"
-msgstr "Plakietka usunięta"
+msgstr "Odznaka usunięta"
 
 #: Controller/BadgesController.php:139
 msgid "Badge was not deleted"
-msgstr "Plakietka nie została usunięta"
+msgstr "Odznaka nie została usunięta"
 
 #: Controller/BlendsController.php:167;1641;1665;1695
 msgid "Invalid blend"
@@ -62,7 +62,7 @@ msgstr "Niepoprawny blend (błąd)"
 
 #: Controller/BlendsController.php:476
 msgid "Thank you! Your new blend was saved and is now publicly visible!"
-msgstr "Dziękujemy! Twój nowy plik blend został zapisany i jest teraz opublikowany!"
+msgstr "Dziękujemy! Twój nowy blend został zapisany i jest teraz opublikowany!"
 
 #: Controller/BlendsController.php:478
 msgid "There was an error saving your blend as published, please report you saw this error!"
@@ -706,7 +706,7 @@ msgstr "Admin dodaje odpowiedź"
 #: View/Users/admin_add.ctp:25
 #: View/Users/admin_edit.ctp:26
 msgid "Submit"
-msgstr "Zatwierdź"
+msgstr "Wyślij"
 
 #: View/Answers/admin_add.ctp:14
 #: View/Answers/admin_edit.ctp:15
@@ -1053,7 +1053,7 @@ msgstr "Strona {:page} z {:pages}, wyświetlono {:current} z {:count} wszystkich
 #: View/Users/search.ctp:100
 #: View/Users/stats.ctp:43
 msgid "previous"
-msgstr "poprzedni"
+msgstr "poprzednia"
 
 #: View/Answers/admin_index.ctp:45
 #: View/Blends/admin_index.ctp:74
@@ -1088,7 +1088,7 @@ msgstr "poprzedni"
 #: View/Users/search.ctp:102
 #: View/Users/stats.ctp:45
 msgid "next"
-msgstr "następny"
+msgstr "następna"
 
 #: View/Answers/admin_index.ctp:52
 #: View/Answers/admin_view.ctp:42
@@ -1159,7 +1159,7 @@ msgstr "Użytkownik"
 #: View/Answers/admin_view.ctp:24
 #: View/Requests/admin_view.ctp:2
 msgid "Request"
-msgstr "Request"
+msgstr "Tematy"
 
 #: View/Answers/admin_view.ctp:29
 #: View/Blends/admin_view.ctp:29;151
@@ -1246,7 +1246,7 @@ msgstr "Zrzekam się do praw autorskich tego blendu i umieszczam go na stronie"
 # Według wytycznych creativecommons.pl
 #: View/Blends/add.ctp:84
 msgid "Users can do whatever they want with this blend, but they must give me credit"
-msgstr "Uznanie autorstwa 3.0 Polska"
+msgstr "Uznanie autorstwa 3.0 Polska (CC BY 3.0 PL)"
 
 # Według wytycznych creativecommons.pl
 #: View/Blends/add.ctp:85
@@ -1285,7 +1285,7 @@ msgstr "Coś się popsuło, musisz ponownie wybrać plik"
 
 #: View/Blends/add.ctp:140
 msgid "Image"
-msgstr "Obrazek"
+msgstr "Obraz"
 
 #: View/Blends/add.ctp:141
 msgid "Recommended: LANDSCAPE or SQUARE, PNG, 1024px wide"
@@ -1381,7 +1381,7 @@ msgstr "Usuń Blend i związane z nim dane"
 #: View/Elements/menus/topMenu.ctp:124
 #: View/Elements/navs/usernav.ctp:17
 msgid "Blends"
-msgstr "Blends"
+msgstr "Blendy"
 
 #: View/Blends/admin_index.ctp:71
 #: View/Blends/index.ctp:31
@@ -1440,7 +1440,7 @@ msgstr "P3d Url"
 
 #: View/Blends/admin_view.ctp:44
 msgid "Blend License"
-msgstr "Blend Licencja"
+msgstr "Wybierz licencje"
 
 #: View/Blends/admin_view.ctp:54
 msgid "Ported"
@@ -1448,7 +1448,7 @@ msgstr "Przeniesione"
 
 #: View/Blends/admin_view.ctp:69
 msgid "Publish Date"
-msgstr "Data publikacji"
+msgstr "Daty publikacji"
 
 #: View/Blends/admin_view.ctp:74
 msgid "Change Log"
@@ -1466,7 +1466,7 @@ msgstr "Podgląd renderu"
 #: View/Blends/view.ctp:18
 #: View/Downloads/admin_index.ctp:2
 msgid "Downloads"
-msgstr "Pobierz"
+msgstr "Pobrań"
 
 #: View/Blends/admin_view.ctp:94
 msgid "Fav Count"
@@ -1645,7 +1645,7 @@ msgstr "Podstawowe dane"
 
 #: View/Blends/index.ctp:6
 msgid "Edit Date"
-msgstr "Edytuj datę"
+msgstr "Daty edycji"
 
 #: View/Blends/index.ctp:7
 msgid "Name"
@@ -1894,7 +1894,7 @@ msgstr "Kliknij, aby przestać lubić ten plik blend"
 
 #: View/Elements/bars/blend_actions.ctp:10
 msgid "Like"
-msgstr "Lubie"
+msgstr "Lubię"
 
 #: View/Elements/bars/blend_actions.ctp:13
 msgid "Add this blend to a collection"
@@ -1937,7 +1937,7 @@ msgstr "Przestań obserwować"
 #: View/Reports/admin_view.ctp:2
 #: View/Reports/view.ctp:2
 msgid "Report"
-msgstr "Raport"
+msgstr "Zgłoś"
 
 #: View/Elements/bars/blend_actions.ctp:58
 msgid "Report an infraction on this blend."
@@ -1945,11 +1945,11 @@ msgstr "Zgłoś wykroczenie w tym Blendzie"
 
 #: View/Elements/bars/owner_bar.ctp:6
 msgid "Blend Page"
-msgstr "Blend strona"
+msgstr "Strona Blendu"
 
 #: View/Elements/bars/owner_bar.ctp:12
 msgid "View the blend page as it looks published"
-msgstr "Zobacz stronę blend, jak wygląda opublikowana"
+msgstr "Zobacz stronę blendu, jak wygląda opublikowana"
 
 #: View/Elements/bars/owner_bar.ctp:19
 #: View/Elements/bars/request_actions.ctp:69
@@ -1962,7 +1962,7 @@ msgstr "Edytuj wszystkie dane i właściwości tego blendu."
 
 #: View/Elements/bars/owner_bar.ctp:32
 msgid "Manage Files"
-msgstr "zarządzaj plikami"
+msgstr "Zarządzaj plikami"
 
 #: View/Elements/bars/owner_bar.ctp:38
 msgid "Manage the blend file and preview images for this blend."
@@ -2034,11 +2034,11 @@ msgstr "Musisz się zalogować, aby dodać komentarz"
 
 #: View/Elements/menus/topMenu.ctp:6
 msgid "Tour"
-msgstr "wycieczka"
+msgstr "Zapoznaj się"
 
 #: View/Elements/menus/topMenu.ctp:7
 msgid "Faq"
-msgstr "Faq"
+msgstr "FAQ"
 
 #: View/Elements/menus/topMenu.ctp:7;211
 msgid "Frequently asked questions (and answers)"
@@ -2071,12 +2071,12 @@ msgstr "O Blenderze"
 #: View/Elements/menus/topMenu.ctp:17
 #: View/Layouts/frontend.ctp:184
 msgid "Learn Blender"
-msgstr "Poznaj Blendera"
+msgstr "Naucz się Blendera"
 
 #: View/Elements/menus/topMenu.ctp:20
 #: View/Layouts/frontend.ctp:222
 msgid "File Licensing"
-msgstr "Licencjonowanie pliku"
+msgstr "Typy licencji"
 
 #: View/Elements/menus/topMenu.ctp:21
 #: View/Layouts/frontend.ctp:228
@@ -2094,7 +2094,7 @@ msgstr "Nasz kanał RSS"
 
 #: View/Elements/menus/topMenu.ctp:31
 msgid "Latest activity"
-msgstr "Ostatnia aktywność"
+msgstr "Home"
 
 #: View/Elements/menus/topMenu.ctp:33;35
 #: View/Elements/navs/usernav.ctp:72
@@ -2104,7 +2104,7 @@ msgstr "Mój profil"
 #: View/Elements/menus/topMenu.ctp:36
 #: View/Elements/navs/usernav.ctp:79
 msgid "My Blends"
-msgstr "Moje Blendy"
+msgstr "Moje blendy"
 
 #: View/Elements/menus/topMenu.ctp:37
 #: View/Elements/navs/usernav.ctp:103
@@ -2137,7 +2137,7 @@ msgstr "Stan transferu na ten miesiąc"
 
 #: View/Elements/menus/topMenu.ctp:76
 msgid "Bandwidth for"
-msgstr "Transfer dla"
+msgstr "Transfer na"
 
 #: View/Elements/menus/topMenu.ctp:82
 msgid "Allowed"
@@ -2151,7 +2151,7 @@ msgstr "Pozostało"
 #: View/Elements/menus/topMenu.ctp:90
 #: View/Limits/admin_view.ctp:34
 msgid "Spent"
-msgstr "Zużyto"
+msgstr "Wyczerpano"
 
 #: View/Elements/menus/topMenu.ctp:97
 msgid "Get more bandwidth!"
@@ -2191,7 +2191,7 @@ msgstr "Prace Blend wybrane przez adminów."
 
 #: View/Elements/menus/topMenu.ctp:139
 msgid "Blend Collections"
-msgstr "Blend kolekcja"
+msgstr "Blend kolekcje"
 
 #: View/Elements/menus/topMenu.ctp:139
 msgid "Publicly visible Blend Collections by our users."
@@ -2236,19 +2236,19 @@ msgstr "Stwórz nowy temat"
 
 #: View/Elements/menus/topMenu.ctp:167
 msgid "Open Requests"
-msgstr "Temat otwarty"
+msgstr "Tematy otwarte"
 
 #: View/Elements/menus/topMenu.ctp:167
 msgid "Requests still open to responses"
-msgstr "Temat otwarty  na nowe odpowiedzi"
+msgstr "Tematy otwarte na nowe odpowiedzi"
 
 #: View/Elements/menus/topMenu.ctp:170
 msgid "Closed Requests"
-msgstr "Temat zamknięty"
+msgstr "Tematy zamknięte"
 
 #: View/Elements/menus/topMenu.ctp:170
 msgid "Requests closed to new responses"
-msgstr "Temat zamknięty dla nowych odpowiedzi"
+msgstr "Tematy zamknięte na nowe odpowiedzi"
 
 #: View/Elements/menus/topMenu.ctp:179
 #: View/Layouts/frontend.ctp:100
@@ -2260,11 +2260,11 @@ msgstr "Pytania"
 #: View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
 msgid "New Question"
-msgstr "Nowe pytanie"
+msgstr "Zadaj pytanie"
 
 #: View/Elements/menus/topMenu.ctp:183
 msgid "Create a new Question"
-msgstr "Stwórz nowe pytanie"
+msgstr "Zadaj nowe pytanie"
 
 #: View/Elements/menus/topMenu.ctp:193
 #: View/Users/admin_index.ctp:2
@@ -2278,12 +2278,12 @@ msgstr "Znajdź artystę"
 #: View/Elements/menus/topMenu.ctp:199
 #: View/Layouts/frontend.ctp:120
 msgid "Featured Artists"
-msgstr "Rekomendowani artyści"
+msgstr "Artyści miesiąca"
 
 #: View/Elements/menus/topMenu.ctp:203
 #: View/Layouts/frontend.ctp:97
 msgid "User Badges"
-msgstr "Plakietki użytkownika"
+msgstr "Odznaki użytkowników"
 
 #: View/Elements/menus/topMenu.ctp:208
 #: View/Layouts/frontend.ctp:194
@@ -2300,11 +2300,11 @@ msgstr "FAQ"
 
 #: View/Elements/menus/topMenu.ctp:214
 msgid "All Documentation"
-msgstr "Wszystkie dokumenty"
+msgstr "Mapa serwisu"
 
 #: View/Elements/menus/topMenu.ctp:214
 msgid "All site documentation"
-msgstr "Cała dokumentacja strony"
+msgstr "Mapa serwisu"
 
 #: View/Elements/menus/topMenu.ctp:217
 #: View/Layouts/frontend.ctp:197
@@ -2322,7 +2322,7 @@ msgstr "Zgłoś błąd"
 
 #: View/Elements/menus/topMenu.ctp:230;231
 msgid "Search Blends"
-msgstr "Szukaj plików Blend"
+msgstr "Szukaj..."
 
 #: View/Elements/menus/topMenu.ctp:231
 msgid "Change your search criteria!"
@@ -2342,7 +2342,7 @@ msgstr "Aktualności na Blogu"
 
 #: View/Elements/navs/usernav.ctp:39
 msgid "Admin Notifications"
-msgstr "Powiadomienia admina"
+msgstr "Powiadomienia Admina"
 
 #: View/Elements/navs/usernav.ctp:48
 msgid "Buzz"
@@ -2351,19 +2351,19 @@ msgstr "Buzz"
 #: View/Elements/navs/usernav.ctp:60
 #: View/Messages/index.ctp:2
 msgid "Messages"
-msgstr "Wiadomość"
+msgstr "Wiadomości"
 
 #: View/Elements/navs/usernav.ctp:68
 msgid "My Stuff"
-msgstr "Moje rzeczy"
+msgstr "Moje konto"
 
 #: View/Elements/navs/usernav.ctp:88
 msgid "My Badges"
-msgstr "Moje plakietki"
+msgstr "Moje odznaki"
 
 #: View/Elements/navs/usernav.ctp:96
 msgid "My Likes"
-msgstr "Moje lubiane"
+msgstr "Moje ulubione"
 
 #: View/Elements/navs/usernav.ctp:111
 msgid "Advanced Stats"
@@ -2553,19 +2553,19 @@ msgstr "Serwis"
 
 #: View/Layouts/frontend.ctp:82
 msgid "Browse All Blends"
-msgstr "Przeszukaj wszystkie pliki blend"
+msgstr "Pokaż nowe blendy"
 
 #: View/Layouts/frontend.ctp:88
 msgid "Browse Blend Requests"
-msgstr "Browse Blend Requests"
+msgstr "Pokaż nowe tematy"
 
 #: View/Layouts/frontend.ctp:91
 msgid "Browse Blend Collections"
-msgstr "Znajdź kolekcje blend"
+msgstr "Pokaż nowe kolekcje"
 
 #: View/Layouts/frontend.ctp:94
 msgid "Users Index"
-msgstr "Profil użytkownika"
+msgstr "Aktywni użytkownicy"
 
 #: View/Layouts/frontend.ctp:105
 msgid "Accounts"
@@ -2581,7 +2581,7 @@ msgstr "Wolne członkostwo"
 
 #: View/Layouts/frontend.ctp:114
 msgid "Associate Membership"
-msgstr "Przyjęcie do członkostwa"
+msgstr "Zalety członkostwa"
 
 #: View/Layouts/frontend.ctp:117
 msgid "Deadline Membership"
@@ -2589,7 +2589,7 @@ msgstr "Ostateczny termin członkostwa "
 
 #: View/Layouts/frontend.ctp:123
 msgid "Bandwidth Assignation"
-msgstr "Bandwidth Assignation"
+msgstr "Typy kont użytkownika"
 
 #: View/Layouts/frontend.ctp:128
 msgid "Site"
@@ -2601,7 +2601,7 @@ msgstr "Aktualności"
 
 #: View/Layouts/frontend.ctp:143
 msgid "Credits"
-msgstr "Twórcy"
+msgstr "Historia serwisu"
 
 #: View/Layouts/frontend.ctp:146
 msgid "Advertising"
@@ -2609,7 +2609,7 @@ msgstr "Reklama"
 
 #: View/Layouts/frontend.ctp:151
 msgid "Connect"
-msgstr "Połącz"
+msgstr "Dołącz"
 
 #: View/Layouts/frontend.ctp:181
 msgid "Get Blender"
@@ -2645,7 +2645,7 @@ msgstr "Zapoznaj się z Blend Swap!"
 
 #: View/Layouts/frontend.ctp:244
 msgid "All rights reserved"
-msgstr "Wszelkie prawa zastrzeżone"
+msgstr "All rights reserved"
 
 #: View/Layouts/frontend.ctp:245
 msgid "Except where noted, all content is released under"
