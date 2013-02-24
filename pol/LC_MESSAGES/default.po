@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-20 20:08-0600\n"
-"PO-Revision-Date: 2013-02-24 02:13+0100\n"
+"PO-Revision-Date: 2013-02-24 13:16+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1131,7 +1131,7 @@ msgstr "Id"
 #: View/Reports/view.ctp:9
 #: View/Requests/admin_view.ctp:9;60
 msgid "Created"
-msgstr "Stworzony"
+msgstr "Kolejność dodania"
 
 #: View/Answers/admin_view.ctp:14
 #: View/Blends/admin_view.ctp:64;156;238;339
@@ -1159,7 +1159,7 @@ msgstr "Użytkownik"
 #: View/Answers/admin_view.ctp:24
 #: View/Requests/admin_view.ctp:2
 msgid "Request"
-msgstr "Tematy"
+msgstr "Temat"
 
 #: View/Answers/admin_view.ctp:29
 #: View/Blends/admin_view.ctp:29;151
@@ -1448,7 +1448,7 @@ msgstr "Przeniesione"
 
 #: View/Blends/admin_view.ctp:69
 msgid "Publish Date"
-msgstr "Daty publikacji"
+msgstr "Data publikacji"
 
 #: View/Blends/admin_view.ctp:74
 msgid "Change Log"
@@ -1645,11 +1645,11 @@ msgstr "Podstawowe dane"
 
 #: View/Blends/index.ctp:6
 msgid "Edit Date"
-msgstr "Daty edycji"
+msgstr "Data edycji"
 
 #: View/Blends/index.ctp:7
 msgid "Name"
-msgstr "Nazwa"
+msgstr "Alfabetycznie"
 
 #: View/Blends/index.ctp:25
 msgid "Page {:page} of {:pages}, showing {:current} blends out of {:count} total."
@@ -2047,7 +2047,7 @@ msgstr "Najczęściej zadawane pytania (i odpowiedzi)"
 #: View/Elements/menus/topMenu.ctp:8
 #: View/News/admin_index.ctp:3
 msgid "News"
-msgstr "Aktualność"
+msgstr "Nowości"
 
 #: View/Elements/menus/topMenu.ctp:9
 #: View/Layouts/frontend.ctp:131
@@ -2228,7 +2228,7 @@ msgstr "Kanał RSS"
 #: View/Elements/menus/topMenu.ctp:158
 #: View/Requests/admin_index.ctp:2
 msgid "Requests"
-msgstr "Requests"
+msgstr "Tematy"
 
 #: View/Elements/menus/topMenu.ctp:162
 msgid "Create a new blend Request"
@@ -2269,7 +2269,7 @@ msgstr "Zadaj nowe pytanie"
 #: View/Elements/menus/topMenu.ctp:193
 #: View/Users/admin_index.ctp:2
 msgid "Users"
-msgstr "Użytkownik"
+msgstr "Użytkownicy"
 
 #: View/Elements/menus/topMenu.ctp:196
 msgid "Find Artists"
@@ -2338,7 +2338,7 @@ msgstr "Cała aktywność"
 
 #: View/Elements/navs/usernav.ctp:32
 msgid "Site News Blog"
-msgstr "Aktualności na Blogu"
+msgstr "Nowości na Blogu"
 
 #: View/Elements/navs/usernav.ctp:39
 msgid "Admin Notifications"
@@ -2412,7 +2412,7 @@ msgstr "gives you a warm welcome!"
 
 #: View/Helper/DashboardHelper.php:88;92;96
 msgid "Admin Notice:"
-msgstr "Posty Admina:"
+msgstr "Post Admina:"
 
 #: View/Helper/DashboardHelper.php:100
 msgid "left a comment on"
@@ -2436,11 +2436,11 @@ msgstr "wspomniał o tobie w komentarzach"
 
 #: View/Helper/DashboardHelper.php:120
 msgid "published the new blend"
-msgstr "opublikowano nowy blend"
+msgstr "opublikował nowy blend"
 
 #: View/Helper/DashboardHelper.php:124
 msgid "published the new blend:"
-msgstr "opublikowano nowy blend:"
+msgstr "opublikował nowy blend:"
 
 #: View/Helper/DashboardHelper.php:128
 msgid "likes the blend"
@@ -3025,7 +3025,7 @@ msgstr "Edytuj użytkownika"
 
 #: View/Users/add.ctp:174
 msgid "Sign me up!"
-msgstr "Zarejestruj mnie!"
+msgstr "Dodaj mnie!"
 
 #: View/Users/admin_add.ctp:4
 msgid "Admin Add User"
@@ -3057,7 +3057,7 @@ msgstr "Usuń użytkownika"
 
 #: View/Users/associate.ctp:144
 msgid "Sign Me Up"
-msgstr "Zarejestruj mnie"
+msgstr "Dodaj mnie"
 
 #: View/Users/login.ctp:16
 msgid "Problems logging in?"
