@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-20 20:08-0600\n"
-"PO-Revision-Date: 2013-02-24 01:24+0100\n"
+"PO-Revision-Date: 2013-02-24 01:57+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -2404,7 +2404,7 @@ msgstr "Dodał komentarz"
 
 #: View/Helper/DashboardHelper.php:80
 msgid "mentioned you on"
-msgstr "wspomniał o tobie"
+msgstr "wspomniał o tobie w"
 
 #: View/Helper/DashboardHelper.php:84
 msgid "gives you a warm welcome!"
@@ -2412,7 +2412,7 @@ msgstr "gives you a warm welcome!"
 
 #: View/Helper/DashboardHelper.php:88;92;96
 msgid "Admin Notice:"
-msgstr "Notacja Admina:"
+msgstr "Posty Admina:"
 
 #: View/Helper/DashboardHelper.php:100
 msgid "left a comment on"
@@ -2452,7 +2452,7 @@ msgstr "kolekcje blend"
 
 #: View/Helper/DashboardHelper.php:136;140
 msgid "published a news update"
-msgstr "opublikowano nowość"
+msgstr "opublikował"
 
 #: View/Helper/DashboardHelper.php:144
 msgid "interacted with"
