@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-21 17:07-0600\n"
-"PO-Revision-Date: 2013-02-24 23:01+0100\n"
+"PO-Revision-Date: 2013-02-24 23:32+0100\n"
 "Last-Translator: \n"
 "Language-Team: Blend Swap Translators\n"
 "MIME-Version: 1.0\n"
@@ -17,44 +17,54 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: Controller/AtomsController.php:31;83;109
+#, fuzzy
 msgid "Invalid atom"
 msgstr "Atome invalide"
 
 #: Controller/AtomsController.php:66;87
+#, fuzzy
 msgid "The atom has been saved"
 msgstr "L'atome a été enregistré"
 
 #: Controller/AtomsController.php:68;90
+#, fuzzy
 msgid "The atom could not be saved. Please, try again."
 msgstr ""
 "L'atome ne peux pas être enregistré. S'il vous plaît, essayez à nouveau."
 
 #: Controller/AtomsController.php:112
+#, fuzzy
 msgid "Atom deleted"
 msgstr "Atome supprimé"
 
 #: Controller/AtomsController.php:115
+#, fuzzy
 msgid "Atom was not deleted"
 msgstr "Atome non supprimé"
 
 #: Controller/BadgesController.php:35;76;107;133
+#, fuzzy
 msgid "Invalid badge"
 msgstr "Badge invalide"
 
 #: Controller/BadgesController.php:90;111
+#, fuzzy
 msgid "The badge has been saved"
 msgstr "Le badge a été enregistré"
 
 #: Controller/BadgesController.php:93;114
+#, fuzzy
 msgid "The badge could not be saved. Please, try again."
 msgstr ""
 "Le badge ne peux pas être enregistré. S'il vous plaît, essayez à nouveau."
 
 #: Controller/BadgesController.php:136
+#, fuzzy
 msgid "Badge deleted"
 msgstr "Badge supprimé"
 
 #: Controller/BadgesController.php:139
+#, fuzzy
 msgid "Badge was not deleted"
 msgstr "Badge non supprimé"
 
@@ -81,42 +91,51 @@ msgid ""
 "Your new blend was saved and is now waiting moderation! Please be patient "
 "for an adminn to check your file."
 msgstr ""
+"Votre blend a été enregistré et est maintenant en attente de modération ! "
+"Merci de patienter qu'un "
 
 #: Controller/BlendsController.php:486
 msgid ""
 "You blend was saved to the database, but one of the files failed to upload, "
 "please fix below the file type marked in red!"
 msgstr ""
+"Votre blend a été enregistré dans la base de donnée, mais un des fichier n'a "
+"pas pu être téléchargé, s'il vous plaît vérifiez le type du ficher marqué en "
+"rouge."
 
 #: Controller/BlendsController.php:491
 msgid ""
 "The blend could not be saved. Please ckeck any errors below and try again. "
 "Don't forget to re-select the files."
 msgstr ""
+"Le blend n'a pas pu être enregistré. S'il vous plaît vérifié toute erreur ci-"
+"dessous et essayez à nouveau. N'oubliez pas de re-séléctionner les fichiers."
 
 #: Controller/BlendsController.php:560
 msgid "The requested blend does not exist."
-msgstr ""
+msgstr "Le blend recherché n'existe pas."
 
 #: Controller/BlendsController.php:597;1669
 msgid "The blend has been saved"
-msgstr ""
+msgstr "Le blend a été enregistré"
 
 #: Controller/BlendsController.php:599
 msgid "ERRORS! Please check any red messages below and try again."
 msgstr ""
+"ERREUR ! S'il vous plaît vérifiez les messages rouges ci-dessous et essayez "
+"à nouveau."
 
 #: Controller/BlendsController.php:1674
 msgid "The blend could not be saved. Please, try again."
-msgstr ""
+msgstr "Le blend ne peut être enregistré. S'il vous plaît, essayer à nouveau."
 
 #: Controller/BlendsController.php:1698
 msgid "Blend deleted"
-msgstr ""
+msgstr "Blend supprimé"
 
 #: Controller/BlendsController.php:1701
 msgid "Blend was not deleted"
-msgstr ""
+msgstr "Blend non supprimé"
 
 #: Controller/ChatsController.php:67;193;222
 msgid "Invalid chat"
@@ -140,51 +159,55 @@ msgstr ""
 
 #: Controller/CollectionsController.php:146;278;335
 msgid "Invalid collection"
-msgstr ""
+msgstr "Groupement invalide"
 
 #: Controller/CollectionsController.php:309
 msgid "The Collection was saved"
-msgstr ""
+msgstr "Le groupement a été enregistré"
 
 #: Controller/CollectionsController.php:311
 msgid "The Collection could not be saved. Please, try again."
 msgstr ""
+"Le groupement n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau."
 
 #: Controller/CollectionsController.php:340
 msgid "Collection deleted"
-msgstr ""
+msgstr "Groupement supprimé"
 
 #: Controller/CollectionsController.php:342
 msgid "Collection was not deleted"
-msgstr ""
+msgstr "Groupement non supprimé"
 
 #: Controller/CommentsController.php:222
 msgid "Your comment did not validate, is it empty? Please try again."
 msgstr ""
+"Votre commentaire est invalide, est-il vide ? S'il vous plaît, essayez à "
+"nouveau"
 
 #: Controller/CommentsController.php:261;275;301;376
 msgid "Invalid comment"
-msgstr ""
+msgstr "Commentaire invalide"
 
 #: Controller/CommentsController.php:281;342
 msgid "The comment has been saved"
-msgstr ""
+msgstr "Le commentaire a été enregistré"
 
 #: Controller/CommentsController.php:284;345
 msgid "The comment could not be saved. Please, try again."
 msgstr ""
+"Le commentaire n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau"
 
 #: Controller/CommentsController.php:379
 msgid "Comment deleted"
-msgstr ""
+msgstr "Commentaire supprimé"
 
 #: Controller/CommentsController.php:382
 msgid "Comment was not deleted"
-msgstr ""
+msgstr "Commentaire non supprimé"
 
 #: Controller/ContactsController.php:82;152
 msgid "The contact has been saved"
-msgstr ""
+msgstr "Le contact a été enregistré"
 
 #: Controller/ContactsController.php:84
 msgid ""
@@ -194,43 +217,44 @@ msgstr ""
 
 #: Controller/ContactsController.php:125;148;174
 msgid "Invalid contact"
-msgstr ""
+msgstr "Contact invalide"
 
 #: Controller/ContactsController.php:155
 msgid "The contact could not be saved. Please, try again."
 msgstr ""
+"Le contact n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau"
 
 #: Controller/ContactsController.php:177
 msgid "Contact deleted"
-msgstr ""
+msgstr "Contact supprimé"
 
 #: Controller/ContactsController.php:180
 msgid "Contact was not deleted"
-msgstr ""
+msgstr "Contact non supprimé"
 
 #: Controller/DownloadsController.php:40
 msgid "Invalid download"
-msgstr ""
+msgstr "Téléchargement invalide"
 
 #: Controller/EmailsController.php:42;73;103
 msgid "Invalid email"
-msgstr ""
+msgstr "Adresse mail invalide"
 
 #: Controller/EmailsController.php:56;77
 msgid "The email has been saved"
-msgstr ""
+msgstr "L'adresse mail a été enregistrée"
 
 #: Controller/EmailsController.php:59;80
 msgid "The email could not be saved. Please, try again."
-msgstr ""
+msgstr "L'adresse n'a pu être enregistrée. S'il vous plaît, essayez à nouveau."
 
 #: Controller/EmailsController.php:106
 msgid "Email deleted"
-msgstr ""
+msgstr "Adresse mail supprimée"
 
 #: Controller/EmailsController.php:109
 msgid "Email was not deleted"
-msgstr ""
+msgstr "Adresse mail non supprimée"
 
 #: Controller/FeaturesController.php:30;62;90
 msgid "Invalid feature"
@@ -254,183 +278,196 @@ msgstr ""
 
 #: Controller/KeysController.php:37;68;94
 msgid "Invalid key"
-msgstr ""
+msgstr "Clé invalide"
 
 #: Controller/KeysController.php:51;72
 msgid "The key has been saved"
-msgstr ""
+msgstr "La clé a été enregistrée"
 
 #: Controller/KeysController.php:54;75
 msgid "The key could not be saved. Please, try again."
-msgstr ""
+msgstr "La clé n'a pas pu être enregistrée. S'il vous plaît, essayez à nouveau"
 
 #: Controller/KeysController.php:97
 msgid "Key deleted"
-msgstr ""
+msgstr "Clé supprimée"
 
 #: Controller/KeysController.php:100
 msgid "Key was not deleted"
-msgstr ""
+msgstr "Clé non supprimée"
 
 #: Controller/LimitsController.php:45;76;102
 msgid "Invalid limit"
-msgstr ""
+msgstr "Limite invalide"
 
 #: Controller/LimitsController.php:59;80
 msgid "The limit has been saved"
-msgstr ""
+msgstr "La limite a été enregistrée"
 
 #: Controller/LimitsController.php:62;83
 msgid "The limit could not be saved. Please, try again."
 msgstr ""
+"La limite n'a pas pu être enregistrée. S'il vous plaît, essayez à nouveau"
 
 #: Controller/LimitsController.php:105
 msgid "Limit deleted"
-msgstr ""
+msgstr "Limite supprimée"
 
 #: Controller/LimitsController.php:108
 msgid "Limit was not deleted"
-msgstr ""
+msgstr "Limite non supprimée"
 
 #: Controller/MembershipsController.php:61;107;135
 msgid "Invalid membership"
-msgstr ""
+msgstr "Adhésion invalide"
 
 #: Controller/MembershipsController.php:86;111
 msgid "The membership has been saved"
-msgstr ""
+msgstr "L'adhésion a été enregistrée"
 
 #: Controller/MembershipsController.php:89;114
 msgid "The membership could not be saved. Please, try again."
 msgstr ""
+"L'adhésion n'a pas pu être enregistrée. S'il vous plaît, essayez à nouveau"
 
 #: Controller/MembershipsController.php:138
 msgid "Membership deleted"
-msgstr ""
+msgstr "Adhésion supprimée"
 
 #: Controller/MembershipsController.php:141
 msgid "Membership was not deleted"
-msgstr ""
+msgstr "Adhésion non supprimée"
 
 #: Controller/MessagesController.php:47;253;282;307
 msgid "Invalid message"
-msgstr ""
+msgstr "Message invalide"
 
 #: Controller/MessagesController.php:204;260
 msgid "The message could not be saved. Please, try again."
 msgstr ""
+"Le message n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau"
 
 #: Controller/MessagesController.php:257
 msgid "The message has been saved"
-msgstr ""
+msgstr "Le message a été enregistré."
 
 #: Controller/MessagesController.php:285;314
 msgid "Message deleted"
-msgstr ""
+msgstr "Message supprimé"
 
 #: Controller/MessagesController.php:288;316
 msgid "Message was not deleted"
-msgstr ""
+msgstr "Message non supprimé"
 
 #: Controller/MetasController.php:32;63;89
+#, fuzzy
 msgid "Invalid meta"
-msgstr ""
+msgstr "Méta invalide"
 
 #: Controller/MetasController.php:46;67
+#, fuzzy
 msgid "The meta has been saved"
-msgstr ""
+msgstr "Le méta a été enregistré"
 
 #: Controller/MetasController.php:49;70
+#, fuzzy
 msgid "The meta could not be saved. Please, try again."
-msgstr ""
+msgstr "Le méta n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau"
 
 #: Controller/MetasController.php:92
+#, fuzzy
 msgid "Meta deleted"
-msgstr ""
+msgstr "Méta supprimé"
 
 #: Controller/MetasController.php:95
+#, fuzzy
 msgid "Meta was not deleted"
-msgstr ""
+msgstr "Méta non supprimé"
 
 #: Controller/NewsController.php:91;172;226
 msgid "Invalid news"
-msgstr ""
+msgstr "News invalide"
 
 #: Controller/NewsController.php:152
 msgid "The news has been saved"
-msgstr ""
+msgstr "La news a été enregistrée"
 
 #: Controller/NewsController.php:155;202
 msgid "The news could not be saved. Please, try again."
 msgstr ""
+"La news n'a pas pu être enregistrée. S'il vous plaît, essayez à nouveau"
 
 #: Controller/NewsController.php:199
 msgid "The news entry has been updated"
-msgstr ""
+msgstr "La news a été mise à jour"
 
 #: Controller/NewsController.php:229
 msgid "News deleted"
-msgstr ""
+msgstr "News supprimée"
 
 #: Controller/NewsController.php:232
 msgid "News was not deleted"
-msgstr ""
+msgstr "News non supprimée"
 
 #: Controller/OptionsController.php:69;104;130
 msgid "Invalid option"
-msgstr ""
+msgstr "Option ivalide"
 
 #: Controller/OptionsController.php:87;108
 msgid "The option has been saved"
-msgstr ""
+msgstr "L'option a été enregistrée"
 
 #: Controller/OptionsController.php:90
 msgid "The option could not be saved. Please, try again."
 msgstr ""
+"L'option n'a pas pu être enregistrée. S'il vous plaît, essayez à nouveau."
 
 #: Controller/OptionsController.php:111
 msgid "Error! The option could not be saved. Please, try again."
 msgstr ""
+"Erreur ! L'option n'a pas pu être enregistrée. S'il vous plaît, essayez à "
+"nouveau."
 
 #: Controller/OptionsController.php:133
 msgid "Option deleted"
-msgstr ""
+msgstr "Option supprimée"
 
 #: Controller/OptionsController.php:136
 msgid "Error! The option was not deleted"
-msgstr ""
+msgstr "Erreur ! L'option n'a pas été supprimée"
 
 #: Controller/PagesController.php:119;125;130;181;212
 msgid "Invalid page"
-msgstr ""
+msgstr "Page invalide"
 
 #: Controller/PagesController.php:147;185
 msgid "The page has been saved"
-msgstr ""
+msgstr "La page a été enregistrée"
 
 #: Controller/PagesController.php:150;188
 msgid "The page could not be saved. Please, try again."
 msgstr ""
+"La page n'a pas pu être enregistrée.  S'il vous plaît, essayez à nouveau."
 
 #: Controller/PagesController.php:215
 msgid "Page deleted"
-msgstr ""
+msgstr "Page supprimée"
 
 #: Controller/PagesController.php:218
 msgid "Page was not deleted"
-msgstr ""
+msgstr "Page non supprimée"
 
 #: Controller/PaymentsController.php:59;325
 msgid "Invalid payment"
-msgstr ""
+msgstr "Payement invalide"
 
 #: Controller/PaymentsController.php:328
 msgid "Payment deleted"
-msgstr ""
+msgstr "Payement supprimé"
 
 #: Controller/PaymentsController.php:331
 msgid "Payment was not deleted"
-msgstr ""
+msgstr "Payement non supprimé"
 
 #: Controller/PlansController.php:33;64;90;118;149;175
 msgid "Invalid plan"
