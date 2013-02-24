@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-20 20:08-0600\n"
-"PO-Revision-Date: 2013-02-24 00:25+0100\n"
+"PO-Revision-Date: 2013-02-24 01:24+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -2109,7 +2109,7 @@ msgstr "Moje blendy"
 #: View/Elements/menus/topMenu.ctp:37
 #: View/Elements/navs/usernav.ctp:103
 msgid "My Collections"
-msgstr "Moja kolekcje"
+msgstr "Moje kolekcje"
 
 #: View/Elements/menus/topMenu.ctp:38
 msgid "My Stats"
