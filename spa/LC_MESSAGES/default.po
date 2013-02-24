@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-02-20 20:08-0600\n"
-"PO-Revision-Date: 2013-02-20 20:08-0600\n"
+"POT-Creation-Date: 2013-02-21 17:07-0600\n"
+"PO-Revision-Date: 2013-02-21 17:22-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -17,23 +17,23 @@ msgstr ""
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: Controller/AtomsController.php:31;82;108
+#: Controller/AtomsController.php:31;83;109
 msgid "Invalid atom"
 msgstr "Evento Inválido"
 
-#: Controller/AtomsController.php:65;86
+#: Controller/AtomsController.php:66;87
 msgid "The atom has been saved"
 msgstr "El evento se ha guardado"
 
-#: Controller/AtomsController.php:67;89
+#: Controller/AtomsController.php:68;90
 msgid "The atom could not be saved. Please, try again."
 msgstr "El evento no pudo ser guardado, por favor intente de nuevo"
 
-#: Controller/AtomsController.php:111
+#: Controller/AtomsController.php:112
 msgid "Atom deleted"
 msgstr "Evento eliminado"
 
-#: Controller/AtomsController.php:114
+#: Controller/AtomsController.php:115
 msgid "Atom was not deleted"
 msgstr "El evento no fue eliminado"
 
@@ -63,7 +63,7 @@ msgstr "Blend inválido"
 
 #: Controller/BlendsController.php:476
 msgid "Thank you! Your new blend was saved and is now publicly visible!"
-msgstr "Gracias! Tu nuevo blend fue guardado y publicado!"
+msgstr "¡Gracias! Tu nuevo blend fue guardado y publicado!"
 
 #: Controller/BlendsController.php:478
 msgid "There was an error saving your blend as published, please report you saw this error!"
@@ -91,7 +91,7 @@ msgstr "El blend ha sido guardado"
 
 #: Controller/BlendsController.php:599
 msgid "ERRORS! Please check any red messages below and try again."
-msgstr "Error! Por favor revisa más abajo por errores marcados en rojo."
+msgstr "¡Error! Por favor revisa más abajo por errores marcados en rojo."
 
 #: Controller/BlendsController.php:1674
 msgid "The blend could not be saved. Please, try again."
@@ -147,7 +147,7 @@ msgstr "La colección no fue guardada."
 
 #: Controller/CommentsController.php:222
 msgid "Your comment did not validate, is it empty? Please try again."
-msgstr "Tu comentario no pudo validarse, está vacío? Por favor intenta de nuevo."
+msgstr "Tu comentario no pudo validarse, ¿está vacío? Por favor intenta de nuevo."
 
 #: Controller/CommentsController.php:261;275;301;376
 msgid "Invalid comment"
@@ -375,7 +375,7 @@ msgstr "La Opción no pudo ser guardada"
 
 #: Controller/OptionsController.php:111
 msgid "Error! The option could not be saved. Please, try again."
-msgstr "Error! La opción no se pudo guardar. Por favor intente de nuevo."
+msgstr "¡Error! La opción no se pudo guardar. Por favor intente de nuevo."
 
 #: Controller/OptionsController.php:133
 msgid "Option deleted"
@@ -383,7 +383,7 @@ msgstr "Opción eliminada"
 
 #: Controller/OptionsController.php:136
 msgid "Error! The option was not deleted"
-msgstr "Error! La Opción no fue eliminada"
+msgstr "¡Error! La Opción no fue eliminada"
 
 #: Controller/PagesController.php:119;125;130;181;212
 msgid "Invalid page"
@@ -605,43 +605,51 @@ msgstr "La Medalla no fue eliminada"
 msgid "This user does not exist on Blend Swap."
 msgstr "Este usuario no existe en Blend Swap"
 
-#: Controller/UsersController.php:320;1482;1514;1541
+#: Controller/UsersController.php:320;1516;1548;1575
 msgid "Invalid user"
 msgstr "Usuario inválido"
 
-#: Controller/UsersController.php:341
+#: Controller/UsersController.php:342
 msgid "Account and settings saved"
-msgstr "LA cuenta y los ajustes fueron guardados."
+msgstr "La cuenta y los ajustes fueron guardados."
 
-#: Controller/UsersController.php:356
+#: Controller/UsersController.php:357
 msgid "The setting could not be saved. Please review the rrors below and try again."
 msgstr "Los ajustes no se pudieron guardar. Por favor revisa los errors marcados con rojo más abajo e intenta de nuevo."
 
-#: Controller/UsersController.php:460;575
+#: Controller/UsersController.php:390
+msgid "Your username was changed. you must use it to log in from now on."
+msgstr "Tu nombre de usuario fue cambiado. Bebes usar estenuevo nombre de usuario para acceder al sitio."
+
+#: Controller/UsersController.php:397
+msgid "The username you enteres is not valid, please check the rules again."
+msgstr "El nombre de usuario que ingresaste no es válido, por favor sigue las reglas de más abajo."
+
+#: Controller/UsersController.php:494;609
 msgid "Captcha was incorrect please try again."
 msgstr "el Captcha es incorrecto, por favor intenta de nuevo"
 
-#: Controller/UsersController.php:501
+#: Controller/UsersController.php:535
 msgid "There was a problem sending your verification email. please contact the admins with your username and email so they can activate your account!"
 msgstr "Hubo un error enviando tu email de verificación. Por favor contacta con los administradores con tu usuario y email para que tu cuenta sea activada manualmente."
 
-#: Controller/UsersController.php:521
+#: Controller/UsersController.php:555
 msgid "The data entered did not validate, so the account was not created. Please correct the errors marked in red below, re-enter your password and try again."
 msgstr "Los datos ingresados no validaron. La cuenta no fue creada. Por favor corrige los errores marcados en rojo más abajo, e intenta de nuevo."
 
-#: Controller/UsersController.php:1497;1519
+#: Controller/UsersController.php:1531;1553
 msgid "The user has been saved"
 msgstr "El usuario fue guardado"
 
-#: Controller/UsersController.php:1500;1522
+#: Controller/UsersController.php:1534;1556
 msgid "The user could not be saved. Please, try again."
 msgstr "El Usuario no pudo ser guardado. Por favor intenta de nuevo."
 
-#: Controller/UsersController.php:1544
+#: Controller/UsersController.php:1578
 msgid "User deleted"
 msgstr "Usuario eliminado"
 
-#: Controller/UsersController.php:1547
+#: Controller/UsersController.php:1581
 msgid "User was not deleted"
 msgstr "El usuario no fue eliminado"
 
@@ -941,7 +949,7 @@ msgstr "Eliminar"
 #: View/Users/admin_index.ctp:57
 #: View/Users/admin_view.ctp:232
 msgid "Are you sure you want to delete # %s?"
-msgstr "Estás seguro de eliminar # %s?"
+msgstr "¿Estás seguro de eliminar # %s?"
 
 #: View/Answers/admin_index.ctp:2
 #: View/Requests/view.ctp:49
@@ -1181,6 +1189,7 @@ msgid "Delete Response"
 msgstr "Eliminar Respuesta"
 
 #: View/Blends/add.ctp:37
+#: View/Users/edit.ctp:14
 msgid "Basic Data"
 msgstr "Datos Básicos"
 
@@ -1523,6 +1532,7 @@ msgstr "ID de Ususario"
 #: View/Blends/admin_view.ctp:146
 #: View/Comments/admin_view.ctp:14
 #: View/Feedbacks/admin_view.ctp:24
+#: View/Users/edit.ctp:20
 msgid "Username"
 msgstr "Nombre de Usuario"
 
@@ -1763,7 +1773,7 @@ msgstr "Nueva Descarga"
 
 #: View/Elements/new_question.ctp:5
 msgid "Ask a Question!"
-msgstr "Haz una Pregunta!"
+msgstr "¡Haz una Pregunta!"
 
 #: View/Elements/placeholder.ctp:3
 msgid "Animals"
@@ -1773,7 +1783,7 @@ msgstr "Animales"
 msgid "Appliances"
 msgstr "Electrodomésticos"
 
-#: View/Elements/placeholder.ctp:5;33
+#: View/Elements/placeholder.ctp:5;34
 msgid "Animation"
 msgstr "Animación"
 
@@ -1822,67 +1832,71 @@ msgid "Low Poly"
 msgstr "Low Poly"
 
 #: View/Elements/placeholder.ctp:17
+msgid "Materials"
+msgstr "Materiales"
+
+#: View/Elements/placeholder.ctp:18
 msgid "Miscellaneous Objects"
 msgstr "Objetos Misceláneos"
 
-#: View/Elements/placeholder.ctp:18
+#: View/Elements/placeholder.ctp:19
 msgid "Musical Instruments"
 msgstr "Instrumentos Musicales"
 
-#: View/Elements/placeholder.ctp:19
+#: View/Elements/placeholder.ctp:20
 msgid "Node Setups"
 msgstr "Arreglos de Nodos"
 
-#: View/Elements/placeholder.ctp:20
+#: View/Elements/placeholder.ctp:21
 msgid "Particles"
 msgstr "Partículas"
 
-#: View/Elements/placeholder.ctp:21
+#: View/Elements/placeholder.ctp:22
 msgid "Plants"
 msgstr "Plantas"
 
-#: View/Elements/placeholder.ctp:22
+#: View/Elements/placeholder.ctp:23
 msgid "Python Scripts"
 msgstr "Scripts Python"
 
-#: View/Elements/placeholder.ctp:23
+#: View/Elements/placeholder.ctp:24
 msgid "Real Time"
 msgstr "Tiempo Real"
 
-#: View/Elements/placeholder.ctp:24
+#: View/Elements/placeholder.ctp:25
 msgid "Rigs"
 msgstr "Esqueletos"
 
-#: View/Elements/placeholder.ctp:25
+#: View/Elements/placeholder.ctp:26
 msgid "Scenes"
 msgstr "Escenas"
 
-#: View/Elements/placeholder.ctp:26
+#: View/Elements/placeholder.ctp:27
 msgid "Sci-Fi"
 msgstr "Ciencia Ficción"
 
-#: View/Elements/placeholder.ctp:27
+#: View/Elements/placeholder.ctp:28
 msgid "Simulations"
 msgstr "Simulaciones"
 
-#: View/Elements/placeholder.ctp:28
+#: View/Elements/placeholder.ctp:29
 #: View/Elements/menus/topMenu.ctp:136
 msgid "Staff Picks"
 msgstr "Selecciones del Staff"
 
-#: View/Elements/placeholder.ctp:29
+#: View/Elements/placeholder.ctp:30
 msgid "Textures"
 msgstr "Texturas"
 
-#: View/Elements/placeholder.ctp:30
+#: View/Elements/placeholder.ctp:31
 msgid "Tools"
 msgstr "Herramientas"
 
-#: View/Elements/placeholder.ctp:31
+#: View/Elements/placeholder.ctp:32
 msgid "Vehicles"
 msgstr "Vehículos"
 
-#: View/Elements/placeholder.ctp:32
+#: View/Elements/placeholder.ctp:33
 msgid "Weapons"
 msgstr "Armas"
 
@@ -2008,7 +2022,7 @@ msgstr "Cerrar Encargo"
 
 #: View/Elements/bars/request_actions.ctp:84
 msgid "This Blend Request will be closed to new answers. Are you sure?"
-msgstr "El Encargo será cerrador para nuevas respuestas. Estás seguro?"
+msgstr "El Encargo será cerrador para nuevas respuestas. ¿Estás seguro?"
 
 #: View/Elements/bars/request_actions.ctp:86
 msgid "Re-Open Request"
@@ -2028,7 +2042,7 @@ msgstr "los %s con palabras soeces serán retenidos para moderación."
 
 #: View/Elements/forms/commentForm.ctp:19
 msgid "You must log in to leave a comment"
-msgstr "Debes accesar al sitio para comentar"
+msgstr "Debes acceder al sitio para comentar"
 
 #: View/Elements/menus/topMenu.ctp:6
 msgid "Tour"
@@ -2123,7 +2137,7 @@ msgstr "Tienes Descargas Ilimitadas"
 
 #: View/Elements/menus/topMenu.ctp:54
 msgid "Your Associate membership is set to auto-renew."
-msgstr "Tu Membrecía está ajustada para auto-renovarse."
+msgstr "Tu Membresía está ajustada para auto-renovarse."
 
 #: View/Elements/menus/topMenu.ctp:57;60
 msgid "Until"
@@ -2153,7 +2167,7 @@ msgstr "Usado"
 
 #: View/Elements/menus/topMenu.ctp:97
 msgid "Get more bandwidth!"
-msgstr "Consigue más ancho de banda!"
+msgstr "¡Consigue más ancho de banda!"
 
 #: View/Elements/menus/topMenu.ctp:108
 msgid "Log out"
@@ -2161,11 +2175,11 @@ msgstr "Salir"
 
 #: View/Elements/menus/topMenu.ctp:110
 msgid "Register your account now!"
-msgstr "Regístra tu cuenta ahora!"
+msgstr "¡Regístra tu cuenta ahora!"
 
 #: View/Elements/menus/topMenu.ctp:111
 msgid "Log in to swap some blends!"
-msgstr "Ingresa para compartir blends!"
+msgstr "¡Ingresa para compartir blends!"
 
 #: View/Elements/menus/topMenu.ctp:121
 msgid "Start"
@@ -2262,7 +2276,7 @@ msgstr "Crear Nueva Pregunta"
 
 #: View/Elements/menus/topMenu.ctp:183
 msgid "Create a new Question"
-msgstr "Crear una nueva Pregunta!"
+msgstr "¡Crear una nueva Pregunta!"
 
 #: View/Elements/menus/topMenu.ctp:193
 #: View/Users/admin_index.ctp:2
@@ -2324,7 +2338,7 @@ msgstr "Buscar Blends"
 
 #: View/Elements/menus/topMenu.ctp:231
 msgid "Change your search criteria!"
-msgstr "Cambia to criterio de búsqueda!"
+msgstr "¡Cambia to criterio de búsqueda!"
 
 #: View/Elements/navs/usernav.ctp:6
 msgid "Around me"
@@ -2382,11 +2396,11 @@ msgstr "Editar Portafolio"
 
 #: View/Elements/navs/usernav.ctp:138
 msgid "Account &amp; Settings"
-msgstr "Cuenta &amp; Ajustes"
+msgstr "Cuenta y Ajustes"
 
 #: View/Elements/navs/usernav.ctp:147
 msgid "Manage Membership"
-msgstr "Administrar Membrecía"
+msgstr "Administrar Membresía"
 
 #: View/Elements/navs/usernav.ctp:155
 msgid "Change Password"
@@ -2406,53 +2420,57 @@ msgstr "te mencionó en"
 
 #: View/Helper/DashboardHelper.php:84
 msgid "gives you a warm welcome!"
-msgstr "te da una cálida bienvenida!"
+msgstr "¡te da una cálida bienvenida!"
 
-#: View/Helper/DashboardHelper.php:88;92;96
+#: View/Helper/DashboardHelper.php:88;92;100
 msgid "Admin Notice:"
 msgstr "Notificación"
 
-#: View/Helper/DashboardHelper.php:100
+#: View/Helper/DashboardHelper.php:96
+msgid "Associates Only: "
+msgstr "Sólo Asociados"
+
+#: View/Helper/DashboardHelper.php:104
 msgid "left a comment on"
 msgstr "dejó un comentario en"
 
-#: View/Helper/DashboardHelper.php:104
+#: View/Helper/DashboardHelper.php:108
 msgid "answered the question"
 msgstr "contestó a la pregunta"
 
-#: View/Helper/DashboardHelper.php:108
+#: View/Helper/DashboardHelper.php:112
 msgid "asked a new question:"
 msgstr "hizo una nueva pregunta:"
 
-#: View/Helper/DashboardHelper.php:112
+#: View/Helper/DashboardHelper.php:116
 msgid "started following you"
 msgstr "empezó a seguir tu actividad"
 
-#: View/Helper/DashboardHelper.php:116
+#: View/Helper/DashboardHelper.php:120
 msgid "mentioned you on a comment"
 msgstr "te mencionó en un comentario"
 
-#: View/Helper/DashboardHelper.php:120
+#: View/Helper/DashboardHelper.php:124
 msgid "published the new blend"
 msgstr "publicó el nuevo blend"
 
-#: View/Helper/DashboardHelper.php:124
+#: View/Helper/DashboardHelper.php:128
 msgid "published the new blend:"
 msgstr "publicó el nuevo blend"
 
-#: View/Helper/DashboardHelper.php:128
+#: View/Helper/DashboardHelper.php:132
 msgid "likes the blend"
 msgstr "gusta del blend"
 
-#: View/Helper/DashboardHelper.php:132
+#: View/Helper/DashboardHelper.php:136
 msgid "collected the blend"
 msgstr "colectó el blend"
 
-#: View/Helper/DashboardHelper.php:136;140
+#: View/Helper/DashboardHelper.php:140;144
 msgid "published a news update"
 msgstr "publicó en el blog de noticias"
 
-#: View/Helper/DashboardHelper.php:144
+#: View/Helper/DashboardHelper.php:148
 msgid "interacted with"
 msgstr "interactuó con"
 
@@ -2462,11 +2480,11 @@ msgstr "Descarga"
 
 #: View/Helper/SingleBlendHelper.php:48
 msgid "Looks like this blend file is too big for your allowed bandwidth this month!"
-msgstr "Parece que este blend es más grande que lo que te queda de ancho de banda este mes!"
+msgstr "¡Parece que este blend es más grande que lo que te queda de ancho de banda este mes!"
 
 #: View/Helper/SingleBlendHelper.php:62
 msgid "You must log in to download this blend"
-msgstr "Debes accesar al sitio para descargar este blend"
+msgstr "Debes acceder al sitio para descargar este blend"
 
 #: View/Helper/SingleBlendHelper.php:107
 msgid "Latest Change"
@@ -2571,19 +2589,19 @@ msgstr "Cuentas"
 
 #: View/Layouts/frontend.ctp:108
 msgid "Membership"
-msgstr "Membrecía"
+msgstr "Membresía"
 
 #: View/Layouts/frontend.ctp:111
 msgid "Free Membership"
-msgstr "Membrecía Gratuita"
+msgstr "Membresía Gratuita"
 
 #: View/Layouts/frontend.ctp:114
 msgid "Associate Membership"
-msgstr "Membrecía de Asociado"
+msgstr "Membresía de Asociado"
 
 #: View/Layouts/frontend.ctp:117
 msgid "Deadline Membership"
-msgstr "Membrecía \"Fecha Límite\""
+msgstr "Membresía \"Fecha Límite\""
 
 #: View/Layouts/frontend.ctp:123
 msgid "Bandwidth Assignation"
@@ -2639,7 +2657,7 @@ msgstr "Legal"
 
 #: View/Layouts/frontend.ctp:235
 msgid "Take the guided tour!"
-msgstr "Toma el paseo guiado!"
+msgstr "¡¡Toma el paseo guiado!"
 
 #: View/Layouts/frontend.ctp:244
 msgid "All rights reserved"
@@ -2893,7 +2911,7 @@ msgstr "Eliminar Perfil"
 
 #: View/Questions/add.ctp:21
 msgid "Ask a new Question!"
-msgstr "Haz una nueva Pregunta!"
+msgstr "¡Haz una nueva Pregunta!"
 
 #: View/Questions/admin_add.ctp:4
 msgid "Admin Add Question"
@@ -3023,7 +3041,7 @@ msgstr "Editar usuario"
 
 #: View/Users/add.ctp:174
 msgid "Sign me up!"
-msgstr "Regístrame!"
+msgstr "¡Regístrame!"
 
 #: View/Users/admin_add.ctp:4
 msgid "Admin Add User"
@@ -3057,17 +3075,97 @@ msgstr "Eliminar usuario"
 msgid "Sign Me Up"
 msgstr "Regístrame."
 
+#: View/Users/edit.ctp:8
+msgid "&larr; Don't see your avatar?"
+msgstr "&larr; ¿No ves tu avatar?"
+
+#: View/Users/edit.ctp:9
+msgid "Get an account (or link your email below) on %s"
+msgstr "Hazte una cuenta (o vincula tu email de abajo) en %s"
+
+#: View/Users/edit.ctp:16
+msgid "Your real name will be publicly visible if you enter it, your email will be kept private"
+msgstr "Tu nombre será público si lo ingresas, tu email siempre será privado."
+
+#: View/Users/edit.ctp:22
+msgid "Wanna change it?"
+msgstr "¿Quieres cambiarlo?"
+
+#: View/Users/edit.ctp:31
+msgid "Make sure this email is a permanent address so you can get email notifications and reset your password in case it's needed."
+msgstr "Asegúrate de que este email es válido para poder recibir notificaciones y recuperar tu cuenta de ser necesario."
+
+#: View/Users/edit.ctp:38
+msgid "Notification Settings"
+msgstr "Ajustes de Notificaciones"
+
+#: View/Users/edit.ctp:41
+msgid "Send me email notifications when"
+msgstr "Evíame notificaciones por email cuandoNotificaciones"
+
+#: View/Users/edit.ctp:44
+msgid "My blends are published"
+msgstr "Mis blends son publicados"
+
+#: View/Users/edit.ctp:45
+msgid "My blends are added to a public collection."
+msgstr "Mis blends son añadidos a una colección"
+
+#: View/Users/edit.ctp:46
+msgid "My blends are added to Staff Picks"
+msgstr "Mis blends son añadidos a las Selecciones del Staff"
+
+#: View/Users/edit.ctp:47
+msgid "Another user sends me a message"
+msgstr "Otro usuario me envía un mensaje"
+
+#: View/Users/edit.ctp:48
+msgid "I get a new User Badge"
+msgstr "Consigo una nueva medalla"
+
+#: View/Users/edit.ctp:55
+msgid "More Settings"
+msgstr "Más Configuraciones"
+
+#: View/Users/edit.ctp:66
+msgid "Preferred Language"
+msgstr "Lenguaje preferido."
+
+#: View/Users/edit.ctp:77
+msgid "Associate Members"
+msgstr "Miembros Asociados"
+
+#: View/Users/edit.ctp:78
+msgid "can set the amount of Blends per index page up to 60"
+msgstr "pueden escoger hasta 60 blends por página en los índices."
+
+#: View/Users/edit.ctp:89
+msgid "20 blends per page (default)"
+msgstr "20 blends por página (predefinido)"
+
+#: View/Users/edit.ctp:90
+msgid "40 blends per page"
+msgstr "40 blends por página"
+
+#: View/Users/edit.ctp:91
+msgid "60 blends per page"
+msgstr "60 blends por página"
+
+#: View/Users/edit.ctp:134
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
 #: View/Users/login.ctp:16
 msgid "Problems logging in?"
-msgstr "Problemas accesando al sitio?"
+msgstr "¿Problemas accesando al sitio?"
 
 #: View/Users/login.ctp:21
 msgid "Register now!"
-msgstr "Regístrate ahora!"
+msgstr "¡Regístrate ahora!"
 
 #: View/Users/m_login.ctp:11
 msgid "Forgot your password?"
-msgstr "Olvidaste tu clave?"
+msgstr "¿Olvidaste tu contraseña?"
 
 #: View/Users/m_login.ctp:15
 msgid "Register now"
@@ -3076,6 +3174,18 @@ msgstr "Ragistrate ahora"
 #: View/Users/search.ctp:93
 msgid "Page {:page} of {:pages}, showing {:current} artists out of {:count} total."
 msgstr "Página {:page} de {:pages}, mostrando {:current} artistas de {:count} en total."
+
+#: View/Users/username.ctp:7
+msgid "Change your username"
+msgstr "Cambia tu nombre de usuario."
+
+#: View/Users/username.ctp:22
+msgid "Your current username is %s"
+msgstr "Tu nombre de usuario actual es %s"
+
+#: View/Users/username.ctp:24
+msgid "Enter your desired username to check if it is available"
+msgstr "Ingresa el nombre de usuario que deseas para verificar si está disponible."
 
 #~ msgid "Invalid term"
 #~ msgstr "Término inválido"
