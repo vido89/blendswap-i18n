@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-21 17:07-0600\n"
-"PO-Revision-Date: 2013-02-24 23:32+0100\n"
+"PO-Revision-Date: 2013-02-25 12:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: Blend Swap Translators\n"
 "MIME-Version: 1.0\n"
@@ -138,24 +138,31 @@ msgid "Blend was not deleted"
 msgstr "Blend non supprimé"
 
 #: Controller/ChatsController.php:67;193;222
+#, fuzzy
 msgid "Invalid chat"
-msgstr ""
+msgstr "Discussion invalide"
 
 #: Controller/ChatsController.php:197
+#, fuzzy
 msgid "The chat has been saved"
-msgstr ""
+msgstr "La discussion a été enregistrée"
 
 #: Controller/ChatsController.php:200
+#, fuzzy
 msgid "The chat could not be saved. Please, try again."
 msgstr ""
+"La discussion n'a pas pu être enregistrée. S'il vous plaît, essayez à "
+"nouveau."
 
 #: Controller/ChatsController.php:227
+#, fuzzy
 msgid "Chat deleted"
-msgstr ""
+msgstr "Discussion supprimée"
 
 #: Controller/ChatsController.php:230
+#, fuzzy
 msgid "Chat was not deleted"
-msgstr ""
+msgstr "Discussion non supprimée"
 
 #: Controller/CollectionsController.php:146;278;335
 msgid "Invalid collection"
@@ -470,92 +477,101 @@ msgid "Payment was not deleted"
 msgstr "Payement non supprimé"
 
 #: Controller/PlansController.php:33;64;90;118;149;175
+#, fuzzy
 msgid "Invalid plan"
-msgstr ""
+msgstr "Plan invalide"
 
 #: Controller/PlansController.php:47;68;132;153
+#, fuzzy
 msgid "The plan has been saved"
-msgstr ""
+msgstr "Le plan a été enregistré"
 
 #: Controller/PlansController.php:50;71;135;156
+#, fuzzy
 msgid "The plan could not be saved. Please, try again."
 msgstr ""
+"Le plan n'a pas pu être sauvegardé. . S'il vous plaît, essayez à nouveau."
 
 #: Controller/PlansController.php:93;178
+#, fuzzy
 msgid "Plan deleted"
-msgstr ""
+msgstr "Plan supprimé"
 
 #: Controller/PlansController.php:96;181
+#, fuzzy
 msgid "Plan was not deleted"
-msgstr ""
+msgstr "Plan non supprimé"
 
 #: Controller/ProfilesController.php:27;127;158;184
 msgid "Invalid profile"
-msgstr ""
+msgstr "Profil invalide"
 
 #: Controller/ProfilesController.php:84;141;162
 msgid "The profile has been saved"
-msgstr ""
+msgstr "Le profil a été enregistré"
 
 #: Controller/ProfilesController.php:86;144;165
 msgid "The profile could not be saved. Please, try again."
 msgstr ""
+"Le profil n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau."
 
 #: Controller/ProfilesController.php:187
 msgid "Profile deleted"
-msgstr ""
+msgstr "Profil supprimé"
 
 #: Controller/ProfilesController.php:190
 msgid "Profile was not deleted"
-msgstr ""
+msgstr "Profil non supprimé"
 
 #: Controller/QuestionsController.php:80;188;262;294;322
 msgid "Invalid question"
-msgstr ""
+msgstr "Question invalide"
 
 #: Controller/QuestionsController.php:168;206;276;298
 msgid "The question has been saved"
-msgstr ""
+msgstr "La question a été enregistrée"
 
 #: Controller/QuestionsController.php:173;209;279;301
 msgid "The question could not be saved. Please, try again."
 msgstr ""
+"La question n'a pas pu être enregistrée. S'il vous plaît, essayez à nouveau."
 
 #: Controller/QuestionsController.php:325
 msgid "Question deleted"
-msgstr ""
+msgstr "Question supprimée"
 
 #: Controller/QuestionsController.php:328
 msgid "Question was not deleted"
-msgstr ""
+msgstr "Question non supprimée"
 
 #: Controller/ReportsController.php:25;46
 msgid "Invalid address"
-msgstr ""
+msgstr "Adresse invalide"
 
 #: Controller/ReportsController.php:49;206;221;247
 msgid "Invalid report"
-msgstr ""
+msgstr "Rapport invalide"
 
 #: Controller/ReportsController.php:225
 msgid "The report has been saved"
-msgstr ""
+msgstr "Le rapport a été enregistré"
 
 #: Controller/ReportsController.php:228
 msgid "The report could not be saved. Please, try again."
 msgstr ""
+"Le rapport n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau."
 
 #: Controller/ReportsController.php:250
 msgid "Report deleted"
-msgstr ""
+msgstr "Rapport supprimé"
 
 #: Controller/ReportsController.php:253
 msgid "Report was not deleted"
-msgstr ""
+msgstr "Rapport non supprimé"
 
 #: Controller/RequestsController.php:73;217;267;298;530;564;605
 msgid "Invalid request"
-msgstr ""
+msgstr "Requête invalide"
 
 #: Controller/RequestsController.php:184
 msgid "The request has been saved. Now upload some concept arts!"
@@ -564,18 +580,19 @@ msgstr ""
 #: Controller/RequestsController.php:189;237;547;572
 msgid "The request could not be saved. Please, try again."
 msgstr ""
+"La requête n'a pas pu être enregistrée. S'il vous plaît, essayez à nouveau."
 
 #: Controller/RequestsController.php:234;544;569
 msgid "The request has been saved"
-msgstr ""
+msgstr "La requête a été enregistrée"
 
 #: Controller/RequestsController.php:608
 msgid "Request deleted"
-msgstr ""
+msgstr "Requête supprimée"
 
 #: Controller/RequestsController.php:611
 msgid "Request was not deleted"
-msgstr ""
+msgstr "Requête non supprimée"
 
 #: Controller/ResponsesController.php:34;69;100
 msgid "Invalid response"
@@ -627,19 +644,19 @@ msgstr ""
 
 #: Controller/TermsController.php:108
 msgid "Category: %s"
-msgstr ""
+msgstr "Catégorie : %s"
 
 #: Controller/TermsController.php:156
 msgid "Tag: %s"
-msgstr ""
+msgstr "Tag : %s"
 
 #: Controller/UserbadgesController.php:29;60;86
 msgid "Invalid userbadge"
-msgstr ""
+msgstr "Badge d'utilisateur invalide"
 
 #: Controller/UserbadgesController.php:43;64
 msgid "The userbadge has been saved"
-msgstr ""
+msgstr "Le badge d'utilisateur a été enregistré"
 
 #: Controller/UserbadgesController.php:46;67
 msgid "The userbadge could not be saved. Please, try again."
@@ -659,7 +676,7 @@ msgstr ""
 
 #: Controller/UsersController.php:320;1516;1548;1575
 msgid "Invalid user"
-msgstr ""
+msgstr "Utilisateur invalide"
 
 #: Controller/UsersController.php:342
 msgid "Account and settings saved"
@@ -669,18 +686,22 @@ msgstr ""
 msgid ""
 "The setting could not be saved. Please review the rrors below and try again."
 msgstr ""
+"Les propriétés ont été enregistrées. S'il vous plaît vérifiez les erreurs ci-"
+"dessous et essayez à nouveau."
 
 #: Controller/UsersController.php:390
 msgid "Your username was changed. you must use it to log in from now on."
 msgstr ""
+"Votre pseudo a été modifié, vous devez désormais l'utiliser pour vous "
+"connecter."
 
 #: Controller/UsersController.php:397
 msgid "The username you enteres is not valid, please check the rules again."
-msgstr ""
+msgstr "Le pseudo entré n'est pas valide, s'il vous plaît vérifiez les règles."
 
 #: Controller/UsersController.php:494;609
 msgid "Captcha was incorrect please try again."
-msgstr ""
+msgstr "Captcha incorrect, s'il vous plaît essayez à nouveau."
 
 #: Controller/UsersController.php:535
 msgid ""
@@ -696,23 +717,24 @@ msgstr ""
 
 #: Controller/UsersController.php:1531;1553
 msgid "The user has been saved"
-msgstr ""
+msgstr "L'utilisateur a été enregistré"
 
 #: Controller/UsersController.php:1534;1556
 msgid "The user could not be saved. Please, try again."
 msgstr ""
+"L'utilisatur n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau."
 
 #: Controller/UsersController.php:1578
 msgid "User deleted"
-msgstr ""
+msgstr "Utilisateur supprimé"
 
 #: Controller/UsersController.php:1581
 msgid "User was not deleted"
-msgstr ""
+msgstr "Utilisateur non supprimé"
 
 #: Controller/VotesController.php:107;175;196
 msgid "The vote has been saved"
-msgstr ""
+msgstr "Le vote a été enregistré"
 
 #: Controller/VotesController.php:110;178;199
 msgid "The vote could not be saved. Please, try again."
@@ -1518,101 +1540,103 @@ msgstr ""
 #: View/Comments/admin_edit.ctp:4 View/Comments/admin_view.ctp:84
 #: View/Feedbacks/admin_edit.ctp:5 View/Feedbacks/admin_view.ctp:89
 msgid "Edit Comment"
-msgstr ""
+msgstr "Editer le commentaire"
 
 #: View/Comments/admin_index.ctp:2 View/Elements/navs/usernav.ctp:24
 #: View/Feedbacks/admin_index.ctp:2
 msgid "Comments"
-msgstr ""
+msgstr "Commentaires"
 
 #: View/Comments/admin_view.ctp:2 View/Elements/bars/blend_actions.ctp:53
 #: View/Feedbacks/admin_view.ctp:2
+#, fuzzy
 msgid "Comment"
-msgstr ""
+msgstr "Commenter"
 
 #: View/Comments/admin_view.ctp:64
+#, fuzzy
 msgid "Comment Parent"
-msgstr ""
+msgstr "Commentaire le parent"
 
 #: View/Comments/admin_view.ctp:85 View/Feedbacks/admin_view.ctp:90
 msgid "Delete Comment"
-msgstr ""
+msgstr "Supprimer le commentaire"
 
 #: View/Contacts/admin_edit.ctp:4 View/Contacts/admin_view.ctp:89
 msgid "Edit Contact"
-msgstr ""
+msgstr "Editer les contacts"
 
 #: View/Contacts/admin_edit.ctp:24 View/Contacts/admin_view.ctp:91
 msgid "List Contacts"
-msgstr ""
+msgstr "Liste de contacts"
 
 #: View/Contacts/admin_index.ctp:2
 msgid "Contacts"
-msgstr ""
+msgstr "Contacts"
 
 #: View/Contacts/admin_index.ctp:64 View/Contacts/admin_view.ctp:92
 msgid "New Contact"
-msgstr ""
+msgstr "Nouveau contact"
 
 #: View/Contacts/admin_view.ctp:90
 msgid "Delete Contact"
-msgstr ""
+msgstr "Supprimer le contact"
 
 #: View/Downloads/admin_index.ctp:48
 msgid "New Download"
-msgstr ""
+msgstr "Nouveau téléchargement"
 
 #: View/Elements/new_question.ctp:5
 msgid "Ask a Question!"
-msgstr ""
+msgstr "Poser une question."
 
 #: View/Elements/placeholder.ctp:3
 msgid "Animals"
-msgstr ""
+msgstr "Animaux"
 
 #: View/Elements/placeholder.ctp:4
 msgid "Appliances"
-msgstr ""
+msgstr "Appareils"
 
 #: View/Elements/placeholder.ctp:5;34
 msgid "Animation"
-msgstr ""
+msgstr "Animation"
 
 #: View/Elements/placeholder.ctp:6
 msgid "Architecture"
-msgstr ""
+msgstr "Architecture"
 
 #: View/Elements/placeholder.ctp:7
 msgid "Blender Themes"
-msgstr ""
+msgstr "Thèmes Blender"
 
 #: View/Elements/placeholder.ctp:8
 msgid "Brushes"
-msgstr ""
+msgstr "Brushes"
 
 #: View/Elements/placeholder.ctp:9
 msgid "Characters"
-msgstr ""
+msgstr "Personnages"
 
 #: View/Elements/placeholder.ctp:10
 msgid "Clothes"
-msgstr ""
+msgstr "Vêtements"
 
 #: View/Elements/placeholder.ctp:11
 msgid "Electronics"
-msgstr ""
+msgstr "Electronique"
 
 #: View/Elements/placeholder.ctp:12
 msgid "Food"
-msgstr ""
+msgstr "Nourriture"
 
 #: View/Elements/placeholder.ctp:13
 msgid "Furniture"
-msgstr ""
+msgstr "Meubles"
 
 #: View/Elements/placeholder.ctp:14
 msgid "Landscapes"
-msgstr ""
+msgstr "Paysages"
 
 #: View/Elements/placeholder.ctp:15
 msgid "Looping Patterns"
@@ -1620,55 +1644,56 @@ msgstr ""
 
 #: View/Elements/placeholder.ctp:16
 msgid "Low Poly"
-msgstr ""
+msgstr "Low poly"
 
 #: View/Elements/placeholder.ctp:17
 msgid "Materials"
-msgstr ""
+msgstr "Matériaux"
 
 #: View/Elements/placeholder.ctp:18
 msgid "Miscellaneous Objects"
-msgstr ""
+msgstr "Objets divers"
 
 #: View/Elements/placeholder.ctp:19
 msgid "Musical Instruments"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:20
+#, fuzzy
 msgid "Node Setups"
-msgstr ""
+msgstr "Setups de nodes"
 
 #: View/Elements/placeholder.ctp:21
 msgid "Particles"
-msgstr ""
+msgstr "Particules"
 
 #: View/Elements/placeholder.ctp:22
 msgid "Plants"
-msgstr ""
+msgstr "Plantes"
 
 #: View/Elements/placeholder.ctp:23
 msgid "Python Scripts"
-msgstr ""
+msgstr "Scripts python"
 
 #: View/Elements/placeholder.ctp:24
 msgid "Real Time"
-msgstr ""
+msgstr "Temps réel"
 
 #: View/Elements/placeholder.ctp:25
 msgid "Rigs"
-msgstr ""
+msgstr "Rigs"
 
 #: View/Elements/placeholder.ctp:26
 msgid "Scenes"
-msgstr ""
+msgstr "Scènes"
 
 #: View/Elements/placeholder.ctp:27
 msgid "Sci-Fi"
-msgstr ""
+msgstr "Science-fiction"
 
 #: View/Elements/placeholder.ctp:28
 msgid "Simulations"
-msgstr ""
+msgstr "Simulations"
 
 #: View/Elements/placeholder.ctp:29 View/Elements/menus/topMenu.ctp:136
 msgid "Staff Picks"
@@ -1676,86 +1701,87 @@ msgstr ""
 
 #: View/Elements/placeholder.ctp:30
 msgid "Textures"
-msgstr ""
+msgstr "Textures"
 
 #: View/Elements/placeholder.ctp:31
 msgid "Tools"
-msgstr ""
+msgstr "Outils"
 
 #: View/Elements/placeholder.ctp:32
 msgid "Vehicles"
-msgstr ""
+msgstr "Véhicules"
 
 #: View/Elements/placeholder.ctp:33
 msgid "Weapons"
-msgstr ""
+msgstr "Armes"
 
 #: View/Elements/bars/blend_actions.ctp:7
+#, fuzzy
 msgid "Click to unlike this blend"
-msgstr ""
+msgstr "Cliquer pour enlever votre like sur ce blend"
 
 #: View/Elements/bars/blend_actions.ctp:10
 msgid "Like"
-msgstr ""
+msgstr "Aimer"
 
 #: View/Elements/bars/blend_actions.ctp:13
 msgid "Add this blend to a collection"
-msgstr ""
+msgstr "Ajouter ce blend à un groupement"
 
 #: View/Elements/bars/blend_actions.ctp:16
 msgid "Add to"
-msgstr ""
+msgstr "Ajouter à"
 
 #: View/Elements/bars/blend_actions.ctp:19
 msgid "Share this"
-msgstr ""
+msgstr "Partager cela"
 
 #: View/Elements/bars/blend_actions.ctp:20
 #: View/Elements/bars/request_actions.ctp:28
 msgid "Share"
-msgstr ""
+msgstr "Partager"
 
 #: View/Elements/bars/blend_actions.ctp:38
 #: View/Elements/bars/request_actions.ctp:46
 msgid "Click to start following comments here"
-msgstr ""
+msgstr "Cliquer pour commenter à suivre les commentaires ici."
 
 #: View/Elements/bars/blend_actions.ctp:41
 #: View/Elements/bars/request_actions.ctp:50
 msgid "Follow"
-msgstr ""
+msgstr "Suivre"
 
 #: View/Elements/bars/blend_actions.ctp:45
 #: View/Elements/bars/request_actions.ctp:54
 msgid "Click to stop following comments here"
-msgstr ""
+msgstr "Cliquer pour arrêter de suivre les commentaires ici"
 
 #: View/Elements/bars/blend_actions.ctp:48
 #: View/Elements/bars/request_actions.ctp:58
 msgid "Unfollow"
-msgstr ""
+msgstr "Ne plus suivre"
 
 #: View/Elements/bars/blend_actions.ctp:56 View/Reports/admin_view.ctp:2
 #: View/Reports/view.ctp:2
 msgid "Report"
-msgstr ""
+msgstr "Rapporter"
 
 #: View/Elements/bars/blend_actions.ctp:58
 msgid "Report an infraction on this blend."
-msgstr ""
+msgstr "Signaler une infraction sur ce blend."
 
 #: View/Elements/bars/owner_bar.ctp:6
 msgid "Blend Page"
-msgstr ""
+msgstr "Page blend"
 
 #: View/Elements/bars/owner_bar.ctp:12
 msgid "View the blend page as it looks published"
-msgstr ""
+msgstr "Voir la page du blend comme s'il était publié"
 
 #: View/Elements/bars/owner_bar.ctp:19
 #: View/Elements/bars/request_actions.ctp:69
 msgid "Edit Data"
-msgstr ""
+msgstr "Editer les données"
 
 #: View/Elements/bars/owner_bar.ctp:25
 msgid "Edit all data and properties for this blend."
@@ -1779,7 +1805,7 @@ msgstr ""
 
 #: View/Elements/bars/request_actions.ctp:10
 msgid "Cancel WIP"
-msgstr ""
+msgstr "Fermer le WIP"
 
 #: View/Elements/bars/request_actions.ctp:14
 msgid "Add to your work in progress list"
@@ -1787,7 +1813,7 @@ msgstr ""
 
 #: View/Elements/bars/request_actions.ctp:17
 msgid "Add to WIP"
-msgstr ""
+msgstr "Ajouter au WIP"
 
 #: View/Elements/bars/request_actions.ctp:21
 msgid "Add your Blend Response"
@@ -2078,15 +2104,15 @@ msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:211
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: View/Elements/menus/topMenu.ctp:214
 msgid "All Documentation"
-msgstr ""
+msgstr "Toute la documentation"
 
 #: View/Elements/menus/topMenu.ctp:214
 msgid "All site documentation"
-msgstr ""
+msgstr "Tous les sites de documentation"
 
 #: View/Elements/menus/topMenu.ctp:217 View/Layouts/frontend.ctp:197
 msgid "Known Issues"
@@ -2098,7 +2124,7 @@ msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:222 View/Layouts/frontend.ctp:200
 msgid "Report Errors"
-msgstr ""
+msgstr "Rapporter des erreurs"
 
 #: View/Elements/menus/topMenu.ctp:230;231
 msgid "Search Blends"
@@ -2110,11 +2136,11 @@ msgstr ""
 
 #: View/Elements/navs/usernav.ctp:6
 msgid "Around me"
-msgstr ""
+msgstr "Autour de moi"
 
 #: View/Elements/navs/usernav.ctp:10
 msgid "All Activity"
-msgstr ""
+msgstr "Toutes les activités"
 
 #: View/Elements/navs/usernav.ctp:32
 msgid "Site News Blog"
@@ -2122,7 +2148,7 @@ msgstr ""
 
 #: View/Elements/navs/usernav.ctp:39
 msgid "Admin Notifications"
-msgstr ""
+msgstr "Notification d'administration"
 
 #: View/Elements/navs/usernav.ctp:48
 msgid "Buzz"
@@ -2130,7 +2156,7 @@ msgstr ""
 
 #: View/Elements/navs/usernav.ctp:60 View/Messages/index.ctp:2
 msgid "Messages"
-msgstr ""
+msgstr "Messages"
 
 #: View/Elements/navs/usernav.ctp:68
 msgid "My Stuff"
@@ -2138,39 +2164,40 @@ msgstr ""
 
 #: View/Elements/navs/usernav.ctp:88
 msgid "My Badges"
-msgstr ""
+msgstr "Mes badges"
 
 #: View/Elements/navs/usernav.ctp:96
+#, fuzzy
 msgid "My Likes"
-msgstr ""
+msgstr "Mes likes"
 
 #: View/Elements/navs/usernav.ctp:111
 msgid "Advanced Stats"
-msgstr ""
+msgstr "Statistiques avancées"
 
 #: View/Elements/navs/usernav.ctp:120
 msgid "Management"
-msgstr ""
+msgstr "Gestion"
 
 #: View/Elements/navs/usernav.ctp:124 View/Profiles/admin_view.ctp:94
 msgid "Edit Profile"
-msgstr ""
+msgstr "Editer le Profil"
 
 #: View/Elements/navs/usernav.ctp:131
 msgid "Edit Portfolio"
-msgstr ""
+msgstr "Editer le Portfolio"
 
 #: View/Elements/navs/usernav.ctp:138
 msgid "Account &amp; Settings"
-msgstr ""
+msgstr "Compte &amp; Paramètres"
 
 #: View/Elements/navs/usernav.ctp:147
 msgid "Manage Membership"
-msgstr ""
+msgstr "Gérer les adhésions"
 
 #: View/Elements/navs/usernav.ctp:155
 msgid "Change Password"
-msgstr ""
+msgstr "Changer de mot de passe"
 
 #: View/Elements/navs/usernav.ctp:170
 msgid "Upgrade"
@@ -2178,7 +2205,7 @@ msgstr ""
 
 #: View/Feedbacks/add.ctp:4
 msgid "Add Comment"
-msgstr ""
+msgstr "Ajouter un commentaire"
 
 #: View/Helper/DashboardHelper.php:80
 msgid "mentioned you on"
@@ -2241,8 +2268,9 @@ msgid "interacted with"
 msgstr ""
 
 #: View/Helper/SingleBlendHelper.php:41
+#, fuzzy
 msgid "Download"
-msgstr ""
+msgstr "Téléchager"
 
 #: View/Helper/SingleBlendHelper.php:48
 msgid ""
