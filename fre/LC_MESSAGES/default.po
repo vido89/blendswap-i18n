@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-21 17:07-0600\n"
-"PO-Revision-Date: 2013-02-25 12:59+0100\n"
+"PO-Revision-Date: 2013-02-25 17:19+0100\n"
 "Last-Translator: \n"
 "Language-Team: Blend Swap Translators\n"
 "MIME-Version: 1.0\n"
@@ -636,7 +636,7 @@ msgstr ""
 
 #: Controller/TermsController.php:35
 msgid "Blend Categories"
-msgstr ""
+msgstr "Catégories du blend"
 
 #: Controller/TermsController.php:48;54
 msgid "Invalid category name, these are the ones available."
@@ -739,18 +739,19 @@ msgstr "Le vote a été enregistré"
 #: Controller/VotesController.php:110;178;199
 msgid "The vote could not be saved. Please, try again."
 msgstr ""
+"Le vote n'a pas pu être pris en compte. S'il vous plaît, essayez à nouveau."
 
 #: Controller/VotesController.php:161;192;218
 msgid "Invalid vote"
-msgstr ""
+msgstr "Vote invalide"
 
 #: Controller/VotesController.php:221
 msgid "Vote deleted"
-msgstr ""
+msgstr "Vote supprimé"
 
 #: Controller/VotesController.php:224
 msgid "Vote was not deleted"
-msgstr ""
+msgstr "Vote non supprimé"
 
 #: View/Answers/admin_add.ctp:4
 msgid "Admin Add Response"
@@ -775,7 +776,7 @@ msgstr ""
 #: View/Requests/edit.ctp:42 View/Users/account.ctp:31
 #: View/Users/admin_add.ctp:25 View/Users/admin_edit.ctp:26
 msgid "Submit"
-msgstr ""
+msgstr "Soumettre"
 
 #: View/Answers/admin_add.ctp:14 View/Answers/admin_edit.ctp:15
 #: View/Answers/admin_index.ctp:11;50 View/Answers/admin_view.ctp:37
@@ -810,7 +811,7 @@ msgstr ""
 #: View/Users/account.ctp:34 View/Users/admin_index.ctp:27;78
 #: View/Users/admin_view.ctp:229
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: View/Answers/admin_add.ctp:17 View/Answers/admin_edit.ctp:19
 #: View/Answers/admin_view.ctp:41 View/Requests/admin_add.ctp:21
@@ -830,7 +831,7 @@ msgstr ""
 #: View/Requests/admin_view.ctp:48 View/Users/account.ctp:38
 #: View/Users/admin_view.ctp:233
 msgid "List Users"
-msgstr ""
+msgstr "Liste d'utilisateurs"
 
 #: View/Answers/admin_add.ctp:19 View/Answers/admin_edit.ctp:21
 #: View/Answers/admin_index.ctp:54 View/Answers/admin_view.ctp:44
@@ -843,7 +844,7 @@ msgstr ""
 #: View/Requests/admin_view.ctp:49 View/Users/admin_index.ctp:80
 #: View/Users/admin_view.ctp:234
 msgid "New User"
-msgstr ""
+msgstr "Nouvel utilisateur"
 
 #: View/Answers/admin_add.ctp:20 View/Answers/admin_edit.ctp:22
 #: View/Answers/admin_index.ctp:55 View/Answers/admin_view.ctp:45
@@ -881,7 +882,7 @@ msgstr ""
 #: View/Requests/admin_index.ctp:36 View/Requests/admin_view.ctp:80
 #: View/Users/account.ctp:37 View/Users/admin_index.ctp:57
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: View/Answers/admin_edit.ctp:18 View/Answers/admin_index.ctp:29
 #: View/Answers/admin_view.ctp:40 View/Blends/admin_edit.ctp:67
@@ -909,7 +910,7 @@ msgstr ""
 #: View/Requests/admin_view.ctp:45;80 View/Users/account.ctp:37
 #: View/Users/admin_index.ctp:57 View/Users/admin_view.ctp:232
 msgid "Are you sure you want to delete # %s?"
-msgstr ""
+msgstr "Voulez-vous vraiment supprimer # %s ?"
 
 #: View/Answers/admin_index.ctp:2 View/Requests/view.ctp:49
 msgid "Responses"
@@ -926,7 +927,7 @@ msgstr ""
 #: View/Reports/admin_index.ctp:37 View/Requests/admin_index.ctp:34
 #: View/Requests/admin_view.ctp:78 View/Users/admin_index.ctp:55
 msgid "View"
-msgstr ""
+msgstr "Vue"
 
 #: View/Answers/admin_index.ctp:28 View/Blends/admin_index.ctp:56
 #: View/Blends/admin_view.ctp:182;217;280;315;356
@@ -939,7 +940,7 @@ msgstr ""
 #: View/Reports/admin_index.ctp:38 View/Requests/admin_index.ctp:35
 #: View/Requests/admin_view.ctp:79 View/Users/admin_index.ctp:56
 msgid "Edit"
-msgstr ""
+msgstr "Editer"
 
 #: View/Answers/admin_index.ctp:37 View/Blends/admin_index.ctp:65
 #: View/Blends/search.ctp:103 View/Blends/user.ctp:33 View/Chats/index.ctp:25
@@ -954,9 +955,12 @@ msgstr ""
 #: View/Reports/index.ctp:26 View/Requests/admin_index.ctp:44
 #: View/Requests/index.ctp:48 View/Users/admin_index.ctp:65
 #: View/Users/featured.ctp:49
+#, fuzzy
 msgid "Page {:page} of {:pages}, showing {:current} out of {:count} total."
 msgstr ""
+"Page {:page} sur {:pages}, actuellement {:current} de  {:count} au total."
 
+# accords ?
 #: View/Answers/admin_index.ctp:43 View/Blends/admin_index.ctp:72
 #: View/Blends/index.ctp:32 View/Blends/search.ctp:109 View/Blends/user.ctp:39
 #: View/Chats/inbox.ctp:48 View/Chats/index.ctp:30
@@ -974,8 +978,9 @@ msgstr ""
 #: View/Users/featured.ctp:56 View/Users/search.ctp:100
 #: View/Users/stats.ctp:43
 msgid "previous"
-msgstr ""
+msgstr "précédent"
 
+# accords ?
 #: View/Answers/admin_index.ctp:45 View/Blends/admin_index.ctp:74
 #: View/Blends/index.ctp:34 View/Blends/search.ctp:111 View/Blends/user.ctp:41
 #: View/Chats/inbox.ctp:50 View/Chats/index.ctp:32
@@ -993,7 +998,7 @@ msgstr ""
 #: View/Users/featured.ctp:58 View/Users/search.ctp:102
 #: View/Users/stats.ctp:45
 msgid "next"
-msgstr ""
+msgstr "suivant"
 
 #: View/Answers/admin_index.ctp:52 View/Answers/admin_view.ctp:42
 #: View/Requests/admin_add.ctp:22 View/Requests/admin_edit.ctp:25
@@ -1013,7 +1018,7 @@ msgstr ""
 #: View/Questions/admin_view.ctp:4 View/Reports/admin_view.ctp:4
 #: View/Reports/view.ctp:4 View/Requests/admin_view.ctp:4;59
 msgid "Id"
-msgstr ""
+msgstr "Identifiant"
 
 #: View/Answers/admin_view.ctp:9 View/Blends/admin_view.ctp:59;155;237;338
 #: View/Comments/admin_view.ctp:29 View/Feedbacks/admin_view.ctp:69
@@ -1022,7 +1027,7 @@ msgstr ""
 #: View/Reports/admin_view.ctp:9 View/Reports/view.ctp:9
 #: View/Requests/admin_view.ctp:9;60
 msgid "Created"
-msgstr ""
+msgstr "Créé"
 
 #: View/Answers/admin_view.ctp:14 View/Blends/admin_view.ctp:64;156;238;339
 #: View/Comments/admin_view.ctp:34 View/Feedbacks/admin_view.ctp:74
@@ -1031,56 +1036,56 @@ msgstr ""
 #: View/Reports/admin_view.ctp:14 View/Reports/view.ctp:14
 #: View/Requests/admin_view.ctp:14;61
 msgid "Modified"
-msgstr ""
+msgstr "Modifié"
 
 #: View/Answers/admin_view.ctp:19 View/Blends/admin_view.ctp:9
 #: View/Comments/admin_view.ctp:69 View/Feedbacks/admin_view.ctp:14
 #: View/Requests/admin_view.ctp:19 View/Users/admin_view.ctp:2
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 #: View/Answers/admin_view.ctp:24 View/Requests/admin_view.ctp:2
 msgid "Request"
-msgstr ""
+msgstr "Requête"
 
 #: View/Answers/admin_view.ctp:29 View/Blends/admin_view.ctp:29;151
 #: View/Comments/admin_view.ctp:49 View/Feedbacks/admin_view.ctp:49
 #: View/Keys/view.ctp:24 View/Messages/view.ctp:24
 #: View/Requests/admin_view.ctp:34;64
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: View/Answers/admin_view.ctp:39
 msgid "Edit Response"
-msgstr ""
+msgstr "Editer la réponse"
 
 #: View/Answers/admin_view.ctp:40
 msgid "Delete Response"
-msgstr ""
+msgstr "Supprimer la réponse"
 
 #: View/Blends/add.ctp:37 View/Users/edit.ctp:14
 msgid "Basic Data"
-msgstr ""
+msgstr "Information de base"
 
 #: View/Blends/add.ctp:42
 msgid "Blend Name"
-msgstr ""
+msgstr "Nom du blend"
 
 #: View/Blends/add.ctp:43 View/Options/admin_view.ctp:19
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: View/Blends/add.ctp:43
 msgid "%d characters long min."
-msgstr ""
+msgstr "%d caractères au minimum."
 
 #: View/Blends/add.ctp:44
 msgid "3D Preview URL"
-msgstr ""
+msgstr "URL de l'aperçu 3D"
 
 #: View/Blends/add.ctp:44
 msgid "Optional"
-msgstr ""
+msgstr "Facultatif"
 
 #: View/Blends/add.ctp:44
 msgid "Supports any %s or %s"
@@ -1088,7 +1093,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:45 View/Elements/navs/taxonomies.ctp:28
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
 #: View/Blends/add.ctp:45
 msgid "Separated by commas"
@@ -1096,7 +1101,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:49 View/Blends/admin_view.ctp:49
 msgid "Blender Version"
-msgstr ""
+msgstr "Version de Blender"
 
 #: View/Blends/add.ctp:50
 msgid "Choose the blender version this blend was created with"
@@ -1104,7 +1109,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:69
 msgid "Fan Art"
-msgstr ""
+msgstr "Fan Art"
 
 #: View/Blends/add.ctp:69
 msgid "Check yes if your blend features company logos, TV or movie characters"
@@ -1112,7 +1117,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:76;119
 msgid "Learn more about"
-msgstr ""
+msgstr "En savoir plus"
 
 #: View/Blends/add.ctp:83
 msgid ""
@@ -1120,39 +1125,45 @@ msgid ""
 msgstr ""
 
 #: View/Blends/add.ctp:84
+#, fuzzy
 msgid ""
 "Users can do whatever they want with this blend, but they must give me credit"
 msgstr ""
+"Les utilisateurs peuvent faire ce qu'ils veulent de ce blend, mais ils "
+"doivent me citer"
 
 #: View/Blends/add.ctp:85
+#, fuzzy
 msgid ""
 "Same as CC-BY, but users must also release their derivates under CC-BY-SA"
 msgstr ""
+"Comme CC-BY, mais les utilisateurs doivent aussi proposer leurs dérivés sous "
+"CC-BY-SA"
 
 #: View/Blends/add.ctp:91 View/Elements/menus/topMenu.ctp:133
 #: View/Elements/navs/taxonomies.ctp:5
 msgid "Categories"
-msgstr ""
+msgstr "Catégories"
 
 #: View/Blends/add.ctp:94
 msgid "Chose at least 1, and up to 4 categories"
-msgstr ""
+msgstr "Choisir de 1 à 4 catégories"
 
 #: View/Blends/add.ctp:118
 msgid "Blend File"
-msgstr ""
+msgstr "Fichier blend"
 
 #: View/Blends/add.ctp:118;140
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: View/Blends/add.ctp:121
 msgid "File Management"
-msgstr ""
+msgstr "Gestion de fichier"
 
 #: View/Blends/add.ctp:124
 msgid "Rar compression is not allowed"
-msgstr ""
+msgstr "La compression Rar n'est pas autorisée."
 
 #: View/Blends/add.ctp:133;149
 msgid "Something failed above, you will have to re-select this file"
@@ -1160,7 +1171,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:140
 msgid "Image"
-msgstr ""
+msgstr "Image"
 
 #: View/Blends/add.ctp:141
 msgid "Recommended: LANDSCAPE or SQUARE, PNG, 1024px wide"
@@ -1168,7 +1179,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:156
 msgid "Save New Blend"
-msgstr ""
+msgstr "Nouveau fichier blend enregistré"
 
 #: View/Blends/admin_add.ctp:4
 msgid "Admin Add Blend"
@@ -1179,36 +1190,38 @@ msgstr ""
 #: View/Comments/admin_view.ctp:88 View/Feedbacks/add.ctp:28
 #: View/Feedbacks/admin_view.ctp:93
 msgid "List Blends"
-msgstr ""
+msgstr "Liste des blends"
 
 #: View/Blends/admin_add.ctp:36 View/Blends/admin_view.ctp:125
 #: View/Comments/admin_edit.ctp:20 View/Comments/admin_view.ctp:86
 #: View/Feedbacks/add.ctp:27 View/Feedbacks/admin_edit.ctp:47
 #: View/Feedbacks/admin_view.ctp:91
 msgid "List Comments"
-msgstr ""
+msgstr "Liste des commentaires"
 
 #: View/Blends/admin_add.ctp:37 View/Blends/admin_view.ctp:126;192
 #: View/Comments/admin_index.ctp:92 View/Comments/admin_view.ctp:87
 #: View/Feedbacks/admin_view.ctp:92
 msgid "New Comment"
-msgstr ""
+msgstr "Nouveau commentaire"
 
 #: View/Blends/admin_add.ctp:38 View/Blends/admin_view.ctp:127
+#, fuzzy
 msgid "List Metas"
-msgstr ""
+msgstr "Liste de métas"
 
 #: View/Blends/admin_add.ctp:39 View/Blends/admin_view.ctp:128;227
+#, fuzzy
 msgid "New Meta"
-msgstr ""
+msgstr "Nouveau méta"
 
 #: View/Blends/admin_add.ctp:40 View/Blends/admin_view.ctp:129
 msgid "List Medias"
-msgstr ""
+msgstr "Liste des médias"
 
 #: View/Blends/admin_add.ctp:41 View/Blends/admin_view.ctp:130;290
 msgid "New Media"
-msgstr ""
+msgstr "Nouveau média"
 
 #: View/Blends/admin_add.ctp:42 View/Blends/admin_view.ctp:131
 msgid "List Termrels"
@@ -1239,30 +1252,30 @@ msgstr ""
 #: View/Blends/admin_index.ctp:3 View/Elements/menus/topMenu.ctp:124
 #: View/Elements/navs/usernav.ctp:17
 msgid "Blends"
-msgstr ""
+msgstr "Blends"
 
 #: View/Blends/admin_index.ctp:71 View/Blends/index.ctp:31
 #: View/Blends/search.ctp:108 View/Collections/index.ctp:74
 #: View/Collections/view.ctp:35 View/Users/featured.ctp:55
 #: View/Users/search.ctp:99
 msgid "First Page"
-msgstr ""
+msgstr "Première page"
 
 #: View/Blends/admin_index.ctp:75 View/Blends/index.ctp:35
 #: View/Blends/search.ctp:112 View/Collections/index.ctp:78
 #: View/Collections/view.ctp:39 View/Users/featured.ctp:59
 #: View/Users/search.ctp:103
 msgid "Last Page"
-msgstr ""
+msgstr "Dernière page"
 
 #: View/Blends/admin_view.ctp:2 View/Comments/admin_view.ctp:9
 #: View/Feedbacks/admin_view.ctp:9
 msgid "Blend"
-msgstr ""
+msgstr "Blend"
 
 #: View/Blends/admin_view.ctp:14;243 View/Requests/admin_view.ctp:24
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #: View/Blends/admin_view.ctp:19
 msgid "Slug"
@@ -1273,11 +1286,11 @@ msgstr ""
 #: View/Questions/admin_view.ctp:24 View/Reports/admin_view.ctp:29
 #: View/Reports/view.ctp:29 View/Requests/admin_view.ctp:29
 msgid "Body"
-msgstr ""
+msgstr "Coprs"
 
 #: View/Blends/admin_view.ctp:34;245 View/Messages/view.ctp:19
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: View/Blends/admin_view.ctp:39
 msgid "P3d Url"
@@ -1285,7 +1298,7 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:44
 msgid "Blend License"
-msgstr ""
+msgstr "License du blend"
 
 #: View/Blends/admin_view.ctp:54
 msgid "Ported"
@@ -1293,24 +1306,24 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:69
 msgid "Publish Date"
-msgstr ""
+msgstr "Date de publication"
 
 #: View/Blends/admin_view.ctp:74
 msgid "Change Log"
-msgstr ""
+msgstr "Historique des changements"
 
 #: View/Blends/admin_view.ctp:79
 msgid "Blend File Size"
-msgstr ""
+msgstr "Taille du fichier blend"
 
 #: View/Blends/admin_view.ctp:84
 msgid "Render Preview"
-msgstr ""
+msgstr "Aperçu du rendu"
 
 #: View/Blends/admin_view.ctp:89 View/Blends/view.ctp:18
 #: View/Downloads/admin_index.ctp:2
 msgid "Downloads"
-msgstr ""
+msgstr "Téléchargements"
 
 #: View/Blends/admin_view.ctp:94
 msgid "Fav Count"
@@ -1318,11 +1331,11 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:99;253
 msgid "Bytes"
-msgstr ""
+msgstr "Octets"
 
 #: View/Blends/admin_view.ctp:104
 msgid "Views"
-msgstr ""
+msgstr "Vues"
 
 #: View/Blends/admin_view.ctp:109;145 View/Feedbacks/admin_view.ctp:19
 msgid "Parent Id"
@@ -1330,17 +1343,17 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:119
 msgid "Edit Blend"
-msgstr ""
+msgstr "Editer le blend"
 
 #: View/Blends/admin_view.ctp:120
 msgid "Delete Blend"
-msgstr ""
+msgstr "Supprimer le blend"
 
 #: View/Blends/admin_view.ctp:122 View/Comments/admin_edit.ctp:22
 #: View/Comments/admin_index.ctp:94 View/Comments/admin_view.ctp:89
 #: View/Feedbacks/add.ctp:29 View/Feedbacks/admin_view.ctp:94
 msgid "New Blend"
-msgstr ""
+msgstr "Nouveau blend"
 
 #: View/Blends/admin_view.ctp:138
 msgid "Related Comments"
@@ -1348,7 +1361,7 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:143;240;300
 msgid "Object Id"
-msgstr ""
+msgstr "Id de l'objet"
 
 #: View/Blends/admin_view.ctp:144;239;337 View/Keys/view.ctp:9
 #: View/Limits/admin_view.ctp:9 View/Messages/view.ctp:9
@@ -1356,22 +1369,22 @@ msgstr ""
 #: View/Reports/admin_view.ctp:19 View/Reports/view.ctp:19
 #: View/Requests/admin_view.ctp:62
 msgid "User Id"
-msgstr ""
+msgstr "Id de l'utilisateur"
 
 #: View/Blends/admin_view.ctp:146 View/Comments/admin_view.ctp:14
 #: View/Feedbacks/admin_view.ctp:24 View/Users/edit.ctp:20
 msgid "Username"
-msgstr ""
+msgstr "Pseudo"
 
 #: View/Blends/admin_view.ctp:147 View/Comments/admin_view.ctp:19
 #: View/Feedbacks/admin_view.ctp:29
 msgid "User Email"
-msgstr ""
+msgstr "Adresse mail de l'utilisateur"
 
 #: View/Blends/admin_view.ctp:148 View/Comments/admin_view.ctp:24
 #: View/Feedbacks/admin_view.ctp:34
 msgid "User Ip"
-msgstr ""
+msgstr "Ip de l'utilisateur"
 
 #: View/Blends/admin_view.ctp:150 View/Comments/admin_view.ctp:44
 #: View/Feedbacks/admin_view.ctp:44 View/Profiles/admin_view.ctp:84
@@ -1396,7 +1409,7 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:157;241;302 View/Feedbacks/admin_view.ctp:79
 msgid "Object Class"
-msgstr ""
+msgstr "Classe de l'objet"
 
 #: View/Blends/admin_view.ctp:197
 msgid "Related Metas"
@@ -1404,7 +1417,7 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:202;335
 msgid "Blend Id"
-msgstr ""
+msgstr "Id du blend"
 
 #: View/Blends/admin_view.ctp:203
 msgid "Meta Key"
@@ -1428,27 +1441,30 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:247
 msgid "Path"
-msgstr ""
+msgstr "Chermin"
 
 #: View/Blends/admin_view.ctp:248
 msgid "Thumb"
-msgstr ""
+msgstr "Miniature"
 
+# accord ?
 #: View/Blends/admin_view.ctp:249
 msgid "Small"
-msgstr ""
+msgstr "Petit"
 
+# accord ?
 #: View/Blends/admin_view.ctp:250
 msgid "Medium"
-msgstr ""
+msgstr "Moyen"
 
+# accord ?
 #: View/Blends/admin_view.ctp:251
 msgid "Big"
-msgstr ""
+msgstr "Grand"
 
 #: View/Blends/admin_view.ctp:252
 msgid "Zip"
-msgstr ""
+msgstr "Zip"
 
 #: View/Blends/admin_view.ctp:295
 msgid "Related Termrels"
@@ -1468,15 +1484,15 @@ msgstr ""
 
 #: View/Blends/edit.ctp:5
 msgid "Basic data"
-msgstr ""
+msgstr "Information de base"
 
 #: View/Blends/index.ctp:6
 msgid "Edit Date"
-msgstr ""
+msgstr "Editer la date"
 
 #: View/Blends/index.ctp:7
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: View/Blends/index.ctp:25
 msgid ""
@@ -1489,11 +1505,13 @@ msgstr ""
 
 #: View/Blends/view.ctp:14
 msgid "License"
-msgstr ""
+msgstr "Licence"
 
+# traduire ?
 #: View/Blends/view.ctp:26
+#, fuzzy
 msgid "Likes"
-msgstr ""
+msgstr "Likes"
 
 #: View/Blends/view.ctp:37
 msgid ""
@@ -1505,37 +1523,39 @@ msgstr ""
 msgid "Zip file MD5 checksum"
 msgstr ""
 
+# commenter ?
 #: View/Blends/view.ctp:86
+#, fuzzy
 msgid "comment"
-msgstr ""
+msgstr "commentaire"
 
 #: View/Blends/view.ctp:87
 msgid "comments"
-msgstr ""
+msgstr "commentaires"
 
 #: View/Blends/rss/index.ctp:3
 msgid "Latest Blends"
-msgstr ""
+msgstr "Derniers blends"
 
 #: View/Blends/rss/index.ctp:5
 msgid "Most recent blends on Blend Swap."
-msgstr ""
+msgstr "Les blends les plus récents de Blend Swap."
 
 #: View/Chats/add.ctp:4
 msgid "Add Chat"
-msgstr ""
+msgstr "Ajouter une discussion"
 
 #: View/Chats/add.ctp:17 View/Chats/edit.ctp:19
 msgid "List Chats"
-msgstr ""
+msgstr "Liste des discussions"
 
 #: View/Chats/edit.ctp:4
 msgid "Edit Chat"
-msgstr ""
+msgstr "Editer une discussion"
 
 #: View/Chats/index.ctp:1
 msgid "Chats"
-msgstr ""
+msgstr "Discussions"
 
 #: View/Comments/admin_edit.ctp:4 View/Comments/admin_view.ctp:84
 #: View/Feedbacks/admin_edit.ctp:5 View/Feedbacks/admin_view.ctp:89
@@ -1789,15 +1809,15 @@ msgstr ""
 
 #: View/Elements/bars/owner_bar.ctp:32
 msgid "Manage Files"
-msgstr ""
+msgstr "Gestion des fichiers"
 
 #: View/Elements/bars/owner_bar.ctp:38
 msgid "Manage the blend file and preview images for this blend."
-msgstr ""
+msgstr "Gestion du fichier blend et des images d'aperçus de ce blend."
 
 #: View/Elements/bars/owner_bar.ctp:45
 msgid "Repack Files"
-msgstr ""
+msgstr "Archiver les fichiers."
 
 #: View/Elements/bars/request_actions.ctp:7
 msgid "Remove from your work in progress list"
@@ -1825,11 +1845,11 @@ msgstr ""
 
 #: View/Elements/bars/request_actions.ctp:65
 msgid "Manage"
-msgstr ""
+msgstr "Gérer"
 
 #: View/Elements/bars/request_actions.ctp:75
 msgid "Manage Images"
-msgstr ""
+msgstr "Gestion des images"
 
 #: View/Elements/bars/request_actions.ctp:81
 msgid "Close Request"
@@ -1858,79 +1878,79 @@ msgstr ""
 
 #: View/Elements/forms/commentForm.ctp:19
 msgid "You must log in to leave a comment"
-msgstr ""
+msgstr "Vous devez être connectés pour commenter"
 
 #: View/Elements/menus/topMenu.ctp:6
 msgid "Tour"
-msgstr ""
+msgstr "Visite"
 
 #: View/Elements/menus/topMenu.ctp:7
 msgid "Faq"
-msgstr ""
+msgstr "Faq"
 
 #: View/Elements/menus/topMenu.ctp:7;211
 msgid "Frequently asked questions (and answers)"
-msgstr ""
+msgstr "Foire aux questions"
 
 #: View/Elements/menus/topMenu.ctp:8 View/News/admin_index.ctp:3
 msgid "News"
-msgstr ""
+msgstr "News"
 
 #: View/Elements/menus/topMenu.ctp:9 View/Layouts/frontend.ctp:131
 msgid "About"
-msgstr ""
+msgstr "A propos"
 
 #: View/Elements/menus/topMenu.ctp:10 View/Layouts/frontend.ctp:140
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: View/Elements/menus/topMenu.ctp:13
 msgid "More"
-msgstr ""
+msgstr "Plus"
 
 #: View/Elements/menus/topMenu.ctp:16 View/Layouts/frontend.ctp:178
 msgid "About Blender"
-msgstr ""
+msgstr "A propos de Blender"
 
 #: View/Elements/menus/topMenu.ctp:17 View/Layouts/frontend.ctp:184
 msgid "Learn Blender"
-msgstr ""
+msgstr "Découvrir Blender"
 
 #: View/Elements/menus/topMenu.ctp:20 View/Layouts/frontend.ctp:222
 msgid "File Licensing"
-msgstr ""
+msgstr "Licences des fichiers"
 
 #: View/Elements/menus/topMenu.ctp:21 View/Layouts/frontend.ctp:228
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Politique de vie privée"
 
 #: View/Elements/menus/topMenu.ctp:22 View/Layouts/frontend.ctp:225
 msgid "Terms of Use"
-msgstr ""
+msgstr "Conditions d'utilisation"
 
 #: View/Elements/menus/topMenu.ctp:25
 msgid "Our RSS Feeds"
-msgstr ""
+msgstr "Nos flux RSS"
 
 #: View/Elements/menus/topMenu.ctp:31
 msgid "Latest activity"
-msgstr ""
+msgstr "Dernière activité"
 
 #: View/Elements/menus/topMenu.ctp:33;35 View/Elements/navs/usernav.ctp:72
 msgid "My Profile"
-msgstr ""
+msgstr "Mon profil"
 
 #: View/Elements/menus/topMenu.ctp:36 View/Elements/navs/usernav.ctp:79
 msgid "My Blends"
-msgstr ""
+msgstr "Mes blends"
 
 #: View/Elements/menus/topMenu.ctp:37 View/Elements/navs/usernav.ctp:103
 msgid "My Collections"
-msgstr ""
+msgstr "Mes groupements"
 
 #: View/Elements/menus/topMenu.ctp:38
 msgid "My Stats"
-msgstr ""
+msgstr "Mes statistiques"
 
 #: View/Elements/menus/topMenu.ctp:47;50
 msgid "How bandwidth works"
@@ -1974,31 +1994,31 @@ msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:108
 msgid "Log out"
-msgstr ""
+msgstr "Se déconnecter"
 
 #: View/Elements/menus/topMenu.ctp:110
 msgid "Register your account now!"
-msgstr ""
+msgstr "Enregistrer votre compte maintenant !"
 
 #: View/Elements/menus/topMenu.ctp:111
 msgid "Log in to swap some blends!"
-msgstr ""
+msgstr "Se connecter pour partager des blends"
 
 #: View/Elements/menus/topMenu.ctp:121
 msgid "Start"
-msgstr ""
+msgstr "Commencer"
 
 #: View/Elements/menus/topMenu.ctp:124
 msgid "All blends"
-msgstr ""
+msgstr "Tous les blends"
 
 #: View/Elements/menus/topMenu.ctp:128
 msgid "Upload New Blend"
-msgstr ""
+msgstr "Télécharger de nouveaux blend"
 
 #: View/Elements/menus/topMenu.ctp:133
 msgid "All blend categories."
-msgstr ""
+msgstr "Toutes les catégories de blend."
 
 #: View/Elements/menus/topMenu.ctp:136
 msgid "Blends selected by the admins."
@@ -2038,7 +2058,7 @@ msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:153;174;188
 msgid "RSS Feed"
-msgstr ""
+msgstr "Flux RSS"
 
 #: View/Elements/menus/topMenu.ctp:158 View/Requests/admin_index.ctp:2
 msgid "Requests"
@@ -2067,40 +2087,41 @@ msgstr ""
 #: View/Elements/menus/topMenu.ctp:179 View/Layouts/frontend.ctp:100
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
-msgstr ""
+msgstr "Questions"
 
 #: View/Elements/menus/topMenu.ctp:183 View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
 msgid "New Question"
-msgstr ""
+msgstr "Nouvelle question"
 
 #: View/Elements/menus/topMenu.ctp:183
 msgid "Create a new Question"
-msgstr ""
+msgstr "Poser une nouvelle question"
 
 #: View/Elements/menus/topMenu.ctp:193 View/Users/admin_index.ctp:2
 msgid "Users"
-msgstr ""
+msgstr "Utilisateurs"
 
 #: View/Elements/menus/topMenu.ctp:196
 msgid "Find Artists"
-msgstr ""
+msgstr "Trouver des artistes"
 
 #: View/Elements/menus/topMenu.ctp:199 View/Layouts/frontend.ctp:120
 msgid "Featured Artists"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:203 View/Layouts/frontend.ctp:97
+#, fuzzy
 msgid "User Badges"
-msgstr ""
+msgstr "Badges d'utilisateurs"
 
 #: View/Elements/menus/topMenu.ctp:208 View/Layouts/frontend.ctp:194
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: View/Elements/menus/topMenu.ctp:208
 msgid "Help and documentation"
-msgstr ""
+msgstr "Aide et documentation"
 
 #: View/Elements/menus/topMenu.ctp:211
 msgid "FAQ"
@@ -2128,11 +2149,11 @@ msgstr "Rapporter des erreurs"
 
 #: View/Elements/menus/topMenu.ctp:230;231
 msgid "Search Blends"
-msgstr ""
+msgstr "Rechercher des blends"
 
 #: View/Elements/menus/topMenu.ctp:231
 msgid "Change your search criteria!"
-msgstr ""
+msgstr "Changez vos critères de recherche !"
 
 #: View/Elements/navs/usernav.ctp:6
 msgid "Around me"
@@ -2321,27 +2342,27 @@ msgstr ""
 
 #: View/Keys/add.ctp:4
 msgid "Add Key"
-msgstr ""
+msgstr "Ajouter une clé"
 
 #: View/Keys/add.ctp:19 View/Keys/edit.ctp:21 View/Keys/view.ctp:41
 msgid "List Keys"
-msgstr ""
+msgstr "Liste des clés"
 
 #: View/Keys/edit.ctp:4 View/Keys/view.ctp:39
 msgid "Edit Key"
-msgstr ""
+msgstr "Editer une clé"
 
 #: View/Keys/index.ctp:2
 msgid "Keys"
-msgstr ""
+msgstr "Clés"
 
 #: View/Keys/index.ctp:48 View/Keys/view.ctp:42
 msgid "New Key"
-msgstr ""
+msgstr "Nouvelle clé"
 
 #: View/Keys/view.ctp:2;19 View/Options/admin_view.ctp:9
 msgid "Key"
-msgstr ""
+msgstr "Clé"
 
 #: View/Keys/view.ctp:14
 msgid "Route"
@@ -2361,7 +2382,7 @@ msgstr ""
 
 #: View/Layouts/frontend.ctp:82
 msgid "Browse All Blends"
-msgstr ""
+msgstr "Regarder tous les blends"
 
 #: View/Layouts/frontend.ctp:88
 msgid "Browse Blend Requests"
@@ -2369,7 +2390,7 @@ msgstr ""
 
 #: View/Layouts/frontend.ctp:91
 msgid "Browse Blend Collections"
-msgstr ""
+msgstr "Regarder tous les groupements de blend"
 
 #: View/Layouts/frontend.ctp:94
 msgid "Users Index"
@@ -2381,11 +2402,11 @@ msgstr ""
 
 #: View/Layouts/frontend.ctp:108
 msgid "Membership"
-msgstr ""
+msgstr "Adhésions"
 
 #: View/Layouts/frontend.ctp:111
 msgid "Free Membership"
-msgstr ""
+msgstr "Adhésion gratuite"
 
 #: View/Layouts/frontend.ctp:114
 msgid "Associate Membership"
@@ -2401,7 +2422,7 @@ msgstr ""
 
 #: View/Layouts/frontend.ctp:128
 msgid "Site"
-msgstr ""
+msgstr "Site"
 
 #: View/Layouts/frontend.ctp:134
 msgid "Site News"
@@ -2409,39 +2430,39 @@ msgstr ""
 
 #: View/Layouts/frontend.ctp:143
 msgid "Credits"
-msgstr ""
+msgstr "Crédits"
 
 #: View/Layouts/frontend.ctp:146
 msgid "Advertising"
-msgstr ""
+msgstr "Publicité"
 
 #: View/Layouts/frontend.ctp:151
 msgid "Connect"
-msgstr ""
+msgstr "Connecter"
 
 #: View/Layouts/frontend.ctp:181
 msgid "Get Blender"
-msgstr ""
+msgstr "Obtenir Blender"
 
 #: View/Layouts/frontend.ctp:191
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
 #: View/Layouts/frontend.ctp:204
 msgid "Access"
-msgstr ""
+msgstr "Accessiblité"
 
 #: View/Layouts/frontend.ctp:207
 msgid "Register"
-msgstr ""
+msgstr "S'inscrire"
 
 #: View/Layouts/frontend.ctp:210
 msgid "Log in"
-msgstr ""
+msgstr "Se connecter"
 
 #: View/Layouts/frontend.ctp:213
 msgid "Reset Password"
-msgstr ""
+msgstr "Réinitialiser le mot de passe"
 
 #: View/Layouts/frontend.ctp:219
 msgid "Legal"
@@ -2449,11 +2470,11 @@ msgstr ""
 
 #: View/Layouts/frontend.ctp:235
 msgid "Take the guided tour!"
-msgstr ""
+msgstr "Faire la visite guidée !"
 
 #: View/Layouts/frontend.ctp:244
 msgid "All rights reserved"
-msgstr ""
+msgstr "Tous droits réservés"
 
 #: View/Layouts/frontend.ctp:245
 msgid "Except where noted, all content is released under"
@@ -2461,29 +2482,29 @@ msgstr ""
 
 #: View/Limits/admin_add.ctp:4
 msgid "Add Limit"
-msgstr ""
+msgstr "Ajouter une limite"
 
 #: View/Limits/admin_add.ctp:18 View/Limits/admin_edit.ctp:20
 #: View/Limits/admin_view.ctp:46 View/Users/admin_index.ctp:89
 msgid "List Limits"
-msgstr ""
+msgstr "Liste des limites"
 
 #: View/Limits/admin_edit.ctp:4 View/Limits/admin_view.ctp:44
 msgid "Edit Limit"
-msgstr ""
+msgstr "Editer la limite"
 
 #: View/Limits/admin_index.ctp:2
 msgid "Limits"
-msgstr ""
+msgstr "Limites"
 
 #: View/Limits/admin_index.ctp:50 View/Limits/admin_view.ctp:47
 #: View/Users/admin_index.ctp:90
 msgid "New Limit"
-msgstr ""
+msgstr "Nouvelle limite"
 
 #: View/Limits/admin_view.ctp:2
 msgid "Limit"
-msgstr ""
+msgstr "Limite"
 
 #: View/Limits/admin_view.ctp:24
 msgid "Applies"
@@ -2495,98 +2516,100 @@ msgstr ""
 
 #: View/Messages/add.ctp:4
 msgid "Add Message"
-msgstr ""
+msgstr "Ajouter un message"
 
 #: View/Messages/add.ctp:18 View/Messages/edit.ctp:20
 #: View/Messages/view.ctp:46 View/Users/admin_index.ctp:81
 msgid "List Messages"
-msgstr ""
+msgstr "Liste des messages"
 
 #: View/Messages/edit.ctp:4 View/Messages/view.ctp:44
 msgid "Edit Message"
-msgstr ""
+msgstr "Editer un message"
 
 #: View/Messages/index.ctp:50 View/Messages/view.ctp:47
 #: View/Users/admin_index.ctp:82
 msgid "New Message"
-msgstr ""
+msgstr "Nouveau message"
 
 #: View/Messages/view.ctp:2
 msgid "Message"
-msgstr ""
+msgstr "Message"
 
 #: View/Messages/view.ctp:45
 msgid "Delete Message"
-msgstr ""
+msgstr "Supprimer le message"
 
 #: View/News/admin_add.ctp:18 View/News/admin_edit.ctp:22
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: View/News/admin_edit.ctp:4
+#, fuzzy
 msgid "Add News Update"
-msgstr ""
+msgstr "Ajouter une mise à jour de news"
 
 #: View/News/admin_edit.ctp:5
 msgid "List News"
-msgstr ""
+msgstr "Liste des news"
 
 #: View/News/admin_edit.ctp:11
 msgid "Edit News"
-msgstr ""
+msgstr "Editer une news"
 
 #: View/News/rss/index.ctp:3
 msgid "Latest news"
-msgstr ""
+msgstr "Dernière news"
 
 #: View/News/rss/index.ctp:5
 msgid "Blend Swap Site news and updates."
-msgstr ""
+msgstr "News et mises à jour de Blend Swap"
 
 #: View/Options/admin_add.ctp:4
 msgid "Add Option"
-msgstr ""
+msgstr "Ajouter une option"
 
 #: View/Options/admin_add.ctp:19 View/Options/admin_edit.ctp:39
 #: View/Options/admin_view.ctp:31
 msgid "List Options"
-msgstr ""
+msgstr "Liste des options"
 
 #: View/Options/admin_edit.ctp:4 View/Options/admin_view.ctp:29
 msgid "Edit Option"
-msgstr ""
+msgstr "Editer une option"
 
 #: View/Options/admin_index.ctp:2 View/Options/admin_manage.ctp:2
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: View/Options/admin_index.ctp:48
+#, fuzzy
 msgid "Manage Options (Superuser only)"
-msgstr ""
+msgstr "Gestion des options (super-utilisateur uniquement)"
 
 #: View/Options/admin_manage.ctp:44 View/Options/admin_view.ctp:32
 msgid "New Option"
-msgstr ""
+msgstr "Nouvelle option"
 
 #: View/Options/admin_view.ctp:2
 msgid "Option"
-msgstr ""
+msgstr "Option"
 
 #: View/Options/admin_view.ctp:14
 msgid "Value"
-msgstr ""
+msgstr "Valeur"
 
 #: View/Options/admin_view.ctp:30
 msgid "Delete Option"
-msgstr ""
+msgstr "Supprimer une option"
 
 #: View/Pages/admin_add.ctp:5
 msgid "Add Page"
-msgstr ""
+msgstr "Ajouter une page"
 
 #: View/Pages/admin_add.ctp:21 View/Pages/admin_edit.ctp:25
 msgid "List Pages"
-msgstr ""
+msgstr "Liste des pages"
 
 #: View/Pages/admin_edit.ctp:16
 msgid "Save changes"
