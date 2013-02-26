@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-20 20:08-0600\n"
-"PO-Revision-Date: 2013-02-24 02:13+0100\n"
+"PO-Revision-Date: 2013-02-26 18:04+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -66,15 +66,15 @@ msgstr "Dziękujemy! Twój nowy blend został zapisany i jest teraz opublikowany
 
 #: Controller/BlendsController.php:478
 msgid "There was an error saving your blend as published, please report you saw this error!"
-msgstr "Wystąpił błąd podczas zapisywania (publikowania) pliku blend, proszę zgłosić ten błąd!"
+msgstr "Wystąpił błąd podczas zapisywania (publikowania) Blendu, proszę zgłosić ten błąd!"
 
 #: Controller/BlendsController.php:482
 msgid "Your new blend was saved and is now waiting moderation! Please be patient for an adminn to check your file."
-msgstr "Twój nowy plik blend został zapisany i oczekuje na sprawdzenie przez moderatora! Proszę o cierpliwość dla admina zanim sprawdzi twój plik."
+msgstr "Twój nowy Blend został zapisany i oczekuje na sprawdzenie przez moderatora! Proszę o cierpliwość dla admina zanim sprawdzi twój plik."
 
 #: Controller/BlendsController.php:486
 msgid "You blend was saved to the database, but one of the files failed to upload, please fix below the file type marked in red!"
-msgstr "Twój plik blend został zapisany w bazie danych , ale jeden z plików nie został przesłany, proszę o naprawienie problemu zaznaczonego na czerwono! "
+msgstr "Twój Blend został zapisany w bazie danych , ale jeden z plików nie został przesłany, proszę o naprawienie problemu zaznaczonego na czerwono! "
 
 #: Controller/BlendsController.php:491
 msgid "The blend could not be saved. Please ckeck any errors below and try again. Don't forget to re-select the files."
@@ -1131,7 +1131,7 @@ msgstr "Id"
 #: View/Reports/view.ctp:9
 #: View/Requests/admin_view.ctp:9;60
 msgid "Created"
-msgstr "Stworzony"
+msgstr "Kolejność dodania"
 
 #: View/Answers/admin_view.ctp:14
 #: View/Blends/admin_view.ctp:64;156;238;339
@@ -1159,7 +1159,7 @@ msgstr "Użytkownik"
 #: View/Answers/admin_view.ctp:24
 #: View/Requests/admin_view.ctp:2
 msgid "Request"
-msgstr "Tematy"
+msgstr "Temat"
 
 #: View/Answers/admin_view.ctp:29
 #: View/Blends/admin_view.ctp:29;151
@@ -1448,7 +1448,7 @@ msgstr "Przeniesione"
 
 #: View/Blends/admin_view.ctp:69
 msgid "Publish Date"
-msgstr "Daty publikacji"
+msgstr "Data publikacji"
 
 #: View/Blends/admin_view.ctp:74
 msgid "Change Log"
@@ -1645,11 +1645,11 @@ msgstr "Podstawowe dane"
 
 #: View/Blends/index.ctp:6
 msgid "Edit Date"
-msgstr "Daty edycji"
+msgstr "Data edycji"
 
 #: View/Blends/index.ctp:7
 msgid "Name"
-msgstr "Nazwa"
+msgstr "Alfabetycznie"
 
 #: View/Blends/index.ctp:25
 msgid "Page {:page} of {:pages}, showing {:current} blends out of {:count} total."
@@ -2014,7 +2014,7 @@ msgstr "Ten 'temat' biedzie zamknięty dla nowych odpowiedzi. Czy jesteś pewien
 
 #: View/Elements/bars/request_actions.ctp:86
 msgid "Re-Open Request"
-msgstr "Re-Open Request"
+msgstr "Re-Open Temat"
 
 #: View/Elements/bars/request_actions.ctp:88
 msgid "Click here to enable answers for this Request"
@@ -2022,7 +2022,7 @@ msgstr "Kliknij tutaj, aby dodać odpowiedzi do tematu"
 
 #: View/Elements/forms/commentForm.ctp:5
 msgid "Remember to keep your %s cool, harsh %s will be removed"
-msgstr "Należy pamiętać, że %s cool, ostre %s zostaną usunięte"
+msgstr "Należy pamiętać, że %s cool oraz ostre %s zostaną usunięte"
 
 #: View/Elements/forms/commentForm.ctp:6
 msgid "%s containing profanity will be queued for moderation. Please report spam."
@@ -2047,7 +2047,7 @@ msgstr "Najczęściej zadawane pytania (i odpowiedzi)"
 #: View/Elements/menus/topMenu.ctp:8
 #: View/News/admin_index.ctp:3
 msgid "News"
-msgstr "Aktualność"
+msgstr "Nowości"
 
 #: View/Elements/menus/topMenu.ctp:9
 #: View/Layouts/frontend.ctp:131
@@ -2228,7 +2228,7 @@ msgstr "Kanał RSS"
 #: View/Elements/menus/topMenu.ctp:158
 #: View/Requests/admin_index.ctp:2
 msgid "Requests"
-msgstr "Requests"
+msgstr "Tematy"
 
 #: View/Elements/menus/topMenu.ctp:162
 msgid "Create a new blend Request"
@@ -2269,7 +2269,7 @@ msgstr "Zadaj nowe pytanie"
 #: View/Elements/menus/topMenu.ctp:193
 #: View/Users/admin_index.ctp:2
 msgid "Users"
-msgstr "Użytkownik"
+msgstr "Użytkownicy"
 
 #: View/Elements/menus/topMenu.ctp:196
 msgid "Find Artists"
@@ -2338,7 +2338,7 @@ msgstr "Cała aktywność"
 
 #: View/Elements/navs/usernav.ctp:32
 msgid "Site News Blog"
-msgstr "Aktualności na Blogu"
+msgstr "Nowości na Blogu"
 
 #: View/Elements/navs/usernav.ctp:39
 msgid "Admin Notifications"
@@ -2412,7 +2412,7 @@ msgstr "gives you a warm welcome!"
 
 #: View/Helper/DashboardHelper.php:88;92;96
 msgid "Admin Notice:"
-msgstr "Posty Admina:"
+msgstr "Post Admina:"
 
 #: View/Helper/DashboardHelper.php:100
 msgid "left a comment on"
@@ -2436,11 +2436,11 @@ msgstr "wspomniał o tobie w komentarzach"
 
 #: View/Helper/DashboardHelper.php:120
 msgid "published the new blend"
-msgstr "opublikowano nowy blend"
+msgstr "opublikował nowy blend"
 
 #: View/Helper/DashboardHelper.php:124
 msgid "published the new blend:"
-msgstr "opublikowano nowy blend:"
+msgstr "opublikował nowy blend:"
 
 #: View/Helper/DashboardHelper.php:128
 msgid "likes the blend"
@@ -2468,7 +2468,7 @@ msgstr "Ten plik blend jest za duży dla przyznanego transferu w tym miesiącu!"
 
 #: View/Helper/SingleBlendHelper.php:62
 msgid "You must log in to download this blend"
-msgstr "Musisz się zalogować by móc pobrać ten blend"
+msgstr "Musisz się zalogować, aby móc pobrać ten blend"
 
 #: View/Helper/SingleBlendHelper.php:107
 msgid "Latest Change"
@@ -2766,7 +2766,7 @@ msgstr "Opcje"
 
 #: View/Options/admin_index.ctp:48
 msgid "Manage Options (Superuser only)"
-msgstr "Zarządzaj opcjami (tylko Superużytkownik)"
+msgstr "Zarządzaj opcjami (tylko Super użytkownik)"
 
 #: View/Options/admin_manage.ctp:44
 #: View/Options/admin_view.ctp:32
@@ -2955,7 +2955,7 @@ msgstr "Edytuj raport"
 
 #: View/Reports/admin_index.ctp:2
 msgid "Reports"
-msgstr "Raport"
+msgstr "Raporty"
 
 #: View/Reports/admin_index.ctp:62
 #: View/Reports/admin_view.ctp:42
@@ -3025,7 +3025,7 @@ msgstr "Edytuj użytkownika"
 
 #: View/Users/add.ctp:174
 msgid "Sign me up!"
-msgstr "Zarejestruj mnie!"
+msgstr "Dodaj mnie!"
 
 #: View/Users/admin_add.ctp:4
 msgid "Admin Add User"
@@ -3057,7 +3057,7 @@ msgstr "Usuń użytkownika"
 
 #: View/Users/associate.ctp:144
 msgid "Sign Me Up"
-msgstr "Zarejestruj mnie"
+msgstr "Dodaj mnie"
 
 #: View/Users/login.ctp:16
 msgid "Problems logging in?"
