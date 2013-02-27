@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-21 17:07-0600\n"
-"PO-Revision-Date: 2013-02-26 22:50+0100\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2013-02-27 22:09+0100\n"
+"Last-Translator: Vido89 <vidovic.slobodan@yahoo.com>\n"
 "Language-Team: Blend Swap Translators\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1171,6 +1171,7 @@ msgstr "Lista medija"
 msgid "New Media"
 msgstr "Novi medija"
 
+# Termrel ???
 #: View/Blends/admin_add.ctp:42 View/Blends/admin_view.ctp:131
 msgid "List Termrels"
 msgstr "Lista termrela"
