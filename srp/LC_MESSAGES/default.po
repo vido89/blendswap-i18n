@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-21 17:07-0600\n"
-"PO-Revision-Date: 2013-02-27 22:09+0100\n"
+"PO-Revision-Date: 2013-02-28 23:52+0100\n"
 "Last-Translator: Vido89 <vidovic.slobodan@yahoo.com>\n"
 "Language-Team: Blend Swap Translators\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "Neispravan bedž"
 
 #: Controller/BadgesController.php:90;111
 msgid "The badge has been saved"
-msgstr "Bedž je sačuvana."
+msgstr "Bedž je sačuvan"
 
 #: Controller/BadgesController.php:93;114
 msgid "The badge could not be saved. Please, try again."
@@ -65,36 +65,20 @@ msgid "Thank you! Your new blend was saved and is now publicly visible!"
 msgstr "Hvala vam ! Vaš novi blend fajl je sačuvan i sada je javno vidljiv !"
 
 #: Controller/BlendsController.php:478
-msgid ""
-"There was an error saving your blend as published, please report you saw "
-"this error!"
-msgstr ""
-"Došlo je do greške prilikom čuvanja vašeg blend fajla, molimo prijavite ovu "
-"grešku !"
+msgid "There was an error saving your blend as published, please report you saw this error!"
+msgstr "Došlo je do greške prilikom čuvanja vašeg blend fajla, molimo prijavite ovu grešku !"
 
 #: Controller/BlendsController.php:482
-msgid ""
-"Your new blend was saved and is now waiting moderation! Please be patient "
-"for an adminn to check your file."
-msgstr ""
-"Vaš novi blend fajl je sačuvan i sada čeka odobrenje moderatora! Molimo vas "
-"da budete strpljivi dok admin ne provjeri vašu datoteku."
+msgid "Your new blend was saved and is now waiting moderation! Please be patient for an adminn to check your file."
+msgstr "Vaš novi blend fajl je sačuvan i sada čeka odobrenje moderatora! Molimo vas da budete strpljivi dok admin ne provjeri vašu datoteku."
 
 #: Controller/BlendsController.php:486
-msgid ""
-"You blend was saved to the database, but one of the files failed to upload, "
-"please fix below the file type marked in red!"
-msgstr ""
-"Vaš blend fajl je sačuvan u bazi podataka, ali jedan od fajlova nije "
-"uspješno poslat, molimo ispraviti fajl naznačen crvenom bojom !"
+msgid "You blend was saved to the database, but one of the files failed to upload, please fix below the file type marked in red!"
+msgstr "Vaš blend fajl je sačuvan u bazi podataka, ali jedan od fajlova nije uspješno poslat, molimo ispravite fajl naznačen crvenom bojom !"
 
 #: Controller/BlendsController.php:491
-msgid ""
-"The blend could not be saved. Please ckeck any errors below and try again. "
-"Don't forget to re-select the files."
-msgstr ""
-"Blend fajl nije sačuvan. Molimo provjerite na greške ako je neka naznačena i "
-"pokušajte ponovo. Nezaboravite da ponovo označite fajlove za dodavanje."
+msgid "The blend could not be saved. Please ckeck any errors below and try again. Don't forget to re-select the files."
+msgstr "Blend fajl nije sačuvan. Molimo provjerite na greške ako je neka naznačena i pokušajte ponovo. Nezaboravite da ponovo označite fajlove za dodavanje."
 
 #: Controller/BlendsController.php:560
 msgid "The requested blend does not exist."
@@ -106,8 +90,7 @@ msgstr "Blend fajl je sačuvan"
 
 #: Controller/BlendsController.php:599
 msgid "ERRORS! Please check any red messages below and try again."
-msgstr ""
-"GREŠKA! Molimo provjerite greške ako je neka naznačena i pokušajte ponovo."
+msgstr "GREŠKA! Molimo provjerite greške ako je neka naznačena i pokušajte ponovo."
 
 #: Controller/BlendsController.php:1674
 msgid "The blend could not be saved. Please, try again."
@@ -190,9 +173,7 @@ msgid "The contact has been saved"
 msgstr "Kontakt je sačuvan"
 
 #: Controller/ContactsController.php:84
-msgid ""
-"The submission could not be saved correctly please correct any errors and "
-"try again."
+msgid "The submission could not be saved correctly please correct any errors and try again."
 msgstr "Vaš zahtjev nije sačuvan, molimo ispravite grešku i pokušajte ponovo."
 
 #: Controller/ContactsController.php:125;148;174
@@ -632,41 +613,28 @@ msgid "Account and settings saved"
 msgstr "Nalog i podešavanja sačuvani"
 
 #: Controller/UsersController.php:357
-msgid ""
-"The setting could not be saved. Please review the rrors below and try again."
+msgid "The setting could not be saved. Please review the rrors below and try again."
 msgstr "Podešavanja nisu sačuvana. Molimo ispravite greške i pokušajte ponovo."
 
 #: Controller/UsersController.php:390
 msgid "Your username was changed. you must use it to log in from now on."
-msgstr ""
-"Tvoje korisničko ime je promijenjeno. Koristiti ga u buduće prilikom "
-"prijavljivanja."
+msgstr "Tvoje korisničko ime je promijenjeno. Koristiti ga u buduće prilikom prijavljivanja."
 
 #: Controller/UsersController.php:397
 msgid "The username you enteres is not valid, please check the rules again."
-msgstr ""
-"Korisničko ime koje ste unijeli nije ispravno, molimo probajte neko drugo."
+msgstr "Korisničko ime koje ste unijeli nije ispravno, molimo probajte neko drugo."
 
 #: Controller/UsersController.php:494;609
 msgid "Captcha was incorrect please try again."
 msgstr "Capcha je neispravna probajte ponovo."
 
 #: Controller/UsersController.php:535
-msgid ""
-"There was a problem sending your verification email. please contact the "
-"admins with your username and email so they can activate your account!"
-msgstr ""
-"Došlo je do problema prilikom slanja verifikacionog email-a. Kontaktirajte "
-"admina sa svojim korisničkim imenom i e-mail-om, tako da možete da "
-"aktivirate svoj nalog!"
+msgid "There was a problem sending your verification email. please contact the admins with your username and email so they can activate your account!"
+msgstr "Došlo je do problema prilikom slanja verifikacionog email-a. Kontaktirajte admina sa svojim korisničkim imenom i e-mail-om, tako da možete da aktivirate svoj nalog!"
 
 #: Controller/UsersController.php:555
-msgid ""
-"The data entered did not validate, so the account was not created. Please "
-"correct the errors marked in red below, re-enter your password and try again."
-msgstr ""
-"Unjeti podaci nisu ispravni, tako da nalog nije napravljen. Ispravite greške "
-"označene crvenom bojom ispod, unesite vašu lozinku i pokušajte ponovo."
+msgid "The data entered did not validate, so the account was not created. Please correct the errors marked in red below, re-enter your password and try again."
+msgstr "Unjeti podaci nisu ispravni, tako da nalog nije napravljen. Ispravite greške označene crvenom bojom ispod, unesite vašu lozinku i pokušajte ponovo."
 
 #: Controller/UsersController.php:1531;1553
 msgid "The user has been saved"
@@ -708,105 +676,182 @@ msgstr "Glas nije obrisan"
 msgid "Admin Add Response"
 msgstr "Admin dodavanje odgovora"
 
-#: View/Answers/admin_add.ctp:11 View/Answers/admin_edit.ctp:12
-#: View/Blends/admin_add.ctp:27 View/Blends/admin_edit.ctp:60
-#: View/Chats/add.ctp:11 View/Chats/edit.ctp:12
-#: View/Comments/admin_edit.ctp:13 View/Contacts/add.ctp:93
-#: View/Contacts/admin_edit.ctp:17 View/Elements/forms/commentForm.ctp:15
-#: View/Feedbacks/add.ctp:21 View/Feedbacks/admin_edit.ctp:38
-#: View/Keys/add.ctp:13 View/Keys/edit.ctp:14 View/Limits/admin_add.ctp:12
-#: View/Limits/admin_edit.ctp:13 View/Messages/add.ctp:12
-#: View/Messages/edit.ctp:13 View/Options/admin_add.ctp:13
-#: View/Options/admin_edit.ctp:32 View/Pages/admin_add.ctp:15
-#: View/Profiles/admin_add.ctp:22 View/Profiles/admin_edit.ctp:23
-#: View/Profiles/edit.ctp:107 View/Questions/add.ctp:29
-#: View/Questions/admin_add.ctp:11 View/Questions/admin_edit.ctp:12
-#: View/Questions/edit.ctp:18 View/Reports/__add.ctp:11
-#: View/Reports/admin_edit.ctp:12 View/Requests/add.ctp:82
-#: View/Requests/admin_add.ctp:12 View/Requests/admin_edit.ctp:14
-#: View/Requests/edit.ctp:42 View/Users/account.ctp:31
-#: View/Users/admin_add.ctp:25 View/Users/admin_edit.ctp:26
+#: View/Answers/admin_add.ctp:11
+#: View/Answers/admin_edit.ctp:12
+#: View/Blends/admin_add.ctp:27
+#: View/Blends/admin_edit.ctp:60
+#: View/Chats/add.ctp:11
+#: View/Chats/edit.ctp:12
+#: View/Comments/admin_edit.ctp:13
+#: View/Contacts/add.ctp:93
+#: View/Contacts/admin_edit.ctp:17
+#: View/Elements/forms/commentForm.ctp:15
+#: View/Feedbacks/add.ctp:21
+#: View/Feedbacks/admin_edit.ctp:38
+#: View/Keys/add.ctp:13
+#: View/Keys/edit.ctp:14
+#: View/Limits/admin_add.ctp:12
+#: View/Limits/admin_edit.ctp:13
+#: View/Messages/add.ctp:12
+#: View/Messages/edit.ctp:13
+#: View/Options/admin_add.ctp:13
+#: View/Options/admin_edit.ctp:32
+#: View/Pages/admin_add.ctp:15
+#: View/Profiles/admin_add.ctp:22
+#: View/Profiles/admin_edit.ctp:23
+#: View/Profiles/edit.ctp:107
+#: View/Questions/add.ctp:29
+#: View/Questions/admin_add.ctp:11
+#: View/Questions/admin_edit.ctp:12
+#: View/Questions/edit.ctp:18
+#: View/Reports/__add.ctp:11
+#: View/Reports/admin_edit.ctp:12
+#: View/Requests/add.ctp:82
+#: View/Requests/admin_add.ctp:12
+#: View/Requests/admin_edit.ctp:14
+#: View/Requests/edit.ctp:42
+#: View/Users/account.ctp:31
+#: View/Users/admin_add.ctp:25
+#: View/Users/admin_edit.ctp:26
 msgid "Submit"
 msgstr "Pošalji"
 
-#: View/Answers/admin_add.ctp:14 View/Answers/admin_edit.ctp:15
-#: View/Answers/admin_index.ctp:11;50 View/Answers/admin_view.ctp:37
-#: View/Blends/admin_add.ctp:30 View/Blends/admin_edit.ctp:64
+#: View/Answers/admin_add.ctp:14
+#: View/Answers/admin_edit.ctp:15
+#: View/Answers/admin_index.ctp:11;50
+#: View/Answers/admin_view.ctp:37
+#: View/Blends/admin_add.ctp:30
+#: View/Blends/admin_edit.ctp:64
 #: View/Blends/admin_index.ctp:36
-#: View/Blends/admin_view.ctp:117;158;205;254;303;341 View/Chats/add.ctp:14
-#: View/Chats/edit.ctp:15 View/Chats/index.ctp:12
-#: View/Comments/admin_edit.ctp:16 View/Comments/admin_index.ctp:30;90
-#: View/Comments/admin_view.ctp:82 View/Contacts/admin_edit.ctp:20
-#: View/Contacts/admin_index.ctp:20;62 View/Contacts/admin_view.ctp:87
-#: View/Downloads/admin_index.ctp:11;46 View/Feedbacks/add.ctp:24
-#: View/Feedbacks/admin_edit.ctp:43 View/Feedbacks/admin_index.ctp:20
-#: View/Feedbacks/admin_view.ctp:87 View/Keys/add.ctp:16 View/Keys/edit.ctp:17
-#: View/Keys/index.ctp:11;46 View/Keys/view.ctp:37
-#: View/Limits/admin_add.ctp:15 View/Limits/admin_edit.ctp:16
-#: View/Limits/admin_index.ctp:12;48 View/Limits/admin_view.ctp:42
-#: View/Messages/add.ctp:15 View/Messages/edit.ctp:16
-#: View/Messages/index.ctp:12;48 View/Messages/view.ctp:42
-#: View/News/admin_index.ctp:22 View/Options/admin_add.ctp:16
-#: View/Options/admin_edit.ctp:35 View/Options/admin_index.ctp:46
-#: View/Options/admin_manage.ctp:9;42 View/Options/admin_view.ctp:27
-#: View/Pages/admin_add.ctp:18 View/Pages/admin_edit.ctp:22
-#: View/Pages/admin_index.ctp:8;40 View/Profiles/admin_add.ctp:25
-#: View/Profiles/admin_edit.ctp:26 View/Profiles/admin_index.ctp:22;68
-#: View/Profiles/admin_view.ctp:92 View/Questions/admin_add.ctp:14
-#: View/Questions/admin_edit.ctp:15 View/Questions/admin_index.ctp:11;46
-#: View/Questions/admin_view.ctp:37 View/Reports/__add.ctp:14
-#: View/Reports/admin_edit.ctp:15 View/Reports/admin_index.ctp:22;60
-#: View/Reports/admin_view.ctp:37 View/Reports/view.ctp:37
-#: View/Requests/admin_add.ctp:15 View/Requests/admin_edit.ctp:17
-#: View/Requests/admin_index.ctp:16;57 View/Requests/admin_view.ctp:42;65
-#: View/Users/account.ctp:34 View/Users/admin_index.ctp:27;78
+#: View/Blends/admin_view.ctp:117;158;205;254;303;341
+#: View/Chats/add.ctp:14
+#: View/Chats/edit.ctp:15
+#: View/Chats/index.ctp:12
+#: View/Comments/admin_edit.ctp:16
+#: View/Comments/admin_index.ctp:30;90
+#: View/Comments/admin_view.ctp:82
+#: View/Contacts/admin_edit.ctp:20
+#: View/Contacts/admin_index.ctp:20;62
+#: View/Contacts/admin_view.ctp:87
+#: View/Downloads/admin_index.ctp:11;46
+#: View/Feedbacks/add.ctp:24
+#: View/Feedbacks/admin_edit.ctp:43
+#: View/Feedbacks/admin_index.ctp:20
+#: View/Feedbacks/admin_view.ctp:87
+#: View/Keys/add.ctp:16
+#: View/Keys/edit.ctp:17
+#: View/Keys/index.ctp:11;46
+#: View/Keys/view.ctp:37
+#: View/Limits/admin_add.ctp:15
+#: View/Limits/admin_edit.ctp:16
+#: View/Limits/admin_index.ctp:12;48
+#: View/Limits/admin_view.ctp:42
+#: View/Messages/add.ctp:15
+#: View/Messages/edit.ctp:16
+#: View/Messages/index.ctp:12;48
+#: View/Messages/view.ctp:42
+#: View/News/admin_index.ctp:22
+#: View/Options/admin_add.ctp:16
+#: View/Options/admin_edit.ctp:35
+#: View/Options/admin_index.ctp:46
+#: View/Options/admin_manage.ctp:9;42
+#: View/Options/admin_view.ctp:27
+#: View/Pages/admin_add.ctp:18
+#: View/Pages/admin_edit.ctp:22
+#: View/Pages/admin_index.ctp:8;40
+#: View/Profiles/admin_add.ctp:25
+#: View/Profiles/admin_edit.ctp:26
+#: View/Profiles/admin_index.ctp:22;68
+#: View/Profiles/admin_view.ctp:92
+#: View/Questions/admin_add.ctp:14
+#: View/Questions/admin_edit.ctp:15
+#: View/Questions/admin_index.ctp:11;46
+#: View/Questions/admin_view.ctp:37
+#: View/Reports/__add.ctp:14
+#: View/Reports/admin_edit.ctp:15
+#: View/Reports/admin_index.ctp:22;60
+#: View/Reports/admin_view.ctp:37
+#: View/Reports/view.ctp:37
+#: View/Requests/admin_add.ctp:15
+#: View/Requests/admin_edit.ctp:17
+#: View/Requests/admin_index.ctp:16;57
+#: View/Requests/admin_view.ctp:42;65
+#: View/Users/account.ctp:34
+#: View/Users/admin_index.ctp:27;78
 #: View/Users/admin_view.ctp:229
 msgid "Actions"
 msgstr "Akcije"
 
-#: View/Answers/admin_add.ctp:17 View/Answers/admin_edit.ctp:19
-#: View/Answers/admin_view.ctp:41 View/Requests/admin_add.ctp:21
-#: View/Requests/admin_edit.ctp:24 View/Requests/admin_index.ctp:62
+#: View/Answers/admin_add.ctp:17
+#: View/Answers/admin_edit.ctp:19
+#: View/Answers/admin_view.ctp:41
+#: View/Requests/admin_add.ctp:21
+#: View/Requests/admin_edit.ctp:24
+#: View/Requests/admin_index.ctp:62
 #: View/Requests/admin_view.ctp:50
 msgid "List Responses"
 msgstr "Lista odgovora"
 
-#: View/Answers/admin_add.ctp:18 View/Answers/admin_edit.ctp:20
-#: View/Answers/admin_index.ctp:53 View/Answers/admin_view.ctp:43
-#: View/Blends/admin_add.ctp:34 View/Blends/admin_view.ctp:123
-#: View/Comments/admin_edit.ctp:23 View/Comments/admin_index.ctp:95
-#: View/Comments/admin_view.ctp:90 View/Feedbacks/add.ctp:30
-#: View/Feedbacks/admin_view.ctp:95 View/Pages/admin_add.ctp:22
-#: View/Pages/admin_index.ctp:43 View/Requests/admin_add.ctp:19
-#: View/Requests/admin_edit.ctp:22 View/Requests/admin_index.ctp:60
-#: View/Requests/admin_view.ctp:48 View/Users/account.ctp:38
+#: View/Answers/admin_add.ctp:18
+#: View/Answers/admin_edit.ctp:20
+#: View/Answers/admin_index.ctp:53
+#: View/Answers/admin_view.ctp:43
+#: View/Blends/admin_add.ctp:34
+#: View/Blends/admin_view.ctp:123
+#: View/Comments/admin_edit.ctp:23
+#: View/Comments/admin_index.ctp:95
+#: View/Comments/admin_view.ctp:90
+#: View/Feedbacks/add.ctp:30
+#: View/Feedbacks/admin_view.ctp:95
+#: View/Pages/admin_add.ctp:22
+#: View/Pages/admin_index.ctp:43
+#: View/Requests/admin_add.ctp:19
+#: View/Requests/admin_edit.ctp:22
+#: View/Requests/admin_index.ctp:60
+#: View/Requests/admin_view.ctp:48
+#: View/Users/account.ctp:38
 #: View/Users/admin_view.ctp:233
 msgid "List Users"
 msgstr "Lista korisnika"
 
-#: View/Answers/admin_add.ctp:19 View/Answers/admin_edit.ctp:21
-#: View/Answers/admin_index.ctp:54 View/Answers/admin_view.ctp:44
-#: View/Blends/admin_add.ctp:35 View/Blends/admin_view.ctp:124
-#: View/Comments/admin_edit.ctp:24 View/Comments/admin_index.ctp:96
-#: View/Comments/admin_view.ctp:91 View/Feedbacks/add.ctp:31
-#: View/Feedbacks/admin_view.ctp:96 View/Pages/admin_add.ctp:23
-#: View/Pages/admin_index.ctp:44 View/Requests/admin_add.ctp:20
-#: View/Requests/admin_edit.ctp:23 View/Requests/admin_index.ctp:61
-#: View/Requests/admin_view.ctp:49 View/Users/admin_index.ctp:80
+#: View/Answers/admin_add.ctp:19
+#: View/Answers/admin_edit.ctp:21
+#: View/Answers/admin_index.ctp:54
+#: View/Answers/admin_view.ctp:44
+#: View/Blends/admin_add.ctp:35
+#: View/Blends/admin_view.ctp:124
+#: View/Comments/admin_edit.ctp:24
+#: View/Comments/admin_index.ctp:96
+#: View/Comments/admin_view.ctp:91
+#: View/Feedbacks/add.ctp:31
+#: View/Feedbacks/admin_view.ctp:96
+#: View/Pages/admin_add.ctp:23
+#: View/Pages/admin_index.ctp:44
+#: View/Requests/admin_add.ctp:20
+#: View/Requests/admin_edit.ctp:23
+#: View/Requests/admin_index.ctp:61
+#: View/Requests/admin_view.ctp:49
+#: View/Users/admin_index.ctp:80
 #: View/Users/admin_view.ctp:234
 msgid "New User"
 msgstr "Novi korisnik"
 
-#: View/Answers/admin_add.ctp:20 View/Answers/admin_edit.ctp:22
-#: View/Answers/admin_index.ctp:55 View/Answers/admin_view.ctp:45
-#: View/Requests/admin_add.ctp:18 View/Requests/admin_edit.ctp:21
+#: View/Answers/admin_add.ctp:20
+#: View/Answers/admin_edit.ctp:22
+#: View/Answers/admin_index.ctp:55
+#: View/Answers/admin_view.ctp:45
+#: View/Requests/admin_add.ctp:18
+#: View/Requests/admin_edit.ctp:21
 #: View/Requests/admin_view.ctp:46
 msgid "List Requests"
 msgstr "Lista zahtjeva"
 
-#: View/Answers/admin_add.ctp:21 View/Answers/admin_edit.ctp:23
-#: View/Answers/admin_index.ctp:56 View/Answers/admin_view.ctp:46
-#: View/Elements/menus/topMenu.ctp:162 View/Requests/admin_index.ctp:59
+#: View/Answers/admin_add.ctp:21
+#: View/Answers/admin_edit.ctp:23
+#: View/Answers/admin_index.ctp:56
+#: View/Answers/admin_view.ctp:46
+#: View/Elements/menus/topMenu.ctp:162
+#: View/Requests/admin_index.ctp:59
 #: View/Requests/admin_view.ctp:47
 msgid "New Request"
 msgstr "Novi zahtjev"
@@ -815,142 +860,250 @@ msgstr "Novi zahtjev"
 msgid "Admin Edit Response"
 msgstr "Admin izmjena odgovora"
 
-#: View/Answers/admin_edit.ctp:18 View/Answers/admin_index.ctp:29
+#: View/Answers/admin_edit.ctp:18
+#: View/Answers/admin_index.ctp:29
 #: View/Blends/admin_index.ctp:57
-#: View/Blends/admin_view.ctp:183;218;281;316;357 View/Chats/edit.ctp:18
-#: View/Comments/admin_edit.ctp:19 View/Comments/admin_index.ctp:69
-#: View/Contacts/admin_edit.ctp:23 View/Downloads/admin_index.ctp:25
-#: View/Feedbacks/admin_edit.ctp:46 View/Feedbacks/admin_index.ctp:51
-#: View/Keys/edit.ctp:20 View/Keys/index.ctp:25 View/Limits/admin_edit.ctp:19
-#: View/Limits/admin_index.ctp:27 View/Messages/edit.ctp:19
-#: View/Messages/index.ctp:27 View/News/admin_edit.ctp:3
-#: View/News/admin_index.ctp:41 View/Options/admin_edit.ctp:38
-#: View/Options/admin_index.ctp:22 View/Options/admin_manage.ctp:21
-#: View/Pages/admin_index.ctp:20 View/Profiles/admin_edit.ctp:29
-#: View/Profiles/admin_index.ctp:47 View/Questions/admin_edit.ctp:18
-#: View/Questions/admin_index.ctp:25 View/Reports/admin_edit.ctp:18
-#: View/Reports/admin_index.ctp:39 View/Requests/admin_edit.ctp:20
-#: View/Requests/admin_index.ctp:36 View/Requests/admin_view.ctp:80
-#: View/Users/account.ctp:37 View/Users/admin_index.ctp:57
+#: View/Blends/admin_view.ctp:183;218;281;316;357
+#: View/Chats/edit.ctp:18
+#: View/Comments/admin_edit.ctp:19
+#: View/Comments/admin_index.ctp:69
+#: View/Contacts/admin_edit.ctp:23
+#: View/Downloads/admin_index.ctp:25
+#: View/Feedbacks/admin_edit.ctp:46
+#: View/Feedbacks/admin_index.ctp:51
+#: View/Keys/edit.ctp:20
+#: View/Keys/index.ctp:25
+#: View/Limits/admin_edit.ctp:19
+#: View/Limits/admin_index.ctp:27
+#: View/Messages/edit.ctp:19
+#: View/Messages/index.ctp:27
+#: View/News/admin_edit.ctp:3
+#: View/News/admin_index.ctp:41
+#: View/Options/admin_edit.ctp:38
+#: View/Options/admin_index.ctp:22
+#: View/Options/admin_manage.ctp:21
+#: View/Pages/admin_index.ctp:20
+#: View/Profiles/admin_edit.ctp:29
+#: View/Profiles/admin_index.ctp:47
+#: View/Questions/admin_edit.ctp:18
+#: View/Questions/admin_index.ctp:25
+#: View/Reports/admin_edit.ctp:18
+#: View/Reports/admin_index.ctp:39
+#: View/Requests/admin_edit.ctp:20
+#: View/Requests/admin_index.ctp:36
+#: View/Requests/admin_view.ctp:80
+#: View/Users/account.ctp:37
+#: View/Users/admin_index.ctp:57
 msgid "Delete"
 msgstr "Obriši"
 
-#: View/Answers/admin_edit.ctp:18 View/Answers/admin_index.ctp:29
-#: View/Answers/admin_view.ctp:40 View/Blends/admin_edit.ctp:67
+#: View/Answers/admin_edit.ctp:18
+#: View/Answers/admin_index.ctp:29
+#: View/Answers/admin_view.ctp:40
+#: View/Blends/admin_edit.ctp:67
 #: View/Blends/admin_index.ctp:57
-#: View/Blends/admin_view.ctp:120;183;218;281;316;357 View/Chats/edit.ctp:18
-#: View/Comments/admin_edit.ctp:19 View/Comments/admin_index.ctp:69
-#: View/Comments/admin_view.ctp:85 View/Contacts/admin_edit.ctp:23
-#: View/Contacts/admin_index.ctp:41 View/Contacts/admin_view.ctp:90
-#: View/Downloads/admin_index.ctp:25 View/Feedbacks/admin_edit.ctp:46
-#: View/Feedbacks/admin_index.ctp:51 View/Feedbacks/admin_view.ctp:90
-#: View/Keys/edit.ctp:20 View/Keys/index.ctp:25 View/Keys/view.ctp:40
-#: View/Limits/admin_edit.ctp:19 View/Limits/admin_index.ctp:27
-#: View/Limits/admin_view.ctp:45 View/Messages/edit.ctp:19
-#: View/Messages/index.ctp:27 View/Messages/view.ctp:45
-#: View/News/admin_edit.ctp:3 View/News/admin_index.ctp:41
-#: View/Options/admin_edit.ctp:38 View/Options/admin_index.ctp:22
-#: View/Options/admin_manage.ctp:21 View/Options/admin_view.ctp:30
-#: View/Pages/admin_edit.ctp:24 View/Pages/admin_index.ctp:20
-#: View/Profiles/admin_edit.ctp:29 View/Profiles/admin_index.ctp:47
-#: View/Profiles/admin_view.ctp:95 View/Questions/admin_edit.ctp:18
-#: View/Questions/admin_index.ctp:25 View/Questions/admin_view.ctp:40
-#: View/Reports/admin_edit.ctp:18 View/Reports/admin_index.ctp:39
-#: View/Reports/admin_view.ctp:40 View/Reports/view.ctp:40
-#: View/Requests/admin_edit.ctp:20 View/Requests/admin_index.ctp:36
-#: View/Requests/admin_view.ctp:45;80 View/Users/account.ctp:37
-#: View/Users/admin_index.ctp:57 View/Users/admin_view.ctp:232
+#: View/Blends/admin_view.ctp:120;183;218;281;316;357
+#: View/Chats/edit.ctp:18
+#: View/Comments/admin_edit.ctp:19
+#: View/Comments/admin_index.ctp:69
+#: View/Comments/admin_view.ctp:85
+#: View/Contacts/admin_edit.ctp:23
+#: View/Contacts/admin_index.ctp:41
+#: View/Contacts/admin_view.ctp:90
+#: View/Downloads/admin_index.ctp:25
+#: View/Feedbacks/admin_edit.ctp:46
+#: View/Feedbacks/admin_index.ctp:51
+#: View/Feedbacks/admin_view.ctp:90
+#: View/Keys/edit.ctp:20
+#: View/Keys/index.ctp:25
+#: View/Keys/view.ctp:40
+#: View/Limits/admin_edit.ctp:19
+#: View/Limits/admin_index.ctp:27
+#: View/Limits/admin_view.ctp:45
+#: View/Messages/edit.ctp:19
+#: View/Messages/index.ctp:27
+#: View/Messages/view.ctp:45
+#: View/News/admin_edit.ctp:3
+#: View/News/admin_index.ctp:41
+#: View/Options/admin_edit.ctp:38
+#: View/Options/admin_index.ctp:22
+#: View/Options/admin_manage.ctp:21
+#: View/Options/admin_view.ctp:30
+#: View/Pages/admin_edit.ctp:24
+#: View/Pages/admin_index.ctp:20
+#: View/Profiles/admin_edit.ctp:29
+#: View/Profiles/admin_index.ctp:47
+#: View/Profiles/admin_view.ctp:95
+#: View/Questions/admin_edit.ctp:18
+#: View/Questions/admin_index.ctp:25
+#: View/Questions/admin_view.ctp:40
+#: View/Reports/admin_edit.ctp:18
+#: View/Reports/admin_index.ctp:39
+#: View/Reports/admin_view.ctp:40
+#: View/Reports/view.ctp:40
+#: View/Requests/admin_edit.ctp:20
+#: View/Requests/admin_index.ctp:36
+#: View/Requests/admin_view.ctp:45;80
+#: View/Users/account.ctp:37
+#: View/Users/admin_index.ctp:57
+#: View/Users/admin_view.ctp:232
 msgid "Are you sure you want to delete # %s?"
 msgstr "Siguran si da želiš da obrišeš # % ?"
 
-#: View/Answers/admin_index.ctp:2 View/Requests/view.ctp:49
+#: View/Answers/admin_index.ctp:2
+#: View/Requests/view.ctp:49
 msgid "Responses"
 msgstr "Odgovori"
 
-#: View/Answers/admin_index.ctp:27 View/Blends/admin_index.ctp:55
+#: View/Answers/admin_index.ctp:27
+#: View/Blends/admin_index.ctp:55
 #: View/Blends/admin_view.ctp:181;216;279;314;355
-#: View/Comments/admin_index.ctp:64 View/Downloads/admin_index.ctp:23
-#: View/Feedbacks/admin_index.ctp:49 View/Keys/index.ctp:23
-#: View/Limits/admin_index.ctp:25 View/Messages/index.ctp:25
-#: View/News/admin_index.ctp:39 View/Options/admin_index.ctp:20
-#: View/Options/admin_manage.ctp:19 View/Pages/admin_index.ctp:18
-#: View/Profiles/admin_index.ctp:45 View/Questions/admin_index.ctp:23
-#: View/Reports/admin_index.ctp:37 View/Requests/admin_index.ctp:34
-#: View/Requests/admin_view.ctp:78 View/Users/admin_index.ctp:55
+#: View/Comments/admin_index.ctp:64
+#: View/Downloads/admin_index.ctp:23
+#: View/Feedbacks/admin_index.ctp:49
+#: View/Keys/index.ctp:23
+#: View/Limits/admin_index.ctp:25
+#: View/Messages/index.ctp:25
+#: View/News/admin_index.ctp:39
+#: View/Options/admin_index.ctp:20
+#: View/Options/admin_manage.ctp:19
+#: View/Pages/admin_index.ctp:18
+#: View/Profiles/admin_index.ctp:45
+#: View/Questions/admin_index.ctp:23
+#: View/Reports/admin_index.ctp:37
+#: View/Requests/admin_index.ctp:34
+#: View/Requests/admin_view.ctp:78
+#: View/Users/admin_index.ctp:55
 msgid "View"
 msgstr "Pogledaj"
 
-#: View/Answers/admin_index.ctp:28 View/Blends/admin_index.ctp:56
+#: View/Answers/admin_index.ctp:28
+#: View/Blends/admin_index.ctp:56
 #: View/Blends/admin_view.ctp:182;217;280;315;356
-#: View/Comments/admin_index.ctp:68 View/Downloads/admin_index.ctp:24
-#: View/Feedbacks/admin_index.ctp:50 View/Keys/index.ctp:24
-#: View/Limits/admin_index.ctp:26 View/Messages/index.ctp:26
-#: View/News/admin_index.ctp:40 View/Options/admin_index.ctp:21
-#: View/Options/admin_manage.ctp:20 View/Pages/admin_index.ctp:19
-#: View/Profiles/admin_index.ctp:46 View/Questions/admin_index.ctp:24
-#: View/Reports/admin_index.ctp:38 View/Requests/admin_index.ctp:35
-#: View/Requests/admin_view.ctp:79 View/Users/admin_index.ctp:56
+#: View/Comments/admin_index.ctp:68
+#: View/Downloads/admin_index.ctp:24
+#: View/Feedbacks/admin_index.ctp:50
+#: View/Keys/index.ctp:24
+#: View/Limits/admin_index.ctp:26
+#: View/Messages/index.ctp:26
+#: View/News/admin_index.ctp:40
+#: View/Options/admin_index.ctp:21
+#: View/Options/admin_manage.ctp:20
+#: View/Pages/admin_index.ctp:19
+#: View/Profiles/admin_index.ctp:46
+#: View/Questions/admin_index.ctp:24
+#: View/Reports/admin_index.ctp:38
+#: View/Requests/admin_index.ctp:35
+#: View/Requests/admin_view.ctp:79
+#: View/Users/admin_index.ctp:56
 msgid "Edit"
 msgstr "Izmijeni"
 
-#: View/Answers/admin_index.ctp:37 View/Blends/admin_index.ctp:65
-#: View/Blends/search.ctp:103 View/Blends/user.ctp:33 View/Chats/index.ctp:25
-#: View/Collections/index.ctp:67 View/Collections/view.ctp:29
-#: View/Comments/admin_index.ctp:77 View/Contacts/admin_index.ctp:49
-#: View/Downloads/admin_index.ctp:33 View/Feedbacks/admin_index.ctp:59
-#: View/Keys/index.ctp:33 View/Limits/admin_index.ctp:35
-#: View/Messages/index.ctp:35 View/News/admin_index.ctp:49
-#: View/Options/admin_index.ctp:32 View/Options/admin_manage.ctp:29
-#: View/Pages/admin_index.ctp:35 View/Profiles/admin_index.ctp:55
-#: View/Questions/admin_index.ctp:33 View/Reports/admin_index.ctp:47
-#: View/Reports/index.ctp:26 View/Requests/admin_index.ctp:44
-#: View/Requests/index.ctp:48 View/Users/admin_index.ctp:65
+#: View/Answers/admin_index.ctp:37
+#: View/Blends/admin_index.ctp:65
+#: View/Blends/search.ctp:103
+#: View/Blends/user.ctp:33
+#: View/Chats/index.ctp:25
+#: View/Collections/index.ctp:67
+#: View/Collections/view.ctp:29
+#: View/Comments/admin_index.ctp:77
+#: View/Contacts/admin_index.ctp:49
+#: View/Downloads/admin_index.ctp:33
+#: View/Feedbacks/admin_index.ctp:59
+#: View/Keys/index.ctp:33
+#: View/Limits/admin_index.ctp:35
+#: View/Messages/index.ctp:35
+#: View/News/admin_index.ctp:49
+#: View/Options/admin_index.ctp:32
+#: View/Options/admin_manage.ctp:29
+#: View/Pages/admin_index.ctp:35
+#: View/Profiles/admin_index.ctp:55
+#: View/Questions/admin_index.ctp:33
+#: View/Reports/admin_index.ctp:47
+#: View/Reports/index.ctp:26
+#: View/Requests/admin_index.ctp:44
+#: View/Requests/index.ctp:48
+#: View/Users/admin_index.ctp:65
 #: View/Users/featured.ctp:49
 msgid "Page {:page} of {:pages}, showing {:current} out of {:count} total."
-msgstr ""
-"Strana {:page} od {:pages}, prikazana {:current} od ukupno {:count} strana."
+msgstr "Strana {:page} od {:pages}, prikazana {:current} od ukupno {:count} strana."
 
-#: View/Answers/admin_index.ctp:43 View/Blends/admin_index.ctp:72
-#: View/Blends/index.ctp:32 View/Blends/search.ctp:109 View/Blends/user.ctp:39
-#: View/Chats/inbox.ctp:48 View/Chats/index.ctp:30
-#: View/Collections/index.ctp:75 View/Collections/view.ctp:36
-#: View/Comments/admin_index.ctp:83 View/Contacts/admin_index.ctp:55
-#: View/Downloads/admin_index.ctp:39 View/Feedbacks/admin_index.ctp:65
-#: View/Keys/index.ctp:39 View/Limits/admin_index.ctp:41
-#: View/Messages/index.ctp:41 View/News/admin_index.ctp:55
-#: View/News/index.ctp:44 View/Options/admin_index.ctp:38
-#: View/Options/admin_manage.ctp:35 View/Pages/admin_index.ctp:27
-#: View/Profiles/admin_index.ctp:61 View/Questions/admin_index.ctp:39
-#: View/Questions/index.ctp:62 View/Reports/admin_index.ctp:53
-#: View/Reports/index.ctp:32 View/Requests/admin_index.ctp:50
-#: View/Requests/index.ctp:52 View/Users/admin_index.ctp:71
-#: View/Users/featured.ctp:56 View/Users/search.ctp:100
+#: View/Answers/admin_index.ctp:43
+#: View/Blends/admin_index.ctp:72
+#: View/Blends/index.ctp:32
+#: View/Blends/search.ctp:109
+#: View/Blends/user.ctp:39
+#: View/Chats/inbox.ctp:48
+#: View/Chats/index.ctp:30
+#: View/Collections/index.ctp:75
+#: View/Collections/view.ctp:36
+#: View/Comments/admin_index.ctp:83
+#: View/Contacts/admin_index.ctp:55
+#: View/Downloads/admin_index.ctp:39
+#: View/Feedbacks/admin_index.ctp:65
+#: View/Keys/index.ctp:39
+#: View/Limits/admin_index.ctp:41
+#: View/Messages/index.ctp:41
+#: View/News/admin_index.ctp:55
+#: View/News/index.ctp:44
+#: View/Options/admin_index.ctp:38
+#: View/Options/admin_manage.ctp:35
+#: View/Pages/admin_index.ctp:27
+#: View/Profiles/admin_index.ctp:61
+#: View/Questions/admin_index.ctp:39
+#: View/Questions/index.ctp:62
+#: View/Reports/admin_index.ctp:53
+#: View/Reports/index.ctp:32
+#: View/Requests/admin_index.ctp:50
+#: View/Requests/index.ctp:52
+#: View/Users/admin_index.ctp:71
+#: View/Users/featured.ctp:56
+#: View/Users/search.ctp:100
 #: View/Users/stats.ctp:43
 msgid "previous"
 msgstr "predodna"
 
-#: View/Answers/admin_index.ctp:45 View/Blends/admin_index.ctp:74
-#: View/Blends/index.ctp:34 View/Blends/search.ctp:111 View/Blends/user.ctp:41
-#: View/Chats/inbox.ctp:50 View/Chats/index.ctp:32
-#: View/Collections/index.ctp:77 View/Collections/view.ctp:38
-#: View/Comments/admin_index.ctp:85 View/Contacts/admin_index.ctp:57
-#: View/Downloads/admin_index.ctp:41 View/Feedbacks/admin_index.ctp:67
-#: View/Keys/index.ctp:41 View/Limits/admin_index.ctp:43
-#: View/Messages/index.ctp:43 View/News/admin_index.ctp:57
-#: View/News/index.ctp:46 View/Options/admin_index.ctp:40
-#: View/Options/admin_manage.ctp:37 View/Pages/admin_index.ctp:29
-#: View/Profiles/admin_index.ctp:63 View/Questions/admin_index.ctp:41
-#: View/Questions/index.ctp:64 View/Reports/admin_index.ctp:55
-#: View/Reports/index.ctp:34 View/Requests/admin_index.ctp:52
-#: View/Requests/index.ctp:54 View/Users/admin_index.ctp:73
-#: View/Users/featured.ctp:58 View/Users/search.ctp:102
+#: View/Answers/admin_index.ctp:45
+#: View/Blends/admin_index.ctp:74
+#: View/Blends/index.ctp:34
+#: View/Blends/search.ctp:111
+#: View/Blends/user.ctp:41
+#: View/Chats/inbox.ctp:50
+#: View/Chats/index.ctp:32
+#: View/Collections/index.ctp:77
+#: View/Collections/view.ctp:38
+#: View/Comments/admin_index.ctp:85
+#: View/Contacts/admin_index.ctp:57
+#: View/Downloads/admin_index.ctp:41
+#: View/Feedbacks/admin_index.ctp:67
+#: View/Keys/index.ctp:41
+#: View/Limits/admin_index.ctp:43
+#: View/Messages/index.ctp:43
+#: View/News/admin_index.ctp:57
+#: View/News/index.ctp:46
+#: View/Options/admin_index.ctp:40
+#: View/Options/admin_manage.ctp:37
+#: View/Pages/admin_index.ctp:29
+#: View/Profiles/admin_index.ctp:63
+#: View/Questions/admin_index.ctp:41
+#: View/Questions/index.ctp:64
+#: View/Reports/admin_index.ctp:55
+#: View/Reports/index.ctp:34
+#: View/Requests/admin_index.ctp:52
+#: View/Requests/index.ctp:54
+#: View/Users/admin_index.ctp:73
+#: View/Users/featured.ctp:58
+#: View/Users/search.ctp:102
 #: View/Users/stats.ctp:45
 msgid "next"
 msgstr "sledeća"
 
-#: View/Answers/admin_index.ctp:52 View/Answers/admin_view.ctp:42
-#: View/Requests/admin_add.ctp:22 View/Requests/admin_edit.ctp:25
-#: View/Requests/admin_index.ctp:63 View/Requests/admin_view.ctp:51;89
+#: View/Answers/admin_index.ctp:52
+#: View/Answers/admin_view.ctp:42
+#: View/Requests/admin_add.ctp:22
+#: View/Requests/admin_edit.ctp:25
+#: View/Requests/admin_index.ctp:63
+#: View/Requests/admin_view.ctp:51;89
 msgid "New Response"
 msgstr "Novi odgovor"
 
@@ -960,45 +1113,68 @@ msgstr "Odgovor"
 
 #: View/Answers/admin_view.ctp:4
 #: View/Blends/admin_view.ctp:4;142;201;236;299;334
-#: View/Comments/admin_view.ctp:4 View/Feedbacks/admin_view.ctp:4
-#: View/Keys/view.ctp:4 View/Limits/admin_view.ctp:4 View/Messages/view.ctp:4
-#: View/Options/admin_view.ctp:4 View/Profiles/admin_view.ctp:4
-#: View/Questions/admin_view.ctp:4 View/Reports/admin_view.ctp:4
-#: View/Reports/view.ctp:4 View/Requests/admin_view.ctp:4;59
+#: View/Comments/admin_view.ctp:4
+#: View/Feedbacks/admin_view.ctp:4
+#: View/Keys/view.ctp:4
+#: View/Limits/admin_view.ctp:4
+#: View/Messages/view.ctp:4
+#: View/Options/admin_view.ctp:4
+#: View/Profiles/admin_view.ctp:4
+#: View/Questions/admin_view.ctp:4
+#: View/Reports/admin_view.ctp:4
+#: View/Reports/view.ctp:4
+#: View/Requests/admin_view.ctp:4;59
 msgid "Id"
 msgstr "Id"
 
-#: View/Answers/admin_view.ctp:9 View/Blends/admin_view.ctp:59;155;237;338
-#: View/Comments/admin_view.ctp:29 View/Feedbacks/admin_view.ctp:69
-#: View/Limits/admin_view.ctp:14 View/Messages/view.ctp:29
-#: View/Profiles/admin_view.ctp:29 View/Questions/admin_view.ctp:9
-#: View/Reports/admin_view.ctp:9 View/Reports/view.ctp:9
+#: View/Answers/admin_view.ctp:9
+#: View/Blends/admin_view.ctp:59;155;237;338
+#: View/Comments/admin_view.ctp:29
+#: View/Feedbacks/admin_view.ctp:69
+#: View/Limits/admin_view.ctp:14
+#: View/Messages/view.ctp:29
+#: View/Profiles/admin_view.ctp:29
+#: View/Questions/admin_view.ctp:9
+#: View/Reports/admin_view.ctp:9
+#: View/Reports/view.ctp:9
 #: View/Requests/admin_view.ctp:9;60
 msgid "Created"
 msgstr "Kreiran"
 
-#: View/Answers/admin_view.ctp:14 View/Blends/admin_view.ctp:64;156;238;339
-#: View/Comments/admin_view.ctp:34 View/Feedbacks/admin_view.ctp:74
-#: View/Limits/admin_view.ctp:19 View/Messages/view.ctp:34
-#: View/Profiles/admin_view.ctp:34 View/Questions/admin_view.ctp:14
-#: View/Reports/admin_view.ctp:14 View/Reports/view.ctp:14
+#: View/Answers/admin_view.ctp:14
+#: View/Blends/admin_view.ctp:64;156;238;339
+#: View/Comments/admin_view.ctp:34
+#: View/Feedbacks/admin_view.ctp:74
+#: View/Limits/admin_view.ctp:19
+#: View/Messages/view.ctp:34
+#: View/Profiles/admin_view.ctp:34
+#: View/Questions/admin_view.ctp:14
+#: View/Reports/admin_view.ctp:14
+#: View/Reports/view.ctp:14
 #: View/Requests/admin_view.ctp:14;61
 msgid "Modified"
 msgstr "Izmijenjen"
 
-#: View/Answers/admin_view.ctp:19 View/Blends/admin_view.ctp:9
-#: View/Comments/admin_view.ctp:69 View/Feedbacks/admin_view.ctp:14
-#: View/Requests/admin_view.ctp:19 View/Users/admin_view.ctp:2
+#: View/Answers/admin_view.ctp:19
+#: View/Blends/admin_view.ctp:9
+#: View/Comments/admin_view.ctp:69
+#: View/Feedbacks/admin_view.ctp:14
+#: View/Requests/admin_view.ctp:19
+#: View/Users/admin_view.ctp:2
 msgid "User"
 msgstr "Korisnik"
 
-#: View/Answers/admin_view.ctp:24 View/Requests/admin_view.ctp:2
+#: View/Answers/admin_view.ctp:24
+#: View/Requests/admin_view.ctp:2
 msgid "Request"
 msgstr "Zahtjev"
 
-#: View/Answers/admin_view.ctp:29 View/Blends/admin_view.ctp:29;151
-#: View/Comments/admin_view.ctp:49 View/Feedbacks/admin_view.ctp:49
-#: View/Keys/view.ctp:24 View/Messages/view.ctp:24
+#: View/Answers/admin_view.ctp:29
+#: View/Blends/admin_view.ctp:29;151
+#: View/Comments/admin_view.ctp:49
+#: View/Feedbacks/admin_view.ctp:49
+#: View/Keys/view.ctp:24
+#: View/Messages/view.ctp:24
 #: View/Requests/admin_view.ctp:34;64
 msgid "Status"
 msgstr "Status"
@@ -1011,7 +1187,8 @@ msgstr "Izmijeni odgovor"
 msgid "Delete Response"
 msgstr "Obriši odgovor"
 
-#: View/Blends/add.ctp:37 View/Users/edit.ctp:14
+#: View/Blends/add.ctp:37
+#: View/Users/edit.ctp:14
 msgid "Basic Data"
 msgstr "Osnovni podaci"
 
@@ -1019,7 +1196,8 @@ msgstr "Osnovni podaci"
 msgid "Blend Name"
 msgstr "Blend ime"
 
-#: View/Blends/add.ctp:43 View/Options/admin_view.ctp:19
+#: View/Blends/add.ctp:43
+#: View/Options/admin_view.ctp:19
 msgid "Description"
 msgstr "Opis"
 
@@ -1030,7 +1208,7 @@ msgstr "% min dužina karaktera."
 
 #: View/Blends/add.ctp:44
 msgid "3D Preview URL"
-msgstr "3D prikaz URL-a"
+msgstr "URL za prikaz u 3D"
 
 #: View/Blends/add.ctp:44
 msgid "Optional"
@@ -1038,9 +1216,10 @@ msgstr "Opciono"
 
 #: View/Blends/add.ctp:44
 msgid "Supports any %s or %s"
-msgstr "Podržava svaki% ili %"
+msgstr "Podržava svaki % ili %"
 
-#: View/Blends/add.ctp:45 View/Elements/navs/taxonomies.ctp:28
+#: View/Blends/add.ctp:45
+#: View/Elements/navs/taxonomies.ctp:28
 msgid "Tags"
 msgstr "Tags"
 
@@ -1048,7 +1227,8 @@ msgstr "Tags"
 msgid "Separated by commas"
 msgstr "Odvojite zarezima"
 
-#: View/Blends/add.ctp:49 View/Blends/admin_view.ctp:49
+#: View/Blends/add.ctp:49
+#: View/Blends/admin_view.ctp:49
 msgid "Blender Version"
 msgstr "Blender verzija"
 
@@ -1062,35 +1242,26 @@ msgstr "Zabavna umjetnost"
 
 #: View/Blends/add.ctp:69
 msgid "Check yes if your blend features company logos, TV or movie characters"
-msgstr ""
-"Čekiraj yes ako tvoj blend rad sadrži logo kompanije, tv-a ili karakter iz "
-"filma"
+msgstr "Čekiraj yes ako tvoj blend rad sadrži logo kompanije, tv-a ili karakter iz filma"
 
 #: View/Blends/add.ctp:76;119
 msgid "Learn more about"
 msgstr "Saznaj više o"
 
 #: View/Blends/add.ctp:83
-msgid ""
-"I waive all my copyright of this blend and place it in the Public Domain"
-msgstr ""
-"Odričem se svih mojih prava nad ovim blend radom i stavljam ga u slobodnu "
-"upotrebu"
+msgid "I waive all my copyright of this blend and place it in the Public Domain"
+msgstr "Odričem se svih mojih prava nad ovim blend radom i stavljam ga u slobodnu upotrebu"
 
 #: View/Blends/add.ctp:84
-msgid ""
-"Users can do whatever they want with this blend, but they must give me credit"
-msgstr ""
-"Korisnici mogu da rade šta hoće sa ovim blend radom, ali me moraju navesti "
-"kao autora"
+msgid "Users can do whatever they want with this blend, but they must give me credit"
+msgstr "Korisnici mogu da rade šta hoće sa ovim blend radom, ali me moraju navesti kao autora"
 
 #: View/Blends/add.ctp:85
-msgid ""
-"Same as CC-BY, but users must also release their derivates under CC-BY-SA"
-msgstr ""
-"Ista kao i CC-BY, ali korisnici moraju da objave nihove izmjene pod CC-BY-SA"
+msgid "Same as CC-BY, but users must also release their derivates under CC-BY-SA"
+msgstr "Ista kao i CC-BY, ali korisnici moraju da objave nihove izmjene pod CC-BY-SA"
 
-#: View/Blends/add.ctp:91 View/Elements/menus/topMenu.ctp:133
+#: View/Blends/add.ctp:91
+#: View/Elements/menus/topMenu.ctp:133
 #: View/Elements/navs/taxonomies.ctp:5
 msgid "Categories"
 msgstr "Kategorije"
@@ -1135,58 +1306,74 @@ msgstr "Sačuvaj novi blend fajl"
 msgid "Admin Add Blend"
 msgstr "Admin dodavanje blend fajla"
 
-#: View/Blends/admin_add.ctp:33 View/Blends/admin_view.ctp:121
-#: View/Comments/admin_edit.ctp:21 View/Comments/admin_index.ctp:93
-#: View/Comments/admin_view.ctp:88 View/Feedbacks/add.ctp:28
+#: View/Blends/admin_add.ctp:33
+#: View/Blends/admin_view.ctp:121
+#: View/Comments/admin_edit.ctp:21
+#: View/Comments/admin_index.ctp:93
+#: View/Comments/admin_view.ctp:88
+#: View/Feedbacks/add.ctp:28
 #: View/Feedbacks/admin_view.ctp:93
 msgid "List Blends"
 msgstr "Lista blend radova"
 
-#: View/Blends/admin_add.ctp:36 View/Blends/admin_view.ctp:125
-#: View/Comments/admin_edit.ctp:20 View/Comments/admin_view.ctp:86
-#: View/Feedbacks/add.ctp:27 View/Feedbacks/admin_edit.ctp:47
+#: View/Blends/admin_add.ctp:36
+#: View/Blends/admin_view.ctp:125
+#: View/Comments/admin_edit.ctp:20
+#: View/Comments/admin_view.ctp:86
+#: View/Feedbacks/add.ctp:27
+#: View/Feedbacks/admin_edit.ctp:47
 #: View/Feedbacks/admin_view.ctp:91
 msgid "List Comments"
 msgstr "Lista komentara"
 
-#: View/Blends/admin_add.ctp:37 View/Blends/admin_view.ctp:126;192
-#: View/Comments/admin_index.ctp:92 View/Comments/admin_view.ctp:87
+#: View/Blends/admin_add.ctp:37
+#: View/Blends/admin_view.ctp:126;192
+#: View/Comments/admin_index.ctp:92
+#: View/Comments/admin_view.ctp:87
 #: View/Feedbacks/admin_view.ctp:92
 msgid "New Comment"
 msgstr "Novi komentar"
 
-#: View/Blends/admin_add.ctp:38 View/Blends/admin_view.ctp:127
+#: View/Blends/admin_add.ctp:38
+#: View/Blends/admin_view.ctp:127
 msgid "List Metas"
 msgstr "Meta lista"
 
-#: View/Blends/admin_add.ctp:39 View/Blends/admin_view.ctp:128;227
+#: View/Blends/admin_add.ctp:39
+#: View/Blends/admin_view.ctp:128;227
 msgid "New Meta"
 msgstr "Nova meta"
 
-#: View/Blends/admin_add.ctp:40 View/Blends/admin_view.ctp:129
+#: View/Blends/admin_add.ctp:40
+#: View/Blends/admin_view.ctp:129
 msgid "List Medias"
 msgstr "Lista medija"
 
-#: View/Blends/admin_add.ctp:41 View/Blends/admin_view.ctp:130;290
+#: View/Blends/admin_add.ctp:41
+#: View/Blends/admin_view.ctp:130;290
 msgid "New Media"
 msgstr "Novi medija"
 
 # Termrel ???
-#: View/Blends/admin_add.ctp:42 View/Blends/admin_view.ctp:131
+#: View/Blends/admin_add.ctp:42
+#: View/Blends/admin_view.ctp:131
 msgid "List Termrels"
 msgstr "Lista termrela"
 
 # termrel ???
-#: View/Blends/admin_add.ctp:43 View/Blends/admin_view.ctp:132;325
+#: View/Blends/admin_add.ctp:43
+#: View/Blends/admin_view.ctp:132;325
 msgid "New Termrel"
 msgstr "Novi termrel"
 
-#: View/Blends/admin_add.ctp:44 View/Blends/admin_view.ctp:133
+#: View/Blends/admin_add.ctp:44
+#: View/Blends/admin_view.ctp:133
 #: View/Users/admin_index.ctp:87
 msgid "List Items"
 msgstr "Lista artikala"
 
-#: View/Blends/admin_add.ctp:45 View/Blends/admin_view.ctp:134;366
+#: View/Blends/admin_add.ctp:45
+#: View/Blends/admin_view.ctp:134;366
 #: View/Users/admin_index.ctp:88
 msgid "New Item"
 msgstr "Novi artikl"
@@ -1199,31 +1386,40 @@ msgstr "Admin izmjena blend fajla"
 msgid "Delete Blend and associated data"
 msgstr "Obriši blend fajl i pripadajuće podatke"
 
-#: View/Blends/admin_index.ctp:3 View/Elements/menus/topMenu.ctp:124
+#: View/Blends/admin_index.ctp:3
+#: View/Elements/menus/topMenu.ctp:124
 #: View/Elements/navs/usernav.ctp:17
 msgid "Blends"
 msgstr "Blendovi"
 
-#: View/Blends/admin_index.ctp:71 View/Blends/index.ctp:31
-#: View/Blends/search.ctp:108 View/Collections/index.ctp:74
-#: View/Collections/view.ctp:35 View/Users/featured.ctp:55
+#: View/Blends/admin_index.ctp:71
+#: View/Blends/index.ctp:31
+#: View/Blends/search.ctp:108
+#: View/Collections/index.ctp:74
+#: View/Collections/view.ctp:35
+#: View/Users/featured.ctp:55
 #: View/Users/search.ctp:99
 msgid "First Page"
 msgstr "Prva strana"
 
-#: View/Blends/admin_index.ctp:75 View/Blends/index.ctp:35
-#: View/Blends/search.ctp:112 View/Collections/index.ctp:78
-#: View/Collections/view.ctp:39 View/Users/featured.ctp:59
+#: View/Blends/admin_index.ctp:75
+#: View/Blends/index.ctp:35
+#: View/Blends/search.ctp:112
+#: View/Collections/index.ctp:78
+#: View/Collections/view.ctp:39
+#: View/Users/featured.ctp:59
 #: View/Users/search.ctp:103
 msgid "Last Page"
 msgstr "Zadnja strana"
 
-#: View/Blends/admin_view.ctp:2 View/Comments/admin_view.ctp:9
+#: View/Blends/admin_view.ctp:2
+#: View/Comments/admin_view.ctp:9
 #: View/Feedbacks/admin_view.ctp:9
 msgid "Blend"
 msgstr "Blend fajl"
 
-#: View/Blends/admin_view.ctp:14;243 View/Requests/admin_view.ctp:24
+#: View/Blends/admin_view.ctp:14;243
+#: View/Requests/admin_view.ctp:24
 msgid "Title"
 msgstr "Naslov"
 
@@ -1232,14 +1428,19 @@ msgstr "Naslov"
 msgid "Slug"
 msgstr "Slug"
 
-#: View/Blends/admin_view.ctp:24;149;242 View/Comments/admin_view.ctp:39
-#: View/Feedbacks/admin_view.ctp:39 View/Messages/view.ctp:14
-#: View/Questions/admin_view.ctp:24 View/Reports/admin_view.ctp:29
-#: View/Reports/view.ctp:29 View/Requests/admin_view.ctp:29
+#: View/Blends/admin_view.ctp:24;149;242
+#: View/Comments/admin_view.ctp:39
+#: View/Feedbacks/admin_view.ctp:39
+#: View/Messages/view.ctp:14
+#: View/Questions/admin_view.ctp:24
+#: View/Reports/admin_view.ctp:29
+#: View/Reports/view.ctp:29
+#: View/Requests/admin_view.ctp:29
 msgid "Body"
 msgstr "Tijelo"
 
-#: View/Blends/admin_view.ctp:34;245 View/Messages/view.ctp:19
+#: View/Blends/admin_view.ctp:34;245
+#: View/Messages/view.ctp:19
 msgid "Type"
 msgstr "Tip"
 
@@ -1271,7 +1472,8 @@ msgstr "Veličina blend fajla"
 msgid "Render Preview"
 msgstr "Prikaz render-a"
 
-#: View/Blends/admin_view.ctp:89 View/Blends/view.ctp:18
+#: View/Blends/admin_view.ctp:89
+#: View/Blends/view.ctp:18
 #: View/Downloads/admin_index.ctp:2
 msgid "Downloads"
 msgstr "Preuzimanja"
@@ -1289,9 +1491,10 @@ msgid "Views"
 msgstr "Pregleda"
 
 # parent ???
-#: View/Blends/admin_view.ctp:109;145 View/Feedbacks/admin_view.ctp:19
+#: View/Blends/admin_view.ctp:109;145
+#: View/Feedbacks/admin_view.ctp:19
 msgid "Parent Id"
-msgstr "Id roditelja"
+msgstr "Id vlasnika"
 
 #: View/Blends/admin_view.ctp:119
 msgid "Edit Blend"
@@ -1301,9 +1504,12 @@ msgstr "Izmijeni blend"
 msgid "Delete Blend"
 msgstr "Obriši blend"
 
-#: View/Blends/admin_view.ctp:122 View/Comments/admin_edit.ctp:22
-#: View/Comments/admin_index.ctp:94 View/Comments/admin_view.ctp:89
-#: View/Feedbacks/add.ctp:29 View/Feedbacks/admin_view.ctp:94
+#: View/Blends/admin_view.ctp:122
+#: View/Comments/admin_edit.ctp:22
+#: View/Comments/admin_index.ctp:94
+#: View/Comments/admin_view.ctp:89
+#: View/Feedbacks/add.ctp:29
+#: View/Feedbacks/admin_view.ctp:94
 msgid "New Blend"
 msgstr "Novi blend"
 
@@ -1315,55 +1521,69 @@ msgstr "Slični komentari"
 msgid "Object Id"
 msgstr "Id objekta"
 
-#: View/Blends/admin_view.ctp:144;239;337 View/Keys/view.ctp:9
-#: View/Limits/admin_view.ctp:9 View/Messages/view.ctp:9
-#: View/Profiles/admin_view.ctp:9 View/Questions/admin_view.ctp:19
-#: View/Reports/admin_view.ctp:19 View/Reports/view.ctp:19
+#: View/Blends/admin_view.ctp:144;239;337
+#: View/Keys/view.ctp:9
+#: View/Limits/admin_view.ctp:9
+#: View/Messages/view.ctp:9
+#: View/Profiles/admin_view.ctp:9
+#: View/Questions/admin_view.ctp:19
+#: View/Reports/admin_view.ctp:19
+#: View/Reports/view.ctp:19
 #: View/Requests/admin_view.ctp:62
 msgid "User Id"
 msgstr "Id korisnika"
 
-#: View/Blends/admin_view.ctp:146 View/Comments/admin_view.ctp:14
-#: View/Feedbacks/admin_view.ctp:24 View/Users/edit.ctp:20
+#: View/Blends/admin_view.ctp:146
+#: View/Comments/admin_view.ctp:14
+#: View/Feedbacks/admin_view.ctp:24
+#: View/Users/edit.ctp:20
 msgid "Username"
 msgstr "Korisničko ime"
 
-#: View/Blends/admin_view.ctp:147 View/Comments/admin_view.ctp:19
+#: View/Blends/admin_view.ctp:147
+#: View/Comments/admin_view.ctp:19
 #: View/Feedbacks/admin_view.ctp:29
 msgid "User Email"
 msgstr "Email korisnika"
 
-#: View/Blends/admin_view.ctp:148 View/Comments/admin_view.ctp:24
+#: View/Blends/admin_view.ctp:148
+#: View/Comments/admin_view.ctp:24
 #: View/Feedbacks/admin_view.ctp:34
 msgid "User Ip"
 msgstr "Ip korisnika"
 
 # Karma ???
-#: View/Blends/admin_view.ctp:150 View/Comments/admin_view.ctp:44
-#: View/Feedbacks/admin_view.ctp:44 View/Profiles/admin_view.ctp:84
+#: View/Blends/admin_view.ctp:150
+#: View/Comments/admin_view.ctp:44
+#: View/Feedbacks/admin_view.ctp:44
+#: View/Profiles/admin_view.ctp:84
 #: View/Questions/admin_view.ctp:29
 msgid "Karma"
 msgstr "Karma"
 
 # Brovswer
-#: View/Blends/admin_view.ctp:152 View/Comments/admin_view.ctp:54
+#: View/Blends/admin_view.ctp:152
+#: View/Comments/admin_view.ctp:54
 #: View/Feedbacks/admin_view.ctp:54
 msgid "Comment Agent"
 msgstr "Agent komentara"
 
 # Type - Tip ???
-# type - pisanje ???
-#: View/Blends/admin_view.ctp:153 View/Comments/admin_view.ctp:59
+# Type - Pisanje ???
+#: View/Blends/admin_view.ctp:153
+#: View/Comments/admin_view.ctp:59
 #: View/Feedbacks/admin_view.ctp:59
 msgid "Comment Type"
 msgstr "Pisanje komentara"
 
-#: View/Blends/admin_view.ctp:154 View/Comments/admin_view.ctp:74
+#: View/Blends/admin_view.ctp:154
+#: View/Comments/admin_view.ctp:74
 #: View/Feedbacks/admin_view.ctp:64
 msgid "Comment Subscribe"
 msgstr "Praćenje komentara"
 
-#: View/Blends/admin_view.ctp:157;241;302 View/Feedbacks/admin_view.ctp:79
+#: View/Blends/admin_view.ctp:157;241;302
+#: View/Feedbacks/admin_view.ctp:79
 msgid "Object Class"
 msgstr "Object Class"
 
@@ -1450,11 +1670,8 @@ msgid "Name"
 msgstr "Ime"
 
 #: View/Blends/index.ctp:25
-msgid ""
-"Page {:page} of {:pages}, showing {:current} blends out of {:count} total."
-msgstr ""
-"Strana {:page} od {:pages}, prikazano {:current} blend fajlova od ukupno {:"
-"count} ."
+msgid "Page {:page} of {:pages}, showing {:current} blends out of {:count} total."
+msgstr "Strana {:page} od {:pages}, prikazano {:current} blend fajlova od ukupno {:count} ."
 
 #: View/Blends/view.ctp:9
 msgid "Published on"
@@ -1469,12 +1686,8 @@ msgid "Likes"
 msgstr "Sviđanja"
 
 #: View/Blends/view.ctp:37
-msgid ""
-"The author of this blend is temporarily blocked and so we will not serve "
-"their blends, sorry for the inconvenience. "
-msgstr ""
-"Autor ovog blend fajla je privremeno blokiran stoga mi nećemo prikazivati "
-"njegov rad, žao nam je zbog neprijatnosti."
+msgid "The author of this blend is temporarily blocked and so we will not serve their blends, sorry for the inconvenience. "
+msgstr "Autor ovog blend fajla je privremeno blokiran stoga mi nećemo prikazivati njegov rad, žao nam je zbog neprijatnosti."
 
 #: View/Blends/view.ctp:46
 msgid "Zip file MD5 checksum"
@@ -1500,7 +1713,8 @@ msgstr "Poslednji blend fajlovi na Blend Swap-u"
 msgid "Add Chat"
 msgstr "Dodaj ćaskanje"
 
-#: View/Chats/add.ctp:17 View/Chats/edit.ctp:19
+#: View/Chats/add.ctp:17
+#: View/Chats/edit.ctp:19
 msgid "List Chats"
 msgstr "Lista ćaskanja"
 
@@ -1512,17 +1726,21 @@ msgstr "Izmijeni ćaskanje"
 msgid "Chats"
 msgstr "Ćaskanje"
 
-#: View/Comments/admin_edit.ctp:4 View/Comments/admin_view.ctp:84
-#: View/Feedbacks/admin_edit.ctp:5 View/Feedbacks/admin_view.ctp:89
+#: View/Comments/admin_edit.ctp:4
+#: View/Comments/admin_view.ctp:84
+#: View/Feedbacks/admin_edit.ctp:5
+#: View/Feedbacks/admin_view.ctp:89
 msgid "Edit Comment"
 msgstr "Izmijeni kometar"
 
-#: View/Comments/admin_index.ctp:2 View/Elements/navs/usernav.ctp:24
+#: View/Comments/admin_index.ctp:2
+#: View/Elements/navs/usernav.ctp:24
 #: View/Feedbacks/admin_index.ctp:2
 msgid "Comments"
 msgstr "Komentari"
 
-#: View/Comments/admin_view.ctp:2 View/Elements/bars/blend_actions.ctp:53
+#: View/Comments/admin_view.ctp:2
+#: View/Elements/bars/blend_actions.ctp:53
 #: View/Feedbacks/admin_view.ctp:2
 msgid "Comment"
 msgstr "Komentar"
@@ -1533,15 +1751,18 @@ msgstr "Komentar"
 msgid "Comment Parent"
 msgstr "Kometar srodan"
 
-#: View/Comments/admin_view.ctp:85 View/Feedbacks/admin_view.ctp:90
+#: View/Comments/admin_view.ctp:85
+#: View/Feedbacks/admin_view.ctp:90
 msgid "Delete Comment"
 msgstr "Obriši komentar"
 
-#: View/Contacts/admin_edit.ctp:4 View/Contacts/admin_view.ctp:89
+#: View/Contacts/admin_edit.ctp:4
+#: View/Contacts/admin_view.ctp:89
 msgid "Edit Contact"
 msgstr "Izmijeni kotakt"
 
-#: View/Contacts/admin_edit.ctp:24 View/Contacts/admin_view.ctp:91
+#: View/Contacts/admin_edit.ctp:24
+#: View/Contacts/admin_view.ctp:91
 msgid "List Contacts"
 msgstr "Lista kontakata"
 
@@ -1549,7 +1770,8 @@ msgstr "Lista kontakata"
 msgid "Contacts"
 msgstr "Kontakti"
 
-#: View/Contacts/admin_index.ctp:64 View/Contacts/admin_view.ctp:92
+#: View/Contacts/admin_index.ctp:64
+#: View/Contacts/admin_view.ctp:92
 msgid "New Contact"
 msgstr "Novi kontakt"
 
@@ -1669,7 +1891,8 @@ msgstr "Nauč-Fan"
 msgid "Simulations"
 msgstr "Simulacije"
 
-#: View/Elements/placeholder.ctp:29 View/Elements/menus/topMenu.ctp:136
+#: View/Elements/placeholder.ctp:29
+#: View/Elements/menus/topMenu.ctp:136
 msgid "Staff Picks"
 msgstr "Urednik odabrao"
 
@@ -1734,7 +1957,8 @@ msgstr "Klikni za prestanak praćenja ovih komentara"
 msgid "Unfollow"
 msgstr "Neprati više"
 
-#: View/Elements/bars/blend_actions.ctp:56 View/Reports/admin_view.ctp:2
+#: View/Elements/bars/blend_actions.ctp:56
+#: View/Reports/admin_view.ctp:2
 #: View/Reports/view.ctp:2
 msgid "Report"
 msgstr "Prijavi"
@@ -1810,8 +2034,7 @@ msgstr "Zatvori zahtjev"
 
 #: View/Elements/bars/request_actions.ctp:84
 msgid "This Blend Request will be closed to new answers. Are you sure?"
-msgstr ""
-"Ovaj Blend zahtjev će biti zatvoren za nove odgovore. Da li ste sigurni ?"
+msgstr "Ovaj Blend zahtjev će biti zatvoren za nove odgovore. Da li ste sigurni ?"
 
 #: View/Elements/bars/request_actions.ctp:86
 msgid "Re-Open Request"
@@ -1823,12 +2046,11 @@ msgstr "Klikni da omogućiš odgovore za ovaj zahtjev"
 
 #: View/Elements/forms/commentForm.ctp:5
 msgid "Remember to keep your %s cool, harsh %s will be removed"
-msgstr "Nezaboravite da držite vaš % cool, ugrubo % će biti ukolnjen"
+msgstr "Nezaboravite da vaši % budu cool, neprimjereni % će biti ukolnjen"
 
 #: View/Elements/forms/commentForm.ctp:6
-msgid ""
-"%s containing profanity will be queued for moderation. Please report spam."
-msgstr "%-tak sadrži psovke i čeka moderaciju. Molimo prijavite spam."
+msgid "%s containing profanity will be queued for moderation. Please report spam."
+msgstr "% koji sadrže psovke će biti uklonjeni. Molimo prijavite spam."
 
 #: View/Elements/forms/commentForm.ctp:19
 msgid "You must log in to leave a comment"
@@ -1846,15 +2068,18 @@ msgstr "Pitanja i odgovori"
 msgid "Frequently asked questions (and answers)"
 msgstr "Često postavljanja pitanja ( i odgovori )"
 
-#: View/Elements/menus/topMenu.ctp:8 View/News/admin_index.ctp:3
+#: View/Elements/menus/topMenu.ctp:8
+#: View/News/admin_index.ctp:3
 msgid "News"
 msgstr "Vijesti"
 
-#: View/Elements/menus/topMenu.ctp:9 View/Layouts/frontend.ctp:131
+#: View/Elements/menus/topMenu.ctp:9
+#: View/Layouts/frontend.ctp:131
 msgid "About"
 msgstr "O nama"
 
-#: View/Elements/menus/topMenu.ctp:10 View/Layouts/frontend.ctp:140
+#: View/Elements/menus/topMenu.ctp:10
+#: View/Layouts/frontend.ctp:140
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -1862,23 +2087,28 @@ msgstr "Kontakt"
 msgid "More"
 msgstr "Pogledaj više"
 
-#: View/Elements/menus/topMenu.ctp:16 View/Layouts/frontend.ctp:178
+#: View/Elements/menus/topMenu.ctp:16
+#: View/Layouts/frontend.ctp:178
 msgid "About Blender"
 msgstr "O Blenderu"
 
-#: View/Elements/menus/topMenu.ctp:17 View/Layouts/frontend.ctp:184
+#: View/Elements/menus/topMenu.ctp:17
+#: View/Layouts/frontend.ctp:184
 msgid "Learn Blender"
 msgstr "Nauči o Blenderu"
 
-#: View/Elements/menus/topMenu.ctp:20 View/Layouts/frontend.ctp:222
+#: View/Elements/menus/topMenu.ctp:20
+#: View/Layouts/frontend.ctp:222
 msgid "File Licensing"
 msgstr "Licenca fajlova"
 
-#: View/Elements/menus/topMenu.ctp:21 View/Layouts/frontend.ctp:228
+#: View/Elements/menus/topMenu.ctp:21
+#: View/Layouts/frontend.ctp:228
 msgid "Privacy Policy"
 msgstr "Polisa privatnosti"
 
-#: View/Elements/menus/topMenu.ctp:22 View/Layouts/frontend.ctp:225
+#: View/Elements/menus/topMenu.ctp:22
+#: View/Layouts/frontend.ctp:225
 msgid "Terms of Use"
 msgstr "Uslovi za korišćenje"
 
@@ -1890,15 +2120,18 @@ msgstr "Naš RSS Feed"
 msgid "Latest activity"
 msgstr "Najnovije aktivnosti"
 
-#: View/Elements/menus/topMenu.ctp:33;35 View/Elements/navs/usernav.ctp:72
+#: View/Elements/menus/topMenu.ctp:33;35
+#: View/Elements/navs/usernav.ctp:72
 msgid "My Profile"
 msgstr "Moj profil"
 
-#: View/Elements/menus/topMenu.ctp:36 View/Elements/navs/usernav.ctp:79
+#: View/Elements/menus/topMenu.ctp:36
+#: View/Elements/navs/usernav.ctp:79
 msgid "My Blends"
 msgstr "Moji blendovi"
 
-#: View/Elements/menus/topMenu.ctp:37 View/Elements/navs/usernav.ctp:103
+#: View/Elements/menus/topMenu.ctp:37
+#: View/Elements/navs/usernav.ctp:103
 msgid "My Collections"
 msgstr "Moja kolekcija"
 
@@ -1934,11 +2167,13 @@ msgstr "Protok za"
 msgid "Allowed"
 msgstr "Dozvoljeno"
 
-#: View/Elements/menus/topMenu.ctp:86 View/Limits/admin_view.ctp:29
+#: View/Elements/menus/topMenu.ctp:86
+#: View/Limits/admin_view.ctp:29
 msgid "Remaining"
 msgstr "Preostalo"
 
-#: View/Elements/menus/topMenu.ctp:90 View/Limits/admin_view.ctp:34
+#: View/Elements/menus/topMenu.ctp:90
+#: View/Limits/admin_view.ctp:34
 msgid "Spent"
 msgstr "Potroši"
 
@@ -2014,7 +2249,8 @@ msgstr "Fantazija karaktera takmičenje"
 msgid "RSS Feed"
 msgstr "RSS Feed"
 
-#: View/Elements/menus/topMenu.ctp:158 View/Requests/admin_index.ctp:2
+#: View/Elements/menus/topMenu.ctp:158
+#: View/Requests/admin_index.ctp:2
 msgid "Requests"
 msgstr "Zahtjevi"
 
@@ -2038,12 +2274,14 @@ msgstr "Zatvoreni zahtjevi"
 msgid "Requests closed to new responses"
 msgstr "Zahtjev zatvoren za nove odgovore"
 
-#: View/Elements/menus/topMenu.ctp:179 View/Layouts/frontend.ctp:100
+#: View/Elements/menus/topMenu.ctp:179
+#: View/Layouts/frontend.ctp:100
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
 msgstr "Pitanja"
 
-#: View/Elements/menus/topMenu.ctp:183 View/Questions/admin_index.ctp:48
+#: View/Elements/menus/topMenu.ctp:183
+#: View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
 msgid "New Question"
 msgstr "Novo pitanje"
@@ -2052,7 +2290,8 @@ msgstr "Novo pitanje"
 msgid "Create a new Question"
 msgstr "Kreiraj pitanje"
 
-#: View/Elements/menus/topMenu.ctp:193 View/Users/admin_index.ctp:2
+#: View/Elements/menus/topMenu.ctp:193
+#: View/Users/admin_index.ctp:2
 msgid "Users"
 msgstr "Korisnici"
 
@@ -2060,15 +2299,18 @@ msgstr "Korisnici"
 msgid "Find Artists"
 msgstr "Pronadji umjetnika"
 
-#: View/Elements/menus/topMenu.ctp:199 View/Layouts/frontend.ctp:120
+#: View/Elements/menus/topMenu.ctp:199
+#: View/Layouts/frontend.ctp:120
 msgid "Featured Artists"
 msgstr "Omiljeni umjetnici"
 
-#: View/Elements/menus/topMenu.ctp:203 View/Layouts/frontend.ctp:97
+#: View/Elements/menus/topMenu.ctp:203
+#: View/Layouts/frontend.ctp:97
 msgid "User Badges"
 msgstr "Bedževi korisnika"
 
-#: View/Elements/menus/topMenu.ctp:208 View/Layouts/frontend.ctp:194
+#: View/Elements/menus/topMenu.ctp:208
+#: View/Layouts/frontend.ctp:194
 msgid "Help"
 msgstr "Pomoć"
 
@@ -2088,7 +2330,8 @@ msgstr "Sva dokumentacija"
 msgid "All site documentation"
 msgstr "Dokumentacija sajta"
 
-#: View/Elements/menus/topMenu.ctp:217 View/Layouts/frontend.ctp:197
+#: View/Elements/menus/topMenu.ctp:217
+#: View/Layouts/frontend.ctp:197
 msgid "Known Issues"
 msgstr "Poznati problemi"
 
@@ -2096,7 +2339,8 @@ msgstr "Poznati problemi"
 msgid "Known issues"
 msgstr "Poznati problemi"
 
-#: View/Elements/menus/topMenu.ctp:222 View/Layouts/frontend.ctp:200
+#: View/Elements/menus/topMenu.ctp:222
+#: View/Layouts/frontend.ctp:200
 msgid "Report Errors"
 msgstr "Prijavi grešku"
 
@@ -2128,7 +2372,8 @@ msgstr "Obavještenja od admina"
 msgid "Buzz"
 msgstr "Buzz"
 
-#: View/Elements/navs/usernav.ctp:60 View/Messages/index.ctp:2
+#: View/Elements/navs/usernav.ctp:60
+#: View/Messages/index.ctp:2
 msgid "Messages"
 msgstr "Poruke"
 
@@ -2152,9 +2397,10 @@ msgstr "Dodatna statistika"
 msgid "Management"
 msgstr "Rukovodstvo"
 
-#: View/Elements/navs/usernav.ctp:124 View/Profiles/admin_view.ctp:94
+#: View/Elements/navs/usernav.ctp:124
+#: View/Profiles/admin_view.ctp:94
 msgid "Edit Profile"
-msgstr "Izmijena profila"
+msgstr "Izmijeni profil"
 
 #: View/Elements/navs/usernav.ctp:131
 msgid "Edit Portfolio"
@@ -2245,11 +2491,8 @@ msgid "Download"
 msgstr "Preuzmi"
 
 #: View/Helper/SingleBlendHelper.php:48
-msgid ""
-"Looks like this blend file is too big for your allowed bandwidth this month!"
-msgstr ""
-"Žao nam je ali je ovaj blend fajl prevelik za tvoj odobreni protok ovog "
-"mjeseca !"
+msgid "Looks like this blend file is too big for your allowed bandwidth this month!"
+msgstr "Žao nam je ali je ovaj blend fajl prevelik za tvoj odobreni protok ovog mjeseca !"
 
 #: View/Helper/SingleBlendHelper.php:62
 msgid "You must log in to download this blend"
@@ -2264,12 +2507,8 @@ msgid "An error ocurred while reading this license."
 msgstr "Dogodila se greška prilikom učitavanja licence."
 
 #: View/Helper/SingleBlendHelper.php:149
-msgid ""
-"It is recommended that you give credit for this blend but there's no "
-"obligation to do so"
-msgstr ""
-"Preporučuje se da navedete ime autora ovog blend fajla, ali nemate obavezu "
-"to da uradite"
+msgid "It is recommended that you give credit for this blend but there's no obligation to do so"
+msgstr "Preporučuje se da navedete ime autora ovog blend fajla, ali nemate obavezu to da uradite"
 
 #: View/Helper/SingleBlendHelper.php:152
 msgid "You must give credit to the author of this blend"
@@ -2281,9 +2520,7 @@ msgstr "Obavezni ste da sve radove distribuirate pod navedenom lincencom"
 
 #: View/Helper/SingleBlendHelper.php:158
 msgid "You can not use this blend commercially under any circumstance"
-msgstr ""
-"Nemožete koristiti ovaj blend fajl u komercijalne svrhe pod bilo kojim "
-"uslovima"
+msgstr "Nemožete koristiti ovaj blend fajl u komercijalne svrhe pod bilo kojim uslovima"
 
 #: View/Helper/SingleBlendHelper.php:175
 msgid "This blend was taken down on "
@@ -2295,19 +2532,20 @@ msgstr "Ovaj blend fajl je odbijen dana "
 
 #: View/Helper/SingleBlendHelper.php:185
 msgid "This blend is pending and is not accessible by normal users"
-msgstr ""
-"Ovaj blend fajl čeka odobrenje moderatora  i nemogu mu pristupiti obični "
-"korisnici"
+msgstr "Ovaj blend fajl čeka odobrenje moderatora  i nemogu mu pristupiti obični korisnici"
 
 #: View/Keys/add.ctp:4
 msgid "Add Key"
 msgstr "Dodaj ključ"
 
-#: View/Keys/add.ctp:19 View/Keys/edit.ctp:21 View/Keys/view.ctp:41
+#: View/Keys/add.ctp:19
+#: View/Keys/edit.ctp:21
+#: View/Keys/view.ctp:41
 msgid "List Keys"
 msgstr "Lista ključeva"
 
-#: View/Keys/edit.ctp:4 View/Keys/view.ctp:39
+#: View/Keys/edit.ctp:4
+#: View/Keys/view.ctp:39
 msgid "Edit Key"
 msgstr "Izmijeni ključ"
 
@@ -2315,11 +2553,13 @@ msgstr "Izmijeni ključ"
 msgid "Keys"
 msgstr "Ključevi"
 
-#: View/Keys/index.ctp:48 View/Keys/view.ctp:42
+#: View/Keys/index.ctp:48
+#: View/Keys/view.ctp:42
 msgid "New Key"
 msgstr "Novi ključ"
 
-#: View/Keys/view.ctp:2;19 View/Options/admin_view.ctp:9
+#: View/Keys/view.ctp:2;19
+#: View/Options/admin_view.ctp:9
 msgid "Key"
 msgstr "Ključ"
 
@@ -2446,12 +2686,15 @@ msgstr "Osim ako nije navedeno, sav sadržaj je objavljen pod"
 msgid "Add Limit"
 msgstr "Dodaj ograničenje"
 
-#: View/Limits/admin_add.ctp:18 View/Limits/admin_edit.ctp:20
-#: View/Limits/admin_view.ctp:46 View/Users/admin_index.ctp:89
+#: View/Limits/admin_add.ctp:18
+#: View/Limits/admin_edit.ctp:20
+#: View/Limits/admin_view.ctp:46
+#: View/Users/admin_index.ctp:89
 msgid "List Limits"
 msgstr "Lista ograničenja"
 
-#: View/Limits/admin_edit.ctp:4 View/Limits/admin_view.ctp:44
+#: View/Limits/admin_edit.ctp:4
+#: View/Limits/admin_view.ctp:44
 msgid "Edit Limit"
 msgstr "Izmijeni ograničenja"
 
@@ -2459,7 +2702,8 @@ msgstr "Izmijeni ograničenja"
 msgid "Limits"
 msgstr "Ograničenja"
 
-#: View/Limits/admin_index.ctp:50 View/Limits/admin_view.ctp:47
+#: View/Limits/admin_index.ctp:50
+#: View/Limits/admin_view.ctp:47
 #: View/Users/admin_index.ctp:90
 msgid "New Limit"
 msgstr "Novo ograničenje"
@@ -2480,16 +2724,20 @@ msgstr "Limit brisanja"
 msgid "Add Message"
 msgstr "Dodaj poruku"
 
-#: View/Messages/add.ctp:18 View/Messages/edit.ctp:20
-#: View/Messages/view.ctp:46 View/Users/admin_index.ctp:81
+#: View/Messages/add.ctp:18
+#: View/Messages/edit.ctp:20
+#: View/Messages/view.ctp:46
+#: View/Users/admin_index.ctp:81
 msgid "List Messages"
 msgstr "Lista poruka"
 
-#: View/Messages/edit.ctp:4 View/Messages/view.ctp:44
+#: View/Messages/edit.ctp:4
+#: View/Messages/view.ctp:44
 msgid "Edit Message"
 msgstr "Izmijeni poruku"
 
-#: View/Messages/index.ctp:50 View/Messages/view.ctp:47
+#: View/Messages/index.ctp:50
+#: View/Messages/view.ctp:47
 #: View/Users/admin_index.ctp:82
 msgid "New Message"
 msgstr "Nova poruka"
@@ -2502,7 +2750,8 @@ msgstr "Poruka"
 msgid "Delete Message"
 msgstr "Obriši poruku"
 
-#: View/News/admin_add.ctp:18 View/News/admin_edit.ctp:22
+#: View/News/admin_add.ctp:18
+#: View/News/admin_edit.ctp:22
 msgid "Save"
 msgstr "Sačuvaj"
 
@@ -2531,16 +2780,19 @@ msgstr "Vijesti i najnovije informacije na Blend Swap-u."
 msgid "Add Option"
 msgstr "Dodaj opciju"
 
-#: View/Options/admin_add.ctp:19 View/Options/admin_edit.ctp:39
+#: View/Options/admin_add.ctp:19
+#: View/Options/admin_edit.ctp:39
 #: View/Options/admin_view.ctp:31
 msgid "List Options"
 msgstr "Lista opcija"
 
-#: View/Options/admin_edit.ctp:4 View/Options/admin_view.ctp:29
+#: View/Options/admin_edit.ctp:4
+#: View/Options/admin_view.ctp:29
 msgid "Edit Option"
 msgstr "Izmijena opcije"
 
-#: View/Options/admin_index.ctp:2 View/Options/admin_manage.ctp:2
+#: View/Options/admin_index.ctp:2
+#: View/Options/admin_manage.ctp:2
 msgid "Options"
 msgstr "Opcije"
 
@@ -2548,7 +2800,8 @@ msgstr "Opcije"
 msgid "Manage Options (Superuser only)"
 msgstr "Izmijena opcije (Superuser privilegija)"
 
-#: View/Options/admin_manage.ctp:44 View/Options/admin_view.ctp:32
+#: View/Options/admin_manage.ctp:44
+#: View/Options/admin_view.ctp:32
 msgid "New Option"
 msgstr "Nova opcija"
 
@@ -2568,7 +2821,8 @@ msgstr "Obriši opciju"
 msgid "Add Page"
 msgstr "Dodaj stranicu"
 
-#: View/Pages/admin_add.ctp:21 View/Pages/admin_edit.ctp:25
+#: View/Pages/admin_add.ctp:21
+#: View/Pages/admin_edit.ctp:25
 msgid "List Pages"
 msgstr "Lista stranica"
 
@@ -2596,7 +2850,8 @@ msgstr "Nova stranica"
 msgid "Admin Add Profile"
 msgstr "Admin dodavanje profila"
 
-#: View/Profiles/admin_add.ctp:28 View/Profiles/admin_edit.ctp:30
+#: View/Profiles/admin_add.ctp:28
+#: View/Profiles/admin_edit.ctp:30
 #: View/Profiles/admin_view.ctp:96
 msgid "List Profiles"
 msgstr "Lista profila"
@@ -2609,7 +2864,8 @@ msgstr "Admin izmjena profila"
 msgid "Profiles"
 msgstr "Profili"
 
-#: View/Profiles/admin_index.ctp:70 View/Profiles/admin_view.ctp:97
+#: View/Profiles/admin_index.ctp:70
+#: View/Profiles/admin_view.ctp:97
 msgid "New Profile"
 msgstr "Novi profil"
 
@@ -2677,7 +2933,8 @@ msgstr "Postavi pitanje !"
 msgid "Admin Add Question"
 msgstr "Admin postavi pitanje"
 
-#: View/Questions/admin_add.ctp:17 View/Questions/admin_edit.ctp:19
+#: View/Questions/admin_add.ctp:17
+#: View/Questions/admin_edit.ctp:19
 #: View/Questions/admin_view.ctp:41
 msgid "List Questions"
 msgstr "Lista pitanja"
@@ -2690,7 +2947,8 @@ msgstr "Admin izmijena pitanja"
 msgid "Question"
 msgstr "Pitanje"
 
-#: View/Questions/admin_view.ctp:39 View/Questions/edit.ctp:4
+#: View/Questions/admin_view.ctp:39
+#: View/Questions/edit.ctp:4
 msgid "Edit Question"
 msgstr "Izmijeni pitanje"
 
@@ -2699,11 +2957,8 @@ msgid "Delete Question"
 msgstr "Obriši pitanje"
 
 #: View/Questions/index.ctp:56
-msgid ""
-"Page {:page} of {:pages}, showing {:current} questions out of {:count} total."
-msgstr ""
-"Stranica {:page} od {:pages}, prikazano {:current}pitanja od ukupno {:"
-"count} ."
+msgid "Page {:page} of {:pages}, showing {:current} questions out of {:count} total."
+msgstr "Stranica {:page} od {:pages}, prikazano {:current}pitanja od ukupno {:count} ."
 
 #: View/Questions/rss/index.ctp:3
 msgid "Blend Swap Questions"
@@ -2711,18 +2966,21 @@ msgstr "Blend Swap pitanja"
 
 #: View/Questions/rss/index.ctp:5
 msgid "Most recent questions on Blend Swap."
-msgstr "Najsvežija pitanja na Blend Swap-u."
+msgstr "Najnovija pitanja na Blend Swap-u."
 
 #: View/Reports/__add.ctp:4
 msgid "Add Report"
 msgstr "Prijavi"
 
-#: View/Reports/__add.ctp:17 View/Reports/admin_edit.ctp:19
-#: View/Reports/admin_view.ctp:41 View/Reports/view.ctp:41
+#: View/Reports/__add.ctp:17
+#: View/Reports/admin_edit.ctp:19
+#: View/Reports/admin_view.ctp:41
+#: View/Reports/view.ctp:41
 msgid "List Reports"
 msgstr "Lista prijava"
 
-#: View/Reports/admin_edit.ctp:4 View/Reports/admin_view.ctp:39
+#: View/Reports/admin_edit.ctp:4
+#: View/Reports/admin_view.ctp:39
 #: View/Reports/view.ctp:39
 msgid "Edit Report"
 msgstr "Izmijeni prijavu"
@@ -2731,16 +2989,19 @@ msgstr "Izmijeni prijavu"
 msgid "Reports"
 msgstr "Prijave"
 
-#: View/Reports/admin_index.ctp:62 View/Reports/admin_view.ctp:42
+#: View/Reports/admin_index.ctp:62
+#: View/Reports/admin_view.ctp:42
 #: View/Reports/view.ctp:42
 msgid "New Report"
 msgstr "Nova prijava"
 
-#: View/Reports/admin_view.ctp:24 View/Reports/view.ctp:24
+#: View/Reports/admin_view.ctp:24
+#: View/Reports/view.ctp:24
 msgid "Reason"
 msgstr "Razlog"
 
-#: View/Reports/admin_view.ctp:40 View/Reports/view.ctp:40
+#: View/Reports/admin_view.ctp:40
+#: View/Reports/view.ctp:40
 msgid "Delete Report"
 msgstr "Obriši prijavu"
 
@@ -2756,7 +3017,8 @@ msgstr "Admin dodavanje zahtjeva"
 msgid "Admin Edit Request"
 msgstr "Admin izmjena zahtjeva"
 
-#: View/Requests/admin_view.ctp:44 View/Requests/edit.ctp:4
+#: View/Requests/admin_view.ctp:44
+#: View/Requests/edit.ctp:4
 msgid "Edit Request"
 msgstr "Izmjena zahtjeva"
 
@@ -2788,7 +3050,8 @@ msgstr "Poslednji zahtjevi"
 msgid "Most recent requests on Blend Swap."
 msgstr "Najnoivji zahtjevi na Blend Swap-u."
 
-#: View/Users/account.ctp:4 View/Users/admin_view.ctp:231
+#: View/Users/account.ctp:4
+#: View/Users/admin_view.ctp:231
 msgid "Edit User"
 msgstr "Izmijena korisnika"
 
@@ -2839,24 +3102,16 @@ msgid "Get an account (or link your email below) on %s"
 msgstr "Registruj se ( ili unesi e-mail adresu ispod ) na %"
 
 #: View/Users/edit.ctp:16
-msgid ""
-"Your real name will be publicly visible if you enter it, your email will be "
-"kept private"
-msgstr ""
-"Vaše pravo ime će biti javno vidljivo ako ga unesete, a vaš e-mail će biti "
-"sačuvan kao privatan"
+msgid "Your real name will be publicly visible if you enter it, your email will be kept private"
+msgstr "Vaše pravo ime će biti javno vidljivo ako ga unesete, a vaš e-mail će biti sačuvan kao privatan"
 
 #: View/Users/edit.ctp:22
 msgid "Wanna change it?"
 msgstr "Želite uraditi izmjene ?"
 
 #: View/Users/edit.ctp:31
-msgid ""
-"Make sure this email is a permanent address so you can get email "
-"notifications and reset your password in case it's needed."
-msgstr ""
-"Osigurajte se da je ovaj email validan, tako da možete dobiti obaveštenja "
-"kao i da resetujete lozinku u slučaju da to bude potrebno."
+msgid "Make sure this email is a permanent address so you can get email notifications and reset your password in case it's needed."
+msgstr "Osigurajte se da je ovaj email validan, tako da možete dobiti obaveštenja kao i da resetujete lozinku u slučaju da to bude potrebno."
 
 #: View/Users/edit.ctp:38
 msgid "Notification Settings"
@@ -2935,10 +3190,8 @@ msgid "Register now"
 msgstr "Registruj se !"
 
 #: View/Users/search.ctp:93
-msgid ""
-"Page {:page} of {:pages}, showing {:current} artists out of {:count} total."
-msgstr ""
-"Strana {:page} od {:pages}, prikazan {:current} umjetnik od {:count} ukupnih."
+msgid "Page {:page} of {:pages}, showing {:current} artists out of {:count} total."
+msgstr "Strana {:page} od {:pages}, prikazan {:current} umjetnik od {:count} ukupnih."
 
 #: View/Users/username.ctp:7
 msgid "Change your username"
@@ -2951,3 +3204,4 @@ msgstr "Tvoje korisničko ime je %"
 #: View/Users/username.ctp:24
 msgid "Enter your desired username to check if it is available"
 msgstr "Unesite željeno korisničko ime da proverite da li je na raspolaganju"
+
