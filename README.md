@@ -4,11 +4,10 @@ Internationalization files for the Blend Swap website, community built.
 
 We need help with 
 
-* French
 * Portuguese
 * More languages? mainly left-to-right written langs.
 
-We're covered in __Spanish__, __German__.
+We're covered in __Spanish__, __German__, __Polish__, __French__.
 
 ## Set up
 

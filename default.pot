@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-27 13:01-0600\n"
+"POT-Creation-Date: 2013-02-28 11:25-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -1100,27 +1100,33 @@ msgid "Basic Data"
 msgstr ""
 
 #: View/Blends/add.ctp:42
+#: View/Blends/edit.ctp:9
 msgid "Blend Name"
 msgstr ""
 
 #: View/Blends/add.ctp:43
+#: View/Blends/edit.ctp:10
 #: View/Options/admin_view.ctp:19
 msgid "Description"
 msgstr ""
 
 #: View/Blends/add.ctp:43
+#: View/Blends/edit.ctp:10
 msgid "%d characters long min."
 msgstr ""
 
 #: View/Blends/add.ctp:44
+#: View/Blends/edit.ctp:11
 msgid "3D Preview URL"
 msgstr ""
 
 #: View/Blends/add.ctp:44
+#: View/Blends/edit.ctp:11
 msgid "Optional"
 msgstr ""
 
 #: View/Blends/add.ctp:44
+#: View/Blends/edit.ctp:11
 msgid "Supports any %s or %s"
 msgstr ""
 
@@ -1137,6 +1143,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:49
 #: View/Blends/admin_view.ctp:49
+#: View/Blends/edit.ctp:16
 msgid "Blender Version"
 msgstr ""
 
@@ -1145,6 +1152,7 @@ msgid "Choose the blender version this blend was created with"
 msgstr ""
 
 #: View/Blends/add.ctp:69
+#: View/Blends/edit.ctp:38
 msgid "Fan Art"
 msgstr ""
 
@@ -1152,7 +1160,7 @@ msgstr ""
 msgid "Check yes if your blend features company logos, TV or movie characters"
 msgstr ""
 
-#: View/Blends/add.ctp:76;119
+#: View/Blends/add.ctp:76;120
 msgid "Learn more about"
 msgstr ""
 
@@ -1169,48 +1177,50 @@ msgid "Same as CC-BY, but users must also release their derivates under CC-BY-SA
 msgstr ""
 
 #: View/Blends/add.ctp:91
+#: View/Blends/edit.ctp:47
 #: View/Elements/menus/topMenu.ctp:133
 #: View/Elements/navs/taxonomies.ctp:5
 msgid "Categories"
 msgstr ""
 
-#: View/Blends/add.ctp:94
+#: View/Blends/add.ctp:95
+#: View/Blends/edit.ctp:51
 msgid "Chose at least 1, and up to 4 categories"
 msgstr ""
 
-#: View/Blends/add.ctp:115
+#: View/Blends/add.ctp:116
 msgid "Files"
 msgstr ""
 
-#: View/Blends/add.ctp:118
+#: View/Blends/add.ctp:119
 msgid "Blend File"
 msgstr ""
 
-#: View/Blends/add.ctp:118;140
+#: View/Blends/add.ctp:119;141
 msgid "or"
 msgstr ""
 
-#: View/Blends/add.ctp:121
+#: View/Blends/add.ctp:122
 msgid "File Management"
 msgstr ""
 
-#: View/Blends/add.ctp:124
+#: View/Blends/add.ctp:125
 msgid "Rar compression is not allowed"
 msgstr ""
 
-#: View/Blends/add.ctp:133;149
+#: View/Blends/add.ctp:134;150
 msgid "Something failed above, you will have to re-select this file"
 msgstr ""
 
-#: View/Blends/add.ctp:140
+#: View/Blends/add.ctp:141
 msgid "Image"
 msgstr ""
 
-#: View/Blends/add.ctp:141
+#: View/Blends/add.ctp:142
 msgid "Recommended: LANDSCAPE or SQUARE, PNG, 1024px wide"
 msgstr ""
 
-#: View/Blends/add.ctp:156
+#: View/Blends/add.ctp:157
 msgid "Save New Blend"
 msgstr ""
 
@@ -1466,7 +1476,7 @@ msgstr ""
 #: View/Feedbacks/admin_view.ctp:44
 #: View/Profiles/admin_view.ctp:84
 #: View/Questions/admin_view.ctp:29
-msgid "Karma"
+msgid "Points"
 msgstr ""
 
 #: View/Blends/admin_view.ctp:152
@@ -1562,6 +1572,23 @@ msgstr ""
 
 #: View/Blends/edit.ctp:5
 msgid "Basic data"
+msgstr ""
+
+#: View/Blends/edit.ctp:83
+msgid "Log your changes"
+msgstr ""
+
+#: View/Blends/edit.ctp:85
+msgid "What did you change?"
+msgstr ""
+
+#: View/Blends/edit.ctp:88
+#: View/Users/edit.ctp:136
+msgid "Save Changes"
+msgstr ""
+
+#: View/Blends/edit.ctp:91
+msgid "Cancel"
 msgstr ""
 
 #: View/Blends/index.ctp:6
@@ -3079,6 +3106,10 @@ msgstr ""
 msgid "Sign Me Up"
 msgstr ""
 
+#: View/Users/edit.ctp:1
+msgid "Account and Settings"
+msgstr ""
+
 #: View/Users/edit.ctp:8
 msgid "&larr; Don't see your avatar?"
 msgstr ""
@@ -3131,28 +3162,24 @@ msgstr ""
 msgid "More Settings"
 msgstr ""
 
-#: View/Users/edit.ctp:67
+#: View/Users/edit.ctp:68
 msgid "Preferred Language"
 msgstr ""
 
-#: View/Users/edit.ctp:78
+#: View/Users/edit.ctp:79
 msgid "Associate Members"
 msgstr ""
 
-#: View/Users/edit.ctp:79
+#: View/Users/edit.ctp:80
 msgid "can set the amount of Blends per index page up to 60"
 msgstr ""
 
-#: View/Users/edit.ctp:90;91;92
+#: View/Users/edit.ctp:91;92;93
 msgid "blends per page"
 msgstr ""
 
-#: View/Users/edit.ctp:90
+#: View/Users/edit.ctp:91
 msgid "default"
-msgstr ""
-
-#: View/Users/edit.ctp:135
-msgid "Save Changes"
 msgstr ""
 
 #: View/Users/index.ctp:7
@@ -3179,11 +3206,11 @@ msgstr ""
 msgid "These artists have recently swapped blends"
 msgstr ""
 
-#: View/Users/login.ctp:16
+#: View/Users/login.ctp:17
 msgid "Problems logging in?"
 msgstr ""
 
-#: View/Users/login.ctp:21
+#: View/Users/login.ctp:22
 msgid "Register now!"
 msgstr ""
 
