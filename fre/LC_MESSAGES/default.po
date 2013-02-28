@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-21 17:07-0600\n"
-"PO-Revision-Date: 2013-02-26 21:43+0100\n"
+"PO-Revision-Date: 2013-02-28 19:43+0100\n"
 "Last-Translator: \n"
 "Language-Team: Blend Swap Translators\n"
 "MIME-Version: 1.0\n"
@@ -329,24 +329,24 @@ msgstr "Limite non supprimée"
 
 #: Controller/MembershipsController.php:61;107;135
 msgid "Invalid membership"
-msgstr "Adhésion invalide"
+msgstr "Abonnement invalide"
 
 #: Controller/MembershipsController.php:86;111
 msgid "The membership has been saved"
-msgstr "L'adhésion a été enregistrée"
+msgstr "L'abonnement a été enregistré"
 
 #: Controller/MembershipsController.php:89;114
 msgid "The membership could not be saved. Please, try again."
 msgstr ""
-"L'adhésion n'a pas pu être enregistrée. S'il vous plaît, essayez à nouveau"
+"L'abonnement n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau."
 
 #: Controller/MembershipsController.php:138
 msgid "Membership deleted"
-msgstr "Adhésion supprimée"
+msgstr "Abonnement supprimé"
 
 #: Controller/MembershipsController.php:141
 msgid "Membership was not deleted"
-msgstr "Adhésion non supprimée"
+msgstr "Abonnement non supprimé"
 
 #: Controller/MessagesController.php:47;253;282;307
 msgid "Invalid message"
@@ -1083,7 +1083,7 @@ msgstr "Supprimer la réponse"
 
 #: View/Blends/add.ctp:37 View/Users/edit.ctp:14
 msgid "Basic Data"
-msgstr "Information de base"
+msgstr "Informations de base"
 
 #: View/Blends/add.ctp:42
 msgid "Blend Name"
@@ -2007,9 +2007,8 @@ msgid "You have Unlimited Bandwidth"
 msgstr "Vous avez une bande passante illimitée"
 
 #: View/Elements/menus/topMenu.ctp:54
-#, fuzzy
 msgid "Your Associate membership is set to auto-renew."
-msgstr "Votre adhésion Premium a été réglée sur renouvellement automatique."
+msgstr "Votre abonnement Premium a été réglée sur renouvellement automatique."
 
 # accord du "à" en fonction de la suite...
 #: View/Elements/menus/topMenu.ctp:57;60
@@ -2063,7 +2062,7 @@ msgstr "Tous les blends"
 
 #: View/Elements/menus/topMenu.ctp:128
 msgid "Upload New Blend"
-msgstr "Télécharger de nouveaux blend"
+msgstr "Télécharger de nouveaux blends"
 
 #: View/Elements/menus/topMenu.ctp:133
 msgid "All blend categories."
@@ -2208,7 +2207,7 @@ msgstr "Changez vos critères de recherche !"
 
 #: View/Elements/navs/usernav.ctp:6
 msgid "Around me"
-msgstr "Autour de moi"
+msgstr "Moi"
 
 #: View/Elements/navs/usernav.ctp:10
 msgid "All Activity"
@@ -2221,7 +2220,7 @@ msgstr "Blog de News"
 
 #: View/Elements/navs/usernav.ctp:39
 msgid "Admin Notifications"
-msgstr "Notification d'administration"
+msgstr "Notifications des Admins"
 
 #: View/Elements/navs/usernav.ctp:48
 msgid "Buzz"
@@ -2267,7 +2266,7 @@ msgstr "Compte &amp; Paramètres"
 
 #: View/Elements/navs/usernav.ctp:147
 msgid "Manage Membership"
-msgstr "Gérer les adhésions"
+msgstr "Gérer les abonnements"
 
 #: View/Elements/navs/usernav.ctp:155
 msgid "Change Password"
@@ -2339,7 +2338,7 @@ msgstr "a mis le blend dans un groupement"
 
 #: View/Helper/DashboardHelper.php:140;144
 msgid "published a news update"
-msgstr "a publié une nouvelle mise à jour"
+msgstr "a publié une nouvelle mise à jour :"
 
 #: View/Helper/DashboardHelper.php:148
 msgid "interacted with"
@@ -2469,21 +2468,20 @@ msgstr "Comptes"
 
 #: View/Layouts/frontend.ctp:108
 msgid "Membership"
-msgstr "Adhésions"
+msgstr "Abonnements"
 
 #: View/Layouts/frontend.ctp:111
 msgid "Free Membership"
-msgstr "Adhésion gratuite"
+msgstr "Compte gratuit"
 
 #: View/Layouts/frontend.ctp:114
 msgid "Associate Membership"
-msgstr "Adhésion/Abonnement Premium"
+msgstr "Abonnement Premium"
 
 # adhésion / abonnement ?
 #: View/Layouts/frontend.ctp:117
-#, fuzzy
 msgid "Deadline Membership"
-msgstr "Fin de l'adhésion/abonnement au compte Premuim"
+msgstr "Fin de abonnement au compte Premuim"
 
 #: View/Layouts/frontend.ctp:123
 msgid "Bandwidth Assignation"
@@ -2939,7 +2937,7 @@ msgstr "M'inscrire"
 
 #: View/Users/edit.ctp:8
 msgid "&larr; Don't see your avatar?"
-msgstr "&larr; Vous ne voyez pas mon avatar ?"
+msgstr "&larr; Vous ne voyez pas votre avatar ?"
 
 #: View/Users/edit.ctp:9
 #, fuzzy
@@ -2956,7 +2954,7 @@ msgstr ""
 
 #: View/Users/edit.ctp:22
 msgid "Wanna change it?"
-msgstr "Vraiment changer cela ?"
+msgstr "Vraiment le modifier ?"
 
 #: View/Users/edit.ctp:31
 msgid ""
@@ -2969,11 +2967,11 @@ msgstr ""
 
 #: View/Users/edit.ctp:38
 msgid "Notification Settings"
-msgstr "Paramètres de notifications"
+msgstr "Notifications"
 
 #: View/Users/edit.ctp:41
 msgid "Send me email notifications when"
-msgstr "M'envoyer un mal de notification quand"
+msgstr "M'envoyer un mail de notification quand"
 
 #: View/Users/edit.ctp:44
 msgid "My blends are published"
@@ -2985,7 +2983,7 @@ msgstr "Mes blends ont été ajoutés aux groupements publics"
 
 #: View/Users/edit.ctp:46
 msgid "My blends are added to Staff Picks"
-msgstr "Mes blends ont été ajoutés Choix de l'Equipe"
+msgstr "Mes blends ont été ajoutés aux Choix de l'Equipe"
 
 #: View/Users/edit.ctp:47
 msgid "Another user sends me a message"
@@ -3005,11 +3003,11 @@ msgstr "Langue utilisée"
 
 #: View/Users/edit.ctp:77
 msgid "Associate Members"
-msgstr "Membres Premuim"
+msgstr "Les Membres Premuim"
 
 #: View/Users/edit.ctp:78
 msgid "can set the amount of Blends per index page up to 60"
-msgstr "possibilité d'afficher 60 blends par page"
+msgstr "peuvent afficher 60 blends par page"
 
 #: View/Users/edit.ctp:89
 msgid "20 blends per page (default)"
