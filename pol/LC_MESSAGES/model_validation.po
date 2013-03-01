@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-02-28 11:25-0600\n"
-"PO-Revision-Date: 2013-03-01 19:56+0100\n"
+"POT-Creation-Date: 2013-03-01 15:10-0600\n"
+"PO-Revision-Date: 2013-03-01 23:27+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: \n"
@@ -301,8 +301,8 @@ msgstr "To nie wygląda jak adres email"
 
 #: Model/User.php:validation
 #: for field email
-msgid "Wrong email..."
-msgstr "Błędny adres email ..."
+msgid "That email is already in use, maybe you signed up with tha email before?"
+msgstr "Ten email jest już w użyciu, może masz tu konto ?"
 
 #: Model/User.php:validation
 #: for field email
@@ -328,6 +328,9 @@ msgstr "Musisz zaakceptować warunki użytkowania!"
 #: for field bpp
 msgid "Invalid value type"
 msgstr "Nieprawidłowy typ wartości"
+
+#~ msgid "Wrong email..."
+#~ msgstr "Błędny adres email ..."
 
 #, fuzzy
 #~ msgid "Looks like this user is already featured!"
