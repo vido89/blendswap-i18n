@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-28 11:25-0600\n"
-"PO-Revision-Date: 2013-03-01 21:05+0100\n"
+"PO-Revision-Date: 2013-03-01 21:18+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: \n"
@@ -1719,9 +1719,8 @@ msgid "New Download"
 msgstr "Nowe pliki do pobrania"
 
 #: View/Elements/commentList.ctp:10
-#, fuzzy
 msgid "No %s yet, leave yours!"
-msgstr "No %s yet, leave yours!"
+msgstr "Nie ma jeszcze komentarzy, zostaw swój !"
 
 #: View/Elements/new_question.ctp:3
 msgid "Need help with Blender?"
@@ -3204,7 +3203,6 @@ msgid "points"
 msgstr "punktów"
 
 #: View/Users/index.ctp:34
-#, fuzzy
 msgid "Collections"
 msgstr "Moje kolekcje"
 
