@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-28 11:25-0600\n"
+"POT-Creation-Date: 2013-03-01 15:10-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -54,51 +54,51 @@ msgstr ""
 msgid "Badge was not deleted"
 msgstr ""
 
-#: Controller/BlendsController.php:167;1641;1665;1695
+#: Controller/BlendsController.php:174;1648;1672;1702
 msgid "Invalid blend"
 msgstr ""
 
-#: Controller/BlendsController.php:476
+#: Controller/BlendsController.php:483
 msgid "Thank you! Your new blend was saved and is now publicly visible!"
 msgstr ""
 
-#: Controller/BlendsController.php:478
+#: Controller/BlendsController.php:485
 msgid "There was an error saving your blend as published, please report you saw this error!"
 msgstr ""
 
-#: Controller/BlendsController.php:482
+#: Controller/BlendsController.php:489
 msgid "Your new blend was saved and is now waiting moderation! Please be patient for an adminn to check your file."
 msgstr ""
 
-#: Controller/BlendsController.php:486
+#: Controller/BlendsController.php:493
 msgid "You blend was saved to the database, but one of the files failed to upload, please fix below the file type marked in red!"
 msgstr ""
 
-#: Controller/BlendsController.php:491
+#: Controller/BlendsController.php:498
 msgid "The blend could not be saved. Please ckeck any errors below and try again. Don't forget to re-select the files."
 msgstr ""
 
-#: Controller/BlendsController.php:560
+#: Controller/BlendsController.php:567
 msgid "The requested blend does not exist."
 msgstr ""
 
-#: Controller/BlendsController.php:597;1669
+#: Controller/BlendsController.php:604;1676
 msgid "The blend has been saved"
 msgstr ""
 
-#: Controller/BlendsController.php:599
+#: Controller/BlendsController.php:606
 msgid "ERRORS! Please check any red messages below and try again."
 msgstr ""
 
-#: Controller/BlendsController.php:1674
+#: Controller/BlendsController.php:1681
 msgid "The blend could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/BlendsController.php:1698
+#: Controller/BlendsController.php:1705
 msgid "Blend deleted"
 msgstr ""
 
-#: Controller/BlendsController.php:1701
+#: Controller/BlendsController.php:1708
 msgid "Blend was not deleted"
 msgstr ""
 
@@ -234,23 +234,23 @@ msgstr ""
 msgid "Key was not deleted"
 msgstr ""
 
-#: Controller/LimitsController.php:45;76;102
+#: Controller/LimitsController.php:42;73;99
 msgid "Invalid limit"
 msgstr ""
 
-#: Controller/LimitsController.php:59;80
+#: Controller/LimitsController.php:56;77
 msgid "The limit has been saved"
 msgstr ""
 
-#: Controller/LimitsController.php:62;83
+#: Controller/LimitsController.php:59;80
 msgid "The limit could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/LimitsController.php:105
+#: Controller/LimitsController.php:102
 msgid "Limit deleted"
 msgstr ""
 
-#: Controller/LimitsController.php:108
+#: Controller/LimitsController.php:105
 msgid "Limit was not deleted"
 msgstr ""
 
@@ -582,7 +582,7 @@ msgstr ""
 msgid "This user does not exist on Blend Swap."
 msgstr ""
 
-#: Controller/UsersController.php:320;1518;1550;1577
+#: Controller/UsersController.php:320;1501;1533;1560
 msgid "Invalid user"
 msgstr ""
 
@@ -614,19 +614,19 @@ msgstr ""
 msgid "The data entered did not validate, so the account was not created. Please correct the errors marked in red below, re-enter your password and try again."
 msgstr ""
 
-#: Controller/UsersController.php:1533;1555
+#: Controller/UsersController.php:1516;1538
 msgid "The user has been saved"
 msgstr ""
 
-#: Controller/UsersController.php:1536;1558
+#: Controller/UsersController.php:1519;1541
 msgid "The user could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:1580
+#: Controller/UsersController.php:1563
 msgid "User deleted"
 msgstr ""
 
-#: Controller/UsersController.php:1583
+#: Controller/UsersController.php:1566
 msgid "User was not deleted"
 msgstr ""
 
@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:91
 #: View/Blends/edit.ctp:47
-#: View/Elements/menus/topMenu.ctp:133
+#: View/Elements/menus/topMenu.ctp:147
 #: View/Elements/navs/taxonomies.ctp:5
 msgid "Categories"
 msgstr ""
@@ -1732,7 +1732,7 @@ msgstr ""
 msgid "Appliances"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:6;36
+#: View/Elements/placeholder.ctp:6;37
 msgid "Animation"
 msgstr ""
 
@@ -1789,119 +1789,123 @@ msgid "Miscellaneous Objects"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:20
-msgid "Musical Instruments"
+msgid "Motion Graphics"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:21
-msgid "Node Setups"
+msgid "Musical Instruments"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:22
-msgid "Particles"
+msgid "Node Setups"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:23
-msgid "Accessories"
+msgid "Particles"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:24
-msgid "Plants"
+msgid "Accessories"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:25
-msgid "Python Scripts"
+msgid "Plants"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:26
-msgid "Real Time"
+msgid "Python Scripts"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:27
-msgid "Rigs"
+msgid "Real Time"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:28
-msgid "Scenes"
+msgid "Rigs"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:29
-msgid "Sci-Fi"
+msgid "Scenes"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:30
-msgid "Simulations"
+msgid "Sci-Fi"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:31
-#: View/Elements/menus/topMenu.ctp:136
-msgid "Staff Picks"
+msgid "Simulations"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:32
-msgid "Textures"
+#: View/Elements/menus/topMenu.ctp:150
+msgid "Staff Picks"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:33
-msgid "Tools"
+msgid "Textures"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:34
-msgid "Vehicles"
+msgid "Tools"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:35
+msgid "Vehicles"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:36
 msgid "Weapons"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:40
+#: View/Elements/placeholder.ctp:41
 msgid "January"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:41
+#: View/Elements/placeholder.ctp:42
 msgid "February"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:42
+#: View/Elements/placeholder.ctp:43
 msgid "March"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:43
+#: View/Elements/placeholder.ctp:44
 msgid "April"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:44
+#: View/Elements/placeholder.ctp:45
 msgid "May"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:45
+#: View/Elements/placeholder.ctp:46
 msgid "June"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:46
+#: View/Elements/placeholder.ctp:47
 msgid "July"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:47
+#: View/Elements/placeholder.ctp:48
 msgid "August"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:48
+#: View/Elements/placeholder.ctp:49
 msgid "September"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:49
+#: View/Elements/placeholder.ctp:50
 msgid "October"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:50
+#: View/Elements/placeholder.ctp:51
 msgid "November"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:51
+#: View/Elements/placeholder.ctp:52
 msgid "December"
 msgstr ""
 
-#: View/Elements/placeholder.ctp:55
+#: View/Elements/placeholder.ctp:56
 msgid "answers"
 msgstr ""
 
@@ -2057,7 +2061,7 @@ msgstr ""
 msgid "Faq"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:7;211
+#: View/Elements/menus/topMenu.ctp:7;225
 msgid "Frequently asked questions (and answers)"
 msgstr ""
 
@@ -2162,11 +2166,13 @@ msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:86
 #: View/Limits/admin_view.ctp:29
+#: View/Users/bandwidth.ctp:20
 msgid "Remaining"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:90
 #: View/Limits/admin_view.ctp:34
+#: View/Users/bandwidth.ctp:24
 msgid "Spent"
 msgstr ""
 
@@ -2198,155 +2204,183 @@ msgstr ""
 msgid "Upload New Blend"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:133
+#: View/Elements/menus/topMenu.ctp:135
+msgid "Only CC-Zero Blends"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:135
+msgid "Only CC-0"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:138
+msgid "Only CC-BY Blends"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:138
+msgid "Only CC-BY"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:141
+msgid "Only CC-BY-SA Blends"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:141
+msgid "Only CC-BY-SA"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:144
+msgid "Filter Blends"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:147
 msgid "All blend categories."
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:136
+#: View/Elements/menus/topMenu.ctp:150
 msgid "Blends selected by the admins."
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:139
+#: View/Elements/menus/topMenu.ctp:153
 msgid "Blend Collections"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:139
+#: View/Elements/menus/topMenu.ctp:153
 msgid "Publicly visible Blend Collections by our users."
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:143
+#: View/Elements/menus/topMenu.ctp:157
 msgid "Durian OMP"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:143
+#: View/Elements/menus/topMenu.ctp:157
 msgid "Durian Open Movie Project."
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:146
+#: View/Elements/menus/topMenu.ctp:160
 msgid "HJM Contest"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:146
+#: View/Elements/menus/topMenu.ctp:160
 msgid "HJ Media Military Contest"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:149
+#: View/Elements/menus/topMenu.ctp:163
 msgid "Fantasy Contest"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:149
+#: View/Elements/menus/topMenu.ctp:163
 msgid "Fantasy Character Contest"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:153;174;188
+#: View/Elements/menus/topMenu.ctp:167;188;202
 msgid "RSS Feed"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:158
+#: View/Elements/menus/topMenu.ctp:172
 #: View/Requests/admin_index.ctp:2
 msgid "Requests"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:162
+#: View/Elements/menus/topMenu.ctp:176
 msgid "New Request"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:162
+#: View/Elements/menus/topMenu.ctp:176
 msgid "Create a new blend Request"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:167
+#: View/Elements/menus/topMenu.ctp:181
 msgid "Open Requests"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:167
+#: View/Elements/menus/topMenu.ctp:181
 msgid "Requests still open to responses"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:170
+#: View/Elements/menus/topMenu.ctp:184
 msgid "Closed Requests"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:170
+#: View/Elements/menus/topMenu.ctp:184
 msgid "Requests closed to new responses"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:179
+#: View/Elements/menus/topMenu.ctp:193
 #: View/Layouts/frontend.ctp:100
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:183
+#: View/Elements/menus/topMenu.ctp:197
 #: View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
 msgid "New Question"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:183
+#: View/Elements/menus/topMenu.ctp:197
 msgid "Create a new Question"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:193
+#: View/Elements/menus/topMenu.ctp:207
 #: View/Users/admin_index.ctp:2
 msgid "Users"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:196
+#: View/Elements/menus/topMenu.ctp:210
 msgid "Find Artists"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:199
+#: View/Elements/menus/topMenu.ctp:213
 #: View/Layouts/frontend.ctp:120
 #: View/Users/featured.ctp:1
 msgid "Featured Artists"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:203
+#: View/Elements/menus/topMenu.ctp:217
 #: View/Layouts/frontend.ctp:97
 msgid "User Badges"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:208
+#: View/Elements/menus/topMenu.ctp:222
 #: View/Layouts/frontend.ctp:194
 msgid "Help"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:208
+#: View/Elements/menus/topMenu.ctp:222
 msgid "Help and documentation"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:211
+#: View/Elements/menus/topMenu.ctp:225
 msgid "FAQ"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:214
+#: View/Elements/menus/topMenu.ctp:228
 msgid "All Documentation"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:214
+#: View/Elements/menus/topMenu.ctp:228
 msgid "All site documentation"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:217
+#: View/Elements/menus/topMenu.ctp:231
 #: View/Layouts/frontend.ctp:197
 msgid "Known Issues"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:217
+#: View/Elements/menus/topMenu.ctp:231
 msgid "Known issues"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:222
+#: View/Elements/menus/topMenu.ctp:236
 #: View/Layouts/frontend.ctp:200
 msgid "Report Errors"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:230;231
+#: View/Elements/menus/topMenu.ctp:244;245
 msgid "Search Blends"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:231
+#: View/Elements/menus/topMenu.ctp:245
 msgid "Change your search criteria!"
 msgstr ""
 
@@ -2397,6 +2431,7 @@ msgstr ""
 
 #: View/Elements/navs/usernav.ctp:124
 #: View/Profiles/admin_view.ctp:94
+#: View/Users/view.ctp:85
 msgid "Edit Profile"
 msgstr ""
 
@@ -2409,6 +2444,7 @@ msgid "Account &amp; Settings"
 msgstr ""
 
 #: View/Elements/navs/usernav.ctp:147
+#: View/Users/view.ctp:91
 msgid "Manage Membership"
 msgstr ""
 
@@ -2416,7 +2452,13 @@ msgstr ""
 msgid "Change Password"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:170
+#: View/Elements/navs/usernav.ctp:162
+#: View/Users/bandwidth.ctp:1
+#: View/Users/view.ctp:94
+msgid "Bandwidth History"
+msgstr ""
+
+#: View/Elements/navs/usernav.ctp:177
 msgid "Upgrade"
 msgstr ""
 
@@ -3106,6 +3148,18 @@ msgstr ""
 msgid "Sign Me Up"
 msgstr ""
 
+#: View/Users/bandwidth.ctp:16
+msgid "Initialized"
+msgstr ""
+
+#: View/Users/bandwidth.ctp:28
+msgid "Is this wrong?"
+msgstr ""
+
+#: View/Users/bandwidth.ctp:30
+msgid "Fix it"
+msgstr ""
+
 #: View/Users/edit.ctp:1
 msgid "Account and Settings"
 msgstr ""
@@ -3236,5 +3290,21 @@ msgstr ""
 
 #: View/Users/username.ctp:24
 msgid "Enter your desired username to check if it is available"
+msgstr ""
+
+#: View/Users/view.ctp:88
+msgid "Account & Settings"
+msgstr ""
+
+#: View/Users/view.ctp:102
+msgid "badges"
+msgstr ""
+
+#: View/Users/view.ctp:121
+msgid "This user has not earned any badges yet..."
+msgstr ""
+
+#: View/Users/view.ctp:174
+msgid "You should set up your skills from the profile edit panel"
 msgstr ""
 
