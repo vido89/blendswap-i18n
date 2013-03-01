@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-02-20 20:08-0600\n"
-"PO-Revision-Date: 2013-02-26 18:04+0100\n"
-"Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
+"PO-Revision-Date: 2013-03-01 13:25-0600\n"
+"Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1257,7 +1257,7 @@ msgstr "Uznanie autorstwa-Na tych samych warunkach 3.0 Polska (CC BY-SA 3.0 PL)"
 #: View/Elements/menus/topMenu.ctp:133
 #: View/Elements/navs/taxonomies.ctp:5
 msgid "Categories"
-msgstr "Katrgorie"
+msgstr "Kategorie"
 
 #: View/Blends/add.ctp:94
 msgid "Chose at least 1, and up to 4 categories"
