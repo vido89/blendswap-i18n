@@ -36,7 +36,8 @@ We're covered in __Spanish__, __German__, __Polish__, __French__.
 * Save the file to the folder you created before as default.po (watch out for the extension, POT files are templates, PO files are translations files).
 * Work on your translations and save frequently.
 * When you're done do your normal `git add .` , `git commit -m "Commit message"` and `git push` to update your fork of the translation files.
-* When you feel your translation is ready, do a pull request on github to let us merge your translation with our master repository.
+* When you feel your translation is ready, do a pull request on github to let poifox know it's time to merge your translation with our master fork.
+* Do not use other software than poedit to edit the po files as it is very easy to break them, use PoEdit every time.
 
 ### What NOT to translate:
 
@@ -47,10 +48,10 @@ We're covered in __Spanish__, __German__, __Polish__, __French__.
 
 From time to time new strings will be added to the translation files. When this is the case our commits will say so. when you see new strings have been pushed up the server do the following:
 
-* Synchronize your master branch with our master.
-* open your `default.po` file with PoEdit and from the app menu select: *Catalog > Update from POT file*, browse for the default.pot file in the source root and accept it.
+* Synchronize your master branch with our master byt making yourself a pull request from the main fork to yours.
+* Open your language `default.po` file with PoEdit and from the app menu select: __Catalog > Update from POT file__, browse for the default.pot file in the source root and accept it.
 * The new strings will be listed. Hit accept to update your Catalan `default.po` file.
-* Depending on your PoEdit settings some strings may be translated automatically. ALWAYS DOUBLE CHECK THOSE STRINGS, they appear yellowinsh and you can never trust those translations.
+* Depending on your PoEdit settings some strings may be translated automatically; they appear yellowinsh, __YOU MUST ALWAYS DOUBLE CHECK THOSE STRINGS BECAUSE YOU CAN NEVER TRUST THOSE TRANSLATIONS__.
 * Go back to translating as usual.
 
 ### Notes.
@@ -60,3 +61,4 @@ From time to time new strings will be added to the translation files. When this 
 * We plan to update contributed translations at least once a week. Translating all these string doesn't take that long and it can be all done in a quick afternoon.
 * PROTIP: when translating in PoEdit click on the first string, translate it and hit [ CTRL + DOWN ARROW ] the next string will be selected and you can type right away. This way you won't get tired of alternating between the mouse and the keyboard.
 * The .mo files created by PoEdit are welcome, add them to your repo and leave them there, they contain the translations in binary form.
+* __Do not use other software than poedit to edit the po files as it is very easy to break them, use PoEdit every time.__
