@@ -19,7 +19,7 @@ We're covered in __Spanish__, __German__, __Polish__, __French__.
 * Clone the full source files to your computer (you must [setup your ssh keys](https://help.github.com/articles/generating-ssh-keys) on Github for cloning and pushing code).
 
 ### Translating
-* Let's say you will work with *Catalan*. In the sources root you will make this folder structure `cat/LC_MESSAGES` (if it doesn't exist already). The name of the *cat* folder is given by the three-character language codes in [ISO639-2 Standard](http://www.loc.gov/standards/iso639-2/php/code_list.php). The *LC_MESSAGES* subdir MUST HAVE THAT NAME. Take the Spanish translation as an example of the file structure.
+* Let's say you will work with *LanguageName*. In the sources root you will make this folder structure `cat/LC_MESSAGES` (if it doesn't exist already). The name of the *cat* folder is given by the three-character language codes in [ISO639-2 Standard](http://www.loc.gov/standards/iso639-2/php/code_list.php). The *LC_MESSAGES* subdir MUST HAVE THAT NAME. Take the Spanish translation as an example of the file structure.
 * Open PoEdit for the first time it and enter your name and email when asked to. This is to keep a backlog of who commits what translations.
 * From the PoEdit menu select *File > New Catalog from POT file*. browse for the `default.pot` file in the sources root folder and open it.
 * You will be promted for the information of the translation.
@@ -27,12 +27,12 @@ We're covered in __Spanish__, __German__, __Polish__, __French__.
     * Project name and version: Blend Swap Translation 0.1
     * Team: Blend Swap Translators
     * Team's email address: <your email address>
-    * Language: Catalan
-    * Country: SPAIN
+    * Language: *LanguageName*
+    * Country: *COUNTRY NAME*
     * Charset: UTF-8
     * Source code charset: utf-8
     * Plural forms: nplurals=2; plural=n == 1 ? 0 : 1;
-* Hit *Accept*. Your Catalan catalog is created.
+* Hit *Accept*. Your *LanguageName* catalog is created.
 * Save the file to the folder you created before as default.po (watch out for the extension, POT files are templates, PO files are translations files).
 * Work on your translations and save frequently. __you can use any UTF-8 compliant alphabet, which include [most character sets known to mankind](http://en.wikipedia.org/wiki/List_of_Unicode_Characters).__
 * When you're done do your normal `git add .` , `git commit -m "Commit message"` and `git push` to update your fork of the translation files.
@@ -48,9 +48,9 @@ We're covered in __Spanish__, __German__, __Polish__, __French__.
 
 From time to time new strings will be added to the translation files. When this is the case our commits will say so. when you see new strings have been pushed up the server do the following:
 
-* Synchronize your master branch with our master byt making yourself a pull request from the main fork to yours.
-* Open `your_lang_code/LC_MESSAGES/default.po` file with PoEdit and from the app menu select: __Catalog > Update from POT file__, browse for the default.pot file in the source root and accept it.
-* The new strings will be listed. Hit accept to update your Catalan `default.po` file.
+* Synchronize your master branch with our master by opening a __[pull request](https://help.github.com/articles/using-pull-requests)__ from the main fork to yours; and merging it yourself.
+* Open `your_lang_code/LC_MESSAGES/default.po` file with PoEdit and from the app menu select: __Catalog > Update from POT file__, browse for the `default.pot` file in the source root and accept it.
+* The new strings will be listed. Hit accept to update your *LanguageName* `default.po` file.
 * Depending on your PoEdit settings some strings may be translated automatically; they appear yellowinsh, __YOU MUST ALWAYS DOUBLE CHECK THOSE STRINGS BECAUSE YOU CAN NEVER TRUST THOSE TRANSLATIONS__.
 * Go back to translating as usual.
 
