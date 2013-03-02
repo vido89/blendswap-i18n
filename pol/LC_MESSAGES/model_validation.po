@@ -4,10 +4,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-02-20 20:08-0600\n"
-"PO-Revision-Date: 2013-02-26 17:46+0100\n"
+"POT-Creation-Date: 2013-03-01 15:10-0600\n"
+"PO-Revision-Date: 2013-03-01 23:27+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,9 +42,9 @@ msgstr "Opis musi się składać od 40 do 5000 znaków."
 msgid "That is not a url!"
 msgstr "To nie jest adres URL !"
 
-# Do zmiany ?
 #: Model/Blend.php:validation
 #: for field three_dee
+#, fuzzy
 msgid "That is not a supported viewer."
 msgstr "To jest nie obsługiwany format."
 
@@ -122,7 +123,7 @@ msgstr "Komentarz nie może być pusty!"
 #: for field user_id;validation
 #: parent_id;validation object_id Model/Revision.php:validation
 msgid "numeric"
-msgstr "numery (czna)"
+msgstr "numeryczna"
 
 #: Model/Contact.php:validation
 #: for field name;validation email;validation
@@ -160,11 +161,11 @@ msgstr "To nie jest adres URL"
 msgid "this email must have a name"
 msgstr "Ten email musi zawierać nazwę"
 
-# Do zmiany ?
 #: Model/Email.php:validation
 #: for field pointer
+#, fuzzy
 msgid "emails must have a call key so they can be called from inside the app."
-msgstr "emails must have a call key so they can be called from inside the app. (Nie rozumiem :()"
+msgstr "emails must have a call key so they can be called from inside the app."
 
 #: Model/Email.php:validation
 #: for field pointer
@@ -189,9 +190,9 @@ msgstr "allowedStatuses"
 msgid "This does not look like an URL"
 msgstr "To nie wygląda jak adres URL"
 
-# Cos kolo tego :-/
 #: Model/Question.php:validation
 #: for field body
+#, fuzzy
 msgid "Your question needs a body with details."
 msgstr "Twoje pytanie potrzebuje danych ze szczegółami."
 
@@ -300,8 +301,8 @@ msgstr "To nie wygląda jak adres email"
 
 #: Model/User.php:validation
 #: for field email
-msgid "Wrong email..."
-msgstr "Błędny adres email ..."
+msgid "That email is already in use, maybe you signed up with tha email before?"
+msgstr "Ten email jest już w użyciu, może masz tu konto ?"
 
 #: Model/User.php:validation
 #: for field email
@@ -328,3 +329,9 @@ msgstr "Musisz zaakceptować warunki użytkowania!"
 msgid "Invalid value type"
 msgstr "Nieprawidłowy typ wartości"
 
+#~ msgid "Wrong email..."
+#~ msgstr "Błędny adres email ..."
+
+#, fuzzy
+#~ msgid "Looks like this user is already featured!"
+#~ msgstr "Wygląda, że ten użytkownik jest już wyróżniony!"
