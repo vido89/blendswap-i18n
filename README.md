@@ -34,7 +34,7 @@ We're covered in __Spanish__, __German__, __Polish__, __French__.
     * Plural forms: nplurals=2; plural=n == 1 ? 0 : 1;
 * Hit *Accept*. Your Catalan catalog is created.
 * Save the file to the folder you created before as default.po (watch out for the extension, POT files are templates, PO files are translations files).
-* Work on your translations and save frequently. __you can use any UTF-8 compliant alphabet, which include [most character sets known to mankind](http://en.wikipedia.org/wiki/List_of_Unicode_Characters) __
+* Work on your translations and save frequently. __you can use any UTF-8 compliant alphabet, which include [most character sets known to mankind](http://en.wikipedia.org/wiki/List_of_Unicode_Characters).__
 * When you're done do your normal `git add .` , `git commit -m "Commit message"` and `git push` to update your fork of the translation files.
 * When you feel your translation is ready, do a pull request on github to let poifox know it's time to merge your translation with our master fork.
 * Do not use other software than poedit to edit the po files as it is very easy to break them, use PoEdit every time.
@@ -49,7 +49,7 @@ We're covered in __Spanish__, __German__, __Polish__, __French__.
 From time to time new strings will be added to the translation files. When this is the case our commits will say so. when you see new strings have been pushed up the server do the following:
 
 * Synchronize your master branch with our master byt making yourself a pull request from the main fork to yours.
-* Open your language `default.po` file with PoEdit and from the app menu select: __Catalog > Update from POT file__, browse for the default.pot file in the source root and accept it.
+* Open `your_lang_code/LC_MESSAGES/default.po` file with PoEdit and from the app menu select: __Catalog > Update from POT file__, browse for the default.pot file in the source root and accept it.
 * The new strings will be listed. Hit accept to update your Catalan `default.po` file.
 * Depending on your PoEdit settings some strings may be translated automatically; they appear yellowinsh, __YOU MUST ALWAYS DOUBLE CHECK THOSE STRINGS BECAUSE YOU CAN NEVER TRUST THOSE TRANSLATIONS__.
 * Go back to translating as usual.
