@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-01 18:23-0600\n"
-"PO-Revision-Date: 2013-03-02 15:22+0100\n"
+"PO-Revision-Date: 2013-03-02 18:28+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: \n"
@@ -2221,7 +2221,7 @@ msgstr "Pozostało"
 #: View/Limits/admin_view.ctp:34
 #: View/Users/bandwidth.ctp:24
 msgid "Spent"
-msgstr "Wyczerpano"
+msgstr "Zużyto"
 
 #: View/Elements/menus/topMenu.ctp:97
 msgid "Get more bandwidth!"
@@ -3054,7 +3054,7 @@ msgstr "Strona {:page} z {:pages}, wyświetlono {:current} pytań z {:count} wsz
 
 #: View/Questions/view.ctp:10
 msgid "Answer"
-msgstr "Odpowiedzi"
+msgstr "Odpowiedz"
 
 #: View/Questions/rss/index.ctp:3
 msgid "Blend Swap Questions"
@@ -3345,7 +3345,7 @@ msgstr "Wprowadź swoją nazwę użytkownika i sprawdzić, czy jest ona dostępn
 
 #: View/Users/view.ctp:88
 msgid "Account & Settings"
-msgstr "Konto &amp; Ustawienia"
+msgstr "Konto & Ustawienia"
 
 #: View/Users/view.ctp:102
 msgid "badges"
