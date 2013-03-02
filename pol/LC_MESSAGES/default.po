@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-01 15:10-0600\n"
-"PO-Revision-Date: 2013-03-01 23:28+0100\n"
+"POT-Creation-Date: 2013-03-01 18:23-0600\n"
+"PO-Revision-Date: 2013-03-02 15:22+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: \n"
@@ -861,7 +861,7 @@ msgstr "Czy na pewno chcesz usunąć # %s?"
 #: View/Requests/index.ctp:32
 #: View/Requests/view.ctp:49
 msgid "Responses"
-msgstr "Odpowiedź"
+msgstr "Odpowiedzi"
 
 #: View/Answers/admin_index.ctp:27
 #: View/Blends/admin_index.ctp:55
@@ -1019,7 +1019,7 @@ msgstr "Odpowiedz"
 
 #: View/Answers/admin_view.ctp:2
 msgid "Response"
-msgstr "Response"
+msgstr "Odpowiedź"
 
 #: View/Answers/admin_view.ctp:4
 #: View/Blends/admin_view.ctp:4;142;201;236;299;334
@@ -1091,11 +1091,11 @@ msgstr "Status"
 
 #: View/Answers/admin_view.ctp:39
 msgid "Edit Response"
-msgstr "Edit Response"
+msgstr "Edytuj Odpowiedź"
 
 #: View/Answers/admin_view.ctp:40
 msgid "Delete Response"
-msgstr "Delete Response"
+msgstr "Usuń Odpowiedź"
 
 #: View/Blends/add.ctp:37
 #: View/Users/edit.ctp:14
@@ -1538,7 +1538,7 @@ msgstr "Mime Type"
 
 #: View/Blends/admin_view.ctp:247
 msgid "Path"
-msgstr "ścieżka"
+msgstr "Ścieżka"
 
 #: View/Blends/admin_view.ctp:248
 msgid "Thumb"
@@ -1589,7 +1589,7 @@ msgid "What did you change?"
 msgstr "Co teraz zmieniłeś?"
 
 #: View/Blends/edit.ctp:88
-#: View/Users/edit.ctp:136
+#: View/Users/edit.ctp:137
 msgid "Save Changes"
 msgstr "Zapisz zmiany"
 
@@ -1644,7 +1644,7 @@ msgstr "Najnowszy Blend"
 
 #: View/Blends/rss/index.ctp:5
 msgid "Most recent blends on Blend Swap."
-msgstr "Najnowsze blend na Blend Swap"
+msgstr "Najnowsze blendy na Blend Swap"
 
 #: View/Chats/add.ctp:4
 msgid "Add Chat"
@@ -1694,7 +1694,7 @@ msgstr "Usuń komentarz"
 #: View/Contacts/admin_edit.ctp:4
 #: View/Contacts/admin_view.ctp:89
 msgid "Edit Contact"
-msgstr "Edytuj Kontakt "
+msgstr "Edytuj kontakt "
 
 #: View/Contacts/admin_edit.ctp:24
 #: View/Contacts/admin_view.ctp:91
@@ -2063,11 +2063,15 @@ msgstr "Musisz się zalogować, aby dodać komentarz"
 msgid "Tour"
 msgstr "Zapoznaj się"
 
+#: View/Elements/menus/topMenu.ctp:6
+msgid "The Blend Swap Features"
+msgstr "Przejdź krótki przewodnik po stronie."
+
 #: View/Elements/menus/topMenu.ctp:7
 msgid "Faq"
 msgstr "FAQ"
 
-#: View/Elements/menus/topMenu.ctp:7;225
+#: View/Elements/menus/topMenu.ctp:7;228
 msgid "Frequently asked questions (and answers)"
 msgstr "Najczęściej zadawane pytania (i odpowiedzi)"
 
@@ -2076,14 +2080,27 @@ msgstr "Najczęściej zadawane pytania (i odpowiedzi)"
 msgid "News"
 msgstr "Nowości"
 
+#: View/Elements/menus/topMenu.ctp:8
+#: View/Layouts/frontend.ctp:134
+msgid "Site News"
+msgstr "Nowości na Blend Swap"
+
 #: View/Elements/menus/topMenu.ctp:9
 #: View/Layouts/frontend.ctp:131
 msgid "About"
 msgstr "O nas"
 
+#: View/Elements/menus/topMenu.ctp:9
+msgid "About Blend Swap"
+msgstr "O nas"
+
 #: View/Elements/menus/topMenu.ctp:10
 #: View/Layouts/frontend.ctp:140
 msgid "Contact"
+msgstr "Kontakt"
+
+#: View/Elements/menus/topMenu.ctp:10
+msgid "Contact us"
 msgstr "Kontakt"
 
 #: View/Elements/menus/topMenu.ctp:13
@@ -2095,14 +2112,26 @@ msgstr "Więcej"
 msgid "About Blender"
 msgstr "O Blenderze"
 
+#: View/Elements/menus/topMenu.ctp:16
+msgid "What is Blender and why you will love it."
+msgstr "Czym jest Blender i dlaczego powinieneś go pokochać."
+
 #: View/Elements/menus/topMenu.ctp:17
 #: View/Layouts/frontend.ctp:184
 msgid "Learn Blender"
 msgstr "Naucz się Blendera"
 
+#: View/Elements/menus/topMenu.ctp:17
+msgid "A listing of awesome Blender tutorials."
+msgstr "Lista niesamowitych poradników z Blendera."
+
 #: View/Elements/menus/topMenu.ctp:20
 #: View/Layouts/frontend.ctp:222
 msgid "File Licensing"
+msgstr "Typy licencji"
+
+#: View/Elements/menus/topMenu.ctp:20
+msgid "Blend File Licensing"
 msgstr "Typy licencji"
 
 #: View/Elements/menus/topMenu.ctp:21
@@ -2110,14 +2139,26 @@ msgstr "Typy licencji"
 msgid "Privacy Policy"
 msgstr "Polityka prywatności"
 
+#: View/Elements/menus/topMenu.ctp:21
+msgid "Our Privacy Policy"
+msgstr "Polityka prywatności"
+
 #: View/Elements/menus/topMenu.ctp:22
 #: View/Layouts/frontend.ctp:225
 msgid "Terms of Use"
 msgstr "Warunki korzystania z serwisu"
 
+#: View/Elements/menus/topMenu.ctp:22
+msgid "The Terms of Use"
+msgstr "Warunki korzystania z serwisu"
+
 #: View/Elements/menus/topMenu.ctp:25
 msgid "Our RSS Feeds"
 msgstr "Nasz kanał RSS"
+
+#: View/Elements/menus/topMenu.ctp:25
+msgid "All our available RSS feeds."
+msgstr "Wszystkie nasze dostępne kanały RSS."
 
 #: View/Elements/menus/topMenu.ctp:31
 msgid "Latest activity"
@@ -2210,9 +2251,13 @@ msgstr "Wszystkie pliki blend"
 msgid "Upload New Blend"
 msgstr "Prześlij nowy Blend"
 
+#: View/Elements/menus/topMenu.ctp:128;172
+msgid "Upload a new Blend"
+msgstr "Prześlij nowy Blend"
+
 #: View/Elements/menus/topMenu.ctp:135
 msgid "Only CC-Zero Blends"
-msgstr "Tylko CC-Zero Blends"
+msgstr "Tylko CC-Zero Blendy"
 
 #: View/Elements/menus/topMenu.ctp:135
 msgid "Only CC-0"
@@ -2278,115 +2323,119 @@ msgstr "Konkurs fantasy"
 msgid "Fantasy Character Contest"
 msgstr "Konkurs na postać fantasy"
 
-#: View/Elements/menus/topMenu.ctp:167;188;202
+#: View/Elements/menus/topMenu.ctp:167;191;205
 msgid "RSS Feed"
 msgstr "Kanał RSS"
 
 #: View/Elements/menus/topMenu.ctp:172
+msgid "Upload"
+msgstr "Prześlij"
+
+#: View/Elements/menus/topMenu.ctp:175
 #: View/Requests/admin_index.ctp:2
 msgid "Requests"
 msgstr "Tematy"
 
-#: View/Elements/menus/topMenu.ctp:176
+#: View/Elements/menus/topMenu.ctp:179
 msgid "New Request"
 msgstr "Nowy Temat"
 
-#: View/Elements/menus/topMenu.ctp:176
+#: View/Elements/menus/topMenu.ctp:179
 msgid "Create a new blend Request"
 msgstr "Stwórz nowy temat"
 
-#: View/Elements/menus/topMenu.ctp:181
+#: View/Elements/menus/topMenu.ctp:184
 msgid "Open Requests"
 msgstr "Tematy otwarte"
 
-#: View/Elements/menus/topMenu.ctp:181
+#: View/Elements/menus/topMenu.ctp:184
 msgid "Requests still open to responses"
 msgstr "Tematy otwarte na nowe odpowiedzi"
 
-#: View/Elements/menus/topMenu.ctp:184
+#: View/Elements/menus/topMenu.ctp:187
 msgid "Closed Requests"
 msgstr "Tematy zamknięte"
 
-#: View/Elements/menus/topMenu.ctp:184
+#: View/Elements/menus/topMenu.ctp:187
 msgid "Requests closed to new responses"
 msgstr "Tematy zamknięte na nowe odpowiedzi"
 
-#: View/Elements/menus/topMenu.ctp:193
+#: View/Elements/menus/topMenu.ctp:196
 #: View/Layouts/frontend.ctp:100
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
 msgstr "Pytania"
 
-#: View/Elements/menus/topMenu.ctp:197
+#: View/Elements/menus/topMenu.ctp:200
 #: View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
 msgid "New Question"
 msgstr "Zadaj pytanie"
 
-#: View/Elements/menus/topMenu.ctp:197
+#: View/Elements/menus/topMenu.ctp:200
 msgid "Create a new Question"
 msgstr "Zadaj nowe pytanie"
 
-#: View/Elements/menus/topMenu.ctp:207
+#: View/Elements/menus/topMenu.ctp:210
 #: View/Users/admin_index.ctp:2
 msgid "Users"
 msgstr "Użytkownicy"
 
-#: View/Elements/menus/topMenu.ctp:210
+#: View/Elements/menus/topMenu.ctp:213
 msgid "Find Artists"
 msgstr "Znajdź artystę"
 
-#: View/Elements/menus/topMenu.ctp:213
+#: View/Elements/menus/topMenu.ctp:216
 #: View/Layouts/frontend.ctp:120
 #: View/Users/featured.ctp:1
 msgid "Featured Artists"
 msgstr "Artyści miesiąca"
 
-#: View/Elements/menus/topMenu.ctp:217
+#: View/Elements/menus/topMenu.ctp:220
 #: View/Layouts/frontend.ctp:97
 msgid "User Badges"
 msgstr "Odznaki użytkowników"
 
-#: View/Elements/menus/topMenu.ctp:222
+#: View/Elements/menus/topMenu.ctp:225
 #: View/Layouts/frontend.ctp:194
 msgid "Help"
 msgstr "Pomoc"
 
-#: View/Elements/menus/topMenu.ctp:222
+#: View/Elements/menus/topMenu.ctp:225
 msgid "Help and documentation"
 msgstr "Pomoc i dokumentacja"
 
-#: View/Elements/menus/topMenu.ctp:225
+#: View/Elements/menus/topMenu.ctp:228
 msgid "FAQ"
 msgstr "FAQ"
 
-#: View/Elements/menus/topMenu.ctp:228
+#: View/Elements/menus/topMenu.ctp:231
 msgid "All Documentation"
 msgstr "Mapa serwisu"
 
-#: View/Elements/menus/topMenu.ctp:228
+#: View/Elements/menus/topMenu.ctp:231
 msgid "All site documentation"
 msgstr "Mapa serwisu"
 
-#: View/Elements/menus/topMenu.ctp:231
+#: View/Elements/menus/topMenu.ctp:234
 #: View/Layouts/frontend.ctp:197
 msgid "Known Issues"
 msgstr "Znane Problemy"
 
-#: View/Elements/menus/topMenu.ctp:231
+#: View/Elements/menus/topMenu.ctp:234
 msgid "Known issues"
 msgstr "Znane problemy"
 
-#: View/Elements/menus/topMenu.ctp:236
+#: View/Elements/menus/topMenu.ctp:239
 #: View/Layouts/frontend.ctp:200
 msgid "Report Errors"
 msgstr "Zgłoś błąd"
 
-#: View/Elements/menus/topMenu.ctp:244;245
+#: View/Elements/menus/topMenu.ctp:247;248
 msgid "Search Blends"
 msgstr "Szukaj..."
 
-#: View/Elements/menus/topMenu.ctp:245
+#: View/Elements/menus/topMenu.ctp:248
 msgid "Change your search criteria!"
 msgstr "Zmień kryteria wyszukiwania!"
 
@@ -2669,10 +2718,6 @@ msgstr "Typy kont użytkownika"
 msgid "Site"
 msgstr "Strona"
 
-#: View/Layouts/frontend.ctp:134
-msgid "Site News"
-msgstr "Aktualności"
-
 #: View/Layouts/frontend.ctp:143
 msgid "Credits"
 msgstr "Historia serwisu"
@@ -2929,7 +2974,7 @@ msgstr "Strona www"
 
 #: View/Profiles/admin_view.ctp:39
 msgid "Bio"
-msgstr "Biografia"
+msgstr "Bio"
 
 #: View/Profiles/admin_view.ctp:44
 msgid "Twitter"
@@ -3168,16 +3213,15 @@ msgstr "Napraw to"
 
 #: View/Users/edit.ctp:1
 msgid "Account and Settings"
-msgstr "Konto &amp; Ustawienia"
+msgstr "Konto i Ustawienia"
 
 #: View/Users/edit.ctp:8
 msgid "&larr; Don't see your avatar?"
 msgstr "&larr; Nie widzisz swojego awatara?"
 
 #: View/Users/edit.ctp:9
-#, fuzzy
 msgid "Get an account (or link your email below) on %s"
-msgstr "Get an account (or link your email below) on %s"
+msgstr "Stwórz konto (lub połącz swój email) na %s"
 
 #: View/Users/edit.ctp:16
 msgid "Your real name will be publicly visible if you enter it, your email will be kept private"
@@ -3185,7 +3229,7 @@ msgstr "Twoje prawdziwe imię będzie widoczne publicznie, jeśli je wpiszesz, t
 
 #: View/Users/edit.ctp:22
 msgid "Wanna change it?"
-msgstr "Chcesz ją zmienić?"
+msgstr "Chcesz to zmienić?"
 
 #: View/Users/edit.ctp:31
 msgid "Make sure this email is a permanent address so you can get email notifications and reset your password in case it's needed."
@@ -3193,7 +3237,7 @@ msgstr "Upewnij się, że twój email jest stały, dzięki czemu można uzyskać
 
 #: View/Users/edit.ctp:38
 msgid "Notification Settings"
-msgstr "Powiadomienia ustawień"
+msgstr "Powiadomienia email"
 
 #: View/Users/edit.ctp:41
 msgid "Send me email notifications when"
@@ -3223,24 +3267,23 @@ msgstr "Dostanę nową odznakę"
 msgid "More Settings"
 msgstr "Więcej ustawień"
 
-#: View/Users/edit.ctp:68
+#: View/Users/edit.ctp:69
 msgid "Preferred Language"
 msgstr "Preferowany język"
 
-#: View/Users/edit.ctp:79
+#: View/Users/edit.ctp:80
 msgid "Associate Members"
 msgstr "Pro użytkownicy"
 
-#: View/Users/edit.ctp:80
+#: View/Users/edit.ctp:81
 msgid "can set the amount of Blends per index page up to 60"
 msgstr "mogą ustawić ilość Blendów na stronie głównej do 60"
 
-#: View/Users/edit.ctp:91;92;93
-#, fuzzy
+#: View/Users/edit.ctp:92;93;94
 msgid "blends per page"
-msgstr "Blendy na stronę"
+msgstr "blendy na stronę"
 
-#: View/Users/edit.ctp:91
+#: View/Users/edit.ctp:92
 msgid "default"
 msgstr "domyślne"
 
@@ -3258,11 +3301,11 @@ msgstr "punktów"
 
 #: View/Users/index.ctp:34
 msgid "Collections"
-msgstr "Moje kolekcje"
+msgstr "Kolekcje"
 
 #: View/Users/index.ctp:47
 msgid "The top of the ranking! Points awarded on comments and sharing many blends"
-msgstr "Szczyt rankingu! Punkty są przyznawane za komentarze i udostępnianie plików"
+msgstr "Najbardziej oceniani! Punkty są przyznawane za komentarze i udostępnianie plików"
 
 #: View/Users/index.ctp:71
 msgid "These artists have recently swapped blends"
