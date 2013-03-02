@@ -34,7 +34,7 @@ We're covered in __Spanish__, __German__, __Polish__, __French__.
     * Plural forms: nplurals=2; plural=n == 1 ? 0 : 1;
 * Hit *Accept*. Your Catalan catalog is created.
 * Save the file to the folder you created before as default.po (watch out for the extension, POT files are templates, PO files are translations files).
-* Work on your translations and save frequently.
+* Work on your translations and save frequently. __you can use any UTF-8 compliant alphabet, which include [most character sets known to mankind](http://en.wikipedia.org/wiki/List_of_Unicode_Characters) __
 * When you're done do your normal `git add .` , `git commit -m "Commit message"` and `git push` to update your fork of the translation files.
 * When you feel your translation is ready, do a pull request on github to let poifox know it's time to merge your translation with our master fork.
 * Do not use other software than poedit to edit the po files as it is very easy to break them, use PoEdit every time.

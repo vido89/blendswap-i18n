@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-03-01 15:10-0600\n"
+"POT-Creation-Date: 2013-03-01 18:23-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -1583,7 +1583,7 @@ msgid "What did you change?"
 msgstr ""
 
 #: View/Blends/edit.ctp:88
-#: View/Users/edit.ctp:136
+#: View/Users/edit.ctp:137
 msgid "Save Changes"
 msgstr ""
 
@@ -2057,11 +2057,15 @@ msgstr ""
 msgid "Tour"
 msgstr ""
 
+#: View/Elements/menus/topMenu.ctp:6
+msgid "The Blend Swap Features"
+msgstr ""
+
 #: View/Elements/menus/topMenu.ctp:7
 msgid "Faq"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:7;225
+#: View/Elements/menus/topMenu.ctp:7;228
 msgid "Frequently asked questions (and answers)"
 msgstr ""
 
@@ -2070,14 +2074,27 @@ msgstr ""
 msgid "News"
 msgstr ""
 
+#: View/Elements/menus/topMenu.ctp:8
+#: View/Layouts/frontend.ctp:134
+msgid "Site News"
+msgstr ""
+
 #: View/Elements/menus/topMenu.ctp:9
 #: View/Layouts/frontend.ctp:131
 msgid "About"
 msgstr ""
 
+#: View/Elements/menus/topMenu.ctp:9
+msgid "About Blend Swap"
+msgstr ""
+
 #: View/Elements/menus/topMenu.ctp:10
 #: View/Layouts/frontend.ctp:140
 msgid "Contact"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:10
+msgid "Contact us"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:13
@@ -2089,9 +2106,17 @@ msgstr ""
 msgid "About Blender"
 msgstr ""
 
+#: View/Elements/menus/topMenu.ctp:16
+msgid "What is Blender and why you will love it."
+msgstr ""
+
 #: View/Elements/menus/topMenu.ctp:17
 #: View/Layouts/frontend.ctp:184
 msgid "Learn Blender"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:17
+msgid "A listing of awesome Blender tutorials."
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:20
@@ -2099,9 +2124,17 @@ msgstr ""
 msgid "File Licensing"
 msgstr ""
 
+#: View/Elements/menus/topMenu.ctp:20
+msgid "Blend File Licensing"
+msgstr ""
+
 #: View/Elements/menus/topMenu.ctp:21
 #: View/Layouts/frontend.ctp:228
 msgid "Privacy Policy"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:21
+msgid "Our Privacy Policy"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:22
@@ -2109,8 +2142,16 @@ msgstr ""
 msgid "Terms of Use"
 msgstr ""
 
+#: View/Elements/menus/topMenu.ctp:22
+msgid "The Terms of Use"
+msgstr ""
+
 #: View/Elements/menus/topMenu.ctp:25
 msgid "Our RSS Feeds"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:25
+msgid "All our available RSS feeds."
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:31
@@ -2204,6 +2245,10 @@ msgstr ""
 msgid "Upload New Blend"
 msgstr ""
 
+#: View/Elements/menus/topMenu.ctp:128;172
+msgid "Upload a new Blend"
+msgstr ""
+
 #: View/Elements/menus/topMenu.ctp:135
 msgid "Only CC-Zero Blends"
 msgstr ""
@@ -2272,115 +2317,119 @@ msgstr ""
 msgid "Fantasy Character Contest"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:167;188;202
+#: View/Elements/menus/topMenu.ctp:167;191;205
 msgid "RSS Feed"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:172
+msgid "Upload"
+msgstr ""
+
+#: View/Elements/menus/topMenu.ctp:175
 #: View/Requests/admin_index.ctp:2
 msgid "Requests"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:176
+#: View/Elements/menus/topMenu.ctp:179
 msgid "New Request"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:176
+#: View/Elements/menus/topMenu.ctp:179
 msgid "Create a new blend Request"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:181
+#: View/Elements/menus/topMenu.ctp:184
 msgid "Open Requests"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:181
+#: View/Elements/menus/topMenu.ctp:184
 msgid "Requests still open to responses"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:184
+#: View/Elements/menus/topMenu.ctp:187
 msgid "Closed Requests"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:184
+#: View/Elements/menus/topMenu.ctp:187
 msgid "Requests closed to new responses"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:193
+#: View/Elements/menus/topMenu.ctp:196
 #: View/Layouts/frontend.ctp:100
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:197
+#: View/Elements/menus/topMenu.ctp:200
 #: View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
 msgid "New Question"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:197
+#: View/Elements/menus/topMenu.ctp:200
 msgid "Create a new Question"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:207
+#: View/Elements/menus/topMenu.ctp:210
 #: View/Users/admin_index.ctp:2
 msgid "Users"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:210
+#: View/Elements/menus/topMenu.ctp:213
 msgid "Find Artists"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:213
+#: View/Elements/menus/topMenu.ctp:216
 #: View/Layouts/frontend.ctp:120
 #: View/Users/featured.ctp:1
 msgid "Featured Artists"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:217
+#: View/Elements/menus/topMenu.ctp:220
 #: View/Layouts/frontend.ctp:97
 msgid "User Badges"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:222
+#: View/Elements/menus/topMenu.ctp:225
 #: View/Layouts/frontend.ctp:194
 msgid "Help"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:222
+#: View/Elements/menus/topMenu.ctp:225
 msgid "Help and documentation"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:225
+#: View/Elements/menus/topMenu.ctp:228
 msgid "FAQ"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:228
+#: View/Elements/menus/topMenu.ctp:231
 msgid "All Documentation"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:228
+#: View/Elements/menus/topMenu.ctp:231
 msgid "All site documentation"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:231
+#: View/Elements/menus/topMenu.ctp:234
 #: View/Layouts/frontend.ctp:197
 msgid "Known Issues"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:231
+#: View/Elements/menus/topMenu.ctp:234
 msgid "Known issues"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:236
+#: View/Elements/menus/topMenu.ctp:239
 #: View/Layouts/frontend.ctp:200
 msgid "Report Errors"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:244;245
+#: View/Elements/menus/topMenu.ctp:247;248
 msgid "Search Blends"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:245
+#: View/Elements/menus/topMenu.ctp:248
 msgid "Change your search criteria!"
 msgstr ""
 
@@ -2661,10 +2710,6 @@ msgstr ""
 
 #: View/Layouts/frontend.ctp:128
 msgid "Site"
-msgstr ""
-
-#: View/Layouts/frontend.ctp:134
-msgid "Site News"
 msgstr ""
 
 #: View/Layouts/frontend.ctp:143
@@ -3216,23 +3261,23 @@ msgstr ""
 msgid "More Settings"
 msgstr ""
 
-#: View/Users/edit.ctp:68
+#: View/Users/edit.ctp:69
 msgid "Preferred Language"
 msgstr ""
 
-#: View/Users/edit.ctp:79
+#: View/Users/edit.ctp:80
 msgid "Associate Members"
 msgstr ""
 
-#: View/Users/edit.ctp:80
+#: View/Users/edit.ctp:81
 msgid "can set the amount of Blends per index page up to 60"
 msgstr ""
 
-#: View/Users/edit.ctp:91;92;93
+#: View/Users/edit.ctp:92;93;94
 msgid "blends per page"
 msgstr ""
 
-#: View/Users/edit.ctp:91
+#: View/Users/edit.ctp:92
 msgid "default"
 msgstr ""
 
