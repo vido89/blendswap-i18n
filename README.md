@@ -61,5 +61,5 @@ From time to time new strings will be added to the translation files. When this 
 * __DO NOT__ edit other files not pertinent to your language. the pot files in the root, the README and everything else that's not yours you should never EVER touch.
 * We plan to update contributed translations at least once a week. Translating all these string doesn't take that long and it can be all done in a quick afternoon.
 * PROTIP: when translating in PoEdit click on the first string, translate it and hit [ CTRL + DOWN ARROW ] the next string will be selected and you can type right away. This way you won't get tired of alternating between the mouse and the keyboard.
-* The .mo files created by PoEdit are welcome, add them to your repo and leave them there, they contain the translations in binary form.
+* The repository is setup to ignore the .mo files created by PoEdit, because they are binary data and bloat the commits. We compile them on the server so don't worry about them ;)
 * __Do not use other software than poedit to edit the po files as it is very easy to break them, use PoEdit every time.__
