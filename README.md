@@ -14,7 +14,7 @@ We're covered in __Spanish__, __German__, __Polish__, __French__, __Serbian__.
 ### Requirements
 
 * You will need a Github account and a basic knowledge of how to use Git for version control.
-* [Fork](https://help.github.com/articles/fork-a-repo) this project.
+* [Fork](https://help.github.com/articles/fork-a-repo) this project. and __Watch__ it (top buton &uarr;) to get all updates from poifox.
 * Download and install [PoEdit](http://www.poedit.net)
 * Clone the full source files to your computer (you must [setup your ssh keys](https://help.github.com/articles/generating-ssh-keys) on Github for cloning and pushing code).
 
