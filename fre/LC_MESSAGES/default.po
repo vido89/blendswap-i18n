@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-01 18:23-0600\n"
-"PO-Revision-Date: 2013-03-02 12:14+0100\n"
+"PO-Revision-Date: 2013-03-03 18:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: Blend Swap Translators\n"
 "Language: French\n"
@@ -2150,11 +2150,11 @@ msgstr "Télécharger de nouveaux blends"
 
 #: View/Elements/menus/topMenu.ctp:135
 msgid "Only CC-Zero Blends"
-msgstr "Que les blends CC-Zero"
+msgstr "Blends CC-Zero"
 
 #: View/Elements/menus/topMenu.ctp:135
 msgid "Only CC-0"
-msgstr "Que CC-0"
+msgstr "CC-0 uniquement"
 
 #: View/Elements/menus/topMenu.ctp:138
 #, fuzzy
@@ -2163,15 +2163,15 @@ msgstr "Mes blends"
 
 #: View/Elements/menus/topMenu.ctp:138
 msgid "Only CC-BY"
-msgstr "Que CC-BY"
+msgstr "CC-BY uniquement"
 
 #: View/Elements/menus/topMenu.ctp:141
 msgid "Only CC-BY-SA Blends"
-msgstr "Que les blends CC-BY-SA "
+msgstr "Blends CC-BY-SA "
 
 #: View/Elements/menus/topMenu.ctp:141
 msgid "Only CC-BY-SA"
-msgstr "Que CC-BY-SA"
+msgstr "CC-BY-SA uniquement"
 
 #: View/Elements/menus/topMenu.ctp:144
 #, fuzzy
