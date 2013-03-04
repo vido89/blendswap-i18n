@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-01 18:23-0600\n"
-"PO-Revision-Date: 2013-03-03 18:38+0100\n"
+"PO-Revision-Date: 2013-03-03 19:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: Blend Swap Translators\n"
 "Language: French\n"
@@ -17,30 +17,25 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: Controller/AtomsController.php:31;83;109
-#, fuzzy
 msgid "Invalid atom"
-msgstr "Atome invalide"
+msgstr "Flux atom invalide"
 
 #: Controller/AtomsController.php:66;87
-#, fuzzy
 msgid "The atom has been saved"
-msgstr "L'atome a été enregistré"
+msgstr "Le flux atom a été enregistré"
 
 #: Controller/AtomsController.php:68;90
-#, fuzzy
 msgid "The atom could not be saved. Please, try again."
 msgstr ""
-"L'atome ne peux pas être enregistré. S'il vous plaît, essayez à nouveau."
+"Le flux atom ne peux pas être enregistré. S'il vous plaît, essayez à nouveau."
 
 #: Controller/AtomsController.php:112
-#, fuzzy
 msgid "Atom deleted"
-msgstr "Atome supprimé"
+msgstr "Flux atom supprimé"
 
 #: Controller/AtomsController.php:115
-#, fuzzy
 msgid "Atom was not deleted"
-msgstr "Atome non supprimé"
+msgstr "Flux atom non supprimé"
 
 #: Controller/BadgesController.php:35;76;107;133
 msgid "Invalid badge"
@@ -161,24 +156,25 @@ msgstr "Discussion non supprimée"
 
 #: Controller/CollectionsController.php:146;278;335
 msgid "Invalid collection"
-msgstr "Groupement invalide"
+msgstr "collection invalide"
 
 #: Controller/CollectionsController.php:309
 msgid "The Collection was saved"
-msgstr "Le groupement a été enregistré"
+msgstr "La collection a été enregistrée"
 
 #: Controller/CollectionsController.php:311
 msgid "The Collection could not be saved. Please, try again."
 msgstr ""
-"Le groupement n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau."
+"La collection n'a pas pu être enregistrée. S'il vous plaît, essayez à "
+"nouveau."
 
 #: Controller/CollectionsController.php:340
 msgid "Collection deleted"
-msgstr "Groupement supprimé"
+msgstr "Collection supprimée"
 
 #: Controller/CollectionsController.php:342
 msgid "Collection was not deleted"
-msgstr "Groupement non supprimé"
+msgstr "Collection non supprimée"
 
 #: Controller/CommentsController.php:222
 msgid "Your comment did not validate, is it empty? Please try again."
@@ -1327,9 +1323,8 @@ msgid "New Blend"
 msgstr "Nouveau blend"
 
 #: View/Blends/admin_view.ctp:138
-#, fuzzy
 msgid "Related Comments"
-msgstr "Commentaires relatifs"
+msgstr "Commentaires liés"
 
 #: View/Blends/admin_view.ctp:143;240;300
 msgid "Object Id"
@@ -1367,23 +1362,20 @@ msgstr "Points"
 # ?
 #: View/Blends/admin_view.ctp:152 View/Comments/admin_view.ctp:54
 #: View/Feedbacks/admin_view.ctp:54
-#, fuzzy
 msgid "Comment Agent"
-msgstr "Commenter l'agent / Agent de commentaire"
+msgstr "Agent de commentaire"
 
 # en fonction du contexte...
 #: View/Blends/admin_view.ctp:153 View/Comments/admin_view.ctp:59
 #: View/Feedbacks/admin_view.ctp:59
-#, fuzzy
 msgid "Comment Type"
-msgstr "Commenter le type / Type du commentaire"
+msgstr " Type du commentaire"
 
 # ?
 #: View/Blends/admin_view.ctp:154 View/Comments/admin_view.ctp:74
 #: View/Feedbacks/admin_view.ctp:64
-#, fuzzy
 msgid "Comment Subscribe"
-msgstr "Commenter la souscription / sousrcire au commentaire"
+msgstr "Sousrcire au commentaire"
 
 #: View/Blends/admin_view.ctp:157;241;302 View/Feedbacks/admin_view.ctp:79
 msgid "Object Class"
@@ -1391,7 +1383,7 @@ msgstr "Classe de l'objet"
 
 #: View/Blends/admin_view.ctp:197
 msgid "Related Metas"
-msgstr "Métas relatifs"
+msgstr "Métas liés"
 
 #: View/Blends/admin_view.ctp:202;335
 msgid "Blend Id"
@@ -1407,7 +1399,7 @@ msgstr "Valeur du méta"
 
 #: View/Blends/admin_view.ctp:232
 msgid "Related Medias"
-msgstr "Médias relatifs"
+msgstr "Médias liés"
 
 #: View/Blends/admin_view.ctp:244;340
 #, fuzzy
@@ -1446,9 +1438,8 @@ msgid "Zip"
 msgstr "Zip"
 
 #: View/Blends/admin_view.ctp:295
-#, fuzzy
 msgid "Related Termrels"
-msgstr "Termrels relatifs"
+msgstr "Termrels liés"
 
 #: View/Blends/admin_view.ctp:301
 msgid "Term Id"
@@ -1460,7 +1451,7 @@ msgstr "Articles relatifs"
 
 #: View/Blends/admin_view.ctp:336
 msgid "Collection Id"
-msgstr "Id du groupement"
+msgstr "Id de la collection"
 
 #: View/Blends/edit.ctp:5
 msgid "Basic data"
@@ -1520,9 +1511,8 @@ msgstr ""
 "desservir ses blends, nous sommes désolés pour le dérangement."
 
 #: View/Blends/view.ctp:46
-#, fuzzy
 msgid "Zip file MD5 checksum"
-msgstr "Zipper le MD5"
+msgstr "Checksum MD5 de l'archive zip"
 
 # commenter ?
 #: View/Blends/view.ctp:86
@@ -1668,9 +1658,8 @@ msgid "Landscapes"
 msgstr "Paysages"
 
 #: View/Elements/placeholder.ctp:16
-#, fuzzy
 msgid "Looping Patterns"
-msgstr "Textures raccordables"
+msgstr "Motifs répétitifs"
 
 #: View/Elements/placeholder.ctp:17
 msgid "Low Poly"
@@ -1818,7 +1807,7 @@ msgstr "Aimer"
 
 #: View/Elements/bars/blend_actions.ctp:13
 msgid "Add this blend to a collection"
-msgstr "Ajouter ce blend à un groupement"
+msgstr "Ajouter ce blend à une collection"
 
 #: View/Elements/bars/blend_actions.ctp:16
 msgid "Add to"
@@ -1962,9 +1951,8 @@ msgid "Tour"
 msgstr "Visite"
 
 #: View/Elements/menus/topMenu.ctp:6
-#, fuzzy
 msgid "The Blend Swap Features"
-msgstr "Questions de Blend Swap"
+msgstr "Les fonctionnalités de Blend Swap"
 
 #: View/Elements/menus/topMenu.ctp:7
 msgid "Faq"
@@ -1987,18 +1975,16 @@ msgid "About"
 msgstr "A propos"
 
 #: View/Elements/menus/topMenu.ctp:9
-#, fuzzy
 msgid "About Blend Swap"
-msgstr "A propos de Blender"
+msgstr "A propos de Blend Swap"
 
 #: View/Elements/menus/topMenu.ctp:10 View/Layouts/frontend.ctp:140
 msgid "Contact"
 msgstr "Contact"
 
 #: View/Elements/menus/topMenu.ctp:10
-#, fuzzy
 msgid "Contact us"
-msgstr "Contacts"
+msgstr "Nous contacter"
 
 #: View/Elements/menus/topMenu.ctp:13
 msgid "More"
@@ -2069,7 +2055,7 @@ msgstr "Mes blends"
 
 #: View/Elements/menus/topMenu.ctp:37 View/Elements/navs/usernav.ctp:103
 msgid "My Collections"
-msgstr "Mes groupements"
+msgstr "Mes collections"
 
 #: View/Elements/menus/topMenu.ctp:38
 msgid "My Stats"
@@ -2188,11 +2174,11 @@ msgstr "Blends sélectionnés par les admins."
 
 #: View/Elements/menus/topMenu.ctp:153
 msgid "Blend Collections"
-msgstr "Groupements de blends"
+msgstr "Collections de blends"
 
 #: View/Elements/menus/topMenu.ctp:153
 msgid "Publicly visible Blend Collections by our users."
-msgstr "Groupements de blends par nos utilisateurs, visible au public"
+msgstr "Collections de blends par nos utilisateurs, visible au public"
 
 #: View/Elements/menus/topMenu.ctp:157
 msgid "Durian OMP"
@@ -2464,7 +2450,7 @@ msgstr "aime ce blend"
 
 #: View/Helper/DashboardHelper.php:142
 msgid "collected the blend"
-msgstr "a mis le blend dans un groupement"
+msgstr "a mis le blend dans une collection"
 
 #: View/Helper/DashboardHelper.php:146;151
 msgid "published a news update"
@@ -2586,7 +2572,7 @@ msgstr "Voir les demandes de blend"
 
 #: View/Layouts/frontend.ctp:91
 msgid "Browse Blend Collections"
-msgstr "Regarder tous les groupements de blend"
+msgstr "Regarder toutes les collections de blend"
 
 #: View/Layouts/frontend.ctp:94
 msgid "Users Index"
@@ -2611,7 +2597,7 @@ msgstr "Abonnement Premium"
 # adhésion / abonnement ?
 #: View/Layouts/frontend.ctp:117
 msgid "Deadline Membership"
-msgstr "Fin de abonnement au compte Premuim"
+msgstr "Abonnement Deadline"
 
 #: View/Layouts/frontend.ctp:123
 msgid "Bandwidth Assignation"
@@ -3007,7 +2993,7 @@ msgstr "Supprimer une demande"
 
 #: View/Requests/admin_view.ctp:55
 msgid "Related Responses"
-msgstr "Réponses relatives"
+msgstr "Réponses liées"
 
 #: View/Requests/admin_view.ctp:63
 msgid "Request Id"
@@ -3070,11 +3056,11 @@ msgstr "Nouveau Wpusermetas (Wp méta d'utilisateurs)"
 
 #: View/Users/admin_index.ctp:85
 msgid "List Collections"
-msgstr "Liste des groupements"
+msgstr "Liste des collections"
 
 #: View/Users/admin_index.ctp:86
 msgid "New Collection"
-msgstr "Nouveau groupement"
+msgstr "Nouvelle collection"
 
 #: View/Users/admin_view.ctp:232
 msgid "Delete User"
@@ -3145,7 +3131,7 @@ msgstr "Mes blends ont été publiés"
 
 #: View/Users/edit.ctp:45
 msgid "My blends are added to a public collection."
-msgstr "Mes blends ont été ajoutés aux groupements publics"
+msgstr "Mes blends ont été ajoutés aux collections publiques"
 
 #: View/Users/edit.ctp:46
 msgid "My blends are added to Staff Picks"
@@ -3201,9 +3187,8 @@ msgid "points"
 msgstr "points"
 
 #: View/Users/index.ctp:34
-#, fuzzy
 msgid "Collections"
-msgstr "Mes groupements"
+msgstr "Mes collections"
 
 #: View/Users/index.ctp:47
 msgid ""
