@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-03-06 10:02-0600\n"
+"POT-Creation-Date: 2013-03-06 10:13-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Badge was not deleted"
 msgstr ""
 
-#: Controller/BlendsController.php:174;1663;1687;1717
+#: Controller/BlendsController.php:174;1662;1686;1716
 msgid "Invalid blend"
 msgstr ""
 
@@ -82,7 +82,7 @@ msgstr ""
 msgid "The requested blend does not exist."
 msgstr ""
 
-#: Controller/BlendsController.php:604;1691
+#: Controller/BlendsController.php:604;1690
 msgid "The blend has been saved"
 msgstr ""
 
@@ -147,62 +147,62 @@ msgstr ""
 msgid "log in"
 msgstr ""
 
-#: Controller/BlendsController.php:1459;1460
+#: Controller/BlendsController.php:1171;1172
 msgid "Creative Commons Public Domain Mark 1.0"
 msgstr ""
 
-#: Controller/BlendsController.php:1461
+#: Controller/BlendsController.php:1173
 msgid "which has no requirements:"
 msgstr ""
 
-#: Controller/BlendsController.php:1465;1466
+#: Controller/BlendsController.php:1177;1178
 msgid "Creative Commons Attribution 3.0"
 msgstr ""
 
-#: Controller/BlendsController.php:1467;1473;1479
+#: Controller/BlendsController.php:1179;1185;1191
 msgid "which has the following requirements:"
 msgstr ""
 
-#: Controller/BlendsController.php:1471;1472
+#: Controller/BlendsController.php:1183;1184
 msgid "Creative Commons Attribution-ShareAlike 3.0"
 msgstr ""
 
-#: Controller/BlendsController.php:1477;1478
+#: Controller/BlendsController.php:1189;1190
 msgid "Creative Commons Attribution-NonCommercial 3.0"
 msgstr ""
 
-#: Controller/BlendsController.php:1492
+#: Controller/BlendsController.php:1204
 msgid "Blend Swap recommends you give credit to the blend author, but there is no obligation to do so"
 msgstr ""
 
-#: Controller/BlendsController.php:1495
+#: Controller/BlendsController.php:1207
 #: View/Helper/SingleBlendHelper.php:152
 msgid "You must give credit to the author of this blend"
 msgstr ""
 
-#: Controller/BlendsController.php:1498
+#: Controller/BlendsController.php:1210
 #: View/Helper/SingleBlendHelper.php:155
 msgid "You must distribute any derivative works under the same license"
 msgstr ""
 
-#: Controller/BlendsController.php:1501
+#: Controller/BlendsController.php:1213
 #: View/Helper/SingleBlendHelper.php:158
 msgid "You can not use this blend commercially under any circumstance"
 msgstr ""
 
-#: Controller/BlendsController.php:1505
-msgid "What's the deal with all this <em>\"giving credits\"</em> thing?"
+#: Controller/BlendsController.php:1217
+msgid "What's the deal with all this \"giving credits\" thing?"
 msgstr ""
 
-#: Controller/BlendsController.php:1696
+#: Controller/BlendsController.php:1695
 msgid "The blend could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/BlendsController.php:1720
+#: Controller/BlendsController.php:1719
 msgid "Blend deleted"
 msgstr ""
 
-#: Controller/BlendsController.php:1723
+#: Controller/BlendsController.php:1722
 msgid "Blend was not deleted"
 msgstr ""
 
