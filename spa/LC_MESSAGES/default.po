@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-01 18:23-0600\n"
-"PO-Revision-Date: 2013-03-01 18:27-0600\n"
+"POT-Creation-Date: 2013-03-06 10:02-0600\n"
+"PO-Revision-Date: 2013-03-06 10:02-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -57,7 +57,7 @@ msgstr "Medalla eliminada"
 msgid "Badge was not deleted"
 msgstr "La medalla no fue eliminada"
 
-#: Controller/BlendsController.php:174;1648;1672;1702
+#: Controller/BlendsController.php:174;1663;1687;1717
 msgid "Invalid blend"
 msgstr "Blend inválido"
 
@@ -85,7 +85,7 @@ msgstr "Tu blend no pudo ser guardado, por favor revisa más abajo por errores m
 msgid "The requested blend does not exist."
 msgstr "Este blend no existe"
 
-#: Controller/BlendsController.php:604;1676
+#: Controller/BlendsController.php:604;1691
 msgid "The blend has been saved"
 msgstr "El blend ha sido guardado"
 
@@ -93,15 +93,119 @@ msgstr "El blend ha sido guardado"
 msgid "ERRORS! Please check any red messages below and try again."
 msgstr "¡Error! Por favor revisa más abajo por errores marcados en rojo."
 
-#: Controller/BlendsController.php:1681
+#: Controller/BlendsController.php:1085
+msgid "The blend you requested does not exist"
+msgstr "Este blend no existe"
+
+#: Controller/BlendsController.php:1118
+msgid "Downloading"
+msgstr "Descargando"
+
+#: Controller/BlendsController.php:1120
+msgid "This blend is licensed"
+msgstr "El blend está bajo licencia"
+
+#: Controller/BlendsController.php:1122
+msgid "Do you agree with this license"
+msgstr "¿Estás de acuerdo con esta licencia"
+
+#: Controller/BlendsController.php:1123
+msgid "and the limitations imposed by the Fan Art marking"
+msgstr "y las limitaciones que impone la marca de Arte Fan"
+
+#: Controller/BlendsController.php:1128
+msgid "I accept the license. Start file download, please"
+msgstr "Acepto la licencia. Iniciar la descarga ya."
+
+#: Controller/BlendsController.php:1128
+msgid "Yes. Download now!"
+msgstr "Sí. Dercargar ya!"
+
+#: Controller/BlendsController.php:1129
+msgid "Cancel download"
+msgstr "Cancelar descarga"
+
+#: Controller/BlendsController.php:1129
+#: View/Blends/edit.ctp:91
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: Controller/BlendsController.php:1139
+msgid "You downloaded this blend less than 24 hours ago, if your first attempt failed you still have %d hours and %d minutes to retry without losing extra bandwidth"
+msgstr "Descargaste este archivo hace menos de 24 horas, si tu primer intento falló aún tienes %d horas y $d minutos para reintentar sin perder ancho de banda"
+
+#: Controller/BlendsController.php:1143
+msgid "If your download fails you have 24 hours to try again with no extra bandwidth subtracted from your monthly allocation!"
+msgstr "Si tu descarga falla tendrás 24 horas para reintentar sin que pierdas ancho de banda extra por re-intentar"
+
+#: Controller/BlendsController.php:1150
+msgid "Looks like you are logged out, maybe your session expired"
+msgstr "Parece que estás fuera del sitio, tal vez tu sesión expiró"
+
+#: Controller/BlendsController.php:1151
+msgid "Please %s and try again."
+msgstr "Por favor %s e intenta de nuevo"
+
+#: Controller/BlendsController.php:1151
+msgid "log in"
+msgstr "acceder"
+
+#: Controller/BlendsController.php:1459;1460
+msgid "Creative Commons Public Domain Mark 1.0"
+msgstr "Creative Commons Dominio Público 1.0"
+
+#: Controller/BlendsController.php:1461
+msgid "which has no requirements:"
+msgstr "la cual no tiene requerimientos:"
+
+#: Controller/BlendsController.php:1465;1466
+msgid "Creative Commons Attribution 3.0"
+msgstr "Creative Commons Reconocimiento 3.0"
+
+#: Controller/BlendsController.php:1467;1473;1479
+msgid "which has the following requirements:"
+msgstr "la cual tiene los siguientes requerimientos:"
+
+#: Controller/BlendsController.php:1471;1472
+msgid "Creative Commons Attribution-ShareAlike 3.0"
+msgstr "Creative Commons Reconocimiento-CompartirIgual 3.0"
+
+#: Controller/BlendsController.php:1477;1478
+msgid "Creative Commons Attribution-NonCommercial 3.0"
+msgstr "Creative Commons Reconocimiento-NoComercial 3.0"
+
+#: Controller/BlendsController.php:1492
+msgid "Blend Swap recommends you give credit to the blend author, but there is no obligation to do so"
+msgstr "Te recomendamos que le des crédito al autor de este blend, pero no estás obligado a hacerlo"
+
+#: Controller/BlendsController.php:1495
+#: View/Helper/SingleBlendHelper.php:152
+msgid "You must give credit to the author of this blend"
+msgstr "Debes dar crédito al autor de este blend."
+
+#: Controller/BlendsController.php:1498
+#: View/Helper/SingleBlendHelper.php:155
+msgid "You must distribute any derivative works under the same license"
+msgstr "Debes distribuir cualquier derivado de este blend bajo la misma licencia."
+
+#: Controller/BlendsController.php:1501
+#: View/Helper/SingleBlendHelper.php:158
+msgid "You can not use this blend commercially under any circumstance"
+msgstr "No puedes usar este blend comercialmente bajo ninguna circunstancia"
+
+#: Controller/BlendsController.php:1505
+msgid "What's the deal with all this <em>\"giving credits\"</em> thing?"
+msgstr "De qué se trata esto de <em>\"dar crédito\"<em>?"
+
+#: Controller/BlendsController.php:1696
 msgid "The blend could not be saved. Please, try again."
 msgstr "El blend no pudo guardarse. Por favor intenta de nuevo."
 
-#: Controller/BlendsController.php:1705
+#: Controller/BlendsController.php:1720
 msgid "Blend deleted"
 msgstr "Blend eliminado"
 
-#: Controller/BlendsController.php:1708
+#: Controller/BlendsController.php:1723
 msgid "Blend was not deleted"
 msgstr "El blend no fue eliminado"
 
@@ -934,7 +1038,7 @@ msgstr "Editar"
 #: View/Requests/admin_index.ctp:44
 #: View/Requests/index.ctp:48
 #: View/Users/admin_index.ctp:65
-#: View/Users/featured.ctp:41
+#: View/Users/featured.ctp:49
 msgid "Page {:page} of {:pages}, showing {:current} out of {:count} total."
 msgstr "Página {:page} de {:pages}, mostrando {:current} de {:count} en total."
 
@@ -967,7 +1071,7 @@ msgstr "Página {:page} de {:pages}, mostrando {:current} de {:count} en total."
 #: View/Requests/admin_index.ctp:50
 #: View/Requests/index.ctp:52
 #: View/Users/admin_index.ctp:71
-#: View/Users/featured.ctp:48
+#: View/Users/featured.ctp:56
 #: View/Users/search.ctp:100
 #: View/Users/stats.ctp:43
 msgid "previous"
@@ -1002,7 +1106,7 @@ msgstr "anterior"
 #: View/Requests/admin_index.ctp:52
 #: View/Requests/index.ctp:54
 #: View/Users/admin_index.ctp:73
-#: View/Users/featured.ctp:50
+#: View/Users/featured.ctp:58
 #: View/Users/search.ctp:102
 #: View/Users/stats.ctp:45
 msgid "next"
@@ -1086,6 +1190,7 @@ msgstr "Encargo"
 #: View/Keys/view.ctp:24
 #: View/Messages/view.ctp:24
 #: View/Requests/admin_view.ctp:34;64
+#: View/Users/bandwidth.ctp:74
 msgid "Status"
 msgstr "Estado"
 
@@ -1097,75 +1202,88 @@ msgstr "Editar Respuesta"
 msgid "Delete Response"
 msgstr "Eliminar Respuesta"
 
-#: View/Blends/add.ctp:37
+#: View/Blends/add.ctp:1
+#: View/Elements/menus/topMenu.ctp:139
+msgid "Upload New Blend"
+msgstr "Subir Nuevo Blend"
+
+#: View/Blends/add.ctp:38
 #: View/Users/edit.ctp:14
 msgid "Basic Data"
 msgstr "Datos Básicos"
 
-#: View/Blends/add.ctp:42
+#: View/Blends/add.ctp:43
 #: View/Blends/edit.ctp:9
 msgid "Blend Name"
 msgstr "Nombre del Blend"
 
-#: View/Blends/add.ctp:43
+#: View/Blends/add.ctp:44
 #: View/Blends/edit.ctp:10
 #: View/Options/admin_view.ctp:19
 msgid "Description"
 msgstr "Descripción"
 
-#: View/Blends/add.ctp:43
+#: View/Blends/add.ctp:44
 #: View/Blends/edit.ctp:10
 msgid "%d characters long min."
 msgstr "%d caracteres de largo"
 
-#: View/Blends/add.ctp:44
+#: View/Blends/add.ctp:45
 #: View/Blends/edit.ctp:11
 msgid "3D Preview URL"
 msgstr "URL del Preview en 3D"
 
-#: View/Blends/add.ctp:44
+#: View/Blends/add.ctp:45
 #: View/Blends/edit.ctp:11
 msgid "Optional"
 msgstr "Opcional"
 
-#: View/Blends/add.ctp:44
+#: View/Blends/add.ctp:45
 #: View/Blends/edit.ctp:11
 msgid "Supports any %s or %s"
 msgstr "Puedes usar %s o %s"
 
-#: View/Blends/add.ctp:45
+#: View/Blends/add.ctp:46
 #: View/Elements/navs/taxonomies.ctp:28
 #: View/Questions/index.ctp:33
 #: View/Questions/view.ctp:17
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: View/Blends/add.ctp:45
+#: View/Blends/add.ctp:46
 msgid "Separated by commas"
 msgstr "Separadas por comas"
 
-#: View/Blends/add.ctp:49
+#: View/Blends/add.ctp:50
 #: View/Blends/admin_view.ctp:49
 #: View/Blends/edit.ctp:16
 msgid "Blender Version"
 msgstr "Versión de Blender"
 
-#: View/Blends/add.ctp:50
+#: View/Blends/add.ctp:51
 msgid "Choose the blender version this blend was created with"
 msgstr "Escoge la versión de Blender con la que el blend fue hecho"
 
-#: View/Blends/add.ctp:69
+#: View/Blends/add.ctp:70
 #: View/Blends/edit.ctp:38
 msgid "Fan Art"
 msgstr "Arte Fan"
 
-#: View/Blends/add.ctp:69
+#: View/Blends/add.ctp:70
 msgid "Check yes if your blend features company logos, TV or movie characters"
 msgstr "Escoge sí si tu blend presenta logos de compañías o personajes de TV o películas."
 
-#: View/Blends/add.ctp:76;120
-msgid "Learn more about"
-msgstr "Aprende más sobre"
+#: View/Blends/add.ctp:71
+msgid "No"
+msgstr "No"
+
+#: View/Blends/add.ctp:71
+msgid "Yes"
+msgstr "Sí"
+
+#: View/Blends/add.ctp:77
+msgid "Learn more about %s licenses and how they affect you"
+msgstr "Aprende más sobre las licencias %s y cómo te afectan"
 
 #: View/Blends/add.ctp:83
 msgid "I waive all my copyright of this blend and place it in the Public Domain"
@@ -1181,7 +1299,7 @@ msgstr "Igual que CC-BY, pero adicionalmente los trabajos derivados deben lanzar
 
 #: View/Blends/add.ctp:91
 #: View/Blends/edit.ctp:47
-#: View/Elements/menus/topMenu.ctp:147
+#: View/Elements/menus/topMenu.ctp:158
 #: View/Elements/navs/taxonomies.ctp:5
 msgid "Categories"
 msgstr "Categorías"
@@ -1203,6 +1321,10 @@ msgstr "Fichero Blend"
 msgid "or"
 msgstr "o"
 
+#: View/Blends/add.ctp:120
+msgid "Learn more about"
+msgstr "Aprende más sobre"
+
 #: View/Blends/add.ctp:122
 msgid "File Management"
 msgstr "Administración de Ficheros"
@@ -1220,10 +1342,10 @@ msgid "Image"
 msgstr "Imagen"
 
 #: View/Blends/add.ctp:142
-msgid "Recommended: LANDSCAPE or SQUARE, PNG, 1024px wide"
-msgstr "Recomendado: APAISADO o CUADRADO, PNG, 1024 píxeles de ancho."
+msgid "Recommended: SQUARE, PNG, 1024px wide, object centered"
+msgstr "Recomendado: CUADRADO, PNG, 1024 píxeles de ancho, objeto centrado."
 
-#: View/Blends/add.ctp:157
+#: View/Blends/add.ctp:156
 msgid "Save New Blend"
 msgstr "Guardar Nuevo Blend"
 
@@ -1310,7 +1432,7 @@ msgid "Delete Blend and associated data"
 msgstr "Eliminar Blend y datos asociados"
 
 #: View/Blends/admin_index.ctp:3
-#: View/Elements/menus/topMenu.ctp:124
+#: View/Elements/menus/topMenu.ctp:135
 #: View/Elements/navs/usernav.ctp:17
 #: View/Users/index.ctp:22
 msgid "Blends"
@@ -1321,7 +1443,7 @@ msgstr "Blends"
 #: View/Blends/search.ctp:108
 #: View/Collections/index.ctp:74
 #: View/Collections/view.ctp:35
-#: View/Users/featured.ctp:47
+#: View/Users/featured.ctp:55
 #: View/Users/search.ctp:99
 msgid "First Page"
 msgstr "Primera Página"
@@ -1331,7 +1453,7 @@ msgstr "Primera Página"
 #: View/Blends/search.ctp:112
 #: View/Collections/index.ctp:78
 #: View/Collections/view.ctp:39
-#: View/Users/featured.ctp:51
+#: View/Users/featured.ctp:59
 #: View/Users/search.ctp:103
 msgid "Last Page"
 msgstr "Última Página"
@@ -1590,10 +1712,6 @@ msgstr "¿Qué cambiaste?"
 msgid "Save Changes"
 msgstr "Guardar Cambios"
 
-#: View/Blends/edit.ctp:91
-msgid "Cancel"
-msgstr "Cancelar"
-
 #: View/Blends/index.ctp:6
 msgid "Edit Date"
 msgstr "Fecha de Edición"
@@ -1674,7 +1792,6 @@ msgid "Comments"
 msgstr "Comentarios"
 
 #: View/Comments/admin_view.ctp:2
-#: View/Elements/bars/blend_actions.ctp:53
 #: View/Feedbacks/admin_view.ctp:2
 msgid "Comment"
 msgstr "Comentario"
@@ -1840,7 +1957,7 @@ msgid "Simulations"
 msgstr "Simulaciones"
 
 #: View/Elements/placeholder.ctp:32
-#: View/Elements/menus/topMenu.ctp:150
+#: View/Elements/menus/topMenu.ctp:161
 msgid "Staff Picks"
 msgstr "Selecciones del Staff"
 
@@ -1957,13 +2074,13 @@ msgstr "Dejar de seguir comentarios acá"
 msgid "Unfollow"
 msgstr "No seguir"
 
-#: View/Elements/bars/blend_actions.ctp:56
+#: View/Elements/bars/blend_actions.ctp:53
 #: View/Reports/admin_view.ctp:2
 #: View/Reports/view.ctp:2
 msgid "Report"
 msgstr "Reporte"
 
-#: View/Elements/bars/blend_actions.ctp:58
+#: View/Elements/bars/blend_actions.ctp:55
 msgid "Report an infraction on this blend."
 msgstr "Reporta un problema con este blend."
 
@@ -1991,10 +2108,6 @@ msgstr "Administrar Ficheros"
 #: View/Elements/bars/owner_bar.ctp:38
 msgid "Manage the blend file and preview images for this blend."
 msgstr "Administrar los ficheros de este blend."
-
-#: View/Elements/bars/owner_bar.ctp:45
-msgid "Repack Files"
-msgstr "Re-empacar ficheros"
 
 #: View/Elements/bars/request_actions.ctp:7
 msgid "Remove from your work in progress list"
@@ -2068,7 +2181,7 @@ msgstr "Nuestros servicios y características"
 msgid "Faq"
 msgstr "Faq"
 
-#: View/Elements/menus/topMenu.ctp:7;228
+#: View/Elements/menus/topMenu.ctp:7;239
 msgid "Frequently asked questions (and answers)"
 msgstr "Preguntas frequentes sobre Blend Swap y sus respuestas."
 
@@ -2180,259 +2293,266 @@ msgstr "Mis colecciones"
 msgid "My Stats"
 msgstr "Mis Estadísticas"
 
-#: View/Elements/menus/topMenu.ctp:47;50
-msgid "How bandwidth works"
-msgstr "Cómo se asigna el ancho de banda"
+#: View/Elements/menus/topMenu.ctp:47;61
+#: View/Elements/navs/usernav.ctp:162
+#: View/Users/bandwidth.ctp:1
+#: View/Users/view.ctp:94
+msgid "Bandwidth History"
+msgstr "Historial de Ancho de banda"
 
-#: View/Elements/menus/topMenu.ctp:50
-msgid "You have Unlimited Bandwidth"
-msgstr "Tienes Descargas Ilimitadas"
+#: View/Elements/menus/topMenu.ctp:56
+msgid "Your Associate Membership has"
+msgstr "Tu Membresía de Asociado tiene"
 
-#: View/Elements/menus/topMenu.ctp:54
+#: View/Elements/menus/topMenu.ctp:59
+msgid "Your Deadline Membership has"
+msgstr "Tu Membresía \"Fecha Límite\" tiene"
+
+#: View/Elements/menus/topMenu.ctp:61
+msgid "Unlimited Bandwidth"
+msgstr "Descargas Ilimitadas"
+
+#: View/Elements/menus/topMenu.ctp:65
 msgid "Your Associate membership is set to auto-renew."
 msgstr "Tu Membresía está ajustada para auto-renovarse."
 
-#: View/Elements/menus/topMenu.ctp:57;60
+#: View/Elements/menus/topMenu.ctp:68;71
 msgid "Until"
 msgstr "Hasta"
 
-#: View/Elements/menus/topMenu.ctp:71
+#: View/Elements/menus/topMenu.ctp:82
 msgid "Bandwidth information for this month"
 msgstr "Ancho de banda para este mes"
 
-#: View/Elements/menus/topMenu.ctp:76
+#: View/Elements/menus/topMenu.ctp:87
 msgid "Bandwidth for"
 msgstr "Ancho de banda para"
 
-#: View/Elements/menus/topMenu.ctp:82
+#: View/Elements/menus/topMenu.ctp:93
 msgid "Allowed"
 msgstr "Permitido"
 
-#: View/Elements/menus/topMenu.ctp:86
+#: View/Elements/menus/topMenu.ctp:97
 #: View/Limits/admin_view.ctp:29
-#: View/Users/bandwidth.ctp:20
+#: View/Users/bandwidth.ctp:32
 msgid "Remaining"
 msgstr "Restante"
 
-#: View/Elements/menus/topMenu.ctp:90
+#: View/Elements/menus/topMenu.ctp:101
 #: View/Limits/admin_view.ctp:34
-#: View/Users/bandwidth.ctp:24
+#: View/Users/bandwidth.ctp:28
 msgid "Spent"
 msgstr "Usado"
 
-#: View/Elements/menus/topMenu.ctp:97
+#: View/Elements/menus/topMenu.ctp:108
 msgid "Get more bandwidth!"
 msgstr "¡Consigue más ancho de banda!"
 
-#: View/Elements/menus/topMenu.ctp:108
+#: View/Elements/menus/topMenu.ctp:119
 msgid "Log out"
 msgstr "Salir"
 
-#: View/Elements/menus/topMenu.ctp:110
+#: View/Elements/menus/topMenu.ctp:121
 msgid "Register your account now!"
 msgstr "¡Regístra tu cuenta ahora!"
 
-#: View/Elements/menus/topMenu.ctp:111
+#: View/Elements/menus/topMenu.ctp:122
 msgid "Log in to swap some blends!"
 msgstr "¡Ingresa para compartir blends!"
 
-#: View/Elements/menus/topMenu.ctp:121
+#: View/Elements/menus/topMenu.ctp:132
 msgid "Start"
 msgstr "Inicio"
 
-#: View/Elements/menus/topMenu.ctp:124
+#: View/Elements/menus/topMenu.ctp:135
 msgid "All blends"
 msgstr "Todos los Blends"
 
-#: View/Elements/menus/topMenu.ctp:128
-msgid "Upload New Blend"
-msgstr "Subir Nuevo Blend"
-
-#: View/Elements/menus/topMenu.ctp:128;172
+#: View/Elements/menus/topMenu.ctp:139;183
 msgid "Upload a new Blend"
 msgstr "Subir Nuevo Blend"
 
-#: View/Elements/menus/topMenu.ctp:135
+#: View/Elements/menus/topMenu.ctp:146
 msgid "Only CC-Zero Blends"
 msgstr "Sólo Blends CC-Zero"
 
-#: View/Elements/menus/topMenu.ctp:135
+#: View/Elements/menus/topMenu.ctp:146
 msgid "Only CC-0"
 msgstr "Sólo Blends CC-0"
 
-#: View/Elements/menus/topMenu.ctp:138
+#: View/Elements/menus/topMenu.ctp:149
 msgid "Only CC-BY Blends"
 msgstr "Sólo Blends CC-BY"
 
-#: View/Elements/menus/topMenu.ctp:138
+#: View/Elements/menus/topMenu.ctp:149
 msgid "Only CC-BY"
 msgstr "Sólo Blends CC-BY"
 
-#: View/Elements/menus/topMenu.ctp:141
+#: View/Elements/menus/topMenu.ctp:152
 msgid "Only CC-BY-SA Blends"
 msgstr "Sólo Blends Bajo CC-BY-SA"
 
-#: View/Elements/menus/topMenu.ctp:141
+#: View/Elements/menus/topMenu.ctp:152
 msgid "Only CC-BY-SA"
 msgstr "Sólo Blends CC-BY-SA"
 
-#: View/Elements/menus/topMenu.ctp:144
+#: View/Elements/menus/topMenu.ctp:155
 msgid "Filter Blends"
 msgstr "Filtrar Blends"
 
-#: View/Elements/menus/topMenu.ctp:147
+#: View/Elements/menus/topMenu.ctp:158
 msgid "All blend categories."
 msgstr "Todas las categrías de Blends"
 
-#: View/Elements/menus/topMenu.ctp:150
+#: View/Elements/menus/topMenu.ctp:161
 msgid "Blends selected by the admins."
 msgstr "Blends seleccionados por los admins."
 
-#: View/Elements/menus/topMenu.ctp:153
+#: View/Elements/menus/topMenu.ctp:164
 msgid "Blend Collections"
 msgstr "Colecciones"
 
-#: View/Elements/menus/topMenu.ctp:153
+#: View/Elements/menus/topMenu.ctp:164
 msgid "Publicly visible Blend Collections by our users."
 msgstr "Colecciones de Blends públicas por la comunidad."
 
-#: View/Elements/menus/topMenu.ctp:157
+#: View/Elements/menus/topMenu.ctp:168
 msgid "Durian OMP"
 msgstr "Proyecto Durian (Sintel)"
 
-#: View/Elements/menus/topMenu.ctp:157
+#: View/Elements/menus/topMenu.ctp:168
 msgid "Durian Open Movie Project."
 msgstr "Projecto de Cine Abierto Durian."
 
-#: View/Elements/menus/topMenu.ctp:160
+#: View/Elements/menus/topMenu.ctp:171
 msgid "HJM Contest"
 msgstr "Concurso: Armas Militares HJM"
 
-#: View/Elements/menus/topMenu.ctp:160
+#: View/Elements/menus/topMenu.ctp:171
 msgid "HJ Media Military Contest"
 msgstr "Concurso: Armas Militares HJ Media Studio"
 
-#: View/Elements/menus/topMenu.ctp:163
+#: View/Elements/menus/topMenu.ctp:174
 msgid "Fantasy Contest"
 msgstr "Concurso: Personajes de Fantasía"
 
-#: View/Elements/menus/topMenu.ctp:163
+#: View/Elements/menus/topMenu.ctp:174
 msgid "Fantasy Character Contest"
 msgstr "Concurso: Personajes de Fantasía"
 
-#: View/Elements/menus/topMenu.ctp:167;191;205
+#: View/Elements/menus/topMenu.ctp:178;202;216
 msgid "RSS Feed"
 msgstr "Fuente RSS"
 
-#: View/Elements/menus/topMenu.ctp:172
+#: View/Elements/menus/topMenu.ctp:183
 msgid "Upload"
 msgstr "Cargar"
 
-#: View/Elements/menus/topMenu.ctp:175
+#: View/Elements/menus/topMenu.ctp:186
 #: View/Requests/admin_index.ctp:2
 msgid "Requests"
 msgstr "Encargos"
 
-#: View/Elements/menus/topMenu.ctp:179
+#: View/Elements/menus/topMenu.ctp:190
 msgid "New Request"
 msgstr "Crear Nuevo Encargo"
 
-#: View/Elements/menus/topMenu.ctp:179
+#: View/Elements/menus/topMenu.ctp:190
 msgid "Create a new blend Request"
 msgstr "Crear un nuevo Encargo"
 
-#: View/Elements/menus/topMenu.ctp:184
+#: View/Elements/menus/topMenu.ctp:195
 msgid "Open Requests"
 msgstr "Encargos Abiertos"
 
-#: View/Elements/menus/topMenu.ctp:184
+#: View/Elements/menus/topMenu.ctp:195
 msgid "Requests still open to responses"
 msgstr "Encargos abiertos a nuevas respuestas"
 
-#: View/Elements/menus/topMenu.ctp:187
+#: View/Elements/menus/topMenu.ctp:198
 msgid "Closed Requests"
 msgstr "Encargos Cerrados"
 
-#: View/Elements/menus/topMenu.ctp:187
+#: View/Elements/menus/topMenu.ctp:198
 msgid "Requests closed to new responses"
 msgstr "Encargos cerrados a nuevas respuestas"
 
-#: View/Elements/menus/topMenu.ctp:196
+#: View/Elements/menus/topMenu.ctp:207
 #: View/Layouts/frontend.ctp:100
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
 msgstr "Preguntas"
 
-#: View/Elements/menus/topMenu.ctp:200
+#: View/Elements/menus/topMenu.ctp:211
 #: View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
 msgid "New Question"
 msgstr "Crear Nueva Pregunta"
 
-#: View/Elements/menus/topMenu.ctp:200
+#: View/Elements/menus/topMenu.ctp:211
 msgid "Create a new Question"
 msgstr "¡Crear una nueva Pregunta!"
 
-#: View/Elements/menus/topMenu.ctp:210
+#: View/Elements/menus/topMenu.ctp:221
 #: View/Users/admin_index.ctp:2
 msgid "Users"
 msgstr "Usuarios"
 
-#: View/Elements/menus/topMenu.ctp:213
+#: View/Elements/menus/topMenu.ctp:224
 msgid "Find Artists"
 msgstr "Encontrar Artistas"
 
-#: View/Elements/menus/topMenu.ctp:216
+#: View/Elements/menus/topMenu.ctp:227
 #: View/Layouts/frontend.ctp:120
 #: View/Users/featured.ctp:1
 msgid "Featured Artists"
 msgstr "Artistas Destacados"
 
-#: View/Elements/menus/topMenu.ctp:220
+#: View/Elements/menus/topMenu.ctp:231
 #: View/Layouts/frontend.ctp:97
 msgid "User Badges"
 msgstr "Medallas"
 
-#: View/Elements/menus/topMenu.ctp:225
+#: View/Elements/menus/topMenu.ctp:236
 #: View/Layouts/frontend.ctp:194
 msgid "Help"
 msgstr "Ayuda"
 
-#: View/Elements/menus/topMenu.ctp:225
+#: View/Elements/menus/topMenu.ctp:236
 msgid "Help and documentation"
 msgstr "Ayuda y documentación"
 
-#: View/Elements/menus/topMenu.ctp:228
+#: View/Elements/menus/topMenu.ctp:239
 msgid "FAQ"
 msgstr "FAQ"
 
-#: View/Elements/menus/topMenu.ctp:231
+#: View/Elements/menus/topMenu.ctp:242
 msgid "All Documentation"
 msgstr "Toda la documentación"
 
-#: View/Elements/menus/topMenu.ctp:231
+#: View/Elements/menus/topMenu.ctp:242
 msgid "All site documentation"
 msgstr "Toda la documentación del sitio"
 
-#: View/Elements/menus/topMenu.ctp:234
+#: View/Elements/menus/topMenu.ctp:245
 #: View/Layouts/frontend.ctp:197
 msgid "Known Issues"
 msgstr "Problemas Conocidos"
 
-#: View/Elements/menus/topMenu.ctp:234
+#: View/Elements/menus/topMenu.ctp:245
 msgid "Known issues"
 msgstr "Problemas Conocidos"
 
-#: View/Elements/menus/topMenu.ctp:239
+#: View/Elements/menus/topMenu.ctp:250
 #: View/Layouts/frontend.ctp:200
 msgid "Report Errors"
 msgstr "Reportar Errores"
 
-#: View/Elements/menus/topMenu.ctp:247;248
+#: View/Elements/menus/topMenu.ctp:258;259
 msgid "Search Blends"
 msgstr "Buscar Blends"
 
-#: View/Elements/menus/topMenu.ctp:248
+#: View/Elements/menus/topMenu.ctp:259
 msgid "Change your search criteria!"
 msgstr "¡Cambia to criterio de búsqueda!"
 
@@ -2503,12 +2623,6 @@ msgstr "Administrar Membresía"
 #: View/Elements/navs/usernav.ctp:155
 msgid "Change Password"
 msgstr "Cambiar Contraseña"
-
-#: View/Elements/navs/usernav.ctp:162
-#: View/Users/bandwidth.ctp:1
-#: View/Users/view.ctp:94
-msgid "Bandwidth History"
-msgstr "Historial de Ancho de banda"
 
 #: View/Elements/navs/usernav.ctp:177
 msgid "Upgrade"
@@ -2602,18 +2716,6 @@ msgstr "Ocurrió un error al leer al licencia de este blend."
 msgid "It is recommended that you give credit for this blend but there's no obligation to do so"
 msgstr "Te recomendamos que dle des crédito al autor de este blend, pero no estás obligado a hacerlo"
 
-#: View/Helper/SingleBlendHelper.php:152
-msgid "You must give credit to the author of this blend"
-msgstr "Debes dar crédito al autor de este blend."
-
-#: View/Helper/SingleBlendHelper.php:155
-msgid "You must distribute any derivative works under the same license"
-msgstr "Debes distribuir cualquier derivado de este blend bajo la misma licencia."
-
-#: View/Helper/SingleBlendHelper.php:158
-msgid "You can not use this blend commercially under any circumstance"
-msgstr "No puedes usar este blend comercialmente bajo ninguna circunstancia"
-
 #: View/Helper/SingleBlendHelper.php:175
 msgid "This blend was taken down on "
 msgstr "El blend ha sido removido del índice"
@@ -2660,6 +2762,7 @@ msgid "Route"
 msgstr "Ruta"
 
 #: View/Keys/view.ctp:29
+#: View/Users/bandwidth.ctp:40
 msgid "Expires"
 msgstr "Expira"
 
@@ -3196,17 +3299,45 @@ msgstr "Eliminar usuario"
 msgid "Sign Me Up"
 msgstr "Regístrame."
 
-#: View/Users/bandwidth.ctp:16
+#: View/Users/bandwidth.ctp:6
+msgid "Your bandwidth history by month"
+msgstr "Historial de Ancho de banda por mes"
+
+#: View/Users/bandwidth.ctp:8
+msgid "You have unlimited bandwidth! you can totally ignore this"
+msgstr "Tienes Descargas Ilimitadas! Puedes ignorar esto por completo"
+
+#: View/Users/bandwidth.ctp:12
+msgid "Learn how bandwidth is assigned"
+msgstr "Aprende cómo se asigna el ancho de banda"
+
+#: View/Users/bandwidth.ctp:36
 msgid "Initialized"
 msgstr "Inicializado"
 
-#: View/Users/bandwidth.ctp:28
+#: View/Users/bandwidth.ctp:47
 msgid "Is this wrong?"
 msgstr "¿Valores erróneos?"
 
-#: View/Users/bandwidth.ctp:30
+#: View/Users/bandwidth.ctp:49
 msgid "Fix it"
 msgstr "Arreglar"
+
+#: View/Users/bandwidth.ctp:60
+msgid "Download History for current month"
+msgstr "Historial de ancho de banda para este mes"
+
+#: View/Users/bandwidth.ctp:69
+msgid "COUNTED"
+msgstr "CUENTA"
+
+#: View/Users/bandwidth.ctp:69
+msgid "Not counted"
+msgstr "no cuenta"
+
+#: View/Users/bandwidth.ctp:73
+msgid "Bandwidth"
+msgstr "Ancho de banda"
 
 #: View/Users/edit.ctp:1
 msgid "Account and Settings"
@@ -3355,6 +3486,12 @@ msgstr "Este Usuario aun no ha ganado ningina Medalla"
 #: View/Users/view.ctp:174
 msgid "You should set up your skills from the profile edit panel"
 msgstr "Deberías seleccionar tus habilidades en el panel de edición de perfil"
+
+#~ msgid "Repack Files"
+#~ msgstr "Re-empacar ficheros"
+
+#~ msgid "How bandwidth works"
+#~ msgstr "Cómo se asigna el ancho de banda"
 
 #~ msgid "Karma"
 #~ msgstr "Karma"
