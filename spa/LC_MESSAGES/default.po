@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-06 14:56-0600\n"
-"PO-Revision-Date: 2013-03-06 14:59-0600\n"
+"POT-Creation-Date: 2013-03-06 15:07-0600\n"
+"PO-Revision-Date: 2013-03-06 15:08-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -668,6 +668,10 @@ msgstr "Ya estabas siguiendo a %s"
 #: Controller/SubsController.php:208
 msgid "Hey! it doesn't seem you're following %s"
 msgstr "Parece que no estás siguiendo a %s"
+
+#: Controller/SubsController.php:214
+msgid "You are no longer following %s"
+msgstr "Ya no sigues más a %s"
 
 #: Controller/SubsController.php:219
 msgid "There was a problem processing your request, try again and report if the rror repeats."
