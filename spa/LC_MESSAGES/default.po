@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-06 10:13-0600\n"
-"PO-Revision-Date: 2013-03-06 10:14-0600\n"
+"POT-Creation-Date: 2013-03-06 14:56-0600\n"
+"PO-Revision-Date: 2013-03-06 14:59-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -489,15 +489,15 @@ msgstr "Página eliminada"
 msgid "Page was not deleted"
 msgstr "La Página no fue eliminada."
 
-#: Controller/PaymentsController.php:59;325
+#: Controller/PaymentsController.php:59;332
 msgid "Invalid payment"
 msgstr "Pago inválido"
 
-#: Controller/PaymentsController.php:328
+#: Controller/PaymentsController.php:335
 msgid "Payment deleted"
 msgstr "Pago eliminado"
 
-#: Controller/PaymentsController.php:331
+#: Controller/PaymentsController.php:338
 msgid "Payment was not deleted"
 msgstr "el pago no fue eliminado"
 
@@ -649,6 +649,38 @@ msgstr "Subscripción eliminada"
 msgid "Sub was not deleted"
 msgstr "La subscripción no fue eliminada"
 
+#: Controller/SubsController.php:115
+msgid "Subscription dispatch started, but not finished."
+msgstr "Proceso de suscriptionón iniciado pero no terminado."
+
+#: Controller/SubsController.php:184
+msgid "You are now following %s"
+msgstr "Ahora sigues a %s"
+
+#: Controller/SubsController.php:191
+msgid "You are again following %s"
+msgstr "De nuevo sigues a %s"
+
+#: Controller/SubsController.php:197
+msgid "You are already following %s"
+msgstr "Ya estabas siguiendo a %s"
+
+#: Controller/SubsController.php:208
+msgid "Hey! it doesn't seem you're following %s"
+msgstr "Parece que no estás siguiendo a %s"
+
+#: Controller/SubsController.php:219
+msgid "There was a problem processing your request, try again and report if the rror repeats."
+msgstr "Hubo un problema procesando tu petición, inténtalo de nuevo y reporta el error si se repite."
+
+#: Controller/SubsController.php:226
+msgid "You're not even following this entry, please let us know that you saw this message and we will try to fix this bug."
+msgstr "Ni siquiera estás siguiendo esta entrada, por favor avísanos que viste este mensaje para que arreglemos el problema."
+
+#: Controller/SubsController.php:232
+msgid "Looks like you're trying to follow yourself, but that's not allowed."
+msgstr "Parece que estás tratando de seguirte a ti mismo, pero eso no está permitido."
+
 #: Controller/TermsController.php:35
 msgid "Blend Categories"
 msgstr "Categorías"
@@ -689,7 +721,7 @@ msgstr "La Medalla no fue eliminada"
 msgid "This user does not exist on Blend Swap."
 msgstr "Este usuario no existe en Blend Swap"
 
-#: Controller/UsersController.php:320;1501;1533;1560
+#: Controller/UsersController.php:320;1489;1521;1548
 msgid "Invalid user"
 msgstr "Usuario inválido"
 
@@ -721,19 +753,19 @@ msgstr "Hubo un error enviando tu email de verificación. Por favor contacta con
 msgid "The data entered did not validate, so the account was not created. Please correct the errors marked in red below, re-enter your password and try again."
 msgstr "Los datos ingresados no validaron. La cuenta no fue creada. Por favor corrige los errores marcados en rojo más abajo, e intenta de nuevo."
 
-#: Controller/UsersController.php:1516;1538
+#: Controller/UsersController.php:1504;1526
 msgid "The user has been saved"
 msgstr "El usuario fue guardado"
 
-#: Controller/UsersController.php:1519;1541
+#: Controller/UsersController.php:1507;1529
 msgid "The user could not be saved. Please, try again."
 msgstr "El Usuario no pudo ser guardado. Por favor intenta de nuevo."
 
-#: Controller/UsersController.php:1563
+#: Controller/UsersController.php:1551
 msgid "User deleted"
 msgstr "Usuario eliminado"
 
-#: Controller/UsersController.php:1566
+#: Controller/UsersController.php:1554
 msgid "User was not deleted"
 msgstr "El usuario no fue eliminado"
 
@@ -1745,14 +1777,6 @@ msgstr "El autor de este blend ha sido bloqueado temporalmente y por esto no ser
 msgid "Zip file MD5 checksum"
 msgstr "Clave MD5"
 
-#: View/Blends/view.ctp:86
-msgid "comment"
-msgstr "Comentario"
-
-#: View/Blends/view.ctp:87
-msgid "comments"
-msgstr "Comentarios"
-
 #: View/Blends/rss/index.ctp:3
 msgid "Latest Blends"
 msgstr "Últimos blends"
@@ -1786,6 +1810,7 @@ msgid "Edit Comment"
 msgstr "Editar Comentario"
 
 #: View/Comments/admin_index.ctp:2
+#: View/Elements/placeholder.ctp:59
 #: View/Elements/navs/usernav.ctp:24
 #: View/Feedbacks/admin_index.ctp:2
 msgid "Comments"
@@ -2029,6 +2054,14 @@ msgstr "Diciembre"
 msgid "answers"
 msgstr "respuestas"
 
+#: View/Elements/placeholder.ctp:57
+msgid "comments"
+msgstr "Comentarios"
+
+#: View/Elements/placeholder.ctp:58
+msgid "Answers"
+msgstr "Respuestas"
+
 #: View/Elements/bars/blend_actions.ctp:7
 msgid "Click to unlike this blend"
 msgstr "No me gusta"
@@ -2060,6 +2093,7 @@ msgid "Click to start following comments here"
 msgstr "Seguir comentarios acá"
 
 #: View/Elements/bars/blend_actions.ctp:41
+#: View/Elements/bars/news_actions.ctp:31
 #: View/Elements/bars/request_actions.ctp:50
 msgid "Follow"
 msgstr "Seguir"
@@ -2070,6 +2104,7 @@ msgid "Click to stop following comments here"
 msgstr "Dejar de seguir comentarios acá"
 
 #: View/Elements/bars/blend_actions.ctp:48
+#: View/Elements/bars/news_actions.ctp:24
 #: View/Elements/bars/request_actions.ctp:58
 msgid "Unfollow"
 msgstr "No seguir"
@@ -3295,7 +3330,7 @@ msgstr "nueva colección"
 msgid "Delete User"
 msgstr "Eliminar usuario"
 
-#: View/Users/associate.ctp:144
+#: View/Users/associate.ctp:146
 msgid "Sign Me Up"
 msgstr "Regístrame."
 
@@ -3486,6 +3521,9 @@ msgstr "Este Usuario aun no ha ganado ningina Medalla"
 #: View/Users/view.ctp:174
 msgid "You should set up your skills from the profile edit panel"
 msgstr "Deberías seleccionar tus habilidades en el panel de edición de perfil"
+
+#~ msgid "comment"
+#~ msgstr "Comentario"
 
 #~ msgid "Repack Files"
 #~ msgstr "Re-empacar ficheros"
