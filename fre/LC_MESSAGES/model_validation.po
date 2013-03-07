@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-01 18:23-0600\n"
-"PO-Revision-Date: 2013-03-02 12:16+0100\n"
+"PO-Revision-Date: 2013-03-07 12:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: Blend Swap Translators\n"
 "Language: French\n"
@@ -72,7 +72,6 @@ msgid "Pick one to four categories."
 msgstr "Choisir de une à quatre catégories"
 
 #: Model/Blend.php:validation for field categories
-#, fuzzy
 msgid "Invalid taxonomiy input."
 msgstr "Taxonomie (nom de catégorie) invalide."
 
@@ -135,7 +134,6 @@ msgid "This is not a url"
 msgstr "Ce n'est pas une url"
 
 #: Model/Email.php:validation for field name
-#, fuzzy
 msgid "this email must have a name"
 msgstr "ce mail doit être nommé"
 
@@ -152,7 +150,6 @@ msgid "Empty messages are not allowed."
 msgstr "Un message vide n'est pas valide."
 
 #: Model/Message.php:validation for field status
-#, fuzzy
 msgid "allowedStatuses"
 msgstr "Status permis"
 
@@ -213,22 +210,18 @@ msgstr "Vous devez fournir des précisions à propos de votre demande."
 #: Model/Revision.php:validation for field user_id;validation
 #: object_id;validation object_class;validation object_data;validation log
 #: Model/Term.php:validation slug
-#, fuzzy
 msgid "notEmpty"
 msgstr "Non_vide"
 
 #: Model/Revision.php:validation for field object_class
-#, fuzzy
 msgid "alphanumeric"
 msgstr "alphanumérique"
 
 #: Model/Term.php:validation for field slug
-#, fuzzy
 msgid "isUnique"
 msgstr "est_unique"
 
 #: Model/Term.php:validation for field slug
-#, fuzzy
 msgid "validChars"
 msgstr "caractères_valides"
 
@@ -284,7 +277,6 @@ msgid "You must accept the Terms Of Use!"
 msgstr "Vous devez accepter les Conditions d'Utilisation !"
 
 #: Model/User.php:validation for field bpp
-#, fuzzy
 msgid "Invalid value type"
 msgstr "type de valeur invalide"
 
