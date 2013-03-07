@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-03-06 15:07-0600\n"
+"POT-Creation-Date: 2013-03-07 10:48-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -2697,34 +2697,38 @@ msgid "asked a new question:"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:121
-msgid "started following you"
+msgid "opened a new request:"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:125
-msgid "mentioned you on a comment"
+msgid "started following you"
 msgstr ""
 
 #: View/Helper/DashboardHelper.php:129
+msgid "mentioned you on a comment"
+msgstr ""
+
+#: View/Helper/DashboardHelper.php:133
 msgid "published the new blend"
 msgstr ""
 
-#: View/Helper/DashboardHelper.php:134
+#: View/Helper/DashboardHelper.php:138
 msgid "published the new blend:"
 msgstr ""
 
-#: View/Helper/DashboardHelper.php:138
+#: View/Helper/DashboardHelper.php:142
 msgid "likes the blend"
 msgstr ""
 
-#: View/Helper/DashboardHelper.php:142
+#: View/Helper/DashboardHelper.php:146
 msgid "collected the blend"
 msgstr ""
 
-#: View/Helper/DashboardHelper.php:146;151
+#: View/Helper/DashboardHelper.php:150;155
 msgid "published a news update"
 msgstr ""
 
-#: View/Helper/DashboardHelper.php:155
+#: View/Helper/DashboardHelper.php:159
 msgid "interacted with"
 msgstr ""
 

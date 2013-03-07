@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-06 15:07-0600\n"
-"PO-Revision-Date: 2013-03-06 15:08-0600\n"
+"POT-Creation-Date: 2013-03-07 10:48-0600\n"
+"PO-Revision-Date: 2013-03-07 10:48-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: \n"
@@ -2700,34 +2700,38 @@ msgid "asked a new question:"
 msgstr "hizo una nueva pregunta:"
 
 #: View/Helper/DashboardHelper.php:121
+msgid "opened a new request:"
+msgstr "abrió un nuevo encargo:"
+
+#: View/Helper/DashboardHelper.php:125
 msgid "started following you"
 msgstr "empezó a seguir tu actividad"
 
-#: View/Helper/DashboardHelper.php:125
+#: View/Helper/DashboardHelper.php:129
 msgid "mentioned you on a comment"
 msgstr "te mencionó en un comentario"
 
-#: View/Helper/DashboardHelper.php:129
+#: View/Helper/DashboardHelper.php:133
 msgid "published the new blend"
 msgstr "publicó el nuevo blend"
 
-#: View/Helper/DashboardHelper.php:134
+#: View/Helper/DashboardHelper.php:138
 msgid "published the new blend:"
 msgstr "publicó el nuevo blend"
 
-#: View/Helper/DashboardHelper.php:138
+#: View/Helper/DashboardHelper.php:142
 msgid "likes the blend"
 msgstr "gusta del blend"
 
-#: View/Helper/DashboardHelper.php:142
+#: View/Helper/DashboardHelper.php:146
 msgid "collected the blend"
 msgstr "colectó el blend"
 
-#: View/Helper/DashboardHelper.php:146;151
+#: View/Helper/DashboardHelper.php:150;155
 msgid "published a news update"
 msgstr "publicó en el blog de noticias"
 
-#: View/Helper/DashboardHelper.php:155
+#: View/Helper/DashboardHelper.php:159
 msgid "interacted with"
 msgstr "interactuó con"
 
