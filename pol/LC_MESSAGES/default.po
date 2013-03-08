@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-07 10:48-0600\n"
-"PO-Revision-Date: 2013-03-08 21:38+0100\n"
+"PO-Revision-Date: 2013-03-08 22:16+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: \n"
@@ -2865,7 +2865,7 @@ msgstr "Zalety członkostwa"
 
 #: View/Layouts/frontend.ctp:117
 msgid "Deadline Membership"
-msgstr "Ostateczny termin członkostwa "
+msgstr "Nieograniczone członkostwo"
 
 #: View/Layouts/frontend.ctp:123
 msgid "Bandwidth Assignation"
