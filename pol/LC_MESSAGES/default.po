@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-07 10:48-0600\n"
-"PO-Revision-Date: 2013-03-08 18:12+0100\n"
+"PO-Revision-Date: 2013-03-08 21:38+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: \n"
@@ -153,7 +153,7 @@ msgstr "zaloguj się"
 
 #: Controller/BlendsController.php:1171;1172
 msgid "Creative Commons Public Domain Mark 1.0"
-msgstr "Oznaczenie domeny publicznej 1.0"
+msgstr "Przekazanie do Domeny Publicznej"
 
 #: Controller/BlendsController.php:1173
 msgid "which has no requirements:"
@@ -177,7 +177,7 @@ msgstr "Uznanie autorstwa-Użycie niekomercyjne 3.0"
 
 #: Controller/BlendsController.php:1204
 msgid "Blend Swap recommends you give credit to the blend author, but there is no obligation to do so"
-msgstr "Blend Swap zaleca dodać autora do blenda, ale nie ma obowiązku, aby to robić"
+msgstr "Blend Swap zaleca uznać autora tego blenda, ale nie ma obowiązku by to robić"
 
 #: Controller/BlendsController.php:1207
 #: View/Helper/SingleBlendHelper.php:152
@@ -196,7 +196,7 @@ msgstr "Nie można użyć tego blenda w celach komercyjnych pod żadnym pozorem"
 
 #: Controller/BlendsController.php:1217
 msgid "What's the deal with all this \"giving credits\" thing?"
-msgstr "O co chodzi z tym  \"uznanie autorstwa\" ?"
+msgstr "O co chodzi z tym  \"uznanie autorstwa\"?"
 
 #: Controller/BlendsController.php:1695
 msgid "The blend could not be saved. Please, try again."
@@ -1876,7 +1876,7 @@ msgstr "Nowe pliki do pobrania"
 
 #: View/Elements/commentList.ctp:10
 msgid "No %s yet, leave yours!"
-msgstr "Nie ma jeszcze komentarzy, zostaw swój !"
+msgstr "Nie ma jeszcze komentarzy, napisz swój !"
 
 #: View/Elements/new_question.ctp:3
 msgid "Need help with Blender?"
@@ -2245,7 +2245,7 @@ msgstr "Nowości"
 #: View/Elements/menus/topMenu.ctp:8
 #: View/Layouts/frontend.ctp:134
 msgid "Site News"
-msgstr "Nowości na Blend Swap"
+msgstr "Nowości"
 
 #: View/Elements/menus/topMenu.ctp:9
 #: View/Layouts/frontend.ctp:131
@@ -2358,9 +2358,8 @@ msgid "Your Associate Membership has"
 msgstr "Twoje członkostwo"
 
 #: View/Elements/menus/topMenu.ctp:59
-#, fuzzy
 msgid "Your Deadline Membership has"
-msgstr "Ostateczny termin członkostwa "
+msgstr "Nieograniczone członkostwo"
 
 #: View/Elements/menus/topMenu.ctp:61
 msgid "Unlimited Bandwidth"
@@ -3132,7 +3131,7 @@ msgstr "Strona www"
 
 #: View/Profiles/admin_view.ctp:39
 msgid "Bio"
-msgstr "Bio"
+msgstr "Opis"
 
 #: View/Profiles/admin_view.ctp:44
 msgid "Twitter"
@@ -3371,11 +3370,11 @@ msgstr "Dowiedz się więcej o transferze"
 
 #: View/Users/bandwidth.ctp:36
 msgid "Initialized"
-msgstr "Zainicjowany"
+msgstr "Rozpoczęty"
 
 #: View/Users/bandwidth.ctp:47
 msgid "Is this wrong?"
-msgstr "Czy to źle?"
+msgstr "Coś nie tak?"
 
 #: View/Users/bandwidth.ctp:49
 msgid "Fix it"
@@ -3383,15 +3382,15 @@ msgstr "Napraw to"
 
 #: View/Users/bandwidth.ctp:60
 msgid "Download History for current month"
-msgstr "Historia pobierania na ten miesiąc"
+msgstr "Historia pobrań na ten miesiąc"
 
 #: View/Users/bandwidth.ctp:69
 msgid "COUNTED"
-msgstr "LICZONE"
+msgstr "POLICZONE"
 
 #: View/Users/bandwidth.ctp:69
 msgid "Not counted"
-msgstr "Nie liczone"
+msgstr "Nie policzone"
 
 #: View/Users/bandwidth.ctp:73
 msgid "Bandwidth"

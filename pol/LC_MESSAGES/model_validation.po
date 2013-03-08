@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-07 10:48-0600\n"
-"PO-Revision-Date: 2013-03-08 14:31+0100\n"
+"PO-Revision-Date: 2013-03-08 21:02+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: \n"
@@ -25,7 +25,7 @@ msgstr "Twój Blend musi mieć nazwę!"
 #: Model/Blend.php:validation
 #: for field title
 msgid "The Blend Name must be between 2 and 140 chars long!"
-msgstr "Nazwa Blendu musi mieć od 2 do 140 znaków!"
+msgstr "Nazwa Blenda musi mieć od 2 do 140 znaków!"
 
 #: Model/Blend.php:validation
 #: for field body
