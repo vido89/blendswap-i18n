@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-07 10:48-0600\n"
-"PO-Revision-Date: 2013-03-08 22:16+0100\n"
+"PO-Revision-Date: 2013-03-09 10:10+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: \n"
@@ -143,7 +143,6 @@ msgid "Looks like you are logged out, maybe your session expired"
 msgstr "Wygląda na to, że jesteś wylogowany, być może twoja sesja wygasła"
 
 #: Controller/BlendsController.php:1151
-#, fuzzy
 msgid "Please %s and try again."
 msgstr "Proszę %s i spróbuj ponownie."
 
@@ -651,32 +650,26 @@ msgid "Sub was not deleted"
 msgstr "Sub nie został usunięty"
 
 #: Controller/SubsController.php:115
-#, fuzzy
 msgid "Subscription dispatch started, but not finished."
-msgstr "Subskrypcja została rozpoczęta, ale nie skończona."
+msgstr "Subskrypcja została aktywowana, ale nie zakończona."
 
 #: Controller/SubsController.php:184
-#, fuzzy
 msgid "You are now following %s"
 msgstr "Obserwujesz teraz %s"
 
 #: Controller/SubsController.php:191
 msgid "You are again following %s"
-msgstr "Jesteś ponownie obserwowany %s"
+msgstr "Jesteś ponownie obserwowany przez %s"
 
 #: Controller/SubsController.php:197
-#, fuzzy
 msgid "You are already following %s"
 msgstr "Jesteś obserwowany przez %s"
 
-# Nie wiem :(
 #: Controller/SubsController.php:208
-#, fuzzy
 msgid "Hey! it doesn't seem you're following %s"
-msgstr "Hey! it doesn't seem you're following %s"
+msgstr "Hey! Wygląda na to, że nie obserwujesz %s"
 
 #: Controller/SubsController.php:214
-#, fuzzy
 msgid "You are no longer following %s"
 msgstr "Nie jesteś już obserwowany %s"
 
@@ -684,15 +677,14 @@ msgstr "Nie jesteś już obserwowany %s"
 msgid "There was a problem processing your request, try again and report if the rror repeats."
 msgstr "Wystąpił problem podczas przetwarzania tematu, spróbuj jeszcze raz lub zgłoś, jeśli błąd powtarza się."
 
+# 50/50
 #: Controller/SubsController.php:226
-#, fuzzy
 msgid "You're not even following this entry, please let us know that you saw this message and we will try to fix this bug."
-msgstr "Nie jesteś nawet po ten wpis, proszę dać nam znać, że widział tę wiadomość, a my postaramy się naprawić ten błąd."
+msgstr "Nie jesteś nawet obserwowany, proszę dać nam znać, że widział tą wiadomość, a my postaramy się naprawić ten błąd."
 
 #: Controller/SubsController.php:232
-#, fuzzy
 msgid "Looks like you're trying to follow yourself, but that's not allowed."
-msgstr "Wygląda to tak, że starasz się obserwować, ale to jest niedozwolone."
+msgstr "Wygląda to tak, że starasz obserwować siebie, ale to jest niedozwolone."
 
 #: Controller/TermsController.php:35
 msgid "Blend Categories"
@@ -1327,7 +1319,6 @@ msgid "Yes"
 msgstr "Tak"
 
 #: View/Blends/add.ctp:77
-#, fuzzy
 msgid "Learn more about %s licenses and how they affect you"
 msgstr "Dowiedz się więcej o  %s licencji i jak wpływa na Ciebie"
 
@@ -2353,9 +2344,8 @@ msgid "Bandwidth History"
 msgstr "Historia transferu"
 
 #: View/Elements/menus/topMenu.ctp:56
-#, fuzzy
 msgid "Your Associate Membership has"
-msgstr "Twoje członkostwo"
+msgstr "Twoje członkostwo ma"
 
 #: View/Elements/menus/topMenu.ctp:59
 msgid "Your Deadline Membership has"
