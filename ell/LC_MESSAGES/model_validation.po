@@ -1,0 +1,280 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blend Swap Translation 0.1\n"
+"POT-Creation-Date: 2013-03-07 10:48-0600\n"
+"PO-Revision-Date: 2013-03-10 07:00+0100\n"
+"Last-Translator: Lorita Lane <lorita.lane2007@gmail.com>\n"
+"Language-Team: Blend Swap Translators <lorita.lane2007@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"Language: Greek\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Model/Blend.php:validation for field title
+msgid "Your blend must have a name!"
+msgstr "Δώστε ένα όνομα στο blend σας!"
+
+#: Model/Blend.php:validation for field title
+msgid "The Blend Name must be between 2 and 140 chars long!"
+msgstr "Το όνομα του blend μπορεί να έχει από 2 εώς 140 χαρακτήρες!"
+
+#: Model/Blend.php:validation for field body
+msgid "Your blend must have a description!"
+msgstr "Δώστε μια περιγραφή στο blend σας!"
+
+#: Model/Blend.php:validation for field body
+msgid "The description must be between 40 and 5000 chars long!"
+msgstr "Η περιγραφή του blend μπορεί να έχει από 40 εώς 5000 χαρακτήρες!"
+
+#: Model/Blend.php:validation for field three_dee
+msgid "That is not a url!"
+msgstr "Δώσατε άκυρη διεύθυνση url!"
+
+#: Model/Blend.php:validation for field three_dee
+msgid "That is not a supported viewer."
+msgstr "Το viewer σας δεν υποστηρίζετε."
+
+#: Model/Blend.php:validation for field blend_license
+msgid "Please choose a license for your blend."
+msgstr ""
+
+#: Model/Blend.php:validation for field blend_license
+msgid "Invalid value for Blend License!"
+msgstr ""
+
+#: Model/Blend.php:validation for field blender_version
+msgid "Please choose the version of blender you used to make this blend."
+msgstr "Επιλέξτε την έκδοση Blender με την οποία δημιουργήσατε αυτό το blend."
+
+#: Model/Blend.php:validation for field blender_version
+msgid "Invalid value type for Blender version"
+msgstr "Δώσατε άκυρη έκδοση Blender"
+
+#: Model/Blend.php:validation for field tags
+msgid ""
+"Tags help others find your blend. Use at least one tag and don't forget the "
+"commas!"
+msgstr ""
+"Ετικέτες βοηθούν άλλους χρήστες να βρουν το blend σας. Χρησιμοποιήστε "
+"τουλάχιστον μία ετικέτα και μην ξεχνάτε τα κόμματα!"
+
+#: Model/Blend.php:validation for field categories
+#: Model/Request.php:validation requirements
+msgid "Pick one to four categories."
+msgstr "Επιλέξτε από μία εώς τέσσερις κατηγορίες."
+
+#: Model/Blend.php:validation for field categories
+msgid "Invalid taxonomiy input."
+msgstr ""
+
+#: Model/Blend.php:validation for field change_log
+msgid "Please tell us what you changed in the data or the files."
+msgstr "Παρακαλώ περιγράψτε τις αλλαγές που κάνατε στα δεδομένα ή στα αρχεία."
+
+#: Model/Blend.php:validation for field hello Model/Message.php:validation
+#: Model/Profile.php:validation Model/Report.php:validation
+#: Model/Request.php:validation Model/User.php:validation
+msgid "empty"
+msgstr "άδειο"
+
+#: Model/Collection.php:validation for field name
+msgid "The collection Must have a name"
+msgstr "Πρέπει να δώσετε ένα όνομα στη συλλογή."
+
+#: Model/Collection.php:validation for field visibility
+msgid "Choose a visibility setting"
+msgstr "Επιλέξτε μια ρύθμιση ορατότητας"
+
+#: Model/Collection.php:validation for field visibility
+msgid "Invalid visibility value!!!"
+msgstr "Άκυρη ρύθμιση ορατότητας!!!"
+
+#: Model/Comment.php:validation for field body
+msgid "The comment cannot be empty!"
+msgstr "Δεν επιτρέπετε το σχόλιο να είναι άδειο!"
+
+#: Model/Comment.php:validation for field user_id;validation
+#: parent_id;validation object_id Model/Revision.php:validation
+msgid "numeric"
+msgstr ""
+
+#: Model/Contact.php:validation for field name;validation email;validation
+#: body
+msgid "This field is required."
+msgstr "Αυτό το πεδίο είναι υποχρεωτικό."
+
+#: Model/Contact.php:validation for field name
+msgid "This field contains invalid characters..."
+msgstr "Το πεδίο αυτό περιέχει μη έγκυρους χαρακτήρες..."
+
+#: Model/Contact.php:validation for field email
+msgid "This doesn't look like an email..."
+msgstr "Φαίνεται πως δώσατε άκυρη διεύθυνση email..."
+
+#: Model/Contact.php:validation for field subject
+msgid "Please select the subject."
+msgstr "Παρακαλώ επιλέξτε ένα θέμα."
+
+#: Model/Contact.php:validation for field subject
+msgid "An error happened, try again."
+msgstr "Συνέβη ένα σφάλμα, προσπαθήστε ξανά."
+
+#: Model/Contact.php:validation for field website
+msgid "This is not a url"
+msgstr "Δώσατε άκυρη διεύθυνση url"
+
+#: Model/Email.php:validation for field name
+msgid "this email must have a name"
+msgstr "πρέπει να δώσετε ένα όνομα σε αυτό το email"
+
+#: Model/Email.php:validation for field pointer
+msgid "emails must have a call key so they can be called from inside the app."
+msgstr ""
+
+#: Model/Email.php:validation for field pointer
+msgid "Only letters and underscores are allowed"
+msgstr "Επιτρέπονται μόνο γράμματα και κάτω παύλες"
+
+#: Model/Message.php:validation for field body
+msgid "Empty messages are not allowed."
+msgstr "Δεν επιτρέπετε το μήνυμα να λείπει."
+
+#: Model/Message.php:validation for field status
+msgid "allowedStatuses"
+msgstr ""
+
+#: Model/Profile.php:validation for field website;validation
+#: deviantart;validation bartists;validation flickr;validation
+#: facebook;validation youtube;validation vimeo;validation twitter;validation
+#: github;validation pinterest;validation behance;validation linkedin
+msgid "This does not look like an URL"
+msgstr "Δώσατε άκυρη διεύθυνση url"
+
+#: Model/Question.php:validation for field body
+msgid "Your question needs a body with details."
+msgstr "Λείπει το κείμενο για την ερώτησή σας."
+
+#: Model/Question.php:validation for field body
+msgid "Your question body must be between 40 and 2000 characters long."
+msgstr ""
+"Το κείμενο για την ερώτησή σας μπορεί να έχει από 40 εώς 2000 χαρακτήρες!"
+
+#: Model/Question.php:validation for field title
+msgid "Your question needs a title."
+msgstr "Δώστε ένα τίτλο για την ερώτησή σας."
+
+#: Model/Question.php:validation for field title
+msgid "Your question title must be between 10 and 256 characters long."
+msgstr "Ο τίτλος για την ερώτησή σας μπορεί να έχει από 10 εώς 256 χαρακτήρες!"
+
+#: Model/Question.php:validation for field tags
+msgid ""
+"Tags help other users to find your question. You must use at least one tag."
+msgstr ""
+"Ετικέτες βοηθούν άλλους χρήστες να βρουν την ερώτησή σας. Χρησιμοποιήστε "
+"τουλάχιστον μία ετικέτα και μην ξεχνάτε τα κόμματα!"
+
+#: Model/Report.php:validation for field reason
+msgid "You must choose an option."
+msgstr "Πρέπει να κάνετε μια επιλογή."
+
+#: Model/Report.php:validation for field reason
+msgid "The reason contains invalid characters"
+msgstr "Ο λόγος περιέχει μη έγκυρους χαρακτήρες"
+
+#: Model/Report.php:validation for field body
+msgid ""
+"You must provide links and/or notes for us to be able to take care of your "
+"report"
+msgstr ""
+"Δώσετε συνδέσμους (links) και/ή σημειώσεις, ώστε να ήμαστε σε θέση να "
+"ελέγξουμε τη καταγγελία σας."
+
+#: Model/Request.php:validation for field title
+msgid "Your request must have a title"
+msgstr ""
+
+#: Model/Request.php:validation for field body
+msgid "You must provide notes and details about the request."
+msgstr ""
+
+#: Model/Revision.php:validation for field user_id;validation
+#: object_id;validation object_class;validation object_data;validation log
+#: Model/Term.php:validation slug
+msgid "notEmpty"
+msgstr ""
+
+#: Model/Revision.php:validation for field object_class
+msgid "alphanumeric"
+msgstr ""
+
+#: Model/Term.php:validation for field slug
+msgid "isUnique"
+msgstr ""
+
+#: Model/Term.php:validation for field slug
+msgid "validChars"
+msgstr ""
+
+#: Model/Term.php:validation for field slug
+msgid "between"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "Only letters and numbers please."
+msgstr "Μόνο αριθμούς και γράμματα."
+
+#: Model/User.php:validation for field username
+msgid "The username must be between 2 and 32 characters long!"
+msgstr "Το όνομα χρήσης σας μπορεί να έχει από 2 εώς 32 χαρακτήρες!"
+
+#: Model/User.php:validation for field username
+msgid "Can not be empty"
+msgstr "Δε μπορεί να μήνει κενό"
+
+#: Model/User.php:validation for field username
+msgid "This username is already taken."
+msgstr "Αυτό το όνομα χρήσης είναι ήδη κατειλημμένο"
+
+#: Model/User.php:validation for field email;validation password
+msgid "Can not be left empty"
+msgstr "Δε μπορεί να μήνει κενό"
+
+#: Model/User.php:validation for field email
+msgid "Does not look like an email"
+msgstr "Το email είναι άκυρο"
+
+#: Model/User.php:validation for field email
+msgid ""
+"That email is already in use, maybe you signed up with tha email before?"
+msgstr ""
+"Γνωρίζουμε ήδη αυτή τη διεύθηνση email, ίσως εγγραφήκατε με το ίδιο email "
+"πριν;"
+
+#: Model/User.php:validation for field email
+msgid "This email is not allowed. You must use a real email adress."
+msgstr ""
+"Αυτή η διεύθηνση email δεν επιτρέπεται. Θα πρέπει να χρησιμοποιήσετε μια "
+"πραγματική διεύθυνση e-mail."
+
+#: Model/User.php:validation for field password
+msgid "Must be between 8 and 128 characters long"
+msgstr "Μπορεί να έχει από 8 εώς 128 χαρακτήρες"
+
+#: Model/User.php:validation for field first_name;validation last_name
+msgid "Must be 2 letters or more."
+msgstr "Μπορεί να έχει 2 ή παραπάνω γράμματα."
+
+#: Model/User.php:validation for field accept_terms
+msgid "You must accept the Terms Of Use!"
+msgstr "Πρέπει να αποδεχθείτε τους Όρους Χρήσης!"
+
+#: Model/User.php:validation for field bpp
+msgid "Invalid value type"
+msgstr ""
