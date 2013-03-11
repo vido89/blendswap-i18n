@@ -7,7 +7,7 @@ We need help with
 * Portuguese
 * More languages? mainly left-to-right written langs.
 
-We're covered in __Spanish__, __German__, __Polish__, __French__, __Serbian__.
+We're covered in __Spanish__, __German__, __Polish__, __French__, __Serbian__, __Greek__.
 
 ## Set up
 
