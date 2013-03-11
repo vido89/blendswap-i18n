@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-07 10:48-0600\n"
-"PO-Revision-Date: 2013-03-10 07:00+0100\n"
+"PO-Revision-Date: 2013-03-11 02:32+0100\n"
 "Last-Translator: Lorita Lane <lorita.lane2007@gmail.com>\n"
 "Language-Team: Blend Swap Translators <lorita.lane2007@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -42,11 +42,11 @@ msgstr "Το viewer σας δεν υποστηρίζετε."
 
 #: Model/Blend.php:validation for field blend_license
 msgid "Please choose a license for your blend."
-msgstr ""
+msgstr "Παρακαλώ επιλέξτε μια άδεια για το blend σας."
 
 #: Model/Blend.php:validation for field blend_license
 msgid "Invalid value for Blend License!"
-msgstr ""
+msgstr "Μη έγκυρη επιλογή για την άδεια του blend!"
 
 #: Model/Blend.php:validation for field blender_version
 msgid "Please choose the version of blender you used to make this blend."
@@ -71,7 +71,7 @@ msgstr "Επιλέξτε από μία εώς τέσσερις κατηγορί�
 
 #: Model/Blend.php:validation for field categories
 msgid "Invalid taxonomiy input."
-msgstr ""
+msgstr "Μή έγκυρη επιλογή ταξινόμησης."
 
 #: Model/Blend.php:validation for field change_log
 msgid "Please tell us what you changed in the data or the files."
@@ -198,11 +198,12 @@ msgstr ""
 
 #: Model/Request.php:validation for field title
 msgid "Your request must have a title"
-msgstr ""
+msgstr "Το ζήτημα σας χρειάζεται έναν τίτλο"
 
 #: Model/Request.php:validation for field body
 msgid "You must provide notes and details about the request."
 msgstr ""
+"Θα πρέπει να περιλάβετε σημειώσεις και λεπτομέρειες σχετικά με το ζήτημα."
 
 #: Model/Revision.php:validation for field user_id;validation
 #: object_id;validation object_class;validation object_data;validation log

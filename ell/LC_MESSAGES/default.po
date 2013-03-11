@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-07 10:48-0600\n"
-"PO-Revision-Date: 2013-03-10 07:00+0100\n"
+"PO-Revision-Date: 2013-03-11 02:28+0100\n"
 "Last-Translator: Lorita Lane <lorita.lane2007@gmail.com>\n"
 "Language-Team: Blend Swap Translators <lorita.lane2007@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,7 @@ msgstr ""
 "X-Generator: Poedit 1.5.5\n"
 "Language: Greek\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Bookmarks: 553,480,654,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: Controller/AtomsController.php:31;83;109
 msgid "Invalid atom"
@@ -38,23 +39,23 @@ msgstr ""
 
 #: Controller/BadgesController.php:35;76;107;133
 msgid "Invalid badge"
-msgstr ""
+msgstr "Άκυρο έμβλημα"
 
 #: Controller/BadgesController.php:90;111
 msgid "The badge has been saved"
-msgstr ""
+msgstr "Το έμβλημα αποθηκεύτηκε"
 
 #: Controller/BadgesController.php:93;114
 msgid "The badge could not be saved. Please, try again."
-msgstr ""
+msgstr "Το έμβλημα δεν αποθηκεύτηκε. Παρακαλώ, προσπαθήστε ξανά."
 
 #: Controller/BadgesController.php:136
 msgid "Badge deleted"
-msgstr ""
+msgstr "Το έμβλημα διαγράφηκε"
 
 #: Controller/BadgesController.php:139
 msgid "Badge was not deleted"
-msgstr ""
+msgstr "Το έμβλημα δε διαγράφηκε"
 
 #: Controller/BlendsController.php:174;1662;1686;1716
 msgid "Invalid blend"
@@ -117,33 +118,33 @@ msgstr "Το blend που ζητήσατε δεν υπάρχει"
 
 #: Controller/BlendsController.php:1118
 msgid "Downloading"
-msgstr ""
+msgstr "Λαμβάνετε"
 
 #: Controller/BlendsController.php:1120
 msgid "This blend is licensed"
-msgstr ""
+msgstr "Αυτό το αρχείο έχει αδειοδοτηθεί"
 
 #: Controller/BlendsController.php:1122
 msgid "Do you agree with this license"
-msgstr ""
+msgstr "Συμφωνείτε με αυτή την άδεια"
 
 #: Controller/BlendsController.php:1123
 msgid "and the limitations imposed by the Fan Art marking"
 msgstr ""
+"και τους περιορισμούς που επιβάλλονται από την σήμανση ως καλλιτέχνημα "
+"θαυμαστή"
 
 #: Controller/BlendsController.php:1128
 msgid "I accept the license. Start file download, please"
-msgstr ""
+msgstr "Αποδέχομαι την άδεια. Μπορείτε να ξεκινήστε λήψη αρχείου"
 
 #: Controller/BlendsController.php:1128
-#, fuzzy
 msgid "Yes. Download now!"
-msgstr "Ναι! Download τώρα!"
+msgstr "Ναι! Ξεκινήστε λήψη αρχείου τώρα!"
 
 #: Controller/BlendsController.php:1129
-#, fuzzy
 msgid "Cancel download"
-msgstr "Ακύρωση download"
+msgstr "Ακύρωση λήψη αρχείου"
 
 #: Controller/BlendsController.php:1129 View/Blends/edit.ctp:91
 msgid "Cancel"
@@ -155,12 +156,17 @@ msgid ""
 "failed you still have %d hours and %d minutes to retry without losing extra "
 "bandwidth"
 msgstr ""
+"Έχετε κατεβάσει αυτό το blend λιγότερο από 24 ώρες πριν. Εάν η πρώτη σας "
+"προσπάθεια αποτύχει, έχετε ακόμα %d ώρες και %d λεπτά για να προσπαθήσετε "
+"ξανά χωρίς να μειωθεί το bandwidth σας"
 
 #: Controller/BlendsController.php:1143
 msgid ""
 "If your download fails you have 24 hours to try again with no extra "
 "bandwidth subtracted from your monthly allocation!"
 msgstr ""
+"Εάν η λήψη αρχείου αποτύχει, έχετε 24 ώρες για να προσπαθήσετε ξανά χωρίς να "
+"μειωθεί το μηνιαίο bandwidth σας!"
 
 #: Controller/BlendsController.php:1150
 msgid "Looks like you are logged out, maybe your session expired"
@@ -168,7 +174,7 @@ msgstr "Φαίνεται ότι δεν είστε συνδεδεμένοι, ίσ
 
 #: Controller/BlendsController.php:1151
 msgid "Please %s and try again."
-msgstr "Παρακαλώ %2 και προσπαθήστε ξανά."
+msgstr "Παρακαλώ %s και προσπαθήστε ξανά."
 
 #: Controller/BlendsController.php:1151
 msgid "log in"
@@ -204,26 +210,31 @@ msgid ""
 "Blend Swap recommends you give credit to the blend author, but there is no "
 "obligation to do so"
 msgstr ""
+"Blend Swap συνιστά να αναφέρεται το καλλιτέχνη του blend, αλλά δεν υπάρχει "
+"υποχρέωση να το κάνετε."
 
 #: Controller/BlendsController.php:1207 View/Helper/SingleBlendHelper.php:152
 msgid "You must give credit to the author of this blend"
-msgstr ""
+msgstr "Πρέπει να αναφέρεται τον καλλιτέχνη αυτού του blend στο έργο σας"
 
 #: Controller/BlendsController.php:1210 View/Helper/SingleBlendHelper.php:155
 msgid "You must distribute any derivative works under the same license"
-msgstr ""
+msgstr "Πρέπει να μοιράζετε παράγωγες εργασίες με την ίδια άδεια"
 
 #: Controller/BlendsController.php:1213 View/Helper/SingleBlendHelper.php:158
 msgid "You can not use this blend commercially under any circumstance"
 msgstr ""
+"Δεν μπορείτε να χρησιμοποιήσετε αυτό το blend κάτω από οποιαδήποτε περίσταση "
+"εμπορικός"
 
+# because the translation if "credits" in greek is not like in english that could have a double meaning of credit=points, I'm not sure how much this or the text following this section in the documentation makes that much sense
 #: Controller/BlendsController.php:1217
 msgid "What's the deal with all this \"giving credits\" thing?"
-msgstr ""
+msgstr "Τι σημαίνει \"πρέπει να αναφέρεται τον καλλιτέχνη\" ;"
 
 #: Controller/BlendsController.php:1695
 msgid "The blend could not be saved. Please, try again."
-msgstr ""
+msgstr "Το blend δεν αποθηκεύτηκε. Παρακαλώ, προσπαθήστε ξανά."
 
 #: Controller/BlendsController.php:1719
 msgid "Blend deleted"
@@ -243,7 +254,7 @@ msgstr "Το chat δεν αποθηκεύτηκε"
 
 #: Controller/ChatsController.php:200
 msgid "The chat could not be saved. Please, try again."
-msgstr "Το chat δεν μπόρεσε να αποθηκευτή. Παρακαλώ, δοκιμάσετε ξανά."
+msgstr "Το chat δε μπόρεσε να αποθηκευτή. Παρακαλώ, δοκιμάσετε ξανά."
 
 #: Controller/ChatsController.php:227
 msgid "Chat deleted"
@@ -276,6 +287,7 @@ msgstr "Η συλλογή δε διαγράφηκε"
 #: Controller/CommentsController.php:222
 msgid "Your comment did not validate, is it empty? Please try again."
 msgstr ""
+"Το σχόλιό σας είναι άκυρο, μήπως λήπει το κείμενο; Παρακαλώ, δοκιμάστε ξανά."
 
 #: Controller/CommentsController.php:261;275;301;376
 msgid "Invalid comment"
@@ -299,7 +311,7 @@ msgstr "Το σχόλιο σας δε διαγράφηκε"
 
 #: Controller/ContactsController.php:82;152
 msgid "The contact has been saved"
-msgstr ""
+msgstr "Η γνωριμία αποθηκεύτηκε"
 
 #: Controller/ContactsController.php:84
 msgid ""
@@ -309,43 +321,43 @@ msgstr ""
 
 #: Controller/ContactsController.php:125;148;174
 msgid "Invalid contact"
-msgstr ""
+msgstr "Άκυρη γνωριμία"
 
 #: Controller/ContactsController.php:155
 msgid "The contact could not be saved. Please, try again."
-msgstr ""
+msgstr "Η γνωριμία δε μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάσετε ξανά."
 
 #: Controller/ContactsController.php:177
 msgid "Contact deleted"
-msgstr ""
+msgstr "Η γνωριμία διαγράφηκε"
 
 #: Controller/ContactsController.php:180
 msgid "Contact was not deleted"
-msgstr ""
+msgstr "Η γνωριμία δε διαγράφηκε"
 
 #: Controller/DownloadsController.php:40
 msgid "Invalid download"
-msgstr ""
+msgstr "Άκυρο αρχείο λήψης"
 
 #: Controller/FeaturesController.php:30;62;90
 msgid "Invalid feature"
-msgstr ""
+msgstr "Άκυρο χαρακτηριστικό"
 
 #: Controller/FeaturesController.php:44;66
 msgid "The feature has been saved"
-msgstr ""
+msgstr "Το χαρακτηριστικό αποθηκεύτηκε."
 
 #: Controller/FeaturesController.php:47;69
 msgid "The feature could not be saved. Please, try again."
-msgstr ""
+msgstr "Το χαρακτηριστικό δεν αποθηκεύτηκε. Παρακαλώ, δοκιμάστε ξανά."
 
 #: Controller/FeaturesController.php:93
 msgid "Feature deleted"
-msgstr ""
+msgstr "Το χαρακτηριστικό διαγράφηκε"
 
 #: Controller/FeaturesController.php:96
 msgid "Feature was not deleted"
-msgstr ""
+msgstr "Το χαρακτηριστικό δε διαγράφηκε"
 
 #: Controller/KeysController.php:37;68;94
 msgid "Invalid key"
@@ -409,23 +421,23 @@ msgstr ""
 
 #: Controller/MessagesController.php:47;253;282;307
 msgid "Invalid message"
-msgstr ""
+msgstr "Άκυρο μήνυμα"
 
 #: Controller/MessagesController.php:204;260
 msgid "The message could not be saved. Please, try again."
-msgstr ""
+msgstr "Το μήνυμα δεν αποθηκεύτηκε. Παρακαλώ, δοκιμάστε ξανά."
 
 #: Controller/MessagesController.php:257
 msgid "The message has been saved"
-msgstr ""
+msgstr "Το μήνυμα αποθηκεύτηκε"
 
 #: Controller/MessagesController.php:285;314
 msgid "Message deleted"
-msgstr ""
+msgstr "Το μήνυμα διαγράφηκε"
 
 #: Controller/MessagesController.php:288;316
 msgid "Message was not deleted"
-msgstr ""
+msgstr "Το μήνυμα δε διαγράφηκε"
 
 #: Controller/MetasController.php:32;63;89
 msgid "Invalid meta"
@@ -517,15 +529,15 @@ msgstr "Η σελίδα δε διαγράφηκε"
 
 #: Controller/PaymentsController.php:59;332
 msgid "Invalid payment"
-msgstr ""
+msgstr "Άκυρη πληρωμή"
 
 #: Controller/PaymentsController.php:335
 msgid "Payment deleted"
-msgstr ""
+msgstr "Η πληρωμή διαγράφηκε"
 
 #: Controller/PaymentsController.php:338
 msgid "Payment was not deleted"
-msgstr ""
+msgstr "Η πληρωμή δε διαγράφηκε"
 
 #: Controller/PlansController.php:33;64;90;118;149;175
 msgid "Invalid plan"
@@ -589,51 +601,51 @@ msgstr "Η ερώτηση δε διαγράφηκε"
 
 #: Controller/ReportsController.php:25;46
 msgid "Invalid address"
-msgstr ""
+msgstr "'Ακυρη διεύθηνση"
 
 #: Controller/ReportsController.php:49;205;220;246
 msgid "Invalid report"
-msgstr ""
+msgstr "'Ακυρη καταγγελία"
 
 #: Controller/ReportsController.php:224
 msgid "The report has been saved"
-msgstr ""
+msgstr "Η καταγγελία αποθηκεύτηκε"
 
 #: Controller/ReportsController.php:227
 msgid "The report could not be saved. Please, try again."
-msgstr ""
+msgstr "Η καταγγελία δε μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάσετε ξανά."
 
 #: Controller/ReportsController.php:249
 msgid "Report deleted"
-msgstr ""
+msgstr "Η καταγγελία διαγράφηκε"
 
 #: Controller/ReportsController.php:252
 msgid "Report was not deleted"
-msgstr ""
+msgstr "Η καταγγελία δε διαγράφηκε"
 
 #: Controller/RequestsController.php:73;217;267;310;548;582;623
 msgid "Invalid request"
-msgstr ""
+msgstr "Άκυρο ζήτημα"
 
 #: Controller/RequestsController.php:184
 msgid "The request has been saved. Now upload some concept arts!"
-msgstr ""
+msgstr "Το ζήτημα αποθηκεύτηκε. Τώρα ανεβάσετε κάποια πρότυπα σχέδια!"
 
 #: Controller/RequestsController.php:189;237;565;590
 msgid "The request could not be saved. Please, try again."
-msgstr ""
+msgstr "Το ζήτημα δε μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάσετε ξανά."
 
 #: Controller/RequestsController.php:234;562;587
 msgid "The request has been saved"
-msgstr ""
+msgstr "Το ζήτημα αποθηκεύτηκε"
 
 #: Controller/RequestsController.php:626
 msgid "Request deleted"
-msgstr ""
+msgstr "Το ζήτημα διαγράφηκε"
 
 #: Controller/RequestsController.php:629
 msgid "Request was not deleted"
-msgstr ""
+msgstr "Το ζήτημα δε διαγράφηκε"
 
 #: Controller/ResponsesController.php:34;69;100
 msgid "Invalid response"
@@ -681,42 +693,46 @@ msgstr ""
 
 #: Controller/SubsController.php:184
 msgid "You are now following %s"
-msgstr "Τώρα ακολουθήται %"
+msgstr "Τώρα ακολουθείται %"
 
 #: Controller/SubsController.php:191
 msgid "You are again following %s"
-msgstr "Ακολουθήται πάλι %"
+msgstr "ακολουθείται πάλι %"
 
 #: Controller/SubsController.php:197
 msgid "You are already following %s"
-msgstr "Ήδη ακολουθήται %"
+msgstr "Ήδη ακολουθείται %"
 
 # Where is this used? The text might not be correct like this, depending on the context it is used on the website.
 #: Controller/SubsController.php:208
 msgid "Hey! it doesn't seem you're following %s"
-msgstr "Οχ! Φαίνεται πως δεν ακολουθήται  %"
+msgstr "Οχ! Φαίνεται πως δεν ακολουθείται %"
 
 #: Controller/SubsController.php:214
 msgid "You are no longer following %s"
-msgstr "Δεν ακολουθήται αλλο %"
+msgstr "Δεν ακολουθείται αλλο %"
 
 #: Controller/SubsController.php:219
 msgid ""
 "There was a problem processing your request, try again and report if the "
 "rror repeats."
 msgstr ""
+"Υπήρξε ένα πρόβλημα κατά την επεξεργασία, παρακαλώ δοκιμάστε ξανά και "
+"αναφέρτε το στους διαχειριστές τισ ιστοσελίδας εάν επαναληφτεί το σφάλμα."
 
+# notice to me: replace all ακολουθήτε with παρακολουθήτε for "follow"
 #: Controller/SubsController.php:226
 msgid ""
 "You're not even following this entry, please let us know that you saw this "
 "message and we will try to fix this bug."
 msgstr ""
+"Δεν καν ακολουθήτε αυτή την προσθήκη, παρακαλούμε ενημερώστε μας ότι είδατε "
+"αυτό το μήνυμα και θα προσπαθήσουμε να διορθώσουμε το σφάλμα."
 
 #: Controller/SubsController.php:232
 msgid "Looks like you're trying to follow yourself, but that's not allowed."
 msgstr ""
-"Μάλλον προσπαθήται ναι ακολουθήσετε τον εαυτό σας, το οποίο δεν είναι "
-"δυνατόν."
+"Μάλλον προσπαθείτε να ακολουθήσετε τον εαυτό σας, το οποίο δεν είναι δυνατόν."
 
 #: Controller/TermsController.php:35
 msgid "Blend Categories"
@@ -724,7 +740,7 @@ msgstr "Κατηγορίες Blend"
 
 #: Controller/TermsController.php:48;54
 msgid "Invalid category name, these are the ones available."
-msgstr ""
+msgstr "Άκυρη κατηγορία. Αυτές είναι οι υπάρχοντες κατηγορίες."
 
 #: Controller/TermsController.php:108
 msgid "Category: %s"
@@ -734,25 +750,26 @@ msgstr "Κατηγορία: %"
 msgid "Tag: %s"
 msgstr "Ετικέτα: %"
 
+# Notice to me: παράσημο is better than έμβλημα?! Write παράσημο or παράσημο χρήστη?
 #: Controller/UserbadgesController.php:29;60;86
 msgid "Invalid userbadge"
-msgstr ""
+msgstr "Άκυρο έμβλημα"
 
 #: Controller/UserbadgesController.php:43;64
 msgid "The userbadge has been saved"
-msgstr ""
+msgstr "Το έμβλημα αποθηκεύτηκε"
 
 #: Controller/UserbadgesController.php:46;67
 msgid "The userbadge could not be saved. Please, try again."
-msgstr ""
+msgstr "Το παράσημο δεν αποθηκεύτηκε. Παρακαλώ, προσπαθήστε ξανά."
 
 #: Controller/UserbadgesController.php:89
 msgid "Userbadge deleted"
-msgstr ""
+msgstr "Το παράσημο διαγράφηκε"
 
 #: Controller/UserbadgesController.php:92
 msgid "Userbadge was not deleted"
-msgstr ""
+msgstr "Το παράσημο δε διαγράφηκε"
 
 #: Controller/UsersController.php:160;162
 msgid "This user does not exist on Blend Swap."
@@ -787,7 +804,7 @@ msgstr ""
 
 #: Controller/UsersController.php:496;611
 msgid "Captcha was incorrect please try again."
-msgstr ""
+msgstr "Δοκιμή captcha ήταν λάθος, παρακαλώ προσπαθήστε ξανά."
 
 #: Controller/UsersController.php:537
 msgid ""
@@ -817,11 +834,11 @@ msgstr "Ο χρήστης δεν αποθηκεύτηκε. Παρακαλώ, π�
 
 #: Controller/UsersController.php:1551
 msgid "User deleted"
-msgstr ""
+msgstr "Ο χρήστης διαγράφηκε"
 
 #: Controller/UsersController.php:1554
 msgid "User was not deleted"
-msgstr ""
+msgstr "Ο χρήστης δε διαγράφηκε"
 
 #: Controller/VotesController.php:107;175;196
 msgid "The vote has been saved"
@@ -1002,7 +1019,7 @@ msgstr "Επεξεργαστείτε"
 #: View/Requests/index.ctp:48 View/Users/admin_index.ctp:65
 #: View/Users/featured.ctp:49
 msgid "Page {:page} of {:pages}, showing {:current} out of {:count} total."
-msgstr ""
+msgstr "Σελίδα {:page} από {:pages}, δείχνει {:current} από {:count} συνολικά."
 
 #: View/Answers/admin_index.ctp:43 View/Blends/admin_index.ctp:72
 #: View/Blends/index.ctp:32 View/Blends/search.ctp:109 View/Blends/user.ctp:39
@@ -1088,7 +1105,7 @@ msgstr "Χρήστης"
 
 #: View/Answers/admin_view.ctp:24 View/Requests/admin_view.ctp:2
 msgid "Request"
-msgstr ""
+msgstr "Ζήτημα"
 
 #: View/Answers/admin_view.ctp:29 View/Blends/admin_view.ctp:29;151
 #: View/Comments/admin_view.ctp:49 View/Feedbacks/admin_view.ctp:49
@@ -1107,7 +1124,7 @@ msgstr "Διαγράξετε απάντηση"
 
 #: View/Blends/add.ctp:1 View/Elements/menus/topMenu.ctp:139
 msgid "Upload New Blend"
-msgstr ""
+msgstr "Ανεβάστε νέο blend"
 
 #: View/Blends/add.ctp:38 View/Users/edit.ctp:14
 msgid "Basic Data"
@@ -1128,7 +1145,7 @@ msgstr "Τουλάχιστον %d χαρακτήρες"
 
 #: View/Blends/add.ctp:45 View/Blends/edit.ctp:11
 msgid "3D Preview URL"
-msgstr ""
+msgstr "URL προεπισκόπησης 3D "
 
 #: View/Blends/add.ctp:45 View/Blends/edit.ctp:11
 msgid "Optional"
@@ -1136,7 +1153,7 @@ msgstr "Προαιρετικό"
 
 #: View/Blends/add.ctp:45 View/Blends/edit.ctp:11
 msgid "Supports any %s or %s"
-msgstr ""
+msgstr "Υποστηρίζει κάθε %s ή %s"
 
 #: View/Blends/add.ctp:46 View/Elements/navs/taxonomies.ctp:28
 #: View/Questions/index.ctp:33 View/Questions/view.ctp:17
@@ -1157,9 +1174,8 @@ msgid "Choose the blender version this blend was created with"
 msgstr "Επιλέξτε την έκδοση Blender με την οποία δημιουργήσατε αυτό το blend"
 
 #: View/Blends/add.ctp:70 View/Blends/edit.ctp:38
-#, fuzzy
 msgid "Fan Art"
-msgstr "Τέχνη Θαυμαστή"
+msgstr "καλλιτέχνημα θαυμαστή"
 
 #: View/Blends/add.ctp:70
 msgid "Check yes if your blend features company logos, TV or movie characters"
@@ -1178,21 +1194,29 @@ msgstr "Ναί"
 #: View/Blends/add.ctp:77
 msgid "Learn more about %s licenses and how they affect you"
 msgstr ""
+"Μάθετε περισσότερα σχετικά με τις άδειες %s και πώς επηρεάζουν τα δικαιώματα "
+"σας"
 
 #: View/Blends/add.ctp:83
 msgid ""
 "I waive all my copyright of this blend and place it in the Public Domain"
 msgstr ""
+"Παραιτούμαι από όλα τα πνευματικά δικαιώματα μου από αυτό το blend και το "
+"τοποθετώ υπό ελευθέρας χρήσεως (public domain)"
 
 #: View/Blends/add.ctp:84
 msgid ""
 "Users can do whatever they want with this blend, but they must give me credit"
 msgstr ""
+"Οι χρήστες μπορούν να κάνουν ό΄τι θέλουν με αυτό το blend, αλλά θα πρέπει να "
+"αναφέρουν αναγκαστικά τον καλλιτέχνη"
 
 #: View/Blends/add.ctp:85
 msgid ""
 "Same as CC-BY, but users must also release their derivates under CC-BY-SA"
 msgstr ""
+"Όπως η άδεια CC-BY, αλλά οι χρήστες πρέπει να δημοσιεύουν τα παράγωγα έργα "
+"τους υπό την άδεια CC-BY-SA"
 
 #: View/Blends/add.ctp:91 View/Blends/edit.ctp:47
 #: View/Elements/menus/topMenu.ctp:158 View/Elements/navs/taxonomies.ctp:5
@@ -1225,11 +1249,11 @@ msgstr "Διαχείριση αρχείων"
 
 #: View/Blends/add.ctp:125
 msgid "Rar compression is not allowed"
-msgstr ""
+msgstr "Δεν επιτρέπεται να χρησιμοποιήσετε συμπίεση αρχείου Rar"
 
 #: View/Blends/add.ctp:134;150
 msgid "Something failed above, you will have to re-select this file"
-msgstr ""
+msgstr "Κάτι απέτυχε, θα πρέπει να επιλέξετε ξανά αυτό το αρχείο"
 
 #: View/Blends/add.ctp:141
 msgid "Image"
@@ -1238,6 +1262,7 @@ msgstr "Εικόνα"
 #: View/Blends/add.ctp:142
 msgid "Recommended: SQUARE, PNG, 1024px wide, object centered"
 msgstr ""
+"Συνιστάται: Τετραγωνικά, PNG, 1024px πλάτος, με επίκεντρο το αντικείμενο"
 
 #: View/Blends/add.ctp:156
 msgid "Save New Blend"
@@ -1252,14 +1277,14 @@ msgstr ""
 #: View/Comments/admin_view.ctp:88 View/Feedbacks/add.ctp:28
 #: View/Feedbacks/admin_view.ctp:93
 msgid "List Blends"
-msgstr ""
+msgstr "Δείξε blends"
 
 #: View/Blends/admin_add.ctp:36 View/Blends/admin_view.ctp:125
 #: View/Comments/admin_edit.ctp:20 View/Comments/admin_view.ctp:86
 #: View/Feedbacks/add.ctp:27 View/Feedbacks/admin_edit.ctp:47
 #: View/Feedbacks/admin_view.ctp:91
 msgid "List Comments"
-msgstr ""
+msgstr "Δείξε σχόλια"
 
 #: View/Blends/admin_add.ctp:37 View/Blends/admin_view.ctp:126;192
 #: View/Comments/admin_index.ctp:92 View/Comments/admin_view.ctp:87
@@ -1348,9 +1373,8 @@ msgstr "Slug"
 #: View/Feedbacks/admin_view.ctp:39 View/Messages/view.ctp:14
 #: View/Questions/admin_view.ctp:24 View/Reports/admin_view.ctp:29
 #: View/Reports/view.ctp:29 View/Requests/admin_view.ctp:29
-#, fuzzy
 msgid "Body"
-msgstr "Σώμα"
+msgstr "Κείμενο"
 
 #: View/Blends/admin_view.ctp:34;245 View/Messages/view.ctp:19
 msgid "Type"
@@ -1381,13 +1405,15 @@ msgid "Blend File Size"
 msgstr "Μέγεθος αρχείου"
 
 #: View/Blends/admin_view.ctp:84
+#, fuzzy
 msgid "Render Preview"
-msgstr ""
+msgstr "Προεπισκόπηση rendering"
 
 #: View/Blends/admin_view.ctp:89 View/Blends/view.ctp:18
 #: View/Downloads/admin_index.ctp:2
+#, fuzzy
 msgid "Downloads"
-msgstr ""
+msgstr "Λήψεις"
 
 #: View/Blends/admin_view.ctp:94
 msgid "Fav Count"
@@ -1438,9 +1464,8 @@ msgstr "Id Χρήστη"
 
 #: View/Blends/admin_view.ctp:146 View/Comments/admin_view.ctp:14
 #: View/Feedbacks/admin_view.ctp:24 View/Users/edit.ctp:20
-#, fuzzy
 msgid "Username"
-msgstr "Όνομα Χρήστη"
+msgstr "Όνομα χρήστη"
 
 #: View/Blends/admin_view.ctp:147 View/Comments/admin_view.ctp:19
 #: View/Feedbacks/admin_view.ctp:29
@@ -1552,8 +1577,9 @@ msgid "Basic data"
 msgstr "Βασικά στοιχεία"
 
 #: View/Blends/edit.ctp:83
+#, fuzzy
 msgid "Log your changes"
-msgstr ""
+msgstr "Οι αλλαγές σας"
 
 #: View/Blends/edit.ctp:85
 msgid "What did you change?"
@@ -1583,21 +1609,24 @@ msgstr "Δημοσιεύτηκε"
 
 #: View/Blends/view.ctp:14
 msgid "License"
-msgstr ""
+msgstr "Άδεια έργου"
 
 #: View/Blends/view.ctp:26 View/Users/index.ctp:30
 msgid "Likes"
-msgstr ""
+msgstr "Αρέσουν σε"
 
 #: View/Blends/view.ctp:37
+#, fuzzy
 msgid ""
 "The author of this blend is temporarily blocked and so we will not serve "
 "their blends, sorry for the inconvenience. "
 msgstr ""
+"Ο καλλιτέχνης αυτού του blend είναι προσωρινά σε αναστολή και γι 'αυτό δεν "
+"μπορείτε να κατεβάσετε τα blend του. Συγγνώμη για οποιαδήποτε ταλαιπωρία."
 
 #: View/Blends/view.ctp:46
 msgid "Zip file MD5 checksum"
-msgstr ""
+msgstr "Άθρισμα ελέγχου MD5 αρχείου Zip"
 
 #: View/Blends/rss/index.ctp:3
 msgid "Latest Blends"
@@ -1621,7 +1650,7 @@ msgstr ""
 
 #: View/Chats/index.ctp:1
 msgid "Chats"
-msgstr ""
+msgstr "Chats"
 
 #: View/Comments/admin_edit.ctp:4 View/Comments/admin_view.ctp:84
 #: View/Feedbacks/admin_edit.ctp:5 View/Feedbacks/admin_view.ctp:89
@@ -1672,11 +1701,11 @@ msgstr "Νέο Download"
 
 #: View/Elements/commentList.ctp:10
 msgid "No %s yet, leave yours!"
-msgstr ""
+msgstr "Δεν υπάρχουν ακόμη %s, γράξτε το πρώτο!"
 
 #: View/Elements/new_question.ctp:3
 msgid "Need help with Blender?"
-msgstr ""
+msgstr "Χρειάζεστε βοήθεια με το Blender;"
 
 #: View/Elements/new_question.ctp:5
 msgid "Ask a Question!"
@@ -1736,7 +1765,7 @@ msgstr ""
 
 #: View/Elements/placeholder.ctp:17
 msgid "Low Poly"
-msgstr ""
+msgstr "Low Poly"
 
 #: View/Elements/placeholder.ctp:18
 msgid "Materials"
@@ -1760,7 +1789,7 @@ msgstr ""
 
 #: View/Elements/placeholder.ctp:23
 msgid "Particles"
-msgstr ""
+msgstr "Σωματίδια"
 
 #: View/Elements/placeholder.ctp:24
 msgid "Accessories"
@@ -1772,7 +1801,7 @@ msgstr "Φυτά"
 
 #: View/Elements/placeholder.ctp:26
 msgid "Python Scripts"
-msgstr ""
+msgstr "Σκρίπτ Python"
 
 #: View/Elements/placeholder.ctp:27
 msgid "Real Time"
@@ -1780,7 +1809,7 @@ msgstr "Πραγματικός χρόνος"
 
 #: View/Elements/placeholder.ctp:28
 msgid "Rigs"
-msgstr ""
+msgstr "Rigs"
 
 #: View/Elements/placeholder.ctp:29
 msgid "Scenes"
@@ -1788,7 +1817,7 @@ msgstr "Σκηνές"
 
 #: View/Elements/placeholder.ctp:30
 msgid "Sci-Fi"
-msgstr ""
+msgstr "Επιστημονική φαντασία"
 
 #: View/Elements/placeholder.ctp:31
 msgid "Simulations"
@@ -1800,7 +1829,7 @@ msgstr "Φαβορί προσωπικού"
 
 #: View/Elements/placeholder.ctp:33
 msgid "Textures"
-msgstr ""
+msgstr "Textures"
 
 #: View/Elements/placeholder.ctp:34
 msgid "Tools"
@@ -1875,51 +1904,52 @@ msgid "Answers"
 msgstr "Απαντήσεις"
 
 #: View/Elements/bars/blend_actions.ctp:7
+#, fuzzy
 msgid "Click to unlike this blend"
-msgstr ""
+msgstr "Κάντε κλικ για να μην σας αρέσει"
 
 #: View/Elements/bars/blend_actions.ctp:10
 msgid "Like"
-msgstr ""
+msgstr "Μ΄αρέσει"
 
 #: View/Elements/bars/blend_actions.ctp:13
 msgid "Add this blend to a collection"
-msgstr ""
+msgstr "Προσθέστε αυτό το blend σε μια συλλογή σας"
 
 #: View/Elements/bars/blend_actions.ctp:16
 msgid "Add to"
-msgstr ""
+msgstr "Προσθέστε στο"
 
 #: View/Elements/bars/blend_actions.ctp:19
 msgid "Share this"
-msgstr ""
+msgstr "Μοιραστείτε αυτό"
 
 #: View/Elements/bars/blend_actions.ctp:20
 #: View/Elements/bars/request_actions.ctp:28
 msgid "Share"
-msgstr ""
+msgstr "Μοιραστείτε"
 
 #: View/Elements/bars/blend_actions.ctp:38
 #: View/Elements/bars/request_actions.ctp:46
 msgid "Click to start following comments here"
-msgstr ""
+msgstr "Κάντε κλικ για να ακολουθήστε τα σχόλια"
 
 #: View/Elements/bars/blend_actions.ctp:41
 #: View/Elements/bars/news_actions.ctp:31
 #: View/Elements/bars/request_actions.ctp:50
 msgid "Follow"
-msgstr ""
+msgstr "Ακολουθήστε"
 
 #: View/Elements/bars/blend_actions.ctp:45
 #: View/Elements/bars/request_actions.ctp:54
 msgid "Click to stop following comments here"
-msgstr ""
+msgstr "Κάντε κλικ για να σταματήσετε να ακολουθήτε τα σχόλια"
 
 #: View/Elements/bars/blend_actions.ctp:48
 #: View/Elements/bars/news_actions.ctp:24
 #: View/Elements/bars/request_actions.ctp:58
 msgid "Unfollow"
-msgstr ""
+msgstr "Μην παρακολουθείτε"
 
 #: View/Elements/bars/blend_actions.ctp:53 View/Reports/admin_view.ctp:2
 #: View/Reports/view.ctp:2
@@ -1928,7 +1958,7 @@ msgstr "Καταγγελία"
 
 #: View/Elements/bars/blend_actions.ctp:55
 msgid "Report an infraction on this blend."
-msgstr ""
+msgstr "Καταγγείλετε μια παράβαση σε αυτό το blend."
 
 #: View/Elements/bars/owner_bar.ctp:6
 msgid "Blend Page"
@@ -1955,30 +1985,35 @@ msgstr "Διαχείριση αρχείων"
 #: View/Elements/bars/owner_bar.ctp:38
 msgid "Manage the blend file and preview images for this blend."
 msgstr ""
+"Διαχειριστείτε το αρχείο και τις εικόνες προεπισκόπησης για αυτό το blend."
 
 #: View/Elements/bars/request_actions.ctp:7
 msgid "Remove from your work in progress list"
-msgstr ""
+msgstr "Διαγράψτε από τη λίστα τον έργων σε εξέλιξη"
 
 #: View/Elements/bars/request_actions.ctp:10
 msgid "Cancel WIP"
-msgstr ""
+msgstr "Ακυρώστε ένα έργο σε εξέλιξη"
 
 #: View/Elements/bars/request_actions.ctp:14
+#, fuzzy
 msgid "Add to your work in progress list"
-msgstr ""
+msgstr "Προσθέστε στα έργα σε εξέλιξη σας"
 
 #: View/Elements/bars/request_actions.ctp:17
+#, fuzzy
 msgid "Add to WIP"
-msgstr ""
+msgstr "Σημειώσετε ως ένα έργο σε εξέλιξη"
 
 #: View/Elements/bars/request_actions.ctp:21
+#, fuzzy
 msgid "Add your Blend Response"
-msgstr ""
+msgstr "Απαντήστε με το blend σας"
 
 #: View/Elements/bars/request_actions.ctp:24
+#, fuzzy
 msgid "Submit Blend Response"
-msgstr ""
+msgstr "Καταχωρήστε blend"
 
 #: View/Elements/bars/request_actions.ctp:65
 msgid "Manage"
@@ -1990,28 +2025,33 @@ msgstr "Διαχειριστείτε εικόνες"
 
 #: View/Elements/bars/request_actions.ctp:81
 msgid "Close Request"
-msgstr ""
+msgstr "Κλείστε το ζήτημα"
 
 #: View/Elements/bars/request_actions.ctp:84
+#, fuzzy
 msgid "This Blend Request will be closed to new answers. Are you sure?"
-msgstr ""
+msgstr "Το ζήτημα αυτό θα είναι κλειστό για νέες απαντήσεις. Είσαστε σίγουρος;"
 
 #: View/Elements/bars/request_actions.ctp:86
 msgid "Re-Open Request"
-msgstr ""
+msgstr "Επαναλάβετε το ζήτημα"
 
 #: View/Elements/bars/request_actions.ctp:88
 msgid "Click here to enable answers for this Request"
-msgstr ""
+msgstr "Κάντε κλικ εδώ για να επιτρέψετε απαντήσεις για αυτό το ζήτημα"
 
 #: View/Elements/forms/commentForm.ctp:5
 msgid "Remember to keep your %s cool, harsh %s will be removed"
 msgstr ""
+"Θυμηθείτε να διατηρήστε την ψυχραιμία σας στα %s, s% με απρεπή τόνο θα "
+"διαγραφούν"
 
 #: View/Elements/forms/commentForm.ctp:6
 msgid ""
 "%s containing profanity will be queued for moderation. Please report spam."
 msgstr ""
+"%s περιλαμβάνει αισχρολογίες και περιμένει υποβολή. Παρακαλούμε αναφέρετε "
+"spam."
 
 #: View/Elements/forms/commentForm.ctp:19
 msgid "You must log in to leave a comment"
@@ -2023,7 +2063,7 @@ msgstr "Περιήγηση"
 
 #: View/Elements/menus/topMenu.ctp:6
 msgid "The Blend Swap Features"
-msgstr ""
+msgstr "Τα χαρακτηριστικά του Blend Swap"
 
 #: View/Elements/menus/topMenu.ctp:7
 msgid "Faq"
@@ -2063,27 +2103,27 @@ msgstr "Περισσότερα"
 
 #: View/Elements/menus/topMenu.ctp:16 View/Layouts/frontend.ctp:178
 msgid "About Blender"
-msgstr ""
+msgstr "Για το Blender"
 
 #: View/Elements/menus/topMenu.ctp:16
 msgid "What is Blender and why you will love it."
-msgstr ""
+msgstr "Τι είναι το Blender και γιατί θα το αγαπήσετε."
 
 #: View/Elements/menus/topMenu.ctp:17 View/Layouts/frontend.ctp:184
 msgid "Learn Blender"
-msgstr ""
+msgstr "Μάθετε το Blender"
 
 #: View/Elements/menus/topMenu.ctp:17
 msgid "A listing of awesome Blender tutorials."
-msgstr ""
+msgstr "Μία λίστα καταπληκτικών μαθημάτων για το Blender."
 
 #: View/Elements/menus/topMenu.ctp:20 View/Layouts/frontend.ctp:222
 msgid "File Licensing"
-msgstr ""
+msgstr "Άδεια αρχείου"
 
 #: View/Elements/menus/topMenu.ctp:20
 msgid "Blend File Licensing"
-msgstr ""
+msgstr "Άδεια αρχείου Blend"
 
 # Too long? But that's how it's said :(
 #: View/Elements/menus/topMenu.ctp:21 View/Layouts/frontend.ctp:228
@@ -2104,11 +2144,11 @@ msgstr "Όροι Χρήσης"
 
 #: View/Elements/menus/topMenu.ctp:25
 msgid "Our RSS Feeds"
-msgstr ""
+msgstr "Το RSS feed μας"
 
 #: View/Elements/menus/topMenu.ctp:25
 msgid "All our available RSS feeds."
-msgstr ""
+msgstr "Όλα τα RSS feed μας."
 
 #: View/Elements/menus/topMenu.ctp:31
 msgid "Latest activity"
@@ -2137,11 +2177,11 @@ msgstr "Ιστορία bandwidth"
 
 #: View/Elements/menus/topMenu.ctp:56
 msgid "Your Associate Membership has"
-msgstr ""
+msgstr "Η συνεταιρική συνδρομή σας περιλαμβάνει"
 
 #: View/Elements/menus/topMenu.ctp:59
 msgid "Your Deadline Membership has"
-msgstr ""
+msgstr "Η Deadline συνδρομή σας περιλαμβάνει"
 
 #: View/Elements/menus/topMenu.ctp:61
 msgid "Unlimited Bandwidth"
@@ -2149,7 +2189,7 @@ msgstr "Απεριόριστο Bandwidth"
 
 #: View/Elements/menus/topMenu.ctp:65
 msgid "Your Associate membership is set to auto-renew."
-msgstr ""
+msgstr "Έχετε επιλέξει η συνεταιρική συνδρομή σας να ανανεώνεται αυτόματα."
 
 #: View/Elements/menus/topMenu.ctp:68;71
 msgid "Until"
@@ -2203,7 +2243,7 @@ msgstr "Όλα τα blends"
 
 #: View/Elements/menus/topMenu.ctp:139;183
 msgid "Upload a new Blend"
-msgstr ""
+msgstr "Ανεβάστε ενα νέο blend"
 
 #: View/Elements/menus/topMenu.ctp:146
 msgid "Only CC-Zero Blends"
@@ -2235,79 +2275,79 @@ msgstr "Φιλτράρετε Blends"
 
 #: View/Elements/menus/topMenu.ctp:158
 msgid "All blend categories."
-msgstr "Όλες οι κατηγορίες/"
+msgstr "Όλες οι κατηγορίες."
 
 #: View/Elements/menus/topMenu.ctp:161
 msgid "Blends selected by the admins."
-msgstr ""
+msgstr "Επιλεγμένα Blends από τους διαχειριστές ιστοσελίδας."
 
 #: View/Elements/menus/topMenu.ctp:164
 msgid "Blend Collections"
-msgstr "Σηλλογές Blend"
+msgstr "Συλλογές Blend"
 
 #: View/Elements/menus/topMenu.ctp:164
 msgid "Publicly visible Blend Collections by our users."
-msgstr ""
+msgstr "Δημοσίως ορατές συλλογές Blend από τους χρήστες μας."
 
 #: View/Elements/menus/topMenu.ctp:168
 msgid "Durian OMP"
-msgstr ""
+msgstr "Durian OMP"
 
 #: View/Elements/menus/topMenu.ctp:168
 msgid "Durian Open Movie Project."
-msgstr ""
+msgstr "Durian Open Movie πρόγραμμα."
 
 #: View/Elements/menus/topMenu.ctp:171
 msgid "HJM Contest"
-msgstr ""
+msgstr "Διαγωνισμός HJM"
 
 #: View/Elements/menus/topMenu.ctp:171
 msgid "HJ Media Military Contest"
-msgstr ""
+msgstr "HJ Media στρατιωτικός Διαγωνισμός"
 
 #: View/Elements/menus/topMenu.ctp:174
 msgid "Fantasy Contest"
-msgstr ""
+msgstr "Διαγωνισμός Fantasy"
 
 #: View/Elements/menus/topMenu.ctp:174
 msgid "Fantasy Character Contest"
-msgstr ""
+msgstr "Διαγωνισμός φανταστικοί χαρακτήρες"
 
 #: View/Elements/menus/topMenu.ctp:178;202;216
 msgid "RSS Feed"
-msgstr ""
+msgstr "RSS Feed"
 
 #: View/Elements/menus/topMenu.ctp:183
 msgid "Upload"
-msgstr ""
+msgstr "Ανεβάστε"
 
 #: View/Elements/menus/topMenu.ctp:186 View/Requests/admin_index.ctp:2
 msgid "Requests"
-msgstr ""
+msgstr "Ζητήσεις"
 
 #: View/Elements/menus/topMenu.ctp:190
 msgid "New Request"
-msgstr ""
+msgstr "Νέα ζήτηση"
 
 #: View/Elements/menus/topMenu.ctp:190
 msgid "Create a new blend Request"
-msgstr ""
+msgstr "Ζητήστε νέο blend"
 
 #: View/Elements/menus/topMenu.ctp:195
 msgid "Open Requests"
-msgstr ""
+msgstr "Ανεκπλήρωτα ζητήματα"
 
 #: View/Elements/menus/topMenu.ctp:195
 msgid "Requests still open to responses"
-msgstr ""
+msgstr "Ζητήματα που περιμένουν απαντήσεις"
 
 #: View/Elements/menus/topMenu.ctp:198
 msgid "Closed Requests"
-msgstr ""
+msgstr "Τελειωμένα ζητήματα"
 
 #: View/Elements/menus/topMenu.ctp:198
 msgid "Requests closed to new responses"
-msgstr ""
+msgstr "Ζητήματα κλειστά για νέες απαντήσεις"
 
 #: View/Elements/menus/topMenu.ctp:207 View/Layouts/frontend.ctp:100
 #: View/Questions/admin_index.ctp:2
@@ -2338,7 +2378,7 @@ msgstr "Επώνυμοι καλλιτέχνες"
 
 #: View/Elements/menus/topMenu.ctp:231 View/Layouts/frontend.ctp:97
 msgid "User Badges"
-msgstr ""
+msgstr "Εμβλήματα"
 
 #: View/Elements/menus/topMenu.ctp:236 View/Layouts/frontend.ctp:194
 msgid "Help"
@@ -2394,11 +2434,11 @@ msgstr "Blog Νέα ιστοσελίδας"
 
 #: View/Elements/navs/usernav.ctp:39
 msgid "Admin Notifications"
-msgstr ""
+msgstr "Ειδοποιήσεις διαχειριστών ιστοσελίδας"
 
 #: View/Elements/navs/usernav.ctp:48
 msgid "Buzz"
-msgstr ""
+msgstr "Buzz"
 
 #: View/Elements/navs/usernav.ctp:60 View/Messages/index.ctp:2
 msgid "Messages"
@@ -2410,7 +2450,7 @@ msgstr "Τα πράγματά μου"
 
 #: View/Elements/navs/usernav.ctp:88
 msgid "My Badges"
-msgstr ""
+msgstr "Τα εμβλήματά μου"
 
 #: View/Elements/navs/usernav.ctp:96
 msgid "My Likes"
@@ -2435,11 +2475,11 @@ msgstr "Επεξεργασία πορτφόλιο εργασιών"
 
 #: View/Elements/navs/usernav.ctp:138
 msgid "Account &amp; Settings"
-msgstr ""
+msgstr "Λογαριασμός και Ρυθμίσεις"
 
 #: View/Elements/navs/usernav.ctp:147 View/Users/view.ctp:91
 msgid "Manage Membership"
-msgstr ""
+msgstr "Διαχείριση συνδρομής"
 
 #: View/Elements/navs/usernav.ctp:155
 msgid "Change Password"
@@ -2455,19 +2495,19 @@ msgstr "Προσθήκη σχολίου"
 
 #: View/Helper/DashboardHelper.php:80
 msgid "mentioned you on"
-msgstr ""
+msgstr "σας ανάφερε στο"
 
 #: View/Helper/DashboardHelper.php:84
 msgid "gives you a warm welcome!"
-msgstr ""
+msgstr "σας καλωσορίζει θερμά!"
 
 #: View/Helper/DashboardHelper.php:88;92;100
 msgid "Admin Notice:"
-msgstr ""
+msgstr "Μήνυμα διαχειριστή:"
 
 #: View/Helper/DashboardHelper.php:96
 msgid "Associates Only: "
-msgstr ""
+msgstr "Μόνο Συνδρομητές:"
 
 #: View/Helper/DashboardHelper.php:104
 msgid "left a comment on"
@@ -2483,52 +2523,54 @@ msgstr "έκανε μια νέα ερώτηση:"
 
 #: View/Helper/DashboardHelper.php:121
 msgid "opened a new request:"
-msgstr ""
+msgstr "άνοιξε ένα νέο ζήτημα:"
 
 #: View/Helper/DashboardHelper.php:125
 msgid "started following you"
-msgstr ""
+msgstr "σας ακολουθεί τώρα"
 
 #: View/Helper/DashboardHelper.php:129
 msgid "mentioned you on a comment"
-msgstr ""
+msgstr "σας ανέφερε σε ένα σχόλιο"
 
 #: View/Helper/DashboardHelper.php:133
 msgid "published the new blend"
-msgstr ""
+msgstr "δημοσίευσε το νέο blend"
 
 #: View/Helper/DashboardHelper.php:138
 msgid "published the new blend:"
-msgstr ""
+msgstr "δημοσίευσε το νέο blend:"
 
 #: View/Helper/DashboardHelper.php:142
 msgid "likes the blend"
-msgstr ""
+msgstr "αρέσει το blend"
 
 #: View/Helper/DashboardHelper.php:146
 msgid "collected the blend"
-msgstr ""
+msgstr "σύλλεξε το blend"
 
 #: View/Helper/DashboardHelper.php:150;155
 msgid "published a news update"
-msgstr ""
+msgstr "δημοσίευσε Νέα"
 
 #: View/Helper/DashboardHelper.php:159
 msgid "interacted with"
-msgstr ""
+msgstr "αλληλεπίδρασε με"
 
 #: View/Helper/SingleBlendHelper.php:41
 msgid "Download"
-msgstr ""
+msgstr "Κατεβάστε"
 
 #: View/Helper/SingleBlendHelper.php:48
 msgid ""
 "Looks like this blend file is too big for your allowed bandwidth this month!"
 msgstr ""
+"Δεν επιτρέπεται να το κατεβάσετε το αρχείο του blend, επειδή είναι πιό "
+"μεγάλο απο το μηνιαίο bandwidth που σας περισσεύει!"
 
 #: View/Helper/SingleBlendHelper.php:62
 msgid "You must log in to download this blend"
-msgstr ""
+msgstr "Πρέπει να συνδεθείτε για να κατεβάσετε αυτό το blend"
 
 #: View/Helper/SingleBlendHelper.php:107
 msgid "Latest Change"
@@ -2536,49 +2578,53 @@ msgstr "Τελευταία Αλλαγή"
 
 #: View/Helper/SingleBlendHelper.php:139
 msgid "An error ocurred while reading this license."
-msgstr ""
+msgstr "Παρουσιάστηκε σφάλμα κατά την ανάγνωση της άδειας αρχείου."
 
 #: View/Helper/SingleBlendHelper.php:149
 msgid ""
 "It is recommended that you give credit for this blend but there's no "
 "obligation to do so"
 msgstr ""
+"Συνιστάται να αναφέρεται το καλλιτέχνη του blend, αλλά δεν υπάρχει υποχρέωση "
+"να το κάνετε."
 
 #: View/Helper/SingleBlendHelper.php:175
 msgid "This blend was taken down on "
-msgstr ""
+msgstr "Αυτό το blend αφαιρέθηκε τον"
 
 #: View/Helper/SingleBlendHelper.php:180
 msgid "This blend was rejected on "
-msgstr ""
+msgstr "Αυτό το blend απορρίφθηκε τον"
 
 #: View/Helper/SingleBlendHelper.php:185
 msgid "This blend is pending and is not accessible by normal users"
 msgstr ""
+"Αυτό το blend περιμένει να εγκρηθεί και δεν είναι προσβάσιμο από απλούς "
+"χρήστες"
 
 #: View/Keys/add.ctp:4
 msgid "Add Key"
-msgstr ""
+msgstr "Προσθήκη κλειδί"
 
 #: View/Keys/add.ctp:19 View/Keys/edit.ctp:21 View/Keys/view.ctp:41
 msgid "List Keys"
-msgstr ""
+msgstr "Λίστα κλειδιών"
 
 #: View/Keys/edit.ctp:4 View/Keys/view.ctp:39
 msgid "Edit Key"
-msgstr ""
+msgstr "Επεξεργασία κλειδί"
 
 #: View/Keys/index.ctp:2
 msgid "Keys"
-msgstr ""
+msgstr "Κλειδιά"
 
 #: View/Keys/index.ctp:48 View/Keys/view.ctp:42
 msgid "New Key"
-msgstr ""
+msgstr "Νέο Κλειδί"
 
 #: View/Keys/view.ctp:2;19 View/Options/admin_view.ctp:9
 msgid "Key"
-msgstr ""
+msgstr "Κλειδί"
 
 #: View/Keys/view.ctp:14
 msgid "Route"
@@ -2586,33 +2632,31 @@ msgstr ""
 
 #: View/Keys/view.ctp:29 View/Users/bandwidth.ctp:40
 msgid "Expires"
-msgstr ""
+msgstr "Λήγει"
 
 #: View/Keys/view.ctp:40
 msgid "Delete Key"
-msgstr ""
+msgstr "Διαγραφή Κλειδιού"
 
 #: View/Layouts/frontend.ctp:79
 msgid "Service"
-msgstr ""
+msgstr "Υπηρεσία"
 
 #: View/Layouts/frontend.ctp:82
 msgid "Browse All Blends"
 msgstr "Αναζητήστε όλα τα Blend"
 
 #: View/Layouts/frontend.ctp:88
-#, fuzzy
 msgid "Browse Blend Requests"
-msgstr "Αναζητήστε όλα τα Blend Requests"
+msgstr "Αναζητήστε όλα τα ζητήματα για blend"
 
 #: View/Layouts/frontend.ctp:91
 msgid "Browse Blend Collections"
-msgstr "Αναζητήστε όλες τις Blend σηλλογές"
+msgstr "Αναζητήστε όλες τις blend συλλογές"
 
 #: View/Layouts/frontend.ctp:94
-#, fuzzy
 msgid "Users Index"
-msgstr "Ευρετήριο Χρήστες"
+msgstr "Ευρετήριο Χρήστων"
 
 #: View/Layouts/frontend.ctp:105
 msgid "Accounts"
@@ -2620,23 +2664,23 @@ msgstr "Λογαριασμοί"
 
 #: View/Layouts/frontend.ctp:108
 msgid "Membership"
-msgstr ""
+msgstr "Συνδρομή"
 
 #: View/Layouts/frontend.ctp:111
 msgid "Free Membership"
-msgstr ""
+msgstr "Δωρεάν συνδρομή"
 
 #: View/Layouts/frontend.ctp:114
 msgid "Associate Membership"
-msgstr ""
+msgstr "Συνεταιρική συνδρομή"
 
 #: View/Layouts/frontend.ctp:117
 msgid "Deadline Membership"
-msgstr ""
+msgstr "Deadline συνδρομή"
 
 #: View/Layouts/frontend.ctp:123
 msgid "Bandwidth Assignation"
-msgstr ""
+msgstr "Χορήγηση bandwidth"
 
 #: View/Layouts/frontend.ctp:128
 msgid "Site"
@@ -2652,19 +2696,17 @@ msgstr "Διαφήμιση"
 
 #: View/Layouts/frontend.ctp:151
 msgid "Connect"
-msgstr ""
+msgstr "Σύνδεθείτε"
 
 #: View/Layouts/frontend.ctp:181
 msgid "Get Blender"
-msgstr ""
+msgstr "Κατεβάστε το Blender"
 
 #: View/Layouts/frontend.ctp:191
-#, fuzzy
 msgid "Support"
 msgstr "Υποστήριξη"
 
 #: View/Layouts/frontend.ctp:204
-#, fuzzy
 msgid "Access"
 msgstr "Πρόσβαση"
 
@@ -2690,11 +2732,13 @@ msgstr "Δοκιμάστε την ξενάγηση!"
 
 #: View/Layouts/frontend.ctp:244
 msgid "All rights reserved"
-msgstr ""
+msgstr "All rights reserved"
 
 #: View/Layouts/frontend.ctp:245
 msgid "Except where noted, all content is released under"
 msgstr ""
+"Εκτός από τις περιπτώσεις που αναφέρεται διαφορετικά, όλα το περιεχόμενα "
+"διατίθονται με την άδεια"
 
 #: View/Limits/admin_add.ctp:4
 msgid "Add Limit"
@@ -2732,29 +2776,29 @@ msgstr ""
 
 #: View/Messages/add.ctp:4
 msgid "Add Message"
-msgstr ""
+msgstr "Προσθήκη μηνύματος"
 
 #: View/Messages/add.ctp:18 View/Messages/edit.ctp:20
 #: View/Messages/view.ctp:46 View/Users/admin_index.ctp:81
 msgid "List Messages"
-msgstr ""
+msgstr "Λίστα μηνυμάτων"
 
 #: View/Messages/edit.ctp:4 View/Messages/view.ctp:44
 msgid "Edit Message"
-msgstr ""
+msgstr "Επεξεργασία μηνύματος"
 
 #: View/Messages/index.ctp:50 View/Messages/view.ctp:47
 #: View/Users/admin_index.ctp:82
 msgid "New Message"
-msgstr ""
+msgstr "Νέο μήνυμα"
 
 #: View/Messages/view.ctp:2
 msgid "Message"
-msgstr ""
+msgstr "Μήνυμα"
 
 #: View/Messages/view.ctp:45
 msgid "Delete Message"
-msgstr ""
+msgstr "Διαγραφή μηνύματος"
 
 #: View/News/admin_add.ctp:18 View/News/admin_edit.ctp:22
 msgid "Save"
@@ -2774,11 +2818,11 @@ msgstr ""
 
 #: View/News/rss/index.ctp:3
 msgid "Latest news"
-msgstr ""
+msgstr "Τελευταία Νέα"
 
 #: View/News/rss/index.ctp:5
 msgid "Blend Swap Site news and updates."
-msgstr ""
+msgstr "Νέα και ενημερώσεις της ιστοσελίδας Blend Swap."
 
 #: View/Options/admin_add.ctp:4
 msgid "Add Option"
@@ -2872,11 +2916,11 @@ msgstr ""
 
 #: View/Profiles/admin_view.ctp:14
 msgid "First Name"
-msgstr ""
+msgstr "Όνομα"
 
 #: View/Profiles/admin_view.ctp:19
 msgid "Last Name"
-msgstr ""
+msgstr "Επόνυμο"
 
 #: View/Profiles/admin_view.ctp:24
 msgid "Website"
@@ -2884,39 +2928,39 @@ msgstr "Ιστοσελίδα"
 
 #: View/Profiles/admin_view.ctp:39
 msgid "Bio"
-msgstr ""
+msgstr "Βιογραφία"
 
 #: View/Profiles/admin_view.ctp:44
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: View/Profiles/admin_view.ctp:49
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: View/Profiles/admin_view.ctp:54
 msgid "Deviantart"
-msgstr ""
+msgstr "Deviantart"
 
 #: View/Profiles/admin_view.ctp:59
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: View/Profiles/admin_view.ctp:64
 msgid "Youtube"
-msgstr ""
+msgstr "Youtube"
 
 #: View/Profiles/admin_view.ctp:69
 msgid "Bartists"
-msgstr ""
+msgstr "Bartists"
 
 #: View/Profiles/admin_view.ctp:74
 msgid "Flickr"
-msgstr ""
+msgstr "Flickr"
 
 #: View/Profiles/admin_view.ctp:79
 msgid "Blend Count"
-msgstr ""
+msgstr "Αριθμός Blend"
 
 #: View/Profiles/admin_view.ctp:95
 msgid "Delete Profile"
@@ -2924,7 +2968,7 @@ msgstr ""
 
 #: View/Questions/add.ctp:21
 msgid "Ask a new Question!"
-msgstr ""
+msgstr "Κάντε μια ερώτηση!"
 
 #: View/Questions/admin_add.ctp:4
 msgid "Admin Add Question"
@@ -2945,7 +2989,7 @@ msgstr ""
 
 #: View/Questions/admin_view.ctp:39 View/Questions/edit.ctp:4
 msgid "Edit Question"
-msgstr ""
+msgstr "Επεξεργαστήστε την ερώτηση"
 
 #: View/Questions/admin_view.ctp:40
 msgid "Delete Question"
@@ -2953,7 +2997,7 @@ msgstr ""
 
 #: View/Questions/index.ctp:17 View/Questions/view.ctp:8
 msgid "by"
-msgstr ""
+msgstr "από"
 
 #: View/Questions/index.ctp:56
 msgid ""
@@ -2968,11 +3012,11 @@ msgstr "Απάντηση"
 
 #: View/Questions/rss/index.ctp:3
 msgid "Blend Swap Questions"
-msgstr ""
+msgstr "Blend Swap Ερωτήσεις"
 
 #: View/Questions/rss/index.ctp:5
 msgid "Most recent questions on Blend Swap."
-msgstr ""
+msgstr "Πιό πρόσφατες ερωτήσεις στο Blend Swap."
 
 #: View/Reports/__add.ctp:4
 msgid "Add Report"
@@ -2995,11 +3039,11 @@ msgstr ""
 #: View/Reports/admin_index.ctp:62 View/Reports/admin_view.ctp:42
 #: View/Reports/view.ctp:42
 msgid "New Report"
-msgstr ""
+msgstr "Νέα καταγγελία"
 
 #: View/Reports/admin_view.ctp:24 View/Reports/view.ctp:24
 msgid "Reason"
-msgstr ""
+msgstr "Λόγος"
 
 #: View/Reports/admin_view.ctp:40 View/Reports/view.ctp:40
 msgid "Delete Report"
@@ -3007,7 +3051,7 @@ msgstr ""
 
 #: View/Requests/add.ctp:45
 msgid "Request a Blend"
-msgstr ""
+msgstr "Ζητήστε ένα Blend"
 
 #: View/Requests/admin_add.ctp:4
 msgid "Admin Add Request"
@@ -3019,7 +3063,7 @@ msgstr ""
 
 #: View/Requests/admin_view.ctp:44 View/Requests/edit.ctp:4
 msgid "Edit Request"
-msgstr ""
+msgstr "Επεξεργαστήτε ζήτημα"
 
 #: View/Requests/admin_view.ctp:45
 msgid "Delete Request"
@@ -3035,39 +3079,39 @@ msgstr ""
 
 #: View/Requests/index.ctp:29
 msgid "Requested by"
-msgstr ""
+msgstr "Ζητήται απο τόν"
 
 #: View/Requests/index.ctp:32
 msgid "Workers"
-msgstr ""
+msgstr "Βοηθούν"
 
 #: View/Requests/index.ctp:35
 msgid "Requirements"
-msgstr ""
+msgstr "Απαιτήσεις"
 
 #: View/Requests/view.ctp:73
 msgid "Responders"
-msgstr ""
+msgstr "Ανταποκριθέντες"
 
 #: View/Requests/view.ctp:97
 msgid "Work In Progress"
-msgstr ""
+msgstr "Εργασίες σε εξέλιξη"
 
 #: View/Requests/rss/index.ctp:3
 msgid "Latest Requests"
-msgstr ""
+msgstr "Πρόσφατα ζητήματα"
 
 #: View/Requests/rss/index.ctp:5
 msgid "Most recent requests on Blend Swap."
-msgstr ""
+msgstr "Πιό πρόσφατα ζητήματα στο Blend Swap."
 
 #: View/Users/account.ctp:4 View/Users/admin_view.ctp:231
 msgid "Edit User"
-msgstr ""
+msgstr "Επεξεργασία χρήστη"
 
 #: View/Users/add.ctp:174
 msgid "Sign me up!"
-msgstr ""
+msgstr "Εγγράφετέ με!"
 
 #: View/Users/admin_add.ctp:4
 msgid "Admin Add User"
@@ -3099,35 +3143,35 @@ msgstr ""
 
 #: View/Users/associate.ctp:146
 msgid "Sign Me Up"
-msgstr ""
+msgstr "Εγγράφετέ με"
 
 #: View/Users/bandwidth.ctp:6
 msgid "Your bandwidth history by month"
-msgstr ""
+msgstr "Το μηνιαίο ηστορικό του bandwidth σας"
 
 #: View/Users/bandwidth.ctp:8
 msgid "You have unlimited bandwidth! you can totally ignore this"
-msgstr ""
+msgstr "Έχετε απεριόριστο bandwidth! Mπορείτε να to αγνοήσετε εντελώς"
 
 #: View/Users/bandwidth.ctp:12
 msgid "Learn how bandwidth is assigned"
-msgstr ""
+msgstr "Μάθετε πώς χορηγήται το bandwidth"
 
 #: View/Users/bandwidth.ctp:36
 msgid "Initialized"
-msgstr ""
+msgstr "Έτοιμο!"
 
 #: View/Users/bandwidth.ctp:47
 msgid "Is this wrong?"
-msgstr ""
+msgstr "Είναι λάθος;"
 
 #: View/Users/bandwidth.ctp:49
 msgid "Fix it"
-msgstr ""
+msgstr "Διορθώστε"
 
 #: View/Users/bandwidth.ctp:60
 msgid "Download History for current month"
-msgstr ""
+msgstr "Το ηστορικό του bandwidth σας αυτό το μήνα"
 
 #: View/Users/bandwidth.ctp:69
 msgid "COUNTED"
@@ -3139,7 +3183,7 @@ msgstr "Δεν μετρήθει"
 
 #: View/Users/bandwidth.ctp:73
 msgid "Bandwidth"
-msgstr ""
+msgstr "Bandwidth"
 
 #: View/Users/edit.ctp:1
 msgid "Account and Settings"
@@ -3147,17 +3191,19 @@ msgstr "Λογαριασμός και Ρυθμίσεις"
 
 #: View/Users/edit.ctp:8
 msgid "&larr; Don't see your avatar?"
-msgstr ""
+msgstr "&larr; Δεν βλέπετε το avatar σας;"
 
 #: View/Users/edit.ctp:9
 msgid "Get an account (or link your email below) on %s"
-msgstr ""
+msgstr "Αποκτήστε ένα λογαριασμό (ή συνδέστε το e-mail σας παρακάτω) για %s"
 
 #: View/Users/edit.ctp:16
 msgid ""
 "Your real name will be publicly visible if you enter it, your email will be "
 "kept private"
 msgstr ""
+"To πραγματικό σας όνομα θα είναι δημοσίως ορατό, αν το εισάγετε, ενώ το "
+"email σας θα παραμείνει κρυφό"
 
 #: View/Users/edit.ctp:22
 msgid "Wanna change it?"
@@ -3168,6 +3214,9 @@ msgid ""
 "Make sure this email is a permanent address so you can get email "
 "notifications and reset your password in case it's needed."
 msgstr ""
+"Βεβαιωθείτε ότι αυτό είναι μια μόνιμη διεύθυνση ηλεκτρονικού ταχυδρομείου "
+"(email) ώστε να μπορείτε να δεχτείτε μηνύματα και να μπορείτε να επαναφέρετε "
+"τον κωδικό πρόσβασής σας σε περίπτωση που το ξεχάσετε."
 
 #: View/Users/edit.ctp:38
 msgid "Notification Settings"
@@ -3179,23 +3228,23 @@ msgstr "Στείλτε μου ειδοποιήσεις μέσω email όταν"
 
 #: View/Users/edit.ctp:44
 msgid "My blends are published"
-msgstr ""
+msgstr "Δημοσιεύεται ένα blend μου"
 
 #: View/Users/edit.ctp:45
 msgid "My blends are added to a public collection."
-msgstr ""
+msgstr "Τα blend μου προστίθενται σε δημόσια συλλογή."
 
 #: View/Users/edit.ctp:46
 msgid "My blends are added to Staff Picks"
-msgstr ""
+msgstr "Τα blend μου επιλέγονται φαβορί του προσωπικού της ιστοσελίδας"
 
 #: View/Users/edit.ctp:47
 msgid "Another user sends me a message"
-msgstr "Ένας άλλος χρήστης μου στέλνει ένα μήνυμα"
+msgstr "Όταν ένας άλλος χρήστης μου στέλνει μήνυμα"
 
 #: View/Users/edit.ctp:48
 msgid "I get a new User Badge"
-msgstr ""
+msgstr "Κερδίζω κανούργιο παράσημο"
 
 #: View/Users/edit.ctp:55
 msgid "More Settings"
@@ -3207,11 +3256,11 @@ msgstr "Γλώσσα προτίμησης"
 
 #: View/Users/edit.ctp:80
 msgid "Associate Members"
-msgstr ""
+msgstr "Συνεταιρικοί Συνδρομητές"
 
 #: View/Users/edit.ctp:81
 msgid "can set the amount of Blends per index page up to 60"
-msgstr ""
+msgstr "Ρυθμίστε να βλέπετε μέχρι και 60 blend ανά σελίδα ευρετηρίου"
 
 #: View/Users/edit.ctp:92;93;94
 msgid "blends per page"
@@ -3223,13 +3272,15 @@ msgstr ""
 
 #: View/Users/index.ctp:7
 msgid "Top Uploaders"
-msgstr ""
+msgstr "Πιο συχνοί uploaders"
 
 #: View/Users/index.ctp:9
 msgid ""
 "These artists have the most uploads among all members. Do you wanna be among "
 "them, you better get to work!"
 msgstr ""
+"Οι καλλιτέχνες αυτοί έχουν τις περισσότερες προσθήκες μεταξύ όλων των μελών. "
+"Εάν θέλετε να αναφέρεστε ανάμεσα τους, καλύτερα να πιάσετε αμέσως δουλειά!"
 
 #: View/Users/index.ctp:26;59
 msgid "points"
@@ -3242,11 +3293,11 @@ msgstr "Συλλογές"
 #: View/Users/index.ctp:47
 msgid ""
 "The top of the ranking! Points awarded on comments and sharing many blends"
-msgstr ""
+msgstr "Οι καλύτεροι! Πόντοι μοιράζονται για σχόλια και προσθήκες νέων blend. "
 
 #: View/Users/index.ctp:71
 msgid "These artists have recently swapped blends"
-msgstr ""
+msgstr "Οι καλλιτέχνες αυτοί πρόσθεσαν πρόσφατα νέα blend"
 
 #: View/Users/login.ctp:17
 msgid "Problems logging in?"
@@ -3281,7 +3332,7 @@ msgstr "Το όνομα χρήσης σας είναι %s"
 
 #: View/Users/username.ctp:24
 msgid "Enter your desired username to check if it is available"
-msgstr ""
+msgstr "Εισάγετε το επιθυμητό όνομα χρήσης για να ελέγξετε εάν είναι διαθέσιμο"
 
 #: View/Users/view.ctp:88
 msgid "Account & Settings"
@@ -3297,4 +3348,4 @@ msgstr "Αυτός ο χρήστης δεν κέρδισε κανένα έμβλ
 
 #: View/Users/view.ctp:174
 msgid "You should set up your skills from the profile edit panel"
-msgstr ""
+msgstr "Πρέπει να θέσετε τις ικανότητές σας από τον πίνακα επεξεργασίας προφίλ"
