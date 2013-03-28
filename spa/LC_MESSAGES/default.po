@@ -1257,7 +1257,7 @@ msgstr "Modificado"
 #: View/Requests/admin_view.ctp:19
 #: View/Users/admin_view.ctp:2
 msgid "User"
-msgstr "Usiario"
+msgstr "Usuario"
 
 #: View/Answers/admin_view.ctp:24
 #: View/Requests/admin_view.ctp:2
