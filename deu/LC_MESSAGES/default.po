@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-27 21:22-0600\n"
-"PO-Revision-Date: 2013-03-30 03:51+0100\n"
+"PO-Revision-Date: 2013-03-30 04:03+0100\n"
 "Last-Translator: CerFriBar <cerfribar@googlemail.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: de_DE\n"
@@ -108,13 +108,12 @@ msgid "The blend has been saved"
 msgstr "Die Blend wurde gespeichert"
 
 #: Controller/BlendsController.php:645
-#, fuzzy
 msgid ""
 "The blend has been saved, but there was an error while updating the license "
 "file, please report that you saw this message."
 msgstr ""
-"Beim veröffentlichen Ihrer Blend gab es einen Fehler. Bitte melden Sie "
-"diesen Fehler!"
+"Ihre Blend wurde gespeichert, aber es gab einen Fehler beim hochladen der "
+"Lizenz Datei. Bitte melden Sie diesen Fehler!"
 
 #: Controller/BlendsController.php:648
 msgid "ERRORS! Please check any red messages below and try again."
