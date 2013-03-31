@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-27 21:22-0600\n"
-"PO-Revision-Date: 2013-03-30 04:03+0100\n"
+"PO-Revision-Date: 2013-03-31 14:47+0100\n"
 "Last-Translator: CerFriBar <cerfribar@googlemail.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: de_DE\n"
@@ -130,11 +130,11 @@ msgstr "Runterladen"
 
 #: Controller/BlendsController.php:1157
 msgid "This blend is licensed"
-msgstr "Diese Blend ist lizensiert"
+msgstr "Diese Blend ist lizenziert"
 
 #: Controller/BlendsController.php:1159
 msgid "Do you agree with this license"
-msgstr "Sind Sie mit diese Lizenz einverstanden?"
+msgstr "Sind Sie mit dieser Lizenz einverstanden?"
 
 #: Controller/BlendsController.php:1160
 msgid "and the limitations imposed by the Fan Art marking"
@@ -2542,7 +2542,7 @@ msgstr "Nachrichten"
 
 #: View/Elements/navs/usernav.ctp:68
 msgid "My Stuff"
-msgstr "Mein Zeug"
+msgstr "Meine Sachen"
 
 #: View/Elements/navs/usernav.ctp:88
 msgid "My Badges"
