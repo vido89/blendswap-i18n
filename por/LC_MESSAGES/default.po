@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-03-27 21:22-0600\n"
-"PO-Revision-Date: 2013-03-30 00:36-0300\n"
+"PO-Revision-Date: 2013-03-30 13:25-0300\n"
 "Last-Translator: Giulana Zambotto Furlan <almatter@almatter.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: pt_BR\n"
@@ -194,7 +194,7 @@ msgstr "o qual não tem requisitos:"
 
 #: Controller/BlendsController.php:1214;1215
 msgid "Creative Commons Attribution 3.0"
-msgstr "Creative Commons Reconocimiento 3.0"
+msgstr "Creative Commons Atribuição de Crédito 3.0"
 
 #: Controller/BlendsController.php:1216;1222;1228
 msgid "which has the following requirements:"
@@ -1648,7 +1648,7 @@ msgstr "Salvar Modificações"
 
 #: View/Blends/index.ctp:6
 msgid "Edit Date"
-msgstr "Editar Data"
+msgstr "Data de Edição"
 
 #: View/Blends/index.ctp:7
 msgid "Name"
@@ -1682,7 +1682,7 @@ msgstr ""
 
 #: View/Blends/view.ctp:45
 msgid "Zip file MD5 checksum"
-msgstr "MD5 checksum do arquivo ZIP"
+msgstr "MD5 checksum"
 
 #: View/Blends/rss/index.ctp:3
 msgid "Latest Blends"
@@ -1756,7 +1756,7 @@ msgstr "Novo Download"
 
 #: View/Elements/commentList.ctp:10
 msgid "No %s yet, leave yours!"
-msgstr "Sem %s ainda. Deixe ou seu!"
+msgstr "Sem comentários ainda. Deixe ou seu!"
 
 #: View/Elements/new_question.ctp:3
 msgid "Need help with Blender?"
@@ -2109,7 +2109,7 @@ msgstr "Clicar aqui para permitir respostas para esse Pedido"
 
 #: View/Elements/forms/commentForm.ctp:5
 msgid "Remember to keep your %s cool, harsh %s will be removed"
-msgstr "Lembre-se de manter seu %s frio, aspereza %s serão excluídas"
+msgstr "Lembre-se de manter seus %s legais, %s ofensivos serão excluídos"
 
 #: View/Elements/forms/commentForm.ctp:6
 msgid ""
@@ -2387,7 +2387,7 @@ msgstr "Concurso mundo de Fantasia"
 
 #: View/Elements/menus/topMenu.ctp:184
 msgid "Fantasy Character Contest"
-msgstr "Concurso de Personajes de Fantasía"
+msgstr "Concurso de Personagens de Fantasia"
 
 #: View/Elements/menus/topMenu.ctp:188;212;226
 msgid "RSS Feed"
@@ -3415,7 +3415,7 @@ msgstr "Conta e Configurações"
 
 #: View/Users/view.ctp:102
 msgid "badges"
-msgstr "medálhas"
+msgstr "Medálhas"
 
 #: View/Users/view.ctp:121
 msgid "This user has not earned any badges yet..."
