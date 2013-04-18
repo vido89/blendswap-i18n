@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-27 21:22-0600\n"
-"PO-Revision-Date: 2013-03-30 03:52+0100\n"
+"POT-Creation-Date: 2013-04-15 18:16-0600\n"
+"PO-Revision-Date: 2013-04-18 03:21+0100\n"
 "Last-Translator: CerFriBar <cerfribar@googlemail.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: de_DE\n"
@@ -66,6 +66,11 @@ msgid ""
 msgstr ""
 "Tags helfen Anderen Ihre Blends zu finden. Verwenden Sie mindestens ein Tag "
 "und vergessen Sie nicht die Kommas!"
+
+#: Model/Blend.php:validation for field tags
+msgid "Those are not tags, write valid, comma separated tags!"
+msgstr ""
+"Das sind keine Tags. Schreiben Sie gültige, durch Komma getrennte Tags!"
 
 #: Model/Blend.php:validation for field categories
 #: Model/Request.php:validation requirements
