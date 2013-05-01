@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-01 18:23-0600\n"
-"PO-Revision-Date: 2013-03-07 12:18+0100\n"
+"POT-Creation-Date: 2013-04-15 18:16-0600\n"
+"PO-Revision-Date: 2013-05-01 15:40+0100\n"
 "Last-Translator: \n"
 "Language-Team: Blend Swap Translators\n"
 "Language: French\n"
@@ -65,6 +65,10 @@ msgid ""
 msgstr ""
 "Les tags facilitent la recherche de blend. Utiliser au moins tag et "
 "n'oubliez pas les virgules"
+
+#: Model/Blend.php:validation for field tags
+msgid "Those are not tags, write valid, comma separated tags!"
+msgstr "Tags invalides, une virgule doit séparer les tags !"
 
 #: Model/Blend.php:validation for field categories
 #: Model/Request.php:validation requirements
