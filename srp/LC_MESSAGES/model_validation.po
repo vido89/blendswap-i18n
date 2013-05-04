@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-27 21:22-0600\n"
-"PO-Revision-Date: 2013-03-30 10:25+0100\n"
+"POT-Creation-Date: 2013-04-15 18:16-0600\n"
+"PO-Revision-Date: 2013-05-04 18:26+0100\n"
 "Last-Translator: vido89 <vidovic.slobodan89@gmail.com>\n"
 "Language-Team: Blend Swap Translators <vidovic.slobodan89@gmail.com>\n"
 "Language: Serbian\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: Model/Blend.php:validation
 #: for field title
 msgid "Your blend must have a name!"
-msgstr "Vaš blend fajl mora imati ime !"
+msgstr "Vaš blend fajl mora imati ime!"
 
 #: Model/Blend.php:validation
 #: for field title
@@ -29,24 +29,24 @@ msgstr "Ime blend fajla mora biti između 2 i 140 karaktera dužine !"
 #: Model/Blend.php:validation
 #: for field body
 msgid "Your blend must have a description!"
-msgstr "Tvoj blend fajl mora sadržati opis !"
+msgstr "Vaš blend fajl mora sadržati opis!"
 
 #: Model/Blend.php:validation
 #: for field body
 msgid "The description must be between 40 and 5000 chars long!"
-msgstr "Opis mora biti između 40 i 5000 karaktera karaktera !"
+msgstr "Opis mora biti između 40 i 5000 karaktera dužine!"
 
 #: Model/Blend.php:validation
 #: for field three_dee
 msgid "That is not a url!"
-msgstr "Nije ispravan url !"
+msgstr "Url nije ispravan!"
 
-# viewer ??? for what ?
+# viewer ??? web viewer ? 3D viewer
 # pregledaš za šta ?
 #: Model/Blend.php:validation
 #: for field three_dee
 msgid "That is not a supported viewer."
-msgstr "To nije ispravan pregledač !"
+msgstr "To nije ispravan pregledač!"
 
 #: Model/Blend.php:validation
 #: for field blend_license
@@ -56,7 +56,7 @@ msgstr "Molimo odaberite licencu za vaš blend fajl."
 #: Model/Blend.php:validation
 #: for field blend_license
 msgid "Invalid value for Blend License!"
-msgstr "Neispravna vrijednost za blend licencu !"
+msgstr "Neispravna vrijednost za blend licencu!"
 
 #: Model/Blend.php:validation
 #: for field blender_version
@@ -66,19 +66,24 @@ msgstr "Molimo odaberite verziju blendera koju ste koristili za kreiranje ovog b
 #: Model/Blend.php:validation
 #: for field blender_version
 msgid "Invalid value type for Blender version"
-msgstr "Neispravna vrijednost za Blender verziju"
+msgstr "Vrijednost za verziju Blender nije ispravna"
 
 #: Model/Blend.php:validation
 #: for field tags
 msgid "Tags help others find your blend. Use at least one tag and don't forget the commas!"
-msgstr "Tag pomaže drugima da pronađu Vaš blend fajl. Unesite minimalno jedan tag ali nezaboravite zareze ako navodite više tagova !"
+msgstr "Tag pomaže drugima da pronađu tvoj blend fajl. Koristite minimum jedan tag i ne zaboravite zareze!"
+
+#: Model/Blend.php:validation
+#: for field tags
+msgid "Those are not tags, write valid, comma separated tags!"
+msgstr "Pišite ispravno, sa zarezima odvojene riječi !"
 
 #: Model/Blend.php:validation
 #: for field categories
 #: Model/Request.php:validation
 #: requirements
 msgid "Pick one to four categories."
-msgstr "Odaberite 1 kategoriju, maksimalno dozvoljene su 4."
+msgstr "Označite 1 pa sve do 4 kategorije."
 
 # taxonomiy ???
 #: Model/Blend.php:validation
@@ -89,7 +94,7 @@ msgstr "Neispravna unijeta vrijednost."
 #: Model/Blend.php:validation
 #: for field change_log
 msgid "Please tell us what you changed in the data or the files."
-msgstr "Molimo navedite koje ste izmjene uradili."
+msgstr "Molimo navedite podatke koje ste izmijenili."
 
 #: Model/Blend.php:validation
 #: for field hello Model/Message.php:validation
@@ -108,17 +113,17 @@ msgstr "Kolekcija mora imati ime"
 #: Model/Collection.php:validation
 #: for field visibility
 msgid "Choose a visibility setting"
-msgstr "Podešavanja za vidljivost"
+msgstr "Odaberite podešavanja za vidljivost"
 
 #: Model/Collection.php:validation
 #: for field visibility
 msgid "Invalid visibility value!!!"
-msgstr "Neispravna vrijednost za vidljivost !"
+msgstr "Vrijednost za vidljivost nije ispravna!"
 
 #: Model/Comment.php:validation
 #: for field body
 msgid "The comment cannot be empty!"
-msgstr "Komentar ne može biti prazan !"
+msgstr "Komentar ne može biti prazan!"
 
 #: Model/Comment.php:validation
 #: for field user_id;validation
@@ -261,14 +266,14 @@ msgstr "alfanumerički"
 #: Model/Term.php:validation
 #: for field slug
 msgid "isUnique"
-msgstr "jeUnikatan"
+msgstr "je Unikatan"
 
 # validChars
 # validniKarakteri ???
 #: Model/Term.php:validation
 #: for field slug
 msgid "validChars"
-msgstr "podržaniKarakteri"
+msgstr "Podržane vrijednsti"
 
 #: Model/Term.php:validation
 #: for field slug
@@ -278,12 +283,12 @@ msgstr "između"
 #: Model/User.php:validation
 #: for field username
 msgid "Only letters and numbers please."
-msgstr "Samo slova i brojeve molimo Vas."
+msgstr "Samo slova i brojeve molimo."
 
 #: Model/User.php:validation
 #: for field username
 msgid "The username must be between 2 and 32 characters long!"
-msgstr "Korisničko ime mora biti između 2 i 32 karaktera dužine !"
+msgstr "Korisničko ime mora biti između 2 i 32 karaktera dužine!"
 
 #: Model/User.php:validation
 #: for field username
@@ -293,7 +298,7 @@ msgstr "Ne može biti prazno"
 #: Model/User.php:validation
 #: for field username
 msgid "This username is already taken."
-msgstr "Ovo ime koristi neko drugi."
+msgstr "Neko drugi već koristi ovo ime."
 
 #: Model/User.php:validation
 #: for field email;validation password
@@ -308,7 +313,7 @@ msgstr "Niste unijeli ispravan email"
 #: Model/User.php:validation
 #: for field email
 msgid "That email is already in use, maybe you signed up with tha email before?"
-msgstr "Ovaj email je već unijet, možda ste se registrovali sa njim ranije ?"
+msgstr "Ovaj email je već u upotrebi, možda ste se registrovali sa njim ranije?"
 
 #: Model/User.php:validation
 #: for field email
@@ -328,12 +333,12 @@ msgstr "Morate navesti 2 ili više slova."
 #: Model/User.php:validation
 #: for field accept_terms
 msgid "You must accept the Terms Of Use!"
-msgstr "Porate prihvatiti uslove za korišćenje !"
+msgstr "Porate prihvatiti uslove za korišćenje!"
 
 #: Model/User.php:validation
 #: for field bpp
 msgid "Invalid value type"
-msgstr "Unijeta neispravna vrijednost"
+msgstr "Unijeta vrijednost nije ispravna"
 
 #~ msgid "Wrong email..."
 #~ msgstr "Pogrešan email ..."
