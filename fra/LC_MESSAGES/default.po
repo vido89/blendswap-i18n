@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-27 21:22-0600\n"
-"PO-Revision-Date: 2013-03-30 15:44+0100\n"
+"POT-Creation-Date: 2013-04-15 18:16-0600\n"
+"PO-Revision-Date: 2013-05-01 15:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: Blend Swap Translators\n"
 "Language: French\n"
@@ -58,25 +58,25 @@ msgstr "Badge supprimé"
 msgid "Badge was not deleted"
 msgstr "Badge non supprimé"
 
-#: Controller/BlendsController.php:198;1634;1658;1688
+#: Controller/BlendsController.php:198;1679;1703;1733
 msgid "Invalid blend"
 msgstr "Blend invalide"
 
-#: Controller/BlendsController.php:519
+#: Controller/BlendsController.php:557
 msgid "Thank you! Your new blend was saved and is now publicly visible!"
 msgstr ""
 "Merci ! Votre nouveau blend a été enregistré. Le public peut désormais le "
 "voir !"
 
-#: Controller/BlendsController.php:521
+#: Controller/BlendsController.php:559
 msgid ""
 "There was an error saving your blend as published, please report you saw "
 "this error!"
 msgstr ""
 "Une erreur a été rencontrée lors de la publication de votre blend, merci de "
-"rapporter cette erreur."
+"signaler cette erreur."
 
-#: Controller/BlendsController.php:525
+#: Controller/BlendsController.php:563
 msgid ""
 "Your new blend was saved and is now waiting moderation! Please be patient "
 "for an adminn to check your file."
@@ -84,7 +84,7 @@ msgstr ""
 "Votre blend a été enregistré et est maintenant en attente de modération ! "
 "Merci de patienter qu'un "
 
-#: Controller/BlendsController.php:529
+#: Controller/BlendsController.php:567
 msgid ""
 "You blend was saved to the database, but one of the files failed to upload, "
 "please fix below the file type marked in red!"
@@ -93,7 +93,7 @@ msgstr ""
 "pas pu être mis en ligne, s'il vous plaît vérifiez le type du ficher marqué "
 "en rouge."
 
-#: Controller/BlendsController.php:534
+#: Controller/BlendsController.php:572
 msgid ""
 "The blend could not be saved. Please ckeck any errors below and try again. "
 "Don't forget to re-select the files."
@@ -101,67 +101,67 @@ msgstr ""
 "Le blend n'a pas pu être enregistré. S'il vous plaît vérifié toute erreur ci-"
 "dessous et essayez à nouveau. N'oubliez pas de re-séléctionner les fichiers."
 
-#: Controller/BlendsController.php:603
+#: Controller/BlendsController.php:641
 msgid "The requested blend does not exist."
 msgstr "Le blend recherché n'existe pas."
 
-#: Controller/BlendsController.php:643;1662
+#: Controller/BlendsController.php:681;1707
 msgid "The blend has been saved"
 msgstr "Le blend a été enregistré"
 
-#: Controller/BlendsController.php:645
+#: Controller/BlendsController.php:683
 msgid ""
 "The blend has been saved, but there was an error while updating the license "
 "file, please report that you saw this message."
 msgstr ""
 "Le blend a été enregistré, mais une erreur a été rencontrée lors de sa "
-"publication, merci de rapporter cette erreur."
+"publication, merci de signaler cette erreur."
 
-#: Controller/BlendsController.php:648
+#: Controller/BlendsController.php:686
 msgid "ERRORS! Please check any red messages below and try again."
 msgstr ""
 "ERREUR ! S'il vous plaît vérifiez les messages rouges ci-dessous et essayez "
 "à nouveau."
 
-#: Controller/BlendsController.php:1123
+#: Controller/BlendsController.php:1168
 msgid "The blend you requested does not exist"
 msgstr "Le blend demandé n'existe pas."
 
-#: Controller/BlendsController.php:1155
+#: Controller/BlendsController.php:1200
 msgid "Downloading"
 msgstr "Téléchagement en cours"
 
-#: Controller/BlendsController.php:1157
+#: Controller/BlendsController.php:1202
 msgid "This blend is licensed"
 msgstr "Le blend est disponible sous licence"
 
-#: Controller/BlendsController.php:1159
+#: Controller/BlendsController.php:1204
 msgid "Do you agree with this license"
 msgstr "Acceptez-vous cette licence"
 
-#: Controller/BlendsController.php:1160
+#: Controller/BlendsController.php:1205
 msgid "and the limitations imposed by the Fan Art marking"
 msgstr "et les limitations imposées par la notation Fan Art"
 
-#: Controller/BlendsController.php:1165
+#: Controller/BlendsController.php:1210
 msgid "I accept the license. Start file download, please"
 msgstr ""
 "J'accepte cette licence. Commencer le téléchargement du fichier, s'il vous "
 "plaît"
 
-#: Controller/BlendsController.php:1165
+#: Controller/BlendsController.php:1210
 msgid "Yes. Download now!"
 msgstr "Oui. Télécharger maintenant !"
 
-#: Controller/BlendsController.php:1166
+#: Controller/BlendsController.php:1211
 msgid "Cancel download"
 msgstr "Annuler le téléchargement"
 
-#: Controller/BlendsController.php:1166 View/Blends/edit.ctp:92
+#: Controller/BlendsController.php:1211 View/Blends/edit.ctp:92
 msgid "Cancel"
 msgstr "Fermer le WIP"
 
-#: Controller/BlendsController.php:1176
+#: Controller/BlendsController.php:1221
 msgid ""
 "You downloaded this blend less than 24 hours ago, if your first attempt "
 "failed you still have %d hours and %d minutes to retry without losing extra "
@@ -171,7 +171,7 @@ msgstr ""
 "essai a échoué, il vous reste %d heures et %d minutes pour essayez à nouveau "
 "sans que cela soit compté dans votre bande passante"
 
-#: Controller/BlendsController.php:1180
+#: Controller/BlendsController.php:1225
 msgid ""
 "If your download fails you have 24 hours to try again with no extra "
 "bandwidth subtracted from your monthly allocation!"
@@ -179,44 +179,44 @@ msgstr ""
 "Si votre téléchargement a échoué, vous avez 24 heures pour essayer à nouveau "
 "sans que cela soit comptabilisé dans votre bande passante utilisée !"
 
-#: Controller/BlendsController.php:1187
+#: Controller/BlendsController.php:1232
 msgid "Looks like you are logged out, maybe your session expired"
 msgstr ""
 "Il semble que vous vous soyez déconnecté, votre session a peut-être expiré"
 
-#: Controller/BlendsController.php:1188
+#: Controller/BlendsController.php:1233
 msgid "Please %s and try again."
 msgstr "S'il vous plaît %s et essayez à nouveau"
 
-#: Controller/BlendsController.php:1188
+#: Controller/BlendsController.php:1233
 msgid "log in"
 msgstr "Connexion"
 
-#: Controller/BlendsController.php:1208;1209
+#: Controller/BlendsController.php:1253;1254
 msgid "Creative Commons Public Domain Mark 1.0"
 msgstr "Creative Commons Public Domain Mark 1.0"
 
-#: Controller/BlendsController.php:1210
+#: Controller/BlendsController.php:1255
 msgid "which has no requirements:"
 msgstr "qui ne requière rien :"
 
-#: Controller/BlendsController.php:1214;1215
+#: Controller/BlendsController.php:1259;1260
 msgid "Creative Commons Attribution 3.0"
 msgstr "Creative Commons Attribution 3.0"
 
-#: Controller/BlendsController.php:1216;1222;1228
+#: Controller/BlendsController.php:1261;1267;1273
 msgid "which has the following requirements:"
 msgstr "qui requière les points suivants :"
 
-#: Controller/BlendsController.php:1220;1221
+#: Controller/BlendsController.php:1265;1266
 msgid "Creative Commons Attribution-ShareAlike 3.0"
 msgstr "Creative Commons Attribution-ShareAlike 3.0"
 
-#: Controller/BlendsController.php:1226;1227
+#: Controller/BlendsController.php:1271;1272
 msgid "Creative Commons Attribution-NonCommercial 3.0"
 msgstr "Creative Commons Attribution-NonCommercial 3.0"
 
-#: Controller/BlendsController.php:1241
+#: Controller/BlendsController.php:1286
 msgid ""
 "Blend Swap recommends you give credit to the blend author, but there is no "
 "obligation to do so"
@@ -224,38 +224,38 @@ msgstr ""
 "Il est recommandé de citer l'auteur pour utiliser ce blend, mais cela n'est "
 "pas obligatoire"
 
-#: Controller/BlendsController.php:1244 View/Helper/SingleBlendHelper.php:144
+#: Controller/BlendsController.php:1289 View/Helper/SingleBlendHelper.php:149
 msgid "You must give credit to the author of this blend"
 msgstr "Vous devez citer l'auteur de ce blend"
 
-#: Controller/BlendsController.php:1247 View/Helper/SingleBlendHelper.php:147
+#: Controller/BlendsController.php:1292 View/Helper/SingleBlendHelper.php:152
 msgid "You must distribute any derivative works under the same license"
 msgstr ""
 "Vous devez distribuer tout travail dérivé de ce blend sous la même licence"
 
-#: Controller/BlendsController.php:1250 View/Helper/SingleBlendHelper.php:150
+#: Controller/BlendsController.php:1295 View/Helper/SingleBlendHelper.php:155
 msgid "You can not use this blend commercially under any circumstance"
 msgstr ""
 "Vous ne pouvez pas utiliser ce blend dans un but commercial, quelles que "
 "soient les circonstances"
 
-#: Controller/BlendsController.php:1254
+#: Controller/BlendsController.php:1299
 msgid "What's the deal with all this \"giving credits\" thing?"
 msgstr "Que signifient ces \"giving credits\" (\"citer\") ?"
 
-#: Controller/BlendsController.php:1667
+#: Controller/BlendsController.php:1712
 msgid "The blend could not be saved. Please, try again."
 msgstr "Le blend ne peut être enregistré. S'il vous plaît, essayer à nouveau."
 
-#: Controller/BlendsController.php:1691
+#: Controller/BlendsController.php:1736
 msgid "Blend deleted"
 msgstr "Blend supprimé"
 
-#: Controller/BlendsController.php:1694
+#: Controller/BlendsController.php:1739
 msgid "Blend was not deleted"
 msgstr "Blend non supprimé"
 
-#: Controller/BlendsController.php:1714
+#: Controller/BlendsController.php:1759
 msgid ""
 "The blend was removed from all lists. We will preserve copy of all the data "
 "for archival purposes."
@@ -263,7 +263,7 @@ msgstr ""
 "Le blend a été supprimé de toutes les listes. Nous gardons une copie de "
 "toutes les données dans des fins d'archivage."
 
-#: Controller/BlendsController.php:1717
+#: Controller/BlendsController.php:1762
 msgid ""
 "There was an error while removing the blend from all listings, please try "
 "again and report if this error repeats."
@@ -272,7 +272,7 @@ msgstr ""
 "les listes, s'il vous plait, essayez à nouveau et signalez cela si cette "
 "erreur se répète."
 
-#: Controller/BlendsController.php:1720
+#: Controller/BlendsController.php:1765
 msgid "This blend is published so it can not be removed by you."
 msgstr "Ce blend a été publié, il ne peut donc pas être supprimé par vous."
 
@@ -367,9 +367,10 @@ msgstr "Commentaire supprimé"
 msgid "Comment was not deleted"
 msgstr "Commentaire non supprimé"
 
-#: Controller/ContactsController.php:82;152
-msgid "The contact has been saved"
-msgstr "Le contact a été enregistré"
+#: Controller/ContactsController.php:82
+msgid ""
+"The contact entry was saved to our database. Thanks for getting in touch!"
+msgstr "Le contact a été à notre base de données. Merci d'avior pris contact."
 
 #: Controller/ContactsController.php:84
 msgid ""
@@ -379,20 +380,24 @@ msgstr ""
 "La soumission n'a pas pu être correctement enregistrée, corrigez toute "
 "erreur présente et essayez à nouveau"
 
-#: Controller/ContactsController.php:125;148;174
+#: Controller/ContactsController.php:141;164;190
 msgid "Invalid contact"
 msgstr "Contact invalide"
 
-#: Controller/ContactsController.php:155
+#: Controller/ContactsController.php:168
+msgid "The contact has been saved"
+msgstr "Le contact a été enregistré"
+
+#: Controller/ContactsController.php:171
 msgid "The contact could not be saved. Please, try again."
 msgstr ""
 "Le contact n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau"
 
-#: Controller/ContactsController.php:177
+#: Controller/ContactsController.php:193
 msgid "Contact deleted"
 msgstr "Contact supprimé"
 
-#: Controller/ContactsController.php:180
+#: Controller/ContactsController.php:196
 msgid "Contact was not deleted"
 msgstr "Contact non supprimé"
 
@@ -867,40 +872,40 @@ msgstr "Badge d'utilisateur supprimé"
 msgid "Userbadge was not deleted"
 msgstr "Badge d'utilisateur non supprimé"
 
-#: Controller/UsersController.php:160;162
+#: Controller/UsersController.php:161;163
 msgid "This user does not exist on Blend Swap."
 msgstr "Cet utilisateur n'existe pas sur Blend Swap."
 
-#: Controller/UsersController.php:324;1503;1535;1562
+#: Controller/UsersController.php:325;1504;1536;1563
 msgid "Invalid user"
 msgstr "Utilisateur invalide"
 
-#: Controller/UsersController.php:348
+#: Controller/UsersController.php:349
 msgid "Account and settings saved"
 msgstr "Propriétés du compte et paramètres enregistrés"
 
-#: Controller/UsersController.php:363
+#: Controller/UsersController.php:364
 msgid ""
 "The setting could not be saved. Please review the rrors below and try again."
 msgstr ""
 "Les propriétés ont été enregistrées. S'il vous plaît vérifiez les erreurs ci-"
 "dessous et essayez à nouveau."
 
-#: Controller/UsersController.php:396
+#: Controller/UsersController.php:397
 msgid "Your username was changed. you must use it to log in from now on."
 msgstr ""
 "Votre pseudo a été modifié, vous devez désormais l'utiliser pour vous "
 "connecter."
 
-#: Controller/UsersController.php:403
+#: Controller/UsersController.php:404
 msgid "The username you enteres is not valid, please check the rules again."
 msgstr "Le pseudo entré n'est pas valide, s'il vous plaît vérifiez les règles."
 
-#: Controller/UsersController.php:500;615
+#: Controller/UsersController.php:501;616
 msgid "Captcha was incorrect please try again."
 msgstr "Captcha incorrect, s'il vous plaît essayez à nouveau."
 
-#: Controller/UsersController.php:541
+#: Controller/UsersController.php:542
 msgid ""
 "There was a problem sending your verification email. please contact the "
 "admins with your username and email so they can activate your account!"
@@ -909,7 +914,7 @@ msgstr ""
 "plaît contactez les administrateurs en précisant votre pseudo et votre "
 "adresse mail, ils pourront alors activer votre compte !"
 
-#: Controller/UsersController.php:561
+#: Controller/UsersController.php:562
 msgid ""
 "The data entered did not validate, so the account was not created. Please "
 "correct the errors marked in red below, re-enter your password and try again."
@@ -918,32 +923,32 @@ msgstr ""
 "Merci de corriger les erreurs notées ci-dessous en rouge, inscrivez à "
 "nouveau votre mot de passe et réessayez."
 
-#: Controller/UsersController.php:1518;1540
+#: Controller/UsersController.php:1519;1541
 msgid "The user has been saved"
 msgstr "L'utilisateur a été enregistré"
 
-#: Controller/UsersController.php:1521;1543
+#: Controller/UsersController.php:1522;1544
 msgid "The user could not be saved. Please, try again."
 msgstr ""
 "L'utilisatur n'a pas pu être enregistré. S'il vous plaît, essayez à nouveau."
 
-#: Controller/UsersController.php:1565
+#: Controller/UsersController.php:1566
 msgid "User deleted"
 msgstr "Utilisateur supprimé"
 
-#: Controller/UsersController.php:1568
+#: Controller/UsersController.php:1569
 msgid "User was not deleted"
 msgstr "Utilisateur non supprimé"
 
-#: Controller/UsersController.php:1894
+#: Controller/UsersController.php:1895
 msgid "Error while saving your account."
 msgstr "Erreur lors de l'enregistrement de votre compte"
 
-#: Controller/UsersController.php:1944
+#: Controller/UsersController.php:1945
 msgid "You just recovered %d likes from Blend Swap 4!"
 msgstr "Vous venez de rétablir %d likes depuis Blend Swap 4 !"
 
-#: Controller/UsersController.php:1946
+#: Controller/UsersController.php:1947
 msgid ""
 "We could not find any old likes from Blend Swap 4 for you, so it looks like "
 "you are already well setup for adding likes. If this is an error, please "
@@ -1007,7 +1012,7 @@ msgstr "Soumettre"
 #: View/Chats/edit.ctp:15 View/Chats/index.ctp:12
 #: View/Comments/admin_edit.ctp:16 View/Comments/admin_index.ctp:30;90
 #: View/Comments/admin_view.ctp:82 View/Contacts/admin_edit.ctp:20
-#: View/Contacts/admin_index.ctp:20;62 View/Contacts/admin_view.ctp:87
+#: View/Contacts/admin_index.ctp:21;63 View/Contacts/admin_view.ctp:87
 #: View/Downloads/admin_index.ctp:11;46 View/Feedbacks/add.ctp:24
 #: View/Feedbacks/admin_edit.ctp:43 View/Feedbacks/admin_index.ctp:20
 #: View/Feedbacks/admin_view.ctp:87 View/Keys/add.ctp:16 View/Keys/edit.ctp:17
@@ -1063,7 +1068,7 @@ msgstr "Supprimer"
 #: View/Blends/admin_view.ctp:120;183;218;281;316;357 View/Chats/edit.ctp:18
 #: View/Comments/admin_edit.ctp:19 View/Comments/admin_index.ctp:69
 #: View/Comments/admin_view.ctp:85 View/Contacts/admin_edit.ctp:23
-#: View/Contacts/admin_index.ctp:41 View/Contacts/admin_view.ctp:90
+#: View/Contacts/admin_index.ctp:42 View/Contacts/admin_view.ctp:90
 #: View/Downloads/admin_index.ctp:25 View/Feedbacks/admin_edit.ctp:46
 #: View/Feedbacks/admin_index.ctp:51 View/Feedbacks/admin_view.ctp:90
 #: View/Keys/edit.ctp:20 View/Keys/index.ctp:25 View/Keys/view.ctp:40
@@ -1119,7 +1124,7 @@ msgstr "Editer"
 #: View/Answers/admin_index.ctp:37 View/Blends/admin_index.ctp:66
 #: View/Blends/search.ctp:103 View/Blends/user.ctp:32 View/Chats/index.ctp:25
 #: View/Collections/index.ctp:41 View/Collections/view.ctp:14
-#: View/Comments/admin_index.ctp:77 View/Contacts/admin_index.ctp:49
+#: View/Comments/admin_index.ctp:77 View/Contacts/admin_index.ctp:50
 #: View/Downloads/admin_index.ctp:33 View/Feedbacks/admin_index.ctp:59
 #: View/Keys/index.ctp:33 View/Limits/admin_index.ctp:35
 #: View/Messages/index.ctp:35 View/News/admin_index.ctp:49
@@ -1138,7 +1143,7 @@ msgstr ""
 #: View/Blends/index.ctp:32 View/Blends/search.ctp:109 View/Blends/user.ctp:38
 #: View/Chats/inbox.ctp:48 View/Chats/index.ctp:30
 #: View/Collections/index.ctp:49 View/Collections/view.ctp:21
-#: View/Comments/admin_index.ctp:83 View/Contacts/admin_index.ctp:55
+#: View/Comments/admin_index.ctp:83 View/Contacts/admin_index.ctp:56
 #: View/Downloads/admin_index.ctp:39 View/Feedbacks/admin_index.ctp:65
 #: View/Keys/index.ctp:39 View/Limits/admin_index.ctp:41
 #: View/Messages/index.ctp:41 View/News/admin_index.ctp:55
@@ -1158,7 +1163,7 @@ msgstr "précédent"
 #: View/Blends/index.ctp:34 View/Blends/search.ctp:111 View/Blends/user.ctp:40
 #: View/Chats/inbox.ctp:50 View/Chats/index.ctp:32
 #: View/Collections/index.ctp:51 View/Collections/view.ctp:23
-#: View/Comments/admin_index.ctp:85 View/Contacts/admin_index.ctp:57
+#: View/Comments/admin_index.ctp:85 View/Contacts/admin_index.ctp:58
 #: View/Downloads/admin_index.ctp:41 View/Feedbacks/admin_index.ctp:67
 #: View/Keys/index.ctp:41 View/Limits/admin_index.ctp:43
 #: View/Messages/index.ctp:43 View/News/admin_index.ctp:57
@@ -1234,6 +1239,147 @@ msgstr "Editer la réponse"
 msgid "Delete Response"
 msgstr "Supprimer la réponse"
 
+#: View/App/home.ctp:19 View/Questions/index.ctp:17 View/Questions/view.ctp:8
+msgid "by"
+msgstr "par"
+
+#: View/App/home.ctp:35
+msgid "and counting"
+msgstr "et nombre"
+
+#: View/App/home.ctp:39
+msgid ""
+"We're the one place for Free 3D assets by Blender users for Blender users."
+msgstr ""
+"Le seul site de modèles 3D Gratuits par les utilisateurs de Blender, pour "
+"les utilisateurs de Blender."
+
+#: View/App/home.ctp:42
+msgid ""
+"Blend Swap is a proud community of 3D Artists sharing their work\tand "
+"building the greatest Blender based 3D assets library, all free for personal "
+"and commercial use."
+msgstr ""
+"Blend Swap est une grande communauté d'artistes 3D partageant leur travail "
+"qui construit la plus grande banque de modèles 3D pour Blender, totalement "
+"gratuits pour utilisation personnelle et professionnelle."
+
+#: View/App/home.ctp:45
+msgid "Joins us now and get instant access!"
+msgstr "Rejoignez-nous maintenant et obtenez un accès instantané !"
+
+#: View/App/home.ctp:49
+msgid "Check out the features"
+msgstr "Rergardez les fonctionnalités du site"
+
+#: View/App/home.ctp:52 View/Users/m_login.ctp:15
+msgid "Register now"
+msgstr "S'inscrire maintenant"
+
+#: View/App/home.ctp:55 View/Layouts/frontend.ctp:224
+msgid "Log in"
+msgstr "Se connecter"
+
+#: View/App/home.ctp:61
+msgid "Free Account"
+msgstr "Compte gratuit"
+
+#: View/App/home.ctp:63
+msgid "Quick limited access for everybody."
+msgstr "Accès rapide et limité pour tout le monde."
+
+#: View/App/home.ctp:66
+msgid "Free forever"
+msgstr "Gratuit pour toujours"
+
+#: View/App/home.ctp:67
+msgid "Download 200 Megabytes a month"
+msgstr "Téléchargez 200 Megaoctets par mois"
+
+#: View/App/home.ctp:68;85
+msgid "Upload your original creations any time"
+msgstr "Mettez en ligne vos créations originales n'importe quand"
+
+#: View/App/home.ctp:69
+msgid "One public Blend Collection"
+msgstr "Une collection de Blends publique"
+
+#: View/App/home.ctp:70
+msgid "Message, comment, rate and like."
+msgstr "Envoyez des messages, commentez, ayez des statistiques et likez."
+
+#: View/App/home.ctp:71;88
+msgid "Follow Blends, Requests, and Users"
+msgstr "Suivre des blends, des demandes et des utilisateurs"
+
+#: View/App/home.ctp:72
+msgid "Open One Request a Month (Swappers)"
+msgstr "Ouvrez une demande par mois (Swappers)"
+
+#: View/App/home.ctp:77
+msgid "Associate Account"
+msgstr "Compte Premium"
+
+#: View/App/home.ctp:80
+msgid "Enhanced and dedicated power features!"
+msgstr "Des fonctionnalités améliorés et plus puissantes !"
+
+#: View/App/home.ctp:83
+msgid "Paid subscription of $10/month or $80/year"
+msgstr "Abonnement payant à 10$/mois ou 80$/mois"
+
+#: View/App/home.ctp:84
+msgid "Download all the assets you want!"
+msgstr "Télécharger autant de modèles que vous voulez !"
+
+#: View/App/home.ctp:86
+msgid "Unlimited & Private Blend Collections"
+msgstr "Collections de blends Illimitées et Privées"
+
+#: View/App/home.ctp:87
+msgid "Message, comment, rate and like"
+msgstr "Envoyez des messages, commentez, ayez des statistiques et likez"
+
+#: View/App/home.ctp:89
+msgid "Lightboxed full size previews"
+msgstr "Aperçus Lightbox grande taille"
+
+#: View/App/home.ctp:90
+msgid "Open Unlimited Blend Requests"
+msgstr "Publier des demandes de Blend Illimitées"
+
+#: View/App/home.ctp:91
+msgid "Advanced Search filters"
+msgstr "Recherche avancée"
+
+#: View/App/home.ctp:92
+msgid "Portfolio Gallery"
+msgstr "Galerie portflio"
+
+#: View/App/home.ctp:93
+msgid "Associate Badge in comments"
+msgstr "Badge Premuim dans les commentaires"
+
+#: View/App/home.ctp:94
+msgid "For Hire Badge in profile and comments"
+msgstr "Possibilité d'avoir le badge Hire dans le profil et les commentaires"
+
+#: View/App/home.ctp:95
+msgid "Advanced blend and profile stats"
+msgstr "Statistiques avancées pour les blends et le profil"
+
+#: View/App/home.ctp:96
+msgid "More social media fields to link to"
+msgstr "une plus large connexion vers les réseaux sociaux"
+
+#: View/App/home.ctp:97
+msgid "Up to 60 blends per page"
+msgstr "jusqu'à 40 blends par page"
+
+#: View/App/home.ctp:104
+msgid "Register Now"
+msgstr "S'inscrire maintenant"
+
 #: View/Blends/add.ctp:1 View/Elements/menus/topMenu.ctp:139
 msgid "Upload New Blend"
 msgstr "Mettre en ligne de nouveaux blends"
@@ -1292,11 +1438,11 @@ msgstr "Fan Art"
 
 #: View/Blends/add.ctp:72 View/Blends/edit.ctp:39
 msgid ""
-"Check yes if your blend features third party company logos, TV or movie "
-"characters"
+"Check yes if your blend features third party company logos, designs, or TV/"
+"Game/Movie characters"
 msgstr ""
-"Cochez \"oui\" si votre blend contient des logos d'entreprises, TV ou "
-"personnages de films"
+"Choississez \"oui\" si votre blend contient des logos d'entreprises tierses, "
+"TV ou personnages de films"
 
 #: View/Blends/add.ctp:74
 msgid "No"
@@ -1519,7 +1665,7 @@ msgstr "Taille du fichier blend"
 msgid "Render Preview"
 msgstr "Aperçu du rendu"
 
-#: View/Blends/admin_view.ctp:89 View/Blends/view.ctp:17
+#: View/Blends/admin_view.ctp:89 View/Blends/view.ctp:137
 #: View/Downloads/admin_index.ctp:2
 msgid "Downloads"
 msgstr "Téléchargements"
@@ -1695,13 +1841,13 @@ msgstr "Historique des modifications"
 msgid "What did you change?"
 msgstr "Qu'avez-vous changé ?"
 
-#: View/Blends/edit.ctp:89 View/Users/edit.ctp:138
+#: View/Blends/edit.ctp:89 View/Users/edit.ctp:139
 msgid "Save Changes"
 msgstr "Enregistrer les changements"
 
 #: View/Blends/index.ctp:6
 msgid "Edit Date"
-msgstr "Editer la date"
+msgstr "Date d'édition"
 
 #: View/Blends/index.ctp:7
 msgid "Name"
@@ -1713,30 +1859,30 @@ msgid ""
 msgstr ""
 "Page {:page} sur {:pages}, visibilité : {:current} blends sur {:count}."
 
-#: View/Blends/view.ctp:8
-msgid "Published on"
-msgstr "Publié"
-
-#: View/Blends/view.ctp:13
-msgid "License"
-msgstr "Licence"
+#: View/Blends/view.ctp:54 View/Users/index.ctp:34
+msgid "Collections"
+msgstr "Mes collections"
 
 # traduire ?
-#: View/Blends/view.ctp:25 View/Users/index.ctp:30
+#: View/Blends/view.ctp:55;145 View/Users/index.ctp:30
 msgid "Likes"
 msgstr "Likes"
 
-#: View/Blends/view.ctp:36
+#: View/Blends/view.ctp:128
+msgid "Published on"
+msgstr "Publié"
+
+#: View/Blends/view.ctp:133
+msgid "License"
+msgstr "Licence"
+
+#: View/Blends/view.ctp:156
 msgid ""
 "The author of this blend is temporarily blocked and so we will not serve "
 "their blends, sorry for the inconvenience. "
 msgstr ""
 "L'auteur de ce blend est temporairement bloqué, nous ne pourrons donc pas "
 "desservir ses blends, nous sommes désolés pour le dérangement."
-
-#: View/Blends/view.ctp:45
-msgid "Zip file MD5 checksum"
-msgstr "Checksum MD5 de l'archive zip"
 
 #: View/Blends/rss/index.ctp:3
 msgid "Latest Blends"
@@ -1796,7 +1942,7 @@ msgstr "Liste de contacts"
 msgid "Contacts"
 msgstr "Contacts"
 
-#: View/Contacts/admin_index.ctp:64 View/Contacts/admin_view.ctp:92
+#: View/Contacts/admin_index.ctp:65 View/Contacts/admin_view.ctp:92
 msgid "New Contact"
 msgstr "Nouveau contact"
 
@@ -2016,7 +2162,7 @@ msgstr "Réponses"
 #: View/Elements/previewBox.ctp:17
 #, fuzzy
 msgid "This blend is in %s"
-msgstr "Le blend est disponible sous licence"
+msgstr "Ce blend est disponible sous licence"
 
 #: View/Elements/bars/blend_actions.ctp:7
 msgid "Click to unlike this blend"
@@ -2024,7 +2170,7 @@ msgstr "Cliquer pour enlever votre like sur ce blend"
 
 #: View/Elements/bars/blend_actions.ctp:10
 msgid "Like"
-msgstr "Aimer"
+msgstr "Like"
 
 #: View/Elements/bars/blend_actions.ctp:13
 msgid "Add this blend to a collection"
@@ -2200,11 +2346,11 @@ msgstr "Foire aux questions"
 msgid "News"
 msgstr "News"
 
-#: View/Elements/menus/topMenu.ctp:8 View/Layouts/frontend.ctp:134
+#: View/Elements/menus/topMenu.ctp:8 View/Layouts/frontend.ctp:145
 msgid "Site News"
 msgstr "Site de News"
 
-#: View/Elements/menus/topMenu.ctp:9 View/Layouts/frontend.ctp:131
+#: View/Elements/menus/topMenu.ctp:9 View/Layouts/frontend.ctp:142
 msgid "About"
 msgstr "A propos"
 
@@ -2212,7 +2358,7 @@ msgstr "A propos"
 msgid "About Blend Swap"
 msgstr "A propos de Blend Swap"
 
-#: View/Elements/menus/topMenu.ctp:10 View/Layouts/frontend.ctp:140
+#: View/Elements/menus/topMenu.ctp:10 View/Layouts/frontend.ctp:151
 msgid "Contact"
 msgstr "Contact"
 
@@ -2224,7 +2370,7 @@ msgstr "Nous contacter"
 msgid "More"
 msgstr "Plus"
 
-#: View/Elements/menus/topMenu.ctp:16 View/Layouts/frontend.ctp:181
+#: View/Elements/menus/topMenu.ctp:16 View/Layouts/frontend.ctp:192
 msgid "About Blender"
 msgstr "A propos de Blender"
 
@@ -2232,7 +2378,7 @@ msgstr "A propos de Blender"
 msgid "What is Blender and why you will love it."
 msgstr "Qu'est-ce que'est Blender, et pourquoi vous allez l'adorer."
 
-#: View/Elements/menus/topMenu.ctp:17 View/Layouts/frontend.ctp:187
+#: View/Elements/menus/topMenu.ctp:17 View/Layouts/frontend.ctp:198
 msgid "Learn Blender"
 msgstr "Découvrir Blender"
 
@@ -2240,7 +2386,7 @@ msgstr "Découvrir Blender"
 msgid "A listing of awesome Blender tutorials."
 msgstr "Une liste de tutoriels pour Blender."
 
-#: View/Elements/menus/topMenu.ctp:20 View/Layouts/frontend.ctp:225
+#: View/Elements/menus/topMenu.ctp:20 View/Layouts/frontend.ctp:236
 msgid "File Licensing"
 msgstr "Licences des fichiers"
 
@@ -2248,7 +2394,7 @@ msgstr "Licences des fichiers"
 msgid "Blend File Licensing"
 msgstr "Licences des fichiers"
 
-#: View/Elements/menus/topMenu.ctp:21 View/Layouts/frontend.ctp:231
+#: View/Elements/menus/topMenu.ctp:21 View/Layouts/frontend.ctp:242
 msgid "Privacy Policy"
 msgstr "Politique de vie privée"
 
@@ -2256,7 +2402,7 @@ msgstr "Politique de vie privée"
 msgid "Our Privacy Policy"
 msgstr "Politique de vie privée"
 
-#: View/Elements/menus/topMenu.ctp:22 View/Layouts/frontend.ctp:228
+#: View/Elements/menus/topMenu.ctp:22 View/Layouts/frontend.ctp:239
 msgid "Terms of Use"
 msgstr "Conditions d'utilisation"
 
@@ -2295,7 +2441,7 @@ msgstr "Mes statistiques"
 #: View/Elements/menus/topMenu.ctp:47;61 View/Elements/navs/usernav.ctp:162
 #: View/Users/bandwidth.ctp:1 View/Users/view.ctp:94
 msgid "Bandwidth History"
-msgstr "Bande passante pour"
+msgstr "Bande passante"
 
 #: View/Elements/menus/topMenu.ctp:56
 msgid "Your Associate Membership has"
@@ -2340,7 +2486,7 @@ msgstr "Restant"
 #: View/Elements/menus/topMenu.ctp:101 View/Limits/admin_view.ctp:34
 #: View/Users/bandwidth.ctp:28
 msgid "Spent"
-msgstr "Envoyé"
+msgstr "Utilisé"
 
 #: View/Elements/menus/topMenu.ctp:108
 msgid "Get more bandwidth!"
@@ -2486,7 +2632,7 @@ msgstr "Demandes déclinées"
 msgid "Requests closed to new responses"
 msgstr "Demande fermée à toute nouvelle réponse"
 
-#: View/Elements/menus/topMenu.ctp:217 View/Layouts/frontend.ctp:100
+#: View/Elements/menus/topMenu.ctp:217 View/Layouts/frontend.ctp:111
 #: View/Questions/admin_index.ctp:2
 msgid "Questions"
 msgstr "Questions"
@@ -2508,16 +2654,16 @@ msgstr "Utilisateurs"
 msgid "Find Artists"
 msgstr "Trouver des artistes"
 
-#: View/Elements/menus/topMenu.ctp:237 View/Layouts/frontend.ctp:120
+#: View/Elements/menus/topMenu.ctp:237 View/Layouts/frontend.ctp:131
 #: View/Users/featured.ctp:1
 msgid "Featured Artists"
 msgstr "Artistes vedettes"
 
-#: View/Elements/menus/topMenu.ctp:241 View/Layouts/frontend.ctp:97
+#: View/Elements/menus/topMenu.ctp:241 View/Layouts/frontend.ctp:108
 msgid "User Badges"
 msgstr "Badges d'utilisateurs"
 
-#: View/Elements/menus/topMenu.ctp:246 View/Layouts/frontend.ctp:197
+#: View/Elements/menus/topMenu.ctp:246 View/Layouts/frontend.ctp:208
 msgid "Help"
 msgstr "Aide"
 
@@ -2537,7 +2683,7 @@ msgstr "Toute la documentation"
 msgid "All site documentation"
 msgstr "Tous les sites de documentation"
 
-#: View/Elements/menus/topMenu.ctp:255 View/Layouts/frontend.ctp:200
+#: View/Elements/menus/topMenu.ctp:255 View/Layouts/frontend.ctp:211
 msgid "Known Issues"
 msgstr "Problèmes connus"
 
@@ -2545,9 +2691,9 @@ msgstr "Problèmes connus"
 msgid "Known issues"
 msgstr "Problèmes connus"
 
-#: View/Elements/menus/topMenu.ctp:260 View/Layouts/frontend.ctp:203
+#: View/Elements/menus/topMenu.ctp:260 View/Layouts/frontend.ctp:214
 msgid "Report Errors"
-msgstr "Rapporter des erreurs"
+msgstr "Signaler des erreurs"
 
 #: View/Elements/menus/topMenu.ctp:268;269
 msgid "Search Blends"
@@ -2612,7 +2758,7 @@ msgstr "Editer le Portfolio"
 
 #: View/Elements/navs/usernav.ctp:138
 msgid "Account &amp; Settings"
-msgstr "Compte &amp; Paramètres"
+msgstr "Compte et Paramètres"
 
 #: View/Elements/navs/usernav.ctp:147 View/Users/view.ctp:91
 msgid "Manage Membership"
@@ -2626,13 +2772,17 @@ msgstr "Changer de mot de passe"
 msgid "Recover old likes"
 msgstr "Récupérer les anciens likes"
 
-#: View/Elements/navs/usernav.ctp:184 View/Layouts/frontend.ctp:108
+#: View/Elements/navs/usernav.ctp:184 View/Layouts/frontend.ctp:119
 msgid "Upgrade"
 msgstr "Upgrade"
 
 #: View/Feedbacks/add.ctp:4
 msgid "Add Comment"
 msgstr "Ajouter un commentaire"
+
+#: View/Helper/CommentListHelper.php:171 View/Messages/view.ctp:2
+msgid "Message"
+msgstr "Message"
 
 # sujet ?
 #: View/Helper/DashboardHelper.php:80
@@ -2710,19 +2860,19 @@ msgstr ""
 "Il semble que ce fichier blend soit tro pgros pour votre bande passante du "
 "mois !"
 
-#: View/Helper/SingleBlendHelper.php:60
+#: View/Helper/SingleBlendHelper.php:65
 msgid "You must log in to download this blend"
 msgstr "Vous devez vous connecter pour télécharger ce blend"
 
-#: View/Helper/SingleBlendHelper.php:99
+#: View/Helper/SingleBlendHelper.php:104
 msgid "Latest Change"
-msgstr "Dernière changement"
+msgstr "Dernier changement"
 
-#: View/Helper/SingleBlendHelper.php:131
+#: View/Helper/SingleBlendHelper.php:136
 msgid "An error ocurred while reading this license."
 msgstr "Une erreur a été rencontrée lors de la lecture de la licence"
 
-#: View/Helper/SingleBlendHelper.php:141
+#: View/Helper/SingleBlendHelper.php:146
 msgid ""
 "It is recommended that you give credit for this blend but there's no "
 "obligation to do so"
@@ -2730,15 +2880,15 @@ msgstr ""
 "Il est recommandé de citer l'auteur pour utiliser ce blend, mais cela n'est "
 "pas obligatoire"
 
-#: View/Helper/SingleBlendHelper.php:167
+#: View/Helper/SingleBlendHelper.php:172
 msgid "This blend was taken down on "
 msgstr "Ce blend a été descendu sur"
 
-#: View/Helper/SingleBlendHelper.php:176
+#: View/Helper/SingleBlendHelper.php:181
 msgid "This blend was rejected on "
 msgstr "Ce blend a été rejeté"
 
-#: View/Helper/SingleBlendHelper.php:183
+#: View/Helper/SingleBlendHelper.php:188
 msgid "This blend is pending and is not accessible by normal users"
 msgstr ""
 "Ce blend est en cours, et n'est pas accessible pour les utilisateurs basiques"
@@ -2779,104 +2929,100 @@ msgstr "Expire"
 msgid "Delete Key"
 msgstr "Supprimer la clé"
 
-#: View/Layouts/frontend.ctp:79
+#: View/Layouts/frontend.ctp:90
 msgid "Service"
 msgstr "Service"
 
-#: View/Layouts/frontend.ctp:82
+#: View/Layouts/frontend.ctp:93
 msgid "Browse All Blends"
 msgstr "Regarder tous les blends"
 
-#: View/Layouts/frontend.ctp:88
+#: View/Layouts/frontend.ctp:99
 msgid "Browse Blend Requests"
 msgstr "Voir les demandes de blend"
 
-#: View/Layouts/frontend.ctp:91
+#: View/Layouts/frontend.ctp:102
 msgid "Browse Blend Collections"
 msgstr "Regarder toutes les collections de blend"
 
-#: View/Layouts/frontend.ctp:94
+#: View/Layouts/frontend.ctp:105
 msgid "Users Index"
 msgstr "Index des utilisateurs"
 
-#: View/Layouts/frontend.ctp:105
+#: View/Layouts/frontend.ctp:116
 msgid "Accounts"
 msgstr "Comptes"
 
-#: View/Layouts/frontend.ctp:111
+#: View/Layouts/frontend.ctp:122
 msgid "Free Membership"
 msgstr "Compte gratuit"
 
-#: View/Layouts/frontend.ctp:114
+#: View/Layouts/frontend.ctp:125
 msgid "Associate Membership"
 msgstr "Abonnement Premium"
 
 # adhésion / abonnement ?
-#: View/Layouts/frontend.ctp:117
+#: View/Layouts/frontend.ctp:128
 msgid "Deadline Membership"
 msgstr "Abonnement Deadline"
 
-#: View/Layouts/frontend.ctp:123
+#: View/Layouts/frontend.ctp:134
 msgid "Bandwidth Assignation"
 msgstr "Assignation de bande passante"
 
-#: View/Layouts/frontend.ctp:128
+#: View/Layouts/frontend.ctp:139
 msgid "Site"
 msgstr "Site"
 
-#: View/Layouts/frontend.ctp:143
+#: View/Layouts/frontend.ctp:154
 msgid "Credits"
 msgstr "Crédits"
 
-#: View/Layouts/frontend.ctp:146
+#: View/Layouts/frontend.ctp:157
 msgid "Advertising"
 msgstr "Publicité"
 
-#: View/Layouts/frontend.ctp:149
+#: View/Layouts/frontend.ctp:160
 msgid "Translations"
 msgstr "Traductions"
 
-#: View/Layouts/frontend.ctp:154
+#: View/Layouts/frontend.ctp:165
 msgid "Connect"
 msgstr "Connecter"
 
-#: View/Layouts/frontend.ctp:184
+#: View/Layouts/frontend.ctp:195
 msgid "Get Blender"
 msgstr "Obtenir Blender"
 
-#: View/Layouts/frontend.ctp:194
+#: View/Layouts/frontend.ctp:205
 msgid "Support"
 msgstr "Support"
 
-#: View/Layouts/frontend.ctp:207
+#: View/Layouts/frontend.ctp:218
 msgid "Access"
 msgstr "Accessiblité"
 
-#: View/Layouts/frontend.ctp:210
+#: View/Layouts/frontend.ctp:221
 msgid "Register"
 msgstr "S'inscrire"
 
-#: View/Layouts/frontend.ctp:213
-msgid "Log in"
-msgstr "Se connecter"
-
-#: View/Layouts/frontend.ctp:216
+#: View/Layouts/frontend.ctp:227
 msgid "Reset Password"
 msgstr "Réinitialiser le mot de passe"
 
-#: View/Layouts/frontend.ctp:222
+#: View/Layouts/frontend.ctp:233
 msgid "Legal"
 msgstr "Légalité"
 
-#: View/Layouts/frontend.ctp:238
+#: View/Layouts/frontend.ctp:249
 msgid "Take the guided tour!"
 msgstr "Faire la visite guidée !"
 
-#: View/Layouts/frontend.ctp:247
+#: View/Layouts/frontend.ctp:258
 msgid "All rights reserved"
 msgstr "Tous droits réservés"
 
-#: View/Layouts/frontend.ctp:248
+#: View/Layouts/frontend.ctp:259
 msgid "Except where noted, all content is released under"
 msgstr "Sauf si signalé, tout contenu est publié sous "
 
@@ -2931,10 +3077,6 @@ msgstr "Editer un message"
 #: View/Users/admin_index.ctp:83
 msgid "New Message"
 msgstr "Nouveau message"
-
-#: View/Messages/view.ctp:2
-msgid "Message"
-msgstr "Message"
 
 #: View/Messages/view.ctp:45
 msgid "Delete Message"
@@ -3118,10 +3260,6 @@ msgstr "Editer une question"
 #: View/Questions/admin_view.ctp:40
 msgid "Delete Question"
 msgstr "Supprimer une question"
-
-#: View/Questions/index.ctp:17 View/Questions/view.ctp:8
-msgid "by"
-msgstr "par"
 
 #: View/Questions/index.ctp:56
 msgid ""
@@ -3390,23 +3528,23 @@ msgstr "J'ai eu un nouveau badge"
 msgid "More Settings"
 msgstr "Plus de paramètres"
 
-#: View/Users/edit.ctp:70
+#: View/Users/edit.ctp:71
 msgid "Preferred Language"
 msgstr "Langue utilisée"
 
-#: View/Users/edit.ctp:81
+#: View/Users/edit.ctp:82
 msgid "Associate Members"
 msgstr "Les Membres Premuim"
 
-#: View/Users/edit.ctp:82
+#: View/Users/edit.ctp:83
 msgid "can set the amount of Blends per index page up to 60"
 msgstr "peuvent afficher 60 blends par page"
 
-#: View/Users/edit.ctp:93;94;95
+#: View/Users/edit.ctp:94;95;96
 msgid "blends per page"
 msgstr "40 blends par page"
 
-#: View/Users/edit.ctp:93
+#: View/Users/edit.ctp:94
 msgid "default"
 msgstr "défaut"
 
@@ -3425,10 +3563,6 @@ msgstr ""
 #: View/Users/index.ctp:26;59
 msgid "points"
 msgstr "points"
-
-#: View/Users/index.ctp:34
-msgid "Collections"
-msgstr "Mes collections"
 
 #: View/Users/index.ctp:47
 msgid ""
@@ -3452,10 +3586,6 @@ msgstr "S'inscrire maintenant !"
 #: View/Users/m_login.ctp:11
 msgid "Forgot your password?"
 msgstr "Mot de passe oublié ?"
-
-#: View/Users/m_login.ctp:15
-msgid "Register now"
-msgstr "S'inscrire maintenant"
 
 #: View/Users/search.ctp:93
 msgid ""
@@ -3491,6 +3621,9 @@ msgstr "Cet utilisateur n'a pas encore de badge..."
 msgid "You should set up your skills from the profile edit panel"
 msgstr ""
 "Vous devriez établir vos compétences depuis le panneau pour éditer le profil."
+
+#~ msgid "Zip file MD5 checksum"
+#~ msgstr "Checksum MD5 de l'archive zip"
 
 #~ msgid "Membership"
 #~ msgstr "Abonnements"

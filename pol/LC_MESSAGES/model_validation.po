@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-03-27 21:22-0600\n"
-"PO-Revision-Date: 2013-03-29 09:44+0100\n"
+"POT-Creation-Date: 2013-04-15 18:16-0600\n"
+"PO-Revision-Date: 2013-05-02 10:58+0100\n"
 "Last-Translator: Tomasz Lyduch <ttomek32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: \n"
@@ -72,6 +72,11 @@ msgstr "Niepoprawna wartość dla wersji Blendera (błąd)"
 #: for field tags
 msgid "Tags help others find your blend. Use at least one tag and don't forget the commas!"
 msgstr "Tagi pomogą innym znaleźć twój projekt. Użyj przynajmniej jednego i nie zapomnij o przecinku!"
+
+#: Model/Blend.php:validation
+#: for field tags
+msgid "Those are not tags, write valid, comma separated tags!"
+msgstr "To nie posiada tagów, błędny zapis, tagi oddzielaj przecinakami!"
 
 #: Model/Blend.php:validation
 #: for field categories

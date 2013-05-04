@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-03-27 21:22-0600\n"
+"POT-Creation-Date: 2013-04-15 18:16-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -56,6 +56,10 @@ msgstr ""
 
 #: Model/Blend.php:validation for field tags
 msgid "Tags help others find your blend. Use at least one tag and don't forget the commas!"
+msgstr ""
+
+#: Model/Blend.php:validation for field tags
+msgid "Those are not tags, write valid, comma separated tags!"
 msgstr ""
 
 #: Model/Blend.php:validation for field categories
