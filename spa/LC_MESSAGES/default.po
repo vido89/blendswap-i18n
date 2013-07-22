@@ -2896,7 +2896,7 @@ msgstr "Añadir Comentario"
 #: View/Helper/CommentListHelper.php:171
 #: View/Messages/view.ctp:2
 msgid "Message"
-msgstr "MEnsaje"
+msgstr "Mensaje"
 
 #: View/Helper/DashboardHelper.php:80
 msgid "mentioned you on"
