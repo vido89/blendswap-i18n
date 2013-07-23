@@ -2634,7 +2634,7 @@ msgstr "Sólo Blends CC-BY"
 
 #: View/Elements/menus/topMenu.ctp:152
 msgid "Only CC-BY-SA Blends"
-msgstr "Sólo Blends Bajo CC-BY-SA"
+msgstr "Sólo Blends CC-BY-SA"
 
 #: View/Elements/menus/topMenu.ctp:152
 msgid "Only CC-BY-SA"
