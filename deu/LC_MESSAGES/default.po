@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-08-01 10:47-0600\n"
-"PO-Revision-Date: 2013-09-03 00:19+0100\n"
+"PO-Revision-Date: 2013-09-03 00:35+0100\n"
 "Last-Translator: CerFriBar <cerfribar@googlemail.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: de_DE\n"
@@ -545,7 +545,7 @@ msgstr "Ihre Bandbreite wurde neu berechnet"
 
 #: Controller/LimitsController.php:202
 msgid "No changes were made to your bandwidth limit."
-msgstr "Es wurden keine Änderungen an Ihrer Bandbreite Grenze gemacht."
+msgstr "Es wurden keine Änderungen an Ihrem Bandbreite Limit vorgenommen."
 
 #: Controller/LimitsController.php:204
 msgid ""
@@ -2639,7 +2639,7 @@ msgstr "Meine Likes"
 #: View/Elements/menus/topMenu.ctp:277;279 View/Elements/navs/usernav.ctp:163
 #: View/Users/bandwidth.ctp:1 View/Users/view.ctp:95
 msgid "Bandwidth History"
-msgstr "Bandbreite Vergangenheit"
+msgstr "Bandbreite History"
 
 #: View/Elements/menus/topMenu.ctp:286
 msgid "Log out"
@@ -3429,7 +3429,7 @@ msgstr "Registrieren"
 
 #: View/Users/bandwidth.ctp:6
 msgid "Your bandwidth history by month"
-msgstr "Ihre Bandbreite Vergangenheit in Monaten"
+msgstr "Ihre Bandbreite History in Monaten"
 
 #: View/Users/bandwidth.ctp:8
 msgid "You have unlimited bandwidth! you can totally ignore this"
@@ -3453,7 +3453,7 @@ msgstr "Reparieren Sie es"
 
 #: View/Users/bandwidth.ctp:64
 msgid "Download History for current month"
-msgstr "Download Vergangenheit für diesen Monat"
+msgstr "Download History für diesen Monat"
 
 #: View/Users/bandwidth.ctp:73
 msgid "COUNTED"
