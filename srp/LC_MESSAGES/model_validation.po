@@ -4,9 +4,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-04-15 18:16-0600\n"
-"PO-Revision-Date: 2013-05-04 18:26+0100\n"
-"Last-Translator: vido89 <vidovic.slobodan89@gmail.com>\n"
+"POT-Creation-Date: 2013-08-01 10:47-0600\n"
+"PO-Revision-Date: 2013-10-23 00:53+0100\n"
+"Last-Translator: Vido89 <vidovic.slobodan@yahoo.com>\n"
 "Language-Team: Blend Swap Translators <vidovic.slobodan89@gmail.com>\n"
 "Language: Serbian\n"
 "MIME-Version: 1.0\n"
@@ -16,327 +16,278 @@ msgstr ""
 "X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: Model/Blend.php:validation
-#: for field title
+#: Model/Blend.php:validation for field title
 msgid "Your blend must have a name!"
 msgstr "Vaš blend fajl mora imati ime!"
 
-#: Model/Blend.php:validation
-#: for field title
+#: Model/Blend.php:validation for field title
 msgid "The Blend Name must be between 2 and 140 chars long!"
 msgstr "Ime blend fajla mora biti između 2 i 140 karaktera dužine !"
 
-#: Model/Blend.php:validation
-#: for field body
+#: Model/Blend.php:validation for field body
 msgid "Your blend must have a description!"
 msgstr "Vaš blend fajl mora sadržati opis!"
 
-#: Model/Blend.php:validation
-#: for field body
+#: Model/Blend.php:validation for field body
 msgid "The description must be between 40 and 5000 chars long!"
 msgstr "Opis mora biti između 40 i 5000 karaktera dužine!"
 
-#: Model/Blend.php:validation
-#: for field three_dee
+#: Model/Blend.php:validation for field three_dee
 msgid "That is not a url!"
 msgstr "Url nije ispravan!"
 
 # viewer ??? web viewer ? 3D viewer
 # pregledaš za šta ?
-#: Model/Blend.php:validation
-#: for field three_dee
+#: Model/Blend.php:validation for field three_dee
 msgid "That is not a supported viewer."
 msgstr "To nije ispravan pregledač!"
 
-#: Model/Blend.php:validation
-#: for field blend_license
+#: Model/Blend.php:validation for field blend_license
 msgid "Please choose a license for your blend."
 msgstr "Molimo odaberite licencu za vaš blend fajl."
 
-#: Model/Blend.php:validation
-#: for field blend_license
+#: Model/Blend.php:validation for field blend_license
 msgid "Invalid value for Blend License!"
 msgstr "Neispravna vrijednost za blend licencu!"
 
-#: Model/Blend.php:validation
-#: for field blender_version
+#: Model/Blend.php:validation for field blender_version
 msgid "Please choose the version of blender you used to make this blend."
-msgstr "Molimo odaberite verziju blendera koju ste koristili za kreiranje ovog blend fajla."
+msgstr ""
+"Molimo odaberite verziju blendera koju ste koristili za kreiranje ovog blend "
+"fajla."
 
-#: Model/Blend.php:validation
-#: for field blender_version
+#: Model/Blend.php:validation for field blender_version
 msgid "Invalid value type for Blender version"
 msgstr "Vrijednost za verziju Blender nije ispravna"
 
-#: Model/Blend.php:validation
-#: for field tags
-msgid "Tags help others find your blend. Use at least one tag and don't forget the commas!"
-msgstr "Tag pomaže drugima da pronađu tvoj blend fajl. Koristite minimum jedan tag i ne zaboravite zareze!"
+#: Model/Blend.php:validation for field tags
+msgid ""
+"Tags help others find your blend. Use at least one tag and don't forget the "
+"commas!"
+msgstr ""
+"Tag pomaže drugima da pronađu tvoj blend fajl. Koristite minimum jedan tag i "
+"ne zaboravite zareze!"
 
-#: Model/Blend.php:validation
-#: for field tags
+#: Model/Blend.php:validation for field tags
 msgid "Those are not tags, write valid, comma separated tags!"
 msgstr "Pišite ispravno, sa zarezima odvojene riječi !"
 
-#: Model/Blend.php:validation
-#: for field categories
-#: Model/Request.php:validation
-#: requirements
+#: Model/Blend.php:validation for field categories
+#: Model/Request.php:validation requirements
 msgid "Pick one to four categories."
 msgstr "Označite 1 pa sve do 4 kategorije."
 
 # taxonomiy ???
-#: Model/Blend.php:validation
-#: for field categories
+#: Model/Blend.php:validation for field categories
 msgid "Invalid taxonomiy input."
 msgstr "Neispravna unijeta vrijednost."
 
-#: Model/Blend.php:validation
-#: for field change_log
+#: Model/Blend.php:validation for field change_log
 msgid "Please tell us what you changed in the data or the files."
 msgstr "Molimo navedite podatke koje ste izmijenili."
 
-#: Model/Blend.php:validation
-#: for field hello Model/Message.php:validation
-#: Model/Profile.php:validation
-#: Model/Report.php:validation
-#: Model/Request.php:validation
-#: Model/User.php:validation
+#: Model/Blend.php:validation for field hello Model/Message.php:validation
+#: Model/Profile.php:validation Model/Report.php:validation
+#: Model/Request.php:validation Model/User.php:validation
 msgid "empty"
 msgstr "prazno"
 
-#: Model/Collection.php:validation
-#: for field name
+#: Model/Collection.php:validation for field name
 msgid "The collection Must have a name"
 msgstr "Kolekcija mora imati ime"
 
-#: Model/Collection.php:validation
-#: for field visibility
+#: Model/Collection.php:validation for field visibility
 msgid "Choose a visibility setting"
 msgstr "Odaberite podešavanja za vidljivost"
 
-#: Model/Collection.php:validation
-#: for field visibility
+#: Model/Collection.php:validation for field visibility
 msgid "Invalid visibility value!!!"
 msgstr "Vrijednost za vidljivost nije ispravna!"
 
-#: Model/Comment.php:validation
-#: for field body
+#: Model/Comment.php:validation for field body
 msgid "The comment cannot be empty!"
 msgstr "Komentar ne može biti prazan!"
 
-#: Model/Comment.php:validation
-#: for field user_id;validation
+#: Model/Comment.php:validation for field user_id;validation
 #: parent_id;validation object_id Model/Revision.php:validation
 msgid "numeric"
 msgstr "numerička"
 
-#: Model/Contact.php:validation
-#: for field name;validation email;validation
+#: Model/Contact.php:validation for field name;validation email;validation
 #: body
 msgid "This field is required."
 msgstr "Ovo polje mora biti popunjeno."
 
-#: Model/Contact.php:validation
-#: for field name
+#: Model/Contact.php:validation for field name
 msgid "This field contains invalid characters..."
 msgstr "Ovo polje sadrži karaktere koji nisu podržani  ..."
 
-#: Model/Contact.php:validation
-#: for field email
+#: Model/Contact.php:validation for field email
 msgid "This doesn't look like an email..."
 msgstr "Ovo ne izgleda kao ispravan email ..."
 
-#: Model/Contact.php:validation
-#: for field subject
+#: Model/Contact.php:validation for field subject
 msgid "Please select the subject."
 msgstr "Molimo odaberite naslov."
 
-#: Model/Contact.php:validation
-#: for field subject
+#: Model/Contact.php:validation for field subject
 msgid "An error happened, try again."
 msgstr "Dogodila se greška, pokušajte ponovo."
 
-#: Model/Contact.php:validation
-#: for field website
+#: Model/Contact.php:validation for field website
 msgid "This is not a url"
 msgstr "Ovo nije url"
 
-#: Model/Email.php:validation
-#: for field name
+#: Model/Email.php:validation for field name
 msgid "this email must have a name"
 msgstr "ovaj email mora imati ime"
 
-#: Model/Email.php:validation
-#: for field pointer
+#: Model/Email.php:validation for field pointer
 msgid "emails must have a call key so they can be called from inside the app."
-msgstr "email-ovi moraju imati ključ za pozivanje tako da mogu biti pozvani unutar aplikacije."
+msgstr ""
+"email-ovi moraju imati ključ za pozivanje tako da mogu biti pozvani unutar "
+"aplikacije."
 
-#: Model/Email.php:validation
-#: for field pointer
+#: Model/Email.php:validation for field pointer
 msgid "Only letters and underscores are allowed"
 msgstr "Dozvoljeni su samo slova i donja crta"
 
-#: Model/Message.php:validation
-#: for field body
+#: Model/Message.php:validation for field body
 msgid "Empty messages are not allowed."
 msgstr "Prazna poruka nije dozvoljena."
 
 # allowedStatuses
 # dozvoljeni statusi ?
 # dozvoljeniStatusi ?
-#: Model/Message.php:validation
-#: for field status
+#: Model/Message.php:validation for field status
 msgid "allowedStatuses"
 msgstr "dozvoljeni statusi"
 
-#: Model/Profile.php:validation
-#: for field website;validation
+#: Model/Profile.php:validation for field website;validation
 #: deviantart;validation bartists;validation flickr;validation
 #: facebook;validation youtube;validation vimeo;validation twitter;validation
 #: github;validation pinterest;validation behance;validation linkedin
 msgid "This does not look like an URL"
 msgstr "Ovo ne izgleda kao ispravan URL"
 
-#: Model/Question.php:validation
-#: for field body
+#: Model/Question.php:validation for field body
 msgid "Your question needs a body with details."
 msgstr "Vaše pitanje mora sadržati poruku sa opisom."
 
-#: Model/Question.php:validation
-#: for field body
+#: Model/Question.php:validation for field body
 msgid "Your question body must be between 40 and 2000 characters long."
 msgstr "Vaša poruka u pitanju pora biti imeđu 40 i 2000 karaktera dužine."
 
-#: Model/Question.php:validation
-#: for field title
+#: Model/Question.php:validation for field title
 msgid "Your question needs a title."
 msgstr "Vašem pitanju je potreban naslov."
 
-#: Model/Question.php:validation
-#: for field title
+#: Model/Question.php:validation for field title
 msgid "Your question title must be between 10 and 256 characters long."
 msgstr "Naslov pitanja mora biti između 10 i 256 karaktera dužine."
 
-#: Model/Question.php:validation
-#: for field tags
-msgid "Tags help other users to find your question. You must use at least one tag."
-msgstr "Tag pomaže drugim ljudima da pronađu vaše pitanje. Morate navesti jedan tag."
+#: Model/Question.php:validation for field tags
+msgid ""
+"Tags help other users to find your question. You must use at least one tag."
+msgstr ""
+"Tag pomaže drugim ljudima da pronađu vaše pitanje. Morate navesti jedan tag."
 
-#: Model/Report.php:validation
-#: for field reason
+#: Model/Report.php:validation for field reason
 msgid "You must choose an option."
 msgstr "Morate odabrati opciju."
 
-#: Model/Report.php:validation
-#: for field reason
+#: Model/Report.php:validation for field reason
 msgid "The reason contains invalid characters"
 msgstr "Razlog sadrži ne dozvoljen(e) karakter(e)"
 
-#: Model/Report.php:validation
-#: for field body
-msgid "You must provide links and/or notes for us to be able to take care of your report"
-msgstr "Molimo navedite link ili opis da bismo mogli da razmotrimo vašu prijavu"
+#: Model/Report.php:validation for field body
+msgid ""
+"You must provide links and/or notes for us to be able to take care of your "
+"report"
+msgstr ""
+"Molimo navedite link ili opis da bismo mogli da razmotrimo vašu prijavu"
 
-#: Model/Request.php:validation
-#: for field title
+#: Model/Request.php:validation for field title
 msgid "Your request must have a title"
 msgstr "Vaš zahtjev mora imati naslov"
 
-#: Model/Request.php:validation
-#: for field body
+#: Model/Request.php:validation for field body
 msgid "You must provide notes and details about the request."
 msgstr "Morate navesti opis i detalje vezano za zahtjev."
 
-#: Model/Revision.php:validation
-#: for field user_id;validation
+#: Model/Revision.php:validation for field user_id;validation
 #: object_id;validation object_class;validation object_data;validation log
-#: Model/Term.php:validation
-#: slug
+#: Model/Term.php:validation slug
 msgid "notEmpty"
 msgstr "Popunjeno"
 
-#: Model/Revision.php:validation
-#: for field object_class
+#: Model/Revision.php:validation for field object_class
 msgid "alphanumeric"
 msgstr "alfanumerički"
 
 # isUnique ???
 # jeUnikatan
-#: Model/Term.php:validation
-#: for field slug
+#: Model/Term.php:validation for field slug
 msgid "isUnique"
 msgstr "je Unikatan"
 
 # validChars
 # validniKarakteri ???
-#: Model/Term.php:validation
-#: for field slug
+#: Model/Term.php:validation for field slug
 msgid "validChars"
 msgstr "Podržane vrijednsti"
 
-#: Model/Term.php:validation
-#: for field slug
+#: Model/Term.php:validation for field slug
 msgid "between"
 msgstr "između"
 
-#: Model/User.php:validation
-#: for field username
+#: Model/User.php:validation for field username
 msgid "Only letters and numbers please."
 msgstr "Samo slova i brojeve molimo."
 
-#: Model/User.php:validation
-#: for field username
+#: Model/User.php:validation for field username
 msgid "The username must be between 2 and 32 characters long!"
 msgstr "Korisničko ime mora biti između 2 i 32 karaktera dužine!"
 
-#: Model/User.php:validation
-#: for field username
+#: Model/User.php:validation for field username
 msgid "Can not be empty"
 msgstr "Ne može biti prazno"
 
-#: Model/User.php:validation
-#: for field username
+#: Model/User.php:validation for field username
 msgid "This username is already taken."
 msgstr "Neko drugi već koristi ovo ime."
 
-#: Model/User.php:validation
-#: for field email;validation password
+#: Model/User.php:validation for field email;validation password
 msgid "Can not be left empty"
 msgstr "Ne možete ostaviti prazno"
 
-#: Model/User.php:validation
-#: for field email
+#: Model/User.php:validation for field email
 msgid "Does not look like an email"
 msgstr "Niste unijeli ispravan email"
 
-#: Model/User.php:validation
-#: for field email
-msgid "That email is already in use, maybe you signed up with tha email before?"
-msgstr "Ovaj email je već u upotrebi, možda ste se registrovali sa njim ranije?"
+#: Model/User.php:validation for field email
+msgid ""
+"That email is already in use, maybe you signed up with tha email before?"
+msgstr ""
+"Ovaj email je već u upotrebi, možda ste se registrovali sa njim ranije?"
 
-#: Model/User.php:validation
-#: for field email
+#: Model/User.php:validation for field email
 msgid "This email is not allowed. You must use a real email adress."
 msgstr "Ovaj mail nije dozvoljen. Morate unijeti ispravan email."
 
-#: Model/User.php:validation
-#: for field password
+#: Model/User.php:validation for field password
 msgid "Must be between 8 and 128 characters long"
 msgstr "Mora biti između 8 i 128 karaktera dužine"
 
-#: Model/User.php:validation
-#: for field first_name;validation last_name
+#: Model/User.php:validation for field first_name;validation last_name
 msgid "Must be 2 letters or more."
 msgstr "Morate navesti 2 ili više slova."
 
-#: Model/User.php:validation
-#: for field accept_terms
+#: Model/User.php:validation for field accept_terms
 msgid "You must accept the Terms Of Use!"
 msgstr "Porate prihvatiti uslove za korišćenje!"
 
-#: Model/User.php:validation
-#: for field bpp
+#: Model/User.php:validation for field bpp
 msgid "Invalid value type"
 msgstr "Unijeta vrijednost nije ispravna"
 
