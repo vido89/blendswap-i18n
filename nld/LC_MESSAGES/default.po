@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-08-01 10:47-0600\n"
-"PO-Revision-Date: 2013-11-05 11:56+0100\n"
+"PO-Revision-Date: 2013-11-05 12:22+0100\n"
 "Last-Translator: Benny <Benny@GMX.it>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "MIME-Version: 1.0\n"
@@ -749,23 +749,23 @@ msgstr "Ongeldig adres"
 
 #: Controller/ReportsController.php:49;205;238;264
 msgid "Invalid report"
-msgstr ""
+msgstr "Ongeldig rapport"
 
 #: Controller/ReportsController.php:242
 msgid "The report has been saved"
-msgstr ""
+msgstr "Rapport is opgeslagen"
 
 #: Controller/ReportsController.php:245
 msgid "The report could not be saved. Please, try again."
-msgstr ""
+msgstr "Rapport kon niet worden opgeslagen. Probeer opnieuw, a.u.b."
 
 #: Controller/ReportsController.php:267
 msgid "Report deleted"
-msgstr ""
+msgstr "Rapport verwijdert"
 
 #: Controller/ReportsController.php:270
 msgid "Report was not deleted"
-msgstr ""
+msgstr "Rapport is niet verwijdert"
 
 #: Controller/RequestsController.php:73;212;262;305;542;576;617
 msgid "Invalid request"
