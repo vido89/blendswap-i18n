@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-08-01 10:47-0600\n"
-"PO-Revision-Date: 2013-11-05 12:22+0100\n"
+"PO-Revision-Date: 2013-11-05 12:50+0100\n"
 "Last-Translator: Benny <Benny@GMX.it>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "MIME-Version: 1.0\n"
@@ -907,23 +907,24 @@ msgstr "Label: %s"
 
 #: Controller/UserbadgesController.php:29;60;86
 msgid "Invalid userbadge"
-msgstr ""
+msgstr "Ongeldige gebruikers badge"
 
 #: Controller/UserbadgesController.php:43;64
 msgid "The userbadge has been saved"
-msgstr ""
+msgstr "Gebruikers badge is opgeslagen"
 
 #: Controller/UserbadgesController.php:46;67
 msgid "The userbadge could not be saved. Please, try again."
 msgstr ""
+"De gebruikers badge kon niet worden opgeslagen. Probeer opnieuw, a.u.b."
 
 #: Controller/UserbadgesController.php:89
 msgid "Userbadge deleted"
-msgstr ""
+msgstr "Gebruikers badge verwijdert"
 
 #: Controller/UserbadgesController.php:92
 msgid "Userbadge was not deleted"
-msgstr ""
+msgstr "Gebruikers badge is niet verwijdert"
 
 #: Controller/UsersController.php:161;163
 msgid "This user does not exist on Blend Swap."
@@ -1371,7 +1372,7 @@ msgstr "Verbeterde power mogelijkheden!"
 
 #: View/App/home.ctp:83
 msgid "Paid subscription of $10/month or $80/year"
-msgstr ""
+msgstr "Betaald abonnement voor $10/maand of $80/jaar"
 
 #: View/App/home.ctp:84
 msgid "Download all the assets you want!"
@@ -1449,7 +1450,7 @@ msgstr "Beschrijving"
 
 #: View/Blends/add.ctp:46 View/Blends/edit.ctp:13
 msgid "%d characters long min."
-msgstr ""
+msgstr "minimaal %d karakters lang"
 
 #: View/Blends/add.ctp:47 View/Blends/edit.ctp:14
 msgid "3D Preview URL"
@@ -1676,7 +1677,7 @@ msgstr ""
 #: View/Questions/admin_view.ctp:24 View/Reports/view.ctp:29
 #: View/Requests/admin_view.ctp:29
 msgid "Body"
-msgstr ""
+msgstr "Inhoud"
 
 #: View/Blends/admin_view.ctp:34;245 View/Messages/view.ctp:19
 msgid "Type"
@@ -2498,10 +2499,9 @@ msgstr "Verzoeken"
 msgid "New Request"
 msgstr "Nieuw verzoek"
 
-# Where is this used?
 #: View/Elements/menus/topMenu.ctp:112;148
 msgid "%s Main Index"
-msgstr ""
+msgstr "%s hoofd Index"
 
 #: View/Elements/menus/topMenu.ctp:117
 msgid "All Requests"
@@ -2509,7 +2509,7 @@ msgstr "Alle verzoeken"
 
 #: View/Elements/menus/topMenu.ctp:119
 msgid "Requests Main Index"
-msgstr ""
+msgstr "Verzoeken hoofd index"
 
 #: View/Elements/menus/topMenu.ctp:122
 msgid "Open Requests"
