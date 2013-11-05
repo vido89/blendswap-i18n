@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-08-01 10:47-0600\n"
+"POT-Creation-Date: 2013-11-05 14:02-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -151,6 +151,10 @@ msgstr ""
 
 #: Model/Profile.php:validation for field website;validation for field deviantart;validation for field bartists;validation for field flickr;validation for field facebook;validation for field youtube;validation for field vimeo;validation for field twitter;validation for field github;validation for field pinterest;validation for field behance;validation for field linkedin
 msgid "This does not look like an URL"
+msgstr ""
+
+#: Model/Profile.php:validation for field description
+msgid "The bio must be between 24 and 1024 characters long"
 msgstr ""
 
 #: Model/Question.php:validation for field body
