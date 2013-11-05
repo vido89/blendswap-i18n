@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-08-01 10:47-0600\n"
-"PO-Revision-Date: 2013-11-05 12:50+0100\n"
+"PO-Revision-Date: 2013-11-05 21:58+0100\n"
 "Last-Translator: Benny <Benny@GMX.it>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "MIME-Version: 1.0\n"
@@ -1405,7 +1405,7 @@ msgstr "Portfolio galerij"
 # Associate badge?
 #: View/App/home.ctp:93
 msgid "Associate Badge in comments"
-msgstr ""
+msgstr "Betalend lid badge in reacties"
 
 #: View/App/home.ctp:94
 msgid "For Hire Badge in profile and comments"
@@ -2289,7 +2289,7 @@ msgstr "Kik om reacties hier niet meer bij te houden"
 
 #: View/Elements/bars/blend_actions.ctp:48
 msgid "Report an infraction on this blend."
-msgstr ""
+msgstr "Rapporteer deze blend."
 
 #: View/Elements/bars/owner_bar.ctp:6
 msgid "Blend Page"
@@ -2373,7 +2373,7 @@ msgstr "Klik hier om antwoorden toe te staan voor dit verzoek"
 # What is will be the first %s?
 #: View/Elements/forms/commentForm.ctp:5
 msgid "Remember to keep your %s cool, harsh %s will be removed"
-msgstr ""
+msgstr "Houd uw %s beleeft, redundante of gemene %s zullen worden verwijdert"
 
 #: View/Elements/forms/commentForm.ctp:6
 msgid ""
@@ -2588,7 +2588,7 @@ msgstr "Alle documentatie"
 
 #: View/Elements/menus/topMenu.ctp:208
 msgid "All site documentation"
-msgstr ""
+msgstr "Alle documentatie"
 
 #: View/Elements/menus/topMenu.ctp:211 View/Layouts/frontend.ctp:225
 msgid "Known Issues"
@@ -2662,7 +2662,7 @@ msgstr "Verander uw zoek criteria!"
 
 #: View/Elements/navs/usernav.ctp:7
 msgid "Around me"
-msgstr ""
+msgstr "Rond mij"
 
 #: View/Elements/navs/usernav.ctp:11
 msgid "All Activity"
@@ -2677,8 +2677,9 @@ msgid "Admin Notifications"
 msgstr "Admin notificaties"
 
 #: View/Elements/navs/usernav.ctp:49
+#, fuzzy
 msgid "Buzz"
-msgstr ""
+msgstr "Buzz"
 
 #: View/Elements/navs/usernav.ctp:61 View/Messages/index.ctp:2
 msgid "Messages"
@@ -3451,11 +3452,11 @@ msgstr "Download history voor huidige maand"
 
 #: View/Users/bandwidth.ctp:73
 msgid "COUNTED"
-msgstr ""
+msgstr "Meegeteld"
 
 #: View/Users/bandwidth.ctp:73
 msgid "Not counted"
-msgstr ""
+msgstr "Nog niet meegeteld"
 
 #: View/Users/bandwidth.ctp:77
 msgid "Bandwidth"
