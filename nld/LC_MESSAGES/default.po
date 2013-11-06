@@ -4,16 +4,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-08-01 10:47-0600\n"
-"PO-Revision-Date: 2013-11-05 21:58+0100\n"
+"POT-Creation-Date: 2013-11-05 14:02-0600\n"
+"PO-Revision-Date: 2013-11-06 14:21+0100\n"
 "Last-Translator: Benny <Benny@GMX.it>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: nl\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: Controller/AtomsController.php:31;75;101
@@ -56,15 +56,15 @@ msgstr "Badge verwijdert"
 msgid "Badge was not deleted"
 msgstr "Badge is niet verwijdert"
 
-#: Controller/BlendsController.php:198;1684;1708;1738
+#: Controller/BlendsController.php:194;1390;1414;1444
 msgid "Invalid blend"
 msgstr "Ongeldige blend"
 
-#: Controller/BlendsController.php:562
+#: Controller/BlendsController.php:579
 msgid "Thank you! Your new blend was saved and is now publicly visible!"
 msgstr "Bedankt! Uw blend is met succes opgeslagen is publiekelijk zichtbaar."
 
-#: Controller/BlendsController.php:564
+#: Controller/BlendsController.php:581
 msgid ""
 "There was an error saving your blend as published, please report you saw "
 "this error!"
@@ -72,7 +72,7 @@ msgstr ""
 "Er was een fout bij het opslaan van jouw blend als gepubliceerd. Meld dat je "
 "deze fout hebt gezien!"
 
-#: Controller/BlendsController.php:568
+#: Controller/BlendsController.php:585
 msgid ""
 "Your new blend was saved and is now waiting moderation! Please be patient "
 "for an adminn to check your file."
@@ -80,7 +80,7 @@ msgstr ""
 "Uw blend is opgeslagen en wacht op goedkeuring. Geduld a.u.b. terwijl een "
 "admin jouw bestand controleert."
 
-#: Controller/BlendsController.php:572
+#: Controller/BlendsController.php:589
 msgid ""
 "You blend was saved to the database, but one of the files failed to upload, "
 "please fix below the file type marked in red!"
@@ -88,7 +88,7 @@ msgstr ""
 "Uw blend is opgeslagen in de databank, maar het is mislukt om een van de "
 "bestanden te uploaden, herstel de bestand type gemarkeerd in rood hieronder."
 
-#: Controller/BlendsController.php:577
+#: Controller/BlendsController.php:594
 msgid ""
 "The blend could not be saved. Please ckeck any errors below and try again. "
 "Don't forget to re-select the files."
@@ -96,15 +96,15 @@ msgstr ""
 "De blend kon niet worden opgeslagen. Controleert op errors hier beneden en "
 "probeer opnieuw.  Vergeet niet de bestanden te her-selecteren."
 
-#: Controller/BlendsController.php:646
+#: Controller/BlendsController.php:663
 msgid "The requested blend does not exist."
 msgstr "De verzochte blend bestaat niet."
 
-#: Controller/BlendsController.php:686;1712
+#: Controller/BlendsController.php:703;1418
 msgid "The blend has been saved"
 msgstr "De blend is opgeslagen."
 
-#: Controller/BlendsController.php:688
+#: Controller/BlendsController.php:705
 msgid ""
 "The blend has been saved, but there was an error while updating the license "
 "file, please report that you saw this message."
@@ -112,139 +112,23 @@ msgstr ""
 "De blend is opgeslagen, maar er was een error bij het bijwerken van de "
 "licentie bestand. Meld dat je deze fout hebt gezien!"
 
-#: Controller/BlendsController.php:691
+#: Controller/BlendsController.php:708
 msgid "ERRORS! Please check any red messages below and try again."
 msgstr "Fouten! Controleer elk rode bericht hier beneden en probeer opnieuw."
 
-#: Controller/BlendsController.php:1173
-msgid "The blend you requested does not exist"
-msgstr "De opgevraagde blend bestaat niet."
-
-#: Controller/BlendsController.php:1205
-msgid "Downloading"
-msgstr "Downloaden..."
-
-#: Controller/BlendsController.php:1207
-msgid "This blend is licensed"
-msgstr "Op deze blend berust een licentie"
-
-#: Controller/BlendsController.php:1209
-msgid "Do you agree with this license"
-msgstr "Stemt u in met deze licentie"
-
-#: Controller/BlendsController.php:1210
-msgid "and the limitations imposed by the Fan Art marking"
-msgstr "en de limieten gesteld van de \"Fan art marking\""
-
-#: Controller/BlendsController.php:1215
-msgid "I accept the license. Start file download, please"
-msgstr "Ik accepteer de licentie. Start bestand download a.u.b."
-
-#: Controller/BlendsController.php:1215
-msgid "Yes. Download now!"
-msgstr "Ja, Download nu!"
-
-#: Controller/BlendsController.php:1216
-msgid "Cancel download"
-msgstr "Download afbreken"
-
-#: Controller/BlendsController.php:1216 View/Blends/edit.ctp:95
-msgid "Cancel"
-msgstr "Afbreken"
-
-#: Controller/BlendsController.php:1226
-msgid ""
-"You downloaded this blend less than 24 hours ago, if your first attempt "
-"failed you still have %d hours and %d minutes to retry without losing extra "
-"bandwidth"
-msgstr ""
-"U heeft deze blend minder dan 24 uur geleden gedownload, als jouw eerst "
-"verzoek faalde hebt u nog %d uur en %d minuten om het opnieuw te proberen "
-"zonder verlies van extra bandbreedte"
-
-#: Controller/BlendsController.php:1230
-msgid ""
-"If your download fails you have 24 hours to try again with no extra "
-"bandwidth subtracted from your monthly allocation!"
-msgstr ""
-"U kunt binnen 24 opnieuw downloaden indien het de eerste keer mislukt. Dit "
-"gaan niet af van uw maandelijkse toegewezen bandbreedte."
-
-#: Controller/BlendsController.php:1237
-msgid "Looks like you are logged out, maybe your session expired"
-msgstr ""
-"Het ziet eruit dat u bent uitgelogd, of misschien is uw sessie verlopen"
-
-#: Controller/BlendsController.php:1238
-msgid "Please %s and try again."
-msgstr "Alstublieft $s en probeer opnieuw"
-
-#: Controller/BlendsController.php:1238
-msgid "log in"
-msgstr "log in"
-
-#: Controller/BlendsController.php:1258;1259
-msgid "Creative Commons Public Domain Mark 1.0"
-msgstr "Creative Commons Public Domain Mark 1.0"
-
-#: Controller/BlendsController.php:1260
-msgid "which has no requirements:"
-msgstr "welke geen vereiste hebben:"
-
-#: Controller/BlendsController.php:1264;1265
-msgid "Creative Commons Attribution 3.0"
-msgstr "Creative Commons Attribution 3.0"
-
-#: Controller/BlendsController.php:1266;1272;1278
-msgid "which has the following requirements:"
-msgstr "welke de volgende vereisten hebben:"
-
-#: Controller/BlendsController.php:1270;1271
-msgid "Creative Commons Attribution-ShareAlike 3.0"
-msgstr "Creative Commons Attribution-ShareAlike 3.0"
-
-#: Controller/BlendsController.php:1276;1277
-msgid "Creative Commons Attribution-NonCommercial 3.0"
-msgstr "Creative Commons Attribution-NonCommercial 3.0"
-
-#: Controller/BlendsController.php:1291
-msgid ""
-"Blend Swap recommends you give credit to the blend author, but there is no "
-"obligation to do so"
-msgstr ""
-"Blend Swap adviseert dat je erkenning geeft aan de blend auteur als is dit "
-"geen vereiste"
-
-#: Controller/BlendsController.php:1294 View/Helper/SingleBlendHelper.php:148
-msgid "You must give credit to the author of this blend"
-msgstr "U moet erkenning geven aan de auteur van deze blend"
-
-#: Controller/BlendsController.php:1297 View/Helper/SingleBlendHelper.php:151
-msgid "You must distribute any derivative works under the same license"
-msgstr "U moet afgeleid werkt onder dezelfde licentie uitbrengen"
-
-#: Controller/BlendsController.php:1300 View/Helper/SingleBlendHelper.php:154
-msgid "You can not use this blend commercially under any circumstance"
-msgstr ""
-"U kunt deze blend onder geen enkele omstandigheid commercieel gebruiken"
-
-#: Controller/BlendsController.php:1304
-msgid "What's the deal with all this \"giving credits\" thing?"
-msgstr "Wat is dat gedoe met dat \"geef erkenning\" dinges?"
-
-#: Controller/BlendsController.php:1717
+#: Controller/BlendsController.php:1423
 msgid "The blend could not be saved. Please, try again."
 msgstr "De blend kon niet worden opgeslagen. Probeer opnieuw, a.u.b."
 
-#: Controller/BlendsController.php:1741
+#: Controller/BlendsController.php:1447
 msgid "Blend deleted"
 msgstr "Blend verwijdert"
 
-#: Controller/BlendsController.php:1744
+#: Controller/BlendsController.php:1450
 msgid "Blend was not deleted"
 msgstr "Blend is niet verwijdert"
 
-#: Controller/BlendsController.php:1764
+#: Controller/BlendsController.php:1470
 msgid ""
 "The blend was removed from all lists. We will preserve copy of all the data "
 "for archival purposes."
@@ -252,7 +136,7 @@ msgstr ""
 "De blend is verwijdert van alle lijsten. We houden een reserve kopie van "
 "alle data voor het archief."
 
-#: Controller/BlendsController.php:1767
+#: Controller/BlendsController.php:1473
 msgid ""
 "There was an error while removing the blend from all listings, please try "
 "again and report if this error repeats."
@@ -260,7 +144,7 @@ msgstr ""
 "Er was een fout tijdens het verwijderen van de blend van alle lijsten, "
 "probeer opnieuw en rapporteer deze fout als het zich herhaald."
 
-#: Controller/BlendsController.php:1770
+#: Controller/BlendsController.php:1476
 msgid ""
 "This blend is published! Only an admin can take it down, please get in touch "
 "with the site admins to let them know why you want this blend taken down."
@@ -289,15 +173,15 @@ msgstr "Chat verwijdert"
 msgid "Chat was not deleted"
 msgstr "Chat is niet verwijdert"
 
-#: Controller/CollectionsController.php:79
+#: Controller/CollectionsController.php:75
 msgid "Latest Blend Collections"
 msgstr "Laatste blend collecties"
 
-#: Controller/CollectionsController.php:135;262;319
+#: Controller/CollectionsController.php:115;242;299
 msgid "Invalid collection"
 msgstr "Ongeldige collectie"
 
-#: Controller/CollectionsController.php:155
+#: Controller/CollectionsController.php:135
 msgid ""
 "Some items were removed from this collection because they are not available "
 "on Blend Swap anymore..."
@@ -305,36 +189,36 @@ msgstr ""
 "Sommige onderdelen zijn verwijdert van deze collectie omdat ze niet meer "
 "beschikbaar zijn op Blend Swap..."
 
-#: Controller/CollectionsController.php:293
+#: Controller/CollectionsController.php:273
 msgid "The Collection was saved"
 msgstr "De collectie is opgeslagen"
 
-#: Controller/CollectionsController.php:295
+#: Controller/CollectionsController.php:275
 msgid "The Collection could not be saved. Please, try again."
 msgstr "De collectie kon niet worden opgeslagen. Probeer opnieuw a.u.b."
 
-#: Controller/CollectionsController.php:324
+#: Controller/CollectionsController.php:304
 msgid "Collection deleted"
 msgstr "Collectie verwijdert"
 
-#: Controller/CollectionsController.php:326
+#: Controller/CollectionsController.php:306
 msgid "Collection was not deleted"
 msgstr "Collectie niet verwijdert"
 
-#: Controller/CollectionsController.php:384
+#: Controller/CollectionsController.php:364
 msgid "Error while starting the request"
 msgstr "Fout tijdens het starten van het verzoek"
 
-#: Controller/CollectionsController.php:435
+#: Controller/CollectionsController.php:415
 msgid "Click to like this blend"
 msgstr "Klik om deze blend leuk te vinden"
 
-#: Controller/CollectionsController.php:437
+#: Controller/CollectionsController.php:417
 #: View/Elements/bars/blend_actions.ctp:10
 msgid "Like"
 msgstr "Leuk"
 
-#: Controller/CollectionsController.php:440
+#: Controller/CollectionsController.php:420
 msgid ""
 "Something went wrong while processing your request. Please try again and "
 "report if this happens again."
@@ -342,90 +226,90 @@ msgstr ""
 "Iets ging fout tijdens uw verzoek. Probeer opnieuw en rapporteer deze fout "
 "als het zich herhaald."
 
-#: Controller/CollectionsController.php:493
+#: Controller/CollectionsController.php:473
 msgid "Add to a collection"
 msgstr "Toevoegen aan een collectie"
 
-#: Controller/CollectionsController.php:500
+#: Controller/CollectionsController.php:480
 msgid "Click to remove from this collection"
 msgstr "Klik om uit collectie te verwijderen"
 
-#: Controller/CollectionsController.php:500
+#: Controller/CollectionsController.php:480
 msgid "Click to add to this collection."
 msgstr "Klik om toe te voegen aan deze collectie"
 
-#: Controller/CollectionsController.php:507
+#: Controller/CollectionsController.php:487
 msgid "You have not created any collections yet, create one now! :)"
 msgstr "U heeft nog geen collecties gemaakt, maak er nu één aan! :)"
 
-#: Controller/CollectionsController.php:514
+#: Controller/CollectionsController.php:494
 msgid "Manage collections"
 msgstr "Beheer collecties"
 
-#: Controller/CollectionsController.php:516
+#: Controller/CollectionsController.php:496
 msgid "Create"
 msgstr "Maak"
 
-#: Controller/CollectionsController.php:518
+#: Controller/CollectionsController.php:498
 msgid "Publicly visible"
 msgstr "Publiekelijk zichtbaar"
 
-#: Controller/CollectionsController.php:522
+#: Controller/CollectionsController.php:502
 msgid "You have a %s, to create more Collections you'll have to become an "
 msgstr ""
 "U heeft een %s, om nog meer collecties te maken moet u het volgende worden: "
 
-#: Controller/CollectionsController.php:522 View/App/home.ctp:61
+#: Controller/CollectionsController.php:502 View/App/home.ctp:61
 msgid "Free Account"
 msgstr "Gratis account"
 
-#: Controller/CollectionsController.php:523
+#: Controller/CollectionsController.php:503
 msgid "Associate Member"
 msgstr "Betalend lid"
 
-#: Controller/CollectionsController.php:569
+#: Controller/CollectionsController.php:549
 msgid "Error while creating the collection"
 msgstr "Fout tiidens maken van collectie"
 
-#: Controller/CollectionsController.php:573
+#: Controller/CollectionsController.php:553
 msgid "Sorry, to create more collections you have to be an Associate Member."
 msgstr "Sorry, om meer collectie te maken moet u een betalend lid zijn."
 
-#: Controller/CollectionsController.php:625
+#: Controller/CollectionsController.php:605
 msgid "Error saving the item. please report you saw this message."
 msgstr ""
 "Fout tijdens opslaan, probeer opnieuw en rapporteer deze fout als het zich "
 "herhaald."
 
-#: Controller/CollectionsController.php:630
+#: Controller/CollectionsController.php:610
 msgid "Invalid blend id."
 msgstr "Ongeldige blend id."
 
-#: Controller/CollectionsController.php:634
+#: Controller/CollectionsController.php:614
 msgid "To create new collection you have to purchase a paid membership."
 msgstr "Om een nieuwe collectie te maken moet je een betalend lid zijn."
 
-#: Controller/CommentsController.php:211
+#: Controller/CommentsController.php:206
 msgid "Your comment did not validate, is it empty? Please try again."
 msgstr "Ongeldige reactie. Is het veld leeg? Probeer het opnieuw."
 
-#: Controller/CommentsController.php:250;264;290;365
+#: Controller/CommentsController.php:241;255;281;356
 msgid "Invalid comment"
 msgstr "Ongeldige reactie."
 
-#: Controller/CommentsController.php:270;331
+#: Controller/CommentsController.php:261;322
 msgid "The comment has been saved"
 msgstr "Deze reactie is opgeslagen"
 
-#: Controller/CommentsController.php:273;334
+#: Controller/CommentsController.php:264;325
 msgid "The comment could not be saved. Please, try again."
 msgstr "Deze reactie kon niet worden opgeslagen. Probeer opnieuw, a.u.b."
 
-#: Controller/CommentsController.php:368
+#: Controller/CommentsController.php:359
 msgid "Comment deleted"
 msgstr "Reactie verwijdert"
 
-#: Controller/CommentsController.php:371
+#: Controller/CommentsController.php:362
 msgid "Comment was not deleted"
 msgstr "Reactie is niet verwijdert"
 
@@ -466,6 +350,90 @@ msgstr "Contact is niet verwijdert"
 #: Controller/DownloadsController.php:40
 msgid "Invalid download"
 msgstr "Ongeldige download"
+
+#: Controller/DownloadsController.php:89
+msgid "Downloading"
+msgstr "Downloaden..."
+
+#: Controller/DownloadsController.php:91
+msgid "This blend is licensed"
+msgstr "Op deze blend berust een licentie"
+
+#: Controller/DownloadsController.php:94
+msgid "Do you agree with this license"
+msgstr "Stemt u in met deze licentie"
+
+#: Controller/DownloadsController.php:95
+msgid "and the limitations imposed by the Fan Art marking"
+msgstr "en de limieten gesteld van de \"Fan art marking\""
+
+#: Controller/DownloadsController.php:100
+msgid "I accept the license. Start file download, please"
+msgstr "Ik accepteer de licentie. Start bestand download a.u.b."
+
+#: Controller/DownloadsController.php:101
+msgid "Yes. Download now!"
+msgstr "Ja, Download nu!"
+
+#: Controller/DownloadsController.php:103
+msgid "Cancel download"
+msgstr "Download afbreken"
+
+#: Controller/DownloadsController.php:103 View/Blends/edit.ctp:85
+msgid "Cancel"
+msgstr "Afbreken"
+
+#: Controller/DownloadsController.php:250;251
+msgid "Creative Commons Public Domain Mark 1.0"
+msgstr "Creative Commons Public Domain Mark 1.0"
+
+#: Controller/DownloadsController.php:252
+msgid "which has no requirements:"
+msgstr "welke geen vereiste hebben:"
+
+#: Controller/DownloadsController.php:256;257
+msgid "Creative Commons Attribution 3.0"
+msgstr "Creative Commons Attribution 3.0"
+
+#: Controller/DownloadsController.php:258;264;270
+msgid "which has the following requirements:"
+msgstr "welke de volgende vereisten hebben:"
+
+#: Controller/DownloadsController.php:262;263
+msgid "Creative Commons Attribution-ShareAlike 3.0"
+msgstr "Creative Commons Attribution-ShareAlike 3.0"
+
+#: Controller/DownloadsController.php:268;269
+msgid "Creative Commons Attribution-NonCommercial 3.0"
+msgstr "Creative Commons Attribution-NonCommercial 3.0"
+
+#: Controller/DownloadsController.php:283
+msgid ""
+"Blend Swap recommends you give credit to the blend author, but there is no "
+"obligation to do so"
+msgstr ""
+"Blend Swap adviseert dat je erkenning geeft aan de blend auteur als is dit "
+"geen vereiste"
+
+#: Controller/DownloadsController.php:286
+#: View/Helper/SingleBlendHelper.php:148
+msgid "You must give credit to the author of this blend"
+msgstr "U moet erkenning geven aan de auteur van deze blend"
+
+#: Controller/DownloadsController.php:289
+#: View/Helper/SingleBlendHelper.php:154
+msgid "You must distribute any derivative works under the same license"
+msgstr "U moet afgeleid werkt onder dezelfde licentie uitbrengen"
+
+#: Controller/DownloadsController.php:292
+#: View/Helper/SingleBlendHelper.php:151
+msgid "You can not use this blend commercially under any circumstance"
+msgstr ""
+"U kunt deze blend onder geen enkele omstandigheid commercieel gebruiken"
+
+#: Controller/DownloadsController.php:296
+msgid "What's the deal with all this \"giving credits\" thing?"
+msgstr "Wat is dat gedoe met dat \"geef erkenning\" dinges?"
 
 #: Controller/FeaturesController.php:30;62;90
 msgid "Invalid feature"
@@ -603,27 +571,27 @@ msgstr "Meta verwijdert"
 msgid "Meta was not deleted"
 msgstr "Meta is niet verwijdert"
 
-#: Controller/NewsController.php:94;175;230
+#: Controller/NewsController.php:94;176;231
 msgid "Invalid news"
 msgstr "Ongeldig nieuws"
 
-#: Controller/NewsController.php:155
+#: Controller/NewsController.php:156
 msgid "The news has been saved"
 msgstr "Het nieuws is opgeslagen"
 
-#: Controller/NewsController.php:158;205
+#: Controller/NewsController.php:159;206
 msgid "The news could not be saved. Please, try again."
 msgstr "Het nieuws kon niet worden opgeslagen. Probeer opnieuw, a.u.b."
 
-#: Controller/NewsController.php:202
+#: Controller/NewsController.php:203
 msgid "The news entry has been updated"
 msgstr "Het nieuws bericht is bijgewerkt"
 
-#: Controller/NewsController.php:233
+#: Controller/NewsController.php:234
 msgid "News deleted"
 msgstr "Nieuws verwijdert"
 
-#: Controller/NewsController.php:236
+#: Controller/NewsController.php:237
 msgid "News was not deleted"
 msgstr "Nieuws is niet verwijdert"
 
@@ -747,23 +715,23 @@ msgstr "Vraag is niet verwijdert"
 msgid "Invalid address"
 msgstr "Ongeldig adres"
 
-#: Controller/ReportsController.php:49;205;238;264
+#: Controller/ReportsController.php:49;205;239;265
 msgid "Invalid report"
 msgstr "Ongeldig rapport"
 
-#: Controller/ReportsController.php:242
+#: Controller/ReportsController.php:243
 msgid "The report has been saved"
 msgstr "Rapport is opgeslagen"
 
-#: Controller/ReportsController.php:245
+#: Controller/ReportsController.php:246
 msgid "The report could not be saved. Please, try again."
 msgstr "Rapport kon niet worden opgeslagen. Probeer opnieuw, a.u.b."
 
-#: Controller/ReportsController.php:267
+#: Controller/ReportsController.php:268
 msgid "Report deleted"
 msgstr "Rapport verwijdert"
 
-#: Controller/ReportsController.php:270
+#: Controller/ReportsController.php:271
 msgid "Report was not deleted"
 msgstr "Rapport is niet verwijdert"
 
@@ -889,9 +857,10 @@ msgstr ""
 msgid "Looks like you're trying to follow yourself, but that's not allowed."
 msgstr "U probeert uzelf te volgen, maar dit kunnen we helaas niet toestaan."
 
-#: Controller/TermsController.php:35
-msgid "Blend Categories"
-msgstr "Blend categorieën"
+#: Controller/TermsController.php:35 View/Blends/edit.ctp:41
+#: View/Elements/menus/topMenu.ctp:70 View/Elements/navs/taxonomies.ctp:4
+msgid "Categories"
+msgstr "Categorieën"
 
 #: Controller/TermsController.php:47
 msgid "Invalid category name, these are the ones available."
@@ -930,7 +899,7 @@ msgstr "Gebruikers badge is niet verwijdert"
 msgid "This user does not exist on Blend Swap."
 msgstr "Deze gebruiker bestaat niet op blend swap."
 
-#: Controller/UsersController.php:325;1504;1536;1563
+#: Controller/UsersController.php:325;1505;1537;1564
 msgid "Invalid user"
 msgstr "Ongeldige gebruiker"
 
@@ -979,38 +948,25 @@ msgstr ""
 "De ingevoerde data is niet goedgekeurd. Herstel de fouten hieronder in rood "
 "en vul uw paswoord opnieuw in."
 
-#: Controller/UsersController.php:1519;1541
+#: Controller/UsersController.php:1520;1542
 msgid "The user has been saved"
 msgstr "De gebruiker is opgeslagen"
 
-#: Controller/UsersController.php:1522;1544
+#: Controller/UsersController.php:1523;1545
 msgid "The user could not be saved. Please, try again."
 msgstr "De gebruiker is niet opgeslagen. Probeer opnieuw, a.u.b."
 
-#: Controller/UsersController.php:1566
+#: Controller/UsersController.php:1567
 msgid "User deleted"
 msgstr "Gebruiker verwijdert"
 
-#: Controller/UsersController.php:1569
+#: Controller/UsersController.php:1570
 msgid "User was not deleted"
 msgstr "Gebruiker is niet verwijdert"
 
-#: Controller/UsersController.php:1895
+#: Controller/UsersController.php:1896
 msgid "Error while saving your account."
 msgstr "Fout tijdens opslaan van uw account"
-
-#: Controller/UsersController.php:1945
-msgid "You just recovered %d likes from Blend Swap 4!"
-msgstr "U hebt %d vind-ik-leuk's buitgemaakt van Blend Swap 4!"
-
-#: Controller/UsersController.php:1947
-msgid ""
-"We could not find any old likes from Blend Swap 4 for you, so it looks like "
-"you are already well setup for adding likes. If this is an error, please "
-"report it!"
-msgstr ""
-"We konden geen vind-ik-leuk's vinden van Blend Swap 4 voor jou. Rapporteer "
-"dit indien het een fout is."
 
 #: Controller/VotesController.php:107;175;196
 msgid "The vote has been saved"
@@ -1037,7 +993,7 @@ msgid "Admin Add Response"
 msgstr "Admin toevoegen antwoord"
 
 #: View/Answers/admin_add.ctp:11 View/Answers/admin_edit.ctp:12
-#: View/Blends/admin_add.ctp:27 View/Blends/admin_edit.ctp:60
+#: View/Blends/admin_add.ctp:27 View/Blends/admin_edit.ctp:51
 #: View/Chats/add.ctp:11 View/Chats/edit.ctp:12
 #: View/Comments/admin_edit.ctp:13 View/Contacts/add.ctp:93
 #: View/Contacts/admin_edit.ctp:17 View/Elements/forms/commentForm.ctp:15
@@ -1047,7 +1003,7 @@ msgstr "Admin toevoegen antwoord"
 #: View/Messages/edit.ctp:13 View/Options/admin_add.ctp:13
 #: View/Options/admin_edit.ctp:32 View/Pages/admin_add.ctp:15
 #: View/Profiles/admin_add.ctp:22 View/Profiles/admin_edit.ctp:23
-#: View/Profiles/edit.ctp:107 View/Questions/add.ctp:31
+#: View/Profiles/edit.ctp:107 View/Questions/add.ctp:28
 #: View/Questions/admin_add.ctp:11 View/Questions/admin_edit.ctp:12
 #: View/Questions/edit.ctp:18 View/Reports/__add.ctp:11
 #: View/Reports/admin_edit.ctp:12 View/Requests/add.ctp:84
@@ -1059,11 +1015,11 @@ msgstr "Versturen"
 
 #: View/Answers/admin_add.ctp:14 View/Answers/admin_edit.ctp:15
 #: View/Answers/admin_index.ctp:11;50 View/Answers/admin_view.ctp:37
-#: View/Blends/admin_add.ctp:30 View/Blends/admin_edit.ctp:64
-#: View/Blends/admin_index.ctp:35
+#: View/Blends/admin_add.ctp:30 View/Blends/admin_edit.ctp:54
+#: View/Blends/admin_index.ctp:37
 #: View/Blends/admin_view.ctp:117;158;205;254;303;341 View/Chats/add.ctp:14
 #: View/Chats/edit.ctp:15 View/Chats/index.ctp:12
-#: View/Comments/admin_edit.ctp:16 View/Comments/admin_index.ctp:30;90
+#: View/Comments/admin_edit.ctp:16 View/Comments/admin_index.ctp:31;91
 #: View/Comments/admin_view.ctp:82 View/Contacts/admin_edit.ctp:20
 #: View/Contacts/admin_index.ctp:20;62 View/Contacts/admin_view.ctp:87
 #: View/Downloads/admin_index.ctp:11;46 View/Feedbacks/add.ctp:24
@@ -1087,7 +1043,7 @@ msgstr "Versturen"
 #: View/Reports/view.ctp:37 View/Requests/admin_add.ctp:15
 #: View/Requests/admin_edit.ctp:17 View/Requests/admin_index.ctp:15;56
 #: View/Requests/admin_view.ctp:42;65 View/Users/account.ctp:34
-#: View/Users/admin_index.ctp:28;79 View/Users/admin_view.ctp:229
+#: View/Users/admin_index.ctp:27;79 View/Users/admin_view.ctp:229
 msgid "Actions"
 msgstr "Acties"
 
@@ -1096,9 +1052,9 @@ msgid "Admin Edit Response"
 msgstr "Admin verander antwoord"
 
 #: View/Answers/admin_edit.ctp:18 View/Answers/admin_index.ctp:29
-#: View/Blends/admin_index.ctp:56
+#: View/Blends/admin_index.ctp:60
 #: View/Blends/admin_view.ctp:183;218;281;316;357 View/Chats/edit.ctp:18
-#: View/Comments/admin_edit.ctp:19 View/Comments/admin_index.ctp:69
+#: View/Comments/admin_edit.ctp:19 View/Comments/admin_index.ctp:70
 #: View/Contacts/admin_edit.ctp:23 View/Downloads/admin_index.ctp:25
 #: View/Feedbacks/admin_edit.ctp:46 View/Feedbacks/admin_index.ctp:51
 #: View/Keys/edit.ctp:20 View/Keys/index.ctp:25 View/Limits/admin_edit.ctp:19
@@ -1116,10 +1072,10 @@ msgid "Delete"
 msgstr "Verwijderen"
 
 #: View/Answers/admin_edit.ctp:18 View/Answers/admin_index.ctp:29
-#: View/Answers/admin_view.ctp:40 View/Blends/admin_edit.ctp:67
-#: View/Blends/admin_index.ctp:56
+#: View/Answers/admin_view.ctp:40 View/Blends/admin_edit.ctp:57
+#: View/Blends/admin_index.ctp:60
 #: View/Blends/admin_view.ctp:120;183;218;281;316;357 View/Chats/edit.ctp:18
-#: View/Comments/admin_edit.ctp:19 View/Comments/admin_index.ctp:69
+#: View/Comments/admin_edit.ctp:19 View/Comments/admin_index.ctp:70
 #: View/Comments/admin_view.ctp:85 View/Contacts/admin_edit.ctp:23
 #: View/Contacts/admin_index.ctp:41 View/Contacts/admin_view.ctp:90
 #: View/Downloads/admin_index.ctp:25 View/Feedbacks/admin_edit.ctp:46
@@ -1147,9 +1103,9 @@ msgstr "Weet u zeker dat u # %s wilt verwijderen?"
 msgid "Responses"
 msgstr "Antwoorden"
 
-#: View/Answers/admin_index.ctp:27 View/Blends/admin_index.ctp:54
+#: View/Answers/admin_index.ctp:27 View/Blends/admin_index.ctp:58
 #: View/Blends/admin_view.ctp:181;216;279;314;355
-#: View/Comments/admin_index.ctp:64 View/Downloads/admin_index.ctp:23
+#: View/Comments/admin_index.ctp:65 View/Downloads/admin_index.ctp:23
 #: View/Feedbacks/admin_index.ctp:49 View/Keys/index.ctp:23
 #: View/Limits/admin_index.ctp:25 View/Messages/index.ctp:25
 #: View/News/admin_index.ctp:39 View/Options/admin_index.ctp:20
@@ -1160,9 +1116,9 @@ msgstr "Antwoorden"
 msgid "View"
 msgstr "Bekijk"
 
-#: View/Answers/admin_index.ctp:28 View/Blends/admin_index.ctp:55
+#: View/Answers/admin_index.ctp:28 View/Blends/admin_index.ctp:59
 #: View/Blends/admin_view.ctp:182;217;280;315;356 View/Blends/edit.ctp:3
-#: View/Comments/admin_index.ctp:68 View/Downloads/admin_index.ctp:24
+#: View/Comments/admin_index.ctp:69 View/Downloads/admin_index.ctp:24
 #: View/Feedbacks/admin_index.ctp:50 View/Keys/index.ctp:24
 #: View/Limits/admin_index.ctp:26 View/Messages/index.ctp:26
 #: View/News/admin_index.ctp:40 View/Options/admin_index.ctp:21
@@ -1174,57 +1130,54 @@ msgstr "Bekijk"
 msgid "Edit"
 msgstr "Veranderen"
 
-#: View/Answers/admin_index.ctp:37 View/Blends/admin_index.ctp:64
-#: View/Blends/search.ctp:103 View/Blends/user.ctp:30 View/Chats/index.ctp:25
-#: View/Collections/index.ctp:41 View/Collections/view.ctp:14
-#: View/Comments/admin_index.ctp:77 View/Contacts/admin_index.ctp:49
-#: View/Downloads/admin_index.ctp:33 View/Feedbacks/admin_index.ctp:59
-#: View/Keys/index.ctp:33 View/Limits/admin_index.ctp:35
-#: View/Messages/index.ctp:35 View/News/admin_index.ctp:49
-#: View/Options/admin_index.ctp:32 View/Options/admin_manage.ctp:29
-#: View/Pages/admin_index.ctp:35 View/Profiles/admin_index.ctp:55
-#: View/Questions/admin_index.ctp:33 View/Reports/admin_index.ctp:49
-#: View/Reports/index.ctp:26 View/Requests/admin_index.ctp:43
-#: View/Requests/index.ctp:49 View/Users/admin_index.ctp:66
-#: View/Users/featured.ctp:53
+#: View/Answers/admin_index.ctp:37 View/Blends/admin_index.ctp:68
+#: View/Blends/search.ctp:32 View/Blends/user.ctp:30 View/Chats/index.ctp:25
+#: View/Collections/view.ctp:14 View/Comments/admin_index.ctp:78
+#: View/Contacts/admin_index.ctp:49 View/Downloads/admin_index.ctp:33
+#: View/Feedbacks/admin_index.ctp:59 View/Keys/index.ctp:33
+#: View/Limits/admin_index.ctp:35 View/Messages/index.ctp:35
+#: View/News/admin_index.ctp:49 View/Options/admin_index.ctp:32
+#: View/Options/admin_manage.ctp:29 View/Pages/admin_index.ctp:35
+#: View/Profiles/admin_index.ctp:55 View/Questions/admin_index.ctp:33
+#: View/Reports/admin_index.ctp:49 View/Reports/index.ctp:26
+#: View/Requests/admin_index.ctp:43 View/Requests/index.ctp:49
+#: View/Users/admin_index.ctp:66 View/Users/featured.ctp:53
 msgid "Page {:page} of {:pages}, showing {:current} out of {:count} total."
 msgstr "Pagina {:page} van {:pages}, {:current} van de {:count} nu zichtbaar."
 
-#: View/Answers/admin_index.ctp:43 View/Blends/admin_index.ctp:71
-#: View/Blends/index.ctp:29 View/Blends/search.ctp:109 View/Blends/user.ctp:36
+#: View/Answers/admin_index.ctp:43 View/Blends/admin_index.ctp:75
+#: View/Blends/index.ctp:27 View/Blends/search.ctp:38 View/Blends/user.ctp:36
 #: View/Chats/inbox.ctp:48 View/Chats/index.ctp:30
-#: View/Collections/index.ctp:49 View/Collections/view.ctp:21
-#: View/Comments/admin_index.ctp:83 View/Contacts/admin_index.ctp:55
-#: View/Downloads/admin_index.ctp:39 View/Feedbacks/admin_index.ctp:65
-#: View/Keys/index.ctp:39 View/Limits/admin_index.ctp:41
-#: View/Messages/index.ctp:41 View/News/admin_index.ctp:55
-#: View/News/index.ctp:44 View/Options/admin_index.ctp:38
-#: View/Options/admin_manage.ctp:35 View/Pages/admin_index.ctp:27
-#: View/Profiles/admin_index.ctp:61 View/Questions/admin_index.ctp:39
-#: View/Questions/index.ctp:64 View/Reports/admin_index.ctp:55
-#: View/Reports/index.ctp:32 View/Requests/admin_index.ctp:49
-#: View/Requests/index.ctp:53 View/Users/admin_index.ctp:72
-#: View/Users/featured.ctp:60 View/Users/search.ctp:100
-#: View/Users/stats.ctp:43
+#: View/Collections/view.ctp:21 View/Comments/admin_index.ctp:84
+#: View/Contacts/admin_index.ctp:55 View/Downloads/admin_index.ctp:39
+#: View/Feedbacks/admin_index.ctp:65 View/Keys/index.ctp:39
+#: View/Limits/admin_index.ctp:41 View/Messages/index.ctp:41
+#: View/News/admin_index.ctp:55 View/News/index.ctp:44
+#: View/Options/admin_index.ctp:38 View/Options/admin_manage.ctp:35
+#: View/Pages/admin_index.ctp:27 View/Profiles/admin_index.ctp:61
+#: View/Questions/admin_index.ctp:39 View/Questions/index.ctp:64
+#: View/Reports/admin_index.ctp:55 View/Reports/index.ctp:32
+#: View/Requests/admin_index.ctp:49 View/Requests/index.ctp:53
+#: View/Users/admin_index.ctp:72 View/Users/featured.ctp:60
+#: View/Users/search.ctp:100 View/Users/stats.ctp:43
 msgid "previous"
 msgstr "vorige"
 
-#: View/Answers/admin_index.ctp:45 View/Blends/admin_index.ctp:73
-#: View/Blends/index.ctp:31 View/Blends/search.ctp:111 View/Blends/user.ctp:38
+#: View/Answers/admin_index.ctp:45 View/Blends/admin_index.ctp:77
+#: View/Blends/index.ctp:29 View/Blends/search.ctp:40 View/Blends/user.ctp:38
 #: View/Chats/inbox.ctp:50 View/Chats/index.ctp:32
-#: View/Collections/index.ctp:51 View/Collections/view.ctp:23
-#: View/Comments/admin_index.ctp:85 View/Contacts/admin_index.ctp:57
-#: View/Downloads/admin_index.ctp:41 View/Feedbacks/admin_index.ctp:67
-#: View/Keys/index.ctp:41 View/Limits/admin_index.ctp:43
-#: View/Messages/index.ctp:43 View/News/admin_index.ctp:57
-#: View/News/index.ctp:46 View/Options/admin_index.ctp:40
-#: View/Options/admin_manage.ctp:37 View/Pages/admin_index.ctp:29
-#: View/Profiles/admin_index.ctp:63 View/Questions/admin_index.ctp:41
-#: View/Questions/index.ctp:66 View/Reports/admin_index.ctp:57
-#: View/Reports/index.ctp:34 View/Requests/admin_index.ctp:51
-#: View/Requests/index.ctp:55 View/Users/admin_index.ctp:74
-#: View/Users/featured.ctp:62 View/Users/search.ctp:102
-#: View/Users/stats.ctp:45
+#: View/Collections/view.ctp:23 View/Comments/admin_index.ctp:86
+#: View/Contacts/admin_index.ctp:57 View/Downloads/admin_index.ctp:41
+#: View/Feedbacks/admin_index.ctp:67 View/Keys/index.ctp:41
+#: View/Limits/admin_index.ctp:43 View/Messages/index.ctp:43
+#: View/News/admin_index.ctp:57 View/News/index.ctp:46
+#: View/Options/admin_index.ctp:40 View/Options/admin_manage.ctp:37
+#: View/Pages/admin_index.ctp:29 View/Profiles/admin_index.ctp:63
+#: View/Questions/admin_index.ctp:41 View/Questions/index.ctp:66
+#: View/Reports/admin_index.ctp:57 View/Reports/index.ctp:34
+#: View/Requests/admin_index.ctp:51 View/Requests/index.ctp:55
+#: View/Users/admin_index.ctp:74 View/Users/featured.ctp:62
+#: View/Users/search.ctp:102 View/Users/stats.ctp:45
 msgid "next"
 msgstr "volgende"
 
@@ -1277,7 +1230,7 @@ msgstr "Verzoek"
 #: View/Answers/admin_view.ctp:29 View/Blends/admin_view.ctp:29;151
 #: View/Comments/admin_view.ctp:49 View/Feedbacks/admin_view.ctp:49
 #: View/Keys/view.ctp:24 View/Messages/view.ctp:24
-#: View/Requests/admin_view.ctp:34;64 View/Users/bandwidth.ctp:78
+#: View/Requests/admin_view.ctp:34;64 View/Users/bandwidth.ctp:70
 msgid "Status"
 msgstr "Status"
 
@@ -1326,7 +1279,8 @@ msgstr "Bekijk de mogenlijkheden"
 msgid "Register now"
 msgstr "Registreer nu"
 
-#: View/App/home.ctp:53 View/Layouts/frontend.ctp:238
+#: View/App/home.ctp:53 View/Elements/frontend_footer.ctp:103
+#: View/Pages/welcome.ctp:134 View/Users/login.ctp:1
 msgid "Log in"
 msgstr "Log in"
 
@@ -1423,7 +1377,7 @@ msgstr "Meer sociale media velden om naar toe te linken"
 msgid "Up to 60 blends per page"
 msgstr "Tot en met 60 blends per pagina"
 
-#: View/App/home.ctp:105 View/Elements/menus/topMenu.ctp:315
+#: View/App/home.ctp:105 View/Elements/menus/topMenu.ctp:332
 msgid "Register Now"
 msgstr "Registreer nu"
 
@@ -1435,145 +1389,99 @@ msgstr "Upload nieuwe Blend"
 msgid "Upload New Blend"
 msgstr "Upload nieuwe Blend"
 
-#: View/Blends/add.ctp:40 View/Users/edit.ctp:14
+#: View/Blends/add.ctp:8 View/Users/edit.ctp:14
 msgid "Basic Data"
 msgstr "Basis data"
 
-#: View/Blends/add.ctp:45 View/Blends/edit.ctp:12
+#: View/Blends/add.ctp:13 View/Blends/edit.ctp:12
 msgid "Blend Name"
 msgstr "Blend naam"
 
-#: View/Blends/add.ctp:46 View/Blends/edit.ctp:13
+#: View/Blends/add.ctp:15 View/Blends/edit.ctp:13
 #: View/Options/admin_view.ctp:19
 msgid "Description"
 msgstr "Beschrijving"
 
-#: View/Blends/add.ctp:46 View/Blends/edit.ctp:13
-msgid "%d characters long min."
-msgstr "minimaal %d karakters lang"
-
-#: View/Blends/add.ctp:47 View/Blends/edit.ctp:14
+#: View/Blends/add.ctp:17 View/Blends/edit.ctp:14
 msgid "3D Preview URL"
 msgstr "3D preview URL"
 
-#: View/Blends/add.ctp:47 View/Blends/edit.ctp:14
-msgid "Optional"
-msgstr "Optioneel"
-
-#: View/Blends/add.ctp:47 View/Blends/edit.ctp:14
-msgid "Supports any %s or %s"
-msgstr "Ondersteun enige %s of %s"
-
-#: View/Blends/add.ctp:48 View/Elements/navs/taxonomies.ctp:36
-#: View/Questions/index.ctp:35 View/Questions/view.ctp:19
-msgid "Tags"
-msgstr "Labels"
-
-#: View/Blends/add.ctp:48
-msgid "Separated by commas"
-msgstr "Gescheiden door commas"
-
-#: View/Blends/add.ctp:52 View/Blends/admin_view.ctp:49
+#: View/Blends/add.ctp:22 View/Blends/admin_view.ctp:49
 #: View/Blends/edit.ctp:19
 msgid "Blender Version"
 msgstr "Blender versie"
 
-# Could the blend version not be extracted from the .blend files?
-#: View/Blends/add.ctp:53
-msgid "Choose the blender version this blend was created with"
-msgstr "Kies de blender versie waarmee deze blend is gemaakt"
+#: View/Blends/add.ctp:34
+#, fuzzy
+msgid "Blend license"
+msgstr "Blend licentie"
 
-#: View/Blends/add.ctp:73 View/Blends/edit.ctp:41
+#: View/Blends/add.ctp:53 View/Blends/edit.ctp:31
 msgid "Fan Art"
 msgstr "Fan creaties"
 
-#: View/Blends/add.ctp:74 View/Blends/edit.ctp:42
-msgid ""
-"Check yes if your blend features third party company logos, designs, or TV/"
-"Game/Movie characters"
-msgstr ""
-"Kies ja indien uw blend derde partij logo's, ontwerpen of TV/Spel/Film "
-"personages bevat"
-
-#: View/Blends/add.ctp:76
+#: View/Blends/add.ctp:57
 msgid "No"
 msgstr "Nee"
 
-#: View/Blends/add.ctp:76
+#: View/Blends/add.ctp:57
 msgid "Yes"
 msgstr "Ja"
 
-#: View/Blends/add.ctp:82
-msgid "Learn more about %s licenses and how they affect you"
-msgstr "Leer meer over %s licenties en wat voor invloed ze op jou hebben"
+#: View/Blends/add.ctp:65
+msgid "Categorization and search tags"
+msgstr "Categorisatie en zoek labels"
 
-#: View/Blends/add.ctp:88
-msgid ""
-"I waive all my copyright of this blend and place it in the Public Domain"
-msgstr ""
-"Ik geeft mijn auteurschap (en copyright) op over deze blend en plaats deze "
-"blend in het publiekelijke domein"
+#: View/Blends/add.ctp:67 View/Elements/navs/taxonomies.ctp:36
+#: View/Questions/index.ctp:35 View/Questions/view.ctp:19
+msgid "Tags"
+msgstr "Labels"
 
-#: View/Blends/add.ctp:89
-msgid ""
-"Users can do whatever they want with this blend, but they must give me credit"
-msgstr ""
-"Gebruikers kunnen doen wat ze willen met deze blend, maar ze moeten "
-"oorspronkelijke auteurs vermelden"
-
-#: View/Blends/add.ctp:90
-msgid ""
-"Same as CC-BY, but users must also release their derivates under CC-BY-SA"
-msgstr ""
-"Hetzelfde als CC-BY, maar gebruikers moeten ook hun afgeleid werkt vrijgeven "
-"onder CC-BY-SA"
-
-#: View/Blends/add.ctp:96 View/Blends/edit.ctp:51
-#: View/Elements/menus/topMenu.ctp:65 View/Elements/navs/taxonomies.ctp:4
-msgid "Categories"
-msgstr "Categorieën"
-
-#: View/Blends/add.ctp:100 View/Blends/edit.ctp:55
+#: View/Blends/add.ctp:71 View/Blends/edit.ctp:45
 msgid "Chose at least 1, and up to 4 categories"
 msgstr "Kies tenminste één, en tot maximaal 4 categorieën"
 
-#: View/Blends/add.ctp:121
+#: View/Blends/add.ctp:95
 msgid "Files"
 msgstr "Bestanden"
 
-#: View/Blends/add.ctp:124
+#: View/Blends/add.ctp:98
 msgid "Blend File"
 msgstr "Blend bestand"
 
-#: View/Blends/add.ctp:124;146
+#: View/Blends/add.ctp:98;123
 msgid "or"
 msgstr "of"
 
-#: View/Blends/add.ctp:125
+#: View/Blends/add.ctp:101
 msgid "Learn more about"
 msgstr "Leer meer"
 
-#: View/Blends/add.ctp:127
+#: View/Blends/add.ctp:102
 msgid "File Management"
 msgstr "Bestand management"
 
-#: View/Blends/add.ctp:130
-msgid "Rar compression is not allowed"
-msgstr "Rar compressie is niet toegestaan"
-
-#: View/Blends/add.ctp:139;155
+#: View/Blends/add.ctp:112;132
 msgid "Something failed above, you will have to re-select this file"
 msgstr "Iets mislukte hierboven, je moet dit bestand opnieuw selecteren"
 
-#: View/Blends/add.ctp:146
+#: View/Blends/add.ctp:116
+msgid "MAX SIZE: 90 MB"
+msgstr "Max grootte: 90MB"
+
+#: View/Blends/add.ctp:117
+msgid ".blend or .zip only"
+msgstr "alleen .blend of .zip"
+
+#: View/Blends/add.ctp:123
 msgid "Image"
 msgstr "Afbeelding"
 
-#: View/Blends/add.ctp:147
-msgid "Recommended: SQUARE, PNG, 1024px wide, object centered"
-msgstr "Aanbeveling: Vierkant, .PNG, 1024px breed, object in het midden"
+#: View/Blends/add.ctp:136
+msgid "PNG, 1024px wide, square, object centered"
+msgstr "PNG, 1024px breed, object gecentreerd"
 
-#: View/Blends/add.ctp:161
+#: View/Blends/add.ctp:141
 msgid "Save New Blend"
 msgstr "Sla nieuwe Blend op"
 
@@ -1582,7 +1490,7 @@ msgid "Admin Add Blend"
 msgstr "Admin voeg Blend to"
 
 #: View/Blends/admin_add.ctp:33 View/Blends/admin_view.ctp:121
-#: View/Comments/admin_edit.ctp:21 View/Comments/admin_index.ctp:93
+#: View/Comments/admin_edit.ctp:21 View/Comments/admin_index.ctp:94
 #: View/Comments/admin_view.ctp:88 View/Feedbacks/add.ctp:28
 #: View/Feedbacks/admin_view.ctp:93
 msgid "List Blends"
@@ -1596,7 +1504,7 @@ msgid "List Comments"
 msgstr "Reacties weergeven"
 
 #: View/Blends/admin_add.ctp:37 View/Blends/admin_view.ctp:126;192
-#: View/Comments/admin_index.ctp:92 View/Comments/admin_view.ctp:87
+#: View/Comments/admin_index.ctp:93 View/Comments/admin_view.ctp:87
 #: View/Feedbacks/admin_view.ctp:92
 msgid "New Comment"
 msgstr "Nieuwe reactie"
@@ -1641,21 +1549,19 @@ msgstr "Nieuw ding"
 msgid "Admin Edit Blend"
 msgstr "Admin verander Blend"
 
-#: View/Blends/admin_edit.ctp:67
+#: View/Blends/admin_edit.ctp:57
 msgid "Delete Blend and associated data"
 msgstr "Verwijder Blend en geassocieerde data"
 
-#: View/Blends/admin_index.ctp:70 View/Blends/index.ctp:28
-#: View/Blends/search.ctp:108 View/Collections/index.ctp:48
-#: View/Collections/view.ctp:20 View/Users/featured.ctp:59
-#: View/Users/search.ctp:99
+#: View/Blends/admin_index.ctp:74 View/Blends/index.ctp:26
+#: View/Blends/search.ctp:37 View/Collections/view.ctp:20
+#: View/Users/featured.ctp:59 View/Users/search.ctp:99
 msgid "First Page"
 msgstr "Eerste pagina"
 
-#: View/Blends/admin_index.ctp:74 View/Blends/index.ctp:32
-#: View/Blends/search.ctp:112 View/Collections/index.ctp:52
-#: View/Collections/view.ctp:24 View/Users/featured.ctp:63
-#: View/Users/search.ctp:103
+#: View/Blends/admin_index.ctp:78 View/Blends/index.ctp:30
+#: View/Blends/search.ctp:41 View/Collections/view.ctp:24
+#: View/Users/featured.ctp:63 View/Users/search.ctp:103
 msgid "Last Page"
 msgstr "Laatste pagina"
 
@@ -1736,13 +1642,13 @@ msgstr ""
 msgid "Edit Blend"
 msgstr "Verander Blend"
 
-#: View/Blends/admin_view.ctp:120 View/Blends/view.ctp:151;155
+#: View/Blends/admin_view.ctp:120 View/Blends/view.ctp:162;166
 #: View/Elements/bars/owner_bar.ctp:44
 msgid "Delete Blend"
 msgstr "Verwijder Blend"
 
 #: View/Blends/admin_view.ctp:122 View/Comments/admin_edit.ctp:22
-#: View/Comments/admin_index.ctp:94 View/Comments/admin_view.ctp:89
+#: View/Comments/admin_index.ctp:95 View/Comments/admin_view.ctp:89
 #: View/Feedbacks/add.ctp:29 View/Feedbacks/admin_view.ctp:94
 msgid "New Blend"
 msgstr "Nieuwe Blend"
@@ -1877,23 +1783,44 @@ msgstr "Verzameling Id"
 msgid "Basic data"
 msgstr "Basis data"
 
-#: View/Blends/edit.ctp:87
+#: View/Blends/edit.ctp:13
+msgid "%d characters long min."
+msgstr "minimaal %d karakters lang"
+
+#: View/Blends/edit.ctp:14
+msgid "Optional"
+msgstr "Optioneel"
+
+#: View/Blends/edit.ctp:14
+msgid "Supports any %s or %s"
+msgstr "Ondersteun enige %s of %s"
+
+#: View/Blends/edit.ctp:32
+msgid ""
+"Check yes if your blend features third party company logos, designs, or TV/"
+"Game/Movie characters"
+msgstr ""
+"Kies ja indien uw blend derde partij logo's, ontwerpen of TV/Spel/Film "
+"personages bevat"
+
+#: View/Blends/edit.ctp:77
 msgid "Log your changes"
 msgstr "Sla uw wijzigingen op"
 
-#: View/Blends/edit.ctp:89
+#: View/Blends/edit.ctp:79
 msgid "What did you change?"
 msgstr "Wat hebt u verandert?"
 
-#: View/Blends/edit.ctp:92 View/Users/edit.ctp:139
+#: View/Blends/edit.ctp:82 View/Users/edit.ctp:139
 msgid "Save Changes"
 msgstr "Bewaar wijzigingen"
 
-#: View/Blends/index.ctp:6 View/Blends/user.ctp:8 View/Requests/index.ctp:7
+#: View/Blends/index.ctp:6 View/Blends/search.ctp:9 View/Blends/user.ctp:8
+#: View/Requests/index.ctp:7
 msgid "Edit Date"
 msgstr "Verander datum"
 
-#: View/Blends/index.ctp:22
+#: View/Blends/index.ctp:20
 msgid ""
 "Page {:page} of {:pages}, showing {:current} blends out of {:count} total."
 msgstr ""
@@ -1923,65 +1850,41 @@ msgstr "Vind-ik-leuk's"
 msgid "Blender %s and up"
 msgstr "Blender %s en hoger"
 
-#: View/Blends/view.ctp:71
-msgid "Blend File Stats"
-msgstr "Blend bestand statistieken"
-
-#: View/Blends/view.ctp:75
-msgid "Objects"
-msgstr "Objecten"
-
-#: View/Blends/view.ctp:78
-msgid "Vertices"
-msgstr "Vertices"
-
-#: View/Blends/view.ctp:81
-msgid "Polygons"
-msgstr "Polygons"
-
-#: View/Blends/view.ctp:84
-msgid "Vert. Modified"
-msgstr "Vert. verandert"
-
-#: View/Blends/view.ctp:87
-msgid "Poly. Modified"
-msgstr "Poly. verandert"
-
-#: View/Blends/view.ctp:93
+#: View/Blends/view.ctp:105 View/Layouts/frontend.ctp:89
 msgid "License"
 msgstr "Licentie"
 
-#: View/Blends/view.ctp:101
+#: View/Blends/view.ctp:113
 msgid "This blend is marked as fan art"
 msgstr "Deze Blend is gemarkeert als \"fan art\""
 
-#: View/Blends/view.ctp:110
+#: View/Blends/view.ctp:122
 msgid "Download"
 msgstr "Download"
 
-#: View/Blends/view.ctp:141 View/Elements/bars/request_actions.ctp:65
+#: View/Blends/view.ctp:152 View/Elements/bars/request_actions.ctp:65
 msgid "Manage"
 msgstr "Beheer"
 
-#: View/Blends/view.ctp:144 View/Elements/bars/owner_bar.ctp:19
+#: View/Blends/view.ctp:155 View/Elements/bars/owner_bar.ctp:19
 #: View/Elements/bars/request_actions.ctp:69
 msgid "Edit Data"
 msgstr "Verander data"
 
-#: View/Blends/view.ctp:147 View/Elements/bars/owner_bar.ctp:32
+#: View/Blends/view.ctp:158 View/Elements/bars/owner_bar.ctp:32
 msgid "Manage Files"
 msgstr "Beheer bestanden"
 
-#: View/Blends/view.ctp:161 View/Elements/bars/blend_actions.ctp:46
+#: View/Blends/view.ctp:172 View/Elements/bars/blend_actions.ctp:46
 #: View/Reports/admin_view.ctp:2 View/Reports/view.ctp:2
 msgid "Report"
 msgstr "Raporteer"
 
-#: View/Blends/view.ctp:235;247 View/Elements/bars/blend_actions.ctp:13
+#: View/Blends/view.ctp:246 View/Elements/bars/blend_actions.ctp:13
 msgid "Add this blend to a collection"
 msgstr "Toe deze blend toe aan collectie"
 
-#: View/Blends/view.ctp:239;251
+#: View/Blends/view.ctp:250
 msgid "Collect"
 msgstr "Verzamel"
 
@@ -2051,9 +1954,175 @@ msgstr "Verwijder contact"
 msgid "New Download"
 msgstr "Nieuwe download"
 
+#: View/Elements/blend_status.ctp:5
+msgid "This blend is incomplete!!!"
+msgstr "Deze blend is niet compleet!"
+
+#: View/Elements/blend_status.ctp:6
+msgid " please upload the missing files"
+msgstr "Upload de missende bestanden, a.u.b."
+
+#: View/Elements/blend_status.ctp:12
+msgid "Trusted Uploader"
+msgstr "Vertrouwde uploader"
+
 #: View/Elements/commentList.ctp:10
 msgid "No %s yet, leave yours!"
 msgstr "Nog geen %s, laat eentje achter!"
+
+#: View/Elements/frontend_footer.ctp:6
+msgid "Site"
+msgstr "Site"
+
+#: View/Elements/frontend_footer.ctp:7
+msgid "Services"
+msgstr "Diensten"
+
+#: View/Elements/frontend_footer.ctp:8
+#, fuzzy
+msgid "Accouts"
+msgstr "Accounts"
+
+#: View/Elements/frontend_footer.ctp:10
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: View/Elements/frontend_footer.ctp:10 View/Elements/menus/topMenu.ctp:314
+msgid "Access"
+msgstr "Toegang"
+
+#: View/Elements/frontend_footer.ctp:11
+msgid "Legal"
+msgstr "Wettelijk"
+
+#: View/Elements/frontend_footer.ctp:17
+msgid "About"
+msgstr "Over"
+
+#: View/Elements/frontend_footer.ctp:20
+msgid "Site News"
+msgstr "Site nieuws"
+
+#: View/Elements/frontend_footer.ctp:23
+msgid "Contact"
+msgstr "Contact"
+
+#: View/Elements/frontend_footer.ctp:26
+msgid "Credits"
+msgstr "Erkenning"
+
+#: View/Elements/frontend_footer.ctp:29
+msgid "Advertising"
+msgstr "Advertenties"
+
+#: View/Elements/frontend_footer.ctp:32
+msgid "Translations"
+msgstr "Vertalingen"
+
+#: View/Elements/frontend_footer.ctp:37 View/Elements/menus/topMenu.ctp:24
+msgid "All Blends"
+msgstr "Alle Blends"
+
+#: View/Elements/frontend_footer.ctp:40
+msgid "Blend Requests"
+msgstr "Blend verzoeken"
+
+#: View/Elements/frontend_footer.ctp:43 View/Elements/menus/topMenu.ctp:80
+msgid "Blend Collections"
+msgstr "Blend collecties"
+
+#: View/Elements/frontend_footer.ctp:46
+msgid "Users Index"
+msgstr "Gebruikers index"
+
+#: View/Elements/frontend_footer.ctp:49
+#: View/Elements/menus/topMenu.ctp:196;198
+msgid "User Badges"
+msgstr "Gebruiker badges"
+
+#: View/Elements/frontend_footer.ctp:52
+#: View/Elements/menus/topMenu.ctp:146;148;161
+#: View/Questions/admin_index.ctp:2
+msgid "Questions"
+msgstr "Vragen"
+
+#: View/Elements/frontend_footer.ctp:57 View/Elements/navs/usernav.ctp:193
+msgid "Upgrade"
+msgstr "Opwaarderen"
+
+#: View/Elements/frontend_footer.ctp:60
+msgid "Free Membership"
+msgstr "Gratis lidmaatschap"
+
+#: View/Elements/frontend_footer.ctp:63
+msgid "Associate Membership"
+msgstr "Betalend lidmaarschap"
+
+#: View/Elements/frontend_footer.ctp:66
+msgid "Deadline Membership"
+msgstr "Deathline lidmaatschap"
+
+#: View/Elements/frontend_footer.ctp:69
+#: View/Elements/menus/topMenu.ctp:190;192 View/Users/featured.ctp:1
+msgid "Featured Artists"
+msgstr "Artiesten in schijnwerpers"
+
+#: View/Elements/frontend_footer.ctp:72
+msgid "Bandwidth Assignation"
+msgstr "Aangewezen bandbreedte "
+
+#: View/Elements/frontend_footer.ctp:77
+msgid "About Blender"
+msgstr "Over Blender"
+
+#: View/Elements/frontend_footer.ctp:80
+msgid "Get Blender"
+msgstr "Download Blender"
+
+#: View/Elements/frontend_footer.ctp:83
+msgid "Learn Blender"
+msgstr "Leer Blender"
+
+#: View/Elements/frontend_footer.ctp:89 View/Elements/menus/topMenu.ctp:205
+msgid "Help"
+msgstr "Help"
+
+#: View/Elements/frontend_footer.ctp:92 View/Elements/menus/topMenu.ctp:220
+msgid "Known Issues"
+msgstr "Bekende issues"
+
+#: View/Elements/frontend_footer.ctp:95
+#: View/Elements/menus/topMenu.ctp:227;229
+msgid "Report Errors"
+msgstr "Rapporteer fouten"
+
+#: View/Elements/frontend_footer.ctp:100 View/Elements/menus/topMenu.ctp:330
+msgid "Register"
+msgstr "Registreer"
+
+#: View/Elements/frontend_footer.ctp:106
+msgid "Reset Password"
+msgstr "Paswoord resetten"
+
+#: View/Elements/frontend_footer.ctp:112
+msgid "File Licensing"
+msgstr "Bestand licenties"
+
+#: View/Elements/frontend_footer.ctp:115
+msgid "Terms of Use"
+msgstr "Gebruik voorwaarden"
+
+#: View/Elements/frontend_footer.ctp:118
+msgid "Privacy Policy"
+msgstr "Privacy beleid"
+
+#: View/Elements/frontend_footer.ctp:160
+msgid "All rights reserved"
+msgstr "Alle rechten voorbehouden"
+
+#: View/Elements/frontend_footer.ctp:161
+msgid "Except where noted, all content is released under"
+msgstr "Behalve waar vermeld is alle inhoud vrijgegeven onder"
 
 #: View/Elements/new_question.ctp:3
 msgid "Need help with Blender?"
@@ -2121,7 +2190,7 @@ msgstr "Lage poly modellen"
 
 #: View/Elements/placeholder.ctp:18
 msgid "Materials"
-msgstr "Matrialen"
+msgstr "Materialen"
 
 #: View/Elements/placeholder.ctp:19
 msgid "Miscellaneous Objects"
@@ -2176,7 +2245,7 @@ msgid "Simulations"
 msgstr "Simulaties"
 
 #: View/Elements/placeholder.ctp:32 View/Elements/previewBox.ctp:38
-#: View/Elements/menus/topMenu.ctp:70
+#: View/Elements/menus/topMenu.ctp:75
 msgid "Staff Picks"
 msgstr "Uitgekozen"
 
@@ -2399,142 +2468,109 @@ msgstr "Blends"
 msgid "All blends"
 msgstr "Alle blends"
 
-#: View/Elements/menus/topMenu.ctp:24
-msgid "All Blends"
-msgstr "Alle Blends"
-
 #: View/Elements/menus/topMenu.ctp:26
 msgid "Main Blend Index"
 msgstr "Hoofd Blend index"
 
-#: View/Elements/menus/topMenu.ctp:31
-msgid "Only CC-Zero Blends"
-msgstr "Alleen CC-Zero Blends"
+#: View/Elements/menus/topMenu.ctp:31;33;36;38;41;43;46;48
+msgid "Only %s Blends"
+msgstr "Alleen %s Blends"
 
-#: View/Elements/menus/topMenu.ctp:33
-msgid "Only CC-0"
-msgstr "Alleen CC-0"
+#: View/Elements/menus/topMenu.ctp:52;57;62
+msgid "Made with Blender %s"
+msgstr "Gemaakt met Blender %s"
 
-#: View/Elements/menus/topMenu.ctp:36
-msgid "Only CC-BY Blends"
-msgstr "Alleen CC-BY Blends"
-
-#: View/Elements/menus/topMenu.ctp:38
-msgid "Only CC-BY"
-msgstr "Alleen CC-BY"
-
-#: View/Elements/menus/topMenu.ctp:41
-msgid "Only CC-BY-SA Blends"
-msgstr "Alleen CC-BY-SA Blends"
-
-#: View/Elements/menus/topMenu.ctp:43
-msgid "Only CC-BY-SA"
-msgstr "Alleen CC-BY-SA"
-
-#: View/Elements/menus/topMenu.ctp:47;49
+#: View/Elements/menus/topMenu.ctp:54
 msgid "Made with Blender 2.49"
 msgstr "Gemaakt met Blender 2.49"
 
-#: View/Elements/menus/topMenu.ctp:52;54
+#: View/Elements/menus/topMenu.ctp:59
 msgid "Made with Blender 2.5x"
 msgstr "Gemaakt met Blender 2.5x"
 
-#: View/Elements/menus/topMenu.ctp:57;59
+#: View/Elements/menus/topMenu.ctp:64
 msgid "Made with Blender 2.6x"
 msgstr "Gemaakt met Blender 2.6x"
 
-#: View/Elements/menus/topMenu.ctp:62
+#: View/Elements/menus/topMenu.ctp:67
 msgid "Filter Blends"
 msgstr "Filter blends"
 
-#: View/Elements/menus/topMenu.ctp:67
+#: View/Elements/menus/topMenu.ctp:72
 msgid "All blend categories."
 msgstr "Alle blend categorieën"
 
-#: View/Elements/menus/topMenu.ctp:72
+#: View/Elements/menus/topMenu.ctp:77
 msgid "Blends selected by the admins."
 msgstr "Blends geselecteerd door admins."
 
-#: View/Elements/menus/topMenu.ctp:75
-msgid "Blend Collections"
-msgstr "Blend collecties"
-
-#: View/Elements/menus/topMenu.ctp:77
+#: View/Elements/menus/topMenu.ctp:82
 msgid "Publicly visible Blend Collections by our users."
 msgstr "Publieke Blend collecties door onze gebruikers"
 
-#: View/Elements/menus/topMenu.ctp:81
+#: View/Elements/menus/topMenu.ctp:86
 msgid "Durian OMP"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:83
+#: View/Elements/menus/topMenu.ctp:88
 msgid "Durian Open Movie Project."
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:86
+#: View/Elements/menus/topMenu.ctp:91
 msgid "HJM Contest"
 msgstr "HJM wedstrijd"
 
-#: View/Elements/menus/topMenu.ctp:88
+#: View/Elements/menus/topMenu.ctp:93
 msgid "HJ Media Military Contest"
 msgstr "HJ Media militaire wedstrijd"
 
-#: View/Elements/menus/topMenu.ctp:91
+#: View/Elements/menus/topMenu.ctp:96
 msgid "Fantasy Contest"
 msgstr "Fantasie wedstrijd"
 
-#: View/Elements/menus/topMenu.ctp:92
+#: View/Elements/menus/topMenu.ctp:97
 msgid "Fantasy Character Contest"
 msgstr "Fantasie personage wedstrijd"
 
-#: View/Elements/menus/topMenu.ctp:96;98;133;135;159;161
+#: View/Elements/menus/topMenu.ctp:101;103;138;140;165;167
 msgid "RSS Feed"
 msgstr "RSS abonnement"
 
-#: View/Elements/menus/topMenu.ctp:104;112
+#: View/Elements/menus/topMenu.ctp:109;117
 msgid "Requests"
 msgstr "Verzoeken"
 
-#: View/Elements/menus/topMenu.ctp:110
+#: View/Elements/menus/topMenu.ctp:115
 msgid "New Request"
 msgstr "Nieuw verzoek"
 
-#: View/Elements/menus/topMenu.ctp:112;148
+#: View/Elements/menus/topMenu.ctp:117;161
 msgid "%s Main Index"
 msgstr "%s hoofd Index"
 
-#: View/Elements/menus/topMenu.ctp:117
+#: View/Elements/menus/topMenu.ctp:122
 msgid "All Requests"
 msgstr "Alle verzoeken"
 
-#: View/Elements/menus/topMenu.ctp:119
+#: View/Elements/menus/topMenu.ctp:124
 msgid "Requests Main Index"
 msgstr "Verzoeken hoofd index"
 
-#: View/Elements/menus/topMenu.ctp:122
+#: View/Elements/menus/topMenu.ctp:127
 msgid "Open Requests"
 msgstr "Open verzoeken"
 
-#: View/Elements/menus/topMenu.ctp:124
+#: View/Elements/menus/topMenu.ctp:129
 msgid "Requests still open to responses"
 msgstr "Verzoeken waar nog op kan worden gereageerd"
 
-#: View/Elements/menus/topMenu.ctp:127
+#: View/Elements/menus/topMenu.ctp:132
 msgid "Closed Requests"
 msgstr "Gesloten verzoeken"
 
-#: View/Elements/menus/topMenu.ctp:129
+#: View/Elements/menus/topMenu.ctp:134
 msgid "Requests closed to new responses"
 msgstr "Verzoeken gesloten voor nieuwe reacties"
-
-#: View/Elements/menus/topMenu.ctp:141;143;148 View/Layouts/frontend.ctp:125
-#: View/Questions/admin_index.ctp:2
-msgid "Questions"
-msgstr "Vragen"
-
-#: View/Elements/menus/topMenu.ctp:146
-msgid "All Questions"
-msgstr "Alle vragen"
 
 #: View/Elements/menus/topMenu.ctp:152 View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
@@ -2545,120 +2581,96 @@ msgstr "Nieuwe vraag"
 msgid "Create a new Question"
 msgstr "Maak een nieuwe vraag"
 
-#: View/Elements/menus/topMenu.ctp:167;169 View/Users/admin_index.ctp:2
+#: View/Elements/menus/topMenu.ctp:159
+msgid "All Questions"
+msgstr "Alle vragen"
+
+#: View/Elements/menus/topMenu.ctp:175;177 View/Users/admin_index.ctp:2
 msgid "Users"
 msgstr "Gebruikers"
 
-#: View/Elements/menus/topMenu.ctp:172;174
+#: View/Elements/menus/topMenu.ctp:180;182
 msgid "Users Showcase"
 msgstr "Gebruikers portfolio"
 
-#: View/Elements/menus/topMenu.ctp:177;179
+#: View/Elements/menus/topMenu.ctp:185;187
 msgid "Find Artists"
 msgstr "Find artiesten"
 
-#: View/Elements/menus/topMenu.ctp:182;184 View/Layouts/frontend.ctp:145
-#: View/Users/featured.ctp:1
-msgid "Featured Artists"
-msgstr "Artiesten in schijnwerpers"
-
-#: View/Elements/menus/topMenu.ctp:188;190 View/Layouts/frontend.ctp:122
-msgid "User Badges"
-msgstr "Gebruiker badges"
-
-#: View/Elements/menus/topMenu.ctp:196 View/Layouts/frontend.ctp:222
-msgid "Help"
-msgstr "Help"
-
-#: View/Elements/menus/topMenu.ctp:198
+#: View/Elements/menus/topMenu.ctp:207
 msgid "Help and documentation"
 msgstr "Help en documentatie"
 
-#: View/Elements/menus/topMenu.ctp:201
+#: View/Elements/menus/topMenu.ctp:210
 msgid "FAQ"
 msgstr "FAQ"
 
-#: View/Elements/menus/topMenu.ctp:203
+#: View/Elements/menus/topMenu.ctp:212
 msgid "Frequently asked questions (and answers)"
 msgstr "Veelgestelde vragen (en antwoorden)"
 
-#: View/Elements/menus/topMenu.ctp:206
+#: View/Elements/menus/topMenu.ctp:215
 msgid "All Documentation"
 msgstr "Alle documentatie"
 
-#: View/Elements/menus/topMenu.ctp:208
+#: View/Elements/menus/topMenu.ctp:217
 msgid "All site documentation"
 msgstr "Alle documentatie"
 
-#: View/Elements/menus/topMenu.ctp:211 View/Layouts/frontend.ctp:225
-msgid "Known Issues"
-msgstr "Bekende issues"
-
-#: View/Elements/menus/topMenu.ctp:213
+#: View/Elements/menus/topMenu.ctp:222
 msgid "Known issues"
 msgstr "Bekende issues"
 
-#: View/Elements/menus/topMenu.ctp:218;220 View/Layouts/frontend.ctp:228
-msgid "Report Errors"
-msgstr "Rapporteer fouten"
+#: View/Elements/menus/topMenu.ctp:235 View/Layouts/frontend.ctp:83;84
+msgid "Search Blends"
+msgstr "Blends zoeken"
 
-#: View/Elements/menus/topMenu.ctp:228
+#: View/Elements/menus/topMenu.ctp:237
 msgid "Search"
 msgstr "Zoek"
 
-#: View/Elements/menus/topMenu.ctp:235
+#: View/Elements/menus/topMenu.ctp:244
 msgid "Me"
 msgstr "Ik"
 
-#: View/Elements/menus/topMenu.ctp:237;243;245
+#: View/Elements/menus/topMenu.ctp:246;252;254
 #: View/Elements/navs/usernav.ctp:73
 msgid "My Profile"
 msgstr "Mijn profiel"
 
-#: View/Elements/menus/topMenu.ctp:252;254 View/Elements/navs/usernav.ctp:80
+#: View/Elements/menus/topMenu.ctp:261;263 View/Elements/navs/usernav.ctp:80
 msgid "My Blends"
 msgstr "Mijn Blends"
 
-#: View/Elements/menus/topMenu.ctp:260;262 View/Elements/navs/usernav.ctp:104
+#: View/Elements/menus/topMenu.ctp:269;271 View/Elements/navs/usernav.ctp:104
 msgid "My Collections"
 msgstr "Mijn collecties"
 
-#: View/Elements/menus/topMenu.ctp:268;270 View/Elements/navs/usernav.ctp:97
+#: View/Elements/menus/topMenu.ctp:277;279 View/Elements/navs/usernav.ctp:97
 msgid "My Likes"
 msgstr "Mijn vind-ik-leuk's"
 
-#: View/Elements/menus/topMenu.ctp:277;279 View/Elements/navs/usernav.ctp:163
+#: View/Elements/menus/topMenu.ctp:285;287
+#, fuzzy
+msgid "My Followers"
+msgstr "Volgers"
+
+#: View/Elements/menus/topMenu.ctp:294;296 View/Elements/navs/usernav.ctp:170
 #: View/Users/bandwidth.ctp:1 View/Users/view.ctp:95
 msgid "Bandwidth History"
 msgstr "Bandbreedte history"
 
-#: View/Elements/menus/topMenu.ctp:286
+#: View/Elements/menus/topMenu.ctp:303
 msgid "Log out"
 msgstr "Uitloggen"
 
-#: View/Elements/menus/topMenu.ctp:288
+#: View/Elements/menus/topMenu.ctp:305
 msgid "Log Out"
 msgstr "Uitloggen"
 
-#: View/Elements/menus/topMenu.ctp:297 View/Layouts/frontend.ctp:232
-msgid "Access"
-msgstr ""
-
-#: View/Elements/menus/topMenu.ctp:305;307
+#: View/Elements/menus/topMenu.ctp:322;324
 msgid "Log In"
 msgstr "Inloggen"
-
-#: View/Elements/menus/topMenu.ctp:313 View/Layouts/frontend.ctp:235
-msgid "Register"
-msgstr "Registreer"
-
-#: View/Elements/menus/topMenu.ctp:323;324
-msgid "Search Blends"
-msgstr "Blends zoeken"
-
-#: View/Elements/menus/topMenu.ctp:324
-msgid "Change your search criteria!"
-msgstr "Verander uw zoek criteria!"
 
 #: View/Elements/navs/usernav.ctp:7
 msgid "Around me"
@@ -2693,42 +2705,39 @@ msgstr "Mijn dingen"
 msgid "My Badges"
 msgstr "Mijn badges"
 
-#: View/Elements/navs/usernav.ctp:112
+#: View/Elements/navs/usernav.ctp:111
+#, fuzzy
+msgid "My followers"
+msgstr "Volgers"
+
+#: View/Elements/navs/usernav.ctp:119
 msgid "Advanced Stats"
 msgstr "Geavanceerde statistieken"
 
-#: View/Elements/navs/usernav.ctp:121
+#: View/Elements/navs/usernav.ctp:128
 msgid "Management"
 msgstr "Beheer"
 
-#: View/Elements/navs/usernav.ctp:125 View/Profiles/admin_view.ctp:94
+#: View/Elements/navs/usernav.ctp:132 View/Profiles/admin_view.ctp:94
 #: View/Users/view.ctp:86
 msgid "Edit Profile"
 msgstr "Verander profiel"
 
-#: View/Elements/navs/usernav.ctp:132
+#: View/Elements/navs/usernav.ctp:139
 msgid "Edit Portfolio"
 msgstr "Verander portfolio"
 
-#: View/Elements/navs/usernav.ctp:139
+#: View/Elements/navs/usernav.ctp:146
 msgid "Account &amp; Settings"
 msgstr "Account &amp; instellingen"
 
-#: View/Elements/navs/usernav.ctp:148 View/Users/view.ctp:92
+#: View/Elements/navs/usernav.ctp:155 View/Users/view.ctp:92
 msgid "Manage Membership"
 msgstr "Beheer lidmaarschap"
 
-#: View/Elements/navs/usernav.ctp:156
+#: View/Elements/navs/usernav.ctp:163
 msgid "Change Password"
 msgstr "Verander paswoord"
-
-#: View/Elements/navs/usernav.ctp:170
-msgid "Recover old likes"
-msgstr "Herwin oude vind-ik-leuk's"
-
-#: View/Elements/navs/usernav.ctp:185 View/Layouts/frontend.ctp:133
-msgid "Upgrade"
-msgstr "Opwaarderen"
 
 #: View/Feedbacks/add.ctp:4
 msgid "Add Comment"
@@ -2822,26 +2831,13 @@ msgid "An error ocurred while reading this license."
 msgstr "Een fout vond plaats terwijl de licentie werd gelezen."
 
 #: View/Helper/SingleBlendHelper.php:145
+#, fuzzy
 msgid ""
-"It is recommended that you give credit for this blend but there's no "
-"obligation to do so"
+"It is recommended that you give credit to the author fo this blend but "
+"there's no obligation to do so"
 msgstr ""
 "Het is aangeraden dat je de oorspronkelijke auteur vermeld van deze blend, "
 "maar het is niet verplicht"
-
-#: View/Helper/SingleBlendHelper.php:171
-msgid "This blend was taken down on "
-msgstr "Deze blend is verwijdert op"
-
-#: View/Helper/SingleBlendHelper.php:180
-msgid "This blend was rejected on "
-msgstr "Deze blend was afgewezen op"
-
-#: View/Helper/SingleBlendHelper.php:187
-msgid "This blend is pending and is not accessible by normal users"
-msgstr ""
-"Deze blend moet nog worden goedgekeurd en is onberekenbaar voor normale "
-"gebruikers"
 
 #: View/Keys/add.ctp:4
 msgid "Add Key"
@@ -2871,7 +2867,7 @@ msgstr "Sleutel"
 msgid "Route"
 msgstr ""
 
-#: View/Keys/view.ctp:29 View/Users/bandwidth.ctp:40
+#: View/Keys/view.ctp:29 View/Users/bandwidth.ctp:37
 msgid "Expires"
 msgstr "Vervalt"
 
@@ -2879,126 +2875,13 @@ msgstr "Vervalt"
 msgid "Delete Key"
 msgstr "Verwijder sleutel"
 
-#: View/Layouts/frontend.ctp:104
-msgid "Service"
-msgstr ""
+#: View/Layouts/frontend.ctp:84
+msgid "Change your search criteria!"
+msgstr "Verander uw zoek criteria!"
 
-#: View/Layouts/frontend.ctp:107
-msgid "Browse All Blends"
-msgstr "Bekijk alle Blends"
-
-#: View/Layouts/frontend.ctp:113
-msgid "Browse Blend Requests"
-msgstr "Bekijk Blend verzoeken"
-
-#: View/Layouts/frontend.ctp:116
-msgid "Browse Blend Collections"
-msgstr "Bekijk Blend collecties"
-
-#: View/Layouts/frontend.ctp:119
-msgid "Users Index"
-msgstr "Gebruikers index"
-
-#: View/Layouts/frontend.ctp:130
-msgid "Accounts"
-msgstr "Accounts"
-
-#: View/Layouts/frontend.ctp:136
-msgid "Free Membership"
-msgstr "Gratis lidmaatschap"
-
-#: View/Layouts/frontend.ctp:139
-msgid "Associate Membership"
-msgstr "Betalend lidmaarschap"
-
-#: View/Layouts/frontend.ctp:142
-msgid "Deadline Membership"
-msgstr "Deathline lidmaatschap"
-
-#: View/Layouts/frontend.ctp:148
-msgid "Bandwidth Assignation"
-msgstr "Aangewezen bandbreedte "
-
-#: View/Layouts/frontend.ctp:153
-msgid "Site"
-msgstr "Site"
-
-#: View/Layouts/frontend.ctp:156
-msgid "About"
-msgstr "Over"
-
-#: View/Layouts/frontend.ctp:159
-msgid "Site News"
-msgstr "Site nieuws"
-
-#: View/Layouts/frontend.ctp:165
-msgid "Contact"
-msgstr "Contact"
-
-#: View/Layouts/frontend.ctp:168
-msgid "Credits"
-msgstr "Erkenning"
-
-#: View/Layouts/frontend.ctp:171
-msgid "Advertising"
-msgstr "Advertenties"
-
-#: View/Layouts/frontend.ctp:174
-msgid "Translations"
-msgstr "Vertalingen"
-
-# This translation might be wrong. Where is it used?
-#: View/Layouts/frontend.ctp:179
-msgid "Connect"
-msgstr "Verbind"
-
-#: View/Layouts/frontend.ctp:206
-msgid "About Blender"
-msgstr "Over Blender"
-
-#: View/Layouts/frontend.ctp:209
-msgid "Get Blender"
-msgstr "Download Blender"
-
-#: View/Layouts/frontend.ctp:212
-msgid "Learn Blender"
-msgstr "Leer Blender"
-
-#: View/Layouts/frontend.ctp:219
-msgid "Support"
-msgstr "Ondersteuning"
-
-#: View/Layouts/frontend.ctp:241
-msgid "Reset Password"
-msgstr "Paswoord resetten"
-
-#: View/Layouts/frontend.ctp:247
-msgid "Legal"
-msgstr "Wettelijk"
-
-#: View/Layouts/frontend.ctp:250
-msgid "File Licensing"
-msgstr "Bestand licenties"
-
-#: View/Layouts/frontend.ctp:253
-msgid "Terms of Use"
-msgstr "Gebruik voorwaarden"
-
-#: View/Layouts/frontend.ctp:256
-msgid "Privacy Policy"
-msgstr "Privacy beleid"
-
-#: View/Layouts/frontend.ctp:263
-msgid "Take the guided tour!"
-msgstr "Neem een begeleide tour!"
-
-#: View/Layouts/frontend.ctp:272
-msgid "All rights reserved"
-msgstr "Alle rechten voorbehouden"
-
-#: View/Layouts/frontend.ctp:273
-msgid "Except where noted, all content is released under"
-msgstr "Behalve waar vermeld is alle inhoud vrijgegeven onder"
+#: View/Layouts/frontend.ctp:117
+msgid "No Fan Art"
+msgstr "Geen fan creaties"
 
 #: View/Limits/admin_add.ctp:4
 msgid "Add Limit"
@@ -3030,11 +2913,11 @@ msgstr "Limiet"
 msgid "Applies"
 msgstr ""
 
-#: View/Limits/admin_view.ctp:29 View/Users/bandwidth.ctp:32
+#: View/Limits/admin_view.ctp:29 View/Users/bandwidth.ctp:29
 msgid "Remaining"
 msgstr "Resterend"
 
-#: View/Limits/admin_view.ctp:34 View/Users/bandwidth.ctp:28
+#: View/Limits/admin_view.ctp:34 View/Users/bandwidth.ctp:25
 msgid "Spent"
 msgstr "Verbruikt"
 
@@ -3141,6 +3024,18 @@ msgstr "Pagina's"
 msgid "New Page"
 msgstr "Nieuwe pagina"
 
+#: View/Pages/welcome.ctp:2
+msgid "Welcome!"
+msgstr "Welkom!"
+
+#: View/Pages/welcome.ctp:129
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: View/Pages/welcome.ctp:132
+msgid "Why are you not logged in yet?"
+msgstr "Waarom bent u nog niet ingelogd?"
+
 #: View/Profiles/admin_add.ctp:4
 msgid "Admin Add Profile"
 msgstr "Admin profiel toevoegen"
@@ -3182,34 +3077,6 @@ msgstr "Website"
 msgid "Bio"
 msgstr "Bio"
 
-#: View/Profiles/admin_view.ctp:44
-msgid "Twitter"
-msgstr "Twitter"
-
-#: View/Profiles/admin_view.ctp:49
-msgid "Facebook"
-msgstr "Facebook"
-
-#: View/Profiles/admin_view.ctp:54
-msgid "Deviantart"
-msgstr "Deviantart"
-
-#: View/Profiles/admin_view.ctp:59
-msgid "Vimeo"
-msgstr "Vimeo"
-
-#: View/Profiles/admin_view.ctp:64
-msgid "Youtube"
-msgstr "Youtube"
-
-#: View/Profiles/admin_view.ctp:69
-msgid "Bartists"
-msgstr ""
-
-#: View/Profiles/admin_view.ctp:74
-msgid "Flickr"
-msgstr "Flickr"
-
 #: View/Profiles/admin_view.ctp:79
 msgid "Blend Count"
 msgstr "Blend aantal"
@@ -3218,7 +3085,38 @@ msgstr "Blend aantal"
 msgid "Delete Profile"
 msgstr "Verwijder profiel"
 
-#: View/Questions/add.ctp:23
+#: View/Questions/add.ctp:1 View/Questions/index.ctp:1
+#: View/Questions/view.ctp:1
+msgid " Questions"
+msgstr "Vragen"
+
+#: View/Questions/add.ctp:2
+msgid "Ask a new question"
+msgstr "Vraag een nieuwe vraag!"
+
+#: View/Questions/add.ctp:5
+msgid ""
+"Questions let you ask the community about Blender features so you can "
+"improve your skill set."
+msgstr "Met vragen kunt u samen met de gemeenschap uw vaardigheden verbeteren."
+
+#: View/Questions/add.ctp:6
+msgid ""
+"This is not meant to be used for Blend Swap support, we have forms "
+"specifically for "
+msgstr ""
+"Het is niet de bedoeling dat dit door Blend Swap ondersteuning word "
+"behandelt, we hebben forums voor"
+
+#: View/Questions/add.ctp:7
+msgid "contact"
+msgstr "contact"
+
+#: View/Questions/add.ctp:8
+msgid "bug reports"
+msgstr "fout rapporten"
+
+#: View/Questions/add.ctp:20
 msgid "Ask a new Question!"
 msgstr "Vraag een nieuwe vraag!"
 
@@ -3246,10 +3144,6 @@ msgstr "Vraag veranderen"
 #: View/Questions/admin_view.ctp:40
 msgid "Delete Question"
 msgstr "Vraag verwijderen"
-
-#: View/Questions/index.ctp:1 View/Questions/view.ctp:1
-msgid " Questions"
-msgstr "Vragen"
 
 #: View/Questions/index.ctp:8
 msgid "Comment Count"
@@ -3386,7 +3280,7 @@ msgstr "Meest recente verzoeken op Blend Swap"
 msgid "Edit User"
 msgstr "Gebruiker wijzigen"
 
-#: View/Users/add.ctp:174
+#: View/Users/add.ctp:178
 msgid "Sign me up!"
 msgstr "Schrijf me in!"
 
@@ -3418,7 +3312,7 @@ msgstr "Nieuwe collectie"
 msgid "Delete User"
 msgstr "Gebruiker verwijderen"
 
-#: View/Users/associate.ctp:146
+#: View/Users/associate.ctp:150
 msgid "Sign Me Up"
 msgstr "Schrijf me in!"
 
@@ -3434,31 +3328,31 @@ msgstr "U heeft oneindig bandbreedte! U kunt dit negeren."
 msgid "Learn how bandwidth is assigned"
 msgstr "Leer hoe bandbreedte is toegekend"
 
-#: View/Users/bandwidth.ctp:36
+#: View/Users/bandwidth.ctp:33
 msgid "Initialized"
 msgstr ""
 
-#: View/Users/bandwidth.ctp:47
+#: View/Users/bandwidth.ctp:43
 msgid "Is this wrong?"
 msgstr "Is dit verkeerd?"
 
-#: View/Users/bandwidth.ctp:49
+#: View/Users/bandwidth.ctp:45
 msgid "Fix it"
 msgstr "Herstel het"
 
-#: View/Users/bandwidth.ctp:64
+#: View/Users/bandwidth.ctp:56
 msgid "Download History for current month"
 msgstr "Download history voor huidige maand"
 
-#: View/Users/bandwidth.ctp:73
+#: View/Users/bandwidth.ctp:65
 msgid "COUNTED"
 msgstr "Meegeteld"
 
-#: View/Users/bandwidth.ctp:73
+#: View/Users/bandwidth.ctp:65
 msgid "Not counted"
 msgstr "Nog niet meegeteld"
 
-#: View/Users/bandwidth.ctp:77
+#: View/Users/bandwidth.ctp:69
 msgid "Bandwidth"
 msgstr "Bandbreedte"
 
@@ -3573,11 +3467,11 @@ msgstr ""
 msgid "These artists have recently swapped blends"
 msgstr "Deze artiesten hebben recentelijk blends uitgewisseld"
 
-#: View/Users/login.ctp:30
+#: View/Users/login.ctp:31
 msgid "Problems logging in?"
 msgstr "Problemen met inloggen?"
 
-#: View/Users/login.ctp:35
+#: View/Users/login.ctp:36
 msgid "Register now!"
 msgstr "Registreer nu!"
 
@@ -3621,6 +3515,52 @@ msgstr "Deze gebruiker heeft nog geen badge verdient..."
 msgid "Followers"
 msgstr "Volgers"
 
-#: View/Users/view.ctp:177
+#: View/Users/view.ctp:175
 msgid "You should set up your skills from the profile edit panel"
 msgstr "U kunt uw vaardigheden bijwerken vanuit het profiel bijwerk paneel"
+
+#~ msgid "The blend you requested does not exist"
+#~ msgstr "De opgevraagde blend bestaat niet."
+
+#~ msgid ""
+#~ "You downloaded this blend less than 24 hours ago, if your first attempt "
+#~ "failed you still have %d hours and %d minutes to retry without losing "
+#~ "extra bandwidth"
+#~ msgstr ""
+#~ "U heeft deze blend minder dan 24 uur geleden gedownload, als jouw eerst "
+#~ "verzoek faalde hebt u nog %d uur en %d minuten om het opnieuw te proberen "
+#~ "zonder verlies van extra bandbreedte"
+
+#~ msgid ""
+#~ "If your download fails you have 24 hours to try again with no extra "
+#~ "bandwidth subtracted from your monthly allocation!"
+#~ msgstr ""
+#~ "U kunt binnen 24 opnieuw downloaden indien het de eerste keer mislukt. "
+#~ "Dit gaan niet af van uw maandelijkse toegewezen bandbreedte."
+
+#~ msgid "Looks like you are logged out, maybe your session expired"
+#~ msgstr ""
+#~ "Het ziet eruit dat u bent uitgelogd, of misschien is uw sessie verlopen"
+
+#~ msgid "Please %s and try again."
+#~ msgstr "Alstublieft $s en probeer opnieuw"
+
+#~ msgid "log in"
+#~ msgstr "log in"
+
+#~ msgid "Blend Categories"
+#~ msgstr "Blend categorieën"
+
+#~ msgid "You just recovered %d likes from Blend Swap 4!"
+#~ msgstr "U hebt %d vind-ik-leuk's buitgemaakt van Blend Swap 4!"
+
+#~ msgid ""
+#~ "We could not find any old likes from Blend Swap 4 for you, so it looks "
+#~ "like you are already well setup for adding likes. If this is an error, "
+#~ "please report it!"
+#~ msgstr ""
+#~ "We konden geen vind-ik-leuk's vinden van Blend Swap 4 voor jou. "
+#~ "Rapporteer dit indien het een fout is."
+
+#~ msgid "Separated by commas"
+#~ msgstr "Gescheiden door commas"
