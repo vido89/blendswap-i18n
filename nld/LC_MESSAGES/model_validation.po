@@ -1,0 +1,282 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blend Swap Translation 0.1\n"
+"POT-Creation-Date: 2013-08-01 10:47-0600\n"
+"PO-Revision-Date: 2013-11-05 12:18+0100\n"
+"Last-Translator: Benny <Benny@GMX.it>\n"
+"Language-Team: Blend Swap Translators <support@blendswap.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: nl\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Model/Blend.php:validation for field title
+msgid "Your blend must have a name!"
+msgstr "Uw blend moet een naam hebben!"
+
+#: Model/Blend.php:validation for field title
+msgid "The Blend Name must be between 2 and 140 chars long!"
+msgstr "De blend naam moet tussen 2 en 140 karakters lang zijn."
+
+#: Model/Blend.php:validation for field body
+msgid "Your blend must have a description!"
+msgstr "Uw blend moet een beschrijving hebben!"
+
+#: Model/Blend.php:validation for field body
+msgid "The description must be between 40 and 5000 chars long!"
+msgstr "De beschrijving moet tussen de 40 en 5000 karakters lang zijn!"
+
+#: Model/Blend.php:validation for field three_dee
+msgid "That is not a url!"
+msgstr "Dit is geen url!"
+
+#: Model/Blend.php:validation for field three_dee
+msgid "That is not a supported viewer."
+msgstr "Dit is geen ondersteunde weergever."
+
+#: Model/Blend.php:validation for field blend_license
+msgid "Please choose a license for your blend."
+msgstr "Kies een licentie voor jouw blend."
+
+#: Model/Blend.php:validation for field blend_license
+msgid "Invalid value for Blend License!"
+msgstr "Ongeldige waarde voor blend licentie!"
+
+#: Model/Blend.php:validation for field blender_version
+msgid "Please choose the version of blender you used to make this blend."
+msgstr "Kies een versie van blender waarmee je deze blend hebt gemaakt."
+
+#: Model/Blend.php:validation for field blender_version
+msgid "Invalid value type for Blender version"
+msgstr "Ongeldige waarde voor blender versie"
+
+#: Model/Blend.php:validation for field tags
+msgid ""
+"Tags help others find your blend. Use at least one tag and don't forget the "
+"commas!"
+msgstr ""
+"Labels helpen ander mensen om jouw blend te vinden. Gebruik tenminste één "
+"tag en scheid meerdere labels door komma's."
+
+#: Model/Blend.php:validation for field tags
+msgid "Those are not tags, write valid, comma separated tags!"
+msgstr ""
+"Dat zijn helemaal geen labels! Schrijf geldige - komma gescheiden - labels!"
+
+#: Model/Blend.php:validation for field categories
+#: Model/Request.php:validation requirements
+msgid "Pick one to four categories."
+msgstr "Kies tot maximaal 4 categorieën."
+
+#: Model/Blend.php:validation for field categories
+msgid "Invalid taxonomiy input."
+msgstr ""
+
+#: Model/Blend.php:validation for field change_log
+msgid "Please tell us what you changed in the data or the files."
+msgstr "Vertel ons alstublieft wat u in de data of bestanden hebt verandert."
+
+#: Model/Blend.php:validation for field hello Model/Message.php:validation
+#: Model/Profile.php:validation Model/Report.php:validation
+#: Model/Request.php:validation Model/User.php:validation
+msgid "empty"
+msgstr "leeg"
+
+#: Model/Collection.php:validation for field name
+msgid "The collection Must have a name"
+msgstr "De collectie moet een naam hebben"
+
+#: Model/Collection.php:validation for field visibility
+msgid "Choose a visibility setting"
+msgstr "Kies een zichtbaarheids instelling"
+
+#: Model/Collection.php:validation for field visibility
+msgid "Invalid visibility value!!!"
+msgstr "Ongeldige zichtbaarheid instelling!!!"
+
+#: Model/Comment.php:validation for field body
+msgid "The comment cannot be empty!"
+msgstr "De reactie mag niet leeg zijn!"
+
+#: Model/Comment.php:validation for field user_id;validation
+#: parent_id;validation object_id Model/Revision.php:validation
+msgid "numeric"
+msgstr "numeriek"
+
+#: Model/Contact.php:validation for field name;validation email;validation
+#: body
+msgid "This field is required."
+msgstr "Dit veld is noodzakelijk"
+
+#: Model/Contact.php:validation for field name
+msgid "This field contains invalid characters..."
+msgstr "Dit veld bevat ongeldige karakters..."
+
+#: Model/Contact.php:validation for field email
+msgid "This doesn't look like an email..."
+msgstr "Dit ziet er niet uit als een email adres..."
+
+#: Model/Contact.php:validation for field subject
+msgid "Please select the subject."
+msgstr "Kies het onderwerp a.u.b."
+
+#: Model/Contact.php:validation for field subject
+msgid "An error happened, try again."
+msgstr "Er deed zich een fout voor, probeer opnieuw."
+
+#: Model/Contact.php:validation for field website
+msgid "This is not a url"
+msgstr "Dit is geen url"
+
+#: Model/Email.php:validation for field name
+msgid "this email must have a name"
+msgstr "deze e-mail moet een naam hebben"
+
+#: Model/Email.php:validation for field pointer
+msgid "emails must have a call key so they can be called from inside the app."
+msgstr ""
+
+#: Model/Email.php:validation for field pointer
+msgid "Only letters and underscores are allowed"
+msgstr "Alleen letters on underscore's zijn toegestaan"
+
+#: Model/Message.php:validation for field body
+msgid "Empty messages are not allowed."
+msgstr "Lege berichten zijn niet toegestaan"
+
+#: Model/Message.php:validation for field status
+msgid "allowedStatuses"
+msgstr ""
+
+#: Model/Profile.php:validation for field website;validation
+#: deviantart;validation bartists;validation flickr;validation
+#: facebook;validation youtube;validation vimeo;validation twitter;validation
+#: github;validation pinterest;validation behance;validation linkedin
+msgid "This does not look like an URL"
+msgstr "Dit ziet er niet uit als een URL"
+
+#: Model/Question.php:validation for field body
+msgid "Your question needs a body with details."
+msgstr "Uw vraag heeft een inhoud nodig met details."
+
+#: Model/Question.php:validation for field body
+msgid "Your question body must be between 40 and 2000 characters long."
+msgstr "De inhoud van de vraag moet tussen de 40 en 2000 karakters zijn."
+
+#: Model/Question.php:validation for field title
+msgid "Your question needs a title."
+msgstr "Uw vraag heeft een titel nodig."
+
+#: Model/Question.php:validation for field title
+msgid "Your question title must be between 10 and 256 characters long."
+msgstr "De titel van de vraag moet tussen de 10 en 256 karakters zijn."
+
+#: Model/Question.php:validation for field tags
+msgid ""
+"Tags help other users to find your question. You must use at least one tag."
+msgstr ""
+"Labels helpen andere gebruikers om jouw vraag te vinden. U moet minimaal één "
+"label hebben."
+
+#: Model/Report.php:validation for field reason
+msgid "You must choose an option."
+msgstr "U moet een optie kiezen."
+
+#: Model/Report.php:validation for field reason
+msgid "The reason contains invalid characters"
+msgstr "De reden bevat ongeldige karakters."
+
+#: Model/Report.php:validation for field body
+msgid ""
+"You must provide links and/or notes for us to be able to take care of your "
+"report"
+msgstr ""
+"U moet links of aantekening leveren (in Engels) zodat we dit rapport kunnen "
+"afhandelen"
+
+#: Model/Request.php:validation for field title
+msgid "Your request must have a title"
+msgstr "Uw verzoek moet een titel hebben"
+
+#: Model/Request.php:validation for field body
+msgid "You must provide notes and details about the request."
+msgstr "U moet aantekeningen en detail geven over dit verzoek."
+
+#: Model/Revision.php:validation for field user_id;validation
+#: object_id;validation object_class;validation object_data;validation log
+#: Model/Term.php:validation slug
+msgid "notEmpty"
+msgstr ""
+
+#: Model/Revision.php:validation for field object_class
+msgid "alphanumeric"
+msgstr "alfanumeriek"
+
+#: Model/Term.php:validation for field slug
+msgid "isUnique"
+msgstr ""
+
+#: Model/Term.php:validation for field slug
+msgid "validChars"
+msgstr ""
+
+#: Model/Term.php:validation for field slug
+msgid "between"
+msgstr "tussen"
+
+#: Model/User.php:validation for field username
+msgid "Only letters and numbers please."
+msgstr "Alleen letters en nummers a.u.b."
+
+#: Model/User.php:validation for field username
+msgid "The username must be between 2 and 32 characters long!"
+msgstr "De gebruikersnaam moet tussen de 2 en 32 karakters zijn!"
+
+#: Model/User.php:validation for field username
+msgid "Can not be empty"
+msgstr "Mag niet leeg zijn"
+
+#: Model/User.php:validation for field username
+msgid "This username is already taken."
+msgstr "Deze gebruikersnaam is al genomen."
+
+#: Model/User.php:validation for field email;validation password
+msgid "Can not be left empty"
+msgstr "Kan niet leeg worden gelaten"
+
+#: Model/User.php:validation for field email
+msgid "Does not look like an email"
+msgstr "Ziet er niet uit als een e-mail adres"
+
+#: Model/User.php:validation for field email
+msgid ""
+"That email is already in use, maybe you signed up with tha email before?"
+msgstr ""
+"Dat e-mail adres is al in gebruik. Hebt u al eerder aangemeld met dat e-mail "
+"adres?"
+
+#: Model/User.php:validation for field email
+msgid "This email is not allowed. You must use a real email adress."
+msgstr "Dit e-mail adres is niet toegestaan. Gebruik een echt e-mail adres."
+
+#: Model/User.php:validation for field password
+msgid "Must be between 8 and 128 characters long"
+msgstr "Moet tussen de 8 en 128 karakters zijn"
+
+#: Model/User.php:validation for field first_name;validation last_name
+msgid "Must be 2 letters or more."
+msgstr "Moet 2 of meer letters zijn."
+
+#: Model/User.php:validation for field accept_terms
+msgid "You must accept the Terms Of Use!"
+msgstr "U moet onze gebruiksvoorwaarden accepteren!"
+
+#: Model/User.php:validation for field bpp
+msgid "Invalid value type"
+msgstr "Ongeldige type waarde"
