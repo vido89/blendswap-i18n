@@ -4,16 +4,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-08-01 10:47-0600\n"
-"PO-Revision-Date: 2013-11-05 12:18+0100\n"
+"POT-Creation-Date: 2013-11-05 14:02-0600\n"
+"PO-Revision-Date: 2013-11-06 14:13+0100\n"
 "Last-Translator: Benny <Benny@GMX.it>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: nl\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: Model/Blend.php:validation for field title
@@ -160,6 +160,10 @@ msgstr ""
 #: github;validation pinterest;validation behance;validation linkedin
 msgid "This does not look like an URL"
 msgstr "Dit ziet er niet uit als een URL"
+
+#: Model/Profile.php:validation for field description
+msgid "The bio must be between 24 and 1024 characters long"
+msgstr "De bio moet tussen de 24 en 1024 karakters zijn!"
 
 #: Model/Question.php:validation for field body
 msgid "Your question needs a body with details."
