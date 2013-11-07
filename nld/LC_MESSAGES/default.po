@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-11-05 14:02-0600\n"
-"PO-Revision-Date: 2013-11-06 14:21+0100\n"
+"PO-Revision-Date: 2013-11-07 10:54+0100\n"
 "Last-Translator: Benny <Benny@GMX.it>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: nl\n"
@@ -269,7 +269,7 @@ msgstr "Betalend lid"
 
 #: Controller/CollectionsController.php:549
 msgid "Error while creating the collection"
-msgstr "Fout tiidens maken van collectie"
+msgstr "Fout tijdens maken van collectie"
 
 #: Controller/CollectionsController.php:553
 msgid "Sorry, to create more collections you have to be an Associate Member."
