@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-11-05 14:02-0600\n"
-"PO-Revision-Date: 2013-11-08 21:19+0200\n"
+"PO-Revision-Date: 2013-11-11 21:13+0200\n"
 "Last-Translator: Muhammad Khaled <khalidsrri@gmail.com>\n"
 "Language-Team: Blend Swap Translators <khalidsrri@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1558,7 +1558,7 @@ msgstr ""
 #: View/Questions/admin_view.ctp:24 View/Reports/view.ctp:29
 #: View/Requests/admin_view.ctp:29
 msgid "Body"
-msgstr "جسد"
+msgstr "النص"
 
 #: View/Blends/admin_view.ctp:34;245 View/Messages/view.ctp:19
 msgid "Type"
@@ -2008,7 +2008,7 @@ msgstr "فهرس المستخدمين"
 #: View/Elements/frontend_footer.ctp:49
 #: View/Elements/menus/topMenu.ctp:196;198
 msgid "User Badges"
-msgstr "أوسمة المستخد"
+msgstr "أوسمة المستخدم"
 
 #: View/Elements/frontend_footer.ctp:52
 #: View/Elements/menus/topMenu.ctp:146;148;161
@@ -2217,7 +2217,7 @@ msgstr "محاكيات"
 #: View/Elements/placeholder.ctp:32 View/Elements/previewBox.ctp:38
 #: View/Elements/menus/topMenu.ctp:75
 msgid "Staff Picks"
-msgstr "إختيار موظفين"
+msgstr "مختارات مميزة"
 
 #: View/Elements/placeholder.ctp:33
 msgid "Textures"
@@ -2437,7 +2437,7 @@ msgstr "الفهرس الرئيسي للبلند"
 
 #: View/Elements/menus/topMenu.ctp:31;33;36;38;41;43;46;48
 msgid "Only %s Blends"
-msgstr "فقط %s بلدن"
+msgstr "فقط %s بلند"
 
 #: View/Elements/menus/topMenu.ctp:52;57;62
 msgid "Made with Blender %s"
@@ -2473,27 +2473,27 @@ msgstr "مجموعات ظاهر بشكل عام من قبل مستخدمينا"
 
 #: View/Elements/menus/topMenu.ctp:86
 msgid "Durian OMP"
-msgstr ""
+msgstr "مشروع فيلم \" دوريان \""
 
 #: View/Elements/menus/topMenu.ctp:88
 msgid "Durian Open Movie Project."
-msgstr ""
+msgstr "مشروع فيلم \" دوريان \""
 
 #: View/Elements/menus/topMenu.ctp:91
 msgid "HJM Contest"
-msgstr ""
+msgstr "مسابقة HJM"
 
 #: View/Elements/menus/topMenu.ctp:93
 msgid "HJ Media Military Contest"
-msgstr ""
+msgstr "مسابقة HJ Media العسكرية"
 
 #: View/Elements/menus/topMenu.ctp:96
 msgid "Fantasy Contest"
-msgstr ""
+msgstr "مسابقة الخيال"
 
 #: View/Elements/menus/topMenu.ctp:97
 msgid "Fantasy Character Contest"
-msgstr ""
+msgstr "مابقة الشخصيات الخيالية"
 
 #: View/Elements/menus/topMenu.ctp:101;103;138;140;165;167
 msgid "RSS Feed"
@@ -2521,7 +2521,7 @@ msgstr "الفهرس الرئيسي للطلبات"
 
 #: View/Elements/menus/topMenu.ctp:127
 msgid "Open Requests"
-msgstr "فتح طلبات"
+msgstr "الطلبات المفتوحة"
 
 #: View/Elements/menus/topMenu.ctp:129
 msgid "Requests still open to responses"
@@ -2652,7 +2652,7 @@ msgstr "تنبيهات المشرف"
 
 #: View/Elements/navs/usernav.ctp:49
 msgid "Buzz"
-msgstr ""
+msgstr "تراسل"
 
 #: View/Elements/navs/usernav.ctp:61 View/Messages/index.ctp:2
 msgid "Messages"
@@ -2689,7 +2689,7 @@ msgstr "تحرير الألبوم"
 
 #: View/Elements/navs/usernav.ctp:146
 msgid "Account &amp; Settings"
-msgstr "إعدادات &amp; الحساب"
+msgstr "الحساب و الإعدادات"
 
 #: View/Elements/navs/usernav.ctp:155 View/Users/view.ctp:92
 msgid "Manage Membership"
@@ -3355,7 +3355,7 @@ msgstr "تم إضافة بلندي إلى مجموعة عامة"
 
 #: View/Users/edit.ctp:46
 msgid "My blends are added to Staff Picks"
-msgstr "تم إضافة بلندك إلى الأعمال المختار"
+msgstr "تم إضافة بلندي إلى الأعمال المختار"
 
 #: View/Users/edit.ctp:47
 msgid "Another user sends me a message"
@@ -3363,7 +3363,7 @@ msgstr "مستخدم آخر أرسل لي رسالة"
 
 #: View/Users/edit.ctp:48
 msgid "I get a new User Badge"
-msgstr "حصلت على وسام مستخدم جديد"
+msgstr "حصلت على وسام جديد"
 
 #: View/Users/edit.ctp:55
 msgid "More Settings"
