@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-11-05 14:02-0600\n"
-"PO-Revision-Date: 2013-11-11 21:13+0200\n"
+"PO-Revision-Date: 2013-11-14 08:15+0200\n"
 "Last-Translator: Muhammad Khaled <khalidsrri@gmail.com>\n"
 "Language-Team: Blend Swap Translators <khalidsrri@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1891,7 +1891,7 @@ msgstr "تحرير التعليق"
 #: View/Comments/admin_index.ctp:2 View/Elements/placeholder.ctp:59
 #: View/Elements/navs/usernav.ctp:25 View/Feedbacks/admin_index.ctp:2
 msgid "Comments"
-msgstr "تعليقات"
+msgstr "التعليقات"
 
 #: View/Comments/admin_view.ctp:2 View/Feedbacks/admin_view.ctp:2
 msgid "Comment"
@@ -2285,15 +2285,15 @@ msgstr "كانون الأول"
 
 #: View/Elements/placeholder.ctp:56
 msgid "answers"
-msgstr "أجوية"
+msgstr "الإجابات"
 
 #: View/Elements/placeholder.ctp:57
 msgid "comments"
-msgstr "تعليقات"
+msgstr "التعليقات"
 
 #: View/Elements/placeholder.ctp:58
 msgid "Answers"
-msgstr "أجوية"
+msgstr "الإجابات"
 
 #: View/Elements/previewBox.ctp:38
 msgid "This blend is in %s"
@@ -2361,19 +2361,19 @@ msgstr ""
 
 #: View/Elements/bars/request_actions.ctp:7
 msgid "Remove from your work in progress list"
-msgstr "إزالة من عملك في قائمة التحضير"
+msgstr "إزالة من قائمة أعمال قيد الإنجاز"
 
 #: View/Elements/bars/request_actions.ctp:10
 msgid "Cancel WIP"
-msgstr ""
+msgstr "إزالة من قائمة العمل"
 
 #: View/Elements/bars/request_actions.ctp:14
 msgid "Add to your work in progress list"
-msgstr "إزالة إلى عملك في قائمة التحضير"
+msgstr "إضافة إلى قائمة أعمال قيد الإنجاز"
 
 #: View/Elements/bars/request_actions.ctp:17
 msgid "Add to WIP"
-msgstr ""
+msgstr "إضافة إلى قائمة العمل"
 
 #: View/Elements/bars/request_actions.ctp:21
 msgid "Add your Blend Response"
@@ -2401,18 +2401,18 @@ msgstr "إعادة فتح الطلب"
 
 #: View/Elements/bars/request_actions.ctp:88
 msgid "Click here to enable answers for this Request"
-msgstr "إضغط هنا للسماح بالأجوية لهذا الطلب"
+msgstr "إضغط هنا للسماح بالإجابات لهذا الطلب"
 
 #: View/Elements/forms/commentForm.ctp:5
 msgid "Remember to keep your %s cool, harsh %s will be removed"
-msgstr "تذكر أن تبقي %s رائعا , ستتم إزالة %s سيئة"
+msgstr "تذكر أن تبقي %s رائعة , ستتم إزالة %s السيئة"
 
 #: View/Elements/forms/commentForm.ctp:6
 msgid ""
 "%s containing profanity will be queued for moderation. Please report spam."
 msgstr ""
-"%s ستكون في قائمة الإنتظار للإشراف , الرجاء الإبلاغ عن الرسائل الغير مرغوب "
-"فيها"
+"%s التي تحتوي على ألفاظ  نابية ستخضع لمراقبة المشرف , الرجاء الإبلاغ عن "
+"الرسائل الغير مرغوب فيها"
 
 #: View/Elements/forms/commentForm.ctp:19
 msgid "You must log in to leave a comment"
@@ -2493,7 +2493,7 @@ msgstr "مسابقة الخيال"
 
 #: View/Elements/menus/topMenu.ctp:97
 msgid "Fantasy Character Contest"
-msgstr "مابقة الشخصيات الخيالية"
+msgstr "مسابقة الشخصيات الخيالية"
 
 #: View/Elements/menus/topMenu.ctp:101;103;138;140;165;167
 msgid "RSS Feed"
@@ -2570,7 +2570,7 @@ msgstr "أسئلة شائعة"
 
 #: View/Elements/menus/topMenu.ctp:212
 msgid "Frequently asked questions (and answers)"
-msgstr "أسئلة شائعة ( و أجوية )"
+msgstr "أسئلة شائعة و أجوبة"
 
 #: View/Elements/menus/topMenu.ctp:215
 msgid "All Documentation"
