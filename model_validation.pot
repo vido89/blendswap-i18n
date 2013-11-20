@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-11-05 14:02-0600\n"
+"POT-Creation-Date: 2013-11-19 19:35-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -82,6 +82,11 @@ msgstr ""
 #: Model/Request.php:validation for field hello
 #: Model/User.php:validation for field hello
 msgid "empty"
+msgstr ""
+
+#: Model/Blend.php:validation for field fan_art
+#: Model/Report.php:validation for field reason
+msgid "You must choose an option."
 msgstr ""
 
 #: Model/Collection.php:validation for field name
@@ -178,10 +183,6 @@ msgid "Tags help other users to find your question. You must use at least one ta
 msgstr ""
 
 #: Model/Report.php:validation for field reason
-msgid "You must choose an option."
-msgstr ""
-
-#: Model/Report.php:validation for field reason
 msgid "The reason contains invalid characters"
 msgstr ""
 
@@ -207,7 +208,7 @@ msgid "alphanumeric"
 msgstr ""
 
 #: Model/Term.php:validation for field slug
-msgid "isUnique"
+msgid "unique"
 msgstr ""
 
 #: Model/Term.php:validation for field slug
@@ -216,6 +217,10 @@ msgstr ""
 
 #: Model/Term.php:validation for field slug
 msgid "between"
+msgstr ""
+
+#: Model/Termrel.php:validation for field term_id
+msgid "value"
 msgstr ""
 
 #: Model/User.php:validation for field username
@@ -247,7 +252,7 @@ msgid "That email is already in use, maybe you signed up with tha email before?"
 msgstr ""
 
 #: Model/User.php:validation for field email
-msgid "This email is not allowed. You must use a real email adress."
+msgid "This email is not allowed because Blend Swap's automated emails are not received by this domain/server."
 msgstr ""
 
 #: Model/User.php:validation for field password
