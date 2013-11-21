@@ -8,3 +8,4 @@ app/[Cc]onfig/database.php
 *.sublime-workspace
 *~
 *.mo
+debug_kit.pot
