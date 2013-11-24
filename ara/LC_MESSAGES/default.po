@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-11-19 19:35-0600\n"
-"PO-Revision-Date: 2013-11-21 22:46+0200\n"
+"PO-Revision-Date: 2013-11-23 13:22+0200\n"
 "Last-Translator: Muhammad Khaled <khalidsrri@gmail.com>\n"
 "Language-Team: Blend Swap Translators <khalidsrri@gmail.com>\n"
 "Language: Arabic\n"
@@ -162,7 +162,7 @@ msgstr "مجموعة غير صالحة"
 msgid ""
 "Some items were removed from this collection because they are not available "
 "on Blend Swap anymore..."
-msgstr "تم إزالة بعض العناصر من هذه المجموعة لأنه لم تعد موجودة في Blend Swap"
+msgstr "تم إزالة بعض العناصر من هذه المجموعة لأنه لم تعد موجودة في بلند سواب"
 
 #: Controller/CollectionsController.php:280
 msgid "The Collection was saved"
@@ -373,7 +373,7 @@ msgstr ""
 msgid ""
 "Blend Swap recommends you give credit to the blend author, but there is no "
 "obligation to do so"
-msgstr "Blend Swap تنصحك بالإشارة إلى صاحب البلند , لكن ليس هناك ما يُلزم ذلك"
+msgstr "بلند سواب تنصحك بالإشارة إلى صاحب البلند , لكن ليس هناك ما يُلزم ذلك"
 
 #: Controller/DownloadsController.php:300
 #: View/Helper/SingleBlendHelper.php:144
@@ -1147,7 +1147,7 @@ msgstr "أنشأ"
 #: View/Questions/admin_view.ctp:14 View/Reports/view.ctp:14
 #: View/Requests/admin_view.ctp:14;61
 msgid "Modified"
-msgstr "عدل"
+msgstr "التعديل"
 
 #: View/Answers/admin_view.ctp:19 View/Blends/admin_view.ctp:9
 #: View/Comments/admin_view.ctp:69 View/Feedbacks/admin_view.ctp:14
@@ -1164,7 +1164,7 @@ msgstr "طلب"
 #: View/Feedbacks/admin_view.ctp:49 View/Messages/view.ctp:24
 #: View/Requests/admin_view.ctp:34;64 View/Users/bandwidth.ctp:76
 msgid "Status"
-msgstr "حالة"
+msgstr "الحالة"
 
 #: View/Answers/admin_view.ctp:39
 msgid "Edit Response"
@@ -1196,8 +1196,8 @@ msgid ""
 "building the greatest Blender based 3D assets library, all free for personal "
 "and commercial use."
 msgstr ""
-"Blend Swap هو مجتمع للمصممين ليشاركوا في بناء أضخم مكتبة لأعمال بلندر , كل "
-"شيء هنا مجاني للإستخدام الشخصي و الربحي ."
+"بلند سواب هو مجتمع للمصممين ليشاركوا في بناء أضخم مكتبة لأعمال بلندر , كل "
+"شيء هنا مجاني سواءا للإستخدام الشخصي أو الربحي ."
 
 #: View/App/home.ctp:43
 msgid "Joins us now and get instant access!"
@@ -1242,7 +1242,7 @@ msgstr "رسائل , تعليق , تقييم , إعجاب."
 
 #: View/App/home.ctp:71;88
 msgid "Follow Blends, Requests, and Users"
-msgstr "متابعة الأعمال , تقديم طلبات , مستخدمين"
+msgstr "متابعة الأعمال , الطلبات , و المستخدمين"
 
 #: View/App/home.ctp:72
 msgid "Open One Request a Month (Swappers)"
@@ -1262,7 +1262,7 @@ msgstr "الإشتراك 10$-شهريا أو 80$-سنويا"
 
 #: View/App/home.ctp:84
 msgid "Download all the assets you want!"
-msgstr "تحميل جميع الأعمال التي تريدها"
+msgstr "حمل جميع الأعمال التي ترغب بها!"
 
 #: View/App/home.ctp:86
 msgid "Unlimited & Private Blend Collections"
@@ -1274,7 +1274,7 @@ msgstr "رسائل , تعليق , تقييم , إعجاب"
 
 #: View/App/home.ctp:89
 msgid "Lightboxed full size previews"
-msgstr ""
+msgstr "معاينة مستقلة بحجم كامل"
 
 #: View/App/home.ctp:90
 msgid "Open Unlimited Blend Requests"
@@ -1290,11 +1290,11 @@ msgstr "معرض الأعمال"
 
 #: View/App/home.ctp:93
 msgid "Associate Badge in comments"
-msgstr "وسام المشاركة في التعليقات"
+msgstr "ظهور وسام العضوية المشتركة في التعليقات"
 
 #: View/App/home.ctp:94
 msgid "For Hire Badge in profile and comments"
-msgstr "وسام جاهز للعمل في الملف الشخصي و التعليقات"
+msgstr "ظهور وسام جاهز للعمل في الملف الشخصي و التعليقات"
 
 #: View/App/home.ctp:95
 msgid "Advanced blend and profile stats"
@@ -1306,7 +1306,7 @@ msgstr "ربط المزيد من مواقع التواصل الإجتماعي"
 
 #: View/App/home.ctp:97
 msgid "Up to 60 blends per page"
-msgstr "حتى 10 بلندات في الصفحة"
+msgstr "إظهار حتى 60 بلند في الصفحة"
 
 #: View/App/home.ctp:105 View/Elements/menus/topMenu.ctp:342
 msgid "Register Now"
@@ -1797,7 +1797,7 @@ msgstr "حفظ التغييرات"
 #: View/Blends/index.ctp:6 View/Blends/search.ctp:9 View/Blends/user.ctp:8
 #: View/Requests/index.ctp:7
 msgid "Edit Date"
-msgstr "تحرير التاريخ"
+msgstr "تاريخ التحرير"
 
 #: View/Blends/index.ctp:20
 msgid ""
@@ -1934,7 +1934,7 @@ msgstr "آخر البلندات"
 
 #: View/Blends/rss/index.ctp:5 View/Blends/rss/staffpicks.ctp:5
 msgid "Most recent blends on Blend Swap."
-msgstr "أحدث البلندات في Blend Swap"
+msgstr "أحدث البلندات في بلند سواب"
 
 #: View/Blends/rss/staffpicks.ctp:3
 msgid "Newest Staff Picks"
@@ -2081,7 +2081,7 @@ msgstr "فهرس المستخدمين"
 #: View/Elements/frontend_footer.ctp:49
 #: View/Elements/menus/topMenu.ctp:196;198
 msgid "User Badges"
-msgstr "أوسمة المستخدم"
+msgstr "أوسمة المستخدمين"
 
 #: View/Elements/frontend_footer.ctp:52
 #: View/Elements/menus/topMenu.ctp:146;148;161
@@ -2645,8 +2645,7 @@ msgstr "قم بالترقية الآن!"
 msgid ""
 "Become an Associate Member today and enjoy more features and enhancements on "
 "Blend Swap!"
-msgstr ""
-"كن عضوا منتسبا اليوم و تمتع بمزيد من المزايا و التحسينات في Blend Swap !"
+msgstr "كن عضوا منتسبا اليوم و تمتع بمزيد من المزايا و التحسينات في بلند سواب"
 
 #: View/Elements/menus/topMenu.ctp:271;273 View/Elements/navs/usernav.ctp:80
 msgid "My Blends"
@@ -2945,7 +2944,7 @@ msgstr "المتبقي"
 
 #: View/Limits/admin_view.ctp:34 View/Users/bandwidth.ctp:25
 msgid "Spent"
-msgstr "أمضى"
+msgstr "استُهلك"
 
 #: View/Limits/admin_view.ctp:45
 msgid "Delete Limit"
@@ -2987,7 +2986,7 @@ msgstr "أخر الأخبار"
 
 #: View/News/rss/index.ctp:5
 msgid "Blend Swap Site news and updates."
-msgstr "تحديثات Blend Swap"
+msgstr "تحديثاث بلند سواب"
 
 #: View/Options/admin_add.ctp:4
 msgid "Add Option"
@@ -3138,7 +3137,7 @@ msgid ""
 "This is not meant to be used for Blend Swap support, we have forms "
 "specifically for %s and %s"
 msgstr ""
-"هذا لا يعني إستخدامها في الأسئلة المتعلقة بالدعم الفني لموقع Blend Swap , "
+"هذا لا يعني إستخدامها في الأسئلة المتعلقة بالدعم الفني لموقع بلند سواب , "
 "لدينا إستمارة متخصصة ل%s و %s "
 
 #: View/Questions/add.ctp:10
@@ -3193,11 +3192,11 @@ msgstr "جواب"
 
 #: View/Questions/rss/index.ctp:3
 msgid "Blend Swap Questions"
-msgstr "أسئلة Blend Swap"
+msgstr "أسئلة بلند سواب"
 
 #: View/Questions/rss/index.ctp:5
 msgid "Most recent questions on Blend Swap."
-msgstr "أحدث الأسئلة في Blend Swap"
+msgstr "أحدث الأسئلة في بلند سواب"
 
 #: View/Reports/__add.ctp:4
 msgid "Add Report"
@@ -3318,7 +3317,7 @@ msgstr "أحدث الطلبات"
 
 #: View/Requests/rss/index.ctp:5
 msgid "Most recent requests on Blend Swap."
-msgstr "أحدث الطلبات في Blend Swap"
+msgstr "أحدث الطلبات في بلند سواب"
 
 #: View/Users/account.ctp:4 View/Users/admin_view.ctp:231
 msgid "Edit User"
@@ -3378,7 +3377,7 @@ msgstr "هل هذا خطأ ؟"
 
 #: View/Users/bandwidth.ctp:52
 msgid "Fix it"
-msgstr "أصلحه"
+msgstr "إصلاح"
 
 #: View/Users/bandwidth.ctp:62
 msgid "Download History for current month"
@@ -3445,7 +3444,7 @@ msgstr "تم إضافة بلندي إلى مجموعة عامة"
 
 #: View/Users/edit.ctp:50
 msgid "My blends are added to Staff Picks"
-msgstr "تم إضافة بلندي إلى الأعمال المختار"
+msgstr "تم إضافة بلندي إلى الأعمال المميزة"
 
 #: View/Users/edit.ctp:51
 msgid "Another user sends me a message"
@@ -3465,7 +3464,7 @@ msgstr "اللغة المفضلة"
 
 #: View/Users/edit.ctp:107
 msgid "Would you like to help translating Blend Swap to your language?"
-msgstr "هل تريد المساعدة في ترجمة Blend Swap إلى لغتك ؟؟"
+msgstr "هل تريد المساعدة في ترجمة بلند سواب إلى لغتك ؟؟"
 
 #: View/Users/edit.ctp:108
 msgid "We have set up a %s to let you do exactly that. Fork us and help now!"
