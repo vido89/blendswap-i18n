@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-12-04 19:50-0600\n"
-"PO-Revision-Date: 2013-12-04 20:02-0600\n"
+"PO-Revision-Date: 2013-12-09 11:27-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: es_ES\n"
@@ -59,7 +59,7 @@ msgstr "La medalla no fue eliminada"
 #: Controller/BlendsController.php:131 View/Elements/placeholder.ctp:32
 #: View/Elements/menus/topMenu.ctp:101
 msgid "Staff Picks"
-msgstr "Selecciones del Staff"
+msgstr "Selecciones del Equipo"
 
 #: Controller/BlendsController.php:209;219;979;1003;1032
 msgid "Invalid blend"
@@ -1987,7 +1987,7 @@ msgstr "Blends más recientes en Blend Swap"
 
 #: View/Blends/rss/staffpicks.ctp:4
 msgid "Newest Staff Picked Blends"
-msgstr "Selecciones del Staff Reciente"
+msgstr "Selecciones del Equipo Reciente"
 
 #: View/Chats/add.ctp:4
 msgid "Add Chat"
@@ -2067,7 +2067,7 @@ msgstr "carga los archivos faltantes por favor"
 
 #: View/Elements/blend_status.ctp:12
 msgid "Trusted Uploader"
-msgstr "Confiamos en tí"
+msgstr "Cargador fiado"
 
 #: View/Elements/commentList.ctp:11
 msgid "No %s yet, leave yours!"
@@ -3560,7 +3560,7 @@ msgstr "Mis blends son añadidos a una colección"
 
 #: View/Users/edit.ctp:74
 msgid "My blends are added to Staff Picks"
-msgstr "Mis blends son añadidos a las Selecciones del Staff"
+msgstr "Mis blends son añadidos a las Selecciones del Equipo"
 
 #: View/Users/edit.ctp:75
 msgid "Another user sends me a message"
