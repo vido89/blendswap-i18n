@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-08-01 10:47-0600\n"
-"PO-Revision-Date: 2013-09-20 18:41+0100\n"
+"POT-Creation-Date: 2013-12-04 19:50-0600\n"
+"PO-Revision-Date: 2013-12-08 20:42+0100\n"
 "Last-Translator: Thomas Lyduch <mechatronik32@gmail.com>\n"
 "Language-Team: Blend Swap Translators <ttomek32@gmail.com>\n"
 "Language: pl_PL\n"
@@ -88,6 +88,11 @@ msgstr "Proszę powiedzieć nam, co zmieniłeś w pliku lub w danych?"
 msgid "empty"
 msgstr "pusty"
 
+#: Model/Blend.php:validation for field fan_art Model/Report.php:validation
+#: reason
+msgid "You must choose an option."
+msgstr "Musisz wybrać jedną z opcji."
+
 #: Model/Collection.php:validation for field name
 msgid "The collection Must have a name"
 msgstr "Kolekcja musi mieć nazwę"
@@ -162,6 +167,10 @@ msgstr "allowedStatuses"
 msgid "This does not look like an URL"
 msgstr "To nie wygląda jak adres URL"
 
+#: Model/Profile.php:validation for field description
+msgid "The bio must be between 24 and 1024 characters long"
+msgstr "Biografia musi mieć od 24 do 1024 znaków!"
+
 #: Model/Question.php:validation for field body
 msgid "Your question needs a body with details."
 msgstr "Twoje pytanie potrzebuje danych ze szczegółami."
@@ -184,10 +193,6 @@ msgid ""
 msgstr ""
 "Tagi pomogą innym użytkownikom znaleźć twoje pytanie. Należy użyć co "
 "najmniej jednego."
-
-#: Model/Report.php:validation for field reason
-msgid "You must choose an option."
-msgstr "Musisz wybrać jedną z opcji."
 
 #: Model/Report.php:validation for field reason
 msgid "The reason contains invalid characters"
@@ -220,8 +225,8 @@ msgid "alphanumeric"
 msgstr "alphanumeric"
 
 #: Model/Term.php:validation for field slug
-msgid "isUnique"
-msgstr "isUnique"
+msgid "unique"
+msgstr "wyjątkowy"
 
 #: Model/Term.php:validation for field slug
 msgid "validChars"
@@ -230,6 +235,10 @@ msgstr "validChars"
 #: Model/Term.php:validation for field slug
 msgid "between"
 msgstr "między"
+
+#: Model/Termrel.php:validation for field term_id
+msgid "value"
+msgstr "wartość"
 
 #: Model/User.php:validation for field username
 msgid "Only letters and numbers please."
@@ -261,8 +270,13 @@ msgid ""
 msgstr "Ten email jest już w użyciu, może masz tu konto ?"
 
 #: Model/User.php:validation for field email
-msgid "This email is not allowed. You must use a real email adress."
-msgstr "Ten e-mail jest niedozwolony. Musisz użyć prawdziwego adresu email."
+msgid ""
+"This email is not allowed because Blend Swap's automated emails are not "
+"received by this domain/server."
+msgstr ""
+"Ten email nie jest zezwolony przez Blend Swap (Chodzi o to, że poczta "
+"odrzuca email'e bo taktuje je jako złośliwy spam. Prawdopodobnie adres "
+"należy do domeny wp.pl lub o2.pl)"
 
 #: Model/User.php:validation for field password
 msgid "Must be between 8 and 128 characters long"
@@ -279,6 +293,9 @@ msgstr "Musisz zaakceptować warunki użytkowania!"
 #: Model/User.php:validation for field bpp
 msgid "Invalid value type"
 msgstr "Nieprawidłowy typ wartości"
+
+#~ msgid "This email is not allowed. You must use a real email adress."
+#~ msgstr "Ten e-mail jest niedozwolony. Musisz użyć prawdziwego adresu email."
 
 #~ msgid "Wrong email..."
 #~ msgstr "Błędny adres email ..."
