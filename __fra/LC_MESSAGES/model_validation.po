@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2013-12-11 17:17-0600\n"
-"PO-Revision-Date: 2013-12-13 11:32+0100\n"
+"PO-Revision-Date: 2013-12-13 16:05+0100\n"
 "Last-Translator: Pyrophorus <l.sebilleauATfree.fr>\n"
 "Language-Team: Blend Swap Translators\n"
 "Language: French\n"
@@ -24,7 +24,7 @@ msgstr "Votre blend doit avoir un nom !"
 #: Model/Blend.php:validation
 #: for field title
 msgid "The Blend Name must be between 2 and 140 chars long!"
-msgstr "Le nom de votre blend doit avoir entre 2 et 140 caractères"
+msgstr "Le nom de votre blend doit avoir entre 2 et 140 caractères !"
 
 #: Model/Blend.php:validation
 #: for field body
@@ -34,7 +34,7 @@ msgstr "Votre blend doit avoir une description !"
 #: Model/Blend.php:validation
 #: for field body
 msgid "The description must be between 40 and 5000 chars long!"
-msgstr "La description doit avoir entre 40 et 5000 caractères"
+msgstr "La description doit avoir entre 40 et 5000 caractères !"
 
 #: Model/Blend.php:validation
 #: for field three_dee
@@ -49,7 +49,7 @@ msgstr "Ceci n'est pas un viewer supporté."
 #: Model/Blend.php:validation
 #: for field blend_license
 msgid "Please choose a license for your blend."
-msgstr "Merci de sélectionner une licence pour votre blend"
+msgstr "Veuillez sélectionner une licence pour votre blend."
 
 #: Model/Blend.php:validation
 #: for field blend_license
@@ -59,7 +59,7 @@ msgstr "La valeur renseignée pour la licence du blend est invalide !"
 #: Model/Blend.php:validation
 #: for field blender_version
 msgid "Please choose the version of blender you used to make this blend."
-msgstr "Merci de sélectionner la version de Blender avec laquelle vous avez fait ce blend."
+msgstr "Veuillez sélectionner la version de Blender avec laquelle vous avez réalisé ce blend."
 
 #: Model/Blend.php:validation
 #: for field blender_version
@@ -69,19 +69,19 @@ msgstr "Valeur incorrecte pour la version de Blender"
 #: Model/Blend.php:validation
 #: for field tags
 msgid "Tags help others find your blend. Use at least one tag and don't forget the commas!"
-msgstr "Les tags facilitent la recherche de blend. Utiliser au moins tag et n'oubliez pas les virgules"
+msgstr "Les tags (mots-clefs) facilitent la recherche des blends. Veuillez utiliser au moins un tag et n'oubliez pas les virgules entre les tags !"
 
 #: Model/Blend.php:validation
 #: for field tags
 msgid "Those are not tags, write valid, comma separated tags!"
-msgstr "Tags invalides, une virgule doit séparer les tags !"
+msgstr "Ces tags sont invalides, une virgule doit séparer les tags !"
 
 #: Model/Blend.php:validation
 #: for field categories
 #: Model/Request.php:validation
 #: requirements
 msgid "Pick one to four categories."
-msgstr "Choisir de une à quatre catégories"
+msgstr "Choisir une à quatre catégories"
 
 #: Model/Blend.php:validation
 #: for field categories
@@ -91,7 +91,7 @@ msgstr "Taxonomie (nom de catégorie) invalide."
 #: Model/Blend.php:validation
 #: for field change_log
 msgid "Please tell us what you changed in the data or the files."
-msgstr "Merci de nous signaler ce qui a été modifié parmis les données ou les fichiers."
+msgstr "Merci de nous signaler ce qui a été modifié parmi les données ou les fichiers."
 
 #: Model/Blend.php:validation
 #: for field hello Model/Message.php:validation
@@ -111,22 +111,22 @@ msgstr "Vous devez choisir une option."
 #: Model/Collection.php:validation
 #: for field name
 msgid "The collection Must have a name"
-msgstr "Le groupement doit être nommé"
+msgstr "La collection doit porter un nom"
 
 #: Model/Collection.php:validation
 #: for field visibility
 msgid "Choose a visibility setting"
-msgstr "Paramètrer la visiblité"
+msgstr "Veuillez choisir une option de visibilité"
 
 #: Model/Collection.php:validation
 #: for field visibility
 msgid "Invalid visibility value!!!"
-msgstr "Paramètres de visibilité invalide !"
+msgstr "Option de visibilité invalide !"
 
 #: Model/Comment.php:validation
 #: for field body
 msgid "The comment cannot be empty!"
-msgstr "Un commentaire ne peut être vide !"
+msgstr "Le commentaire ne peut être vide !"
 
 #: Model/Comment.php:validation
 #: for field user_id;validation
@@ -138,7 +138,7 @@ msgstr "numérique"
 #: for field name;validation email;validation
 #: body
 msgid "This field is required."
-msgstr "Ce champ est requis."
+msgstr "Ce champ est obligatoire."
 
 #: Model/Contact.php:validation
 #: for field name
@@ -148,7 +148,7 @@ msgstr "Ce champ contient des caractères invalides..."
 #: Model/Contact.php:validation
 #: for field email
 msgid "This doesn't look like an email..."
-msgstr "Cela ne semble pas être une adresse mail..."
+msgstr "Cela ne ressemble pas à une adresse mail..."
 
 #: Model/Contact.php:validation
 #: for field subject
@@ -163,32 +163,32 @@ msgstr "Une erreur est intervenue, essayez à nouveau."
 #: Model/Contact.php:validation
 #: for field website
 msgid "This is not a url"
-msgstr "Ce n'est pas une url"
+msgstr "Ceci n'est pas une url"
 
 #: Model/Email.php:validation
 #: for field name
 msgid "this email must have a name"
-msgstr "ce mail doit être nommé"
+msgstr "cet email doit être nommé"
 
 #: Model/Email.php:validation
 #: for field pointer
 msgid "emails must have a call key so they can be called from inside the app."
-msgstr "Les adresses mail "
+msgstr "Les adresses email doivent avoir un identifiant pour pouvoir être utilisées dans l'appplication. "
 
 #: Model/Email.php:validation
 #: for field pointer
 msgid "Only letters and underscores are allowed"
-msgstr "Seuls les lettres et les underscores sont autorisés"
+msgstr "Seuls les lettres et les underscores(tiret bas) sont autorisés"
 
 #: Model/Message.php:validation
 #: for field body
 msgid "Empty messages are not allowed."
-msgstr "Un message vide n'est pas valide."
+msgstr "Les messages vides ne sont pas autorisés."
 
 #: Model/Message.php:validation
 #: for field status
 msgid "allowedStatuses"
-msgstr "Status permis"
+msgstr "Statuts autorisés"
 
 #: Model/Profile.php:validation
 #: for field website;validation
@@ -196,12 +196,12 @@ msgstr "Status permis"
 #: facebook;validation youtube;validation vimeo;validation twitter;validation
 #: github;validation pinterest;validation behance;validation linkedin
 msgid "This does not look like an URL"
-msgstr "Cela ne semble pas être une URL"
+msgstr "Cela ne ressemble pas à une URL"
 
 #: Model/Profile.php:validation
 #: for field description
 msgid "The bio must be between 24 and 1024 characters long"
-msgstr "Le pseudo doit avoir entre 24 et 1024 caractères de long !"
+msgstr "La biographie doit avoir entre 24 et 1024 caractères de long !"
 
 #: Model/Question.php:validation
 #: for field body
@@ -211,7 +211,7 @@ msgstr "Votre question a besoin d'un contenu détaillé."
 #: Model/Question.php:validation
 #: for field body
 msgid "Your question body must be between 40 and 2000 characters long."
-msgstr "Votre question doit avoir entre 40 et 2000 caractères."
+msgstr "Votre question doit avoir entre 40 et 2000 caractères de long."
 
 #: Model/Question.php:validation
 #: for field title
@@ -221,17 +221,17 @@ msgstr "Votre question doit avoir un titre."
 #: Model/Question.php:validation
 #: for field title
 msgid "Your question title must be between 10 and 256 characters long."
-msgstr "Le titre de votre question doit avoir entre 10  et 256 caractères."
+msgstr "Le titre de votre question doit avoir entre 10  et 256 caractères de long."
 
 #: Model/Question.php:validation
 #: for field tags
 msgid "Tags help other users to find your question. You must use at least one tag."
-msgstr "Les tags facilitent la recherche de question. Vous devez en rpéciser au moins un."
+msgstr "Les tags facilitent la recherche des questions. Vous devez en préciser au moins un."
 
 #: Model/Report.php:validation
 #: for field reason
 msgid "The reason contains invalid characters"
-msgstr "La raison contient des caractères invalides"
+msgstr "Le motif contient des caractères invalides"
 
 #: Model/Report.php:validation
 #: for field body
@@ -241,12 +241,12 @@ msgstr "Vous devez nous fournir des liens et/ou des précisions pour que nous pu
 #: Model/Request.php:validation
 #: for field title
 msgid "Your request must have a title"
-msgstr "Votre demande doit avoir un titre"
+msgstr "Votre requête doit avoir un titre"
 
 #: Model/Request.php:validation
 #: for field body
 msgid "You must provide notes and details about the request."
-msgstr "Vous devez fournir des précisions à propos de votre demande."
+msgstr "Vous devez fournir des précisions à propos de votre requête."
 
 #: Model/Revision.php:validation
 #: for field user_id;validation
@@ -284,7 +284,7 @@ msgstr "valeur"
 #: Model/User.php:validation
 #: for field username
 msgid "Only letters and numbers please."
-msgstr "Uniquement des lettres ou chiffres."
+msgstr "Uniquement des lettres ou des chiffres."
 
 #: Model/User.php:validation
 #: for field username
@@ -309,7 +309,7 @@ msgstr "Ne peut pas être laissé vide"
 #: Model/User.php:validation
 #: for field email
 msgid "Does not look like an email"
-msgstr "Cela ne semble pas être une adresse mail"
+msgstr "Cela ne ressemble pas à une adresse mail"
 
 #: Model/User.php:validation
 #: for field email
@@ -324,7 +324,7 @@ msgstr "Cet email est inutilisable car le serveur associé n'accepte pas les ema
 #: Model/User.php:validation
 #: for field password
 msgid "Must be between 8 and 128 characters long"
-msgstr "Doit faire entre 8 et 128 caractères"
+msgstr "Doit faire entre 8 et 128 caractères de long"
 
 #: Model/User.php:validation
 #: for field first_name;validation last_name
