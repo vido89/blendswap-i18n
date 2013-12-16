@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-12-04 19:50-0600\n"
-"PO-Revision-Date: 2013-12-08 10:58+0200\n"
+"POT-Creation-Date: 2013-12-11 17:17-0600\n"
+"PO-Revision-Date: 2013-12-14 07:26+0200\n"
 "Last-Translator: Muhammad Khaled <khalidsrri@gmail.com>\n"
 "Language-Team: Blend Swap Translators <khalidsrri@gmail.com>\n"
 "Language: Arabic\n"
@@ -57,16 +57,16 @@ msgstr "تم حذف الوسام"
 msgid "Badge was not deleted"
 msgstr "لم يتم حذف الوسام"
 
-#: Controller/BlendsController.php:131 View/Elements/placeholder.ctp:32
-#: View/Elements/menus/topMenu.ctp:101
+#: Controller/BlendsController.php:128 View/Elements/placeholder.ctp:32
+#: View/Elements/menus/topMenu.ctp:107
 msgid "Staff Picks"
 msgstr "مختارات مميزة"
 
-#: Controller/BlendsController.php:209;219;979;1003;1032
+#: Controller/BlendsController.php:194;215;971;995;1024
 msgid "Invalid blend"
 msgstr "بلند غير صالح"
 
-#: Controller/BlendsController.php:375
+#: Controller/BlendsController.php:368
 msgid ""
 "We are preparing to update the site's back end software, so we have disabled "
 "uploads for now. Sorry for the inconvenience."
@@ -74,7 +74,7 @@ msgstr ""
 "إننا نقوم بتحديثات النهائية للموقع , لذلك فقد أوقفنا عملية الرفع حاليا . "
 "نأسف للإزعاج"
 
-#: Controller/BlendsController.php:428
+#: Controller/BlendsController.php:421
 msgid ""
 "The blend was not saved, please review any omissions below and try again. "
 "And do not forget to re-select your files"
@@ -82,39 +82,39 @@ msgstr ""
 "لم يتم حفظ البلند , الرجاء التأكد من الأخطاء بالأسفل و إعادة المحاولة , لا "
 "تنسى إعادة إختيار الملفات ."
 
-#: Controller/BlendsController.php:471
+#: Controller/BlendsController.php:464
 msgid "The requested blend does not exist."
 msgstr "البلند المطلوب غير موجود ."
 
-#: Controller/BlendsController.php:490
+#: Controller/BlendsController.php:483
 msgid "The new blend data was saved successfully"
 msgstr "تم حفظ بيانات البلند بنجاح"
 
-#: Controller/BlendsController.php:492
+#: Controller/BlendsController.php:485
 msgid "The blend was saved, but its categories and tags failed to save"
 msgstr "تم حفظ البلند , لكن فشل حفظ فئاته و علاماته"
 
-#: Controller/BlendsController.php:495
+#: Controller/BlendsController.php:488
 msgid "The blend was not saved, please try again."
 msgstr "لم يتم حفظ البلند , الرجاء المحاولة مرة اخرى"
 
-#: Controller/BlendsController.php:1007
+#: Controller/BlendsController.php:999
 msgid "The blend has been saved"
 msgstr "تم حفظ البلند"
 
-#: Controller/BlendsController.php:1011
+#: Controller/BlendsController.php:1003
 msgid "The blend could not be saved. Please, try again."
 msgstr "لا يمكن حفظ البلند , الرجاء المحاولة لاحقا ."
 
-#: Controller/BlendsController.php:1035
+#: Controller/BlendsController.php:1027
 msgid "Blend deleted"
 msgstr "تم حذف البلند"
 
-#: Controller/BlendsController.php:1038
+#: Controller/BlendsController.php:1030
 msgid "Blend was not deleted"
 msgstr "لم يتم حفظ البلند"
 
-#: Controller/BlendsController.php:1058
+#: Controller/BlendsController.php:1050
 msgid ""
 "The blend was removed from all lists. We will preserve copy of all the data "
 "for archival purposes."
@@ -122,7 +122,7 @@ msgstr ""
 "تمت إزالة البلند من جميع القوائم , سنحتفظ بنسخة من جميع البيانات لأغراض "
 "الأرشفة"
 
-#: Controller/BlendsController.php:1061
+#: Controller/BlendsController.php:1053
 msgid ""
 "There was an error while removing the blend from all listings, please try "
 "again and report if this error repeats."
@@ -130,7 +130,7 @@ msgstr ""
 "هناك خطأ أثناء إزالة البلند من جميع القوائم , الرجاء المحاولة لاحقا و "
 "الإبلاغ إذا تكرر الخطأ"
 
-#: Controller/BlendsController.php:1064
+#: Controller/BlendsController.php:1056
 msgid ""
 "This blend is published! Only an admin can take it down, please get in touch "
 "with the site admins to let them know why you want this blend taken down."
@@ -239,7 +239,7 @@ msgstr "إظهار للعامة"
 msgid "You have a %s, to create more Collections you'll have to become an "
 msgstr "لديك %s , لإضافة المزيد من المجموعات يجب أن تصبح"
 
-#: Controller/CollectionsController.php:483 View/App/home.ctp:61
+#: Controller/CollectionsController.php:483 View/App/home.ctp:57
 #: View/Elements/placeholder.ctp:66
 msgid "Free Account"
 msgstr "حساب مجاني"
@@ -269,7 +269,7 @@ msgstr "رقم البلند غير صالح"
 msgid "To create new collection you have to purchase a paid membership."
 msgstr "لتتمكن من إنشاء مجموعة جديدة عليك شراء عضوية مشتركة"
 
-#: Controller/CommentsController.php:51
+#: Controller/CommentsController.php:52
 msgid ""
 "Your comment contains known profanity, we will moderate it. Be careful how "
 "to talk to our users..."
@@ -277,27 +277,27 @@ msgstr ""
 "تعليقك يحتوي على ألفاظ نابية , سنتدبر الأمر , إنتبه لكيفية التحدث مع "
 "المستخدمين الأخرين..."
 
-#: Controller/CommentsController.php:55
+#: Controller/CommentsController.php:56
 msgid "The comment was not saved to the database, something went wrong..."
 msgstr "لم يتم حفظ التعليق في قاعدة البيانات , يوجد خطأ ما ..."
 
-#: Controller/CommentsController.php:134;148;174;249
+#: Controller/CommentsController.php:164;178;204;279
 msgid "Invalid comment"
 msgstr "تعليق غير صالح"
 
-#: Controller/CommentsController.php:154;215
+#: Controller/CommentsController.php:184;245
 msgid "The comment has been saved"
 msgstr "تم حفظ التعليق"
 
-#: Controller/CommentsController.php:157;218
+#: Controller/CommentsController.php:187;248
 msgid "The comment could not be saved. Please, try again."
 msgstr "لم يتم حفظ التعليق  , الرجاء المحاولة مرة اخرى"
 
-#: Controller/CommentsController.php:252
+#: Controller/CommentsController.php:282
 msgid "Comment deleted"
 msgstr "تم حذف التعليق"
 
-#: Controller/CommentsController.php:255
+#: Controller/CommentsController.php:285
 msgid "Comment was not deleted"
 msgstr "لم يتم حذف التعليق"
 
@@ -364,60 +364,60 @@ msgstr "نعم , إبدأ التحميل الآن"
 msgid "Cancel download"
 msgstr "إلغاء التحميل"
 
-#: Controller/DownloadsController.php:108 View/Blends/edit.ctp:106
+#: Controller/DownloadsController.php:108 View/Blends/edit.ctp:119
 msgid "Cancel"
 msgstr "إلغاء"
 
-#: Controller/DownloadsController.php:256;257
+#: Controller/DownloadsController.php:255;256
 msgid "Creative Commons Public Domain Mark 1.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:258
+#: Controller/DownloadsController.php:257
 msgid "which has no requirements:"
 msgstr "التي لا يوجد لها متطلبات :"
 
-#: Controller/DownloadsController.php:261;262
+#: Controller/DownloadsController.php:260;261
 msgid "Creative Commons Attribution 3.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:263;268;273;278
+#: Controller/DownloadsController.php:262;267;272;277
 msgid "which has the following requirements:"
 msgstr "و بالتالي يتطلب منك:"
 
-#: Controller/DownloadsController.php:266;267
+#: Controller/DownloadsController.php:265;266
 msgid "Creative Commons Attribution-ShareAlike 3.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:271;272
+#: Controller/DownloadsController.php:270;271
 msgid "Creative Commons Attribution-NonCommercial 3.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:276;277
+#: Controller/DownloadsController.php:275;276
 msgid "Creative Commons Attribution-NonCommercial-ShareAlike 3.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:291
+#: Controller/DownloadsController.php:290
 msgid ""
 "Blend Swap recommends you give credit to the blend author, but there is no "
 "obligation to do so"
 msgstr "بلند سواب تنصحك بالإشارة إلى صاحب البلند , لكن ليس هناك ما يُلزم ذلك"
 
-#: Controller/DownloadsController.php:294
+#: Controller/DownloadsController.php:293
 #: View/Helper/SingleBlendHelper.php:149
 msgid "You must give credit to the author of this blend"
 msgstr "يجب الإشارة إلى صاحب هذا البلند"
 
-#: Controller/DownloadsController.php:297
+#: Controller/DownloadsController.php:296
 #: View/Helper/SingleBlendHelper.php:152
 msgid "You can not use this blend commercially under any circumstance"
 msgstr "لا يجوز إستخدام البلند تجاريا تحت أي ظرف من الظروف"
 
-#: Controller/DownloadsController.php:300
+#: Controller/DownloadsController.php:299
 #: View/Helper/SingleBlendHelper.php:155
 msgid "You must distribute any derivative works under the same license"
 msgstr "يجب أن تنشر أي أعمال مشتقة تحت نفس الترخيص"
 
-#: Controller/DownloadsController.php:305
+#: Controller/DownloadsController.php:304
 msgid "What's the deal with all this \"giving credits\" thing?"
 msgstr "كيف أتعامل مع \"إعطاء إشارة\" ؟"
 
@@ -599,15 +599,15 @@ msgstr "تم حذف الصفحة"
 msgid "Page was not deleted"
 msgstr "لم يتم حذف الصفحة"
 
-#: Controller/PaymentsController.php:60;321
+#: Controller/PaymentsController.php:60;322
 msgid "Invalid payment"
 msgstr "دفعة غير صالحة"
 
-#: Controller/PaymentsController.php:324
+#: Controller/PaymentsController.php:325
 msgid "Payment deleted"
 msgstr "تم حذف الدفعة"
 
-#: Controller/PaymentsController.php:327
+#: Controller/PaymentsController.php:328
 msgid "Payment was not deleted"
 msgstr "لم يتم حذف الدفعة"
 
@@ -812,7 +812,7 @@ msgid "Looks like you're trying to follow yourself, but that's not allowed."
 msgstr "يبدو أنك تحاول متابعة نفسك , لكن هذا غير مسموح"
 
 #: Controller/TermsController.php:43 View/Blends/edit.ctp:42
-#: View/Elements/menus/topMenu.ctp:96 View/Elements/navs/taxonomies.ctp:4
+#: View/Elements/menus/topMenu.ctp:102 View/Elements/navs/taxonomies.ctp:4
 msgid "Categories"
 msgstr "الفئات"
 
@@ -1083,7 +1083,7 @@ msgstr "حذف"
 msgid "Are you sure you want to delete # %s?"
 msgstr "هل أنت متأكد من أنك تريد حذف # %s ؟"
 
-#: View/Answers/admin_index.ctp:2 View/Requests/view.ctp:51
+#: View/Answers/admin_index.ctp:2 View/Requests/view.ctp:52
 msgid "Responses"
 msgstr "الإستجابات"
 
@@ -1216,7 +1216,7 @@ msgstr "طلب"
 #: View/Answers/admin_view.ctp:29 View/Blends/admin_view.ctp:29;151
 #: View/Blends/media.ctp:28 View/Comments/admin_view.ctp:49
 #: View/Feedbacks/admin_view.ctp:49 View/Messages/view.ctp:24
-#: View/Requests/admin_view.ctp:34;64 View/Users/bandwidth.ctp:76
+#: View/Requests/admin_view.ctp:34;64 View/Users/bandwidth.ctp:78
 msgid "Status"
 msgstr "الحالة"
 
@@ -1261,108 +1261,108 @@ msgstr "إنضم لنا الآن لتتمكن من الوصول فورا للم�
 msgid "Check out the features"
 msgstr "تحقق من الميزات"
 
-#: View/App/home.ctp:50 View/Users/m_login.ctp:15
+#: View/App/home.ctp:49 View/Users/m_login.ctp:15
 msgid "Register now"
 msgstr "سجل الآن"
 
-#: View/App/home.ctp:53 View/Elements/frontend_footer.ctp:103
+#: View/App/home.ctp:50 View/Elements/frontend_footer.ctp:103
 #: View/Pages/welcome.ctp:134 View/Users/login.ctp:1
 msgid "Log in"
 msgstr "تسجيل الدخول"
 
-#: View/App/home.ctp:63
+#: View/App/home.ctp:59
 msgid "Quick limited access for everybody."
 msgstr "وصول محدود سريع للجميع"
 
-#: View/App/home.ctp:66
+#: View/App/home.ctp:62
 msgid "Free forever"
 msgstr "مجاني للأبد"
 
-#: View/App/home.ctp:67
+#: View/App/home.ctp:63
 msgid "Download 200 Megabytes a month"
 msgstr "تحميل 200 ميغابايت شهريا"
 
-#: View/App/home.ctp:68;85
+#: View/App/home.ctp:64;81
 msgid "Upload your original creations any time"
 msgstr "قم برفع أعمالك في أي وقت"
 
-#: View/App/home.ctp:69
+#: View/App/home.ctp:65
 msgid "One public Blend Collection"
 msgstr "مجموعة عامة واحدة"
 
-#: View/App/home.ctp:70
+#: View/App/home.ctp:66
 msgid "Message, comment, rate and like."
 msgstr "رسائل , تعليق , تقييم , إعجاب."
 
-#: View/App/home.ctp:71;88
+#: View/App/home.ctp:67;84
 msgid "Follow Blends, Requests, and Users"
 msgstr "متابعة الأعمال , الطلبات , و المستخدمين"
 
-#: View/App/home.ctp:72
+#: View/App/home.ctp:68
 msgid "Open One Request a Month (Swappers)"
 msgstr "فتح طلب واحد شهريا"
 
-#: View/App/home.ctp:77
+#: View/App/home.ctp:73
 msgid "Associate Account"
 msgstr "عضوية مشتركة"
 
-#: View/App/home.ctp:80
+#: View/App/home.ctp:76
 msgid "Enhanced and dedicated power features!"
 msgstr "ميزات و تحسينات قوية !"
 
-#: View/App/home.ctp:83
+#: View/App/home.ctp:79
 msgid "Paid subscription of $10/month or $80/year"
 msgstr "الإشتراك 10$-شهريا أو 80$-سنويا"
 
-#: View/App/home.ctp:84
+#: View/App/home.ctp:80
 msgid "Download all the assets you want!"
 msgstr "حمل جميع الأعمال التي ترغب بها!"
 
-#: View/App/home.ctp:86
+#: View/App/home.ctp:82
 msgid "Unlimited & Private Blend Collections"
 msgstr "مجموعات غير محدودة و مجموعات خاصة"
 
-#: View/App/home.ctp:87
+#: View/App/home.ctp:83
 msgid "Message, comment, rate and like"
 msgstr "رسائل , تعليق , تقييم , إعجاب"
 
-#: View/App/home.ctp:89
+#: View/App/home.ctp:85
 msgid "Lightboxed full size previews"
 msgstr "معاينة مستقلة بحجم كامل"
 
-#: View/App/home.ctp:90
+#: View/App/home.ctp:86
 msgid "Open Unlimited Blend Requests"
 msgstr "تقديم طلبات غير محدودة"
 
-#: View/App/home.ctp:91
+#: View/App/home.ctp:87
 msgid "Advanced Search filters"
 msgstr "فرز متقدم للبحث"
 
-#: View/App/home.ctp:92
+#: View/App/home.ctp:88
 msgid "Portfolio Gallery"
 msgstr "المحفظة افنية"
 
-#: View/App/home.ctp:93
+#: View/App/home.ctp:89
 msgid "Associate Badge in comments"
 msgstr "ظهور وسام العضوية المشتركة في التعليقات"
 
-#: View/App/home.ctp:94
+#: View/App/home.ctp:90
 msgid "For Hire Badge in profile and comments"
 msgstr "ظهور وسام جاهز للعمل في الملف الشخصي و التعليقات"
 
-#: View/App/home.ctp:95
+#: View/App/home.ctp:91
 msgid "Advanced blend and profile stats"
 msgstr "إحصائيات و ملفات متقدمة عن البلند"
 
-#: View/App/home.ctp:96
+#: View/App/home.ctp:92
 msgid "More social media fields to link to"
 msgstr "ربط المزيد من مواقع التواصل الإجتماعي"
 
-#: View/App/home.ctp:97
+#: View/App/home.ctp:93
 msgid "Up to 60 blends per page"
 msgstr "إظهار حتى 60 بلند في الصفحة"
 
-#: View/App/home.ctp:105 View/Elements/menus/topMenu.ctp:407
+#: View/App/home.ctp:101 View/Elements/menus/topMenu.ctp:413
 msgid "Register Now"
 msgstr "سجل الآن"
 
@@ -1370,7 +1370,7 @@ msgstr "سجل الآن"
 msgid "Upload a new Blend"
 msgstr "رفع بلند جديد"
 
-#: View/Blends/add.ctp:3 View/Elements/menus/topMenu.ctp:43;45
+#: View/Blends/add.ctp:3 View/Elements/menus/topMenu.ctp:49;51
 msgid "Upload New Blend"
 msgstr "رفع بلند جديد"
 
@@ -1594,7 +1594,7 @@ msgstr "حجم ملف البلند"
 msgid "Render Preview"
 msgstr "معاينة العمل"
 
-#: View/Blends/admin_view.ctp:89 View/Blends/view.ctp:65
+#: View/Blends/admin_view.ctp:89 View/Blends/view.ctp:69
 #: View/Downloads/admin_index.ctp:2
 msgid "Downloads"
 msgstr "التحميلات"
@@ -1607,7 +1607,7 @@ msgstr "عدد الم"
 msgid "Bytes"
 msgstr "بايت"
 
-#: View/Blends/admin_view.ctp:104 View/Blends/view.ctp:73
+#: View/Blends/admin_view.ctp:104 View/Blends/view.ctp:77
 msgid "Views"
 msgstr "مشاهدات"
 
@@ -1619,7 +1619,7 @@ msgstr ""
 msgid "Edit Blend"
 msgstr "تحرير بلند"
 
-#: View/Blends/admin_view.ctp:120 View/Blends/view.ctp:170;174
+#: View/Blends/admin_view.ctp:120 View/Blends/view.ctp:173;177
 #: View/Elements/bars/owner_bar.ctp:44
 msgid "Delete Blend"
 msgstr "حذف بلند"
@@ -1779,44 +1779,19 @@ msgstr ""
 "إختر نعم إذا كان البلند يتعلق بطرف ثالث كشعارت الشركات , تصميم أو شخصيات "
 "تلفاز - ألعاب - أفلام"
 
-#: View/Blends/edit.ctp:82
+#: View/Blends/edit.ctp:98
 msgid "Learn more about %s licenses and how they affect you"
 msgstr "تعلم المزيد عن %s شهادات و كيف تؤثر عليك"
 
-#: View/Blends/edit.ctp:88
-msgid ""
-"I waive all my copyright of this blend and place it in the Public Domain"
-msgstr "أنا أتنازل عن كل حقوق النشر لهذا البلند و أضعه للعامة"
-
-#: View/Blends/edit.ctp:89
-msgid ""
-"Users can do whatever they want with this blend, but they must give me credit"
-msgstr ""
-"يستطيع المستخدمون القيام بما يريدونه في هذا البلند لكن يتوجب عليهم الإشارة "
-"إلي"
-
-#: View/Blends/edit.ctp:90
-msgid ""
-"Same as CC-BY, but users must also release their derivates under CC-BY-SA"
-msgstr ""
-"مشابه لشهادة CC-BY , لكن المستخدمين يجب أن يصدرو أعمالهم وفق شهادة CC-BY-SA"
-
-#: View/Blends/edit.ctp:91
-msgid ""
-"Same as CC-BY-SA, but users can not use the work or their derivatives for "
-"commercial purposes"
-msgstr ""
-"مشابه لشهادة CC-BY-SA , لكن المستخدمين لا يمكنهم إستخدام أعمالهم لأغراض ربحية"
-
-#: View/Blends/edit.ctp:98
+#: View/Blends/edit.ctp:111
 msgid "Log your changes"
 msgstr "سجل تغييراتك"
 
-#: View/Blends/edit.ctp:100
+#: View/Blends/edit.ctp:113
 msgid "What did you change?"
 msgstr "ماذا غيرت ؟"
 
-#: View/Blends/edit.ctp:103 View/Users/edit.ctp:176
+#: View/Blends/edit.ctp:116 View/Users/edit.ctp:176
 msgid "Save Changes"
 msgstr "حفظ التغييرات"
 
@@ -1908,49 +1883,49 @@ msgstr "مجموعات"
 msgid "Site Stats"
 msgstr "إحصائيات الموقع"
 
-#: View/Blends/view.ctp:61 View/Users/index.ctp:31
+#: View/Blends/view.ctp:65 View/Users/index.ctp:31
 msgid "Likes"
 msgstr "الإعجابات"
 
-#: View/Blends/view.ctp:69
+#: View/Blends/view.ctp:73
 msgid "Blender %s and up"
 msgstr "بلندر %s و أعلى"
 
-#: View/Blends/view.ctp:113 View/Layouts/frontend.ctp:89
+#: View/Blends/view.ctp:118 View/Layouts/frontend.ctp:89
 msgid "License"
 msgstr "شهادة"
 
-#: View/Blends/view.ctp:121
+#: View/Blends/view.ctp:126
 msgid "This blend is marked as fan art"
 msgstr "هذا البلند حصل على ميزة عمل فني"
 
-#: View/Blends/view.ctp:130
+#: View/Blends/view.ctp:135
 msgid "Download"
 msgstr "تحميل"
 
-#: View/Blends/view.ctp:160 View/Elements/bars/request_actions.ctp:65
+#: View/Blends/view.ctp:163 View/Elements/bars/request_actions.ctp:65
 msgid "Manage"
 msgstr "إدارة"
 
-#: View/Blends/view.ctp:163 View/Elements/bars/owner_bar.ctp:19
+#: View/Blends/view.ctp:166 View/Elements/bars/owner_bar.ctp:19
 #: View/Elements/bars/request_actions.ctp:69
 msgid "Edit Data"
 msgstr "تحرير البيانات"
 
-#: View/Blends/view.ctp:166 View/Elements/bars/owner_bar.ctp:32
+#: View/Blends/view.ctp:169 View/Elements/bars/owner_bar.ctp:32
 msgid "Manage Files"
 msgstr "إدارة الملفات"
 
-#: View/Blends/view.ctp:181 View/Elements/bars/blend_actions.ctp:42
+#: View/Blends/view.ctp:184 View/Elements/bars/blend_actions.ctp:42
 #: View/Reports/admin_view.ctp:2 View/Reports/view.ctp:2
 msgid "Report"
 msgstr "إبلاغ"
 
-#: View/Blends/view.ctp:256 View/Elements/bars/blend_actions.ctp:9
+#: View/Blends/view.ctp:260 View/Elements/bars/blend_actions.ctp:9
 msgid "Add this blend to a collection"
 msgstr "إضافة هذا البلند إلى مجموعة"
 
-#: View/Blends/view.ctp:260
+#: View/Blends/view.ctp:264
 msgid "Collect"
 msgstr "تجميع"
 
@@ -1984,7 +1959,7 @@ msgstr "محادثات"
 
 #: View/Collections/index.ctp:2 View/Collections/user.ctp:2
 #: View/Collections/view.ctp:2 View/Elements/frontend_footer.ctp:43
-#: View/Elements/menus/topMenu.ctp:106
+#: View/Elements/menus/topMenu.ctp:112
 msgid "Blend Collections"
 msgstr "مجموعات بلند"
 
@@ -2059,7 +2034,7 @@ msgid "Services"
 msgstr "خدمات"
 
 #: View/Elements/frontend_footer.ctp:8
-msgid "Accouts"
+msgid "Accounts"
 msgstr "حسابات"
 
 #: View/Elements/frontend_footer.ctp:9
@@ -2070,7 +2045,7 @@ msgstr "بلندر"
 msgid "Support"
 msgstr "دعم"
 
-#: View/Elements/frontend_footer.ctp:10 View/Elements/menus/topMenu.ctp:389
+#: View/Elements/frontend_footer.ctp:10 View/Elements/menus/topMenu.ctp:395
 msgid "Access"
 msgstr "وصول"
 
@@ -2078,7 +2053,7 @@ msgstr "وصول"
 msgid "Legal"
 msgstr "قانوني"
 
-#: View/Elements/frontend_footer.ctp:17 View/Elements/menus/topMenu.ctp:11
+#: View/Elements/frontend_footer.ctp:17 View/Elements/menus/topMenu.ctp:17
 msgid "About"
 msgstr "عن"
 
@@ -2102,7 +2077,7 @@ msgstr "إعلانات"
 msgid "Translations"
 msgstr "ترجمة"
 
-#: View/Elements/frontend_footer.ctp:37 View/Elements/menus/topMenu.ctp:50
+#: View/Elements/frontend_footer.ctp:37 View/Elements/menus/topMenu.ctp:56
 msgid "All Blends"
 msgstr "جميع البلندات"
 
@@ -2115,12 +2090,12 @@ msgid "Users Index"
 msgstr "فهرس المستخدمين"
 
 #: View/Elements/frontend_footer.ctp:49
-#: View/Elements/menus/topMenu.ctp:227;229
+#: View/Elements/menus/topMenu.ctp:233;235
 msgid "User Badges"
 msgstr "أوسمة المستخدمين"
 
 #: View/Elements/frontend_footer.ctp:52
-#: View/Elements/menus/topMenu.ctp:176;178;191
+#: View/Elements/menus/topMenu.ctp:182;184;197
 #: View/Questions/admin_index.ctp:2 View/Questions/index.ctp:1
 msgid "Questions"
 msgstr "أسئلة"
@@ -2142,7 +2117,7 @@ msgid "Deadline Membership"
 msgstr "عضوية مؤقتة"
 
 #: View/Elements/frontend_footer.ctp:69
-#: View/Elements/menus/topMenu.ctp:221;223 View/Users/featured.ctp:1
+#: View/Elements/menus/topMenu.ctp:227;229 View/Users/featured.ctp:1
 msgid "Featured Artists"
 msgstr "الفنانين"
 
@@ -2162,20 +2137,20 @@ msgstr "إحصل على بلندر"
 msgid "Learn Blender"
 msgstr "تعلم بلندر"
 
-#: View/Elements/frontend_footer.ctp:89 View/Elements/menus/topMenu.ctp:246
+#: View/Elements/frontend_footer.ctp:89 View/Elements/menus/topMenu.ctp:252
 msgid "Help"
 msgstr "مساعدة"
 
-#: View/Elements/frontend_footer.ctp:92 View/Elements/menus/topMenu.ctp:256
+#: View/Elements/frontend_footer.ctp:92 View/Elements/menus/topMenu.ctp:262
 msgid "Known Issues"
 msgstr "المشكلات المعروفة"
 
 #: View/Elements/frontend_footer.ctp:95
-#: View/Elements/menus/topMenu.ctp:273;275
+#: View/Elements/menus/topMenu.ctp:279;281
 msgid "Report Errors"
 msgstr "إبلاغ عن أخطاء"
 
-#: View/Elements/frontend_footer.ctp:100 View/Elements/menus/topMenu.ctp:405
+#: View/Elements/frontend_footer.ctp:100 View/Elements/menus/topMenu.ctp:411
 msgid "Register"
 msgstr "تسجيل"
 
@@ -2183,11 +2158,11 @@ msgstr "تسجيل"
 msgid "Reset Password"
 msgstr "إستعادة كلمة المرور"
 
-#: View/Elements/frontend_footer.ctp:112 View/Elements/menus/topMenu.ctp:28
+#: View/Elements/frontend_footer.ctp:112 View/Elements/menus/topMenu.ctp:34
 msgid "File Licensing"
 msgstr "تعديل شهادة"
 
-#: View/Elements/frontend_footer.ctp:115 View/Elements/menus/topMenu.ctp:24
+#: View/Elements/frontend_footer.ctp:115 View/Elements/menus/topMenu.ctp:30
 #: View/Users/add.ctp:179
 msgid "Terms of Use"
 msgstr "قوانين الإستخدام"
@@ -2380,7 +2355,7 @@ msgstr "أيلول"
 msgid "October"
 msgstr "تشرين الأول"
 
-#: View/Elements/placeholder.ctp:51 View/Elements/menus/topMenu.ctp:305
+#: View/Elements/placeholder.ctp:51 View/Elements/menus/topMenu.ctp:311
 msgid "November"
 msgstr "تشرين الثاني"
 
@@ -2396,7 +2371,7 @@ msgstr "الإجابات"
 msgid "comments"
 msgstr "التعليقات"
 
-#: View/Elements/placeholder.ctp:58 View/Questions/view.ctp:51
+#: View/Elements/placeholder.ctp:58 View/Questions/view.ctp:52
 msgid "Answers"
 msgstr "الإجابات"
 
@@ -2415,6 +2390,10 @@ msgstr "إشتراك شهري"
 #: View/Elements/placeholder.ctp:65
 msgid "Yearly Associate"
 msgstr "إشتراك سنوي"
+
+#: View/Elements/previewBox.ctp:6
+msgid "Preview 1"
+msgstr "المعاينة 1"
 
 #: View/Elements/bars/blend_actions.ctp:12
 msgid "Add to"
@@ -2509,257 +2488,261 @@ msgstr "يجب أن تسجل لدخولك لتتمكن من التعليق"
 msgid "Start"
 msgstr "إبدأ"
 
-#: View/Elements/menus/topMenu.ctp:15
+#: View/Elements/menus/topMenu.ctp:12 View/Pages/welcome.ctp:129
+msgid "Dashboard"
+msgstr "لوحة العمل"
+
+#: View/Elements/menus/topMenu.ctp:21
 msgid "News Blog"
 msgstr "أخبار مدونة الموقع"
 
-#: View/Elements/menus/topMenu.ctp:19
+#: View/Elements/menus/topMenu.ctp:25
 msgid "Contact us"
 msgstr "تواصل معنا"
 
-#: View/Elements/menus/topMenu.ctp:37 View/Elements/navs/usernav.ctp:17
+#: View/Elements/menus/topMenu.ctp:43 View/Elements/navs/usernav.ctp:17
 #: View/Users/index.ctp:23
 msgid "Blends"
 msgstr "بلندات"
 
-#: View/Elements/menus/topMenu.ctp:39
+#: View/Elements/menus/topMenu.ctp:45
 msgid "All blends"
 msgstr "جميع البلندات"
 
-#: View/Elements/menus/topMenu.ctp:52
+#: View/Elements/menus/topMenu.ctp:58
 msgid "Main Blend Index"
 msgstr "الفهرس الرئيسي للبلند"
 
-#: View/Elements/menus/topMenu.ctp:57;59;62;64;67;69;72;74
+#: View/Elements/menus/topMenu.ctp:63;65;68;70;73;75;78;80
 msgid "Only %s Blends"
 msgstr "فقط %s بلند"
 
-#: View/Elements/menus/topMenu.ctp:78;83;88
+#: View/Elements/menus/topMenu.ctp:84;89;94
 msgid "Made with Blender %s"
 msgstr "أُنتج بواسطة بلندر %s"
 
-#: View/Elements/menus/topMenu.ctp:80
+#: View/Elements/menus/topMenu.ctp:86
 msgid "Made with Blender 2.49"
 msgstr "أنجز العمل بواسطة بلندر 2.49"
 
-#: View/Elements/menus/topMenu.ctp:85
+#: View/Elements/menus/topMenu.ctp:91
 msgid "Made with Blender 2.5x"
 msgstr "أنجز العمل بواسطة بلندر 2.5x"
 
-#: View/Elements/menus/topMenu.ctp:90
+#: View/Elements/menus/topMenu.ctp:96
 msgid "Made with Blender 2.6x"
 msgstr "أنجز العمل بواسطة بلندر 2.6x"
 
-#: View/Elements/menus/topMenu.ctp:93
+#: View/Elements/menus/topMenu.ctp:99
 msgid "Filter Blends"
 msgstr "فرز البلندات"
 
-#: View/Elements/menus/topMenu.ctp:98
+#: View/Elements/menus/topMenu.ctp:104
 msgid "All blend categories."
 msgstr "جميع فئات البلند"
 
-#: View/Elements/menus/topMenu.ctp:103
+#: View/Elements/menus/topMenu.ctp:109
 msgid "Blends selected by the admins."
 msgstr "بلندات تم إختيارها من قبل المشرف"
 
-#: View/Elements/menus/topMenu.ctp:108
+#: View/Elements/menus/topMenu.ctp:114
 msgid "Publicly visible Blend Collections by our users."
 msgstr "مجموعات ظاهر بشكل عام من قبل مستخدمينا"
 
-#: View/Elements/menus/topMenu.ctp:112
+#: View/Elements/menus/topMenu.ctp:118
 msgid "Durian OMP"
 msgstr "مشروع فيلم \" دوريان \""
 
-#: View/Elements/menus/topMenu.ctp:114
+#: View/Elements/menus/topMenu.ctp:120
 msgid "Durian Open Movie Project."
 msgstr "مشروع فيلم \" دوريان \""
 
-#: View/Elements/menus/topMenu.ctp:117
+#: View/Elements/menus/topMenu.ctp:123
 msgid "HJM Contest"
 msgstr "مسابقة HJM"
 
-#: View/Elements/menus/topMenu.ctp:119
+#: View/Elements/menus/topMenu.ctp:125
 msgid "HJ Media Military Contest"
 msgstr "مسابقة HJ Media العسكرية"
 
-#: View/Elements/menus/topMenu.ctp:122
+#: View/Elements/menus/topMenu.ctp:128
 msgid "Fantasy Contest"
 msgstr "مسابقة الخيال"
 
-#: View/Elements/menus/topMenu.ctp:123
+#: View/Elements/menus/topMenu.ctp:129
 msgid "Fantasy Character Contest"
 msgstr "مسابقة الشخصيات الخيالية"
 
-#: View/Elements/menus/topMenu.ctp:127;129;166;168;195;197
+#: View/Elements/menus/topMenu.ctp:133;135;172;174;201;203
 msgid "RSS Feed"
 msgstr "تغذية RSS"
 
-#: View/Elements/menus/topMenu.ctp:137;145
+#: View/Elements/menus/topMenu.ctp:143;151
 msgid "Requests"
 msgstr "طلبات"
 
-#: View/Elements/menus/topMenu.ctp:143
+#: View/Elements/menus/topMenu.ctp:149
 msgid "New Request"
 msgstr "طلب جديد"
 
-#: View/Elements/menus/topMenu.ctp:145;191
+#: View/Elements/menus/topMenu.ctp:151;197
 msgid "%s Main Index"
 msgstr "%s فهرس رئيسي"
 
-#: View/Elements/menus/topMenu.ctp:150
+#: View/Elements/menus/topMenu.ctp:156
 msgid "All Requests"
 msgstr "جميع الطلبات"
 
-#: View/Elements/menus/topMenu.ctp:152
+#: View/Elements/menus/topMenu.ctp:158
 msgid "Requests Main Index"
 msgstr "الفهرس الرئيسي للطلبات"
 
-#: View/Elements/menus/topMenu.ctp:155
+#: View/Elements/menus/topMenu.ctp:161
 msgid "Open Requests"
 msgstr "الطلبات المفتوحة"
 
-#: View/Elements/menus/topMenu.ctp:157
+#: View/Elements/menus/topMenu.ctp:163
 msgid "Requests still open to responses"
 msgstr "الطلبات التي ما زالت بحاجة لإستجابة"
 
-#: View/Elements/menus/topMenu.ctp:160
+#: View/Elements/menus/topMenu.ctp:166
 msgid "Closed Requests"
 msgstr "الطلبات المغلقة"
 
-#: View/Elements/menus/topMenu.ctp:162
+#: View/Elements/menus/topMenu.ctp:168
 msgid "Requests closed to new responses"
 msgstr "طلبات أُغلقت أمام أي إستجابات جديدة"
 
-#: View/Elements/menus/topMenu.ctp:182 View/Questions/admin_index.ctp:48
+#: View/Elements/menus/topMenu.ctp:188 View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42 View/Questions/index.ctp:2
 msgid "New Question"
 msgstr "سؤال جديد"
 
-#: View/Elements/menus/topMenu.ctp:184
+#: View/Elements/menus/topMenu.ctp:190
 msgid "Create a new Question"
 msgstr "إنشاء سؤال جديد"
 
-#: View/Elements/menus/topMenu.ctp:189
+#: View/Elements/menus/topMenu.ctp:195
 msgid "All Questions"
 msgstr "جميع الأسئلة"
 
-#: View/Elements/menus/topMenu.ctp:206;208 View/Users/admin_index.ctp:2
+#: View/Elements/menus/topMenu.ctp:212;214 View/Users/admin_index.ctp:2
 msgid "Users"
 msgstr "مستخدمون"
 
-#: View/Elements/menus/topMenu.ctp:211;213
+#: View/Elements/menus/topMenu.ctp:217;219
 msgid "Users Showcase"
 msgstr "عروض المستخدمين"
 
-#: View/Elements/menus/topMenu.ctp:216;218
+#: View/Elements/menus/topMenu.ctp:222;224
 msgid "Find Artists"
 msgstr "إيجاد فنانيين"
 
-#: View/Elements/menus/topMenu.ctp:237 View/Layouts/frontend.ctp:83;84
+#: View/Elements/menus/topMenu.ctp:243 View/Layouts/frontend.ctp:83;84
 msgid "Search Blends"
 msgstr "البحث عن بلندات"
 
-#: View/Elements/menus/topMenu.ctp:239
+#: View/Elements/menus/topMenu.ctp:245
 msgid "Search"
 msgstr "البحث"
 
-#: View/Elements/menus/topMenu.ctp:248
+#: View/Elements/menus/topMenu.ctp:254
 msgid "Help and documentation"
 msgstr "مساعدة و وثائق"
 
-#: View/Elements/menus/topMenu.ctp:251
+#: View/Elements/menus/topMenu.ctp:257
 msgid "All Documentation"
 msgstr "جميع الوثائق"
 
-#: View/Elements/menus/topMenu.ctp:253
+#: View/Elements/menus/topMenu.ctp:259
 msgid "All site documentation"
 msgstr "جميع وثائق الموقع"
 
-#: View/Elements/menus/topMenu.ctp:258
+#: View/Elements/menus/topMenu.ctp:264
 msgid "Known issues"
 msgstr "المشكلات المعروفة"
 
-#: View/Elements/menus/topMenu.ctp:261
+#: View/Elements/menus/topMenu.ctp:267
 msgid "FAQ"
 msgstr "أسئلة شائعة"
 
-#: View/Elements/menus/topMenu.ctp:263
+#: View/Elements/menus/topMenu.ctp:269
 msgid "Frequently asked questions (and answers)"
 msgstr "أسئلة شائعة و أجوبة"
 
-#: View/Elements/menus/topMenu.ctp:267
+#: View/Elements/menus/topMenu.ctp:273
 msgid "Contact Blend Swap"
 msgstr "إتصل مع بلند سواب"
 
-#: View/Elements/menus/topMenu.ctp:269
+#: View/Elements/menus/topMenu.ctp:275
 msgid "Contact the Blend Swap admins"
 msgstr "تواصل مع مشرفي بلند سواب"
 
-#: View/Elements/menus/topMenu.ctp:286
+#: View/Elements/menus/topMenu.ctp:292
 msgid "Me"
 msgstr "أنا"
 
-#: View/Elements/menus/topMenu.ctp:288;329;337;339
+#: View/Elements/menus/topMenu.ctp:294;335;343;345
 #: View/Elements/navs/usernav.ctp:72
 msgid "My Profile"
 msgstr "ملفي الشخصي"
 
-#: View/Elements/menus/topMenu.ctp:294;296 View/Elements/navs/usernav.ctp:169
-#: View/Users/bandwidth.ctp:1 View/Users/view.ctp:90
+#: View/Elements/menus/topMenu.ctp:300;302 View/Elements/navs/usernav.ctp:169
+#: View/Users/bandwidth.ctp:1 View/Users/view.ctp:91
 msgid "Bandwidth History"
 msgstr "سجل نقل البيانات"
 
-#: View/Elements/menus/topMenu.ctp:300
+#: View/Elements/menus/topMenu.ctp:306
 msgid "Your membership expires on:"
 msgstr "ستنتهي صلاحية عضويتك في :"
 
-#: View/Elements/menus/topMenu.ctp:305
+#: View/Elements/menus/topMenu.ctp:311
 msgid "Bandwidth for %s"
 msgstr "معدل البيانات في %s"
 
-#: View/Elements/menus/topMenu.ctp:308 View/Limits/admin_view.ctp:34
-#: View/Users/bandwidth.ctp:25
+#: View/Elements/menus/topMenu.ctp:314 View/Limits/admin_view.ctp:34
+#: View/Users/bandwidth.ctp:27
 msgid "Spent"
 msgstr "استُهلك"
 
-#: View/Elements/menus/topMenu.ctp:314 View/Limits/admin_view.ctp:29
-#: View/Users/bandwidth.ctp:29
+#: View/Elements/menus/topMenu.ctp:320 View/Limits/admin_view.ctp:29
+#: View/Users/bandwidth.ctp:31
 msgid "Remaining"
 msgstr "المتبقي"
 
-#: View/Elements/menus/topMenu.ctp:327
+#: View/Elements/menus/topMenu.ctp:333
 #: View/Elements/nags/become_associate.ctp:17
 #: View/Elements/navs/usernav.ctp:192
 msgid "Upgrade Now!"
 msgstr "قم بالترقية الآن!"
 
-#: View/Elements/menus/topMenu.ctp:329
+#: View/Elements/menus/topMenu.ctp:335
 msgid ""
 "Become an Associate Member today and enjoy more features and enhancements on "
 "Blend Swap!"
 msgstr "كن عضوا منتسبا اليوم و تمتع بمزيد من المزايا و التحسينات في بلند سواب"
 
-#: View/Elements/menus/topMenu.ctp:345;347 View/Elements/navs/usernav.ctp:79
+#: View/Elements/menus/topMenu.ctp:351;353 View/Elements/navs/usernav.ctp:79
 msgid "My Blends"
 msgstr "بلنداتي"
 
-#: View/Elements/menus/topMenu.ctp:353;355 View/Elements/navs/usernav.ctp:103
+#: View/Elements/menus/topMenu.ctp:359;361 View/Elements/navs/usernav.ctp:103
 msgid "My Collections"
 msgstr "مجموعاتي"
 
-#: View/Elements/menus/topMenu.ctp:361;363 View/Elements/navs/usernav.ctp:96
+#: View/Elements/menus/topMenu.ctp:367;369 View/Elements/navs/usernav.ctp:96
 msgid "My Likes"
 msgstr "إعجاباتي"
 
-#: View/Elements/menus/topMenu.ctp:378
+#: View/Elements/menus/topMenu.ctp:384
 msgid "Log out"
 msgstr "تسجيل الخروج"
 
-#: View/Elements/menus/topMenu.ctp:380
+#: View/Elements/menus/topMenu.ctp:386
 msgid "Log Out"
 msgstr "تسجيل الخروج"
 
-#: View/Elements/menus/topMenu.ctp:397;399
+#: View/Elements/menus/topMenu.ctp:403;405
 msgid "Log In"
 msgstr "تسجيل الدخول"
 
@@ -2808,7 +2791,7 @@ msgid "Management"
 msgstr "إدارة"
 
 #: View/Elements/navs/usernav.ctp:131 View/Profiles/admin_view.ctp:94
-#: View/Users/view.ctp:81
+#: View/Users/view.ctp:82
 msgid "Edit Profile"
 msgstr "تحرير الملف الشخصي"
 
@@ -2820,7 +2803,7 @@ msgstr "تحرير الألبوم"
 msgid "Account &amp; Settings"
 msgstr "الحساب و الإعدادات"
 
-#: View/Elements/navs/usernav.ctp:154 View/Users/view.ctp:87
+#: View/Elements/navs/usernav.ctp:154 View/Users/view.ctp:88
 msgid "Manage Membership"
 msgstr "إدارة العضوية"
 
@@ -3141,10 +3124,6 @@ msgstr "صفحة جديدة"
 msgid "Welcome!"
 msgstr "مرحبا !"
 
-#: View/Pages/welcome.ctp:129
-msgid "Dashboard"
-msgstr "لوحة العمل"
-
 #: View/Pages/welcome.ctp:132
 msgid "Why are you not logged in yet?"
 msgstr "لماذا لم تسجل دخولك بعد ؟"
@@ -3369,17 +3348,17 @@ msgstr "إحتياجات"
 msgid "Upload file"
 msgstr "رفع ملف"
 
-#: View/Requests/view.ctp:72
+#: View/Requests/view.ctp:73
 msgid ""
 "There are no answers to this Request yet. Do you have a blend that fulfills "
 "this Request?"
 msgstr "لا يوجد أي إجابات لهذا الطلب . هل لديك بلند يحقق هذا الطلب ؟"
 
-#: View/Requests/view.ctp:80
+#: View/Requests/view.ctp:81
 msgid "Responders"
 msgstr "المستجيبين"
 
-#: View/Requests/view.ctp:96
+#: View/Requests/view.ctp:97
 msgid "No one has responded to this request, can you submit an answer?"
 msgstr "لم يستجب أحد لهذا الطلب , هل تستطيع إجاد الحل ؟"
 
@@ -3435,43 +3414,51 @@ msgstr "سجل معدل نقل البيانات بحسب الشهر"
 msgid "You have unlimited bandwidth! you can totally ignore this"
 msgstr "إمكانية نقل البيانات لديك غير محدودة ! يمكنك تجاهل ذلك نهائيا"
 
-#: View/Users/bandwidth.ctp:12
+#: View/Users/bandwidth.ctp:10
+msgid "You can get unlimited downloads and a bunch of other features if you %s"
+msgstr "تستطيع الحصول على تحميل غير محدود و باقة أخرى من الميزات إذا %s"
+
+#: View/Users/bandwidth.ctp:10
+msgid "upgrade now!"
+msgstr "قم بالترقية الآن!"
+
+#: View/Users/bandwidth.ctp:14
 msgid "Learn how bandwidth is assigned"
 msgstr "تعلم كيف يتم تعيين معدل نقل البينات"
 
-#: View/Users/bandwidth.ctp:26;30;75
+#: View/Users/bandwidth.ctp:28;32;77
 msgid "Megabytes"
 msgstr "ميغابايت"
 
-#: View/Users/bandwidth.ctp:33
+#: View/Users/bandwidth.ctp:35
 msgid "Initialized"
 msgstr "تهيئة"
 
-#: View/Users/bandwidth.ctp:37
+#: View/Users/bandwidth.ctp:39
 msgid "Expires"
 msgstr "انتهى"
 
-#: View/Users/bandwidth.ctp:50
+#: View/Users/bandwidth.ctp:52
 msgid "Is this wrong?"
 msgstr "هل هذا خطأ ؟"
 
-#: View/Users/bandwidth.ctp:52
+#: View/Users/bandwidth.ctp:54
 msgid "Fix it"
 msgstr "إصلاح"
 
-#: View/Users/bandwidth.ctp:62
+#: View/Users/bandwidth.ctp:64
 msgid "Download History for current month"
 msgstr "تحميل سجل الشهر الحالي"
 
-#: View/Users/bandwidth.ctp:71
+#: View/Users/bandwidth.ctp:73
 msgid "COUNTED"
 msgstr "معدود"
 
-#: View/Users/bandwidth.ctp:71
+#: View/Users/bandwidth.ctp:73
 msgid "Not counted"
 msgstr "لم يتم حسابه"
 
-#: View/Users/bandwidth.ctp:75
+#: View/Users/bandwidth.ctp:77
 msgid "Bandwidth"
 msgstr "معدل نقل البيانات"
 
@@ -3765,21 +3752,45 @@ msgstr "إسم المستخدم الحالي هو %s"
 msgid "Enter your desired username to check if it is available"
 msgstr "أدخل اسم المستخدم المطلوب للتحقق في ما إذا كان متوفرا"
 
-#: View/Users/view.ctp:84
+#: View/Users/view.ctp:85
 msgid "Account & Settings"
 msgstr "الحساب و الإعدادت"
 
-#: View/Users/view.ctp:95
+#: View/Users/view.ctp:96
 msgid "Badges"
 msgstr "الأوسمة"
 
-#: View/Users/view.ctp:114
+#: View/Users/view.ctp:115
 msgid "This user has not earned any badges yet..."
 msgstr "هذا المستخد لم يحصل على أي وسام بعد ..."
 
-#: View/Users/view.ctp:168
+#: View/Users/view.ctp:169
 msgid "You should set up your skills from the profile edit panel"
 msgstr "يجب أن تحدد خبراتك من قائمة تحرير ملف التعريف"
+
+#~ msgid ""
+#~ "I waive all my copyright of this blend and place it in the Public Domain"
+#~ msgstr "أنا أتنازل عن كل حقوق النشر لهذا البلند و أضعه للعامة"
+
+#~ msgid ""
+#~ "Users can do whatever they want with this blend, but they must give me "
+#~ "credit"
+#~ msgstr ""
+#~ "يستطيع المستخدمون القيام بما يريدونه في هذا البلند لكن يتوجب عليهم "
+#~ "الإشارة إلي"
+
+#~ msgid ""
+#~ "Same as CC-BY, but users must also release their derivates under CC-BY-SA"
+#~ msgstr ""
+#~ "مشابه لشهادة CC-BY , لكن المستخدمين يجب أن يصدرو أعمالهم وفق شهادة CC-BY-"
+#~ "SA"
+
+#~ msgid ""
+#~ "Same as CC-BY-SA, but users can not use the work or their derivatives for "
+#~ "commercial purposes"
+#~ msgstr ""
+#~ "مشابه لشهادة CC-BY-SA , لكن المستخدمين لا يمكنهم إستخدام أعمالهم لأغراض "
+#~ "ربحية"
 
 #~ msgid "The news entry has been updated"
 #~ msgstr "تم تحديث مدخلات الأخبار"
