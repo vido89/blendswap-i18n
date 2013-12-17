@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-12-16 19:46-0600\n"
+"POT-Creation-Date: 2013-12-17 10:48-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -210,7 +210,7 @@ msgstr ""
 
 #: Controller/CollectionsController.php:483
 #: View/App/home.ctp:57
-#: View/Elements/placeholder.ctp:91
+#: View/Elements/placeholder.ctp:94
 msgid "Free Account"
 msgstr ""
 
@@ -2715,10 +2715,18 @@ msgid "blend"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:89
-msgid "Monthly Associate"
+msgid "Open"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:90
+msgid "Closed"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:92
+msgid "Monthly Associate"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:93
 msgid "Yearly Associate"
 msgstr ""
 

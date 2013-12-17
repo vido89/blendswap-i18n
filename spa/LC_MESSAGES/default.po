@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-12-16 19:46-0600\n"
-"PO-Revision-Date: 2013-12-16 19:47-0600\n"
+"POT-Creation-Date: 2013-12-17 10:48-0600\n"
+"PO-Revision-Date: 2013-12-17 10:50-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: es_ES\n"
@@ -242,7 +242,7 @@ msgid "You have a %s, to create more Collections you'll have to become an "
 msgstr "Debes tener una %s, para crear más colecciones deberás conseguir una "
 
 #: Controller/CollectionsController.php:483 View/App/home.ctp:57
-#: View/Elements/placeholder.ctp:91
+#: View/Elements/placeholder.ctp:94
 msgid "Free Account"
 msgstr "Membresía Gratuita"
 
@@ -2529,10 +2529,18 @@ msgid "blend"
 msgstr "blend"
 
 #: View/Elements/placeholder.ctp:89
+msgid "Open"
+msgstr "Abierto"
+
+#: View/Elements/placeholder.ctp:90
+msgid "Closed"
+msgstr "Cerrado"
+
+#: View/Elements/placeholder.ctp:92
 msgid "Monthly Associate"
 msgstr "Asociado Mensual"
 
-#: View/Elements/placeholder.ctp:90
+#: View/Elements/placeholder.ctp:93
 msgid "Yearly Associate"
 msgstr "Asociado Anual"
 
