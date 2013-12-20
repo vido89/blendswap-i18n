@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-12-19 15:08-0600\n"
+"POT-Creation-Date: 2013-12-20 15:51-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -294,91 +294,91 @@ msgstr ""
 msgid "Contact was not deleted"
 msgstr ""
 
-#: Controller/DownloadsController.php:45
+#: Controller/DownloadsController.php:47
 msgid "Invalid download"
 msgstr ""
 
-#: Controller/DownloadsController.php:111
+#: Controller/DownloadsController.php:112
 msgid "Downloading"
 msgstr ""
 
-#: Controller/DownloadsController.php:113
+#: Controller/DownloadsController.php:114
 msgid "This blend is licensed"
 msgstr ""
 
-#: Controller/DownloadsController.php:116
+#: Controller/DownloadsController.php:117
 msgid "Do you agree with this license"
 msgstr ""
 
-#: Controller/DownloadsController.php:117
+#: Controller/DownloadsController.php:118
 msgid "and the limitations imposed by the Fan Art marking"
 msgstr ""
 
-#: Controller/DownloadsController.php:122
+#: Controller/DownloadsController.php:123
 msgid "I accept the license. Start file download, please"
 msgstr ""
 
-#: Controller/DownloadsController.php:123
+#: Controller/DownloadsController.php:124
 msgid "Yes. Download now!"
 msgstr ""
 
-#: Controller/DownloadsController.php:125
+#: Controller/DownloadsController.php:126
 msgid "Cancel download"
 msgstr ""
 
-#: Controller/DownloadsController.php:125
+#: Controller/DownloadsController.php:126
 #: View/Blends/edit.ctp:116
 msgid "Cancel"
 msgstr ""
 
-#: Controller/DownloadsController.php:294;295
+#: Controller/DownloadsController.php:295;296
 msgid "Creative Commons Public Domain Mark 1.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:296
+#: Controller/DownloadsController.php:297
 msgid "which has no requirements:"
 msgstr ""
 
-#: Controller/DownloadsController.php:299;300
+#: Controller/DownloadsController.php:300;301
 msgid "Creative Commons Attribution 3.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:301;306;311;316
+#: Controller/DownloadsController.php:302;307;312;317
 msgid "which has the following requirements:"
 msgstr ""
 
-#: Controller/DownloadsController.php:304;305
+#: Controller/DownloadsController.php:305;306
 msgid "Creative Commons Attribution-ShareAlike 3.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:309;310
+#: Controller/DownloadsController.php:310;311
 msgid "Creative Commons Attribution-NonCommercial 3.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:314;315
+#: Controller/DownloadsController.php:315;316
 msgid "Creative Commons Attribution-NonCommercial-ShareAlike 3.0"
 msgstr ""
 
-#: Controller/DownloadsController.php:329
+#: Controller/DownloadsController.php:330
 msgid "Blend Swap recommends you give credit to the blend author, but there is no obligation to do so"
 msgstr ""
 
-#: Controller/DownloadsController.php:332
+#: Controller/DownloadsController.php:333
 #: View/Helper/SingleBlendHelper.php:172
 msgid "You must give credit to the author of this blend"
 msgstr ""
 
-#: Controller/DownloadsController.php:335
+#: Controller/DownloadsController.php:336
 #: View/Helper/SingleBlendHelper.php:175
 msgid "You can not use this blend commercially under any circumstance"
 msgstr ""
 
-#: Controller/DownloadsController.php:338
+#: Controller/DownloadsController.php:339
 #: View/Helper/SingleBlendHelper.php:178
 msgid "You must distribute any derivative works under the same license"
 msgstr ""
 
-#: Controller/DownloadsController.php:343
+#: Controller/DownloadsController.php:344
 msgid "What's the deal with all this \"giving credits\" thing?"
 msgstr ""
 
@@ -650,39 +650,39 @@ msgstr ""
 msgid "Report was not deleted"
 msgstr ""
 
-#: Controller/RequestsController.php:74;216;266;326;562;596;636
+#: Controller/RequestsController.php:106;248;298;358;594;628;668
 msgid "Invalid request"
 msgstr ""
 
-#: Controller/RequestsController.php:149
+#: Controller/RequestsController.php:181
 msgid "Request data saved to the database"
 msgstr ""
 
-#: Controller/RequestsController.php:160
+#: Controller/RequestsController.php:192
 msgid "You must use the file field to upload the format it says"
 msgstr ""
 
-#: Controller/RequestsController.php:166
+#: Controller/RequestsController.php:198
 msgid "One or both files failed to upload. Please take some time to repair your entry"
 msgstr ""
 
-#: Controller/RequestsController.php:188
+#: Controller/RequestsController.php:220
 msgid "The request has been saved. But one or more files failed to upload. Please take some time to fix this."
 msgstr ""
 
-#: Controller/RequestsController.php:192;236;579;603
+#: Controller/RequestsController.php:224;268;611;635
 msgid "The request could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/RequestsController.php:233;576;600
+#: Controller/RequestsController.php:265;608;632
 msgid "The request has been saved"
 msgstr ""
 
-#: Controller/RequestsController.php:639
+#: Controller/RequestsController.php:671
 msgid "Request deleted"
 msgstr ""
 
-#: Controller/RequestsController.php:642
+#: Controller/RequestsController.php:674
 msgid "Request was not deleted"
 msgstr ""
 
@@ -947,7 +947,7 @@ msgstr ""
 #: View/Reports/admin_edit.ctp:12
 #: View/Requests/add.ctp:145
 #: View/Requests/admin_add.ctp:12
-#: View/Requests/admin_edit.ctp:15
+#: View/Requests/admin_edit.ctp:23
 #: View/Requests/edit.ctp:45
 #: View/Users/account.ctp:31
 #: View/Users/admin_add.ctp:25
@@ -1012,7 +1012,6 @@ msgstr ""
 #: View/Reports/admin_view.ctp:53
 #: View/Reports/view.ctp:37
 #: View/Requests/admin_add.ctp:15
-#: View/Requests/admin_edit.ctp:18
 #: View/Requests/admin_index.ctp:15;56
 #: View/Requests/admin_view.ctp:42;65
 #: View/Requests/media.ctp:20
@@ -1057,7 +1056,7 @@ msgstr ""
 #: View/Questions/admin_index.ctp:25
 #: View/Reports/admin_edit.ctp:18
 #: View/Reports/admin_index.ctp:41
-#: View/Requests/admin_edit.ctp:21
+#: View/Requests/admin_edit.ctp:5
 #: View/Requests/admin_index.ctp:35
 #: View/Requests/admin_view.ctp:80
 #: View/Requests/media.ctp:36;40
@@ -1109,7 +1108,7 @@ msgstr ""
 #: View/Reports/admin_index.ctp:41
 #: View/Reports/admin_view.ctp:56
 #: View/Reports/view.ctp:40
-#: View/Requests/admin_edit.ctp:21
+#: View/Requests/admin_edit.ctp:5
 #: View/Requests/admin_index.ctp:35
 #: View/Requests/admin_view.ctp:45;80
 #: View/Users/account.ctp:37
@@ -1119,7 +1118,7 @@ msgid "Are you sure you want to delete # %s?"
 msgstr ""
 
 #: View/Answers/admin_index.ctp:2
-#: View/Requests/view.ctp:58
+#: View/Requests/view.ctp:162
 msgid "Responses"
 msgstr ""
 
@@ -1271,7 +1270,6 @@ msgstr ""
 #: View/Answers/admin_index.ctp:52
 #: View/Answers/admin_view.ctp:42
 #: View/Requests/admin_add.ctp:22
-#: View/Requests/admin_edit.ctp:26
 #: View/Requests/admin_index.ctp:62
 #: View/Requests/admin_view.ctp:51;89
 msgid "New Response"
@@ -2054,15 +2052,18 @@ msgid "Upload files"
 msgstr ""
 
 #: View/Blends/view.ctp:22
+#: View/Requests/view.ctp:22
 msgid "Click to start following this user"
 msgstr ""
 
 #: View/Blends/view.ctp:48
+#: View/Requests/view.ctp:31
 #: View/Users/index.ctp:35
 msgid "Collections"
 msgstr ""
 
 #: View/Blends/view.ctp:55
+#: View/Requests/view.ctp:39
 msgid "Site Stats"
 msgstr ""
 
@@ -2090,17 +2091,20 @@ msgstr ""
 
 #: View/Blends/view.ctp:161
 #: View/Elements/bars/request_actions.ctp:50
+#: View/Requests/view.ctp:100
 msgid "Manage"
 msgstr ""
 
 #: View/Blends/view.ctp:164
 #: View/Elements/bars/owner_bar.ctp:19
 #: View/Elements/bars/request_actions.ctp:53
+#: View/Requests/view.ctp:103
 msgid "Edit Data"
 msgstr ""
 
 #: View/Blends/view.ctp:167
 #: View/Elements/bars/owner_bar.ctp:32
+#: View/Requests/view.ctp:106
 msgid "Manage Files"
 msgstr ""
 
@@ -2869,11 +2873,11 @@ msgstr ""
 msgid "Yearly Associate"
 msgstr ""
 
-#: View/Elements/previewBox.ctp:4
+#: View/Elements/previewBox.ctp:5
 msgid "This blend is a Staff Pick!"
 msgstr ""
 
-#: View/Elements/previewBox.ctp:8
+#: View/Elements/previewBox.ctp:9
 msgid "Preview 1"
 msgstr ""
 
@@ -2918,6 +2922,7 @@ msgid "The blend and its files will be completely unavailable.\\nThis will not w
 msgstr ""
 
 #: View/Elements/bars/request_actions.ctp:21
+#: View/Requests/view.ctp:83
 msgid "Add your Blend Response"
 msgstr ""
 
@@ -2930,18 +2935,22 @@ msgid "Manage Images"
 msgstr ""
 
 #: View/Elements/bars/request_actions.ctp:61
+#: View/Requests/view.ctp:111
 msgid "Close Request"
 msgstr ""
 
 #: View/Elements/bars/request_actions.ctp:64
+#: View/Requests/view.ctp:114
 msgid "This Blend Request will be closed to new answers. Are you sure?"
 msgstr ""
 
 #: View/Elements/bars/request_actions.ctp:66
+#: View/Requests/view.ctp:118
 msgid "Re-Open Request"
 msgstr ""
 
 #: View/Elements/bars/request_actions.ctp:68
+#: View/Requests/view.ctp:120
 msgid "Click here to enable answers for this Request"
 msgstr ""
 
@@ -3885,7 +3894,7 @@ msgstr ""
 msgid "Admin Add Request"
 msgstr ""
 
-#: View/Requests/admin_edit.ctp:4
+#: View/Requests/admin_edit.ctp:12
 msgid "Admin Edit Request"
 msgstr ""
 
@@ -3911,6 +3920,7 @@ msgid "Requested by"
 msgstr ""
 
 #: View/Requests/index.ctp:31
+#: View/Requests/view.ctp:64
 msgid "Requirements"
 msgstr ""
 
@@ -3918,16 +3928,24 @@ msgstr ""
 msgid "Upload file"
 msgstr ""
 
-#: View/Requests/view.ctp:79
-msgid "There are no answers to this Request yet. Do you have a blend that fulfills this Request?"
+#: View/Requests/view.ctp:43
+msgid "Weekend Challenge"
 msgstr ""
 
-#: View/Requests/view.ctp:87
-msgid "Responders"
+#: View/Requests/view.ctp:74
+msgid "Conflicting requirements can be treated as optional ;)"
 msgstr ""
 
-#: View/Requests/view.ctp:103
-msgid "No one has responded to this request, can you submit an answer?"
+#: View/Requests/view.ctp:86
+msgid "Respond"
+msgstr ""
+
+#: View/Requests/view.ctp:90
+msgid "This request was closed by its owner; nobody can answer it anymore."
+msgstr ""
+
+#: View/Requests/view.ctp:182
+msgid "This request has no responses just yet, can you fulfill it? That would be awesome!"
 msgstr ""
 
 #: View/Requests/rss/index.ctp:4
