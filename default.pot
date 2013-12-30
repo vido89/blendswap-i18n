@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-12-28 14:45-0600\n"
+"POT-Creation-Date: 2013-12-30 09:53-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -945,12 +945,16 @@ msgstr ""
 #: View/Contacts/add.ctp:88
 #: View/Contacts/admin_edit.ctp:17
 #: View/Elements/forms/commentForm.ctp:20
+#: View/Features/admin_add.ctp:11
+#: View/Features/admin_edit.ctp:12
 #: View/Feedbacks/add.ctp:21
 #: View/Feedbacks/admin_edit.ctp:38
 #: View/Items/admin_add.ctp:12
 #: View/Items/admin_edit.ctp:13
 #: View/Limits/admin_add.ctp:12
 #: View/Limits/admin_edit.ctp:13
+#: View/Memberships/admin_add.ctp:15
+#: View/Memberships/admin_edit.ctp:15
 #: View/Messages/add.ctp:12
 #: View/Messages/edit.ctp:13
 #: View/Options/admin_add.ctp:13
@@ -969,6 +973,10 @@ msgstr ""
 #: View/Requests/admin_add.ctp:12
 #: View/Requests/admin_edit.ctp:23
 #: View/Requests/edit.ctp:45
+#: View/Terms/add.ctp:11
+#: View/Terms/admin_add.ctp:12
+#: View/Terms/admin_edit.ctp:13
+#: View/Terms/edit.ctp:12
 #: View/Users/account.ctp:31
 #: View/Users/admin_add.ctp:25
 #: View/Users/admin_edit.ctp:27
@@ -994,6 +1002,10 @@ msgstr ""
 #: View/Contacts/admin_index.ctp:20;62
 #: View/Contacts/admin_view.ctp:87
 #: View/Downloads/admin_index.ctp:11;46
+#: View/Features/admin_add.ctp:14
+#: View/Features/admin_edit.ctp:15
+#: View/Features/admin_index.ctp:10;47
+#: View/Features/admin_view.ctp:32
 #: View/Feedbacks/add.ctp:24
 #: View/Feedbacks/admin_edit.ctp:43
 #: View/Feedbacks/admin_index.ctp:20
@@ -1006,6 +1018,10 @@ msgstr ""
 #: View/Limits/admin_edit.ctp:16
 #: View/Limits/admin_index.ctp:12;48
 #: View/Limits/admin_view.ctp:42
+#: View/Memberships/admin_add.ctp:18
+#: View/Memberships/admin_edit.ctp:18
+#: View/Memberships/admin_index.ctp:25
+#: View/Memberships/admin_view.ctp:47
 #: View/Messages/add.ctp:15
 #: View/Messages/edit.ctp:16
 #: View/Messages/index.ctp:12;48
@@ -1035,6 +1051,14 @@ msgstr ""
 #: View/Requests/admin_index.ctp:15;56
 #: View/Requests/admin_view.ctp:42;65
 #: View/Requests/media.ctp:20
+#: View/Terms/_view.ctp:27
+#: View/Terms/add.ctp:14
+#: View/Terms/admin_add.ctp:15
+#: View/Terms/admin_edit.ctp:16
+#: View/Terms/admin_index.ctp:23
+#: View/Terms/admin_view.ctp:27
+#: View/Terms/edit.ctp:15
+#: View/Terms/index.ctp:9;42
 #: View/Users/account.ctp:34
 #: View/Users/admin_index.ctp:27;79
 #: View/Users/admin_view.ctp:229
@@ -1057,12 +1081,16 @@ msgstr ""
 #: View/Comments/admin_index.ctp:59
 #: View/Contacts/admin_edit.ctp:23
 #: View/Downloads/admin_index.ctp:25
+#: View/Features/admin_edit.ctp:18
+#: View/Features/admin_index.ctp:26
 #: View/Feedbacks/admin_edit.ctp:46
 #: View/Feedbacks/admin_index.ctp:51
 #: View/Items/admin_edit.ctp:19
 #: View/Items/admin_index.ctp:30
 #: View/Limits/admin_edit.ctp:19
 #: View/Limits/admin_index.ctp:27
+#: View/Memberships/admin_edit.ctp:21
+#: View/Memberships/admin_index.ctp:46
 #: View/Messages/edit.ctp:19
 #: View/Messages/index.ctp:27
 #: View/News/admin_index.ctp:41
@@ -1080,6 +1108,10 @@ msgstr ""
 #: View/Requests/admin_index.ctp:35
 #: View/Requests/admin_view.ctp:80
 #: View/Requests/media.ctp:36;40
+#: View/Terms/admin_edit.ctp:19
+#: View/Terms/admin_index.ctp:39
+#: View/Terms/edit.ctp:18
+#: View/Terms/index.ctp:21
 #: View/Users/account.ctp:37
 #: View/Users/admin_index.ctp:58
 #: View/Users/portfolio.ctp:45
@@ -1100,6 +1132,9 @@ msgstr ""
 #: View/Contacts/admin_index.ctp:41
 #: View/Contacts/admin_view.ctp:90
 #: View/Downloads/admin_index.ctp:25
+#: View/Features/admin_edit.ctp:18
+#: View/Features/admin_index.ctp:26
+#: View/Features/admin_view.ctp:35
 #: View/Feedbacks/admin_edit.ctp:46
 #: View/Feedbacks/admin_index.ctp:51
 #: View/Feedbacks/admin_view.ctp:90
@@ -1109,6 +1144,9 @@ msgstr ""
 #: View/Limits/admin_edit.ctp:19
 #: View/Limits/admin_index.ctp:27
 #: View/Limits/admin_view.ctp:45
+#: View/Memberships/admin_edit.ctp:21
+#: View/Memberships/admin_index.ctp:46
+#: View/Memberships/admin_view.ctp:50
 #: View/Messages/edit.ctp:19
 #: View/Messages/index.ctp:27
 #: View/Messages/view.ctp:45
@@ -1131,6 +1169,12 @@ msgstr ""
 #: View/Requests/admin_edit.ctp:5
 #: View/Requests/admin_index.ctp:35
 #: View/Requests/admin_view.ctp:45;80
+#: View/Terms/_view.ctp:30
+#: View/Terms/admin_edit.ctp:19
+#: View/Terms/admin_index.ctp:39
+#: View/Terms/admin_view.ctp:30
+#: View/Terms/edit.ctp:18
+#: View/Terms/index.ctp:21
 #: View/Users/account.ctp:37
 #: View/Users/admin_index.ctp:58
 #: View/Users/admin_view.ctp:232
@@ -1147,9 +1191,11 @@ msgstr ""
 #: View/Blends/admin_view.ctp:181;216;279;314;355
 #: View/Comments/admin_index.ctp:54
 #: View/Downloads/admin_index.ctp:23
+#: View/Features/admin_index.ctp:24
 #: View/Feedbacks/admin_index.ctp:49
 #: View/Items/admin_index.ctp:28
 #: View/Limits/admin_index.ctp:25
+#: View/Memberships/admin_index.ctp:44
 #: View/Messages/index.ctp:25
 #: View/News/admin_index.ctp:39
 #: View/Options/admin_index.ctp:20
@@ -1160,6 +1206,8 @@ msgstr ""
 #: View/Reports/admin_index.ctp:39
 #: View/Requests/admin_index.ctp:33
 #: View/Requests/admin_view.ctp:78
+#: View/Terms/admin_index.ctp:37
+#: View/Terms/index.ctp:19
 #: View/Users/admin_index.ctp:56
 msgid "View"
 msgstr ""
@@ -1170,9 +1218,11 @@ msgstr ""
 #: View/Blends/admin_view.ctp:182;217;280;315;356
 #: View/Comments/admin_index.ctp:58
 #: View/Downloads/admin_index.ctp:24
+#: View/Features/admin_index.ctp:25
 #: View/Feedbacks/admin_index.ctp:50
 #: View/Items/admin_index.ctp:29
 #: View/Limits/admin_index.ctp:26
+#: View/Memberships/admin_index.ctp:45
 #: View/Messages/index.ctp:26
 #: View/News/admin_index.ctp:40
 #: View/Options/admin_index.ctp:21
@@ -1185,6 +1235,8 @@ msgstr ""
 #: View/Reports/admin_index.ctp:40
 #: View/Requests/admin_index.ctp:34
 #: View/Requests/admin_view.ctp:79
+#: View/Terms/admin_index.ctp:38
+#: View/Terms/index.ctp:20
 #: View/Users/admin_index.ctp:57
 msgid "Edit"
 msgstr ""
@@ -1199,8 +1251,10 @@ msgstr ""
 #: View/Comments/admin_index.ctp:67
 #: View/Contacts/admin_index.ctp:49
 #: View/Downloads/admin_index.ctp:33
+#: View/Features/admin_index.ctp:34
 #: View/Feedbacks/admin_index.ctp:59
 #: View/Limits/admin_index.ctp:35
+#: View/Memberships/admin_index.ctp:54
 #: View/Messages/index.ctp:35
 #: View/News/admin_index.ctp:49
 #: View/Options/admin_index.ctp:32
@@ -1212,6 +1266,10 @@ msgstr ""
 #: View/Reports/index.ctp:26
 #: View/Requests/admin_index.ctp:43
 #: View/Requests/index.ctp:53
+#: View/Terms/admin_index.ctp:47
+#: View/Terms/category.ctp:25
+#: View/Terms/index.ctp:29
+#: View/Terms/tag.ctp:25
 #: View/Users/admin_index.ctp:66
 #: View/Users/featured.ctp:53
 msgid "Page {:page} of {:pages}, showing {:current} out of {:count} total."
@@ -1229,9 +1287,11 @@ msgstr ""
 #: View/Comments/admin_index.ctp:73
 #: View/Contacts/admin_index.ctp:55
 #: View/Downloads/admin_index.ctp:39
+#: View/Features/admin_index.ctp:40
 #: View/Feedbacks/admin_index.ctp:65
 #: View/Items/admin_index.ctp:43
 #: View/Limits/admin_index.ctp:41
+#: View/Memberships/admin_index.ctp:60
 #: View/Messages/index.ctp:41
 #: View/News/admin_index.ctp:55
 #: View/News/index.ctp:46
@@ -1245,6 +1305,10 @@ msgstr ""
 #: View/Reports/index.ctp:32
 #: View/Requests/admin_index.ctp:49
 #: View/Requests/index.ctp:57
+#: View/Terms/admin_index.ctp:53
+#: View/Terms/category.ctp:32
+#: View/Terms/index.ctp:35
+#: View/Terms/tag.ctp:32
 #: View/Users/admin_index.ctp:72
 #: View/Users/featured.ctp:60
 #: View/Users/forhire.ctp:42
@@ -1264,9 +1328,11 @@ msgstr ""
 #: View/Comments/admin_index.ctp:75
 #: View/Contacts/admin_index.ctp:57
 #: View/Downloads/admin_index.ctp:41
+#: View/Features/admin_index.ctp:42
 #: View/Feedbacks/admin_index.ctp:67
 #: View/Items/admin_index.ctp:45
 #: View/Limits/admin_index.ctp:43
+#: View/Memberships/admin_index.ctp:62
 #: View/Messages/index.ctp:43
 #: View/News/admin_index.ctp:57
 #: View/News/index.ctp:48
@@ -1280,6 +1346,10 @@ msgstr ""
 #: View/Reports/index.ctp:34
 #: View/Requests/admin_index.ctp:51
 #: View/Requests/index.ctp:59
+#: View/Terms/admin_index.ctp:55
+#: View/Terms/category.ctp:34
+#: View/Terms/index.ctp:37
+#: View/Terms/tag.ctp:34
 #: View/Users/admin_index.ctp:74
 #: View/Users/featured.ctp:62
 #: View/Users/forhire.ctp:44
@@ -1302,24 +1372,30 @@ msgstr ""
 #: View/Answers/admin_view.ctp:4
 #: View/Blends/admin_view.ctp:4;142;201;236;299;334
 #: View/Comments/admin_view.ctp:4
+#: View/Features/admin_view.ctp:4
 #: View/Feedbacks/admin_view.ctp:4
 #: View/Items/admin_view.ctp:4
 #: View/Limits/admin_view.ctp:4
+#: View/Memberships/admin_view.ctp:4
 #: View/Messages/view.ctp:4
 #: View/Options/admin_view.ctp:4
 #: View/Profiles/admin_view.ctp:4
 #: View/Questions/admin_view.ctp:4
 #: View/Reports/view.ctp:4
 #: View/Requests/admin_view.ctp:4;59
+#: View/Terms/_view.ctp:4
+#: View/Terms/admin_view.ctp:4
 msgid "Id"
 msgstr ""
 
 #: View/Answers/admin_view.ctp:9
 #: View/Blends/admin_view.ctp:59;155;237;338
 #: View/Comments/admin_view.ctp:29
+#: View/Features/admin_view.ctp:9
 #: View/Feedbacks/admin_view.ctp:69
 #: View/Items/admin_view.ctp:24
 #: View/Limits/admin_view.ctp:14
+#: View/Memberships/admin_view.ctp:9
 #: View/Messages/view.ctp:29
 #: View/Profiles/admin_view.ctp:29
 #: View/Questions/admin_view.ctp:9
@@ -1331,9 +1407,11 @@ msgstr ""
 #: View/Answers/admin_view.ctp:14
 #: View/Blends/admin_view.ctp:64;156;238;339
 #: View/Comments/admin_view.ctp:34
+#: View/Features/admin_view.ctp:14
 #: View/Feedbacks/admin_view.ctp:74
 #: View/Items/admin_view.ctp:29
 #: View/Limits/admin_view.ctp:19
+#: View/Memberships/admin_view.ctp:14
 #: View/Messages/view.ctp:34
 #: View/Profiles/admin_view.ctp:34
 #: View/Questions/admin_view.ctp:14
@@ -1361,6 +1439,8 @@ msgstr ""
 #: View/Blends/media.ctp:25
 #: View/Comments/admin_view.ctp:49
 #: View/Feedbacks/admin_view.ctp:49
+#: View/Memberships/admin_view.ctp:39
+#: View/Memberships/manage.ctp:17
 #: View/Messages/view.ctp:24
 #: View/Requests/admin_view.ctp:34;64
 #: View/Users/bandwidth.ctp:104
@@ -1530,6 +1610,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:29
 #: View/Blends/edit.ctp:10
+#: View/Features/admin_view.ctp:19
 #: View/Options/admin_view.ctp:19
 msgid "Description"
 msgstr ""
@@ -1730,6 +1811,8 @@ msgstr ""
 #: View/Blends/search.ctp:36
 #: View/Collections/index.ctp:49
 #: View/Collections/view.ctp:20
+#: View/Terms/category.ctp:31
+#: View/Terms/tag.ctp:31
 #: View/Users/featured.ctp:59
 #: View/Users/forhire.ctp:41
 msgid "First Page"
@@ -1740,6 +1823,8 @@ msgstr ""
 #: View/Blends/search.ctp:40
 #: View/Collections/index.ctp:53
 #: View/Collections/view.ctp:24
+#: View/Terms/category.ctp:35
+#: View/Terms/tag.ctp:35
 #: View/Users/featured.ctp:63
 #: View/Users/forhire.ctp:45
 msgid "Last Page"
@@ -1758,6 +1843,8 @@ msgid "Title"
 msgstr ""
 
 #: View/Blends/admin_view.ctp:19
+#: View/Terms/_view.ctp:14
+#: View/Terms/admin_view.ctp:14
 msgid "Slug"
 msgstr ""
 
@@ -1774,6 +1861,8 @@ msgstr ""
 #: View/Blends/admin_view.ctp:34;245
 #: View/Items/admin_view.ctp:34
 #: View/Messages/view.ctp:19
+#: View/Terms/_view.ctp:19
+#: View/Terms/admin_view.ctp:19
 msgid "Type"
 msgstr ""
 
@@ -1861,8 +1950,10 @@ msgid "Object Id"
 msgstr ""
 
 #: View/Blends/admin_view.ctp:144;239;337
+#: View/Features/admin_view.ctp:24
 #: View/Items/admin_view.ctp:19
 #: View/Limits/admin_view.ctp:9
+#: View/Memberships/admin_view.ctp:24
 #: View/Messages/view.ctp:9
 #: View/Profiles/admin_view.ctp:9
 #: View/Questions/admin_view.ctp:19
@@ -2030,6 +2121,8 @@ msgstr ""
 #: View/Blends/search.ctp:9
 #: View/Blends/user.ctp:5
 #: View/Requests/index.ctp:6
+#: View/Terms/category.ctp:5
+#: View/Terms/tag.ctp:5
 msgid "Edit Date"
 msgstr ""
 
@@ -2317,6 +2410,7 @@ msgid "If you can not find an answer, please %s and tell us your question, we ar
 msgstr ""
 
 #: View/Docs/gethelp.ctp:40
+#: View/Memberships/manage.ctp:42
 #: View/Users/freeze.ctp:30
 msgid "contact us"
 msgstr ""
@@ -2402,7 +2496,7 @@ msgid "here"
 msgstr ""
 
 #: View/Docs/gethelp.ctp:121
-msgid "I need ot get in touch with the Blend Swap owner or admins"
+msgid "I need to get in touch with the Blend Swap owner or admins"
 msgstr ""
 
 #: View/Docs/gethelp.ctp:125
@@ -2929,6 +3023,90 @@ msgstr ""
 msgid "Yearly Associate"
 msgstr ""
 
+#: View/Elements/placeholder.ctp:97
+msgid "The object you are assigning media to is not supported."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:98
+msgid "Some of the data passed to the media manager is wrong, please tell the admins you saw this when uploading a file. "
+msgstr ""
+
+#: View/Elements/placeholder.ctp:99
+msgid "FILE TYPE OF %s NOT SUPPORTED. "
+msgstr ""
+
+#: View/Elements/placeholder.ctp:100
+msgid "AN UNKOWN ERROR OCCURED WHILE PROCESSING YOUR FILE."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:101
+msgid "THE FILE %s WAS NOT PROCESSED, PLEASE TRY AGAIN."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:102
+msgid "AN ERROR HAPPENED WHILE CROPPING THE ORIGINAL IMAGE."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:103
+msgid "The image %s is too small, your images must be at least 720 px wide and 440px tall."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:104
+msgid "AN ERROR OCURRED WHEN OPENING YOUR ZIP FILE."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:105
+msgid "We found at least one blend file in your zip."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:106
+msgid "We found at least one Blender theme .xml file in your zip."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:107
+msgid "WE COULD NOT FIND A SINGLE BLEND OR THEME FILE IN YOUR ZIP,"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:108
+msgid "PLEASE MAKE SURE YOU ARE NOT UPLOADING .blend1+ FILES"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:109
+msgid "THERE WAS AN ERROR WHILE UNPACKING YOUR BLEND FILE. MAYBE IT HAS A PASSWORD?"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:110
+msgid "Your files were re-packed successfully."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:111
+msgid "AN ERROR OCURRED AND THE FILE WAS NOT RE-PACKED."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:112
+msgid "ERROR WHILE OPENING THE DESTINATION ZIP FILE FOR WRITING."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:113
+msgid "Ignoring %s, file type not supported."
+msgstr ""
+
+#: View/Elements/placeholder.ctp:114
+msgid "The new %s file was processed and added successfully to the database!"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:115
+msgid "License updated correctly"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:116
+msgid "Error when updating the license file"
+msgstr ""
+
+#: View/Elements/placeholder.ctp:117
+msgid "Impossible to form license file name, no object was passed"
+msgstr ""
+
 #: View/Elements/previewBox.ctp:5
 msgid "This blend is a Staff Pick!"
 msgstr ""
@@ -3275,6 +3453,7 @@ msgstr ""
 #: View/Elements/menus/topMenu.ctp:355
 #: View/Elements/nags/become_associate.ctp:17
 #: View/Elements/navs/usernav.ctp:216
+#: View/Memberships/manage.ctp:110
 msgid "Upgrade Now!"
 msgstr ""
 
@@ -3389,6 +3568,41 @@ msgstr ""
 
 #: View/Elements/navs/usernav.ctp:182
 msgid "Change Password"
+msgstr ""
+
+#: View/Features/admin_add.ctp:4
+msgid "Admin Add Feature"
+msgstr ""
+
+#: View/Features/admin_add.ctp:17
+#: View/Features/admin_edit.ctp:19
+#: View/Features/admin_view.ctp:36
+msgid "List Features"
+msgstr ""
+
+#: View/Features/admin_edit.ctp:4
+msgid "Admin Edit Feature"
+msgstr ""
+
+#: View/Features/admin_index.ctp:2
+msgid "Features"
+msgstr ""
+
+#: View/Features/admin_index.ctp:49
+#: View/Features/admin_view.ctp:37
+msgid "New Feature"
+msgstr ""
+
+#: View/Features/admin_view.ctp:2
+msgid "Feature"
+msgstr ""
+
+#: View/Features/admin_view.ctp:34
+msgid "Edit Feature"
+msgstr ""
+
+#: View/Features/admin_view.ctp:35
+msgid "Delete Feature"
 msgstr ""
 
 #: View/Feedbacks/add.ctp:4
@@ -3604,6 +3818,114 @@ msgstr ""
 
 #: View/Limits/admin_view.ctp:45
 msgid "Delete Limit"
+msgstr ""
+
+#: View/Memberships/admin_add.ctp:4
+msgid "Admin Add Membership"
+msgstr ""
+
+#: View/Memberships/admin_add.ctp:20
+#: View/Memberships/admin_edit.ctp:22
+#: View/Memberships/admin_view.ctp:51
+msgid "List Memberships"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:4
+msgid "Admin Edit Membership"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:2
+msgid "Memberships"
+msgstr ""
+
+#: View/Memberships/admin_view.ctp:2
+msgid "Membership"
+msgstr ""
+
+#: View/Memberships/admin_view.ctp:19
+#: View/Memberships/manage.ctp:57
+#: View/Users/bandwidth.ctp:65
+msgid "Expires"
+msgstr ""
+
+#: View/Memberships/admin_view.ctp:29
+msgid "Plan Id"
+msgstr ""
+
+#: View/Memberships/admin_view.ctp:34
+msgid "Method"
+msgstr ""
+
+#: View/Memberships/admin_view.ctp:49
+msgid "Edit Membership"
+msgstr ""
+
+#: View/Memberships/admin_view.ctp:50
+msgid "Delete Membership"
+msgstr ""
+
+#: View/Memberships/admin_view.ctp:52
+msgid "New Membership"
+msgstr ""
+
+#: View/Memberships/manage.ctp:5
+msgid "Manage membership"
+msgstr ""
+
+#: View/Memberships/manage.ctp:8
+msgid "You currently have a %s membership attached to your account"
+msgstr ""
+
+#: View/Memberships/manage.ctp:26
+msgid "We are waiting for confirmation of your payment on PayPal, sometimes they take a little longer than expected, don't panic"
+msgstr ""
+
+#: View/Memberships/manage.ctp:33
+msgid "Created on"
+msgstr ""
+
+#: View/Memberships/manage.ctp:39
+msgid "If you didn't pay for this membership it will be removed from this panel after one week without payment"
+msgstr ""
+
+#: View/Memberships/manage.ctp:42
+msgid "If you actually paid for this membership, please %s so we can solve the issue as soon as possible."
+msgstr ""
+
+#: View/Memberships/manage.ctp:49
+msgid "Last modified on"
+msgstr ""
+
+#: View/Memberships/manage.ctp:66
+msgid "Remember"
+msgstr ""
+
+#: View/Memberships/manage.ctp:67
+msgid "Paid memberships are disabled from %s"
+msgstr ""
+
+#: View/Memberships/manage.ctp:68
+msgid "Once they are deactivated we will not receive any more payments and your membership is left to expire"
+msgstr ""
+
+#: View/Memberships/manage.ctp:69
+msgid "Show me how"
+msgstr ""
+
+#: View/Memberships/manage.ctp:74
+msgid "Payments log"
+msgstr ""
+
+#: View/Memberships/manage.ctp:98
+msgid "yes"
+msgstr ""
+
+#: View/Memberships/manage.ctp:98
+msgid "no"
+msgstr ""
+
+#: View/Memberships/manage.ctp:107
+msgid "Currently you do not have an active membership attached to your account. Are you interested in getting one?"
 msgstr ""
 
 #: View/Messages/add.ctp:4
@@ -4021,6 +4343,67 @@ msgstr ""
 msgid "The latest Requests on Blend Swap."
 msgstr ""
 
+#: View/Terms/_view.ctp:2
+#: View/Terms/admin_view.ctp:2
+msgid "Term"
+msgstr ""
+
+#: View/Terms/_view.ctp:9
+#: View/Terms/admin_view.ctp:9
+msgid "Name"
+msgstr ""
+
+#: View/Terms/_view.ctp:29
+#: View/Terms/admin_view.ctp:29
+#: View/Terms/edit.ctp:4
+msgid "Edit Term"
+msgstr ""
+
+#: View/Terms/_view.ctp:30
+#: View/Terms/admin_view.ctp:30
+msgid "Delete Term"
+msgstr ""
+
+#: View/Terms/_view.ctp:31
+#: View/Terms/add.ctp:17
+#: View/Terms/admin_add.ctp:18
+#: View/Terms/admin_edit.ctp:20
+#: View/Terms/admin_view.ctp:31
+#: View/Terms/edit.ctp:19
+msgid "List Terms"
+msgstr ""
+
+#: View/Terms/_view.ctp:32
+#: View/Terms/admin_index.ctp:15
+#: View/Terms/admin_view.ctp:32
+#: View/Terms/index.ctp:44
+msgid "New Term"
+msgstr ""
+
+#: View/Terms/add.ctp:4
+msgid "Add Term"
+msgstr ""
+
+#: View/Terms/admin_add.ctp:4
+msgid "Admin Add Term"
+msgstr ""
+
+#: View/Terms/admin_edit.ctp:4
+msgid "Admin Edit Term"
+msgstr ""
+
+#: View/Terms/index.ctp:2
+msgid "Terms"
+msgstr ""
+
+#: View/Terms/rss/category.ctp:4
+msgid "Newest Blends under \"%s\""
+msgstr ""
+
+#: View/Terms/rss/category.ctp:6
+msgid "The latest blends on Blend Swap under the \"%s\" category."
+msgstr ""
+
 #: View/Users/account.ctp:4
 #: View/Users/admin_view.ctp:231
 msgid "Edit User"
@@ -4100,10 +4483,6 @@ msgstr ""
 
 #: View/Users/bandwidth.ctp:61
 msgid "Initialized"
-msgstr ""
-
-#: View/Users/bandwidth.ctp:65
-msgid "Expires"
 msgstr ""
 
 #: View/Users/bandwidth.ctp:78
