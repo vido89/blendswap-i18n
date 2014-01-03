@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-12-30 09:53-0600\n"
+"POT-Creation-Date: 2014-01-02 19:31-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,144 +14,120 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/AtomsController.php:32;76;102
-msgid "Invalid atom"
-msgstr ""
-
-#: Controller/AtomsController.php:59;80
-msgid "The atom has been saved"
-msgstr ""
-
-#: Controller/AtomsController.php:61;83
-msgid "The atom could not be saved. Please, try again."
-msgstr ""
-
-#: Controller/AtomsController.php:105
-msgid "Atom deleted"
-msgstr ""
-
-#: Controller/AtomsController.php:108
-msgid "Atom was not deleted"
-msgstr ""
-
-#: Controller/BadgesController.php:38;80;111;137
+#: Controller/BadgesController.php:42;84;115;141
 msgid "Invalid badge"
 msgstr ""
 
-#: Controller/BadgesController.php:94;115
+#: Controller/BadgesController.php:98;119
 msgid "The badge has been saved"
 msgstr ""
 
-#: Controller/BadgesController.php:97;118
+#: Controller/BadgesController.php:101;122
 msgid "The badge could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/BadgesController.php:140
+#: Controller/BadgesController.php:144
 msgid "Badge deleted"
 msgstr ""
 
-#: Controller/BadgesController.php:143
+#: Controller/BadgesController.php:147
 msgid "Badge was not deleted"
 msgstr ""
 
-#: Controller/BlendsController.php:128
+#: Controller/BlendsController.php:201
 #: View/Elements/menus/topMenu.ctp:113
 msgid "Staff Picks"
 msgstr ""
 
-#: Controller/BlendsController.php:194;216;1020;1044;1073
+#: Controller/BlendsController.php:268;290;1049;1073;1102
 msgid "Invalid blend"
 msgstr ""
 
-#: Controller/BlendsController.php:369
+#: Controller/BlendsController.php:374
 msgid "We are preparing to update the site's back end software, so we have disabled uploads for now. Sorry for the inconvenience."
 msgstr ""
 
-#: Controller/BlendsController.php:410
+#: Controller/BlendsController.php:415
 msgid "Your blend was successfully saved and is now waiting for moderation."
 msgstr ""
 
-#: Controller/BlendsController.php:411
+#: Controller/BlendsController.php:416
 msgid " Please be patient, moderation can take anything between a few minutes to an entire day."
 msgstr ""
 
-#: Controller/BlendsController.php:415
+#: Controller/BlendsController.php:420
 msgid "Your blend was also added as a response to %s"
 msgstr ""
 
-#: Controller/BlendsController.php:425
+#: Controller/BlendsController.php:430
 msgid "The blend was not saved, please review any omissions below and try again. And do not forget to re-select your files"
 msgstr ""
 
-#: Controller/BlendsController.php:493
+#: Controller/BlendsController.php:515
 msgid "The requested blend does not exist."
 msgstr ""
 
-#: Controller/BlendsController.php:512
+#: Controller/BlendsController.php:534
 msgid "The new blend data was saved successfully"
 msgstr ""
 
-#: Controller/BlendsController.php:514
+#: Controller/BlendsController.php:536
 msgid "The blend was saved, but its categories and tags failed to save"
 msgstr ""
 
-#: Controller/BlendsController.php:517
+#: Controller/BlendsController.php:539
 msgid "The blend was not saved, please try again."
 msgstr ""
 
-#: Controller/BlendsController.php:598
+#: Controller/BlendsController.php:629
 msgid "The blend has been published, thanks for completing it!"
 msgstr ""
 
-#: Controller/BlendsController.php:602
+#: Controller/BlendsController.php:633
 msgid "The blend was updated, thanks for completing it. it is now waiting for moderation."
 msgstr ""
 
-#: Controller/BlendsController.php:1048
+#: Controller/BlendsController.php:1077
 msgid "The blend has been saved"
 msgstr ""
 
-#: Controller/BlendsController.php:1052
+#: Controller/BlendsController.php:1081
 msgid "The blend could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/BlendsController.php:1076
+#: Controller/BlendsController.php:1105
 msgid "Blend deleted"
 msgstr ""
 
-#: Controller/BlendsController.php:1079
+#: Controller/BlendsController.php:1108
 msgid "Blend was not deleted"
 msgstr ""
 
-#: Controller/BlendsController.php:1099
+#: Controller/BlendsController.php:1130
 msgid "The blend was removed from all lists. We will preserve copy of all the data for archival purposes."
 msgstr ""
 
-#: Controller/BlendsController.php:1102
+#: Controller/BlendsController.php:1133
 msgid "There was an error while removing the blend from all listings, please try again and report if this error repeats."
 msgstr ""
 
-#: Controller/BlendsController.php:1105
-msgid "This blend is published! Only an admin can take it down, please get in touch with the site admins to let them know why you want this blend taken down."
-msgstr ""
-
-#: Controller/ChatsController.php:56;185;214
+#: Controller/ChatsController.php:60;189;218
 msgid "Invalid chat"
 msgstr ""
 
-#: Controller/ChatsController.php:189
+#: Controller/ChatsController.php:193
 msgid "The chat has been saved"
 msgstr ""
 
-#: Controller/ChatsController.php:192
+#: Controller/ChatsController.php:196
 msgid "The chat could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/ChatsController.php:219
+#: Controller/ChatsController.php:223
 msgid "Chat deleted"
 msgstr ""
 
-#: Controller/ChatsController.php:222
+#: Controller/ChatsController.php:226
 msgid "Chat was not deleted"
 msgstr ""
 
@@ -231,6 +207,7 @@ msgstr ""
 #: Controller/CollectionsController.php:483
 #: View/App/home.ctp:57
 #: View/Elements/placeholder.ctp:94
+#: View/Events/home.ctp:57
 msgid "Free Account"
 msgstr ""
 
@@ -402,6 +379,26 @@ msgstr ""
 msgid "What's the deal with all this \"giving credits\" thing?"
 msgstr ""
 
+#: Controller/EventsController.php:149;193;219
+msgid "Invalid event"
+msgstr ""
+
+#: Controller/EventsController.php:176;197
+msgid "The event has been saved"
+msgstr ""
+
+#: Controller/EventsController.php:178;200
+msgid "The event could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EventsController.php:222
+msgid "Event deleted"
+msgstr ""
+
+#: Controller/EventsController.php:225
+msgid "Event was not deleted"
+msgstr ""
+
 #: Controller/FeaturesController.php:31;63;91
 msgid "Invalid feature"
 msgstr ""
@@ -462,15 +459,15 @@ msgstr ""
 msgid "Limit was not deleted"
 msgstr ""
 
-#: Controller/LimitsController.php:203
+#: Controller/LimitsController.php:150
 msgid "Your bandwidth was recalculated"
 msgstr ""
 
-#: Controller/LimitsController.php:203
+#: Controller/LimitsController.php:150
 msgid "No changes were made to your bandwidth limit."
 msgstr ""
 
-#: Controller/LimitsController.php:205
+#: Controller/LimitsController.php:151
 msgid "You made %d downloads that can be counted on that month, totaling %d Megabytes. %s"
 msgstr ""
 
@@ -558,23 +555,23 @@ msgstr ""
 msgid "Error! The option was not deleted"
 msgstr ""
 
-#: Controller/PagesController.php:120;126;131;175;213
+#: Controller/PagesController.php:116;122;127;162;196
 msgid "Invalid page"
 msgstr ""
 
-#: Controller/PagesController.php:148
+#: Controller/PagesController.php:144
 msgid "The page has been saved"
 msgstr ""
 
-#: Controller/PagesController.php:151;189
+#: Controller/PagesController.php:147;176
 msgid "The page could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/PagesController.php:216
+#: Controller/PagesController.php:199
 msgid "Page deleted"
 msgstr ""
 
-#: Controller/PagesController.php:219
+#: Controller/PagesController.php:202
 msgid "Page was not deleted"
 msgstr ""
 
@@ -831,7 +828,7 @@ msgstr ""
 msgid "Userbadge was not deleted"
 msgstr ""
 
-#: Controller/UsersController.php:271;1226;1258;1285
+#: Controller/UsersController.php:271;1223;1255;1282
 msgid "Invalid user"
 msgstr ""
 
@@ -879,35 +876,35 @@ msgstr ""
 msgid "Captcha was incorrect please try again."
 msgstr ""
 
-#: Controller/UsersController.php:1241;1263
+#: Controller/UsersController.php:1238;1260
 msgid "The user has been saved"
 msgstr ""
 
-#: Controller/UsersController.php:1244;1266
+#: Controller/UsersController.php:1241;1263
 msgid "The user could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:1288
+#: Controller/UsersController.php:1285
 msgid "User deleted"
 msgstr ""
 
-#: Controller/UsersController.php:1291
+#: Controller/UsersController.php:1288
 msgid "User was not deleted"
 msgstr ""
 
-#: Controller/UsersController.php:1590
+#: Controller/UsersController.php:1587
 msgid "You have been logged out from Blend Swap. Your password was changed to a very long and random string. You can reactivate your account by resetting your password."
 msgstr ""
 
-#: Controller/UsersController.php:1594
+#: Controller/UsersController.php:1591
 msgid "Error while saving your account."
 msgstr ""
 
-#: Controller/UsersController.php:1649
+#: Controller/UsersController.php:1646
 msgid "One or both files failed to upload. Please take some time to repair your entry.<br>"
 msgstr ""
 
-#: Controller/UsersController.php:1655
+#: Controller/UsersController.php:1652
 msgid "Manage Portfolio"
 msgstr ""
 
@@ -945,6 +942,8 @@ msgstr ""
 #: View/Contacts/add.ctp:88
 #: View/Contacts/admin_edit.ctp:17
 #: View/Elements/forms/commentForm.ctp:20
+#: View/Events/admin_add.ctp:18
+#: View/Events/admin_edit.ctp:16
 #: View/Features/admin_add.ctp:11
 #: View/Features/admin_edit.ctp:12
 #: View/Feedbacks/add.ctp:21
@@ -1002,6 +1001,10 @@ msgstr ""
 #: View/Contacts/admin_index.ctp:20;62
 #: View/Contacts/admin_view.ctp:87
 #: View/Downloads/admin_index.ctp:11;46
+#: View/Events/admin_add.ctp:21
+#: View/Events/admin_edit.ctp:19
+#: View/Events/admin_index.ctp:13;52
+#: View/Events/admin_view.ctp:72
 #: View/Features/admin_add.ctp:14
 #: View/Features/admin_edit.ctp:15
 #: View/Features/admin_index.ctp:10;47
@@ -1081,6 +1084,9 @@ msgstr ""
 #: View/Comments/admin_index.ctp:59
 #: View/Contacts/admin_edit.ctp:23
 #: View/Downloads/admin_index.ctp:25
+#: View/Events/admin_edit.ctp:22
+#: View/Events/admin_index.ctp:31
+#: View/Events/index.ctp:49
 #: View/Features/admin_edit.ctp:18
 #: View/Features/admin_index.ctp:26
 #: View/Feedbacks/admin_edit.ctp:46
@@ -1132,6 +1138,9 @@ msgstr ""
 #: View/Contacts/admin_index.ctp:41
 #: View/Contacts/admin_view.ctp:90
 #: View/Downloads/admin_index.ctp:25
+#: View/Events/admin_edit.ctp:22
+#: View/Events/admin_index.ctp:31
+#: View/Events/admin_view.ctp:75
 #: View/Features/admin_edit.ctp:18
 #: View/Features/admin_index.ctp:26
 #: View/Features/admin_view.ctp:35
@@ -1191,6 +1200,7 @@ msgstr ""
 #: View/Blends/admin_view.ctp:181;216;279;314;355
 #: View/Comments/admin_index.ctp:54
 #: View/Downloads/admin_index.ctp:23
+#: View/Events/admin_index.ctp:29
 #: View/Features/admin_index.ctp:24
 #: View/Feedbacks/admin_index.ctp:49
 #: View/Items/admin_index.ctp:28
@@ -1218,6 +1228,8 @@ msgstr ""
 #: View/Blends/admin_view.ctp:182;217;280;315;356
 #: View/Comments/admin_index.ctp:58
 #: View/Downloads/admin_index.ctp:24
+#: View/Events/admin_index.ctp:30
+#: View/Events/index.ctp:47
 #: View/Features/admin_index.ctp:25
 #: View/Feedbacks/admin_index.ctp:50
 #: View/Items/admin_index.ctp:29
@@ -1251,6 +1263,7 @@ msgstr ""
 #: View/Comments/admin_index.ctp:67
 #: View/Contacts/admin_index.ctp:49
 #: View/Downloads/admin_index.ctp:33
+#: View/Events/admin_index.ctp:39
 #: View/Features/admin_index.ctp:34
 #: View/Feedbacks/admin_index.ctp:59
 #: View/Limits/admin_index.ctp:35
@@ -1287,6 +1300,7 @@ msgstr ""
 #: View/Comments/admin_index.ctp:73
 #: View/Contacts/admin_index.ctp:55
 #: View/Downloads/admin_index.ctp:39
+#: View/Events/admin_index.ctp:45
 #: View/Features/admin_index.ctp:40
 #: View/Feedbacks/admin_index.ctp:65
 #: View/Items/admin_index.ctp:43
@@ -1328,6 +1342,7 @@ msgstr ""
 #: View/Comments/admin_index.ctp:75
 #: View/Contacts/admin_index.ctp:57
 #: View/Downloads/admin_index.ctp:41
+#: View/Events/admin_index.ctp:47
 #: View/Features/admin_index.ctp:42
 #: View/Feedbacks/admin_index.ctp:67
 #: View/Items/admin_index.ctp:45
@@ -1372,6 +1387,7 @@ msgstr ""
 #: View/Answers/admin_view.ctp:4
 #: View/Blends/admin_view.ctp:4;142;201;236;299;334
 #: View/Comments/admin_view.ctp:4
+#: View/Events/admin_view.ctp:4
 #: View/Features/admin_view.ctp:4
 #: View/Feedbacks/admin_view.ctp:4
 #: View/Items/admin_view.ctp:4
@@ -1391,6 +1407,7 @@ msgstr ""
 #: View/Answers/admin_view.ctp:9
 #: View/Blends/admin_view.ctp:59;155;237;338
 #: View/Comments/admin_view.ctp:29
+#: View/Events/admin_view.ctp:14
 #: View/Features/admin_view.ctp:9
 #: View/Feedbacks/admin_view.ctp:69
 #: View/Items/admin_view.ctp:24
@@ -1407,6 +1424,7 @@ msgstr ""
 #: View/Answers/admin_view.ctp:14
 #: View/Blends/admin_view.ctp:64;156;238;339
 #: View/Comments/admin_view.ctp:34
+#: View/Events/admin_view.ctp:19
 #: View/Features/admin_view.ctp:14
 #: View/Feedbacks/admin_view.ctp:74
 #: View/Items/admin_view.ctp:29
@@ -1423,6 +1441,7 @@ msgstr ""
 #: View/Answers/admin_view.ctp:19
 #: View/Blends/admin_view.ctp:9
 #: View/Comments/admin_view.ctp:69
+#: View/Events/admin_view.ctp:9
 #: View/Feedbacks/admin_view.ctp:14
 #: View/Requests/admin_view.ctp:19
 #: View/Users/admin_view.ctp:2
@@ -1443,7 +1462,7 @@ msgstr ""
 #: View/Memberships/manage.ctp:17
 #: View/Messages/view.ctp:24
 #: View/Requests/admin_view.ctp:34;64
-#: View/Users/bandwidth.ctp:104
+#: View/Users/bandwidth.ctp:105
 msgid "Status"
 msgstr ""
 
@@ -1456,140 +1475,173 @@ msgid "Delete Response"
 msgstr ""
 
 #: View/App/dashboard.ctp:5
+#: View/Events/index.ctp:5
 msgid "The Weekend Challenge %s is in progress right now! Can you complete it before Monday?"
 msgstr ""
 
 #: View/App/home.ctp:20
+#: View/Events/home.ctp:20
 #: View/Questions/index.ctp:18
 #: View/Questions/view.ctp:8
 msgid "by"
 msgstr ""
 
 #: View/App/home.ctp:33
+#: View/Events/home.ctp:33
 msgid "and counting"
 msgstr ""
 
 #: View/App/home.ctp:37
+#: View/Events/home.ctp:37
 msgid "We're the one place for Free 3D assets by Blender users for Blender users."
 msgstr ""
 
 #: View/App/home.ctp:40
+#: View/Events/home.ctp:40
 msgid "Blend Swap is a proud community of 3D Artists sharing their work\tand building the greatest Blender based 3D assets library, all free for personal and commercial use."
 msgstr ""
 
 #: View/App/home.ctp:43
+#: View/Events/home.ctp:43
 msgid "Joins us now and get instant access!"
 msgstr ""
 
 #: View/App/home.ctp:47
+#: View/Events/home.ctp:47
 msgid "Check out the features"
 msgstr ""
 
 #: View/App/home.ctp:49
+#: View/Events/home.ctp:49
 #: View/Users/m_login.ctp:15
 msgid "Register now"
 msgstr ""
 
 #: View/App/home.ctp:50
 #: View/Elements/frontend_footer.ctp:103
+#: View/Events/home.ctp:50
 #: View/Pages/welcome.ctp:134
 msgid "Log in"
 msgstr ""
 
 #: View/App/home.ctp:59
+#: View/Events/home.ctp:59
 msgid "Quick limited access for everybody."
 msgstr ""
 
 #: View/App/home.ctp:62
+#: View/Events/home.ctp:62
 msgid "Free forever"
 msgstr ""
 
 #: View/App/home.ctp:63
+#: View/Events/home.ctp:63
 msgid "Download 200 Megabytes a month"
 msgstr ""
 
 #: View/App/home.ctp:64;82
+#: View/Events/home.ctp:64;82
 msgid "Upload your original creations any time"
 msgstr ""
 
 #: View/App/home.ctp:65
+#: View/Events/home.ctp:65
 msgid "One public Blend Collection"
 msgstr ""
 
 #: View/App/home.ctp:66
+#: View/Events/home.ctp:66
 msgid "Message, comment, rate and like."
 msgstr ""
 
 #: View/App/home.ctp:67;85
+#: View/Events/home.ctp:67;85
 msgid "Follow Blends, Requests, and Users"
 msgstr ""
 
 #: View/App/home.ctp:68
+#: View/Events/home.ctp:68
 msgid "Open One Request a Month (Swappers)"
 msgstr ""
 
 #: View/App/home.ctp:69
+#: View/Events/home.ctp:69
 msgid "Up to 24 blends per page"
 msgstr ""
 
 #: View/App/home.ctp:74
+#: View/Events/home.ctp:74
 msgid "Associate Account"
 msgstr ""
 
 #: View/App/home.ctp:77
+#: View/Events/home.ctp:77
 msgid "Enhanced and dedicated power features!"
 msgstr ""
 
 #: View/App/home.ctp:80
+#: View/Events/home.ctp:80
 msgid "Paid subscription of $10/month or $80/year"
 msgstr ""
 
 #: View/App/home.ctp:81
+#: View/Events/home.ctp:81
 msgid "Download all the assets you want!"
 msgstr ""
 
 #: View/App/home.ctp:83
+#: View/Events/home.ctp:83
 msgid "Unlimited & Private Blend Collections"
 msgstr ""
 
 #: View/App/home.ctp:84
+#: View/Events/home.ctp:84
 msgid "Message, comment, rate and like"
 msgstr ""
 
 #: View/App/home.ctp:86
+#: View/Events/home.ctp:86
 msgid "Lightboxed full size previews"
 msgstr ""
 
 #: View/App/home.ctp:87
+#: View/Events/home.ctp:87
 msgid "Open Unlimited Blend Requests"
 msgstr ""
 
-#: View/App/home.ctp:89
+#: View/App/home.ctp:88
+#: View/Events/home.ctp:88
 msgid "Portfolio Gallery"
 msgstr ""
 
-#: View/App/home.ctp:90
+#: View/App/home.ctp:89
+#: View/Events/home.ctp:89
 msgid "Associate Badge in comments"
 msgstr ""
 
-#: View/App/home.ctp:91
+#: View/App/home.ctp:90
+#: View/Events/home.ctp:90
 msgid "For Hire Badge in profile and comments"
 msgstr ""
 
-#: View/App/home.ctp:92
+#: View/App/home.ctp:91
+#: View/Events/home.ctp:91
 msgid "Advanced blend and profile stats"
 msgstr ""
 
-#: View/App/home.ctp:93
+#: View/App/home.ctp:92
+#: View/Events/home.ctp:92
 msgid "More social media fields to link to"
 msgstr ""
 
-#: View/App/home.ctp:94
+#: View/App/home.ctp:93
+#: View/Events/home.ctp:93
 msgid "Up to 48 blends per page"
 msgstr ""
 
-#: View/App/home.ctp:102
+#: View/App/home.ctp:101
 #: View/Elements/menus/topMenu.ctp:452
+#: View/Events/home.ctp:101
 msgid "Register Now"
 msgstr ""
 
@@ -1850,6 +1902,7 @@ msgstr ""
 
 #: View/Blends/admin_view.ctp:24;149;242
 #: View/Comments/admin_view.ctp:39
+#: View/Events/admin_view.ctp:54
 #: View/Feedbacks/admin_view.ctp:39
 #: View/Messages/view.ctp:14
 #: View/Questions/admin_view.ctp:24
@@ -1859,6 +1912,7 @@ msgid "Body"
 msgstr ""
 
 #: View/Blends/admin_view.ctp:34;245
+#: View/Events/admin_view.ctp:34
 #: View/Items/admin_view.ctp:34
 #: View/Messages/view.ctp:19
 #: View/Terms/_view.ctp:19
@@ -1923,7 +1977,7 @@ msgid "Edit Blend"
 msgstr ""
 
 #: View/Blends/admin_view.ctp:120
-#: View/Blends/view.ctp:153;157
+#: View/Blends/view.ctp:153
 #: View/Elements/bars/owner_bar.ctp:44
 msgid "Delete Blend"
 msgstr ""
@@ -1946,6 +2000,7 @@ msgid "Related Comments"
 msgstr ""
 
 #: View/Blends/admin_view.ctp:143;240;300
+#: View/Events/admin_view.ctp:44
 msgid "Object Id"
 msgstr ""
 
@@ -2008,6 +2063,7 @@ msgid "Comment Subscribe"
 msgstr ""
 
 #: View/Blends/admin_view.ctp:157;241;302
+#: View/Events/admin_view.ctp:49
 #: View/Feedbacks/admin_view.ctp:79
 msgid "Object Class"
 msgstr ""
@@ -2214,7 +2270,7 @@ msgid "Blender %s and up"
 msgstr ""
 
 #: View/Blends/view.ctp:116
-#: View/Layouts/frontend.ctp:89
+#: View/Layouts/frontend.ctp:88
 msgid "License"
 msgstr ""
 
@@ -2245,7 +2301,11 @@ msgstr ""
 msgid "Manage Files"
 msgstr ""
 
-#: View/Blends/view.ctp:164
+#: View/Blends/view.ctp:156
+msgid "The blend will be deleted and removed from all indexes and collections,\nand it won't be accessible any more!\n\nAre you sure you want to continue with this action?"
+msgstr ""
+
+#: View/Blends/view.ctp:165
 #: View/Elements/bars/blend_actions.ctp:42
 #: View/Reports/admin_view.ctp:2
 #: View/Reports/view.ctp:2
@@ -2292,7 +2352,7 @@ msgid "Edit Chat"
 msgstr ""
 
 #: View/Chats/inbox.ctp:1
-#: View/Elements/navs/usernav.ctp:73
+#: View/Elements/navs/usernav.ctp:75
 #: View/Messages/index.ctp:2
 msgid "Messages"
 msgstr ""
@@ -2314,7 +2374,6 @@ msgstr ""
 
 #: View/Comments/admin_index.ctp:2
 #: View/Elements/placeholder.ctp:84
-#: View/Elements/navs/usernav.ctp:26
 #: View/Feedbacks/admin_index.ctp:2
 msgid "Comments"
 msgstr ""
@@ -2331,6 +2390,14 @@ msgstr ""
 #: View/Comments/admin_view.ctp:85
 #: View/Feedbacks/admin_view.ctp:90
 msgid "Delete Comment"
+msgstr ""
+
+#: View/Comments/rss/globalfeed.ctp:4
+msgid "Newest Comments"
+msgstr ""
+
+#: View/Comments/rss/globalfeed.ctp:6
+msgid "The latest comments on Comment Swap."
 msgstr ""
 
 #: View/Contacts/admin_edit.ctp:4
@@ -3205,7 +3272,7 @@ msgid "Start"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:12
-#: View/Layouts/frontend.ctp:132
+#: View/Layouts/frontend.ctp:133
 #: View/Pages/welcome.ctp:129
 msgid "Dashboard"
 msgstr ""
@@ -3215,7 +3282,6 @@ msgid "News Blog"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:43
-#: View/Elements/navs/usernav.ctp:19
 #: View/Users/index.ctp:23
 msgid "Blends"
 msgstr ""
@@ -3370,7 +3436,7 @@ msgid "Artists For Hire"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:257
-#: View/Layouts/frontend.ctp:83;84
+#: View/Layouts/frontend.ctp:82;83
 msgid "Search Blends"
 msgstr ""
 
@@ -3414,13 +3480,13 @@ msgstr ""
 msgid "Me"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:308;375
-#: View/Elements/navs/usernav.ctp:89
+#: View/Elements/menus/topMenu.ctp:308
+#: View/Elements/navs/usernav.ctp:91
 msgid "My Profile"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:314;316
-#: View/Elements/navs/usernav.ctp:189
+#: View/Elements/navs/usernav.ctp:191
 #: View/Users/bandwidth.ctp:1
 #: View/Users/view.ctp:91
 msgid "Bandwidth History"
@@ -3452,7 +3518,7 @@ msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:355
 #: View/Elements/nags/become_associate.ctp:17
-#: View/Elements/navs/usernav.ctp:216
+#: View/Elements/navs/usernav.ctp:218
 #: View/Memberships/manage.ctp:110
 msgid "Upgrade Now!"
 msgstr ""
@@ -3466,7 +3532,7 @@ msgid "Become an Associate Member today and enjoy more features and enhancements
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:364
-#: View/Elements/navs/usernav.ctp:174
+#: View/Elements/navs/usernav.ctp:176
 #: View/Users/view.ctp:88
 msgid "Manage Membership"
 msgstr ""
@@ -3480,8 +3546,12 @@ msgstr ""
 msgid "Account & Settings"
 msgstr ""
 
+#: View/Elements/menus/topMenu.ctp:375
+msgid "Edit my account and settings."
+msgstr ""
+
 #: View/Elements/menus/topMenu.ctp:381
-#: View/Elements/navs/usernav.ctp:151
+#: View/Elements/navs/usernav.ctp:153
 #: View/Profiles/admin_view.ctp:94
 #: View/Users/view.ctp:82
 msgid "Edit Profile"
@@ -3492,17 +3562,17 @@ msgid "Edit my profile"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:390;392
-#: View/Elements/navs/usernav.ctp:96
+#: View/Elements/navs/usernav.ctp:98
 msgid "My Blends"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:398;400
-#: View/Elements/navs/usernav.ctp:120
+#: View/Elements/navs/usernav.ctp:122
 msgid "My Collections"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:406;408
-#: View/Elements/navs/usernav.ctp:113
+#: View/Elements/navs/usernav.ctp:115
 msgid "My Likes"
 msgstr ""
 
@@ -3526,48 +3596,89 @@ msgstr ""
 msgid "All Activity"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:34
-msgid "Site News Blog"
-msgstr ""
-
-#: View/Elements/navs/usernav.ctp:41
-msgid "Admin Notifications"
-msgstr ""
-
-#: View/Elements/navs/usernav.ctp:61
+#: View/Elements/navs/usernav.ctp:63
 msgid "Buzz"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:85
+#: View/Elements/navs/usernav.ctp:87
 msgid "My Stuff"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:105
+#: View/Elements/navs/usernav.ctp:107
 msgid "My Badges"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:127
+#: View/Elements/navs/usernav.ctp:129
 msgid "My followers"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:135
+#: View/Elements/navs/usernav.ctp:137
 msgid "Advanced Stats"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:147
+#: View/Elements/navs/usernav.ctp:149
 msgid "Management"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:158
+#: View/Elements/navs/usernav.ctp:160
 msgid "Edit Portfolio"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:165
+#: View/Elements/navs/usernav.ctp:167
 msgid "Account &amp; Settings"
 msgstr ""
 
-#: View/Elements/navs/usernav.ctp:182
+#: View/Elements/navs/usernav.ctp:184
 msgid "Change Password"
+msgstr ""
+
+#: View/Events/admin_add.ctp:4
+msgid "Admin Add Event"
+msgstr ""
+
+#: View/Events/admin_edit.ctp:4
+msgid "Admin Edit Event"
+msgstr ""
+
+#: View/Events/admin_index.ctp:2
+msgid "Events"
+msgstr ""
+
+#: View/Events/admin_index.ctp:54
+#: View/Events/admin_view.ctp:77
+msgid "New Event"
+msgstr ""
+
+#: View/Events/admin_view.ctp:2
+msgid "Event"
+msgstr ""
+
+#: View/Events/admin_view.ctp:24
+msgid "Data"
+msgstr ""
+
+#: View/Events/admin_view.ctp:29
+msgid "Feed Id"
+msgstr ""
+
+#: View/Events/admin_view.ctp:39
+msgid "Href"
+msgstr ""
+
+#: View/Events/admin_view.ctp:59
+msgid "Object Name"
+msgstr ""
+
+#: View/Events/admin_view.ctp:64
+msgid "Img"
+msgstr ""
+
+#: View/Events/admin_view.ctp:74
+msgid "Edit Event"
+msgstr ""
+
+#: View/Events/admin_view.ctp:75
+msgid "Delete Event"
 msgstr ""
 
 #: View/Features/admin_add.ctp:4
@@ -3766,19 +3877,19 @@ msgstr ""
 msgid "Delete Item"
 msgstr ""
 
-#: View/Layouts/frontend.ctp:84
+#: View/Layouts/frontend.ctp:83
 msgid "Change your search criteria!"
 msgstr ""
 
-#: View/Layouts/frontend.ctp:117
+#: View/Layouts/frontend.ctp:116
 msgid "No Fan Art"
 msgstr ""
 
-#: View/Layouts/frontend.ctp:134
+#: View/Layouts/frontend.ctp:135
 msgid "Documentation"
 msgstr ""
 
-#: View/Layouts/frontend.ctp:148
+#: View/Layouts/frontend.ctp:149
 msgid "Sort items by..."
 msgstr ""
 
@@ -4477,7 +4588,7 @@ msgstr ""
 msgid "Extra bandwidth"
 msgstr ""
 
-#: View/Users/bandwidth.ctp:54;58;103
+#: View/Users/bandwidth.ctp:54;58
 msgid "Megabytes"
 msgstr ""
 
