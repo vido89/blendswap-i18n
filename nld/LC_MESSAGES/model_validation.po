@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2014-01-02 19:31-0600\n"
-"PO-Revision-Date: 2014-01-03 20:05+0100\n"
+"PO-Revision-Date: 2014-01-04 11:59+0100\n"
 "Last-Translator: Benny <Benny@GMX.it>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: nl\n"
@@ -76,7 +76,7 @@ msgstr "Kies tot maximaal 4 categorieën."
 
 #: Model/Blend.php:validation for field categories
 msgid "Invalid taxonomiy input."
-msgstr ""
+msgstr "Ongeldige taxonomiy invoer."
 
 #: Model/Blend.php:validation for field change_log
 msgid "Please tell us what you changed in the data or the files."
@@ -225,7 +225,7 @@ msgstr "alfanumeriek"
 
 #: Model/Term.php:validation for field slug
 msgid "unique"
-msgstr ""
+msgstr "uniek"
 
 #: Model/Term.php:validation for field slug
 msgid "validChars"
@@ -275,6 +275,8 @@ msgid ""
 "This email is not allowed because Blend Swap's automated emails are not "
 "received by this domain/server."
 msgstr ""
+"Dit email adres is niet toegestaan omdat Blend Swap's automatische e-mails "
+"niet worden ontvangen door deze domein/server."
 
 #: Model/User.php:validation for field password
 msgid "Must be between 8 and 128 characters long"

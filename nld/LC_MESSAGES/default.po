@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: 2014-01-02 19:31-0600\n"
-"PO-Revision-Date: 2014-01-03 20:05+0100\n"
+"PO-Revision-Date: 2014-01-04 11:56+0100\n"
 "Last-Translator: Benny <Benny@GMX.it>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: nl\n"
@@ -49,29 +49,33 @@ msgid ""
 "We are preparing to update the site's back end software, so we have disabled "
 "uploads for now. Sorry for the inconvenience."
 msgstr ""
+"We zijn bezig de site aan het updaten, hierdoor kunnen we tijdelijk geen "
+"uploads meer aannemen. Sorry voor het ongemak."
 
 #: Controller/BlendsController.php:415
 msgid "Your blend was successfully saved and is now waiting for moderation."
 msgstr ""
+"Uw blend is met succes opgeslagen en wordt binnenkort gecontroleerd voor "
+"goedkeuring."
 
 #: Controller/BlendsController.php:416
 msgid ""
 " Please be patient, moderation can take anything between a few minutes to an "
 "entire day."
 msgstr ""
+"Geduld a.u.b, goedkeuring kan van een paar minuten tot een gehele dag duren."
 
 #: Controller/BlendsController.php:420
 msgid "Your blend was also added as a response to %s"
-msgstr ""
+msgstr "Uw blend is ook toegevoegd als een antwoord op %s"
 
 #: Controller/BlendsController.php:430
-#, fuzzy
 msgid ""
 "The blend was not saved, please review any omissions below and try again. "
 "And do not forget to re-select your files"
 msgstr ""
-"De blend kon niet worden opgeslagen. Controleert op errors hier beneden en "
-"probeer opnieuw.  Vergeet niet de bestanden te her-selecteren."
+"De blend is niet opgeslagen. Controleer enige missende dingen beneden en "
+"probeer opnieuw. Vergeet niet om de bestanden te her-selecteren."
 
 #: Controller/BlendsController.php:515
 msgid "The requested blend does not exist."
@@ -79,26 +83,29 @@ msgstr "De verzochte blend bestaat niet."
 
 #: Controller/BlendsController.php:534
 msgid "The new blend data was saved successfully"
-msgstr ""
+msgstr "Het nieuwe blend bestand is succesvol opgeslagen"
 
 #: Controller/BlendsController.php:536
 msgid "The blend was saved, but its categories and tags failed to save"
 msgstr ""
+"Het blend bestand is opgeslagen, maar de categorie en labels konden niet "
+"worden opgeslagen"
 
 #: Controller/BlendsController.php:539
-#, fuzzy
 msgid "The blend was not saved, please try again."
-msgstr "De blend kon niet worden opgeslagen. Probeer opnieuw, a.u.b."
+msgstr "De blend is niet opgeslagen, probeer opnieuw."
 
 #: Controller/BlendsController.php:629
 msgid "The blend has been published, thanks for completing it!"
-msgstr ""
+msgstr "Het blend bestand is gepubliceerd, bedankt voor het afronden!"
 
 #: Controller/BlendsController.php:633
 msgid ""
 "The blend was updated, thanks for completing it. it is now waiting for "
 "moderation."
 msgstr ""
+"Het blend bestand is ge-update, bedankt voor het afronden. Het wacht nu "
+"goedkeuring van de admins af."
 
 #: Controller/BlendsController.php:1077
 msgid "The blend has been saved"
@@ -169,7 +176,6 @@ msgstr ""
 "beschikbaar zijn op Blend Swap..."
 
 #: Controller/CollectionsController.php:183
-#, fuzzy
 msgid "The collection was saved"
 msgstr "De collectie is opgeslagen"
 
@@ -181,7 +187,7 @@ msgstr "De collectie kon niet worden opgeslagen. Probeer opnieuw a.u.b."
 msgid ""
 "Sorry, you have to be an associate member to be able to create a new "
 "collection."
-msgstr ""
+msgstr "Sorry, u moet een betalend lid zijn om nieuwe collecties aan te maken."
 
 #: Controller/CollectionsController.php:266
 msgid "The Collection was saved"
@@ -273,11 +279,12 @@ msgid ""
 "Your comment contains known profanity, we will moderate it. Be careful how "
 "to talk to our users..."
 msgstr ""
+"Uw reactie bevat bekende scheldwoorden, we zullen er extra op letten. Let "
+"erop hoe je praat tegen mede-gebruikers..."
 
 #: Controller/CommentsController.php:56
-#, fuzzy
 msgid "The comment was not saved to the database, something went wrong..."
-msgstr "Het contact formulier is opgeslagen in onze databank. Bedank!"
+msgstr "De reactie is niet opgeslagen in onze databank, iets ging verkeert..."
 
 #: Controller/CommentsController.php:165;179;205;280
 msgid "Invalid comment"
@@ -394,9 +401,8 @@ msgid "Creative Commons Attribution-NonCommercial 3.0"
 msgstr "Creative Commons Attribution-NonCommercial 3.0"
 
 #: Controller/DownloadsController.php:315;316
-#, fuzzy
 msgid "Creative Commons Attribution-NonCommercial-ShareAlike 3.0"
-msgstr "Creative Commons Attribution-NonCommercial 3.0"
+msgstr "Creative Commons Attribution-NonCommercial-ShareAlike 3.0"
 
 #: Controller/DownloadsController.php:330
 msgid ""
@@ -427,29 +433,24 @@ msgid "What's the deal with all this \"giving credits\" thing?"
 msgstr "Wat is dat gedoe met dat \"geef erkenning\" dinges?"
 
 #: Controller/EventsController.php:149;193;219
-#, fuzzy
 msgid "Invalid event"
-msgstr "Ongeldige meta"
+msgstr ""
 
 #: Controller/EventsController.php:176;197
-#, fuzzy
 msgid "The event has been saved"
-msgstr "De meta is opgeslagen"
+msgstr ""
 
 #: Controller/EventsController.php:178;200
-#, fuzzy
 msgid "The event could not be saved. Please, try again."
-msgstr "De meta kon niet worden opgeslagen. Probeer opnieuw, a.u.b."
+msgstr ""
 
 #: Controller/EventsController.php:222
-#, fuzzy
 msgid "Event deleted"
-msgstr "Meta verwijdert"
+msgstr ""
 
 #: Controller/EventsController.php:225
-#, fuzzy
 msgid "Event was not deleted"
-msgstr "Meta is niet verwijdert"
+msgstr ""
 
 #: Controller/FeaturesController.php:31;63;91
 msgid "Invalid feature"
@@ -472,29 +473,24 @@ msgid "Feature was not deleted"
 msgstr "Kenmerk is niet verwijdert"
 
 #: Controller/ItemsController.php:120;155;183
-#, fuzzy
 msgid "Invalid item"
-msgstr "Ongeldige atom"
+msgstr "Ongeldige ding"
 
 #: Controller/ItemsController.php:135;159
-#, fuzzy
 msgid "The item has been saved."
-msgstr "De atom is opgeslagen"
+msgstr "De ding is opgeslagen"
 
 #: Controller/ItemsController.php:138;162
-#, fuzzy
 msgid "The item could not be saved. Please, try again."
-msgstr "De atom kon niet worden opgeslagen. Probeer opnieuw."
+msgstr "Het ding kon niet worden opgeslagen. Probeer opnieuw."
 
 #: Controller/ItemsController.php:187
-#, fuzzy
 msgid "The item has been deleted."
-msgstr "De atom is opgeslagen"
+msgstr "Het ding is verwijdert."
 
 #: Controller/ItemsController.php:189
-#, fuzzy
 msgid "The item could not be deleted. Please, try again."
-msgstr "De atom kon niet worden opgeslagen. Probeer opnieuw."
+msgstr "Het ding kon niet worden verwijdert. Probeer opnieuw."
 
 #: Controller/LimitsController.php:43;74;100
 msgid "Invalid limit"
@@ -734,23 +730,27 @@ msgstr "Ongeldig verzoek"
 
 #: Controller/RequestsController.php:189
 msgid "Request data saved to the database"
-msgstr ""
+msgstr "Verzoek data opgeslagen in de databank"
 
 #: Controller/RequestsController.php:200
 msgid "You must use the file field to upload the format it says"
-msgstr ""
+msgstr "U moet het file upload veld gebruiken en het goede formaat uploaden"
 
 #: Controller/RequestsController.php:206
 msgid ""
 "One or both files failed to upload. Please take some time to repair your "
 "entry"
 msgstr ""
+"Een of meer bestanden faalde met het uploaden. Neem wat tijd voor het "
+"herstellen van uw inzending."
 
 #: Controller/RequestsController.php:228
 msgid ""
 "The request has been saved. But one or more files failed to upload. Please "
 "take some time to fix this."
 msgstr ""
+"Het verzoek is opgeslagen. Maar één of meerdere bestanden konden niet worden "
+"geüpload. Neem wat tijd om dit te herstellen."
 
 #: Controller/RequestsController.php:232;276;619;643
 msgid "The request could not be saved. Please, try again."
@@ -929,9 +929,8 @@ msgstr ""
 "t. gebruikersnaam a.u.b."
 
 #: Controller/UsersController.php:433
-#, fuzzy
 msgid "Register your account"
-msgstr "Registreer nu"
+msgstr "Registreer uw account"
 
 #: Controller/UsersController.php:459
 msgid ""
@@ -939,33 +938,29 @@ msgid ""
 "verification link we sent you and visit it before 24 hours have passed "
 "before being able to log in."
 msgstr ""
+"Uw account is aangemaakt. Kijk in uw email inbox voor een verificatie email "
+"link en bezoek die link binnen 24 uur zodat je kunt inloggen."
 
-# Spelling error in the source text:
-# rrors -> errors
 #: Controller/UsersController.php:462
-#, fuzzy
 msgid ""
 "The data you entered does not validate, please review any red messages below "
 "and try again."
 msgstr ""
-"De instellingen konden niet worden opgeslagen. Herstel de fouten hier "
-"beneden en probeer opnieuw."
+"De ingevoerde data is niet geldig. Herzie ingevoerde data en let op de rode "
+"tekst. Probeer daarna opnieuw."
 
 #: Controller/UsersController.php:465
-#, fuzzy
 msgid "The passwords you entered do not match, please try again."
 msgstr ""
-"De gebruikersnaam die u hebt ingevuld is niet geldig. Bekijk de regels m.b."
-"t. gebruikersnaam a.u.b."
+"De paswoorden die u hebt ingevuld komen niet overeen. Probeer opnieuw a.u.b."
 
 #: Controller/UsersController.php:507
-#, fuzzy
 msgid "Recaptcha challenge was invalid, please try again."
-msgstr "Captcha is incorrect. Probeer opnieuw, a.u.b."
+msgstr "ReCaptcha was incorrect. Probeer opnieuw, a.u.b."
 
 #: Controller/UsersController.php:511
 msgid "Please fill the ReCAPTCHA field."
-msgstr ""
+msgstr "Vul onze ReCAPTCHA alstublieft in."
 
 #: Controller/UsersController.php:561
 msgid "Captcha was incorrect please try again."
@@ -993,6 +988,9 @@ msgid ""
 "very long and random string. You can reactivate your account by resetting "
 "your password."
 msgstr ""
+"U bent uit Blend Swap uitgelogd. Uw paswoord is verandert naar een zeer "
+"lange en willekeurige zin. U kunt uw account her-activeren door uw paswoord "
+"te resetten."
 
 #: Controller/UsersController.php:1591
 msgid "Error while saving your account."
@@ -1003,9 +1001,10 @@ msgid ""
 "One or both files failed to upload. Please take some time to repair your "
 "entry.<br>"
 msgstr ""
+"Een of meer bestanden faalde met het uploaden. Neem wat tijd voor het "
+"herstellen van uw inzending.<br>"
 
 #: Controller/UsersController.php:1652
-#, fuzzy
 msgid "Manage Portfolio"
 msgstr "Verander portfolio"
 
@@ -1346,6 +1345,8 @@ msgid ""
 "The Weekend Challenge %s is in progress right now! Can you complete it "
 "before Monday?"
 msgstr ""
+"De weekend uitdaging %s is in volle gang nu! Kan jij het voltooien voor "
+"maandag?"
 
 #: View/App/home.ctp:20 View/Events/home.ctp:20 View/Questions/index.ctp:18
 #: View/Questions/view.ctp:8
@@ -1422,9 +1423,8 @@ msgid "Open One Request a Month (Swappers)"
 msgstr "Open een verzoek per maand (\"Swappers\")"
 
 #: View/App/home.ctp:69 View/Events/home.ctp:69
-#, fuzzy
 msgid "Up to 24 blends per page"
-msgstr "Tot en met 60 blends per pagina"
+msgstr "Tot en met 24 blends per pagina"
 
 #: View/App/home.ctp:74 View/Events/home.ctp:74
 msgid "Associate Account"
@@ -1480,9 +1480,8 @@ msgid "More social media fields to link to"
 msgstr "Meer sociale media velden om naar toe te linken"
 
 #: View/App/home.ctp:93 View/Events/home.ctp:93
-#, fuzzy
 msgid "Up to 48 blends per page"
-msgstr "Tot en met 60 blends per pagina"
+msgstr "Tot en met 48 blends per pagina"
 
 #: View/App/home.ctp:101 View/Elements/menus/topMenu.ctp:452
 #: View/Events/home.ctp:101
@@ -1516,7 +1515,6 @@ msgid "Blender Version"
 msgstr "Blender versie"
 
 #: View/Blends/add.ctp:54
-#, fuzzy
 msgid "Blend license"
 msgstr "Blend licentie"
 
@@ -1546,9 +1544,8 @@ msgid "Chose at least 1, and up to 4 categories"
 msgstr "Kies tenminste één, en tot maximaal 4 categorieën"
 
 #: View/Blends/add.ctp:126
-#, fuzzy
 msgid "Preview Image"
-msgstr "Pagina bekijken"
+msgstr "Voorbeeld afbeelding"
 
 #: View/Blends/add.ctp:130
 msgid "Image"
@@ -1576,15 +1573,15 @@ msgstr "Bestand management"
 
 #: View/Blends/add.ctp:181
 msgid "Responding to current Weekend Challenge "
-msgstr ""
+msgstr "Antwoorden op huidige Weekend Uitdaging"
 
 #: View/Blends/add.ctp:183
 msgid "There is a Weekend Challenge right now on the site"
-msgstr ""
+msgstr "Er is een weekend uitdaging aan de gang"
 
 #: View/Blends/add.ctp:184
 msgid "Are you responding to it with this blend?"
-msgstr ""
+msgstr "Gaat u hierop reageren met deze blend?"
 
 #: View/Blends/add.ctp:187
 msgid ""
@@ -1594,7 +1591,7 @@ msgstr ""
 
 #: View/Blends/add.ctp:199
 msgid "I am responding to the \"%s\" Weekend Challenge"
-msgstr ""
+msgstr "Ik reageert op de \"%s\" Weekend Uitdaging"
 
 #: View/Blends/add.ctp:203
 msgid "Save New Blend"
@@ -1756,7 +1753,7 @@ msgstr "Bytes"
 
 #: View/Blends/admin_view.ctp:104 View/Blends/view.ctp:75
 msgid "Views"
-msgstr ""
+msgstr "Bekeken"
 
 #: View/Blends/admin_view.ctp:109;145 View/Feedbacks/admin_view.ctp:19
 msgid "Parent Id"
@@ -1873,7 +1870,7 @@ msgstr ""
 # Thumb as in thumbnail?
 #: View/Blends/admin_view.ctp:248
 msgid "Thumb"
-msgstr ""
+msgstr "Voorbeeld"
 
 #: View/Blends/admin_view.ctp:249
 msgid "Small"
@@ -1933,7 +1930,7 @@ msgstr ""
 
 #: View/Blends/edit.ctp:95
 msgid "Learn more about %s licenses and how they affect you"
-msgstr ""
+msgstr "Leer meer over %s licenties en welke invloed ze hebben op u"
 
 #: View/Blends/edit.ctp:108
 msgid "Log your changes"
@@ -1959,31 +1956,27 @@ msgstr ""
 "Pagina {:page} of {:pages}, {:current} blends van de {:count} zichtbaar."
 
 #: View/Blends/media.ctp:18
-#, fuzzy
 msgid "Blend files"
-msgstr "Blend bestand"
+msgstr "Blend bestanden"
 
 #: View/Blends/media.ctp:22
-#, fuzzy
 msgid "File Name"
-msgstr "Blend naam"
+msgstr "Bestand naam"
 
 #: View/Blends/media.ctp:23;88 View/Requests/media.ctp:18
 #: View/Users/portfolio.ctp:27
-#, fuzzy
 msgid "Uploaded"
-msgstr "Top uploaders"
+msgstr "Ge-upload"
 
 #: View/Blends/media.ctp:24;89 View/Collections/edit.ctp:12
 #: View/Requests/media.ctp:19 View/Users/portfolio.ctp:28
 msgid "Visibility"
-msgstr ""
+msgstr "Zichtbaarheid"
 
 #: View/Blends/media.ctp:53;59;107;113 View/Requests/media.ctp:37;43
 #: View/Users/portfolio.ctp:48
-#, fuzzy
 msgid "Set Default"
-msgstr "standaart"
+msgstr "Zet standaard"
 
 #: View/Blends/media.ctp:56
 msgid ""
@@ -1991,17 +1984,19 @@ msgid ""
 "You won't be able to  recover it later.\n"
 "Are you sure?"
 msgstr ""
+"Dit blend bestand zal voor altijd worden verwijdert!\n"
+"U kunt dit niet later herstellen.\n"
+"Weet u het zeker?"
 
 #: View/Blends/media.ctp:83 View/Requests/media.ctp:13
 #: View/Users/portfolio.ctp:22
-#, fuzzy
 msgid "Preview images"
-msgstr "Pagina bekijken"
+msgstr "Voorbeeld afbeeldingen"
 
 #: View/Blends/media.ctp:87 View/Requests/media.ctp:17
 #: View/Users/portfolio.ctp:26
 msgid "Thumbnail"
-msgstr ""
+msgstr "Voorbeeld"
 
 #: View/Blends/media.ctp:110 View/Requests/media.ctp:40
 #: View/Users/portfolio.ctp:45
@@ -2010,16 +2005,17 @@ msgid ""
 "You won't be able to  recover it later.\n"
 "Are you sure?"
 msgstr ""
+"Deze afbeelding zal voor altijd worden verwijdert!\n"
+"U kunt dit niet later herstellen.\n"
+"Weet u het zeker?"
 
 #: View/Blends/media.ctp:136 View/Requests/media.ctp:66
-#, fuzzy
 msgid "Add files"
-msgstr "Voeg sleutel toe"
+msgstr "Voeg bestanden toe"
 
 #: View/Blends/media.ctp:177
-#, fuzzy
 msgid "Upload files"
-msgstr "Upload nieuwe Blend"
+msgstr "Upload bestanden"
 
 #: View/Blends/view.ctp:22 View/Requests/view.ctp:22
 msgid "Click to start following this user"
@@ -2075,6 +2071,10 @@ msgid ""
 "\n"
 "Are you sure you want to continue with this action?"
 msgstr ""
+"Het blend bestand zal worden verwijdert van alle indexen en collecties,\n"
+"en zal niet meer beschikbaar zijn!\n"
+"\n"
+"Weet u zeker dat u doorgaat met deze actie?"
 
 #: View/Blends/view.ctp:165 View/Elements/bars/blend_actions.ctp:42
 #: View/Reports/admin_view.ctp:2 View/Reports/view.ctp:2
@@ -2090,23 +2090,20 @@ msgid "Collect"
 msgstr "Verzamel"
 
 #: View/Blends/view.ctp:272
-#, fuzzy
 msgid "This blend is a response to:"
-msgstr "Op deze blend berust een licentie"
+msgstr "Deze blend is een antwoord op:"
 
 #: View/Blends/rss/index.ctp:4
-#, fuzzy
 msgid "Newest Blends"
-msgstr "Nieuwe Blend"
+msgstr "Nieuwste Blends"
 
 #: View/Blends/rss/index.ctp:6 View/Blends/rss/staffpicks.ctp:6
-#, fuzzy
 msgid "The latest blends on Blend Swap."
 msgstr "Meest recente blends op Blend Swap"
 
 #: View/Blends/rss/staffpicks.ctp:4
 msgid "Newest Staff Picked Blends"
-msgstr ""
+msgstr "Nieuwste Blends door beheerders uitgekozen"
 
 #: View/Chats/add.ctp:4
 msgid "Add Chat"
@@ -2134,6 +2131,8 @@ msgid ""
 "WARNING: You will delete this collection forever! Are you sure you want to "
 "do this?"
 msgstr ""
+"Pas op: U staat op het punt om deze collectie voor altijd te verwijderen! "
+"Weet u zeker dat u dit wilt?"
 
 #: View/Comments/admin_edit.ctp:4 View/Comments/admin_view.ctp:84
 #: View/Feedbacks/admin_edit.ctp:5 View/Feedbacks/admin_view.ctp:89
@@ -2158,13 +2157,12 @@ msgid "Delete Comment"
 msgstr "Verwijder reactie"
 
 #: View/Comments/rss/globalfeed.ctp:4
-#, fuzzy
 msgid "Newest Comments"
-msgstr "Nieuwe reactie"
+msgstr "Nieuwste reacties"
 
 #: View/Comments/rss/globalfeed.ctp:6
 msgid "The latest comments on Comment Swap."
-msgstr ""
+msgstr "De laatste reacties op Comment Swap."
 
 #: View/Contacts/admin_edit.ctp:4 View/Contacts/admin_view.ctp:89
 msgid "Edit Contact"
@@ -2184,22 +2182,23 @@ msgstr "Verwijder contact"
 
 #: View/Docs/gethelp.ctp:4
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Waar heeft u hulp bij nodig?"
 
 #: View/Docs/gethelp.ctp:9
 msgid "I have to report a bad blend / I have found a ripped blend"
-msgstr ""
+msgstr "I wil een gebroken blend of een gestolen blend rapporteren"
 
 #: View/Docs/gethelp.ctp:12;25;38;50;63;74;85;98;113;124
-#, fuzzy
 msgid "Solution"
-msgstr "Verzamelingen"
+msgstr "Oplossing"
 
 #: View/Docs/gethelp.ctp:13
 msgid ""
 "Please download the blend and inspect it fully. In many cases the issue can "
 "be solved by just paying close attention"
 msgstr ""
+"Download de blend en inspecteer het. In veel gevallen kan het probleem "
+"worden opgelost door er goed naar te kijken"
 
 #: View/Docs/gethelp.ctp:14
 msgid ""
@@ -2207,6 +2206,9 @@ msgid ""
 "substantiate your claim, specially for cases concerning copyright "
 "infringement and ripping. Vague reports will be ignored"
 msgstr ""
+"Als u persistent bent over het rapporteren van de blend moet u wel komen met "
+"onderbouwing voor uw claim. Zeker voor copyright claims. Vage klachten "
+"worden genegeerd"
 
 #: View/Docs/gethelp.ctp:15
 msgid ""
@@ -2214,10 +2216,13 @@ msgid ""
 "blend's page, and select <code>Manage > Report</code> and send us your "
 "report from the form you will see"
 msgstr ""
+"Als u uw claim kunt aantonen kunt u ons een rapport sturen. Ga naar "
+"desbetreffende blend pagina en selecteer <code>Manage > Report</code> en "
+"stuur ons een rapport met dat formulier"
 
 #: View/Docs/gethelp.ctp:22
 msgid "I lost access to my account"
-msgstr ""
+msgstr "Ik heb toegang tot mijn account verloren"
 
 #: View/Docs/gethelp.ctp:27
 msgid ""
@@ -2225,100 +2230,103 @@ msgid ""
 "us your username and email (not your password) so we can reset your account "
 "manually"
 msgstr ""
+"U moet %s. Als het onmogelijk is om dit proces te voltooien dan kunt u %s en "
+"ons uw gebruikersnaam en email (Geen paswoord)  vertellen zodat we uw "
+"account handmatig kunnen resetten"
 
 #: View/Docs/gethelp.ctp:27
-#, fuzzy
 msgid "reset your password"
-msgstr "Paswoord vergeten?"
+msgstr "uw paswoord resetten"
 
 #: View/Docs/gethelp.ctp:27;125 View/Elements/menus/topMenu.ctp:25
-#, fuzzy
 msgid "Contact us"
-msgstr "Contact"
+msgstr "Neem contact op met ons"
 
 #: View/Docs/gethelp.ctp:35
 msgid "I need help using a Blend Swap feature"
-msgstr ""
+msgstr "Ik heb hulp nodig met een Blend Swap functie"
 
 #: View/Docs/gethelp.ctp:39
 msgid "Please scout the %s, most questions are answered there."
-msgstr ""
+msgstr "Bekijk de %s, meeste vragen worden daar beantwoord"
 
 #: View/Docs/gethelp.ctp:39
-#, fuzzy
 msgid "site documentation"
-msgstr "Alle documentatie"
+msgstr "site documentatie"
 
 #: View/Docs/gethelp.ctp:40
 msgid ""
 "If you can not find an answer, please %s and tell us your question, we are "
 "glad to help"
 msgstr ""
+"Als u geen antwoordt kan vinden wilt u dan %s en ons vertellen over uw "
+"vraag. We helpen u graag"
 
 #: View/Docs/gethelp.ctp:40 View/Memberships/manage.ctp:42
 #: View/Users/freeze.ctp:30
-#, fuzzy
 msgid "contact us"
-msgstr "contact"
+msgstr "neem contact op met ons"
 
 #: View/Docs/gethelp.ctp:47
-#, fuzzy
 msgid "I need help using Blender 3D"
-msgstr "Hulp nodig met Blender?"
+msgstr "Ik heb hulp nodig met Blende 3D"
 
 #: View/Docs/gethelp.ctp:52
-#, fuzzy
 msgid "Ask a %s on the Questions section."
-msgstr "Vraag een nieuwe vraag!"
+msgstr "Vraag een %s op de vragen sectie."
 
 #: View/Docs/gethelp.ctp:52
-#, fuzzy
 msgid "new question"
 msgstr "Nieuwe vraag"
 
 #: View/Docs/gethelp.ctp:60
 msgid "I need information about Licenses"
-msgstr ""
+msgstr "Ik heb informatie nodig over licenties"
 
 #: View/Docs/gethelp.ctp:64
 msgid "Please look at our %s page for full info and explanations"
-msgstr ""
+msgstr "Bekijk onze %s pagina voor volledige informatie en uitleg"
 
 #: View/Docs/gethelp.ctp:64
-#, fuzzy
 msgid "licenses"
-msgstr "Licentie"
+msgstr "Licenties"
 
 #: View/Docs/gethelp.ctp:71
 msgid "I can not download any file from Blend Swap"
-msgstr ""
+msgstr "Ik kan geen enkel bestand van Blend Swap downloaden"
 
 #: View/Docs/gethelp.ctp:75
 msgid ""
 "Your browser is misconfigured or unsupported. Please see our %s page for "
 "more details."
 msgstr ""
+"Uw browser is niet goed ge-configureert of wordt niet ondersteund. Kijk op "
+"onze %s pagina voor meer details."
 
 #: View/Docs/gethelp.ctp:75
-#, fuzzy
 msgid "known issues"
-msgstr "Bekende issues"
+msgstr "Bekende problemen"
 
 #: View/Docs/gethelp.ctp:82
 msgid "I can not upload my blend file to Blend Swap (404 error)"
-msgstr ""
+msgstr "Ik kan mijn blend niet uploaden naar Blend Swap (404 fout)"
 
 #: View/Docs/gethelp.ctp:86;100
 msgid ""
 "Forms on Blend Swap are valid only for half an hour, if your submission "
 "takes longer than this it will fail and you may get a 404 error"
 msgstr ""
+"Formulieren op Blend Swap zijn alleen geldig voor 30 minuten. Als het "
+"toesturen langer dan dit duurt zal het falen en krijgt u een 404 fout"
 
 #: View/Docs/gethelp.ctp:87;103
 msgid ""
 "If you get the 404 error: go back in your browser and RELOAD the page by "
 "hitting <code>CTRL + R</code> or <code>F5</code> so you get a new, valid form"
 msgstr ""
+"Als u een 404 fout krijgt: ga terug in de browser en HERLAAD de pagina door "
+"op <code>CTRL + R</code> of <code>F5</code> te drukken zodat u een - nieuw - "
+"geldig invoerveld krijgt"
 
 #: View/Docs/gethelp.ctp:88
 msgid ""
@@ -2326,36 +2334,45 @@ msgid ""
 "upload to finish in less than 30 minutes, consider uploading from an "
 "Internet café or a friend's place"
 msgstr ""
+"Als dit probleem zich blijft voordoen kan uw internet verbinding te langzaam "
+"zijn om binnen 30 alles te uploaden. Overweeg het om te uploaden vanaf een "
+"internet café of vanaf een vriends huis."
 
 #: View/Docs/gethelp.ctp:95
 msgid "Blend Swap says \"the request was blackholed\""
-msgstr ""
+msgstr "Blend Swap zegt \"the request was blackholed\""
 
 #: View/Docs/gethelp.ctp:99
 msgid ""
 "This is not a bug, it is a security measure we use to protect the site. Do "
 "not report blackholed requests"
 msgstr ""
+"Dit is niet een bug, het is een veiligheidsmaatregel die we gebruiken om "
+"deze site te beveiligen. Rapporteer geen blackhole verzoeken"
 
 #: View/Docs/gethelp.ctp:101
 msgid ""
 "This will also happen if you leave a form unattended for more than 30 "
 "minutes (say, the comment form) and then submit it"
 msgstr ""
+"Dit gebeurd ook als u meer dan 30 minuten wacht met het versturen van een "
+"invoerveld (bijvoorbeeld het reactie formulier)."
 
 #: View/Docs/gethelp.ctp:102
 msgid ""
 "This will also happen if you try to register and have cookies disabled in "
 "your browser"
 msgstr ""
+"Dit gebeurd ook als u probeert te registreren terwijl u cookies hebt "
+"uitgeschakeld in uw browser"
 
 #: View/Docs/gethelp.ctp:110
 msgid "I saw an error/typo/mistake on Blend Swap"
-msgstr ""
+msgstr "Ik zag een fout/spelling fout/grammatica fout op Blend Swap"
 
 #: View/Docs/gethelp.ctp:114
 msgid "Send us a detailed report from %s"
-msgstr ""
+msgstr "Verstuur ons een gedetailleerd rapport van %s"
 
 #: View/Docs/gethelp.ctp:114
 msgid "here"
@@ -2363,11 +2380,11 @@ msgstr ""
 
 #: View/Docs/gethelp.ctp:121
 msgid "I need to get in touch with the Blend Swap owner or admins"
-msgstr ""
+msgstr "I wil graag contact met de Blend Swap eigenaar of admins"
 
 #: View/Docs/gethelp.ctp:125
 msgid "%s any time with your questions, comments and suggestions"
-msgstr ""
+msgstr "%s elk moment uw vragen, reacties en suggesties"
 
 #: View/Downloads/admin_index.ctp:48
 msgid "New Download"
@@ -2387,11 +2404,13 @@ msgid ""
 "admins to check it. If the blend gets published or rejected, you will be "
 "notified."
 msgstr ""
+"Deze blend is compleet maar nog niet gepubliceerd, geduld terwijl onze "
+"admins deze blend controleren. U word op de hoogte gebracht als deze blend "
+"is goed- of afgekeurd."
 
 #: View/Elements/blend_status.ctp:11
-#, fuzzy
 msgid "Do you want to be a %s?"
-msgstr "Weet u zeker dat u # %s wilt verwijderen?"
+msgstr "Wilt u een %s worden?"
 
 #: View/Elements/blend_status.ctp:11
 msgid "Trusted Uploader"
@@ -2410,14 +2429,12 @@ msgid "Services"
 msgstr "Diensten"
 
 #: View/Elements/frontend_footer.ctp:8
-#, fuzzy
 msgid "Accounts"
 msgstr "Accounts"
 
 #: View/Elements/frontend_footer.ctp:9
-#, fuzzy
 msgid "Blender"
-msgstr "Blend"
+msgstr "Blender"
 
 #: View/Elements/frontend_footer.ctp:10
 msgid "Support"
@@ -2699,33 +2716,31 @@ msgstr "Wapens"
 
 #: View/Elements/placeholder.ctp:38
 msgid "Model Realism"
-msgstr ""
+msgstr "Model realisme"
 
 #: View/Elements/placeholder.ctp:39
 msgid "Slightly Stylized"
-msgstr ""
+msgstr "Lichtelijk stijlvol gemaakt"
 
 #: View/Elements/placeholder.ctp:40
 msgid "Realistic / To Scale"
-msgstr ""
+msgstr "Realistische / naar schaal"
 
 #: View/Elements/placeholder.ctp:41
 msgid "Cartoony"
-msgstr ""
+msgstr "Cartoonachtig"
 
 #: View/Elements/placeholder.ctp:42
-#, fuzzy
 msgid "Render Engine"
-msgstr "Render voorbeeld"
+msgstr "Render engine"
 
 #: View/Elements/placeholder.ctp:43
 msgid "Cycles Ready"
-msgstr ""
+msgstr "Cycles ondersteund"
 
 #: View/Elements/placeholder.ctp:44
-#, fuzzy
 msgid "Blender Internal"
-msgstr "Blender versie"
+msgstr "Blender Internal"
 
 #: View/Elements/placeholder.ctp:45
 msgid "External"
@@ -2736,14 +2751,12 @@ msgid "Freestyle"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:47
-#, fuzzy
 msgid "Other Requirements"
-msgstr "Eisen"
+msgstr "Andere eisen"
 
 #: View/Elements/placeholder.ctp:48
-#, fuzzy
 msgid "Animated"
-msgstr "Anamaties"
+msgstr "Ge-animeert"
 
 #: View/Elements/placeholder.ctp:49
 msgid "UV Unwrapped"
@@ -2759,16 +2772,15 @@ msgstr ""
 
 #: View/Elements/placeholder.ctp:52
 msgid "Quads Only"
-msgstr ""
+msgstr "Alleen quads"
 
 #: View/Elements/placeholder.ctp:53
 msgid "Rigged"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:54
-#, fuzzy
 msgid "Polygon Count"
-msgstr "Blend aantal"
+msgstr "Polygon aantal"
 
 #: View/Elements/placeholder.ctp:55
 msgid "High-Poly"
@@ -2779,27 +2791,26 @@ msgid "Mid-Poly"
 msgstr ""
 
 #: View/Elements/placeholder.ctp:57
-#, fuzzy
 msgid "Low-Poly"
-msgstr "Lage poly modellen"
+msgstr "Laag-poly"
 
+# ???
 #: View/Elements/placeholder.ctp:58
-#, fuzzy
 msgid "Texturing Depth"
-msgstr "Texturen"
+msgstr ""
 
 #: View/Elements/placeholder.ctp:59
 msgid "Full Pass Textured"
 msgstr ""
 
+# ???
 #: View/Elements/placeholder.ctp:60
-#, fuzzy
 msgid "Image Textured"
-msgstr "Texturen"
+msgstr ""
 
 #: View/Elements/placeholder.ctp:61
 msgid "Procedural Textured"
-msgstr ""
+msgstr "Procedureel aangemaakte texturen"
 
 #: View/Elements/placeholder.ctp:62
 msgid "Baked Normals"
@@ -2866,18 +2877,16 @@ msgid "Answers"
 msgstr "Antwoorden"
 
 #: View/Elements/placeholder.ctp:86
-#, fuzzy
 msgid "image"
 msgstr "Afbeelding"
 
 #: View/Elements/placeholder.ctp:87
-#, fuzzy
 msgid "blend"
-msgstr "Blend"
+msgstr "blend"
 
 #: View/Elements/placeholder.ctp:89
 msgid "Open"
-msgstr ""
+msgstr "Open"
 
 #: View/Elements/placeholder.ctp:90
 msgid "Closed"
@@ -2885,111 +2894,118 @@ msgstr ""
 
 #: View/Elements/placeholder.ctp:92
 msgid "Monthly Associate"
-msgstr ""
+msgstr "Maandelijks betalend lid"
 
 #: View/Elements/placeholder.ctp:93
 msgid "Yearly Associate"
-msgstr ""
+msgstr "Jaarlijks betalend lidmaatschap"
 
 #: View/Elements/placeholder.ctp:97
 msgid "The object you are assigning media to is not supported."
 msgstr ""
+"Het object waar u media aan probeert toe te voegen ondersteund dit niet"
 
 #: View/Elements/placeholder.ctp:98
 msgid ""
 "Some of the data passed to the media manager is wrong, please tell the "
 "admins you saw this when uploading a file. "
 msgstr ""
+"Sommige data dat verstuurt is naar de media manager is verkeert, meld dit "
+"incident bij een admin"
 
 #: View/Elements/placeholder.ctp:99
 msgid "FILE TYPE OF %s NOT SUPPORTED. "
-msgstr ""
+msgstr "%s BESTAND TYPES ZIJN NIET ONDERSTEUND"
 
 #: View/Elements/placeholder.ctp:100
 msgid "AN UNKOWN ERROR OCCURED WHILE PROCESSING YOUR FILE."
-msgstr ""
+msgstr "EEN ONBEKENDE FOUT VOND PLAATS TERWIJL UP BESTAND WERD VERWERKT."
 
 #: View/Elements/placeholder.ctp:101
 msgid "THE FILE %s WAS NOT PROCESSED, PLEASE TRY AGAIN."
-msgstr ""
+msgstr "HET BESTAND %s IS NIET VERWERKT, PROBEER OPNIEUW."
 
 #: View/Elements/placeholder.ctp:102
 msgid "AN ERROR HAPPENED WHILE CROPPING THE ORIGINAL IMAGE."
 msgstr ""
+"EEN FOUT VOND PLAATS TIJDENS HET BIJSNIJDEN VAN DE ORIGINELE AFBEELDING."
 
 #: View/Elements/placeholder.ctp:103
 msgid ""
 "The image %s is too small, your images must be at least 720 px wide and "
 "440px tall."
 msgstr ""
+"De afbeelding %s is te klein, uw afbeelding moet tenminste 720px breed en "
+"440px hoog zijn."
 
 #: View/Elements/placeholder.ctp:104
 msgid "AN ERROR OCURRED WHEN OPENING YOUR ZIP FILE."
-msgstr ""
+msgstr "EEN FOUT VOND PLAATS TIJDENS HET OPENEN VAN UW ZIP BESTAND."
 
 #: View/Elements/placeholder.ctp:105
 msgid "We found at least one blend file in your zip."
-msgstr ""
+msgstr "We vonden tenminste één .blend bestand in uw zip."
 
 #: View/Elements/placeholder.ctp:106
 msgid "We found at least one Blender theme .xml file in your zip."
-msgstr ""
+msgstr "We vonden tenminste één Blender theme .xml bestand in uw zip."
 
 #: View/Elements/placeholder.ctp:107
 msgid "WE COULD NOT FIND A SINGLE BLEND OR THEME FILE IN YOUR ZIP,"
-msgstr ""
+msgstr "WE KONDEN GEEN .BLEND OF THEME BESTAND VINDEN IN UW .ZIP,"
 
 #: View/Elements/placeholder.ctp:108
 msgid "PLEASE MAKE SURE YOU ARE NOT UPLOADING .blend1+ FILES"
-msgstr ""
+msgstr "LET EROP DAT U MAAR ÉÉN BLEND BESTAND KUNT UPLOADEN"
 
 #: View/Elements/placeholder.ctp:109
 msgid ""
 "THERE WAS AN ERROR WHILE UNPACKING YOUR BLEND FILE. MAYBE IT HAS A PASSWORD?"
 msgstr ""
+"ER WAS EEN FOUT TIJDENS HET UITPAKKEN VAN UW BLEND BESTAND. RUST ER EEN "
+"PASWOORD OP?"
 
 #: View/Elements/placeholder.ctp:110
 msgid "Your files were re-packed successfully."
-msgstr ""
+msgstr "Opnieuw inpakken van uw bestanden is succesvol afgerond."
 
 #: View/Elements/placeholder.ctp:111
 msgid "AN ERROR OCURRED AND THE FILE WAS NOT RE-PACKED."
-msgstr ""
+msgstr "EEN FOUT VOND PLAATS EN HET BESTAND IS NIET OPNIEUW INGEPAKT."
 
 #: View/Elements/placeholder.ctp:112
 msgid "ERROR WHILE OPENING THE DESTINATION ZIP FILE FOR WRITING."
-msgstr ""
+msgstr "FOUT TIJDENS HET OPENEN VAN HET DOEL-BESTAND VOOR SCHRIJVEN."
 
 #: View/Elements/placeholder.ctp:113
 msgid "Ignoring %s, file type not supported."
-msgstr ""
+msgstr "%s genegeerd, bestands-type niet ondersteund."
 
 #: View/Elements/placeholder.ctp:114
 msgid "The new %s file was processed and added successfully to the database!"
 msgstr ""
+"Het nieuwe bestand %s is verwerkt en succesvol aan de databank toegevoegd!"
 
 #: View/Elements/placeholder.ctp:115
 msgid "License updated correctly"
-msgstr ""
+msgstr "Licentie correct bijgewerkt"
 
 #: View/Elements/placeholder.ctp:116
-#, fuzzy
 msgid "Error when updating the license file"
-msgstr "Fout tijdens maken van collectie"
+msgstr "Fout tijdens updaten van licentie bestand"
 
 #: View/Elements/placeholder.ctp:117
 msgid "Impossible to form license file name, no object was passed"
 msgstr ""
+"Onmogelijk om licentie bestandsnaam te maken, geen object was aangeleverd"
 
 #: View/Elements/previewBox.ctp:5
-#, fuzzy
 msgid "This blend is a Staff Pick!"
-msgstr "Mijn blends zijn uitgekozen door een site admin"
+msgstr "Deze blend is uitgekozen door site beheerders!"
 
 #: View/Elements/previewBox.ctp:9
-#, fuzzy
 msgid "Preview 1"
-msgstr "3D preview URL"
+msgstr "Voorbeeld 1"
 
 #: View/Elements/bars/blend_actions.ctp:12
 msgid "Add to"
@@ -3096,9 +3112,8 @@ msgid "Dashboard"
 msgstr "Dashboard"
 
 #: View/Elements/menus/topMenu.ctp:21
-#, fuzzy
 msgid "News Blog"
-msgstr "Site nieuws Blog"
+msgstr "Nieuws blog"
 
 #: View/Elements/menus/topMenu.ctp:43 View/Users/index.ctp:23
 msgid "Blends"
@@ -3141,9 +3156,8 @@ msgid "Made with Blender 2.6x"
 msgstr "Gemaakt met Blender 2.6x"
 
 #: View/Elements/menus/topMenu.ctp:109
-#, fuzzy
 msgid "More Indexes"
-msgstr "Gebruikers index"
+msgstr "Meer indexen"
 
 #: View/Elements/menus/topMenu.ctp:115
 msgid "Blends selected by the admins."
@@ -3202,13 +3216,12 @@ msgid "Requests Main Index"
 msgstr "Verzoeken hoofd index"
 
 #: View/Elements/menus/topMenu.ctp:169 View/Users/bandwidth.ctp:29
-#, fuzzy
 msgid "Weekend Challenges"
-msgstr "Bewaar wijzigingen"
+msgstr "Weekend uitdagingen"
 
 #: View/Elements/menus/topMenu.ctp:171
 msgid "See all Weekend Challenges"
-msgstr ""
+msgstr "Sie alle weekend uitdagingen"
 
 #: View/Elements/menus/topMenu.ctp:175
 msgid "Open Requests"
@@ -3249,7 +3262,7 @@ msgstr "Gebruikers portfolio"
 
 #: View/Elements/menus/topMenu.ctp:236;238
 msgid "Artists For Hire"
-msgstr ""
+msgstr "Artiest te huur"
 
 #: View/Elements/menus/topMenu.ctp:257 View/Layouts/frontend.ctp:82;83
 msgid "Search Blends"
@@ -3284,13 +3297,12 @@ msgid "Frequently asked questions (and answers)"
 msgstr "Veelgestelde vragen (en antwoorden)"
 
 #: View/Elements/menus/topMenu.ctp:287
-#, fuzzy
 msgid "Contact Blend Swap"
-msgstr "Contact verwijdert"
+msgstr "Contacteer Blend Swap"
 
 #: View/Elements/menus/topMenu.ctp:289
 msgid "Contact the Blend Swap admins"
-msgstr ""
+msgstr "Contacteer de Blend Swap admins"
 
 #: View/Elements/menus/topMenu.ctp:306
 msgid "Me"
@@ -3307,12 +3319,11 @@ msgstr "Bandbreedte history"
 
 #: View/Elements/menus/topMenu.ctp:320
 msgid "Your membership expires on:"
-msgstr ""
+msgstr "Uw lidmaatschap vervalt op:"
 
 #: View/Elements/menus/topMenu.ctp:325
-#, fuzzy
 msgid "Bandwidth for %s"
-msgstr "Bandbreedte history"
+msgstr "Bandbreedte voor %s"
 
 #: View/Elements/menus/topMenu.ctp:328 View/Limits/admin_view.ctp:34
 #: View/Users/bandwidth.ctp:53
@@ -3326,24 +3337,24 @@ msgstr "Resterend"
 
 #: View/Elements/menus/topMenu.ctp:341
 msgid "Extra"
-msgstr ""
+msgstr "Extra"
 
 #: View/Elements/menus/topMenu.ctp:355
 #: View/Elements/nags/become_associate.ctp:17
 #: View/Elements/navs/usernav.ctp:218 View/Memberships/manage.ctp:110
-#, fuzzy
 msgid "Upgrade Now!"
-msgstr "Opwaarderen"
+msgstr "Upgrade nu!"
 
 #: View/Elements/menus/topMenu.ctp:357
 msgid "Upgrade to an Associate or Deadline Membership now!"
-msgstr ""
+msgstr "Upgrade naar een betalend lid of deathline lid nu!"
 
 #: View/Elements/menus/topMenu.ctp:357
 msgid ""
 "Become an Associate Member today and enjoy more features and enhancements on "
 "Blend Swap!"
 msgstr ""
+"Wordt betalend lid vandaag en geniet van meer mogelijkheden op Blend Swap!"
 
 #: View/Elements/menus/topMenu.ctp:364 View/Elements/navs/usernav.ctp:176
 #: View/Users/view.ctp:88
@@ -3351,18 +3362,16 @@ msgid "Manage Membership"
 msgstr "Beheer lidmaarschap"
 
 #: View/Elements/menus/topMenu.ctp:366
-#, fuzzy
 msgid "Manage my membership"
-msgstr "Beheer lidmaarschap"
+msgstr "Beheer mijn lidmaatschap"
 
 #: View/Elements/menus/topMenu.ctp:373 View/Users/view.ctp:85
 msgid "Account & Settings"
 msgstr "Account & Instellingen"
 
 #: View/Elements/menus/topMenu.ctp:375
-#, fuzzy
 msgid "Edit my account and settings."
-msgstr "Account en instellingen"
+msgstr "Verander mijn Account & instellingen"
 
 #: View/Elements/menus/topMenu.ctp:381 View/Elements/navs/usernav.ctp:153
 #: View/Profiles/admin_view.ctp:94 View/Users/view.ctp:82
@@ -3370,9 +3379,8 @@ msgid "Edit Profile"
 msgstr "Verander profiel"
 
 #: View/Elements/menus/topMenu.ctp:383
-#, fuzzy
 msgid "Edit my profile"
-msgstr "Verander profiel"
+msgstr "Verander mijn profiel"
 
 #: View/Elements/menus/topMenu.ctp:390;392 View/Elements/navs/usernav.ctp:98
 msgid "My Blends"
@@ -3407,7 +3415,6 @@ msgid "All Activity"
 msgstr "Alle activiteiten"
 
 #: View/Elements/navs/usernav.ctp:63
-#, fuzzy
 msgid "Buzz"
 msgstr "Buzz"
 
@@ -3420,9 +3427,8 @@ msgid "My Badges"
 msgstr "Mijn badges"
 
 #: View/Elements/navs/usernav.ctp:129
-#, fuzzy
 msgid "My followers"
-msgstr "Volgers"
+msgstr "Mijn Volgers"
 
 #: View/Elements/navs/usernav.ctp:137
 msgid "Advanced Stats"
@@ -3445,102 +3451,85 @@ msgid "Change Password"
 msgstr "Verander paswoord"
 
 #: View/Events/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Event"
-msgstr "Admin voeg Blend to"
+msgstr ""
 
 #: View/Events/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Event"
-msgstr "Admin verander Blend"
+msgstr ""
 
 #: View/Events/admin_index.ctp:2
 msgid "Events"
 msgstr ""
 
 #: View/Events/admin_index.ctp:54 View/Events/admin_view.ctp:77
-#, fuzzy
 msgid "New Event"
-msgstr "Nieuwe Meta"
+msgstr ""
 
 #: View/Events/admin_view.ctp:2
 msgid "Event"
 msgstr ""
 
 #: View/Events/admin_view.ctp:24
-#, fuzzy
 msgid "Data"
-msgstr "Verander data"
+msgstr "Data"
 
 #: View/Events/admin_view.ctp:29
-#, fuzzy
 msgid "Feed Id"
-msgstr "Blend Id"
+msgstr "Feed id"
 
 #: View/Events/admin_view.ctp:39
 msgid "Href"
 msgstr ""
 
 #: View/Events/admin_view.ctp:59
-#, fuzzy
 msgid "Object Name"
-msgstr "Object Id"
+msgstr "Object naam"
 
 #: View/Events/admin_view.ctp:64
-#, fuzzy
 msgid "Img"
 msgstr "Afbeelding"
 
 #: View/Events/admin_view.ctp:74
-#, fuzzy
 msgid "Edit Event"
-msgstr "Verander reactie"
+msgstr "Verander event"
 
 #: View/Events/admin_view.ctp:75
-#, fuzzy
 msgid "Delete Event"
-msgstr "Verwijder reactie"
+msgstr "Verwijder event"
 
 #: View/Features/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Feature"
-msgstr "Admin gebruiker toevoegen"
+msgstr ""
 
 #: View/Features/admin_add.ctp:17 View/Features/admin_edit.ctp:19
 #: View/Features/admin_view.ctp:36
-#, fuzzy
 msgid "List Features"
-msgstr "Meta's weegeven"
+msgstr ""
 
 #: View/Features/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Feature"
-msgstr "Admin gebruiker wijzigen"
+msgstr ""
 
 #: View/Features/admin_index.ctp:2
-#, fuzzy
 msgid "Features"
-msgstr "Texturen"
+msgstr ""
 
 #: View/Features/admin_index.ctp:49 View/Features/admin_view.ctp:37
-#, fuzzy
 msgid "New Feature"
-msgstr "Nieuw verzoek"
+msgstr ""
 
 #: View/Features/admin_view.ctp:2
-#, fuzzy
 msgid "Feature"
-msgstr "Texturen"
+msgstr ""
 
 #: View/Features/admin_view.ctp:34
-#, fuzzy
 msgid "Edit Feature"
-msgstr "Verander datum"
+msgstr ""
 
 #: View/Features/admin_view.ctp:35
-#, fuzzy
 msgid "Delete Feature"
-msgstr "Gebruiker verwijderen"
+msgstr ""
 
 #: View/Feedbacks/add.ctp:4
 msgid "Add Comment"
@@ -3608,7 +3597,7 @@ msgstr "publiceerde een nieuws update"
 
 #: View/Helper/DashboardHelper.php:143
 msgid "opened a new Weekend Challenge!"
-msgstr ""
+msgstr "opende een nieuwe Weekend Uitdaging!"
 
 #: View/Helper/DashboardHelper.php:147
 msgid "interacted with"
@@ -3619,24 +3608,25 @@ msgid ""
 "The author of this blend has been blocked, so we are not serving their files "
 "for now."
 msgstr ""
+"De auteur van deze blend is geblokkeerd, zijn bestanden kunnen momenteel "
+"niet worden gedownload."
 
 #: View/Helper/SingleBlendHelper.php:52
 msgid "You will spend some of your extra bandwidth if you download this model."
 msgstr ""
+"U zult wat van uw extra bandbreedte gebruiken als u dit model download."
 
 #: View/Helper/SingleBlendHelper.php:56
-#, fuzzy
 msgid ""
 "It looks like this blend is too big for your monthly bandwidth right now, "
 "you will have to try later."
 msgstr ""
 "Het ziet ernaar uit dat deze blend jouw toegestane bandbreedte van deze "
-"maand zal over scheiden!"
+"maand zal overschrijden."
 
 #: View/Helper/SingleBlendHelper.php:59
-#, fuzzy
 msgid "You have to log in to download this blend."
-msgstr "U moet inloggen om deze blend te downloaden"
+msgstr "U moet inloggen om deze blend te downloaden."
 
 #: View/Helper/SingleBlendHelper.php:129
 msgid "Latest Change"
@@ -3647,7 +3637,6 @@ msgid "An error ocurred while reading this license."
 msgstr "Een fout vond plaats terwijl de licentie werd gelezen."
 
 #: View/Helper/SingleBlendHelper.php:169
-#, fuzzy
 msgid ""
 "It is recommended that you give credit to the author fo this blend but "
 "there's no obligation to do so"
@@ -3656,23 +3645,22 @@ msgstr ""
 "maar het is niet verplicht"
 
 #: View/Helper/SingleBlendHelper.php:194
-#, fuzzy
 msgid "This blend was taken down on "
-msgstr "Deze Blend is gemarkeert als \"fan art\""
+msgstr "Deze blend was verwijdert op "
 
 #: View/Helper/SingleBlendHelper.php:203
-#, fuzzy
 msgid "This blend was rejected on "
-msgstr "Deze Blend is gemarkeert als \"fan art\""
+msgstr "Deze blend was afgewezen op "
 
 #: View/Helper/SingleBlendHelper.php:210
 msgid "This blend is pending and is not accessible by normal users"
 msgstr ""
+"Deze blend ondergaat nog goedkeuring en is niet beschikbaar voor normale "
+"gebruikers"
 
 #: View/Items/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Item"
-msgstr "Admin gebruiker toevoegen"
+msgstr "Admin ding toevoegen"
 
 #: View/Items/admin_add.ctp:21 View/Items/admin_edit.ctp:23
 #: View/Items/admin_index.ctp:55 View/Items/admin_view.ctp:50
@@ -3687,43 +3675,35 @@ msgid "New Collection"
 msgstr "Nieuwe collectie"
 
 #: View/Items/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Item"
-msgstr "Admin gebruiker wijzigen"
+msgstr "Admin ding wijzigen"
 
-# A list of what kind of items?
 #: View/Items/admin_index.ctp:2
-#, fuzzy
 msgid "Items"
-msgstr "Dingen weergeven"
+msgstr "dingen"
 
 #: View/Items/admin_index.ctp:38
-#, fuzzy
 msgid ""
 "Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
 "starting on record {:start}, ending on {:end}"
 msgstr ""
-"Pagina {:page} of {:pages}, {:current} blends van de {:count} zichtbaar."
+"Pagina {:page} van {:pages}, {:current} records van de {:count} zichtbaar."
 
 #: View/Items/admin_view.ctp:2
-#, fuzzy
 msgid "Item"
-msgstr "Nieuw ding"
+msgstr "ding"
 
 #: View/Items/admin_view.ctp:14
-#, fuzzy
 msgid "Collection"
-msgstr "Verzamelingen"
+msgstr "Verzameling"
 
 #: View/Items/admin_view.ctp:44
-#, fuzzy
 msgid "Edit Item"
-msgstr "Verander datum"
+msgstr "Verander item"
 
 #: View/Items/admin_view.ctp:45
-#, fuzzy
 msgid "Delete Item"
-msgstr "Verwijder sleutel"
+msgstr "Verwijder item"
 
 #: View/Layouts/frontend.ctp:83
 msgid "Change your search criteria!"
@@ -3734,13 +3714,12 @@ msgid "No Fan Art"
 msgstr "Geen fan creaties"
 
 #: View/Layouts/frontend.ctp:135
-#, fuzzy
 msgid "Documentation"
-msgstr "Alle documentatie"
+msgstr "Documentatie"
 
 #: View/Layouts/frontend.ctp:149
 msgid "Sort items by..."
-msgstr ""
+msgstr "Sorteer dingen met..."
 
 #: View/Limits/admin_add.ctp:4
 msgid "Add Limit"
@@ -3777,30 +3756,25 @@ msgid "Delete Limit"
 msgstr "Verwijder limiet"
 
 #: View/Memberships/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Membership"
-msgstr "Deathline lidmaatschap"
+msgstr "Admin lidmaatschap toevoegen"
 
 #: View/Memberships/admin_add.ctp:20 View/Memberships/admin_edit.ctp:22
 #: View/Memberships/admin_view.ctp:51
-#, fuzzy
 msgid "List Memberships"
-msgstr "Betalend lidmaarschap"
+msgstr "Lijst lidmaatschappen"
 
 #: View/Memberships/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Membership"
-msgstr "Admin gebruiker wijzigen"
+msgstr "Admin lidmaatschap wijzigen"
 
 #: View/Memberships/admin_index.ctp:2
-#, fuzzy
 msgid "Memberships"
-msgstr "Gratis lidmaatschap"
+msgstr "Lidmaatschappen"
 
 #: View/Memberships/admin_view.ctp:2
-#, fuzzy
 msgid "Membership"
-msgstr "Gratis lidmaatschap"
+msgstr "Lidmaatschap"
 
 #: View/Memberships/admin_view.ctp:19 View/Memberships/manage.ctp:57
 #: View/Users/bandwidth.ctp:65
@@ -3808,92 +3782,92 @@ msgid "Expires"
 msgstr "Vervalt"
 
 #: View/Memberships/admin_view.ctp:29
-#, fuzzy
 msgid "Plan Id"
-msgstr "Planten"
+msgstr "Plan id"
 
 #: View/Memberships/admin_view.ctp:34
 msgid "Method"
-msgstr ""
+msgstr "Methode"
 
 #: View/Memberships/admin_view.ctp:49
-#, fuzzy
 msgid "Edit Membership"
-msgstr "Deathline lidmaatschap"
+msgstr "Wijzig lidmaatschap"
 
 #: View/Memberships/admin_view.ctp:50
-#, fuzzy
 msgid "Delete Membership"
-msgstr "Deathline lidmaatschap"
+msgstr "Verwijder lidmaatschap"
 
 #: View/Memberships/admin_view.ctp:52
-#, fuzzy
 msgid "New Membership"
-msgstr "Gratis lidmaatschap"
+msgstr "Nieuw lidmaatschap"
 
 #: View/Memberships/manage.ctp:5
-#, fuzzy
 msgid "Manage membership"
-msgstr "Beheer lidmaarschap"
+msgstr "Beheer lidmaatschap"
 
 #: View/Memberships/manage.ctp:8
 msgid "You currently have a %s membership attached to your account"
-msgstr ""
+msgstr "U hebt momenteel %s lidmaatschap gekoppeld aan uw account"
 
 #: View/Memberships/manage.ctp:26
 msgid ""
 "We are waiting for confirmation of your payment on PayPal, sometimes they "
 "take a little longer than expected, don't panic"
 msgstr ""
+"We wachten op bevestiging van uw overschrijving op PayPal, soms duurt het "
+"iets langer dan verwacht, geen paniek"
 
 #: View/Memberships/manage.ctp:33
-#, fuzzy
 msgid "Created on"
-msgstr "Gemaakt"
+msgstr "Gemaakt op"
 
 #: View/Memberships/manage.ctp:39
 msgid ""
 "If you didn't pay for this membership it will be removed from this panel "
 "after one week without payment"
 msgstr ""
+"Als u niet voor dit lidmaatschap hebt betaald zal het worden verwijdert van "
+"dit paneel na één week zonder betalingen"
 
 #: View/Memberships/manage.ctp:42
 msgid ""
 "If you actually paid for this membership, please %s so we can solve the "
 "issue as soon as possible."
 msgstr ""
+"Alstublieft %s als u voor dit lidmaatschap hebt betaald zodat we dit "
+"probleem zo spoedig mogelijk kunnen verhelpen"
 
 #: View/Memberships/manage.ctp:49
 msgid "Last modified on"
-msgstr ""
+msgstr "Laatste verandert op"
 
 #: View/Memberships/manage.ctp:66
-#, fuzzy
 msgid "Remember"
-msgstr "December"
+msgstr "Onthou"
 
 #: View/Memberships/manage.ctp:67
 msgid "Paid memberships are disabled from %s"
-msgstr ""
+msgstr "Betalend lidmaatschappen zijn stopgezet van %s"
 
 #: View/Memberships/manage.ctp:68
 msgid ""
 "Once they are deactivated we will not receive any more payments and your "
 "membership is left to expire"
 msgstr ""
+"Eenmaal ze zijn uitgeschakeld zullen wij geen geld meer ontvangen en zal uw "
+"lidmaatschap op den duur vervallen naar een gratis lidmaatschap"
 
 #: View/Memberships/manage.ctp:69
 msgid "Show me how"
-msgstr ""
+msgstr "Laat me zien"
 
 #: View/Memberships/manage.ctp:74
 msgid "Payments log"
 msgstr ""
 
 #: View/Memberships/manage.ctp:98
-#, fuzzy
 msgid "yes"
-msgstr "Bytes"
+msgstr "ja"
 
 #: View/Memberships/manage.ctp:98
 msgid "no"
@@ -3936,14 +3910,12 @@ msgid "News"
 msgstr "Nieuws"
 
 #: View/News/rss/index.ctp:4
-#, fuzzy
 msgid "News Updates"
-msgstr "Nieuws verwijdert"
+msgstr "Nieuws updates"
 
 #: View/News/rss/index.ctp:6
-#, fuzzy
 msgid "The latest news updates on Blend Swap."
-msgstr "Deze gebruiker bestaat niet op blend swap."
+msgstr "De recentste nieuws updates op Blend Swap."
 
 #: View/Options/admin_add.ctp:4
 msgid "Add Option"
@@ -4064,7 +4036,6 @@ msgid "Delete Profile"
 msgstr "Verwijder profiel"
 
 #: View/Profiles/edit.ctp:52
-#, fuzzy
 msgid "Account Settings"
 msgstr "Account & Instellingen"
 
@@ -4075,13 +4046,12 @@ msgid ""
 msgstr "Met vragen kunt u samen met de gemeenschap uw vaardigheden verbeteren."
 
 #: View/Questions/add.ctp:6
-#, fuzzy
 msgid ""
 "This is not meant to be used for Blend Swap support, we have forms "
 "specifically for %s and %s"
 msgstr ""
 "Het is niet de bedoeling dat dit door Blend Swap ondersteuning word "
-"behandelt, we hebben forums voor"
+"behandelt, we hebben speciale formulieren voor %s en %s"
 
 #: View/Questions/add.ctp:8
 msgid "contact"
@@ -4135,12 +4105,10 @@ msgid "Answer"
 msgstr "Antwoord"
 
 #: View/Questions/rss/index.ctp:4
-#, fuzzy
 msgid "Newest Questions"
-msgstr "Nieuwe vraag"
+msgstr "Nieuwste vragen"
 
 #: View/Questions/rss/index.ctp:6
-#, fuzzy
 msgid "The latest Questions on Blend Swap."
 msgstr "Meest recente vragen op Blend Swap"
 
@@ -4177,100 +4145,103 @@ msgstr "Reden"
 
 #: View/Requests/add.ctp:4
 msgid "Sorry, you will have to share at least one blend"
-msgstr ""
+msgstr "Sorry, u moet minimaal één blend delen"
 
 #: View/Requests/add.ctp:7
 msgid ""
 "Blend Requests have been opened for Swappers only, that is, users who have "
 "shared at least one blend"
 msgstr ""
+"Blend verzoeken kunnen alleen worden gemaakt door Swappers, dat zijn "
+"gebruikers die tenmiste één blend hebben gedeeld"
 
 #: View/Requests/add.ctp:8
 msgid ""
 "This is to thank them for their awesome work, they can create one request a "
 "month"
 msgstr ""
+"Ze kunnen één verzoek per maand maken als bedank voor hun geweldige werk"
 
 #: View/Requests/add.ctp:11
 msgid ""
 "You do not seem to have published blends before, so you can not open Blend "
 "Requests yet"
 msgstr ""
+"U heeft nog geen blends gepubliceerd, daarom is het nog niet toegestaan om "
+"blend verzoeken te openen"
 
 #: View/Requests/add.ctp:12
 msgid ""
 "If this is an error please visit %s to update your blend count and come back "
 "here"
 msgstr ""
+"Als dit fout is ga dan naar %s om uw blend aantal te veranderen en kom dan "
+"hier terug"
 
 #: View/Requests/add.ctp:12
-#, fuzzy
 msgid "your profile"
-msgstr "Mijn profiel"
+msgstr "uw profiel"
 
 #: View/Requests/add.ctp:13
 msgid "If the error persists please %s."
-msgstr ""
+msgstr "Als de fout blijft voordoen, %s."
 
 #: View/Requests/add.ctp:13
-#, fuzzy
 msgid "report it"
-msgstr "Raporteer"
+msgstr "Rapporteren"
 
 #: View/Requests/add.ctp:18
 msgid "Sorry, you opened another Request in the last month"
-msgstr ""
+msgstr "Sorry, u hebt al een ander verzoek geopend in de laatste maand"
 
 #: View/Requests/add.ctp:21
 msgid "You opened the Request \"%s\" on %s..."
-msgstr ""
+msgstr "U opende het verzoek \"%s\" op %s..."
 
 #: View/Requests/add.ctp:22
 msgid ""
 "and being a Free Account user, you are allowed to open only one request per "
 "month"
-msgstr ""
+msgstr "en als een gratis lid kunt u maar één verzoek openen per maand"
 
 #: View/Requests/add.ctp:26
 msgid ""
 "Please try again on %s, when a month has passed since you created \"%s\" And "
 "then you can open a new request"
 msgstr ""
+"Probeer alstublieft opnieuw op %s (Een maand nadat u \"%s\" hebt gemaakt)."
 
 #: View/Requests/add.ctp:30
 msgid ""
 "Or you can %s to an %s to enjoy Unlimited Requests, Unlimited Downloads and "
 "a lot more goodies exclusively for paying members"
 msgstr ""
+"Of u kunt %s naar een %s voor van oneindige downloads, oneindige verzoeken "
+"en veel meer leuke dingen exclusief voor betalende leden"
 
 #: View/Requests/add.ctp:31
-#, fuzzy
 msgid "upgrade"
-msgstr "Opwaarderen"
+msgstr "upgrade"
 
 #: View/Requests/add.ctp:36
-#, fuzzy
 msgid "Upgrade now!"
-msgstr "Opwaarderen"
+msgstr "Upgrade nu!"
 
 #: View/Requests/add.ctp:70
 msgid "Request a Blend"
 msgstr "Verzoek een Blend"
 
 #: View/Requests/add.ctp:114
-#, fuzzy
 msgid "Preview Images"
-msgstr "Pagina bekijken"
+msgstr "Voorbeeld afbeeldingen"
 
 #: View/Requests/add.ctp:118
-#, fuzzy
 msgid "Images"
-msgstr "Afbeelding"
+msgstr "Afbeeldingen"
 
 #: View/Requests/add.ctp:120
-#, fuzzy
 msgid "Recommended: SQUARE, PNG, 1024px wide, objects centered"
-msgstr "PNG, 1024px breed, object gecentreerd"
+msgstr "Aanbevolen: Vierkant, PNG, 1024px breed, object in het midden"
 
 #: View/Requests/admin_add.ctp:4
 msgid "Admin Add Request"
@@ -4305,105 +4276,92 @@ msgid "Requirements"
 msgstr "Eisen"
 
 #: View/Requests/media.ctp:90
-#, fuzzy
 msgid "Upload file"
-msgstr "Upload nieuwe Blend"
+msgstr "Upload bestand"
 
 #: View/Requests/view.ctp:43
 msgid "Weekend Challenge"
-msgstr ""
+msgstr "Weekend uitdaging"
 
 #: View/Requests/view.ctp:74
 msgid "Conflicting requirements can be treated as optional ;)"
-msgstr ""
+msgstr "Conflicterende eisen kunnen als optioneel worden gezien."
 
 #: View/Requests/view.ctp:86
-#, fuzzy
 msgid "Respond"
-msgstr "Gebruikers die een antwoord hebben gegeven"
+msgstr "Antwoorden"
 
 #: View/Requests/view.ctp:90
 msgid "This request was closed by its owner; nobody can answer it anymore."
 msgstr ""
+"Dit verzoek is gesloten door de eigenaar; Niemand kan er meer op antwoorden."
 
 #: View/Requests/view.ctp:183
 msgid ""
 "This request has no responses just yet, can you fulfill it? That would be "
 "awesome!"
 msgstr ""
+"Dit verzoek heeft nog geen reacties, kan jij het vervullen? Dat zou geweldig "
+"zijn!"
 
 #: View/Requests/rss/index.ctp:4
-#, fuzzy
 msgid "Newest Requests"
-msgstr "Nieuw verzoek"
+msgstr "Nieuwste verzoeken"
 
 #: View/Requests/rss/index.ctp:6
-#, fuzzy
 msgid "The latest Requests on Blend Swap."
-msgstr "Meest recente verzoeken op Blend Swap"
+msgstr "Meest recente verzoeken op Blend Swap."
 
 #: View/Terms/_view.ctp:2 View/Terms/admin_view.ctp:2
-#, fuzzy
 msgid "Term"
-msgstr "Term Id"
+msgstr "Term"
 
 #: View/Terms/_view.ctp:9 View/Terms/admin_view.ctp:9
-#, fuzzy
 msgid "Name"
-msgstr "Achternaam"
+msgstr "Naam"
 
 #: View/Terms/_view.ctp:29 View/Terms/admin_view.ctp:29 View/Terms/edit.ctp:4
-#, fuzzy
 msgid "Edit Term"
-msgstr "Gebruiker wijzigen"
+msgstr "Term wijzigen"
 
 #: View/Terms/_view.ctp:30 View/Terms/admin_view.ctp:30
-#, fuzzy
 msgid "Delete Term"
-msgstr "Gebruiker verwijderen"
+msgstr "Term verwijderen"
 
-# A list of what kind of items?
 #: View/Terms/_view.ctp:31 View/Terms/add.ctp:17 View/Terms/admin_add.ctp:18
 #: View/Terms/admin_edit.ctp:20 View/Terms/admin_view.ctp:31
 #: View/Terms/edit.ctp:19
-#, fuzzy
 msgid "List Terms"
-msgstr "Dingen weergeven"
+msgstr "Terms weergeven"
 
 #: View/Terms/_view.ctp:32 View/Terms/admin_index.ctp:15
 #: View/Terms/admin_view.ctp:32 View/Terms/index.ctp:44
-#, fuzzy
 msgid "New Term"
-msgstr "Nieuw ding"
+msgstr "Nieuwe term"
 
 #: View/Terms/add.ctp:4
-#, fuzzy
 msgid "Add Term"
-msgstr "Voeg sleutel toe"
+msgstr "Voeg term toe"
 
 #: View/Terms/admin_add.ctp:4
-#, fuzzy
 msgid "Admin Add Term"
-msgstr "Admin gebruiker toevoegen"
+msgstr "Admin tem toevoegen"
 
 #: View/Terms/admin_edit.ctp:4
-#, fuzzy
 msgid "Admin Edit Term"
-msgstr "Admin gebruiker wijzigen"
+msgstr "Admin term wijzigen"
 
 #: View/Terms/index.ctp:2
-#, fuzzy
 msgid "Terms"
-msgstr "Term Id"
+msgstr ""
 
 #: View/Terms/rss/category.ctp:4
-#, fuzzy
 msgid "Newest Blends under \"%s\""
-msgstr "Gemaakt met Blender %s"
+msgstr "Nieuwste blends onder \"%s\""
 
 #: View/Terms/rss/category.ctp:6
 msgid "The latest blends on Blend Swap under the \"%s\" category."
-msgstr ""
+msgstr "De nieuwste blends op Blend Swap onder de  \"%s\" categorie."
 
 #: View/Users/account.ctp:4 View/Users/admin_view.ctp:231
 msgid "Edit User"
@@ -4411,7 +4369,7 @@ msgstr "Gebruiker wijzigen"
 
 #: View/Users/add.ctp:181
 msgid "I have read and agree with the %s"
-msgstr ""
+msgstr "Ik heb %s gelezen en ben het ermee eens"
 
 #: View/Users/add.ctp:185
 msgid "Sign me up!"
@@ -4452,11 +4410,12 @@ msgstr "U heeft oneindig bandbreedte! U kunt dit negeren."
 #: View/Users/bandwidth.ctp:10
 msgid "You can get unlimited downloads and a bunch of other features if you %s"
 msgstr ""
+"U kunt ongelimiteerde bandbreedte krijgen en een boel andere voordelen als "
+"je %s"
 
 #: View/Users/bandwidth.ctp:10
-#, fuzzy
 msgid "upgrade now!"
-msgstr "Opwaarderen"
+msgstr "Upgrade nu!"
 
 #: View/Users/bandwidth.ctp:14
 msgid "Learn how bandwidth is assigned"
@@ -4464,24 +4423,23 @@ msgstr "Leer hoe bandbreedte is toegekend"
 
 #: View/Users/bandwidth.ctp:21
 msgid "Persistent awarded bandwidth"
-msgstr ""
+msgstr "Persistente beloonde bandbreedte"
 
 #: View/Users/bandwidth.ctp:27
 msgid "This is bandwidth you have earned by completing %s or %s"
-msgstr ""
+msgstr "Dit is de bandbreedte dat je hebt verdient voor %s of %s"
 
 #: View/Users/bandwidth.ctp:31
 msgid "This bandwidth does not expire until you use it all."
-msgstr ""
+msgstr "Deze bandbreedte vervalt niet tot je het allemaal verbruikt."
 
 #: View/Users/bandwidth.ctp:35
-#, fuzzy
 msgid "Extra bandwidth"
-msgstr "Bandbreedte"
+msgstr "Extra bandbreedte"
 
 #: View/Users/bandwidth.ctp:54;58
 msgid "Megabytes"
-msgstr ""
+msgstr "Megabytes"
 
 #: View/Users/bandwidth.ctp:61
 msgid "Initialized"
@@ -4577,22 +4535,26 @@ msgstr "Betalend lid"
 
 #: View/Users/edit.ctp:82 View/Users/portfolio.ctp:10
 msgid "For Hire"
-msgstr ""
+msgstr "Te huur"
 
 #: View/Users/edit.ctp:85
 msgid ""
 "%s can mark themselves as available for work on their profiles and comments"
 msgstr ""
+"%s kunnen aangeven dat ze beschikbaar zijn voor werk op hun profiel & "
+"reacties"
 
 #: View/Users/edit.ctp:90
 msgid ""
 "As an Associate Member you can promote your availability for serious work. "
 "If you woud like to do so, check this:"
 msgstr ""
+"Als een betalend lid kan je jezelf aanbieden voor serieus werk. Als je dit "
+"wilt doen moet u dit aan-checken:"
 
 #: View/Users/edit.ctp:95
 msgid "and select up to four skills where you are most proficient"
-msgstr ""
+msgstr "en selecteer tot vier vaardigheden waar je het beste in bent"
 
 #: View/Users/edit.ctp:107
 msgid "More Settings"
@@ -4604,16 +4566,15 @@ msgstr "Voorkeur taal"
 
 #: View/Users/edit.ctp:130
 msgid "Would you like to help translating Blend Swap to your language?"
-msgstr ""
+msgstr "Wilt u helpen om Blend Swap naar uw taal te vertalen?"
 
 #: View/Users/edit.ctp:131
 msgid "We have set up a %s to let you do exactly that. Fork us and help now!"
-msgstr ""
+msgstr "We hebben een %s opgezet om precies dat te doen. Fork ons en help nu!"
 
 #: View/Users/edit.ctp:137
-#, fuzzy
 msgid "can set the amount of Blends per index page up to 48"
-msgstr "kan 60 Blends per index pagina weergeven"
+msgstr "kan tot 48 Blends per index pagina weergeven"
 
 #: View/Users/edit.ctp:143;144
 msgid "blends per page"
@@ -4624,37 +4585,33 @@ msgid "default"
 msgstr "standaart"
 
 #: View/Users/edit.ctp:146
-#, fuzzy
 msgid "Blends per index page"
-msgstr "blends per pagina"
+msgstr "Blends per index pagina"
 
 #: View/Users/edit.ctp:172
-#, fuzzy
 msgid "Account status"
-msgstr "Account & Instellingen"
+msgstr "Account status"
 
 #: View/Users/edit.ctp:181
-#, fuzzy
 msgid "Freeze your account"
-msgstr "Gratis account"
+msgstr "Bevries uw account"
 
 #: View/Users/edit.ctp:183
 msgid "Deactivating your acount takes a couple of clicks"
 msgstr ""
+"Het de-activeren van uw account neemt een aantal muis-klikken in beslag"
 
 #: View/Users/forhire.ctp:10 View/Users/index.ctp:27;62
 msgid "points"
 msgstr "punten"
 
 #: View/Users/forhire.ctp:11
-#, fuzzy
 msgid "blends"
-msgstr "Blends"
+msgstr "blends"
 
 #: View/Users/forhire.ctp:24
-#, fuzzy
 msgid "This user has not set their skills yet..."
-msgstr "Deze gebruiker heeft nog geen badge verdient..."
+msgstr "Deze gebruiker heeft zijn vaardigheden nog niet ingevuld."
 
 #: View/Users/forhire.ctp:35
 msgid ""
@@ -4665,51 +4622,63 @@ msgstr ""
 
 #: View/Users/forhire.ctp:51
 msgid "Sorry, there are no Artists for hire right now..."
-msgstr ""
+msgstr "Sorry, er zijn geen artieste te huur op dit moment..."
 
 #: View/Users/freeze.ctp:9
 msgid ""
 "It is now possible for you to freeze your account, but before you continue "
 "please bear in mind that:"
 msgstr ""
+"Het is nu mogelijk om uw account te bevriezen, maar voordat u verder gaat "
+"neem het volgende op:"
 
 #: View/Users/freeze.ctp:11
 msgid "Your account will NOT be completely deleted"
-msgstr ""
+msgstr "Uw account zal NIET volledig worden verwijdert"
 
 #: View/Users/freeze.ctp:13
 msgid "This is because of a coupe of reasons"
-msgstr ""
+msgstr "Dit is zo voor enkele redenen"
 
 #: View/Users/freeze.ctp:17
 msgid ""
 "If you would like to reactivate your account in the future, you will be able "
 "to do it and pick it up pretty much where you left"
 msgstr ""
+"Als u uw account wilt her-activeren in de toekomst dan is dit mogelijk en "
+"kunt u gewoon verder waar u was gebleven"
 
 #: View/Users/freeze.ctp:20
 msgid ""
 "If we deleted your account your username would become instantly available "
 "for anyone else to use"
 msgstr ""
+"Als we uw account verwijderen zult uw gebruikersnaam onmiddellijk "
+"beschikbaar zijn voor iemand anders"
 
 #: View/Users/freeze.ctp:23
 msgid ""
 "We do not like gaps in our database and we reserve the right to archive your "
 "account in a frozen state for as long as we please"
 msgstr ""
+"We houden niet van gaten in onze database en hebben het recht om uw account "
+"in een bevroren staat te bewaren voor zolang we willen"
 
 #: View/Users/freeze.ctp:26
 msgid ""
 "Your Blends, Requests, Questions, and Collections will also be frozen and "
 "will not be publicly available"
 msgstr ""
+"Uw blends, verzoeken, vragen, en collecties worden bevroren en zullen niet "
+"meer publiekelijk zichtbaar zijn"
 
 #: View/Users/freeze.ctp:31
 msgid ""
 "If you are not ok with these dispositions please %s so we can evaluate your "
 "particular case before complete deletion of your data"
 msgstr ""
+"Als u niet eens bent met deze voorwaarden, %s zodat we uw situatie kunnen "
+"evalueren voor de complete verwijdering van al uw data"
 
 #: View/Users/freeze.ctp:35
 msgid ""
@@ -4717,23 +4686,26 @@ msgid ""
 "dispositions above and that you understand them and agree to freeze your own "
 "account"
 msgstr ""
+"Door het drukken van de knop hier beneden geeft u aan dat u de tekst "
+"hierboven snapt en er mee eens bent om uw account te bevriezen"
 
 #: View/Users/freeze.ctp:38
 msgid ""
 "When this process ends your password will be changed (you will not be able "
 "to log in) and you will be logged out of the site"
 msgstr ""
+"Wanneer dit proces eindigt zal uw paswoord zijn verandert (u kunt niet meer "
+"inloggen met het oude paswoord) en u zult worden uitgelogd."
 
 #: View/Users/freeze.ctp:39
 msgid ""
 "You can recover your frozen account by resetting your password which will "
 "reactivate your account"
-msgstr ""
+msgstr "U kunt uw bevroren account herstellen door uw paswoord te resetten."
 
 #: View/Users/freeze.ctp:43
-#, fuzzy
 msgid "Freeze My Account"
-msgstr "Gratis account"
+msgstr "Bevries mijn account"
 
 #: View/Users/index.ctp:7
 msgid "Top Uploaders"
@@ -4749,7 +4721,7 @@ msgstr ""
 
 #: View/Users/index.ctp:47
 msgid "Top Voted"
-msgstr ""
+msgstr "Meeste stemmen"
 
 #: View/Users/index.ctp:49
 msgid ""
@@ -4760,7 +4732,7 @@ msgstr ""
 
 #: View/Users/index.ctp:73
 msgid "Recently Swapped"
-msgstr ""
+msgstr "Recent uitgewisseld"
 
 #: View/Users/index.ctp:75
 msgid "These artists have recently swapped blends"
@@ -4781,20 +4753,19 @@ msgstr "Paswoord vergeten?"
 #: View/Users/portfolio.ctp:11
 msgid ""
 "Your public portfolio is meant to showcase your best renders and artwork"
-msgstr ""
+msgstr "Uw publieke profiel is bedoelt om uw beste werk werk te laten zien"
 
 #: View/Users/portfolio.ctp:12
 msgid "Combine it with the %s badge and promote yourself for serious work"
-msgstr ""
+msgstr "Combineer het met de %s badge en bied uzelf aan voor serieus werk"
 
 #: View/Users/portfolio.ctp:15
 msgid "Recommended size: 1024px by 640px (16/10)"
-msgstr ""
+msgstr "Aangeraden grootte: 1024px bij 640px (16/10)."
 
 #: View/Users/portfolio.ctp:68
-#, fuzzy
 msgid "Add a new render"
-msgstr "Upload nieuwe Blend"
+msgstr "Voeg nieuwe render toe"
 
 #: View/Users/username.ctp:7
 msgid "Change your username"
