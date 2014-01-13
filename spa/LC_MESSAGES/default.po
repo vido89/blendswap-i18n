@@ -3186,7 +3186,7 @@ msgstr "Encargos"
 
 #: View/Elements/menus/topMenu.ctp:157
 msgid "New Request"
-msgstr "Crear Nuevo Encargo"
+msgstr "Nuevo Encargo"
 
 #: View/Elements/menus/topMenu.ctp:159;211
 msgid "%s Main Index"
@@ -3227,7 +3227,7 @@ msgstr "Encargos cerrados a nuevas respuestas"
 #: View/Elements/menus/topMenu.ctp:202 View/Questions/admin_index.ctp:48
 #: View/Questions/admin_view.ctp:42
 msgid "New Question"
-msgstr "Crear Nueva Pregunta"
+msgstr "Nueva Pregunta"
 
 #: View/Elements/menus/topMenu.ctp:204
 msgid "Create a new Question"
@@ -4114,7 +4114,7 @@ msgstr "Listar Reportes"
 #: View/Reports/admin_edit.ctp:4 View/Reports/admin_view.ctp:55
 #: View/Reports/view.ctp:39
 msgid "Edit Report"
-msgstr "Editar Reportes"
+msgstr "Editar Reporte"
 
 #: View/Reports/admin_index.ctp:2
 msgid "Reports"
@@ -4123,7 +4123,7 @@ msgstr "Reportes"
 #: View/Reports/admin_index.ctp:64 View/Reports/admin_view.ctp:58
 #: View/Reports/view.ctp:42
 msgid "New Report"
-msgstr "Nuevo reporte"
+msgstr "Nuevo Reporte"
 
 #: View/Reports/admin_view.ctp:56 View/Reports/view.ctp:40
 msgid "Delete Report"
