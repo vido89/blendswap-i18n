@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-01-14 18:22-0600\n"
+"POT-Creation-Date: 2014-01-14 18:31-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -3361,20 +3361,20 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:280
-msgid "Help and documentation"
+#: View/Elements/menus/topMenu.ctp:280;291
+msgid "Get help"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:283;289
-msgid "All Documentation"
+#: View/Elements/menus/topMenu.ctp:283
+msgid "Get Help"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:285
 msgid "All site documentation"
 msgstr ""
 
-#: View/Elements/menus/topMenu.ctp:291
-msgid "Get help"
+#: View/Elements/menus/topMenu.ctp:289
+msgid "All Documentation"
 msgstr ""
 
 #: View/Elements/menus/topMenu.ctp:297
@@ -4180,7 +4180,11 @@ msgid "If you get the 404 error: go back in your browser and RELOAD the page by 
 msgstr ""
 
 #: View/Pages/gethelp.ctp:88
-msgid "If the problem persists, your Internet conenctivity may be too slow for the upload to finish in less than 30 minutes, consider uploading from an Internet café or a friend's place"
+msgid "If the problem persists, your Internet conenctivity may be too slow for the upload to finish in less than 30 minutes, "
+msgstr ""
+
+#: View/Pages/gethelp.ctp:88
+msgid "consider uploading from an Internet café or a friend's place"
 msgstr ""
 
 #: View/Pages/gethelp.ctp:95

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-14 18:25-0600\n"
+"PO-Revision-Date: 2014-01-14 18:31-0600\n"
 "Last-Translator: Jonathan Acosta <jonathan@blendswap.com>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: es_ES\n"
@@ -3126,21 +3126,21 @@ msgstr "Buscar Blends"
 msgid "Search"
 msgstr "Buscar"
 
-#: View/Elements/menus/topMenu.ctp:280
-msgid "Help and documentation"
-msgstr "Ayuda y documentación"
+#: View/Elements/menus/topMenu.ctp:280;291
+msgid "Get help"
+msgstr "Consigue Ayuda"
 
-#: View/Elements/menus/topMenu.ctp:283;289
-msgid "All Documentation"
-msgstr "Toda la documentación"
+#: View/Elements/menus/topMenu.ctp:283
+msgid "Get Help"
+msgstr "Consigue Ayuda"
 
 #: View/Elements/menus/topMenu.ctp:285
 msgid "All site documentation"
 msgstr "Toda la documentación del sitio"
 
-#: View/Elements/menus/topMenu.ctp:291
-msgid "Get help"
-msgstr "Consigue Ayuda"
+#: View/Elements/menus/topMenu.ctp:289
+msgid "All Documentation"
+msgstr "Toda la documentación"
 
 #: View/Elements/menus/topMenu.ctp:297
 msgid "Known issues"
@@ -3993,12 +3993,14 @@ msgstr ""
 #: View/Pages/gethelp.ctp:88
 msgid ""
 "If the problem persists, your Internet conenctivity may be too slow for the "
-"upload to finish in less than 30 minutes, consider uploading from an "
-"Internet caf or a friend's place"
+"upload to finish in less than 30 minutes, "
 msgstr ""
 "Si el problema persiste, es posible que tu conexión de internet sea "
-"demasiado lenta para que la transacción se complete, considera subir tu "
-"blend desde un café Internet o la casa de un amigo "
+"demasiado lenta para que la transacción se complete, "
+
+#: View/Pages/gethelp.ctp:88
+msgid "consider uploading from an Internet caf or a friend's place"
+msgstr "considera subir tu blend desde un café Internet o la casa de un amigo "
 
 #: View/Pages/gethelp.ctp:95
 msgid "Blend Swap says \"the request was blackholed\""
@@ -5133,6 +5135,9 @@ msgstr "Este Usuario aun no ha ganado ninguna Medalla"
 #: View/Users/view.ctp:170
 msgid "You should set up your skills from the profile edit panel"
 msgstr "Deberías seleccionar tus habilidades en el panel de edición de perfil"
+
+#~ msgid "Help and documentation"
+#~ msgstr "Ayuda y documentación"
 
 #~ msgid ""
 #~ "The question will be marked as ANSWERED.\n"
