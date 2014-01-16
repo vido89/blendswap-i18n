@@ -1352,8 +1352,7 @@ msgid ""
 "The Weekend Challenge %s is in progress right now! Can you complete it "
 "before Monday?"
 msgstr ""
-"¡El Reto de Fin de Semana %s está en progreso ahora! ¿Puedes completarlo "
-"antes de Lunes?"
+"¡El Reto de Fin de Semana %s está en progreso ahora!"
 
 #: View/App/home.ctp:20 View/Events/home.ctp:20
 msgid "by"
