@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-11-05 14:02-0600\n"
-"PO-Revision-Date: 2013-11-06 14:13+0100\n"
+"POT-Creation-Date: 2014-01-02 19:31-0600\n"
+"PO-Revision-Date: 2014-01-04 11:59+0100\n"
 "Last-Translator: Benny <Benny@GMX.it>\n"
 "Language-Team: Blend Swap Translators <support@blendswap.com>\n"
 "Language: nl\n"
@@ -76,7 +76,7 @@ msgstr "Kies tot maximaal 4 categorieën."
 
 #: Model/Blend.php:validation for field categories
 msgid "Invalid taxonomiy input."
-msgstr ""
+msgstr "Ongeldige taxonomiy invoer."
 
 #: Model/Blend.php:validation for field change_log
 msgid "Please tell us what you changed in the data or the files."
@@ -87,6 +87,11 @@ msgstr "Vertel ons alstublieft wat u in de data of bestanden hebt verandert."
 #: Model/Request.php:validation Model/User.php:validation
 msgid "empty"
 msgstr "leeg"
+
+#: Model/Blend.php:validation for field fan_art Model/Report.php:validation
+#: reason
+msgid "You must choose an option."
+msgstr "U moet een optie kiezen."
 
 #: Model/Collection.php:validation for field name
 msgid "The collection Must have a name"
@@ -189,10 +194,6 @@ msgstr ""
 "label hebben."
 
 #: Model/Report.php:validation for field reason
-msgid "You must choose an option."
-msgstr "U moet een optie kiezen."
-
-#: Model/Report.php:validation for field reason
 msgid "The reason contains invalid characters"
 msgstr "De reden bevat ongeldige karakters."
 
@@ -223,8 +224,8 @@ msgid "alphanumeric"
 msgstr "alfanumeriek"
 
 #: Model/Term.php:validation for field slug
-msgid "isUnique"
-msgstr ""
+msgid "unique"
+msgstr "uniek"
 
 #: Model/Term.php:validation for field slug
 msgid "validChars"
@@ -233,6 +234,10 @@ msgstr ""
 #: Model/Term.php:validation for field slug
 msgid "between"
 msgstr "tussen"
+
+#: Model/Termrel.php:validation for field term_id
+msgid "value"
+msgstr ""
 
 #: Model/User.php:validation for field username
 msgid "Only letters and numbers please."
@@ -266,8 +271,12 @@ msgstr ""
 "adres?"
 
 #: Model/User.php:validation for field email
-msgid "This email is not allowed. You must use a real email adress."
-msgstr "Dit e-mail adres is niet toegestaan. Gebruik een echt e-mail adres."
+msgid ""
+"This email is not allowed because Blend Swap's automated emails are not "
+"received by this domain/server."
+msgstr ""
+"Dit email adres is niet toegestaan omdat Blend Swap's automatische e-mails "
+"niet worden ontvangen door deze domein/server."
 
 #: Model/User.php:validation for field password
 msgid "Must be between 8 and 128 characters long"
@@ -284,3 +293,6 @@ msgstr "U moet onze gebruiksvoorwaarden accepteren!"
 #: Model/User.php:validation for field bpp
 msgid "Invalid value type"
 msgstr "Ongeldige type waarde"
+
+#~ msgid "This email is not allowed. You must use a real email adress."
+#~ msgstr "Dit e-mail adres is niet toegestaan. Gebruik een echt e-mail adres."
