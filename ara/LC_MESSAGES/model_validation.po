@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blend Swap Translation 0.1\n"
-"POT-Creation-Date: 2013-12-28 14:45-0600\n"
-"PO-Revision-Date: 2013-12-30 13:40+0200\n"
+"POT-Creation-Date: 2014-02-17 10:44-0600\n"
+"PO-Revision-Date: 2014-02-22 11:20+0200\n"
 "Last-Translator: Muhammad Khaled <khalidsrri@gmail.com>\n"
 "Language-Team: Blend Swap Translators <khalidsrri@gmail.com>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"X-Generator: Poedit 1.6.2\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: Model/Blend.php:validation for field title
@@ -65,8 +65,8 @@ msgstr ""
 "لاتنسى الفاصلة !"
 
 #: Model/Blend.php:validation for field tags
-msgid "Those are not tags, write valid, comma separated tags!"
-msgstr "هذه العلامات غير صالحة , إكتر علامات صالحة و فرق بينها بفاصلة !"
+msgid "Those are not tags, enter two or more tags separated by commas."
+msgstr "هذه ليست علامات , إكتب  علامتين أو أكثر و فرق بينها بفاصلة !"
 
 #: Model/Blend.php:validation for field categories
 #: Model/Request.php:validation requirements
@@ -81,9 +81,9 @@ msgstr "الفئات المدخلة غير صالحة"
 msgid "Please tell us what you changed in the data or the files."
 msgstr "الرجاء إخبارنا عن التغييرات التي أجريتها ."
 
-#: Model/Blend.php:validation for field hello Model/Message.php:validation
-#: Model/Profile.php:validation Model/Report.php:validation
-#: Model/Request.php:validation Model/User.php:validation
+#: Model/Blend.php:validation for field hello Model/Profile.php:validation
+#: Model/Report.php:validation Model/Request.php:validation
+#: Model/User.php:validation
 msgid "empty"
 msgstr "فارغ"
 
@@ -166,7 +166,7 @@ msgid "This does not look like an URL"
 msgstr "لا يبدو بإنه رابط "
 
 #: Model/Profile.php:validation for field description
-msgid "The bio must be between 24 and 1024 characters long"
+msgid "The bio must be between 24 and 512 characters long"
 msgstr "السيرة الذاتية يجب أن يكون طولها بين 24 و 1024 حرف"
 
 #: Model/Question.php:validation for field body
@@ -272,8 +272,8 @@ msgstr ""
 "هذا السيرفر."
 
 #: Model/User.php:validation for field password
-msgid "Must be between 8 and 128 characters long"
-msgstr "يجب أن يكون طوله بين 8 و 128"
+msgid "Must be between 8 and 1024 characters long"
+msgstr "يجب أن تكون بين 8 و 1024 حرف"
 
 #: Model/User.php:validation for field first_name;validation last_name
 msgid "Must be 2 letters or more."
