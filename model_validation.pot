@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-12-11 17:17-0600\n"
+"POT-Creation-Date: 2014-02-17 10:44-0600\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -59,7 +59,7 @@ msgid "Tags help others find your blend. Use at least one tag and don't forget t
 msgstr ""
 
 #: Model/Blend.php:validation for field tags
-msgid "Those are not tags, write valid, comma separated tags!"
+msgid "Those are not tags, enter two or more tags separated by commas."
 msgstr ""
 
 #: Model/Blend.php:validation for field categories
@@ -76,7 +76,6 @@ msgid "Please tell us what you changed in the data or the files."
 msgstr ""
 
 #: Model/Blend.php:validation for field hello
-#: Model/Message.php:validation for field hello
 #: Model/Profile.php:validation for field hello
 #: Model/Report.php:validation for field hello
 #: Model/Request.php:validation for field hello
@@ -159,7 +158,7 @@ msgid "This does not look like an URL"
 msgstr ""
 
 #: Model/Profile.php:validation for field description
-msgid "The bio must be between 24 and 1024 characters long"
+msgid "The bio must be between 24 and 512 characters long"
 msgstr ""
 
 #: Model/Question.php:validation for field body
@@ -256,7 +255,7 @@ msgid "This email is not allowed because Blend Swap's automated emails are not r
 msgstr ""
 
 #: Model/User.php:validation for field password
-msgid "Must be between 8 and 128 characters long"
+msgid "Must be between 8 and 1024 characters long"
 msgstr ""
 
 #: Model/User.php:validation for field first_name;validation for field last_name
